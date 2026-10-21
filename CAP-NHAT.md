@@ -28,3 +28,7 @@ Không nằm trong repo. Sửa trên Cloudflare: app → Settings → Variables 
 ## Bản dùng thử (không đăng nhập)
 - Nằm trong `demo/` (app riêng trên Cloudflare, tên `jft-dungthu`, Root directory = `demo`).
 - Dựng lại sau khi cập nhật bản chính: `python3 src/build_demo.py` (初級1 Bài 1–2, Đề 01–02, ngữ pháp 初級1 Bài 1–2, kỹ năng 初級1 Bài 2–3, từ vựng 初級1 Bài 1–2).
+
+## Bài tập về nhà (tab "Bài tập về nhà")
+- File làm bài: `public/btvn/BTVN_BuoiXX.html` · bản in: `public/btvn/pdf/BTVN_BuoiXX.pdf` · danh sách: `public/app/data/hw.js`.
+- Nguồn dựng: `src/btvn/` (`extract.py` lấy 漢字のことば + script từ web bài học, `gen_btvn.py` sinh câu hỏi, `render.py` xuất HTML/PDF).

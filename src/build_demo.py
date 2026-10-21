@@ -24,6 +24,11 @@ for w in json.loads(load('vocab.js'))['words']:
     l = [x for x in w['l'] if x[0] == '初級1' and x[1] in (1, 2)]
     if l: W.append({**w, 'l': l})
 save('vocab.js', 'VOCAB', {'words': W})
+H = json.loads(load('hw.js'))[:2]
+save('hw.js', 'HW', H)
+os.makedirs(D + 'btvn/pdf', exist_ok=True)
+for h in H:
+    shutil.copy(P + h['html'], D + h['html']); shutil.copy(P + h['pdf'], D + h['pdf'])
 # media chỉ những file dùng trong dữ liệu thử
 blob = ''.join(open(D + 'app/data/' + f, encoding='utf-8').read() for f in os.listdir(D + 'app/data'))
 n = 0
@@ -34,7 +39,7 @@ for root, _, fs in os.walk(P + 'app/media'):
             os.makedirs(os.path.dirname(D + rel), exist_ok=True); shutil.copy(P + rel, D + rel); n += 1
 s = open(P + 'index.html', encoding='utf-8').read()
 reps = [("$('#logout').onclick=()=>{location.href='/logout'};", "$('#logout').style.display='none';"),
-        ('<main>', '<main><div style="background:#fff3b0;border:1px solid #f1c48b;color:#5a4300;border-radius:12px;padding:10px 14px;margin:0 0 14px;font-size:14px"><b>BẢN DÙNG THỬ</b> · Mỗi phần mở 2 mục (2 bài học, 2 đề, 2 bài ngữ pháp, 2 bài kỹ năng, từ vựng 2 bài). Liên hệ <b>Anh Trọng Dạy JFT</b> để học bản đầy đủ: 42 bài, 20 đề, 3.800+ từ.</div>'),
+        ('<main>', '<main><div style="background:#fff3b0;border:1px solid #f1c48b;color:#5a4300;border-radius:12px;padding:10px 14px;margin:0 0 14px;font-size:14px"><b>BẢN DÙNG THỬ</b> · Mỗi phần mở 2 mục (2 bài học, 2 đề, 2 bài ngữ pháp, 2 bài kỹ năng, từ vựng 2 bài, 2 buổi bài tập về nhà). Liên hệ <b>Anh Trọng Dạy JFT</b> để học bản đầy đủ: 42 bài, 20 đề, 3.800+ từ.</div>'),
         ('<title>', '<title>Dùng thử · ')]
 for a, b in reps:
     assert s.count(a) >= 1, a; s = s.replace(a, b, 1)

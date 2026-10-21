@@ -1,0 +1,119 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>BTVN Buổi 20 · Hội thoại và cách diễn đạt</title><style>
+:root{--ink:#17222c;--muted:#5d6b77;--line:#d9e0e6;--soft:#f3f6f8;--navy:#0d4f7c;--acc:#c42f66;--ok:#1d7a4b;--ok-s:#e3f3ea;--ng:#b3261e;--ng-s:#fbe9e7;--bg:#eef2f5;--card:#fff}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--ink:#e6edf2;--muted:#9aa9b4;--line:#2c3945;--soft:#1b2630;--navy:#7bb8e3;--acc:#f07aa4;--ok:#6fd09c;--ok-s:#173226;--ng:#ff8a7a;--ng-s:#3a1d19;--bg:#10171d;--card:#17212a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Be Vietnam Pro","BVP","Segoe UI",system-ui,-apple-system,sans-serif;font-size:16px;line-height:1.55}
+.jp,.jpq,.opt.jp{font-family:"Hiragino Kaku Gothic ProN","Yu Gothic","Noto Sans JP","Noto Sans CJK JP",Meiryo,sans-serif}
+ruby{ruby-position:over}rt{font-size:.55em;color:var(--muted)}
+body.nofuri rt{visibility:hidden}
+.wrap{max-width:860px;margin:0 auto;padding:20px 16px 80px}
+header.top{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.logo{width:40px;height:40px;border-radius:10px;background:var(--acc);color:#fff;display:grid;place-items:center;font-weight:700;flex:none}
+header.top b{display:block}header.top small{color:var(--muted)}
+.hero{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 22px;margin-bottom:16px}
+.hero .k{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.hero h1{margin:6px 0 2px;font-size:28px;line-height:1.25}
+.hero h1 .jp{font-weight:600;margin-right:10px}
+.hero .sub{color:var(--muted);font-size:14px}
+.hero .meta{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px;align-items:center}
+.hero input{border:1px solid var(--line);border-radius:10px;padding:9px 12px;font:inherit;background:var(--soft);color:var(--ink);min-width:220px}
+.btn{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:10px;padding:9px 14px;font:inherit;font-weight:600;cursor:pointer}
+.btn.pri{background:var(--navy);border-color:var(--navy);color:#fff}
+.sec{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin-bottom:16px}
+.sec h2{font-size:19px;margin:0}
+.sec h2 .jp{font-size:14px;color:var(--muted);font-weight:500;margin-left:8px}
+.sec .ins{color:var(--muted);font-size:14px;margin:4px 0 10px}
+.sec .ins .jp{display:block;font-size:13px}
+.it{border-top:1px solid var(--line);padding:12px 0}
+.it .qh{display:flex;gap:10px}
+.it .n{flex:none;min-width:30px;height:26px;border-radius:7px;background:var(--soft);display:grid;place-items:center;font-weight:700;font-size:13px;color:var(--navy)}
+.it .q{font-size:18px;line-height:1.9}
+.it .q u{text-decoration:none;border-bottom:2px solid var(--ink)}
+.it .q .kana{font-size:20px}.it .q .hint{color:var(--muted);font-size:14px;margin-left:6px;font-family:"Be Vietnam Pro",system-ui,sans-serif}
+.it .sins{font-size:13px;color:var(--muted);margin-bottom:2px}
+.it img.qi{display:block;max-width:260px;max-height:180px;margin:6px 0;border-radius:8px;border:1px solid var(--line)}
+.opts{display:grid;gap:8px;margin:8px 0 0 40px}
+.opts.cols{grid-template-columns:repeat(auto-fill,minmax(180px,1fr))}
+.opt{display:flex;gap:10px;align-items:flex-start;border:1px solid var(--line);border-radius:10px;padding:9px 12px;cursor:pointer;background:var(--card);font-size:16px;line-height:1.7;text-align:left;color:var(--ink);font-family:inherit}
+.opt .l{flex:none;width:22px;height:22px;border-radius:50%;border:1.5px solid var(--muted);display:grid;place-items:center;font-size:12px;font-weight:700;margin-top:3px;font-family:"Be Vietnam Pro",system-ui,sans-serif}
+.opt.sel{border-color:var(--navy);box-shadow:0 0 0 1px var(--navy) inset}.opt.sel .l{background:var(--navy);border-color:var(--navy);color:#fff}
+.opt.right{border-color:var(--ok);background:var(--ok-s)}.opt.wrong{border-color:var(--ng);background:var(--ng-s)}
+.fill{margin:8px 0 0 40px}
+.fill input,.fill textarea{width:100%;max-width:520px;border:1px solid var(--line);border-radius:10px;padding:9px 12px;font:inherit;font-size:17px;background:var(--soft);color:var(--ink)}
+.fill textarea{min-height:64px}
+.fill input.right{border-color:var(--ok);background:var(--ok-s)}.fill input.wrong{border-color:var(--ng);background:var(--ng-s)}
+.fb{margin:8px 0 0 40px;font-size:14px;color:var(--muted);display:none}
+.done .fb{display:block}
+.fb b{color:var(--ink)}
+.model{display:none;margin:8px 0 0 40px;padding:8px 12px;border-radius:10px;background:var(--soft);font-size:17px}
+.model.on{display:block}
+.chk{display:flex;gap:10px;align-items:flex-start;padding:8px 0;border-top:1px solid var(--line);cursor:pointer}
+.chk input{width:18px;height:18px;margin-top:3px}
+.bar{position:sticky;bottom:0;background:var(--card);border-top:1px solid var(--line);padding:10px 16px;display:flex;gap:10px;align-items:center;justify-content:center;flex-wrap:wrap;z-index:5}
+.score{font-weight:700}
+.res{display:none;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin-bottom:16px}
+.res.on{display:block}.res .big{font-size:40px;font-weight:800;color:var(--navy)}
+.res table{border-collapse:collapse;width:100%;margin-top:8px;font-size:14px}.res td{border-top:1px solid var(--line);padding:6px 0}.res td:last-child{text-align:right;font-weight:600}
+footer{color:var(--muted);font-size:12px;margin-top:20px}
+@media (max-width:600px){.opts,.fill,.fb,.model{margin-left:0}.hero h1{font-size:23px}.it .q{font-size:17px}}
+</style></head>
+<body class=""><div class="wrap"><header class="top"><span class="logo">AT</span><div><b>Anh Trọng Dạy JFT</b><small>Bài tập về nhà · Giáo trình いろどり</small></div></header>
+<div class="hero"><div class="k">Buổi 20 · Luyện đề · 初級1–2</div><h1><span class="jp">会話と表現</span>Hội thoại và cách diễn đạt</h1><div class="sub jp">Tổng ôn mẫu câu giao tiếp 初級1–2</div>
+<div class="meta"><input id="nm" placeholder="Họ tên học viên" aria-label="Họ tên học viên"><button class="btn" id="fu" type="button">ふりがな: Bật</button><button class="btn" id="pr" type="button">In</button><span id="prog" style="color:var(--muted);font-size:14px"></span></div></div>
+<div class="res" id="res" aria-live="polite"></div><div id="body"></div><footer>© 2026 Anh Trọng Dạy JFT · 出典：国際交流基金「いろどり 生活の日本語」（ことば・漢字のことば・文法ワークシート・聴解スクリプト）。Câu trắc nghiệm kiểu JFT, câu nhiễu và phần giải thích tiếng Việt do Anh Trọng Dạy JFT soạn.</footer></div><div class="bar"><button class="btn" id="rs" type="button">Làm lại</button><button class="btn pri" id="sub" type="button">Nộp bài & chấm điểm</button></div><script type="application/json" id="data">{"no": 20, "secs": [{"id": "qz", "title": "Ngữ pháp — trắc nghiệm kiểu JFT", "jp": "文法・JFT形式", "ins": "Chọn từ / cụm từ đúng điền vào （　）. Câu hỏi do Anh Trọng Dạy JFT soạn theo mẫu của bài.", "ins_jp": "（　）に入れるのに一番いいものを選んでください。", "items": [{"t": "mcq", "q": "これは、{去年|きょねん}{日本|にほん}に（　）とき{買|か}ったかばんです。", "o": ["{来|こ}た", "{来|く}る", "{来|き}た"], "a": 2, "ex": "来ました → 来た（きた）.", "tag": "jpq jpo", "n": 1}, {"t": "mcq", "q": "このアパートは{駅|えき}から{遠|とお}い（　）、{家賃|やちん}が{安|やす}いです。", "o": ["けど", "で", "くて"], "a": 0, "ex": "Tiêu cực (xa) ↔ tích cực (rẻ) → nối bằng「けど」.", "tag": "jpq jpo", "n": 2}, {"t": "mcq", "q": "{趣味|しゅみ}は{料理|りょうり}を（　）です。", "o": ["したこと", "しますこと", "すること"], "a": 2, "ex": "Thể từ điển của「します」là「する」→「{料理|りょうり}をすることです」.", "tag": "jpq jpo", "n": 3}, {"t": "mcq", "q": "{梅|うめ}{干|ぼ}しは（　）、{苦手|にがて}です。", "o": ["すっぱいので", "すっぱくて", "すっぱいて", "すっぱで"], "a": 1, "ex": "すっぱい → すっぱくて: vì chua nên không thích (苦手).", "tag": "jpq jpo", "n": 4}, {"t": "mcq", "q": "{台風|たいふう}で、{学校|がっこう}が（　）になりました。", "o": ["{休|やす}みます", "{休|やす}み", "{休|やす}む", "{休|やす}んで"], "a": 1, "ex": "「休みになりました」 = được nghỉ. Nguyên nhân là 「台風で」 (vì bão).", "tag": "jpq jpo", "n": 5}, {"t": "mcq", "q": "このパンは、（　）、そのまま食べてもおいしいですよ。", "o": ["温めなくて", "温めないで", "温めない"], "a": 1, "ex": "Không hâm nóng mà ăn luôn → 「V-ないで、～」 (thể ナイ + で): 「温めないで」.", "tag": "jpq jpo", "n": 6}, {"t": "mcq", "q": "{来月|らいげつ}、{市民|しみん}ホールで{日本語|にほんご}スピーチ{大会|たいかい}が（　）。", "o": ["{行|い}けます", "{行|おこな}われます", "{行|おこな}います"], "a": 1, "ex": "Sự kiện làm chủ ngữ (〜が) → dùng thể bị động: 行われます.", "tag": "jpq jpo", "n": 7}, {"t": "mcq", "q": "{古|ふる}い{新聞|しんぶん}は、{窓|まど}を{掃除|そうじ}する（　）{役立|やくだ}ちます。", "o": ["のが", "のに", "ために", "まま"], "a": 1, "ex": "「V-るのに役立ちます」: báo cũ có ích cho việc lau cửa sổ.", "tag": "jpq jpo", "n": 8}, {"t": "mcq", "q": "A：どうして{早退|そうたい}するんですか？\nB：{子|こ}どもを{迎|むか}えに（　）んです。", "o": ["{行|い}きます", "{行|い}って", "{行|い}く", "{行|い}き"], "a": 2, "ex": "～んです nối với thể từ điển: 行くんです.", "tag": "jpq jpo", "n": 9}, {"t": "mcq", "q": "この{道|みち}が（　）かどうか、{調|しら}べてください。", "o": ["{安全|あんぜん}に", "{安全|あんぜん}な", "{安全|あんぜん}だ", "{安全|あんぜん}"], "a": 3, "ex": "Với danh từ/tính từ đuôi な, bỏ 「だ」 rồi nối かどうか: 安全かどうか (như ここが危険かどうか).", "tag": "jpq jpo", "n": 10}, {"t": "mcq", "q": "この店のラーメンはおいしいです（　）、いつも混んでいます。", "o": ["から", "が", "し"], "a": 1, "ex": "Hai vế đối lập (ngon ↔ lúc nào cũng đông, phải chờ) → 「～が」.", "tag": "jpq jpo", "n": 11}, {"t": "mcq", "q": "{私|わたし}は{夏|なつ}が{好|す}きです。{暑|あつ}いのが（　）。", "o": ["{苦手|にがて}です", "{好|す}きじゃないです", "{好|す}きです"], "a": 2, "ex": "Thích mùa hè vì thích trời nóng → 「{暑|あつ}いのが{好|す}きです」.", "tag": "jpq jpo", "n": 12}, {"t": "mcq", "q": "この店は、安い（　）、おいしいし、よく来ます。", "o": ["けど", "し", "から"], "a": 1, "ex": "Nêu nhiều lý do liên tiếp: 「安いし、おいしいし」 → dùng 「～し」.", "tag": "jpq jpo", "n": 13}, {"t": "mcq", "q": "すみません、辛いものが苦手（　）、わさび抜きでお願いします。", "o": ["なので", "だので", "ので"], "a": 0, "ex": "Tính từ ナ + ので → 「ナA-なので」: 「苦手なので」.", "tag": "jpq jpo", "n": 14}, {"t": "mcq", "q": "{健康|けんこう}（　）、{毎朝|まいあさ}{歩|ある}いています。", "o": ["だけ", "なら", "のための", "のために"], "a": 3, "ex": "「Nのために」 cũng diễn tả mục đích: đi bộ mỗi sáng vì sức khỏe.", "tag": "jpq jpo", "n": 15}, {"t": "mcq", "q": "いつか{宇宙|うちゅう}に{行|い}って（　）と{思|おも}っています。", "o": ["みよう", "みるつもり", "みたい", "みろ"], "a": 2, "ex": "Chỉ là mong muốn, không chắc thực hiện được → 「～たいと思っています」.", "tag": "jpq jpo", "n": 16}, {"t": "mcq", "q": "{課長|かちょう}、{来週|らいしゅう}の{金曜日|きんようび}、{休|やす}みを{取|と}っても（　）？", "o": ["いいましょうか", "いいでしょうか", "いいですね", "いいでしょう"], "a": 1, "ex": "Xin phép lịch sự với cấp trên: ～てもいいでしょうか？", "tag": "jpq jpo", "n": 17}, {"t": "mcq", "q": "これは、{子|こ}ども（　）{本|ほん}です。", "o": ["のためで", "のための", "ために", "のために"], "a": 1, "ex": "Bổ nghĩa cho danh từ 「本」 thì dùng dạng 「N1のためのN2」: sách dành cho trẻ em.", "tag": "jpq jpo", "n": 18}, {"t": "mcq", "q": "A：これは{何|なん}の{薬|くすり}ですか？\nB：{熱|ねつ}を（　）{薬|くすり}です。", "o": ["{下|さ}げて", "{下|さ}げた", "{下|さ}げます", "{下|さ}げる"], "a": 3, "ex": "Giải thích công dụng thuốc: 熱を下げる薬 (thuốc hạ sốt), dùng thể từ điển.", "tag": "jpq jpo", "n": 19}, {"t": "mcq", "q": "ここは{田舎|いなか}で、（　）。", "o": ["{便利|べんり}くて", "のんびりしています", "にぎやかで"], "a": 1, "ex": "Vế sau là kết thúc câu; 「{田舎|いなか}で、のんびりしています」(vùng quê và thong thả).", "tag": "jpq jpo", "n": 20}]}, {"id": "kw2", "title": "Hội thoại", "jp": "会話", "ins": "Phần 1: chọn câu phù hợp điền vào hội thoại. Phần 2: dịch câu tiếng Việt sang tiếng Nhật rồi đọc to 3 lần.", "ins_jp": "会話を完成させましょう。／日本語で言いましょう。", "items": [{"t": "mcq", "q": "A：パソコンが{動|うご}かないんですが……。<br>B：（　　　　）", "o": ["これは、ミャンマーの{母|はは}が{作|つく}ったんです。", "わかりました。", "うーん、とりあえず、{再起動|さいきどう}してみて。"], "a": 2, "ex": "B：うーん、とりあえず、再起動してみて。 — Ừm, trước mắt em thử khởi động lại xem.", "tag": "jpq jpo", "ins": "1. パソコンが動かないんですが…", "n": 21}, {"t": "mcq", "q": "B：うーん、やっぱり{人|ひと}が{多|おお}いよね。{電車|でんしゃ}も{混|こ}んでいて、ラッシュのときはすごく{大変|たいへん}だよ。<br>A：そうですか。<br>B：（　　　　）", "o": ["でも、{遊|あそ}ぶところがいろいろあるから、{一日中|いちにちじゅう}{遊|あそ}べるよ。", "どれぐらい{勉強|べんきょう}しましたか？", "ぼくが{好|す}きなのは、「ゆうゆう{館|かん}」ですね。{広|ひろ}くておすすめです。{知|し}ってますか？"], "a": 0, "ex": "B：でも、遊ぶところがいろいろあるから、一日中遊べるよ。 — Nhưng có nhiều chỗ vui chơi nên chơi được cả ngày.", "tag": "jpq jpo", "ins": "1. いつか行ってみたいです", "n": 22}, {"t": "mcq", "q": "B：うーん。ちょっと{難|むずか}しかったです。<br>A：あー、{現代|げんだい}の{作品|さくひん}はねえ。<br>B：（　　　　）", "o": ["お{好|この}み{焼|や}き、どう？　おいしい？", "なるほど。", "よくわかりませんでした。"], "a": 2, "ex": "B：よくわかりませんでした。 — Tôi không hiểu lắm.", "tag": "jpq jpo", "ins": "3. パンダがかわいかったです", "n": 23}, {"t": "mcq", "q": "A：その{帽子|ぼうし}、あったかそうだね。<br>B：いいでしょう？　これは、モンゴルの{帽子|ぼうし}です。<br>A：（　　　　）", "o": ["どう？　この{町|まち}は。", "そうですか。", "へー。モンゴルから{持|も}って{来|き}たの？"], "a": 2, "ex": "A：へー。モンゴルから持って来たの？ — Ồ. Mang từ Mông Cổ sang à?", "tag": "jpq jpo", "ins": "3. 誕生日に、友だちにもらったんです", "n": 24}, {"t": "mcq", "q": "B：この{道|みち}をまっすぐ{行|い}って、{2つ目|ふたつめ}の{信号|しんごう}を{左|ひだり}に{曲|ま}がってください。<br>A：{1つ目|ひとつめ}の{信号|しんごう}を{左|ひだり}ですね。<br>B：（　　　　）", "o": ["いえ、{1つ目|ひとつめ}じゃなくて、{2つ目|ふたつめ}です。", "きふ？　{何|なん}ですか、それ？", "え、そうなんですか？"], "a": 0, "ex": "B：いえ、1つ目じゃなくて、2つ目です。 — Không, không phải đèn thứ nhất, mà là đèn thứ hai.", "tag": "jpq jpo", "ins": "1. バス停はどこですか？", "n": 25}, {"t": "mcq", "q": "A：{趣味|しゅみ}は{何|なん}ですか？<br>B：（　　　　）", "o": ["{旅行|りょこう}です。いろいろな{国|くに}に{行|い}くのが{好|す}きです。", "あ……はい。アレルギーがあるので、{食|た}べられないんです。よかったら、どうぞ。", "あのう、すみません。この{封筒|ふうとう}と{手紙|てがみ}、{何|なん}ですか？"], "a": 0, "ex": "B：旅行です。いろいろな国に行くのが好きです。 — Du lịch. Tôi thích đi nhiều nước.", "tag": "jpq jpo", "ins": "1. 趣味は料理をすることです", "n": 26}, {"t": "mcq", "q": "A：あのう、これ、どうぞ。<br>B：あ、どうも。これ、{何|なん}？<br>A：（　　　　）", "o": ["お{好|この}み{焼|や}き、どう？　おいしい？", "ナンプラーです。タイ{料理|りょうり}に{使|つか}う{調味料|ちょうみりょう}です。{魚|さかな}から{作|つく}ります。", "それは、すごいですね。"], "a": 1, "ex": "A：ナンプラーです。タイ料理に使う調味料です。魚から作ります。 — Là nước mắm. Gia vị dùng cho món Thái. Làm từ cá.", "tag": "jpq jpo", "ins": "2. これ、お土産です", "n": 27}, {"t": "mcq", "q": "A：じゃあ、{今|いま}から{休憩|きゅうけい}。<br>B：ちょっと{外|そと}でたばこを{吸|す}って{来|き}てもいいですか？<br>A：（　　　　）", "o": ["あ、でも、この{島|しま}には、お{酒|さけ}を{飲|の}むとき、{特別|とくべつ}な{習慣|しゅうかん}があるんですよ。", "ああ、いいよ。", "{扇風機|せんぷうき}？　ありますけど、どうしてですか？"], "a": 1, "ex": "A：ああ、いいよ。 — À, được.", "tag": "jpq jpo", "ins": "2. トイレに行って来てもいいですか？", "n": 28}, {"t": "write", "q": "Công viên Tachibana ạ?", "model": "たちばな{公園|こうえん}ですか？", "ex": "Câu trong hội thoại của bài (聴解スクリプト).", "n": 29}, {"t": "write", "q": "À, cảm ơn bạn.", "model": "あ、ありがとうございます。", "ex": "Câu trong hội thoại của bài (聴解スクリプト).", "n": 30}, {"t": "write", "q": "Tôi không hiểu lắm.", "model": "よくわかりませんでした。", "ex": "Câu trong hội thoại của bài (聴解スクリプト).", "n": 31}, {"t": "write", "q": "Rưới lên nhiều món thì ngon lắm.", "model": "いろいろなものにかけると、おいしいですよ。", "ex": "Câu trong hội thoại của bài (聴解スクリプト).", "n": 32}]}, {"id": "app", "title": "Làm trên app", "jp": "アプリで", "ins": "Đánh dấu khi đã làm xong.", "items": [{"t": "check", "q": "Đề 14 — chế độ thi 60 phút"}, {"t": "check", "q": "Đóng vai 6 tình huống công việc: 初級1 Bài 13–14, 初級2 Bài 13–14"}]}]}</script><script>
+const D=JSON.parse(document.getElementById('data').textContent);const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const rb=s=>String(s??'').replace(/\{([^|}]+)\|([^}]+)\}/g,'<ruby>$1<rt>$2</rt></ruby>').replace(/\n/g,'<br>');
+const plain=s=>String(s??'').replace(/\{([^|}]+)\|[^}]+\}/g,'$1');
+const norm=s=>String(s??'').normalize('NFKC').replace(/[\s。、．，,.!！?？「」『』（）()]/g,'');
+const L='ABCD';const PRINT=document.body.classList.contains('print');
+const KEY='btvn-'+D.no;let st={};try{st=JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){}
+const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(st))}catch(e){}};
+st.a=st.a||{};
+function render(){let h='';
+ D.secs.forEach((s,si)=>{h+=`<section class="sec"><h2>${si+1}. ${esc(s.title)}<span class="jp">${esc(s.jp||'')}</span></h2><div class="ins">${esc(s.ins||'')}${s.ins_jp?`<span class="jp">${esc(s.ins_jp)}</span>`:''}</div><div class="its ${['voc','kw'].includes(s.id)?'g2':''}">`;
+  s.items.forEach((it,ii)=>{const id=`${si}_${ii}`;
+   if(it.t==='check'){h+=PRINT?`<div class="chk"><span class="box"></span><span>${esc(it.q)}</span></div>`:`<label class="chk"><input type="checkbox" data-ck="${id}" ${st.a[id]?'checked':''}><span>${esc(it.q)}</span></label>`;return}
+   h+=`<div class="it" id="it${id}">`;
+   if(it.ins&&s.id==='ws')h+=`<div class="sins">${esc(it.ins)}${it.ex_q?` · Ví dụ: <span class="jp">${rb(it.ex_q.q)} → ${rb(it.ex_q.a)}</span>`:''}</div>`;
+   if(it.ins&&s.id!=='ws')h+=`<div class="sins">${esc(it.ins)}</div>`;
+   h+=`<div class="qh"><span class="n">${it.n}</span><div class="q ${it.tag&&it.tag.includes('jpq')?'jpq':''}">${it.t==='write'?esc(it.q):rb(it.q)}${it.img64?`<img class="qi" src="${it.img64}" alt="Hình minh hoạ bài tập">`:''}</div></div>`;
+   if(it.t==='mcq'){const jp=it.tag&&it.tag.includes('jpo');const long=it.o.some(o=>plain(o).length>14);const mx=Math.max(...it.o.map(o=>plain(o).length));const g2=['voc','kw'].includes(s.id);const c=PRINT?(g2?(mx>12?1:(it.o.length===4?2:3)):(mx>30?1:(mx>14?2:(it.o.length===4?4:3)))):(long?1:(it.o.length===4?2:3));
+    h+=`<div class="opts ${!long&&!PRINT?'cols':''}" style="--c:${c}">`+it.o.map((o,k)=>`<button type="button" class="opt ${jp?'jp':''}${st.a[id]===k?' sel':''}" data-q="${id}" data-k="${k}"><span class="l">${L[k]}</span><span>${jp?rb(o):esc(o)}</span></button>`).join('')+'</div>'}
+   else if(it.t==='fill'){h+=PRINT?`<div class="fill"><div class="line"></div></div>`:`<div class="fill"><input class="jp" data-f="${id}" value="${esc(st.a[id]||'')}" placeholder="Gõ câu trả lời…" autocomplete="off"></div>`}
+   else if(it.t==='write'){h+=PRINT?`<div class="fill"><div class="line"></div><div class="line"></div></div>`:`<div class="fill"><textarea class="jp" data-w="${id}" placeholder="Viết câu tiếng Nhật…">${esc(st.a[id]||'')}</textarea><div style="margin-top:6px"><button class="btn" type="button" data-m="${id}">Xem câu mẫu</button></div></div><div class="model jp" id="m${id}">${rb(it.model)}</div>`}
+   h+=`<div class="fb" id="fb${id}"></div></div>`});
+  h+='</div></section>'});
+ $('#body').innerHTML=h;
+ if(PRINT){renderKey();return}
+ document.querySelectorAll('[data-q]').forEach(b=>b.onclick=()=>{if(st.done)return;const id=b.dataset.q;st.a[id]=+b.dataset.k;save();document.querySelectorAll(`[data-q="${id}"]`).forEach(x=>x.classList.toggle('sel',x===b));prog()});
+ document.querySelectorAll('[data-f]').forEach(i=>i.oninput=()=>{st.a[i.dataset.f]=i.value;save();prog()});
+ document.querySelectorAll('[data-w]').forEach(i=>i.oninput=()=>{st.a[i.dataset.w]=i.value;save()});
+ document.querySelectorAll('[data-m]').forEach(b=>b.onclick=()=>$('#m'+b.dataset.m).classList.toggle('on'));
+ document.querySelectorAll('[data-ck]').forEach(c=>c.onchange=()=>{st.a[c.dataset.ck]=c.checked;save()});
+ if(st.done)grade();prog()}
+function prog(){let n=0,d=0;D.secs.forEach((s,si)=>s.items.forEach((it,ii)=>{if(it.t==='mcq'||it.t==='fill'){n++;const v=st.a[`${si}_${ii}`];if(v!==undefined&&v!=='')d++}}));$('#prog').textContent=`Đã làm ${d}/${n} câu chấm điểm`}
+function grade(){let tot=0,ok=0;const per=[];
+ D.secs.forEach((s,si)=>{let t=0,o=0;s.items.forEach((it,ii)=>{const id=`${si}_${ii}`,fb=$('#fb'+id),box=$('#it'+id);
+  if(it.t==='mcq'){t++;const v=st.a[id];const r=v===it.a;if(r)o++;document.querySelectorAll(`[data-q="${id}"]`).forEach((x,k)=>{x.classList.toggle('right',k===it.a);x.classList.toggle('wrong',k===v&&!r)});
+   fb.innerHTML=`${r?'✓ Đúng.':'✗ Đáp án: <b>'+L[it.a]+'</b>.'} ${it.tag&&it.tag.includes('jpo')?'':''}${esc(plain(it.ex||''))}`}
+  else if(it.t==='fill'){t++;const v=norm(st.a[id]||'');const r=v&&it.ans.some(a=>norm(a)===v);if(r)o++;const inp=document.querySelector(`[data-f="${id}"]`);inp.classList.toggle('right',!!r);inp.classList.toggle('wrong',!r);
+   fb.innerHTML=`${r?'✓ Đúng.':'✗ Đáp án: <b class="jp">'+esc(it.show)+'</b>'} ${esc(it.ex||'')}`}
+  else if(it.t==='write'){fb.innerHTML='Tự so với câu mẫu: <span class="jp">'+rb(it.model)+'</span>'}
+  if(box)box.classList.add('done')});
+  if(t){per.push([s.title,o,t]);tot+=t;ok+=o}});
+ $('#res').classList.add('on');$('#res').innerHTML=`<div class="big">${ok}/${tot}</div><div>${esc($('#nm').value||'Học viên')} · Buổi ${D.no} · ${Math.round(ok/tot*100)}%</div><table>${per.map(p=>`<tr><td>${esc(p[0])}</td><td>${p[1]}/${p[2]}</td></tr>`).join('')}</table><p style="color:var(--muted);font-size:13px;margin:10px 0 0">Chụp màn hình kết quả này gửi giáo viên. Câu sai đã tô đỏ, xem giải thích dưới mỗi câu.</p>`;
+ $('#res').scrollIntoView({behavior:'smooth'})}
+function renderKey(){let h=`<div class="ak"><h2>Đáp án · Buổi ${D.no}</h2><div class="sub">Dành cho giáo viên / tự chấm sau khi làm xong.</div><table>`;
+ D.secs.forEach(s=>{if(s.items.every(it=>it.t==='check'))return;h+=`<tr class="sh"><td colspan="3">${esc(s.title)}</td></tr>`;
+  s.items.forEach(it=>{if(it.t==='check')return;let a='';
+   if(it.t==='mcq')a=`${L[it.a]}. <span class="jp">${rb(it.o[it.a])}</span>`;else if(it.t==='fill')a=`<span class="jp">${esc(it.show)}</span>`;else a=`<span class="jp">${rb(it.model)}</span>`;
+   h+=`<tr><td class="n">${it.n}</td><td class="a">${a}</td><td>${esc(plain(it.ex||''))}</td></tr>`})});
+ h+='</table></div>';$('#body').insertAdjacentHTML('beforeend',h)}
+if(!PRINT){$('#nm').value=st.nm||'';$('#nm').oninput=e=>{st.nm=e.target.value;save()};
+ $('#sub').onclick=()=>{st.done=true;save();grade()};
+ $('#rs').onclick=()=>{if(confirm('Xoá hết câu trả lời để làm lại?')){st={a:{}};save();$('#res').classList.remove('on');render()}};
+ $('#fu').onclick=()=>{document.body.classList.toggle('nofuri');$('#fu').textContent='ふりがな: '+(document.body.classList.contains('nofuri')?'Tắt':'Bật')};
+ $('#pr').onclick=()=>window.print()}
+render();
+</script></body></html>

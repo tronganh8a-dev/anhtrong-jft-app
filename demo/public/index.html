@@ -61,7 +61,7 @@ footer{margin-top:36px;color:var(--muted);font-size:12px;border-top:1px solid va
 .hero{background:linear-gradient(135deg,#0d5a8c,#0a4670);color:#fff;border-radius:var(--r);padding:26px 28px;display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center}
 .hero h2{margin:0 0 6px;font-size:26px}.hero p{margin:0;color:#d4e6f3}
 .hero .stat{display:flex;gap:10px}.hero .stat div{background:rgba(255,255,255,.12);border-radius:12px;padding:10px 14px;text-align:center}.hero .stat b{display:block;font-size:22px}.hero .stat small{color:#cfe2ef;font-size:12px}
-.tiles{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin-top:18px}
+.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:18px}
 .tile{text-align:left;border:1px solid var(--line);background:var(--paper);border-radius:var(--r);padding:18px;box-shadow:var(--sh);display:flex;flex-direction:column;gap:6px;transition:transform .15s,border-color .15s}
 .tile:hover{transform:translateY(-2px);border-color:var(--blue)}
 .tile .ti{width:40px;height:40px;border-radius:10px;display:grid;place-items:center;margin-bottom:6px}
@@ -304,10 +304,11 @@ body.locked .app{filter:blur(6px);pointer-events:none}
   <button class="nav" data-go="gram" type="button"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19V5a2 2 0 0 1 2-2h12v18H6a2 2 0 0 1-2-2z"/><path d="M8 7h7M8 11h7M8 15h4"/></svg>Ngữ pháp<span class="jp">文法</span></button>
   <button class="nav" data-go="skill" type="button"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><rect x="3" y="15" width="4" height="6" rx="1"/><rect x="17" y="15" width="4" height="6" rx="1"/></svg>Luyện kỹ năng<span class="jp">技能別</span></button>
   <button class="nav" data-go="vocab" type="button"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="6" width="13" height="15" rx="2"/><path d="M8 3h11a2 2 0 0 1 2 2v12"/></svg>Từ vựng<span class="jp">語彙</span></button>
+  <button class="nav" data-go="hw" type="button"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4V3h6v1M9 11l2 2 4-4M9 17h6"/></svg>Bài tập về nhà<span class="jp">宿題</span></button>
   <div class="grow"></div>
   <button class="out" id="logout" type="button">Đăng xuất</button>
 </aside>
-<main><div style="background:#fff3b0;border:1px solid #f1c48b;color:#5a4300;border-radius:12px;padding:10px 14px;margin:0 0 14px;font-size:14px"><b>BẢN DÙNG THỬ</b> · Mỗi phần mở 2 mục (2 bài học, 2 đề, 2 bài ngữ pháp, 2 bài kỹ năng, từ vựng 2 bài). Liên hệ <b>Anh Trọng Dạy JFT</b> để học bản đầy đủ: 42 bài, 20 đề, 3.800+ từ.</div>
+<main><div style="background:#fff3b0;border:1px solid #f1c48b;color:#5a4300;border-radius:12px;padding:10px 14px;margin:0 0 14px;font-size:14px"><b>BẢN DÙNG THỬ</b> · Mỗi phần mở 2 mục (2 bài học, 2 đề, 2 bài ngữ pháp, 2 bài kỹ năng, từ vựng 2 bài, 2 buổi bài tập về nhà). Liên hệ <b>Anh Trọng Dạy JFT</b> để học bản đầy đủ: 42 bài, 20 đề, 3.800+ từ.</div>
 <!-- HOME -->
 <section class="screen on" id="home">
   <div class="hero">
@@ -320,6 +321,7 @@ body.locked .app{filter:blur(6px);pointer-events:none}
     <button class="tile" data-go="skill" type="button"><span class="ti" style="background:#fff1dc;color:var(--amber)">♪</span><b>Luyện kỹ năng</b><span class="jp">聴解・読解</span><p>Câu nghe, câu đọc cắt từ bài luyện いろどり, chấm ngay.</p></button>
     <button class="tile" data-go="gram" type="button"><span class="ti" style="background:#efe8fb;color:#6a3fb5">文</span><b>Ngữ pháp</b><span class="jp">文法</span><p>Giải thích tiếng Việt từng mẫu, bài tập ワークシート có đáp án, trắc nghiệm.</p></button>
     <button class="tile" data-go="vocab" type="button"><span class="ti" style="background:var(--ok-soft);color:var(--ok)">字</span><b>Từ vựng</b><span class="jp">語彙</span><p>Từ vựng いろどり theo bài: flashcard, trắc nghiệm, nghe.</p></button>
+    <button class="tile" data-go="hw" type="button"><span class="ti" style="background:#e6f1f8;color:#0d4f7c">✓</span><b>Bài tập về nhà</b><span class="jp">宿題</span><p>25 buổi theo lộ trình: từ vựng, chữ Hán, ngữ pháp, hội thoại. Chấm điểm ngay, có bản PDF.</p></button>
   </div>
   <div class="tips">
     <div class="card"><b>JFT-Basic gồm 4 phần</b><p>文字と語彙 · 会話と表現 · 聴解 · 読解. Làm bài trên máy, khoảng 60 phút.</p></div>
@@ -373,6 +375,19 @@ body.locked .app{filter:blur(6px);pointer-events:none}
   <footer>© 2026 Anh Trọng Dạy JFT · 出典：国際交流基金『いろどり 生活の日本語』 · Đáp án theo phần đáp án đã soạn trong bài học.</footer>
 </section>
 
+<!-- HOMEWORK -->
+<section class="screen" id="hw">
+  <div class="topbar"><h1>Bài tập về nhà<span class="jp">宿題 · 25 buổi</span></h1></div>
+  <p class="muted" style="margin:-8px 0 6px">Làm sau mỗi buổi học theo lộ trình 25 buổi. Bấm <b>Làm bài</b> để làm ngay trên máy (nộp bài là chấm điểm), hoặc <b>PDF</b> để tải bản in có đáp án ở trang cuối.</p>
+  <div id="hwList"></div>
+  <footer>© 2026 Anh Trọng Dạy JFT · 出典：国際交流基金『いろどり 生活の日本語』（ことば・漢字のことば・文法ワークシート・聴解スクリプト）。Câu trắc nghiệm kiểu JFT, câu nhiễu và giải thích tiếng Việt do Anh Trọng Dạy JFT soạn.</footer>
+</section>
+<section class="screen" id="hwv">
+  <div class="vtop2"><button class="btn sm ghost" id="hwBack" type="button">← Danh sách bài tập</button><div class="vttl"><b class="jp" id="hwTitle"></b><small id="hwSub"></small></div>
+   <span style="flex:1"></span><a class="btn sm ghost" id="hwPdf" download>⬇ PDF</a><a class="btn sm ghost" id="hwOpen" target="_blank" rel="noopener">↗ Mở tab mới</a></div>
+  <div class="vframe web"><iframe id="hwFrame" title="Bài tập về nhà"></iframe></div>
+</section>
+
 <!-- VOCAB -->
 <section class="screen" id="vocab">
   <div class="topbar"><h1>Từ vựng<span class="jp">語彙 · いろどり ことばリスト</span></h1></div>
@@ -422,6 +437,7 @@ body.locked .app{filter:blur(6px);pointer-events:none}
 <script src="app/data/skills.js"></script>
 <script src="app/data/vocab.js"></script>
 <script src="app/data/grammar.js"></script>
+<script src="app/data/hw.js"></script>
 <script>
 /* ===== cấu hình tài khoản chung (đổi tại đây) ===== */
 const ACCOUNT={user:decodeURIComponent((document.cookie.match(/(?:^|; )jft_user=([^;]*)/)||[0,''])[1])||'hocvien',hash:''};
@@ -436,7 +452,7 @@ $('#loginForm').onsubmit=e=>{e.preventDefault();const h=fnv($('#lu').value.trim(
 $('#logout').style.display='none';
 
 /* ===== nav ===== */
-function go(id){$$('.screen').forEach(s=>s.classList.toggle('on',s.id===id));$$('.nav').forEach(n=>n.classList.toggle('on',n.dataset.go===id));window.scrollTo(0,0)}
+function go(id){$$('.screen').forEach(s=>s.classList.toggle('on',s.id===id));const nid={hwv:'hw',viewer:'learn'}[id]||id;$$('.nav').forEach(n=>n.classList.toggle('on',n.dataset.go===nid));window.scrollTo(0,0)}
 document.addEventListener('click',e=>{const b=e.target.closest('[data-go]');if(b)go(b.dataset.go)});
 const LV={s1:'初級1 (A2)',s2:'初級2 (A2)',sc:'初中級 (A2/B1)'};
 $('#homeStat').innerHTML=`<div><b>${LESSONS.length}</b><small>bài học</small></div><div><b>${EXAMS.length}</b><small>đề thi</small></div><div><b>${SKILLS.length}</b><small>câu kỹ năng</small></div><div><b>${VOCAB.words.length}</b><small>từ vựng</small></div>`;
@@ -655,7 +671,18 @@ function renderVArea(){const A=$('#vArea');if(!vList.length){A.innerHTML='<div c
   $('#vNx').onclick=()=>{vIdx++;renderVArea()}})}
 $('#furiBtn').onclick=()=>{document.body.classList.toggle('nofuri');$('#furiBtn').textContent='ふりがな: '+(document.body.classList.contains('nofuri')?'Tắt':'Bật')};
 
-renderLearn();renderExams();renderSkill();renderVocab();renderGram();
+/* ===== homework ===== */
+function hwDone(no){try{const v=JSON.parse(localStorage.getItem('btvn-'+no)||'{}');return !!v.done}catch(e){return false}}
+function renderHw(){if(!window.HW){$('#hwList').innerHTML='<p class="muted">Chưa có bài tập.</p>';return}
+ const G=[['初級1','Giai đoạn 1 · 初級1',x=>x.no<=9],['初級2','Giai đoạn 2 · 初級2',x=>x.no>=10&&x.no<=18],['Luyện đề','Giai đoạn 3 · Luyện đề',x=>x.no>=19]];
+ $('#hwList').innerHTML=G.map(([k,t,f])=>{const L=HW.filter(f);if(!L.length)return '';return `<div class="secttl">${t}</div><div class="elist">`+L.map(x=>`<div class="ec"><small>Buổi ${String(x.no).padStart(2,'0')} · ${esc(x.lvj)} · ${esc(x.bai)}</small><b><span class="jp">${esc(x.tj)}</span> ${esc(x.tv)}</b><small class="jp">${esc(x.sub)}</small><div class="meta"><span class="tag">${x.total} câu</span>${hwDone(x.no)?'<span class="tag" style="background:var(--ok-soft);color:var(--ok)">Đã nộp</span>':''}</div><div style="display:flex;gap:8px;margin-top:4px"><button class="btn sm" data-hw="${x.no}" type="button">✎ Làm bài</button><a class="btn sm ghost" href="${x.pdf}" download>⬇ PDF</a></div></div>`).join('')+'</div>'}).join('')}
+$('#hwList').addEventListener('click',e=>{const b=e.target.closest('[data-hw]');if(!b)return;const x=HW.find(h=>h.no==b.dataset.hw);
+ $('#hwTitle').textContent=`Buổi ${String(x.no).padStart(2,'0')} · ${x.tj}`;$('#hwSub').textContent=`${x.tv} · ${x.lvj} · ${x.bai}`;
+ $('#hwPdf').href=x.pdf;$('#hwOpen').href=x.html;$('#hwFrame').src=x.html;go('hwv')});
+$('#hwBack').onclick=()=>{$('#hwFrame').removeAttribute('src');renderHw();go('hw')};
+document.addEventListener('click',e=>{const b=e.target.closest('[data-go="hw"]');if(b)renderHw()});
+
+renderLearn();renderExams();renderSkill();renderVocab();renderGram();renderHw();
 </script>
 </body>
 </html>
