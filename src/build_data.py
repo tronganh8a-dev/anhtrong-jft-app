@@ -60,8 +60,10 @@ SECMAP = {'BG': '文字と語彙', 'KH': '会話と表現', 'CK': '聴解', 'DK'
 ORDER = ['文字と語彙', '会話と表現', '聴解', '読解']
 LT = json.load(open(R + 'lt_exams.json'))
 def cl(x): return (str(x) if x is not None else '').replace('\r', '').strip()
+HIDE_EXAMS = {1}   # đề tạm gỡ khỏi web — xoá số khỏi đây để hiện lại
 exams = []
 for n in sorted(LT, key=int):
+    if int(n) in HIDE_EXAMS: continue
     rows = LT[n]['data'][1:]
     g = dict(t='', d='', img='', au='')
     qs = []
