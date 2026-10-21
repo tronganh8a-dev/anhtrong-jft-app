@@ -58,7 +58,7 @@ main{min-width:0;padding:26px 34px 60px}
 .levels{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
 footer{margin-top:36px;color:var(--muted);font-size:12px;border-top:1px solid var(--line);padding-top:14px}
 /* home */
-.hero{background:linear-gradient(135deg,#0d5a8c,#0a4670);color:#fff;border-radius:var(--r);padding:26px 28px;display:grid;grid-template-columns:1fr auto auto;gap:18px;align-items:center}
+.hero{background:linear-gradient(135deg,#0d5a8c,#0a4670);color:#fff;border-radius:var(--r);padding:26px 28px;display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center}
 .hero h2{margin:0 0 6px;font-size:26px}.hero p{margin:0;color:#d4e6f3}
 .hero .stat{display:flex;gap:10px}.hero .stat div{background:rgba(255,255,255,.12);border-radius:12px;padding:10px 14px;text-align:center}.hero .stat b{display:block;font-size:22px}.hero .stat small{color:#cfe2ef;font-size:12px}
 .pass{margin-top:18px}
@@ -366,7 +366,6 @@ body.locked .app{filter:blur(6px);pointer-events:none}
 <section class="screen on" id="home">
   <div class="hero">
     <div><h2>Học và Luyện thi JFT - Anh Trọng Dạy JFT</h2></div>
-    <div class="stat" id="homeStat"></div>
     <div class="covers" aria-hidden="true"><img src="app/media/cover/nyumon.jpg" alt=""><img src="app/media/cover/s1.jpg" alt=""><img src="app/media/cover/s2.jpg" alt=""><img src="app/media/cover/sc.jpg" alt=""></div>
   </div>
   <div class="card sched">
@@ -522,7 +521,6 @@ $('#logout').style.display='none';
 function go(id){$$('.screen').forEach(s=>s.classList.toggle('on',s.id===id));const nid={hwv:'hw',viewer:'learn'}[id]||id;$$('.nav').forEach(n=>n.classList.toggle('on',n.dataset.go===nid));window.scrollTo(0,0)}
 document.addEventListener('click',e=>{const b=e.target.closest('[data-go]');if(b)go(b.dataset.go)});
 const LV={s1:'初級1 (A2)',s2:'初級2 (A2)',sc:'初中級 (A2/B1)'};
-$('#homeStat').innerHTML=`<div><b>${LESSONS.length}</b><small>bài học</small></div><div><b>${EXAMS.length}</b><small>đề thi</small></div><div><b>${SKILLS.length}</b><small>câu kỹ năng</small></div><div><b>${VOCAB.words.length}</b><small>từ vựng</small></div>`;
 const CV={s1:'s1',s2:'s2',sc:'sc','入門':'nyumon','初級1':'s1','初級2':'s2','初中級':'sc'};
 const CVL={nyumon:['入門','A1'],s1:['初級1','A2'],s2:['初級2','A2'],sc:['初中級','A2/B1']};
 function lvCards(el,list,cur,cb){el.classList.add('lvcards');el.innerHTML=list.map(([k,sub])=>{const c=CV[k],L=CVL[c];return `<button class="lvc${k===cur?' on':''}" data-k="${k}" type="button" aria-pressed="${k===cur}"><img src="app/media/cover/${c}.jpg" alt="Bìa いろどり ${L[0]}" loading="lazy"><span><b class="jp">${L[0]}</b><small>${L[1]}${sub?' · '+sub:''}</small></span></button>`}).join('');el.onclick=e=>{const b=e.target.closest('.lvc');if(b)cb(b.dataset.k)}}
