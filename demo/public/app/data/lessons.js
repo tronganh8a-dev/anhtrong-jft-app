@@ -1,0 +1,1 @@
+window.LESSONS=[{"lv":"s1","bai":1,"jp":"レストランで働いています","vi":"Tôi đang làm việc ở nhà hàng","topic":"","web":"lessons/s1/Irodori_Shokyu1_Bai01.html","slide":"lessons/s1/Irodori_Shokyu1_Bai01_Slide.html"},{"lv":"s1","bai":2,"jp":"ゲームをするのが好きです","vi":"Tôi thích chơi game","topic":"","web":"lessons/s1/Irodori_Shokyu1_Bai02.html","slide":"lessons/s1/Irodori_Shokyu1_Bai02_Slide.html"}];

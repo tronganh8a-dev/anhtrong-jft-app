@@ -1,0 +1,42 @@
+#!/usr/bin/env python3
+# Dựng bản DÙNG THỬ (không đăng nhập): mỗi phần chỉ 2 mục → ../demo/public
+import os, json, shutil
+A = os.path.dirname(os.path.abspath(__file__)) + '/'
+P = A + '../public/'; D = A + '../demo/public/'
+if os.path.exists(D): shutil.rmtree(D)
+os.makedirs(D + 'app/data'); os.makedirs(D + 'lessons/s1')
+def load(f):
+    s = open(P + 'app/data/' + f, encoding='utf-8').read()
+    return s[s.index('=') + 1:s.index(';window.EXTLINKS') if 'EXTLINKS' in s else s.rindex(';')]
+def save(f, var, obj, extra=''):
+    open(D + 'app/data/' + f, 'w', encoding='utf-8').write(f'window.{var}=' + json.dumps(obj, ensure_ascii=False, separators=(',', ':')) + ';' + extra)
+L = [l for l in json.loads(load('lessons.js')) if l['lv'] == 's1' and l['bai'] in (1, 2)]
+save('lessons.js', 'LESSONS', L)
+for l in L:
+    for k in ('web', 'slide'): shutil.copy(P + l[k], D + l[k])
+save('exams.js', 'EXAMS', json.loads(load('exams.js'))[:2], 'window.EXTLINKS=[];')
+G = [g for g in json.loads(load('grammar.js')) if g['lv'] == '初級1' and g['bai'] in (1, 2)]
+save('grammar.js', 'GRAMMAR', G)
+S = [q for q in json.loads(load('skills.js')) if q['lv'] == 's1' and q['bai'] in (2, 3)]
+save('skills.js', 'SKILLS', S)
+W = []
+for w in json.loads(load('vocab.js'))['words']:
+    l = [x for x in w['l'] if x[0] == '初級1' and x[1] in (1, 2)]
+    if l: W.append({**w, 'l': l})
+save('vocab.js', 'VOCAB', {'words': W})
+# media chỉ những file dùng trong dữ liệu thử
+blob = ''.join(open(D + 'app/data/' + f, encoding='utf-8').read() for f in os.listdir(D + 'app/data'))
+n = 0
+for root, _, fs in os.walk(P + 'app/media'):
+    for f in fs:
+        rel = os.path.relpath(os.path.join(root, f), P)
+        if rel in blob or f in blob or ('gimg' in rel and '"'+os.path.splitext(f)[0]+'"' in blob):
+            os.makedirs(os.path.dirname(D + rel), exist_ok=True); shutil.copy(P + rel, D + rel); n += 1
+s = open(P + 'index.html', encoding='utf-8').read()
+reps = [("$('#logout').onclick=()=>{location.href='/logout'};", "$('#logout').style.display='none';"),
+        ('<main>', '<main><div style="background:#fff3b0;border:1px solid #f1c48b;color:#5a4300;border-radius:12px;padding:10px 14px;margin:0 0 14px;font-size:14px"><b>BẢN DÙNG THỬ</b> · Mỗi phần mở 2 mục (2 bài học, 2 đề, 2 bài ngữ pháp, 2 bài kỹ năng, từ vựng 2 bài). Liên hệ <b>Anh Trọng Dạy JFT</b> để học bản đầy đủ: 42 bài, 20 đề, 3.800+ từ.</div>'),
+        ('<title>', '<title>Dùng thử · ')]
+for a, b in reps:
+    assert s.count(a) >= 1, a; s = s.replace(a, b, 1)
+open(D + 'index.html', 'w', encoding='utf-8').write(s)
+print('demo:', len(L), 'bài', 2, 'đề', len(G), 'ngữ pháp', len(S), 'câu kỹ năng', len(W), 'từ', n, 'media')

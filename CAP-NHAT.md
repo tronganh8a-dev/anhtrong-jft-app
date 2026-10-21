@@ -24,3 +24,7 @@ Không nằm trong repo. Sửa trên Cloudflare: app → Settings → Variables 
   - `vocab/` từ vựng · `gram/out/*.json` ngữ pháp
   - `shrink.py` nén audio trong file bài học trước khi đưa lên (`python3 shrink.py vao.html ra.html`)
 - `auth.js`, `worker.js`, `wrangler.jsonc`, `functions/` — đăng nhập phía máy chủ
+
+## Bản dùng thử (không đăng nhập)
+- Nằm trong `demo/` (app riêng trên Cloudflare, tên `jft-dungthu`, Root directory = `demo`).
+- Dựng lại sau khi cập nhật bản chính: `python3 src/build_demo.py` (初級1 Bài 1–2, Đề 01–02, ngữ pháp 初級1 Bài 1–2, kỹ năng 初級1 Bài 2–3, từ vựng 初級1 Bài 1–2).
