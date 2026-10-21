@@ -102,10 +102,12 @@ footer{margin-top:36px;color:var(--muted);font-size:12px;border-top:1px solid va
 .lvc.on{border-color:var(--blue);box-shadow:0 0 0 3px var(--blue-soft)}.lvc.on b{color:var(--blue)}
 .hero{position:relative;overflow:hidden}
 .hero .covers{position:relative;width:250px;height:150px;flex:none}
-.hero .covers img{position:absolute;bottom:-34px;width:96px;border-radius:6px;box-shadow:0 10px 24px rgba(0,0,0,.35);transition:transform .2s}
-.hero .covers img:nth-child(1){left:0;transform:rotate(-12deg)}.hero .covers img:nth-child(2){left:50px;transform:rotate(-4deg);bottom:-24px}
-.hero .covers img:nth-child(3){left:100px;transform:rotate(4deg);bottom:-24px}.hero .covers img:nth-child(4){left:150px;transform:rotate(12deg)}
-.hero:hover .covers img:nth-child(1){transform:rotate(-15deg) translateY(-6px)}.hero:hover .covers img:nth-child(4){transform:rotate(15deg) translateY(-6px)}
+.hero .covers img{position:absolute;bottom:-34px;width:96px;border-radius:6px;box-shadow:0 10px 24px rgba(0,0,0,.35);transform-origin:50% 100%;transform:rotate(var(--r));animation:wobble 2.8s ease-in-out infinite;animation-delay:var(--d)}
+.hero .covers img:nth-child(1){left:0;--r:-12deg;--d:0s}.hero .covers img:nth-child(2){left:50px;bottom:-24px;--r:-4deg;--d:-.7s}
+.hero .covers img:nth-child(3){left:100px;bottom:-24px;--r:4deg;--d:-1.4s}.hero .covers img:nth-child(4){left:150px;--r:12deg;--d:-2.1s}
+@keyframes wobble{0%,100%{transform:rotate(var(--r)) translateY(0)}20%{transform:rotate(calc(var(--r) - 3deg)) translateY(-5px)}40%{transform:rotate(calc(var(--r) + 2.5deg)) translateY(-2px)}60%{transform:rotate(calc(var(--r) - 1.5deg)) translateY(-6px)}80%{transform:rotate(calc(var(--r) + 1deg)) translateY(-1px)}}
+.hero .covers img:hover{animation-duration:.6s;z-index:2}
+@media (prefers-reduced-motion:reduce){.hero .covers img{animation:none}}
 .secttl.phase{align-items:center;gap:10px}.secttl.phase img{width:30px;height:42px;object-fit:cover;border-radius:4px;box-shadow:0 2px 5px rgba(0,0,0,.2)}
 @media (max-width:900px){.hero .covers{display:none}}
 @media (max-width:760px){.lvcards{display:grid;grid-template-columns:1fr 1fr;gap:8px}.lvc{padding:6px 10px 6px 6px;gap:8px}.lvc img{width:36px;height:50px}.lvc b{font-size:14px}}
