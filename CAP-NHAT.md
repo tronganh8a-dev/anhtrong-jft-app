@@ -35,3 +35,7 @@ Không nằm trong repo. Sửa trên Cloudflare: app → Settings → Variables 
 
 ## Trọng âm từ vựng
 - `src/pitch/add_pitch.py` thêm trường `a` (vị trí hạ giọng) vào `public/app/data/vocab.js` từ `src/pitch/accents_sub.tsv` (trích từ Kanjium, CC BY-SA 4.0). Chạy lại sau mỗi lần `build_data.py`.
+
+## Audio từ vựng (VOICEVOX:青山龍星)
+- `src/pitch/gen_audio_voicevox.py` tạo `public/app/media/vau/<md5>.mp3` (cần voicevox_core 0.17 + 15.vvm + open_jtalk dic). Credit bắt buộc: VOICEVOX:青山龍星.
+- `src/pitch/add_examples.py` gắn câu ví dụ (trích いろどり) + link audio vào vocab.js.

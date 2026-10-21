@@ -23,12 +23,15 @@ W = []
 for w in json.loads(load('vocab.js'))['words']:
     l = [x for x in w['l'] if x[0] == '初級1' and x[1] in (1, 2)]
     if l: W.append({**w, 'l': l})
-save('vocab.js', 'VOCAB', {'words': W})
+save('vocab.js', 'VOCAB', {'words': W, 'ex': json.loads(load('vocab.js')).get('ex', [])})
 H = json.loads(load('hw.js'))[:2]
 save('hw.js', 'HW', H)
 os.makedirs(D + 'btvn/pdf', exist_ok=True)
 for h in H:
     shutil.copy(P + h['html'], D + h['html']); shutil.copy(P + h['pdf'], D + h['pdf'])
+os.makedirs(D + 'app/media/vau', exist_ok=True)
+for w in W:
+    if w.get('au') and os.path.exists(P + f"app/media/vau/{w['au']}.mp3"): shutil.copy(P + f"app/media/vau/{w['au']}.mp3", D + f"app/media/vau/{w['au']}.mp3")
 # media chỉ những file dùng trong dữ liệu thử
 blob = ''.join(open(D + 'app/data/' + f, encoding='utf-8').read() for f in os.listdir(D + 'app/data'))
 n = 0

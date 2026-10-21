@@ -30,6 +30,8 @@ for w in D['words']:
         a0, key = look(h[:-2], y[:-2])
         if a0 is not None: a = a0.split(',')[0]
     if a is not None:
+        a = ','.join(re.findall(r'\d+', str(a)))
+    if a:
         w['a'] = a; hit += 1
         if key and key[0]: used.add(key)
 open(VJ, 'w', encoding='utf-8').write('window.VOCAB=' + json.dumps(D, ensure_ascii=False, separators=(',', ':')) + ';')
