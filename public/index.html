@@ -58,7 +58,7 @@ main{min-width:0;padding:26px 34px 60px}
 .levels{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
 footer{margin-top:36px;color:var(--muted);font-size:12px;border-top:1px solid var(--line);padding-top:14px}
 /* home */
-.hero{background:linear-gradient(135deg,#0d5a8c,#0a4670);color:#fff;border-radius:var(--r);padding:26px 28px;display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center}
+.hero{background:linear-gradient(135deg,#0d5a8c,#0a4670);color:#fff;border-radius:var(--r);padding:26px 28px;display:grid;grid-template-columns:1fr auto auto;gap:18px;align-items:center}
 .hero h2{margin:0 0 6px;font-size:26px}.hero p{margin:0;color:#d4e6f3}
 .hero .stat{display:flex;gap:10px}.hero .stat div{background:rgba(255,255,255,.12);border-radius:12px;padding:10px 14px;text-align:center}.hero .stat b{display:block;font-size:22px}.hero .stat small{color:#cfe2ef;font-size:12px}
 .pass{margin-top:18px}
@@ -94,6 +94,21 @@ footer{margin-top:36px;color:var(--muted);font-size:12px;border-top:1px solid va
 .exb:hover .go{color:var(--ink)}.exb:hover .go i{transform:translateX(4px)}.exb:hover::after{transform:scale(1.15)}
 .exb:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
 @media (max-width:760px){.exg{grid-template-columns:1fr 1fr;gap:10px}.exb{min-height:128px;padding:14px}.exb .num{font-size:40px}.exb .go{font-size:12px}}
+.lvcards{gap:12px;margin-bottom:18px}
+.lvc{display:flex;align-items:center;gap:12px;border:1.5px solid var(--line);background:var(--paper);border-radius:14px;padding:8px 16px 8px 8px;cursor:pointer;text-align:left;color:var(--ink);transition:border-color .15s,box-shadow .15s,transform .15s}
+.lvc img{width:46px;height:64px;object-fit:cover;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,.18);flex:none}
+.lvc b{display:block;font-size:16px}.lvc small{color:var(--muted);font-size:12.5px;font-weight:600}
+.lvc:hover{transform:translateY(-2px);box-shadow:var(--sh)}
+.lvc.on{border-color:var(--blue);box-shadow:0 0 0 3px var(--blue-soft)}.lvc.on b{color:var(--blue)}
+.hero{position:relative;overflow:hidden}
+.hero .covers{position:relative;width:250px;height:150px;flex:none}
+.hero .covers img{position:absolute;bottom:-34px;width:96px;border-radius:6px;box-shadow:0 10px 24px rgba(0,0,0,.35);transition:transform .2s}
+.hero .covers img:nth-child(1){left:0;transform:rotate(-12deg)}.hero .covers img:nth-child(2){left:50px;transform:rotate(-4deg);bottom:-24px}
+.hero .covers img:nth-child(3){left:100px;transform:rotate(4deg);bottom:-24px}.hero .covers img:nth-child(4){left:150px;transform:rotate(12deg)}
+.hero:hover .covers img:nth-child(1){transform:rotate(-15deg) translateY(-6px)}.hero:hover .covers img:nth-child(4){transform:rotate(15deg) translateY(-6px)}
+.secttl.phase{align-items:center;gap:10px}.secttl.phase img{width:30px;height:42px;object-fit:cover;border-radius:4px;box-shadow:0 2px 5px rgba(0,0,0,.2)}
+@media (max-width:900px){.hero .covers{display:none}}
+@media (max-width:760px){.lvcards{display:grid;grid-template-columns:1fr 1fr;gap:8px}.lvc{padding:6px 10px 6px 6px;gap:8px}.lvc img{width:36px;height:50px}.lvc b{font-size:14px}}
 .sched{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:18px;border-left:4px solid var(--pink)}
 .sched .jp{font-size:12px;color:var(--muted);margin-left:8px}.sched p{margin:4px 0 0;color:var(--muted);font-size:14px}
 .sched .sbtn{display:flex;gap:10px;flex-wrap:wrap}.sched .btn{text-decoration:none}
@@ -348,8 +363,9 @@ body.locked .app{filter:blur(6px);pointer-events:none}
 <!-- HOME -->
 <section class="screen on" id="home">
   <div class="hero">
-    <div><h2>Học và luyện thi JFT-Basic</h2><p>Bài học いろどり qua slide, đề thi thử giao diện CBT, luyện từng kỹ năng và từ vựng theo từng bài.</p></div>
+    <div><h2>Học và Luyện thi JFT - Anh Trọng Dạy JFT</h2></div>
     <div class="stat" id="homeStat"></div>
+    <div class="covers" aria-hidden="true"><img src="app/media/cover/nyumon.jpg" alt=""><img src="app/media/cover/s1.jpg" alt=""><img src="app/media/cover/s2.jpg" alt=""><img src="app/media/cover/sc.jpg" alt=""></div>
   </div>
   <div class="card sched">
     <div><b>Xem lịch thi JFT-Basic</b><span class="jp">試験日程 · Prometric</span><p>Lịch thi và chỗ trống cập nhật trên trang chính thức của Prometric.</p></div>
@@ -378,7 +394,7 @@ body.locked .app{filter:blur(6px);pointer-events:none}
     <div class="card"><b>Phần nghe</b><p>Mỗi câu nghe tối đa 2 lần. Đọc câu hỏi trước khi bấm nghe.</p></div>
     <div class="card"><b>Mẹo học</b><p>Học slide → ôn từ vựng bài đó → luyện kỹ năng bài đó → làm đề thử.</p></div>
   </div>
-  <footer>© 2026 Anh Trọng Dạy JFT · 出典：国際交流基金『いろどり 生活の日本語』。本文・イラスト・音声の著作権は国際交流基金に帰属します。</footer>
+  <footer>© 2026 Anh Trọng Dạy JFT · 出典：国際交流基金『いろどり 生活の日本語』。本文・イラスト・音声・表紙の著作権は国際交流基金に帰属します。</footer>
 </section>
 
 <!-- LEARN -->
@@ -505,11 +521,14 @@ function go(id){$$('.screen').forEach(s=>s.classList.toggle('on',s.id===id));con
 document.addEventListener('click',e=>{const b=e.target.closest('[data-go]');if(b)go(b.dataset.go)});
 const LV={s1:'初級1 (A2)',s2:'初級2 (A2)',sc:'初中級 (A2/B1)'};
 $('#homeStat').innerHTML=`<div><b>${LESSONS.length}</b><small>bài học</small></div><div><b>${EXAMS.length}</b><small>đề thi</small></div><div><b>${SKILLS.length}</b><small>câu kỹ năng</small></div><div><b>${VOCAB.words.length}</b><small>từ vựng</small></div>`;
+const CV={s1:'s1',s2:'s2',sc:'sc','入門':'nyumon','初級1':'s1','初級2':'s2','初中級':'sc'};
+const CVL={nyumon:['入門','A1'],s1:['初級1','A2'],s2:['初級2','A2'],sc:['初中級','A2/B1']};
+function lvCards(el,list,cur,cb){el.classList.add('lvcards');el.innerHTML=list.map(([k,sub])=>{const c=CV[k],L=CVL[c];return `<button class="lvc${k===cur?' on':''}" data-k="${k}" type="button" aria-pressed="${k===cur}"><img src="app/media/cover/${c}.jpg" alt="Bìa いろどり ${L[0]}" loading="lazy"><span><b class="jp">${L[0]}</b><small>${L[1]}${sub?' · '+sub:''}</small></span></button>`}).join('');el.onclick=e=>{const b=e.target.closest('.lvc');if(b)cb(b.dataset.k)}}
 function pills(el,list,cur,cb){el.innerHTML=list.map(([k,l])=>`<button class="pill${k===cur?' on':''}" data-k="${k}" type="button">${l}</button>`).join('');el.onclick=e=>{const b=e.target.closest('.pill');if(b)cb(b.dataset.k)}}
 
 /* ===== learn ===== */
 let lvL='s1';
-function renderLearn(){pills($('#lvLearn'),Object.entries(LV),lvL,k=>{lvL=k;renderLearn()});
+function renderLearn(){lvCards($('#lvLearn'),Object.keys(LV).map(k=>[k,LESSONS.filter(l=>l.lv===k).length+' bài']),lvL,k=>{lvL=k;renderLearn()});
  $('#lgrid').innerHTML=LESSONS.filter(l=>l.lv===lvL).map(l=>`<div class="lc${l.web?'':' soon'}"><span class="no">Bài ${l.bai}<span class="tag gray">${esc(l.topic||'')}</span></span><span class="ttl jp">${esc(l.jp)}</span><small>${esc(l.vi)}</small><div class="acts">${l.slide?`<button class="btn sm" data-view="${l.lv}|${l.bai}|slide" type="button">▶ Slide</button>`:''}${l.web?`<button class="btn sm ghost" data-view="${l.lv}|${l.bai}|web" type="button">Web bài học</button>`:'<span class="tag gray">Sắp có</span>'}<button class="btn sm ghost" data-skill="${l.lv}|${l.bai}" type="button">Luyện kỹ năng</button><button class="btn sm ghost" data-voc="${l.lv}|${l.bai}" type="button">Từ vựng</button></div></div>`).join('')}
 let VW=null;
 function openViewer(lv,b,kind){const l=LESSONS.find(x=>x.lv===lv&&x.bai==b);if(!l)return;VW={l,kind};go('viewer');showViewer()}
@@ -627,7 +646,7 @@ function kana(s){return String(s??'').replace(/\{([^{}|]+)\|([^{}]+)\}/g,'$2')}
 function norm(s){return String(s).replace(/<[^>]+>/g,'').replace(/[\s　、。．，,.!！?？「」『』（）()〜～~・:：\-ー＿_]/g,'').replace(/[Ａ-Ｚａ-ｚ０-９]/g,c=>String.fromCharCode(c.charCodeAt(0)-0xFEE0)).toLowerCase()}
 function wsAudio(lv,f){const k={'入門':'X','初級1':'Y','初級2':'Z'}[lv];return f&&k?`https://www.irodori.jpf.go.jp/assets/data/worksheet/audio/worksheet_${k}/${f}`:null}
 function renderGram(){if(!window.GRAMMAR){$('#gArea').innerHTML='<p class="muted">Chưa có dữ liệu ngữ pháp.</p>';return}
- pills($('#lvGram'),GLV.map(x=>[x,x]),gLv,k=>{gLv=k;gBai=null;renderGram()});
+ lvCards($('#lvGram'),GLV.map(x=>[x,(window.GRAMMAR?GRAMMAR.filter(g=>g.lv===x).length:0)+' bài']),gLv,k=>{gLv=k;gBai=null;renderGram()});
  const L=GRAMMAR.filter(g=>g.lv===gLv).sort((a,b)=>a.bai-b.bai);if(gBai==null&&L.length)gBai=L[0].bai;
  $('#baiGram').innerHTML=L.map(g=>`<button class="chip${g.bai===gBai?' on':''}" data-b="${g.bai}" type="button">Bài ${g.bai}</button>`).join('');
  $('#baiGram').onclick=e=>{const c=e.target.closest('[data-b]');if(c){gBai=+c.dataset.b;renderGram();window.scrollTo(0,0)}};
@@ -674,7 +693,7 @@ $('#gJp').onclick=()=>{document.body.classList.toggle('gjp');$('#gJp').textConte
 
 /* ===== skills ===== */
 let skLv='s1',skSec='listen';
-function renderSkill(){pills($('#lvSkill'),Object.entries(LV),skLv,k=>{skLv=k;renderSkill()});
+function renderSkill(){lvCards($('#lvSkill'),Object.keys(LV).map(k=>[k,SKILLS.filter(q=>q.lv===k).length+' câu']),skLv,k=>{skLv=k;renderSkill()});
  pills($('#secSkill'),[['listen','聴解 · Nghe'],['read','読解 · Đọc']],skSec,k=>{skSec=k;renderSkill()});
  const pool=SKILLS.filter(q=>q.lv===skLv&&q.sec===skSec);
  $('#rndSkill').innerHTML=`<button class="btn" id="rnd10" type="button">Làm 10 câu ngẫu nhiên</button><span class="muted" style="align-self:center">${pool.length} câu ${skSec==='listen'?'nghe':'đọc'} · ${LV[skLv]}</span>`;
@@ -689,7 +708,7 @@ const VLV=['入門','初級1','初級2'];
 function speak(t){try{const u=new SpeechSynthesisUtterance(t);u.lang='ja-JP';u.rate=.9;speechSynthesis.cancel();speechSynthesis.speak(u)}catch(e){}}
 function wordsOf(lv,b){const o=w=>(w.l.find(x=>x[0]===lv&&x[1]===b)||[0,0,0])[2];return VOCAB.words.filter(w=>w.l.some(x=>x[0]===lv&&x[1]===b)).sort((a,c)=>o(a)-o(c))}
 function furi(w){return w.k?`<ruby>${esc(w.h)}<rt>${esc(w.y)}</rt></ruby>`:esc(w.h)}
-function renderVocab(){pills($('#lvVocab'),VLV.map(x=>[x,x]),vLv,k=>{vLv=k;vBai=1;vIdx=0;renderVocab()});
+function renderVocab(){lvCards($('#lvVocab'),VLV.map(x=>[x,VOCAB.words.filter(w=>w.l.some(y=>y[0]===x)).length+' từ']),vLv,k=>{vLv=k;vBai=1;vIdx=0;renderVocab()});
  const bais=[...new Set(VOCAB.words.flatMap(w=>w.l.filter(x=>x[0]===vLv).map(x=>x[1])))].sort((a,b)=>a-b);
  $('#baiVocab').innerHTML=bais.map(b=>`<button class="chip${b===vBai?' on':''}" data-b="${b}" type="button">Bài ${b}</button>`).join('');
  $('#baiVocab').onclick=e=>{const c=e.target.closest('[data-b]');if(c){vBai=+c.dataset.b;vIdx=0;renderVocab()}};
@@ -723,8 +742,8 @@ $('#furiBtn').onclick=()=>{document.body.classList.toggle('nofuri');$('#furiBtn'
 /* ===== homework ===== */
 function hwDone(no){try{const v=JSON.parse(localStorage.getItem('btvn-'+no)||'{}');return !!v.done}catch(e){return false}}
 function renderHw(){if(!window.HW){$('#hwList').innerHTML='<p class="muted">Chưa có bài tập.</p>';return}
- const G=[['初級1','Giai đoạn 1 · 初級1',x=>x.no<=9],['初級2','Giai đoạn 2 · 初級2',x=>x.no>=10&&x.no<=18],['Luyện đề','Giai đoạn 3 · Luyện đề',x=>x.no>=19]];
- $('#hwList').innerHTML=G.map(([k,t,f])=>{const L=HW.filter(f);if(!L.length)return '';return `<div class="secttl">${t}</div><div class="elist">`+L.map(x=>`<div class="ec"><small>Buổi ${String(x.no).padStart(2,'0')} · ${esc(x.lvj)} · ${esc(x.bai)}</small><b><span class="jp">${esc(x.tj)}</span> ${esc(x.tv)}</b><small class="jp">${esc(x.sub)}</small><div class="meta"><span class="tag">${x.total} câu</span>${hwDone(x.no)?'<span class="tag" style="background:var(--ok-soft);color:var(--ok)">Đã nộp</span>':''}</div><div style="display:flex;gap:8px;margin-top:4px"><button class="btn sm" data-hw="${x.no}" type="button">✎ Làm bài</button><a class="btn sm ghost" href="${x.pdf}" download>⬇ PDF</a></div></div>`).join('')+'</div>'}).join('')}
+ const G=[['s1','Giai đoạn 1 · 初級1',x=>x.no<=9],['s2','Giai đoạn 2 · 初級2',x=>x.no>=10&&x.no<=18],['','Giai đoạn 3 · Luyện đề',x=>x.no>=19]];
+ $('#hwList').innerHTML=G.map(([k,t,f])=>{const L=HW.filter(f);if(!L.length)return '';return `<div class="secttl phase">${k?`<img src="app/media/cover/${k}.jpg" alt="">`:''}<span>${t}</span></div><div class="elist">`+L.map(x=>`<div class="ec"><small>Buổi ${String(x.no).padStart(2,'0')} · ${esc(x.lvj)} · ${esc(x.bai)}</small><b><span class="jp">${esc(x.tj)}</span> ${esc(x.tv)}</b><small class="jp">${esc(x.sub)}</small><div class="meta"><span class="tag">${x.total} câu</span>${hwDone(x.no)?'<span class="tag" style="background:var(--ok-soft);color:var(--ok)">Đã nộp</span>':''}</div><div style="display:flex;gap:8px;margin-top:4px"><button class="btn sm" data-hw="${x.no}" type="button">✎ Làm bài</button><a class="btn sm ghost" href="${x.pdf}" download>⬇ PDF</a></div></div>`).join('')+'</div>'}).join('')}
 $('#hwList').addEventListener('click',e=>{const b=e.target.closest('[data-hw]');if(!b)return;const x=HW.find(h=>h.no==b.dataset.hw);
  $('#hwTitle').textContent=`Buổi ${String(x.no).padStart(2,'0')} · ${x.tj}`;$('#hwSub').textContent=`${x.tv} · ${x.lvj} · ${x.bai}`;
  $('#hwPdf').href=x.pdf;$('#hwOpen').href=x.html;$('#hwFrame').src=x.html;go('hwv')});
