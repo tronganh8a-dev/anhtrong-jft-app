@@ -24,7 +24,7 @@ def look(h, y):
 s = open(VJ, encoding='utf-8').read(); D = json.loads(s[s.index('=') + 1:s.rindex(';')])
 used = set(); hit = 0
 for w in D['words']:
-    h, y = clean(w['h']), clean(w['y']); w.pop('a', None)
+    h, y = clean(w['h']), clean(w['y']); w.pop('a', None); w.pop('e', None)
     a, key = look(h, y)
     if a is None and h.endswith('する') and y.endswith('する') and len(h) > 2:
         a0, key = look(h[:-2], y[:-2])

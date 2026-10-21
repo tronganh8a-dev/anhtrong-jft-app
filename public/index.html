@@ -733,13 +733,13 @@ function renderVocab(){lvCards($('#lvVocab'),VLV.map(x=>[x,VOCAB.words.filter(w=
  $('#baiVocab').onclick=e=>{const c=e.target.closest('[data-b]');if(c){vBai=+c.dataset.b;vIdx=0;renderVocab()}};
  pills($('#vmodes'),[['card','Flashcard'],['mean','Trắc nghiệm nghĩa'],['read','Chọn cách đọc'],['listen','Nghe chọn từ']],vMode,k=>{vMode=k;vIdx=0;renderVocab()});
  vList=wordsOf(vLv,vBai);$('#vListTtl').textContent=`${vLv} · Bài ${vBai}`;$('#vCount').textContent=vList.length+' từ';renderWL();renderVArea()}
-function renderWL(){const q=$('#vSearch').value.trim().toLowerCase();const src=q?VOCAB.words.filter(w=>(w.h+w.y+w.v+(w.e||'')).toLowerCase().includes(q)).slice(0,200):vList;
+function renderWL(){const q=$('#vSearch').value.trim().toLowerCase();const src=q?VOCAB.words.filter(w=>(w.h+w.y+w.v).toLowerCase().includes(q)).slice(0,200):vList;
  $('#wl').innerHTML=src.map(w=>`<li><span class="jp">${furi(w)}${w.hv?`<small>${esc(w.hv)}</small>`:''}${w.a!=null?`<small class="wp">${pitch(w)}</small>`:''}</span><span>${esc(w.v)}<small>${q?esc(w.l.map(x=>x[0]+' B'+x[1]).join(', ')):''}</small></span></li>`).join('')||'<li class="muted">Không có từ.</li>'}
 $('#vSearch').oninput=renderWL;
 function renderVArea(){const A=$('#vArea');if(!vList.length){A.innerHTML='<div class="card muted">Bài này chưa có từ.</div>';return}
  const w=vList[vIdx%vList.length];
  if(vMode==='card'){A.innerHTML=`<div class="fc" id="fc" role="button" tabindex="0" aria-label="Lật thẻ"><div class="fc-in"><div class="face front"><span class="tag gray cnt">${vIdx%vList.length+1} / ${vList.length}</span><div class="w jp">${furi(w)}</div><button class="spk" data-sp="1" type="button">🔊 Nghe</button><span class="hint">Chạm để lật thẻ</span></div>
-  <div class="face back">${w.hv?`<div class="hv">${esc(w.hv)}</div>`:''}<div class="y jp">${pitch(w,true)}</div>${w.a!=null?`<div class="ptn">${ptName(+String(w.a).split(',')[0],moras(w.y).length)}</div>`:''}<div class="mean">${esc(w.v)}</div>${w.e?`<div class="en">${esc(w.e)}</div>`:''}<button class="spk" data-sp="1" type="button">🔊 Nghe</button><span class="hint">Chạm để lật lại</span></div></div></div>
+  <div class="face back">${w.hv?`<div class="hv">${esc(w.hv)}</div>`:''}<div class="y jp">${pitch(w,true)}</div>${w.a!=null?`<div class="ptn">${ptName(+String(w.a).split(',')[0],moras(w.y).length)}</div>`:''}<div class="mean">${esc(w.v)}</div><button class="spk" data-sp="1" type="button">🔊 Nghe</button><span class="hint">Chạm để lật lại</span></div></div></div>
   <div class="fcbar"><button type="button" id="vPrev">← Trước</button><button type="button" id="vShuf">Trộn thẻ</button><button type="button" id="vNext">Tiếp →</button></div>`;
   $('#fc').onclick=e=>{if(e.target.closest('[data-sp]')){speak(w.y);return}$('#fc').classList.toggle('flip')};
   $('#fc').onkeydown=e=>{if(e.key===' '||e.key==='Enter'){e.preventDefault();$('#fc').classList.toggle('flip')}};
