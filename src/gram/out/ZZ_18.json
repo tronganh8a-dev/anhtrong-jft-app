@@ -1,0 +1,299 @@
+{
+ "lv": "初中級",
+ "bai": 18,
+ "title": "働かせていただければ、うれしいです",
+ "title_vi": "Nếu được làm việc ở đây thì tôi rất vui",
+ "points": [
+  {
+   "no": "❶",
+   "pattern": "V-ていた",
+   "meaning_vi": "đã (từng) V từ trước (một thời điểm trong quá khứ)",
+   "examples": [
+    {
+     "jp": "アルバイトを{始|はじ}める{前|まえ}は、{夜|よる}のシフトはつらいって{聞|き}いていたんですけど、そんなことないですよ。",
+     "vi": "Trước khi bắt đầu làm thêm, mình đã nghe nói ca đêm vất vả lắm, nhưng thực ra không phải vậy đâu."
+    }
+   ],
+   "explain_vi": [
+    "「V-ていた」 dùng khi nói về việc xảy ra trước một thời điểm nào đó trong quá khứ. Trong câu ví dụ trên, việc nghe nói ca đêm vất vả đã xảy ra trước khi bắt đầu làm thêm.",
+    "Sơ đồ: 夜のシフトはつらいと聞いた (nghe nói ca đêm vất vả) ➡ アルバイトを始めた (bắt đầu làm thêm = một thời điểm trong quá khứ) ➡ 発話時 (thời điểm nói)."
+   ],
+   "explain_jp": [
+    "「V-ていた」は、過去のある時点よりももっと前のことを言うときに使います。上の例文では、夜のシフトはつらいと聞いたのは、アルバイトを始める前のことだと言っています。",
+    "夜のシフトはつらいと聞いた ➡ アルバイトを始めた（過去のある時点） ➡ 発話時"
+   ],
+   "more_examples": [
+    {
+     "jp": "{日本|にほん}に{来|く}る{前|まえ}から、その{会社|かいしゃ}の{名前|なまえ}は{知|し}っていました。",
+     "vi": "Từ trước khi đến Nhật, tôi đã biết tên công ty đó rồi."
+    },
+    {
+     "jp": "{日本|にほん}で{働|はたら}くことが{決|き}まっていたから、{日本語学校|にほんごがっこう}に{入|はい}りました。",
+     "vi": "Vì đã được quyết định sẽ làm việc ở Nhật nên tôi đã vào trường tiếng Nhật."
+    }
+   ],
+   "worksheet": [],
+   "quiz": [
+    {
+     "q": "面接を受ける前から、その会社のことはよく（　）。",
+     "o": [
+      "知りました",
+      "知ります",
+      "知っていました"
+     ],
+     "a": 2,
+     "ex_vi": "Việc \"biết\" đã có từ trước thời điểm phỏng vấn trong quá khứ → 「知っていました」."
+    },
+    {
+     "q": "日本に来る前は、日本の夏はこんなに暑くないと（　）んですが、本当に暑いですね。",
+     "o": [
+      "思おう",
+      "思っていた",
+      "思う"
+     ],
+     "a": 1,
+     "ex_vi": "Suy nghĩ có từ trước khi đến Nhật (thời điểm trong quá khứ) → 「V-ていた」: 「思っていた」."
+    },
+    {
+     "q": "会社に着いたとき、会議はもう（　）。",
+     "o": [
+      "始まっていた",
+      "始めていた",
+      "始まる"
+     ],
+     "a": 0,
+     "ex_vi": "Lúc mình đến công ty (quá khứ), cuộc họp đã bắt đầu từ trước → 「始まっていた」. Chủ ngữ 会議 nên dùng tự động từ 始まる."
+    },
+    {
+     "q": "入社する前から、介護の仕事がしたいと（　）。",
+     "o": [
+      "考えます",
+      "考えましょう",
+      "考えていました"
+     ],
+     "a": 2,
+     "ex_vi": "Mong muốn đã có từ trước khi vào công ty → 「考えていました」."
+    }
+   ]
+  },
+  {
+   "no": "❷",
+   "pattern": "S（普通形）はずだ",
+   "meaning_vi": "chắc chắn là S, lẽ ra là S (suy đoán có căn cứ)",
+   "examples": [
+    {
+     "jp": "{問題|もんだい}はないはずですが、もし、トラブルなどがあって、もう{少|すこ}し{時間|じかん}が{必要|ひつよう}になりそうな{場合|ばあい}は、どうすればいいですか？",
+     "vi": "Chắc là sẽ không có vấn đề gì, nhưng nếu có sự cố và có vẻ cần thêm chút thời gian thì tôi nên làm thế nào ạ?"
+    }
+   ],
+   "explain_vi": [
+    "Đây là cách nói suy đoán khi có căn cứ và có niềm tin mạnh rằng chắc chắn là như vậy.",
+    "Nối với thể thông thường (普通形). Với danh từ và tính từ ナ thì thành 「Nのはず」「ナA-なはず」."
+   ],
+   "explain_jp": [
+    "根拠があり、きっとそうだろうという強い確信があるときの推量の言い方です。",
+    "普通形に接続します。名詞・ナ形容詞は、「Nのはず」「ナA-なはず」となります。"
+   ],
+   "more_examples": [
+    {
+     "jp": "Ａ：{田中|たなか}さん、{今日|きょう}は{出勤|しゅっきん}のはずですが、まだ{来|き}ていませんね。　Ｂ：さっき、{遅刻|ちこく}すると{連絡|れんらく}がありました。",
+     "vi": "A: Hôm nay chị Tanaka lẽ ra phải đi làm, mà vẫn chưa đến nhỉ.　B: Lúc nãy chị ấy đã liên lạc báo sẽ đến muộn."
+    },
+    {
+     "jp": "その{仕事|しごと}は、シティさんが{得意|とくい}なはずだから、{彼女|かのじょ}に{任|まか}せよう。",
+     "vi": "Việc đó chắc chắn chị Siti làm giỏi, nên giao cho chị ấy đi."
+    },
+    {
+     "jp": "{今日|きょう}の{午後|ごご}、お{客様|きゃくさま}から{連絡|れんらく}があるはずなので、{連絡|れんらく}が{来|き}たら{教|おし}えてください。",
+     "vi": "Chiều nay chắc chắn sẽ có liên lạc từ khách hàng, nên khi có liên lạc thì báo cho tôi nhé."
+    }
+   ],
+   "worksheet": [],
+   "quiz": [
+    {
+     "q": "リンさんは毎日練習しているから、明日の試験は（　）はずです。",
+     "o": [
+      "大丈夫だ",
+      "大丈夫な",
+      "大丈夫の"
+     ],
+     "a": 1,
+     "ex_vi": "Tính từ ナ + はず → 「ナA-なはず」: 「大丈夫なはずです」."
+    },
+    {
+     "q": "今日は日曜日だから、銀行は（　）はずです。",
+     "o": [
+      "休みな",
+      "休みだ",
+      "休みの"
+     ],
+     "a": 2,
+     "ex_vi": "Danh từ + はず → 「Nのはず」: 「休みのはずです」."
+    },
+    {
+     "q": "荷物は昨日送ったので、今日中に（　）はずです。",
+     "o": [
+      "届きます",
+      "届く",
+      "届いて"
+     ],
+     "a": 1,
+     "ex_vi": "Có căn cứ (đã gửi hôm qua) → suy đoán chắc chắn; 「はず」 nối với thể thông thường: 「届くはずです」."
+    },
+    {
+     "q": "鍵はかばんに入れた（　）なのに、見つからない。",
+     "o": [
+      "はず",
+      "そう",
+      "よう"
+     ],
+     "a": 0,
+     "ex_vi": "Người nói chắc chắn (có căn cứ) là đã bỏ chìa khóa vào túi → 「入れたはずなのに」 (lẽ ra là đã bỏ vào...)."
+    }
+   ]
+  },
+  {
+   "no": "❸",
+   "pattern": "尊敬語と謙譲語",
+   "meaning_vi": "tôn kính ngữ và khiêm nhường ngữ",
+   "examples": [
+    {
+     "jp": "{例|たと}えば、この{間|あいだ}は、{雨|あめ}の{日|ひ}にタクシーでお{着|つ}きになったお{客様|きゃくさま}がいらっしゃったんです。",
+     "vi": "Ví dụ như hôm trước, có một vị khách đến bằng taxi vào ngày mưa."
+    },
+    {
+     "jp": "こちらでもう{少|すこ}し{検討|けんとう}して、また{改|あらた}めてご{連絡|れんらく}してもいいですか？",
+     "vi": "Chúng tôi xin cân nhắc thêm một chút, rồi sẽ liên lạc lại với anh/chị sau được không ạ?"
+    }
+   ],
+   "explain_vi": [
+    "Trong『初中級』, các em đã học về tôn kính ngữ và khiêm nhường ngữ. Tôn kính ngữ và khiêm nhường ngữ được người nói dùng để bày tỏ sự kính trọng với người bề trên (bao gồm cả khách hàng và người mới gặp lần đầu). Hai loại này được dùng phân biệt tùy theo việc nói về hành động của người bề trên hay hành động của chính mình.",
+    "Tôn kính ngữ dùng cho hành động, trạng thái của người bề trên. Dùng tôn kính ngữ sẽ nâng người bề trên lên cao hơn người nói, qua đó thể hiện sự kính trọng. (Ví dụ: お客様（目上の人）← 敬意 ― 私（話し手）: いらっしゃいます（来る）)",
+    "Khiêm nhường ngữ dùng khi nói về hành động mà người nói làm đối với người bề trên. Dùng khiêm nhường ngữ, kết quả là nâng người bề trên lên và thể hiện sự kính trọng. (Ví dụ: 参ります（行く）)",
+    "Kính ngữ không phải dùng để làm rõ quan hệ trên dưới, mà xuất phát từ tấm lòng muốn tôn trọng đối phương. Người ta nói rằng ngay cả với người Nhật, dùng thành thạo kính ngữ cũng rất khó. Hãy bắt đầu nhớ từ những câu mình hay dùng và dần dần dùng được nhiều hơn nhé. (Ví dụ: お客様がいらっしゃいました ― Khách đã đến rồi ạ／すぐに参ります ― Tôi sẽ đến ngay ạ)"
+   ],
+   "explain_jp": [
+    "『初中級』では、尊敬語と謙譲語について勉強しました。尊敬語と謙譲語は、話し手が目上の人（お客様や初対面の人も含む）に対して、敬意を表すときに使います。尊敬語と謙譲語は、目上の人がすることについて言うのか、自分がすることについて言うのかによって使い分けます。",
+    "尊敬語は、目上の人の動作や状態に対して使います。尊敬語を使うことで、話し手よりも目上の人を高め、敬意を表すことができます。（お客様（目上の人）／私（話し手）：いらっしゃいます（来る））",
+    "謙譲語は、目上の人に対して、話し手がする動作を言うときに使います。謙譲語を使うことで、結果的に目上の人を高め、敬意を表すことができます。（参ります（行く））",
+    "敬語は、上下関係を明確にするために使うのではなく、相手を尊重しようという気持ちから使うものです。敬語は、日本人にとっても使いこなすことが難しいと言われています。自分がよく使うものから覚えて、少しずつ使えるようにしていきましょう。（お客様がいらっしゃいました／すぐに参ります）"
+   ],
+   "more_examples": [],
+   "worksheet": [],
+   "quiz": [
+    {
+     "q": "「社長は、もう会議室に（　）か。」",
+     "o": [
+      "おります",
+      "参ります",
+      "いらっしゃいます"
+     ],
+     "a": 2,
+     "ex_vi": "Nói về hành động/trạng thái của người bề trên (社長) → tôn kính ngữ 「いらっしゃいます」."
+    },
+    {
+     "q": "「明日の10時に、そちらへ（　）。」",
+     "o": [
+      "お越しになります",
+      "いらっしゃいます",
+      "伺います"
+     ],
+     "a": 2,
+     "ex_vi": "Người nói tự mình đến chỗ đối phương → khiêm nhường ngữ 「伺います」."
+    },
+    {
+     "q": "「お客様、こちらのメニューを（　）ください。」",
+     "o": [
+      "拝見",
+      "お見",
+      "ご覧"
+     ],
+     "a": 2,
+     "ex_vi": "Hành động \"xem\" của khách → tôn kính ngữ 「ご覧ください」. 「拝見」 là khiêm nhường ngữ, chỉ dùng cho mình."
+    },
+    {
+     "q": "「部長、その資料は私が（　）。」",
+     "o": [
+      "持たれます",
+      "お持ちします",
+      "お持ちになります"
+     ],
+     "a": 1,
+     "ex_vi": "Hành động của chính mình làm cho cấp trên → khiêm nhường ngữ 「お持ちします」."
+    }
+   ]
+  },
+  {
+   "no": "◆",
+   "pattern": "敬語のまとめ",
+   "meaning_vi": "tổng kết kính ngữ",
+   "examples": [
+    {
+     "jp": "{例|たと}えば、この{間|あいだ}は、{雨|あめ}の{日|ひ}にタクシーでお{着|つ}きになったお{客様|きゃくさま}がいらっしゃったんです。",
+     "vi": "Ví dụ như hôm trước, có một vị khách đến bằng taxi vào ngày mưa. (尊敬の動詞／おVになる)"
+    },
+    {
+     "jp": "アリニさんは、リバティホテルにお{勤|つと}めだって{聞|き}いてますが、{今|いま}、どんな{仕事|しごと}をしているか、{教|おし}えてもらえますか？",
+     "vi": "Tôi nghe nói chị Arini đang làm việc ở khách sạn Liberty, chị có thể cho biết hiện chị đang làm công việc gì không? (おVです)"
+    },
+    {
+     "jp": "{仕事|しごと}で{利用|りよう}されるお{客様|きゃくさま}が{多|おお}いし、お{客様|きゃくさま}とちょっと{遠|とお}い{感|かん}じがします。",
+     "vi": "Nhiều khách sử dụng vì công việc, nên tôi thấy hơi xa cách với khách. (V-（ら）れる)"
+    },
+    {
+     "jp": "それで、そんな{話|はなし}を{竹内|たけうち}さんにしたら、ながさわ{旅館|りょかん}を{紹介|しょうかい}してくださったんです。",
+     "vi": "Thế là khi tôi kể chuyện đó với anh Takeuchi, anh ấy đã giới thiệu cho tôi lữ quán Nagasawa. (V-てくださる)"
+    },
+    {
+     "jp": "{今日|きょう}は、お{時間|じかん}をいただいて、ありがとうございます。",
+     "vi": "Cảm ơn anh/chị hôm nay đã dành thời gian cho tôi. (謙譲の動詞)"
+    },
+    {
+     "jp": "それで、{日本|にほん}の{旅館|りょかん}に{泊|と}まったとき、ホテルより{旅館|りょかん}のほうがお{客様|きゃくさま}とお{話|はな}しする{機会|きかい}があって、もっと{私|わたし}に{向|む}いていると{思|おも}いました。",
+     "vi": "Rồi khi trọ ở lữ quán Nhật, tôi thấy ở lữ quán có nhiều cơ hội nói chuyện với khách hơn khách sạn, nên nghĩ nó hợp với mình hơn. (おVする)"
+    },
+    {
+     "jp": "こちらでもう{少|すこ}し{検討|けんとう}して、また{改|あらた}めてご{連絡|れんらく}してもいいですか？",
+     "vi": "Chúng tôi xin cân nhắc thêm một chút rồi liên lạc lại sau được không ạ? (ごVする)"
+    },
+    {
+     "jp": "{働|はたら}かせていただければ、うれしいです。",
+     "vi": "Nếu được cho phép làm việc thì tôi rất vui. (V-（さ）せていただく)"
+    },
+    {
+     "jp": "それで、{私|わたし}は{傘|かさ}をさして、お{車|くるま}から{玄関|げんかん}までいっしょに{行|い}ったんですが、とても{喜|よろこ}んでいただきました。",
+     "vi": "Thế là tôi che ô, đi cùng khách từ xe đến tận cửa ra vào, và khách đã rất vui. (V-ていただく)"
+    }
+   ],
+   "explain_vi": [
+    "Tôn kính ngữ (尊敬語):",
+    "　・Động từ tôn kính (尊敬の動詞) → Bài 8 ❷",
+    "　・おVになる → Bài 11 ❹",
+    "　・おVです → Bài 12 ❶",
+    "　・V-（ら）れる → Bài 12 ❷",
+    "　・V-てくださる → Bài 13 ❹",
+    "Khiêm nhường ngữ (謙譲語):",
+    "　・Động từ khiêm nhường (謙譲の動詞) → Bài 16 ❹",
+    "　・おVする／ごVする → Bài 16 ❺",
+    "　・V-（さ）せていただく → Bài 13 ❺",
+    "　・V-ていただく → Bài 13 ❹"
+   ],
+   "explain_jp": [
+    "尊敬語：",
+    "　・尊敬の動詞 →第8課➋",
+    "　・おVになる →第11課➍",
+    "　・おVです →第12課➊",
+    "　・V-（ら）れる →第12課➋",
+    "　・V-てくださる →第13課➍",
+    "謙譲語：",
+    "　・謙譲の動詞 →第16課➍",
+    "　・おVする／ごVする →第16課➎",
+    "　・V-（さ）せていただく →第13課➎",
+    "　・V-ていただく →第13課➍"
+   ],
+   "more_examples": [],
+   "worksheet": [],
+   "quiz": []
+  }
+ ]
+}

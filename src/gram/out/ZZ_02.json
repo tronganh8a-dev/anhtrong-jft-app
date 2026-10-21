@@ -1,0 +1,378 @@
+{
+ "lv": "初中級",
+ "bai": 2,
+ "title": "ドラマを見るのがいちばん好きです",
+ "title_vi": "Tôi thích xem phim truyền hình nhất",
+ "points": [
+  {
+   "no": "❶",
+   "pattern": "S（普通形）でしょう？",
+   "meaning_vi": "…đúng không? / …nhỉ? (mong người nghe đồng tình, xác nhận)",
+   "examples": [
+    {
+     "jp": "おもしろかったでしょう？",
+     "vi": "Hay đúng không?"
+    }
+   ],
+   "explain_vi": [
+    "Đây là cách nói khi muốn người nghe đồng ý hoặc xác nhận điều mà mình tin là đúng. Trong câu ví dụ trên, người nói có cảm nhận là bộ phim hay, và nghĩ rằng chắc chắn người nghe cũng thấy hay giống mình nên mới dùng cách nói này.",
+    "「でしょう？」được phát âm với ngữ điệu lên giọng ở cuối câu.",
+    "Nối với thể thông thường (普通形). Với danh từ và tính từ đuôi ナ thì thành「Nでしょう？」「ナA-でしょう？」.",
+    "Dùng với người thân thiết như bạn bè, gia đình. Nếu dùng với người trên thì dễ gây ấn tượng thất lễ, nên cần chú ý."
+   ],
+   "explain_jp": [
+    "自分がそうだと思っていることについて、相手に同意を求めたり、確認したりするときの言い方です。上の例文では、映画について、話し手はおもしろかったという感想を持っていて、聞き手も同様におもしろいと感じたはずだと思って使っています。",
+    "「でしょう？」は上昇イントネーションで発音します。",
+    "普通形に接続します。名詞・ナ形容詞は、「Nでしょう？」「ナA-でしょう？」となります。",
+    "友だちや家族など、親しい人に使います。目上の人に使うと失礼な印象を与えてしまうので、注意が必要です。"
+   ],
+   "more_examples": [
+    {
+     "jp": "A：この{曲|きょく}、いい{曲|きょく}でしょう？　B：はい。だれの{曲|きょく}ですか？",
+     "vi": "A: Bài này hay đúng không? B: Ừ. Bài của ai vậy?"
+    },
+    {
+     "jp": "A：おすすめしてもらったドラマ、{見|み}ました。　B：どうだった？ よかったでしょう？",
+     "vi": "A: Em xem bộ phim truyền hình anh giới thiệu rồi. B: Thấy sao? Hay đúng không?"
+    },
+    {
+     "jp": "A：この{写真|しゃしん}、きれいでしょう？　B：わあ、すごくきれいですね。",
+     "vi": "A: Tấm ảnh này đẹp đúng không? B: Oa, đẹp thật đấy."
+    }
+   ],
+   "worksheet": [],
+   "quiz": [
+    {
+     "q": "A：この{店|みせ}のラーメン、（　）？　B：うん、{本当|ほんとう}においしいね。",
+     "o": [
+      "おいしいでしょう",
+      "おいしいだでしょう",
+      "おいしくでしょう",
+      "おいしいなでしょう"
+     ],
+     "a": 0,
+     "ex_vi": "でしょう？ nối với thể thông thường; tính từ イ giữ nguyên dạng「おいしい」rồi thêm でしょう？."
+    },
+    {
+     "q": "A：この{公園|こうえん}、（　）？　B：うん、{人|ひと}が{少|すく}なくていいね。",
+     "o": [
+      "静かにでしょう",
+      "{静|しず}かでしょう",
+      "静かなでしょう",
+      "静かだでしょう"
+     ],
+     "a": 1,
+     "ex_vi": "Tính từ ナ bỏ「な」rồi nối trực tiếp: 静か＋でしょう？"
+    },
+    {
+     "q": "A：この{人|ひと}、{有名|ゆうめい}な{歌手|かしゅ}（　）？　B：あ、テレビで{見|み}たことある！",
+     "o": [
+      "なでしょう",
+      "だでしょう",
+      "のでしょう",
+      "でしょう"
+     ],
+     "a": 3,
+     "ex_vi": "Danh từ nối trực tiếp với でしょう？: 歌手でしょう？ (không thêm だ hay な)."
+    },
+    {
+     "q": "A：すすめた{本|ほん}、{読|よ}んだ？ （　）？　B：うん、{泣|な}いちゃった。",
+     "o": [
+      "感動しでしょう",
+      "{感動|かんどう}したでしょう",
+      "感動してでしょう",
+      "感動しましたでしょう"
+     ],
+     "a": 1,
+     "ex_vi": "Việc đã xảy ra nên dùng thể thông thường quá khứ「感動した」+ でしょう？. Không nối với thể ます hay thể て."
+    }
+   ]
+  },
+  {
+   "no": "❷",
+   "pattern": "S（普通形）気がする",
+   "meaning_vi": "Tôi thấy hình như… / có cảm giác là… (nói ý kiến một cách nhẹ nhàng)",
+   "examples": [
+    {
+     "jp": "ストーリーがちょっと{短|みじか}かった{気|き}がしました。",
+     "vi": "Tôi thấy câu chuyện hơi ngắn."
+    },
+    {
+     "jp": "そこが、なんだか{物足|ものた}りなかった{気|き}がします。",
+     "vi": "Tôi thấy chỗ đó có gì đó hơi thiếu thiếu."
+    }
+   ],
+   "explain_vi": [
+    "Đây là cách nói khi muốn nói cảm nhận, ý kiến của mình một cách nhẹ nhàng. Trong bài này, nó được dùng để tránh nói thẳng ra những ý kiến, cảm nhận tiêu cực.",
+    "Nối với thể thông thường (普通形). Tính từ ナ thành「ナA-な気がする」."
+   ],
+   "explain_jp": [
+    "自分の感想や意見を、やわらかく言うときの言い方です。この課では、ネガティブな意見や感想を、はっきりと伝えるのを避けるために使っています。",
+    "普通形に接続します。ナ形容詞は、「ナA-な気がする」となります。"
+   ],
+   "more_examples": [
+    {
+     "jp": "A：{映画|えいが}、よかったですね。　B：はい。でも、{最後|さいご}のシーンは、ちょっと、いまいちな{気|き}がしました。",
+     "vi": "A: Phim hay nhỉ. B: Vâng. Nhưng tôi thấy cảnh cuối hơi chưa tới."
+    },
+    {
+     "jp": "A：『{進撃|しんげき}の{巨人|きょじん}』、もう{全部|ぜんぶ}{読|よ}んだの？ どうだった？　B：うーん、おもしろかったけど、ストーリーがちょっと{難|むずか}しかった{気|き}がする。",
+     "vi": "A: Cậu đọc hết『Đại chiến Titan』chưa? Thấy sao? B: Ừm, hay thì hay, nhưng tớ thấy cốt truyện hơi khó."
+    }
+   ],
+   "worksheet": [],
+   "quiz": [
+    {
+     "q": "このドラマ、{俳優|はいゆう}はいいけど、ストーリーがちょっと（　）{気|き}がします。",
+     "o": [
+      "長くて",
+      "長いな",
+      "長いだ",
+      "{長|なが}い"
+     ],
+     "a": 3,
+     "ex_vi": "気がする nối với thể thông thường; tính từ イ giữ nguyên「長い」."
+    },
+    {
+     "q": "{最後|さいご}のシーンは、ちょっと（　）{気|き}がしました。",
+     "o": [
+      "残念で",
+      "{残念|ざんねん}な",
+      "残念だ",
+      "残念"
+     ],
+     "a": 1,
+     "ex_vi": "Tính từ ナ phải thành「ナA-な気がする」: 残念な気がしました."
+    },
+    {
+     "q": "あの{映画|えいが}、{前|まえ}にも（　）{気|き}がする。",
+     "o": [
+      "見ます",
+      "見よう",
+      "{見|み}た",
+      "見て"
+     ],
+     "a": 2,
+     "ex_vi": "Dùng thể thông thường quá khứ「見た」: “Hình như tôi đã xem rồi”."
+    },
+    {
+     "q": "A：{新|あたら}しいゲーム、どうだった？　B：うーん、おもしろかったけど、ちょっと{簡単|かんたん}すぎた（　）。",
+     "o": [
+      "気に入る",
+      "{気|き}がする",
+      "気になる",
+      "気をつける"
+     ],
+     "a": 1,
+     "ex_vi": "Muốn nói nhẹ nhàng cảm nhận tiêu cực (hơi dễ quá) thì dùng「〜気がする」."
+    }
+   ]
+  },
+  {
+   "no": "❸",
+   "pattern": "S（普通形）って N",
+   "meaning_vi": "N (có nội dung) là S / N kể về S",
+   "examples": [
+    {
+     "jp": "{歴史|れきし}を{変|か}えようとする{敵|てき}と{戦|たたか}うってゲームです。",
+     "vi": "Đó là game về việc chiến đấu với kẻ thù đang định thay đổi lịch sử."
+    }
+   ],
+   "explain_vi": [
+    "Đây là cách nói khi giải thích cụ thể về một thứ (N). Trong bài này, nó được dùng khi giải thích nội dung của game hoặc phim truyền hình.",
+    "Nối với thể thông thường (普通形). Danh từ và tính từ ナ thành「N1だってN2」「ナA-だってN」.",
+    "「って」được dùng trong văn nói thân mật; trong văn viết hoặc tình huống trang trọng thì dùng「という」."
+   ],
+   "explain_jp": [
+    "あるもの（N）について、具体的に説明するときの言い方です。この課では、ゲームやドラマの内容を説明するときに使っています。",
+    "普通形に接続します。名詞・ナ形容詞は、「N1だってN2」「ナA-だってN」となります。",
+    "「って」はカジュアルな話し言葉で使われますが、書き言葉やフォーマルな場面では「という」を使います。"
+   ],
+   "more_examples": [
+    {
+     "jp": "{最後|さいご}は、お{金|かね}じゃなくて、{人|ひと}とのつながりが{大事|だいじ}だって{話|はなし}です。",
+     "vi": "Đó là câu chuyện nói rằng cuối cùng thì điều quan trọng không phải là tiền mà là sự gắn kết với con người."
+    },
+    {
+     "jp": "{主人公|しゅじんこう}の{男|おとこ}の{子|こ}が、{仲間|なかま}といっしょに{次々|つぎつぎ}に{事件|じけん}を{解決|かいけつ}していくって{映画|えいが}です。",
+     "vi": "Đó là bộ phim về cậu bé nhân vật chính cùng đồng đội lần lượt phá giải hết vụ án này đến vụ án khác."
+    }
+   ],
+   "worksheet": [],
+   "quiz": [
+    {
+     "q": "{猫|ねこ}が{人間|にんげん}の{言葉|ことば}を{話|はな}す（　）アニメです。",
+     "o": [
+      "のは",
+      "から",
+      "ので",
+      "って"
+     ],
+     "a": 3,
+     "ex_vi": "Giải thích nội dung cụ thể của anime (N) trong văn nói: S（普通形）って N."
+    },
+    {
+     "q": "{昔|むかし}{別|わか}れた{2人|ふたり}が、10{年後|ねんご}にまた（　）って{話|はなし}です。",
+     "o": [
+      "会って",
+      "会いに",
+      "会います",
+      "{会|あ}う"
+     ],
+     "a": 3,
+     "ex_vi": "って N nối với thể thông thường: 会うって話."
+    },
+    {
+     "q": "{犯人|はんにん}は{主人公|しゅじんこう}の{友|とも}だち（　）{話|はなし}なんだ。",
+     "o": [
+      "って",
+      "なって",
+      "のって",
+      "だって"
+     ],
+     "a": 3,
+     "ex_vi": "Danh từ phải thêm だ: N1だってN2 → 友だちだって話."
+    },
+    {
+     "q": "（レポートで）この{小説|しょうせつ}は、{東京|とうきょう}で{働|はたら}く{女性|じょせい}の{生活|せいかつ}を{描|えが}いた（　）{作品|さくひん}です。",
+     "o": [
+      "の",
+      "という",
+      "って",
+      "とか"
+     ],
+     "a": 1,
+     "ex_vi": "Trong văn viết / tình huống trang trọng thì dùng「という」thay cho「って」."
+    }
+   ]
+  },
+  {
+   "no": "❹",
+   "pattern": "接続の表現",
+   "meaning_vi": "Từ nối câu (だから・それで・でも・あと・それと・それに・ただ・それから・そうしたら)",
+   "examples": [
+    {
+     "jp": "それに、ゲームだけじゃなくて、{舞台|ぶたい}とかミュージカルとかアニメとかもあって、いろいろ{楽|たの}しめるんです。",
+     "vi": "Hơn nữa, không chỉ có game mà còn có cả kịch sân khấu, nhạc kịch, anime…, nên có thể thưởng thức đủ thứ."
+    },
+    {
+     "jp": "あと、{毎回|まいかい}バラエティがあって、{楽|たの}しいです。",
+     "vi": "Ngoài ra, mỗi lần đều có nhiều nội dung đa dạng nên rất vui."
+    }
+   ],
+   "explain_vi": [
+    "Các từ nối (接続の表現) được dùng khi đặt nhiều câu nối tiếp nhau, và cho biết quan hệ giữa câu này với câu kia. Tùy theo quan hệ giữa các câu mà có thể chia thành vài loại. Dưới đây là tổng hợp các từ nối hay dùng (→『入門』Bài 18 ❻).",
+    "◆ Tổng hợp từ nối:",
+    "Lấy câu trước làm lý do, căn cứ để nói kết quả, kết luận: だから (vì vậy, thế nên); それで（で*）(vì thế, cho nên).",
+    "Nói điều đối lập với câu trước: でも (nhưng).",
+    "Thêm điều khác vào câu trước: あと／それと／それに (ngoài ra, thêm nữa, hơn nữa).",
+    "Bổ sung thông tin trái chiều với câu trước: ただ (có điều, tuy nhiên).",
+    "Nói việc xảy ra tiếp theo câu trước theo đúng trình tự: それから (sau đó).",
+    "Nói việc xảy ra như là kết quả của câu trước: そうしたら（そしたら*）(thế là, rồi thì).",
+    "* 「で」「そしたら」là cách nói hay dùng trong văn nói.",
+    "「だから」「それで」「でも」trong bảng tổng hợp trên cũng có thể dùng trong hội thoại để đáp lại điều mà đối phương vừa nói. (Ví dụ) A：このレストラン、この前『孤独のグルメ』に出てきたんですよ。B：あー、だから、こんなに混んでいるんですね。"
+   ],
+   "explain_jp": [
+    "接続の表現は、複数の文を並べるときに使われ、文と文との関係を表します。文と文との関係によって、いくつかのタイプに分けることができます。下に、よく使う接続の表現をまとめます。（→『入門』第18課➏）",
+    "◆ 接続の表現のまとめ",
+    "前の文を理由や根拠にして、結果や結論を言う：だから／それで（で*）",
+    "前の文と対立することを言う：でも",
+    "前の文にほかのことを付け加えて言う：あと／それと／それに",
+    "前の文に反対の情報を補足して言う：ただ",
+    "前の文の次に起きたことを順番に言う：それから",
+    "前の文の結果として起きたことを言う：そうしたら（そしたら*）",
+    "*話し言葉でよく使われる言い方です。",
+    "上のまとめに挙げた「だから」「それで」「でも」は、会話の中で相手が言ったことを受けて使うこともできます。（例）Ａ：このレストラン、この前『孤独のグルメ』に出てきたんですよ。Ｂ：あー、だから、こんなに混んでいるんですね。"
+   ],
+   "more_examples": [
+    {
+     "jp": "このレストラン、この{前|まえ}『{孤独|こどく}のグルメ』に{出|で}てきたんですよ。だから、こんなに{混|こ}んでいるんです。",
+     "vi": "【だから】Nhà hàng này hôm trước xuất hiện trong『Kodoku no Gurume』đấy. Vì vậy nên mới đông thế này."
+    },
+    {
+     "jp": "ライブのチケットがとれたんです。それで、その{日|ひ}は{休|やす}みをとりました。",
+     "vi": "【それで】Tôi mua được vé buổi live. Vì thế hôm đó tôi đã xin nghỉ."
+    },
+    {
+     "jp": "{趣味|しゅみ}はオンラインゲームです。でも、スポーツもよくします。",
+     "vi": "【でも】Sở thích của tôi là game online. Nhưng tôi cũng hay chơi thể thao."
+    },
+    {
+     "jp": "この{俳優|はいゆう}さん、{歌|うた}も{上手|じょうず}なんです。あと、ダンスもできるんですよ。",
+     "vi": "【あと】Diễn viên này hát cũng hay. Ngoài ra còn nhảy được nữa đấy."
+    },
+    {
+     "jp": "この{小説|しょうせつ}のシリーズ、{本当|ほんとう}にいいですよ。それと、この{作者|さくしゃ}のエッセイもすごくおもしろいです。",
+     "vi": "【それと】Bộ tiểu thuyết này hay thật đấy. Thêm nữa, tản văn của tác giả này cũng rất thú vị."
+    },
+    {
+     "jp": "この{映画|えいが}、{主役|しゅやく}の{演技|えんぎ}がすごくよかったです。それに、{映像|えいぞう}もすばらしかったです。",
+     "vi": "【それに】Phim này diễn xuất của vai chính rất tốt. Hơn nữa, hình ảnh cũng tuyệt vời."
+    },
+    {
+     "jp": "ストーリーはすごく{感動的|かんどうてき}で、よかったです。ただ、{登場人物|とうじょうじんぶつ}が{多|おお}すぎる{気|き}がしました。",
+     "vi": "【ただ】Câu chuyện rất cảm động, hay lắm. Có điều tôi thấy nhân vật hơi nhiều quá."
+    },
+    {
+     "jp": "{土曜日|どようび}は{家|いえ}でドラマを{見|み}ました。それから、{夕方|ゆうがた}スポーツジムに{行|い}きました。",
+     "vi": "【それから】Thứ Bảy tôi xem phim truyền hình ở nhà. Sau đó, chiều tối tôi đi phòng gym."
+    },
+    {
+     "jp": "{友人|ゆうじん}に{聞|き}いて、『{刀剣乱舞|とうけんらんぶ} {ONLINE|オンライン}』をやってみたんです。そうしたら、ハマっちゃいました。",
+     "vi": "【そうしたら】Nghe bạn kể nên tôi chơi thử『Touken Ranbu Online』. Thế là bị nghiện luôn."
+    },
+    {
+     "jp": "A：このレストラン、この{前|まえ}『{孤独|こどく}のグルメ』に{出|で}てきたんですよ。　B：あー、だから、こんなに{混|こ}んでいるんですね。",
+     "vi": "A: Nhà hàng này hôm trước lên『Kodoku no Gurume』đấy. B: À, thảo nào mà đông thế này."
+    }
+   ],
+   "worksheet": [],
+   "quiz": [
+    {
+     "q": "{駅|えき}の{近|ちか}くで{事故|じこ}があったんです。（　）、{会社|かいしゃ}に{遅|おく}れました。",
+     "o": [
+      "それで",
+      "でも",
+      "それと",
+      "ただ"
+     ],
+     "a": 0,
+     "ex_vi": "Câu trước là lý do, câu sau là kết quả → それで (vì thế)."
+    },
+    {
+     "q": "この{映画|えいが}、{音楽|おんがく}がすごくよかったです。（　）、{話|はなし}がちょっと{長|なが}すぎる{気|き}がしました。",
+     "o": [
+      "それから",
+      "ただ",
+      "それに",
+      "だから"
+     ],
+     "a": 1,
+     "ex_vi": "Bổ sung một thông tin trái chiều (điểm chưa tốt) sau lời khen → ただ (có điều)."
+    },
+    {
+     "q": "この{店|みせ}、{安|やす}くておいしいんです。（　）、{店員|てんいん}さんもとても{親切|しんせつ}なんですよ。",
+     "o": [
+      "でも",
+      "だから",
+      "ただ",
+      "それに"
+     ],
+     "a": 3,
+     "ex_vi": "Thêm một điểm tốt nữa vào câu trước → それに (hơn nữa)."
+    },
+    {
+     "q": "{友|とも}だちにすすめられて、このアニメを{見|み}てみたんです。（　）、すごくハマっちゃいました。",
+     "o": [
+      "あと",
+      "そうしたら",
+      "それから",
+      "でも"
+     ],
+     "a": 1,
+     "ex_vi": "Việc “bị nghiện” xảy ra như kết quả của việc xem thử → そうしたら (thế là)."
+    }
+   ]
+  }
+ ]
+}

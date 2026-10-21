@@ -1,0 +1,485 @@
+{
+ "lv": "初中級",
+ "bai": 12,
+ "title": "救急車をお願いします",
+ "title_vi": "Làm ơn gọi xe cấp cứu giúp tôi",
+ "points": [
+  {
+   "no": "❶",
+   "pattern": "お V です ＜尊敬語③＞",
+   "meaning_vi": "kính ngữ của V-ています: (người đối diện) đang V",
+   "examples": [
+    {
+     "jp": "{何|なに}かお{困|こま}りですか？",
+     "vi": "Anh/chị đang gặp khó khăn gì ạ?"
+    },
+    {
+     "jp": "{何|なに}かお{探|さが}しですか？",
+     "vi": "Anh/chị đang tìm gì ạ?"
+    }
+   ],
+   "explain_vi": [
+    "「おVです」 là tôn kính ngữ (尊敬語) của 「V-ています」. Dùng khi nói một cách lịch sự về tình trạng hiện tại của người mình không quen biết lắm như người mới gặp lần đầu, hoặc người bề trên. Trong bài này, nó được dùng ở dạng 「おVですか？」 khi bắt chuyện với người đang gặp khó khăn.",
+    "Gắn 「お～です」 vào thể マス của động từ đã bỏ 「ます」.",
+    "So với 「おVになる」 (→『初中級』 Bài 11 ❹), 「おVです」 được dùng nhiều hơn trong hội thoại hằng ngày."
+   ],
+   "explain_jp": [
+    "「おVです」は、「V-ています」の尊敬語です。初対面などのよく知らない人や目上の人などの今の状況を丁寧に言うときに使います。この課では、「おVですか？」の形で、困っている人に話しかけるときに使っています。",
+    "動詞のマス形から「ます」を取った形に、「お～です」をつけます。",
+    "「おVです」は、「おVになる」（→『初中級』第11課➍）に比べ、日常会話でよく使います。"
+   ],
+   "more_examples": [
+    {
+     "jp": "A：ああ、トイレが{空|あ}いていない！　B：あの、お{急|いそ}ぎでしたら、お{先|さき}にどうぞ。",
+     "vi": "A: Ôi, nhà vệ sinh không trống! B: À, nếu anh/chị đang vội thì xin mời đi trước."
+    },
+    {
+     "jp": "{店長|てんちょう}、お{客様|きゃくさま}が{聞|き}きたいことがあるそうです。レジで、お{待|ま}ちです。",
+     "vi": "Cửa hàng trưởng ơi, khách nói là có điều muốn hỏi ạ. Khách đang đợi ở quầy thu ngân."
+    }
+   ],
+   "worksheet": [],
+   "quiz": [
+    {
+     "q": "（駅で）「何かお（　）ですか？」「はい、切符の買い方がわからなくて……。」",
+     "o": [
+      "困り",
+      "困って",
+      "困る"
+     ],
+     "a": 0,
+     "ex_vi": "「おVです」 = kính ngữ của 「V-ています」: 困っています → お困りです."
+    },
+    {
+     "q": "部長、お客様が受付でお（　）です。",
+     "o": [
+      "待ち",
+      "待って",
+      "待つ"
+     ],
+     "a": 0,
+     "ex_vi": "「お＋V(マス bỏ ます)＋です」: 待っています → お待ちです (khách đang đợi)."
+    },
+    {
+     "q": "お急ぎ（　）、お先にどうぞ。",
+     "o": [
+      "でしたら",
+      "しましたら",
+      "になったら"
+     ],
+     "a": 0,
+     "ex_vi": "「お急ぎです」 (đang vội) → dạng điều kiện 「お急ぎでしたら」."
+    },
+    {
+     "q": "（店員がお客様に）「何かお（　）ですか？」",
+     "o": [
+      "探し",
+      "探す",
+      "探して"
+     ],
+     "a": 0,
+     "ex_vi": "探しています → お探しです. Nhân viên hỏi khách đang tìm gì một cách lịch sự."
+    }
+   ]
+  },
+  {
+   "no": "❷",
+   "pattern": "V-（ら）れる ＜尊敬語④＞",
+   "meaning_vi": "kính ngữ dạng (ら)れる (thể tôn kính)",
+   "examples": [
+    {
+     "jp": "（こちらのお{客様|きゃくさま}が）{英語|えいご}を{話|はな}されているんですけど、よくわからなくて……。",
+     "vi": "(Vị khách này) đang nói tiếng Anh, nhưng tôi không hiểu lắm..."
+    },
+    {
+     "jp": "どちらに{行|い}かれるんですか？",
+     "vi": "Anh/chị định đi đâu ạ?"
+    }
+   ],
+   "explain_vi": [
+    "「話されている」 là tôn kính ngữ của 「話している」, 「行かれる」 là tôn kính ngữ của 「行く」.",
+    "Dạng động từ lúc này gọi là thể tôn kính (尊敬形). Động từ nhóm 1 gắn 「れる」, động từ nhóm 2 gắn 「られる」 vào cuối. Có hình thức giống với thể bị động (受身形).",
+    "So với 「V-（ら）れる」, 「Động từ tôn kính 〈尊敬語①〉」 (→『初中級』 Bài 8 ❷) và 「おVになる 〈尊敬語②〉」 (→『初中級』 Bài 11 ❹) là cách nói trang trọng hơn."
+   ],
+   "explain_jp": [
+    "「話されている」は「話している」、「行かれる」は「行く」の尊敬語です。",
+    "このときの動詞の形を尊敬形と言います。1グループの動詞には語尾に「れる」、2グループの動詞には語尾に「られる」がつきます。受身形と同じ形です。",
+    "「尊敬の動詞〈尊敬語①〉」（→『初中級』第8課➋）、「おVになる〈尊敬語②〉」（→『初中級』第11課➍）のほうが、「V-（ら）れる」に比べ、より改まった言い方です。"
+   ],
+   "more_examples": [
+    {
+     "jp": "A：あの、{財布|さいふ}、{落|お}とされましたよ。　B：あ、ありがとうございます。",
+     "vi": "A: Xin lỗi, anh/chị đánh rơi ví rồi ạ. B: À, cảm ơn."
+    },
+    {
+     "jp": "A：{課長|かちょう}、{入院|にゅういん}されたそうですよ。　B：それは{心配|しんぱい}ですね。",
+     "vi": "A: Nghe nói trưởng phòng nhập viện rồi đấy. B: Thế thì đáng lo nhỉ."
+    }
+   ],
+   "worksheet": [],
+   "quiz": [
+    {
+     "q": "部長は、何時ごろ会社に（　）か？",
+     "o": [
+      "来られます",
+      "来れます",
+      "来させます"
+     ],
+     "a": 0,
+     "ex_vi": "Thể tôn kính của 来る (nhóm 3) là 「来られる」."
+    },
+    {
+     "q": "先生は毎朝、公園を（　）そうです。",
+     "o": [
+      "歩かれる",
+      "歩けられる",
+      "歩かせる"
+     ],
+     "a": 0,
+     "ex_vi": "Nhóm 1: 歩く (aruk-u) → aruk-a + れる = 歩かれる."
+    },
+    {
+     "q": "（知らない人に）あの、何か落と（　）よ。",
+     "o": [
+      "されました",
+      "させました",
+      "しられました"
+     ],
+     "a": 0,
+     "ex_vi": "落とす (nhóm 1) → 落とされる: 「落とされましたよ」 = anh/chị đánh rơi đồ rồi ạ."
+    },
+    {
+     "q": "社長は来月、アメリカへ出張（　）予定です。",
+     "o": [
+      "される",
+      "させる",
+      "できる"
+     ],
+     "a": 0,
+     "ex_vi": "Thể tôn kính của 「する」 là 「される」: 出張される."
+    }
+   ]
+  },
+  {
+   "no": "◆",
+   "pattern": "尊敬形の作り方",
+   "meaning_vi": "cách tạo thể tôn kính",
+   "examples": [],
+   "explain_vi": [
+    "Nhóm 1: -u → -a + れる (話す hanas+u → 話される hanas+a+れる; 行く ik+u → 行かれる ik+a+れる)",
+    "Nhóm 2: -る → -られる (出る → 出られる; 起きる → 起きられる)",
+    "Nhóm 3: bất quy tắc (する → される; 来る → 来られる)"
+   ],
+   "explain_jp": [
+    "1グループ：-u → -a＋れる（話す（hanas＋u）→ 話される（hanas＋a＋れる）、行く（ik＋u）→ 行かれる（ik＋a＋れる））",
+    "2グループ：-る → -られる（出る → 出られる、起きる → 起きられる）",
+    "3グループ：不規則活用（する → される、来る → 来られる）"
+   ],
+   "more_examples": [],
+   "worksheet": [],
+   "quiz": []
+  },
+  {
+   "no": "❸",
+   "pattern": "S（普通形）ようだ",
+   "meaning_vi": "hình như / có vẻ như (phán đoán dựa trên những gì thấy, tình huống)",
+   "examples": [
+    {
+     "jp": "{転|ころ}んで{足|あし}をけがしているようです。",
+     "vi": "Có vẻ như bà ấy bị ngã và bị thương ở chân."
+    }
+   ],
+   "explain_vi": [
+    "Dùng khi nói điều mình phán đoán dựa trên những gì đã thấy hoặc tình huống. Trong bài này, khi giải thích tình hình cho nhân viên sở cứu hỏa, người nói đã dựa vào tình trạng của bà cụ bị ngã để phán đoán rằng bà bị thương và dùng mẫu này.",
+    "Nối với thể thông thường. Danh từ, tính từ ナ trở thành 「Nのようだ」「ナA-なようだ」.",
+    "Mẫu này cũng được dùng để tránh nói khẳng định, kể cả với những điều mình nghĩ là đúng.",
+    "「S（普通形）みたいだ」 (→『初中級』 Bài 4 ❶) cũng được dùng với nghĩa tương tự, nhưng 「S（普通形）ようだ」 được dùng trong những tình huống trang trọng như báo cáo."
+   ],
+   "explain_jp": [
+    "見たことや状況から判断したことを言うときに使います。この課では、消防署の係員に状況を説明するときに、倒れているおばあさんの様子から、けがをしていると話し手が判断して使っています。",
+    "普通形に接続します。名詞・ナ形容詞は、「Nのようだ」「ナA-なようだ」となります。",
+    "自分がそうだと思っていることでも、断定を避けるために使うこともあります。",
+    "「S（普通形）みたいだ」（→『初中級』第4課➊）も、同じような意味で使われますが、「S（普通形）ようだ」のほうが、報告などの改まった場面で使われます。"
+   ],
+   "more_examples": [
+    {
+     "jp": "A：どうしましたか？　B：{人|ひと}が{倒|たお}れています。{階段|かいだん}から{落|お}ちたようです。",
+     "vi": "A: Có chuyện gì vậy? B: Có người bị ngã ạ. Hình như người đó ngã từ cầu thang xuống."
+    },
+    {
+     "jp": "すみません、{子|こ}どもが{迷子|まいご}になったようなんですが……。",
+     "vi": "Xin lỗi, hình như con tôi bị lạc..."
+    }
+   ],
+   "worksheet": [],
+   "quiz": [
+    {
+     "q": "外が暗いですね。雨が降っている（　）。",
+     "o": [
+      "ようです",
+      "ようにします",
+      "ことがあります"
+     ],
+     "a": 0,
+     "ex_vi": "Phán đoán từ điều nhìn thấy (trời tối) → 「S（普通形）ようです」."
+    },
+    {
+     "q": "あの人は具合が悪い（　）です。",
+     "o": [
+      "よう",
+      "ような",
+      "ように"
+     ],
+     "a": 0,
+     "ex_vi": "Tính từ イ nối trực tiếp: 悪いようです."
+    },
+    {
+     "q": "（消防署に）男の人が倒れて動きません。病気（　）ようです。",
+     "o": [
+      "の",
+      "な",
+      "だ"
+     ],
+     "a": 0,
+     "ex_vi": "Danh từ + 「の」 + ようだ: 病気のようです."
+    },
+    {
+     "q": "（119番で）子どもは熱が（　）ようです。",
+     "o": [
+      "ある",
+      "あり",
+      "あって"
+     ],
+     "a": 0,
+     "ex_vi": "「ようだ」 nối với thể thông thường của động từ: あるようです."
+    }
+   ]
+  },
+  {
+   "no": "❹",
+   "pattern": "イA- がる",
+   "meaning_vi": "(người khác) tỏ ra ~ / có vẻ ~ (nói về cảm giác, cảm xúc của người khác)",
+   "examples": [
+    {
+     "jp": "ずっと「{痛|いた}い、{痛|いた}い」と{言|い}って、とても{痛|いた}がっています。",
+     "vi": "Bà ấy cứ kêu 「đau quá, đau quá」, có vẻ rất đau."
+    }
+   ],
+   "explain_vi": [
+    "Đây là cách nói khi nói về cảm giác của người khác. Trong bài này, nó được dùng khi truyền đạt tình trạng của bà cụ cho nhân viên sở cứu hỏa.",
+    "Các tính từ chỉ cảm giác như 「痛い」「寒い」 chỉ dùng được khi nói về cảm giác của chính mình. Khi nói về cảm giác của người khác thì gắn 「～がる」 vào tính từ như ví dụ dưới đây. (Ví dụ) × おばあさんは、とても痛いです。 〇 おばあさんは、とても痛がっています。 (Bà cụ có vẻ rất đau.)",
+    "Nối với tính từ イ đã bỏ đuôi 「い」. Cũng có thể nối với 「V-たい」「ほしい」 thành 「V-たがる」「ほしがる」 để nói về mong muốn của người khác.",
+    "Cũng có thể dùng khi nói về cảm xúc của người khác như 「さみしがる」 (cảm thấy buồn, cô đơn), 「おもしろがる」 (thấy thú vị).",
+    "Cũng có ví dụ nối với tính từ ナ như 「嫌がる」 (tỏ ra không thích), 「不思議がる」 (tỏ ra thắc mắc), nhưng không nhiều lắm."
+   ],
+   "explain_jp": [
+    "ほかの人の感覚を言うときの言い方です。この課では、おばあさんの様子を消防署の係員に伝えるときに使っています。",
+    "「痛い」「寒い」など、感覚を表す形容詞は、自分の感覚を言うときにしか使えません。ほかの人の感覚について言うときは、下の例のように形容詞に「～がる」を接続して言います。（例）× おばあさんは、とても痛いです。〇 おばあさんは、とても痛がっています。",
+    "イ形容詞の語尾の「い」を取った形に接続します。「V-たがる」「ほしがる」のように、「V-たい」「ほしい」に接続して、ほかの人の要求を言うこともあります。",
+    "「さみしがる」「おもしろがる」のように、ほかの人の感情を言うときにも使うことができます。",
+    "「嫌がる」「不思議がる」のように、ナ形容詞に接続する例もありますが、あまり多くありません。"
+   ],
+   "more_examples": [
+    {
+     "jp": "{検査|けんさ}を{怖|こわ}がる{父|ちち}を、{病院|びょういん}に{連|つ}れて{行|い}った。",
+     "vi": "Tôi đã đưa bố — người rất sợ đi khám — đến bệnh viện."
+    },
+    {
+     "jp": "A：おじいさんの{様子|ようす}を{教|おし}えてください。　B：{顔|かお}が{真|ま}っ{赤|か}です。「のどが{渇|かわ}いた」と、{水|みず}を{飲|の}みたがっています。",
+     "vi": "A: Hãy cho tôi biết tình trạng của ông cụ. B: Mặt ông đỏ bừng. Ông nói 「khát nước quá」 và có vẻ muốn uống nước."
+    }
+   ],
+   "worksheet": [],
+   "quiz": [
+    {
+     "q": "子どもが寒（　）いるので、エアコンをつけました。",
+     "o": [
+      "がって",
+      "くて",
+      "そうで"
+     ],
+     "a": 0,
+     "ex_vi": "Cảm giác của người khác: 寒い → 寒がる → 寒がっている."
+    },
+    {
+     "q": "妹は新しいスマホを（　）います。",
+     "o": [
+      "ほしがって",
+      "ほしくて",
+      "ほしいで"
+     ],
+     "a": 0,
+     "ex_vi": "Mong muốn của người khác: 「ほしい」 → 「ほしがる」."
+    },
+    {
+     "q": "弟は日本へ行き（　）います。",
+     "o": [
+      "たがって",
+      "たくて",
+      "たいで"
+     ],
+     "a": 0,
+     "ex_vi": "Người khác muốn làm gì: 「V-たい」 → 「V-たがる」: 行きたがっています."
+    },
+    {
+     "q": "（自分のこと）私は今、頭が（　）。",
+     "o": [
+      "痛いです",
+      "痛がっています",
+      "痛がります"
+     ],
+     "a": 0,
+     "ex_vi": "Nói về cảm giác của chính mình thì dùng nguyên tính từ 「痛いです」; 「～がる」 chỉ dùng cho người khác."
+    }
+   ]
+  },
+  {
+   "no": "❺",
+   "pattern": "V-（さ）せる ＜使役②＞",
+   "meaning_vi": "thể sai khiến ②: bắt / cho / khiến ai đó làm V",
+   "examples": [
+    {
+     "jp": "すぐ{救急車|きゅうきゅうしゃ}を{向|む}かわせます。",
+     "vi": "Chúng tôi sẽ điều xe cấp cứu tới ngay."
+    }
+   ],
+   "explain_vi": [
+    "Diễn tả việc ra lệnh cho người khác, hoặc tác động để người đó thực hiện hành động, và kết quả là người đó thực hiện hành động ấy. Ý muốn của người kia không liên quan. Trong bài này, nó được dùng khi nhân viên sở cứu hỏa ra lệnh cho xe cấp cứu đến hiện trường.",
+    "「使役①」 được dùng khi nói về việc cảm xúc, tâm trạng, suy nghĩ tự nhiên bị gợi lên (→『初中級』 Bài 8 ❸). 「使役②」 dùng khi bắt buộc, tác động để người khác làm một hành động nào đó.",
+    "Dùng thể sai khiến (使役形) của động từ.",
+    "Với tự động từ, người thực hiện hành động được biểu thị bằng 「を」; với tha động từ thì biểu thị bằng 「に」. (Ví dụ) Tự động từ: 救急車が向かいます。(câu chủ động) → 救急車を向かわせます。(câu sai khiến). Tha động từ: 子どもが薬を飲んだ。(câu chủ động) → 子どもに薬を飲ませた。(câu sai khiến: Tôi đã cho con uống thuốc.)"
+   ],
+   "explain_jp": [
+    "相手に命じたり、その行動をとるように仕向けることで、結果的に相手がその行動をすることを表します。相手の意向は関係ありません。この課では、消防署の係員が救急車に指令を出して、現場に向かわせることを言うときに使っています。",
+    "「使役①」は、感情や気持ち、思いが自然に引き起こされることを言うときに使いました（→『初中級』第8課➌）。「使役②」は、強制的にその行動をするように仕向けるときに使います。",
+    "動詞の使役形を使って言います。",
+    "自動詞の場合、動作主は「を」で表します。他動詞は、「に」で表します。（例）自動詞：救急車が向かいます。（能動文）救急車を向かわせます。（使役文）他動詞：子どもが薬を飲んだ。（能動文）子どもに薬を飲ませた。（使役文）"
+   ],
+   "more_examples": [
+    {
+     "jp": "{水分|すいぶん}をとらせてください。できるだけ、{体|からだ}を{冷|ひ}やしてください。",
+     "vi": "Hãy cho người bệnh uống nước. Hãy làm mát cơ thể càng nhiều càng tốt."
+    },
+    {
+     "jp": "{吐|は}いたあとは、まずは、{横|よこ}{向|む}きに{寝|ね}かせてください。それから、{無理|むり}に{吐|は}かせないでください。",
+     "vi": "Sau khi nôn, trước hết hãy cho người bệnh nằm nghiêng. Sau đó, đừng cố ép họ nôn."
+    }
+   ],
+   "worksheet": [],
+   "quiz": [
+    {
+     "q": "熱がある子どもに薬を（　）。",
+     "o": [
+      "飲ませました",
+      "飲まれました",
+      "飲みました"
+     ],
+     "a": 0,
+     "ex_vi": "Cho con (người khác) uống thuốc → thể sai khiến 「飲ませる」."
+    },
+    {
+     "q": "（消防署の人）すぐに救急車（　）向かわせます。",
+     "o": [
+      "を",
+      "に",
+      "が"
+     ],
+     "a": 0,
+     "ex_vi": "向かう là tự động từ → người/vật thực hiện hành động biểu thị bằng 「を」: 救急車を向かわせます."
+    },
+    {
+     "q": "母は弟（　）部屋を掃除させました。",
+     "o": [
+      "に",
+      "を",
+      "が"
+     ],
+     "a": 0,
+     "ex_vi": "掃除する là tha động từ (đã có 「部屋を」) → người thực hiện biểu thị bằng 「に」."
+    },
+    {
+     "q": "部長は新人にコピーを（　）。",
+     "o": [
+      "とらせました",
+      "とられました",
+      "とりました"
+     ],
+     "a": 0,
+     "ex_vi": "Cấp trên bắt nhân viên mới làm → thể sai khiến 「とらせる」."
+    }
+   ]
+  },
+  {
+   "no": "❻",
+   "pattern": "V- ることにする",
+   "meaning_vi": "quyết định (sẽ) V / quyết định không V",
+   "examples": [
+    {
+     "jp": "{私|わたし}も、{災害|さいがい}に{備|そな}えて{防災|ぼうさい}リュックを{買|か}うことにしました。",
+     "vi": "Tôi cũng đã quyết định mua ba lô phòng chống thiên tai để chuẩn bị cho thảm họa."
+    }
+   ],
+   "explain_vi": [
+    "Đây là cách nói khi nói về điều mình tự quyết định. Trong bài này, nó được dùng khi một người đã đi lánh nạn vì mưa lớn thấm thía tầm quan trọng của việc chuẩn bị cho thiên tai và nói rằng mình đã quyết định mua ba lô phòng chống thiên tai.",
+    "Điều đã quyết định làm thì nói bằng 「V-ることにする」. Điều đã quyết định không làm thì nói bằng 「V-ないことにする」."
+   ],
+   "explain_jp": [
+    "自分で決めたことを言うときの言い方です。この課では、大雨で避難した人が、災害への備えの大切さを実感し、防災リュックを買おうと決めたことを言うときに使っています。",
+    "そうしようと決めたことは、「V-ることにする」を使って言います。そうしないと決めたことは、「V-ないことにする」を使って言います。"
+   ],
+   "more_examples": [
+    {
+     "jp": "{何|なに}かあったときのために、{家族|かぞく}といっしょに{避難|ひなん}ルートを{確認|かくにん}することにした。",
+     "vi": "Để phòng khi có chuyện gì, tôi đã quyết định cùng gia đình kiểm tra lộ trình sơ tán."
+    },
+    {
+     "jp": "{最近|さいきん}、テニスで{大|おお}けがをしたので、しばらくテニスは、やらないことにします。",
+     "vi": "Gần đây tôi bị thương nặng khi chơi tennis, nên tôi quyết định tạm thời không chơi tennis nữa."
+    }
+   ],
+   "worksheet": [],
+   "quiz": [
+    {
+     "q": "健康のために、毎朝歩く（　）にしました。",
+     "o": [
+      "こと",
+      "もの",
+      "ところ"
+     ],
+     "a": 0,
+     "ex_vi": "Quyết định của bản thân: 「V-ることにする」 → 歩くことにしました."
+    },
+    {
+     "q": "地震に備えて、水を買っておく（　）。",
+     "o": [
+      "ことにしました",
+      "ことをしました",
+      "ことにいました"
+     ],
+     "a": 0,
+     "ex_vi": "「V-ることにしました」 = đã quyết định (sẽ làm)."
+    },
+    {
+     "q": "お金をためたいので、しばらく外食を（　）ことにします。",
+     "o": [
+      "しない",
+      "しなくて",
+      "しません"
+     ],
+     "a": 0,
+     "ex_vi": "Quyết định không làm: 「V-ないことにする」 → しないことにします."
+    },
+    {
+     "q": "雨がひどいので、今日の旅行は（　）ことにしました。",
+     "o": [
+      "やめる",
+      "やめて",
+      "やめれ"
+     ],
+     "a": 0,
+     "ex_vi": "「ことにする」 nối với động từ thể từ điển: やめることにしました (quyết định hủy)."
+    }
+   ]
+  }
+ ]
+}

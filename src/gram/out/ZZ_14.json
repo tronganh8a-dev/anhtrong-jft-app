@@ -1,0 +1,300 @@
+{
+ "lv": "初中級",
+ "bai": 14,
+ "title": "友人のことで悩んでいます",
+ "title_vi": "Tôi đang phiền lòng vì chuyện của người bạn",
+ "points": [
+  {
+   "no": "❶",
+   "pattern": "N にとって",
+   "meaning_vi": "đối với N (từ lập trường của N)",
+   "examples": [
+    {
+     "jp": "{私|わたし}にとって、{大切|たいせつ}な{親友|しんゆう}なんです。",
+     "vi": "Đối với tôi, cô ấy là người bạn thân quan trọng."
+    }
+   ],
+   "explain_vi": [
+    "Dùng khi nói về việc từ lập trường của N, đối tượng được nhìn nhận như thế nào. Trong bài này, nó được dùng khi người nói nói về việc mình coi người khác là sự tồn tại như thế nào.",
+    "Sau 「Nにとって」 là câu giải thích đối tượng là sự tồn tại như thế nào, ví dụ như 「大切な親友」 (người bạn thân quan trọng), 「目標の人」 (người mà mình hướng tới)..."
+   ],
+   "explain_jp": [
+    "Nの立場から、対象をどう捉えているか言うときに使います。この課では、話し手が、ほかの人をどのような存在と考えているのかを言うときに使っています。",
+    "「Nにとって」の後ろには、「大切な親友」「目標の人」などのように、対象がどのような存在なのかを説明する文が続きます。"
+   ],
+   "more_examples": [
+    {
+     "jp": "{母|はは}にとって、{私|わたし}は、いつまでも{子|こ}どもなんです。",
+     "vi": "Đối với mẹ, tôi mãi mãi là một đứa trẻ."
+    },
+    {
+     "jp": "{私|わたし}にとって、{友人|ゆうじん}は{家族|かぞく}のような{存在|そんざい}です。",
+     "vi": "Đối với tôi, bạn bè giống như gia đình."
+    }
+   ],
+   "worksheet": [],
+   "quiz": [
+    {
+     "q": "私（　）、家族はいちばん大切な存在です。",
+     "o": [
+      "にとって",
+      "について",
+      "によって"
+     ],
+     "a": 0,
+     "ex_vi": "Nói từ lập trường của bản thân: 「Nにとって」 = đối với N."
+    },
+    {
+     "q": "子ども（　）、親はいつまでも目標の人です。",
+     "o": [
+      "にとって",
+      "に",
+      "を"
+     ],
+     "a": 0,
+     "ex_vi": "「子どもにとって」 = đối với con cái; phía sau là câu giải thích 「目標の人」."
+    },
+    {
+     "q": "この仕事は、私にとって（　）。",
+     "o": [
+      "とても大切な経験です",
+      "毎日行きます",
+      "部長が決めました"
+     ],
+     "a": 0,
+     "ex_vi": "Sau 「Nにとって」 là câu giải thích đối tượng là thế nào đối với N (một trải nghiệm quan trọng)."
+    },
+    {
+     "q": "外国人（　）、日本の敬語はとても難しいです。",
+     "o": [
+      "にとって",
+      "にとる",
+      "にして"
+     ],
+     "a": 0,
+     "ex_vi": "「外国人にとって」 = đối với người nước ngoài."
+    }
+   ]
+  },
+  {
+   "no": "❷",
+   "pattern": "ナ A- な／イ A- い ところがある",
+   "meaning_vi": "có tính / có mặt ~ (một khía cạnh trong tính cách)",
+   "examples": [
+    {
+     "jp": "ちょっと{頑固|がんこ}なところがあるんです。",
+     "vi": "Anh ấy có phần hơi cứng đầu."
+    },
+    {
+     "jp": "ちょっと{飽|あ}きっぽいところがあるんですよ。",
+     "vi": "Cô ấy có tính hơi cả thèm chóng chán đấy."
+    }
+   ],
+   "explain_vi": [
+    "Dùng khi nói về tính cách.",
+    "「頑固だ」「飽きっぽい」 là cách nói khẳng định về tính cách của người đó, còn 「頑固なところがある」「飽きっぽいところがある」 dùng khi nói rằng tính cách người đó có một mặt như vậy. Thường được dùng khi người nói cho rằng tính cách đó là một mặt bất ngờ, hoặc khi nói về tính cách tiêu cực."
+   ],
+   "explain_jp": [
+    "性格を言うときに使います。",
+    "「頑固だ」「飽きっぽい」は、その人の性格について断定した言い方ですが、「頑固なところがある」「飽きっぽいところがある」は、その人の性格にそのような一面があることを言うときに使います。その性格が、意外な一面であると話し手が考えている場合や、ネガティブな性格を言うときに使うことが多いです。"
+   ],
+   "more_examples": [
+    {
+     "jp": "チャンさんは、せっかちなところがあるので、よく{仕事|しごと}で{失敗|しっぱい}します。",
+     "vi": "Anh Chan có tính hơi nóng vội nên hay mắc lỗi trong công việc."
+    },
+    {
+     "jp": "{田中部長|たなかぶちょう}は、きびしそうに{見|み}えますが、{実|じつ}は、やさしいところもあるんです。",
+     "vi": "Trưởng phòng Tanaka trông có vẻ nghiêm khắc, nhưng thật ra cũng có mặt hiền lành."
+    }
+   ],
+   "worksheet": [],
+   "quiz": [
+    {
+     "q": "彼は、ちょっと頑固（　）ところがあります。",
+     "o": [
+      "な",
+      "の",
+      "だ"
+     ],
+     "a": 0,
+     "ex_vi": "Tính từ ナ + 「な」 + ところがある: 頑固なところがある."
+    },
+    {
+     "q": "兄はやさしいですが、少しきびし（　）ところもあります。",
+     "o": [
+      "い",
+      "な",
+      "く"
+     ],
+     "a": 0,
+     "ex_vi": "Tính từ イ giữ nguyên đuôi 「い」: きびしいところもある."
+    },
+    {
+     "q": "チャンさんは、せっかちな（　）があるので、よく仕事で失敗します。",
+     "o": [
+      "ところ",
+      "こと",
+      "もの"
+     ],
+     "a": 0,
+     "ex_vi": "Nói về một mặt trong tính cách: 「～ところがある」."
+    },
+    {
+     "q": "私は飽きっぽい（　）、趣味が長く続きません。",
+     "o": [
+      "ところがあるので",
+      "ところであるので",
+      "ところをあるので"
+     ],
+     "a": 0,
+     "ex_vi": "「イA-いところがある」 + ので: vì có tính cả thèm chóng chán nên sở thích không kéo dài."
+    }
+   ]
+  },
+  {
+   "no": "❸",
+   "pattern": "S（普通形）のに、～",
+   "meaning_vi": "mặc dù ~ vậy mà ~ (kết quả trái với dự đoán)",
+   "examples": [
+    {
+     "jp": "{最初|さいしょ}のころは、{毎日|まいにち}メッセージをやりとりしていたのに、{最近|さいきん}はメッセージを{送|おく}っても、なかなか{既読|きどく}にならなかったり、{返事|へんじ}をくれなかったり。",
+     "vi": "Hồi đầu ngày nào cũng nhắn tin qua lại, vậy mà dạo này gửi tin nhắn đi thì mãi không thấy 「đã xem」, rồi cũng chẳng trả lời."
+    }
+   ],
+   "explain_vi": [
+    "「のに」 được dùng khi vế sau nói về một kết quả khác với điều được dự đoán từ vế trước. Trong câu ví dụ trên, vì hồi đầu ngày nào hai người cũng nhắn tin qua lại, nên người ta dự đoán đương nhiên bây giờ tin nhắn cũng sẽ được trả lời; nhưng thực tế tin nhắn không được đọc, cũng không có trả lời — tình huống đó được nói bằng 「のに」.",
+    "Nối với thể thông thường. Danh từ, tính từ ナ trở thành 「Nなのに」「ナA-なのに」."
+   ],
+   "explain_jp": [
+    "前の文から予想されることとは異なる結果を後ろの文で言うときに「のに」を使います。上の例文では、最初のころは、毎日メッセージをやりとりしていたのだから、今もメッセージに返事があるのが当然だと予想されますが、実際は既読にならなかったり、返事がないという状況を「のに」を使って言っています。",
+    "普通形に接続します。名詞・ナ形容詞は、「Nなのに」「ナA-なのに」となります。"
+   ],
+   "more_examples": [
+    {
+     "jp": "{友|とも}だちにあげた{洋服|ようふく}、すごくいいものなのに、ぜんぜん{喜|よろこ}んでくれなかった。",
+     "vi": "Bộ quần áo tôi tặng bạn là đồ rất tốt, vậy mà bạn ấy chẳng vui chút nào."
+    },
+    {
+     "jp": "{一生懸命|いっしょうけんめい}{働|はたら}いているのに、{評価|ひょうか}してもらえないんです。",
+     "vi": "Tôi làm việc hết sức mình, vậy mà không được đánh giá cao."
+    }
+   ],
+   "worksheet": [],
+   "quiz": [
+    {
+     "q": "約束したのに、友だちは（　）。",
+     "o": [
+      "来ませんでした",
+      "来ました",
+      "来るつもりです"
+     ],
+     "a": 0,
+     "ex_vi": "「のに」: kết quả trái với dự đoán — đã hẹn mà bạn không đến."
+    },
+    {
+     "q": "今日は日曜日（　）、仕事に行かなければなりません。",
+     "o": [
+      "なのに",
+      "のに",
+      "だのに"
+     ],
+     "a": 0,
+     "ex_vi": "Danh từ + 「なのに」: 日曜日なのに (chủ nhật vậy mà...)."
+    },
+    {
+     "q": "この店は有名（　）のに、あまりおいしくない。",
+     "o": [
+      "な",
+      "だ",
+      "の"
+     ],
+     "a": 0,
+     "ex_vi": "Tính từ ナ + 「なのに」: 有名なのに."
+    },
+    {
+     "q": "一生懸命勉強した（　）、試験に合格できませんでした。",
+     "o": [
+      "のに",
+      "ので",
+      "から"
+     ],
+     "a": 0,
+     "ex_vi": "Học chăm chỉ mà vẫn trượt → kết quả trái dự đoán → 「のに」."
+    }
+   ]
+  },
+  {
+   "no": "❹",
+   "pattern": "N のことで",
+   "meaning_vi": "về chuyện của N / vì chuyện N",
+   "examples": [
+    {
+     "jp": "ルームシェアをしている{友人|ゆうじん}のことで{悩|なや}んでいます。",
+     "vi": "Tôi đang phiền lòng vì chuyện người bạn ở chung nhà."
+    }
+   ],
+   "explain_vi": [
+    "Dùng khi nêu chủ đề. Câu ví dụ trên nói rằng nội dung mình đang phiền lòng là về người bạn ở chung nhà.",
+    "Ngoài 「悩んでいる」, mẫu này còn được dùng cùng các động từ như 「困っている」 (đang gặp khó khăn), 「怒っている」 (đang tức giận), 「心配している」 (đang lo lắng), 「相談する」 (tư vấn, bàn bạc)..."
+   ],
+   "explain_jp": [
+    "話題を示すときに使います。上の例文では、悩んでいる内容がルームシェアをしている友人についてだと言っています。",
+    "「悩んでいる」以外にも、「困っている」「怒っている」「心配している」「相談する」などの動詞といっしょに使います。"
+   ],
+   "more_examples": [
+    {
+     "jp": "{最近|さいきん}、{反抗期|はんこうき}の{子|こ}どものことで{困|こま}っています。",
+     "vi": "Dạo này tôi đang khổ sở vì chuyện đứa con đang tuổi nổi loạn."
+    },
+    {
+     "jp": "{先生|せんせい}は、{学生|がくせい}たちのことで{怒|おこ}っているようです。",
+     "vi": "Hình như thầy giáo đang giận vì chuyện của các học sinh."
+    }
+   ],
+   "worksheet": [],
+   "quiz": [
+    {
+     "q": "息子の進学（　）、先生に相談しました。",
+     "o": [
+      "のことで",
+      "にとって",
+      "のことが"
+     ],
+     "a": 0,
+     "ex_vi": "Nêu chủ đề của việc bàn bạc: 「Nのことで相談する」."
+    },
+    {
+     "q": "隣の人の騒音のことで（　）。",
+     "o": [
+      "困っています",
+      "好きです",
+      "行きました"
+     ],
+     "a": 0,
+     "ex_vi": "「Nのことで」 thường đi với 困っている・悩んでいる・心配している..."
+    },
+    {
+     "q": "母は、いつも私の健康の（　）で心配しています。",
+     "o": [
+      "こと",
+      "もの",
+      "ところ"
+     ],
+     "a": 0,
+     "ex_vi": "「Nのことで心配している」 = lo lắng về chuyện N."
+    },
+    {
+     "q": "部長は会議の資料のことで（　）ようです。",
+     "o": [
+      "怒っている",
+      "書いている",
+      "読んでいる"
+     ],
+     "a": 0,
+     "ex_vi": "「Nのことで」 đi với các động từ như 怒っている, không đi với hành động trực tiếp như 書く・読む."
+    }
+   ]
+  }
+ ]
+}

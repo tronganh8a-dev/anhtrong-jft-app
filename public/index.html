@@ -424,7 +424,7 @@ body.locked .app{filter:blur(6px);pointer-events:none}
 <script src="app/data/grammar.js"></script>
 <script>
 /* ===== cấu hình tài khoản chung (đổi tại đây) ===== */
-const ACCOUNT={user:decodeURIComponent((document.cookie.match(/(?:^|; )jft_user=([^;]*)/)||[0,''])[1])||'hocvien',hash:'83f27a03'};
+const ACCOUNT={user:decodeURIComponent((document.cookie.match(/(?:^|; )jft_user=([^;]*)/)||[0,''])[1])||'hocvien',hash:''};
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 document.addEventListener('DOMContentLoaded',()=>{const c=document.getElementById('cand');if(c)c.textContent=ACCOUNT.user});
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -459,7 +459,7 @@ $('#lgrid').addEventListener('click',e=>{const vb=e.target.closest('[data-view]'
 /* ===== exam list ===== */
 function renderExams(){const g={};EXAMS.forEach((e,i)=>{(g[e.group]=g[e.group]||[]).push([e,i])});
  $('#examList').innerHTML=Object.entries(g).map(([gn,arr])=>`<div class="secttl">${esc(gn)}</div><div class="elist">`+arr.map(([e,i])=>{const n=e.qs.filter(q=>q.o).length,na=e.qs.filter(q=>q.o&&!q.a).length;
-  return `<button class="ec" data-ex="${i}" type="button"><b>${esc(e.title)}</b><small>${esc(e.sub||'')}</small><div class="meta"><span class="tag">${n} câu</span><span class="tag gray">${e.time} phút</span>${e.hasListen?'<span class="tag amber">có nghe</span>':''}${na?`<span class="tag pink">${na} câu chưa có đáp án</span>`:''}</div></button>`}).join('')+'</div>').join('')+(window.EXTLINKS&&EXTLINKS.length?`<div class="secttl">Đề tham khảo <span class="jp">mở Google Form gốc</span></div><div class="elist">${EXTLINKS.map(l=>`<a class="ec" href="${l.url}" target="_blank" rel="noopener" style="text-decoration:none;color:inherit"><b>${esc(l.title)}</b><small>Mở trên Google Form ↗</small></a>`).join('')}</div>`:'')}
+  return `<button class="ec" data-ex="${i}" type="button"><b>${esc(e.title)}</b><small>${esc(e.sub||'')}</small><div class="meta"><span class="tag">${n} câu</span><span class="tag gray">${e.time} phút</span>${e.hasListen?'<span class="tag amber">có nghe</span>':''}${na?`<span class="tag pink">${na} câu chưa có đáp án</span>`:''}</div></button>`}).join('')+'</div>').join('')}
 $('#examList').addEventListener('click',e=>{const b=e.target.closest('[data-ex]');if(b)startExam(+b.dataset.ex)});
 
 /* ===== CBT engine (mô phỏng màn hình JFT-Basic) ===== */

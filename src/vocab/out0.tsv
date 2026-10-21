@@ -1,0 +1,479 @@
+id	vi	hv
+0	môn võ aikido (hợp khí đạo)	HỢP KHÍ ĐẠO
+1	bài phát biểu, lời chào	
+2	kem (lạnh)	
+3	đá (đồ uống lạnh)	
+4	kem (lạnh)	
+5	cà phê đá	
+6	giữa ~ và ~	GIAN
+7	trong khoảng (từ 14h đến 15h)	GIAN
+8	để cách quãng, giãn cách	GIAN
+9	người kia, vợ/chồng	TƯƠNG THỦ
+10	ý tưởng	
+11	công nghệ thông tin (IT)	
+12	đang trống, còn chỗ	KHÔNG
+13	bàn là, bàn ủi	
+14	gặp	HỘI
+15	gặp	HỘI
+16	dã ngoại, ngoài trời	
+17	đồ dùng dã ngoại	DỤNG PHẨM
+18	trung tâm outlet	
+19	màu xanh dương	THANH
+20	xanh (màu xanh dương)	THANH
+21	trời xanh	
+22	màu đỏ	XÍCH
+23	đỏ	XÍCH
+24	em bé	XÍCH
+25	vào (nhà)	THƯỢNG
+26	sáng sủa	MINH
+27	mùa thu	THU
+28	Akita (địa danh)	THU ĐIỀN
+29	món ngon mùa thu	THU VỊ GIÁC
+30	từ bỏ	
+31	mở (cửa hàng, cửa)	KHAI
+32	phim hành động	ÁNH HỌA
+33	phụ kiện, trang sức	
+34	hoạt động (vui chơi)	
+35	sau khi kết thúc ~ (vd: hết nhịn ăn)	MINH
+36	chúc mừng năm mới (cách nói tắt)	
+37	Chúc mừng năm mới.	
+38	đổ (ra, vào)	
+39	mở	KHAI
+40	chừa chỗ, để trống	
+41	cho, tặng	
+42	chiên ngập dầu, rán	DƯƠNG
+43	buổi sáng	TRIỀU
+44	bữa sáng	TRIỀU PHẠN
+45	ngày kia	
+46	chân	TÚC
+47	chân	TÚC
+48	vị, hương vị	VỊ
+49	châu Á	
+50	nguyên liệu thực phẩm châu Á	THỰC TÀI
+51	đã được nêm gia vị	VỊ
+52	nhạt, không có vị	VỊ
+53	ngày mai	MINH NHẬT
+54	nếm, thưởng thức	VỊ
+55	nếm	VỊ
+56	ngồi thoải mái (duỗi chân)	TÚC
+57	ngày mai	MINH NHẬT
+58	nhận giữ, giữ hộ	DỰ
+59	gửi, gửi giữ	DỰ
+60	chỗ đằng kia	
+61	trò chơi	DU
+62	đến chơi (nhà tôi)	DU LAI
+63	chơi	DU
+64	vui chơi	DU
+65	đi chơi nhé	DU
+66	ấm áp	NOÃN
+67	ấm (đồ ăn, nước)	ÔN
+68	ấm áp, ân cần	
+69	hâm nóng	ÔN
+70	hâm nóng	ÔN
+71	đầu	ĐẦU
+72	mới	TÂN
+73	mới (một cách mới)	TÂN
+74	đằng kia	
+75	nóng (thời tiết)	THỬ
+76	dày	HẬU
+77	đằng kia (cách nói thân mật)	
+78	đằng kia	
+79	bánh táo	
+80	tập trung, tụ họp	TẬP
+81	và, thêm nữa	
+82	sau đó, về sau	
+83	lát nữa, để sau	
+84	ngoài ra, còn lại thì	
+85	thông báo	
+86	anh trai (của tôi)	HUYNH
+87	nhạc anime	
+88	phim hoạt hình anime	
+89	chị gái (của tôi)	TỶ
+90	~ kia, ~ đó	
+91	À... ừm... (khi bắt chuyện)	
+92	khu vực đó, quanh đó	BIÊN
+93	căn hộ (nhà trọ)	
+94	nguy hiểm	NGUY
+95	dầu	DU
+96	tra dầu	DU SAI
+97	ứng dụng (app)	
+98	Abeno Harukas (tên tòa nhà)	
+99	ngọt	CAM
+100	ngọt cay	CAM TÂN
+101	amazake (nước gạo lên men ngọt)	CAM TỬU
+102	không... lắm, ít khi	
+103	Amuro Namie (ca sĩ Nhật)	AN THẤT NẠI MỸ HUỆ
+104	kẹo	
+105	mưa	VŨ
+106	ngày mưa	VŨ NHẬT
+107	Ôi! (hơi ngạc nhiên)	
+108	rửa, giặt	TẨY
+109	Xin cảm ơn ạ. (khi kết thúc)	
+110	Xin cảm ơn.	
+111	Đây rồi. (khi tìm thấy)	
+112	Có đấy.	
+113	có	
+114	có ở, nằm ở	
+115	đi bộ (bằng cách đi bộ)	BỘ
+116	đi bộ	BỘ
+117	rượu, cồn	
+118	đồ nhôm	CHẾ PHẨM
+119	Ơ? (ngạc nhiên)	
+120	cái kia	
+121	cái kia	
+122	dị ứng	
+123	chất gây dị ứng	VẬT CHẤT
+124	cộng lại là	HỢP
+125	tổng cộng	HỢP
+126	hoảng hốt, cuống	
+127	anko (nhân đậu đỏ)	
+128	mã PIN, mật mã	ÁM CHỨNG PHIÊN HIỆU
+129	an toàn	AN TOÀN
+130	kim băng	AN TOÀN
+131	hướng dẫn, thông tin	ÁN NỘI
+132	hướng dẫn, dẫn đường	ÁN NỘI
+133	dạ dày	VỊ
+134	tốt	
+135	Không có gì.	
+136	không	
+137	Hay đấy chứ?	
+138	Thôi, không cần ạ.	
+139	Thôi, không cần ạ.	
+140	Hay quá nhỉ.	
+141	thời tiết đẹp	THIÊN KHÍ
+142	thơm, mùi thơm	
+143	Tuyệt quá!	
+144	Được thôi. (thân mật)	
+145	nói	NGÔN
+146	nhà	GIA
+147	Không, cảm ơn.	
+148	mực	
+149	ngoài ~ (vd: ngoài người phận sự)	DĨ NGOẠI
+150	ngoài ~ (vd: ngoài công việc)	DĨ NGOẠI
+151	bất ngờ là, không ngờ	Ý NGOẠI
+152	thế nào (lịch sự của どう)	
+153	Anh/chị dùng ~ nhé? / Thế nào ạ?	
+154	đi ~ (tàu, xe chạy đến ~)	HÀNH
+155	nơi đến, điểm đến	HÀNH TIÊN
+156	đi	HÀNH
+157	bao nhiêu tuổi	
+158	bao nhiêu cái	
+159	bao nhiêu tiền	
+160	ikebana (cắm hoa Nhật)	
+161	Ikebukuro (địa danh)	TRÌ ĐẠI
+162	izakaya (quán nhậu kiểu Nhật)	CƯ TỬU ỐC
+163	đơn báo mất đồ	DI THẤT VẬT GIỚI
+164	bác sĩ	Y GIẢ
+165	từ ~ trở lên (vd: 38,5 độ trở lên)	DĨ THƯỢNG
+166	Như vậy là đủ chưa ạ?	DĨ THƯỢNG
+167	ghế	
+168	quần đảo Izu	Y ĐẬU CHƯ ĐẢO
+169	đạo Hồi	GIÁO
+170	bận rộn	MANG
+171	vội, khẩn trương	CẤP
+172	Đau quá!	THỐNG
+173	đau	THỐNG
+174	Xin mời (trước bữa ăn).	
+175	nhận (khiêm nhường của もらう)	
+176	cơn đau	THỐNG
+177	thuốc giảm đau	THỐNG CHỈ
+178	xào	
+179	một	
+180	1 yên	VIÊN
+181	tháng 1	NGUYỆT
+182	bánh kem dâu tây	MÔI
+183	1 giờ	THỜI
+184	1 tiếng	THỜI GIAN
+185	1 tiếng rưỡi	THỜI GIAN BÁN
+186	tạm dừng	NHẤT THỜI ĐÌNH CHỈ
+187	một lần	NHẤT ĐỘ
+188	cùng một lúc	NHẤT ĐỘ
+189	trong 1 ngày	NHẬT
+190	cả ngày	NHẬT
+191	suốt cả ngày	NHẤT NHẬT TRUNG
+192	1 năm	NIÊN
+193	quanh năm	NHẤT NIÊN TRUNG
+194	chợ	THỊ TRƯỜNG
+195	nhất	
+196	một phần	NHẤT BỘ
+197	mười nghìn	
+198	10.000 yên	VIÊN
+199	khi nào	
+200	ngày mùng 5	NHẬT
+201	một ngày nào đó	
+202	tầng 1	GIAI
+203	1 tháng	NGUYỆT
+204	1 cái	CÁ
+205	nhà riêng (độc lập)	NHẤT HỘ KIẾN
+206	chăm chỉ hết sức	NHẤT SINH HUYỀN MỆNH
+207	cùng nhau	
+208	năm cái	
+209	Đi đi.	HÀNH
+210	Hãy nói ~.	NGÔN
+211	đi (rồi về)	HÀNH LAI
+212	thử đi	HÀNH
+213	bất cứ lúc nào	
+214	thông thường, phổ thông	NHẤT BAN
+215	1 phút	PHÂN
+216	mãi mãi, lâu dài	
+217	luôn luôn	
+218	di chuyển	DI ĐỘNG
+219	nông thôn	ĐIỀN XÁ
+220	quê (ở nông thôn)	ĐIỀN XÁ
+221	biến mất, rời đi	
+222	con chó	KHUYỂN
+223	sự kiện	
+224	địa điểm tổ chức sự kiện	HỘI TRƯỜNG
+225	phòng khách	CƯ GIAN
+226	bây giờ	KIM
+227	chưa được tốt lắm	
+228	từ bây giờ	KIM
+229	đến giờ vẫn	KIM
+230	cho đến nay	KIM
+231	ý nghĩa	Ý VỊ
+232	hình ảnh	
+233	ấn tượng, hình ảnh	
+234	em gái (của tôi)	MUỘI
+235	em gái (người khác)	MUỘI
+236	ghét, không thích	HIỀM
+237	chán ghét, phát chán	HIỀM
+238	tai nghe	
+239	Mời anh/chị đến.	
+240	Chào mừng. / Mời vào.	
+241	Xin kính chào quý khách.	
+242	lối vào	NHẬP KHẨU
+243	có (người, vật), ở	
+244	cần	
+245	đèn trang trí	
+246	hình xăm	NHẬP MẶC
+247	bật / BẬT (ON)	NHẬP
+248	cho vào	NHẬP
+249	nhập (dữ liệu)	NHẬP
+250	cho vào, thêm vào	NHẬP
+251	màu sắc	SẮC
+252	nhiều loại, đa dạng	
+253	chúc mừng	CHÚC
+254	con dấu	ẤN GIÁM
+255	ăn uống	ẨM THỰC
+256	cấm ăn uống	ẨM THỰC CẤM CHỈ
+257	thực phẩm ăn liền	THỰC PHẨM
+258	mì ăn liền	
+259	internet	
+260	giải nghệ, nghỉ hưu	DẪN THOÁI
+261	đồ nội thất	
+262	Indonesia	
+263	tiếng Indonesia	NGỮ
+264	món ăn Ấn Độ	LIỆU LÝ
+265	quầy thông tin	
+266	quầy thông tin	
+267	góc thông tin	
+268	bệnh cúm	
+269	vi-rút	
+270	trà ô long	TRÀ
+271	rượu chu-hi vị trà ô long	
+272	Ừm... (đang suy nghĩ)	
+273	phía trên	THƯỢNG
+274	cây cảnh	THỰC MỘC
+275	khăn ướt	
+276	đi bộ thể dục	
+277	Wonosobo (địa danh)	
+278	súc miệng, súc họng	
+279	mùa mưa	VŨ QUÝ
+280	lễ tân, quầy tiếp nhận	THỤ PHÓ
+281	tiếp nhận, lễ tân	THỤ PHÓ
+282	giờ tiếp nhận	THỤ PHÓ THỜI GIAN
+283	đang tiếp nhận	THỤ PHÓ TRUNG
+284	Xin mời quý vị tham gia ~.	THỤ
+285	việc nhận (hàng)	THỤ THỦ
+286	nhận	THỤ THỦ
+287	nhận	THỤ
+288	nhận	THỤ
+289	cử động, di chuyển	ĐỘNG
+290	dễ cử động	ĐỘNG
+291	dễ cử động	ĐỘNG
+292	hoạt động, chuyển động	ĐỘNG
+293	phía sau	HẬU
+294	đằng sau, lưng	HẬU
+295	phía sau	HẬU
+296	nhạt (vd: vị nhạt)	
+297	bài hát, hát	CA
+298	hát	CA
+299	nhà	
+300	cuộc họp bàn	ĐẢ HỢP
+301	họp bàn	ĐẢ HỢP
+302	phía trong	NỘI TRẮC
+303	của nhà tôi, của chúng tôi	
+304	của tôi	
+305	đẹp	MỸ
+306	lây (bệnh)	
+307	cánh tay	OẢN
+308	trời mưa	VŨ THIÊN
+309	mì udon	
+310	nhím biển	
+311	giỏi	
+312	suôn sẻ	
+313	được sinh ra	SINH
+314	biển	HẢI
+315	chim mòng biển đuôi đen	
+316	hải sản	HẢI HẠNH
+317	mơ muối (ume)	MAI
+318	mơ muối umeboshi	MAI CAN
+319	Ulaanbaatar	
+320	quầy bán ~ (vd: đồ nữ)	MẠI TRƯỜNG
+321	bán	MẠI
+322	ồn ào	
+323	ồn ào	
+324	vui mừng	
+325	bán được	MẠI
+326	áo khoác	THƯỢNG TRƯỚC
+327	vận hành (tàu)	VẬN CHUYỂN
+328	lái xe	VẬN CHUYỂN
+329	tạm ngừng chạy	VẬN CHUYỂN KIẾN HỢP
+330	vận động, thể dục	VẬN ĐỘNG
+331	giày thể thao	VẬN ĐỘNG NGOA
+332	tập thể dục	VẬN ĐỘNG
+333	Hả? / Gì cơ?	
+334	Hả?! (ngạc nhiên)	
+335	bức tranh	HỘI
+336	máy điều hòa	
+337	phim	ÁNH HỌA
+338	rạp chiếu phim	ÁNH HỌA QUÁN
+339	liên hoan phim	ÁNH HỌA TẾ
+340	buổi chiếu phim	ÁNH HỌA THƯỢNG ÁNH HỘI
+341	ảnh hưởng	ẢNH HƯỞNG
+342	giờ mở cửa	DOANH NGHIỆP THỜI GIAN
+343	mở cửa, kinh doanh	DOANH NGHIỆP
+344	đang mở cửa	DOANH NGHIỆP TRUNG
+345	tiếng Anh	ANH NGỮ
+346	vâng, ừ	
+347	tập huấn sử dụng AED	HUẤN LUYỆN
+348	nhóm máu A	HÌNH
+349	máy ATM	
+350	Ờ... (đang suy nghĩ)	
+351	nhà ga	DỊCH
+352	trước nhà ga	DỊCH TIỀN
+353	thân thiện môi trường	
+354	chế độ tiết kiệm (eco)	
+355	cỡ nhỏ (S)	
+356	mạng xã hội	
+357	khoa học viễn tưởng	
+358	thang cuốn	
+359	cành cây	CHI
+360	đậu nành Nhật (edamame)	CHI ĐẬU
+361	cỡ rất lớn (XL)	
+362	Edy (thẻ thanh toán điện tử)	
+363	bưu thiếp ảnh	HỘI DIỆP THƯ
+364	tôm	
+365	cơm rang tôm	
+366	cỡ vừa (M)	
+367	Giỏi quá nhỉ.	
+368	chọn	TUYỂN
+369	cỡ lớn (L)	
+370	thang máy	
+371	~ yên	VIÊN
+372	Xin nhận của quý khách ~ yên.	VIÊN DỰ
+373	diễn xuất	DIỄN KỸ
+374	hoãn lại	DIÊN KỲ
+375	đồng giá ~ yên (vd: đồng giá 50 yên)	VIÊN QUÂN NHẤT
+376	tờ ~ yên (vd: tờ 10.000 yên)	VIÊN TRÁT
+377	biểu diễn âm nhạc	DIỄN TẤU
+378	dây nối dài	DIÊN TRƯỜNG
+379	kéo dài, gia hạn	DIÊN TRƯỜNG
+380	phí gia hạn	DIÊN TRƯỜNG LIỆU KIM
+381	ngày hội chợ đền chùa	DUYÊN NHẬT
+382	giảm ~ yên (vd: giảm 50 yên)	VIÊN DẪN
+383	bút chì	
+384	xin vui lòng không ~	VIỄN LỰ
+385	Chúng tôi xin nhận giữ đồ.	DỰ
+386	Xin vui lòng gửi ~.	DỰ
+387	cháu trai	SANH
+388	Quý khách tìm loại khoảng bao nhiêu tiền ạ?	THAM
+389	ngon	
+390	Ngon quá.	
+391	dù đang bận rộn	MANG TRUNG
+392	giặt nhanh	
+393	trong lúc quý vị đang vội	CẤP
+394	(Xin hãy) đặt xuống.	TRÍ
+395	Xin mời đến.	
+396	Cảm ơn quý vị đã đến.	
+397	cầu nguyện	KỲ
+398	lễ chúc mừng	CHÚC
+399	quà mừng	CHÚC
+400	chúc mừng	CHÚC
+401	cổ vũ, ủng hộ	ỨNG VIỆN
+402	Quý khách gọi món gì ạ?	
+403	phòng tiếp khách	ỨNG TIẾP THẤT
+404	vạch qua đường	HOÀNH ĐOẠN BỘ ĐẠO
+405	nôn mửa	THỔ
+406	ứng tuyển, đăng ký	ỨNG MỘ
+407	nhiều	ĐA
+408	to, lớn	ĐẠI
+409	kích cỡ	ĐẠI
+410	to, lớn	ĐẠI
+411	dàn nhạc giao hưởng	
+412	Osaka	ĐẠI PHẢN
+413	thành Osaka	ĐẠI PHẢN THÀNH
+414	đông người	ĐẠI THẾ
+415	suất lớn	ĐẠI THỊNH
+416	tuyết rơi dày	ĐẠI TUYẾT
+417	ngọn đồi	KHÂU
+418	mẹ (của người khác)	MẪU
+419	việc mua hàng (lịch sự)	MÃI THƯỢNG
+420	Tổng cộng của quý khách là ~.	HỘI KẾ
+421	Cho tôi thanh toán.	HỘI KẾ NGUYỆN
+422	tiền thối lại	PHẢN
+423	Xin vui lòng viết ~.	THƯ
+424	Nhờ trời, cảm ơn anh/chị.	
+425	nhờ có ~, may mà	
+426	bánh kẹo	QUẢ TỬ
+427	tiền	KIM
+428	thu tiền	KIM THỦ
+429	Okayama	CƯƠNG SƠN
+430	cháo	
+431	thêm suất, ăn thêm	
+432	thêm miễn phí	TỰ DO
+433	Xin mời ghé thăm tự nhiên.	KHÍ KHINH VIỆT
+434	Okinawa	XUNG THẰNG
+435	Quý khách đã chọn xong chưa ạ?	QUYẾT
+436	quý khách	KHÁCH DẠNG
+437	Thưa quý khách	KHÁCH DẠNG
+438	khách (gọi khách)	KHÁCH
+439	khách, khách tham quan	KHÁCH
+440	thức dậy	KHỞI
+441	thức dậy	KHỞI
+442	phía trong cùng	ÁO
+443	đặt, để	TRÍ
+444	ngoài trời	ỐC NGOẠI
+445	vợ (người khác)	ÁO
+446	bãi đỗ xe trên sân thượng	ỐC THƯỢNG TRÚ XA TRƯỜNG
+447	chiều sâu	ÁO HÀNH
+448	đưa (ai) về	TỐNG
+449	gửi	TỐNG
+450	sự chậm trễ	TRÌ
+451	đến muộn, trễ	TRÌ
+452	Giữ gìn sức khỏe nhé.	NGUYÊN KHÍ
+453	trẻ nhỏ (lịch sự)	
+454	trẻ nhỏ (lịch sự)	TỬ DẠNG
+455	con (của anh/chị)	TỬ
+456	con (của người khác)	TỬ
+457	việc đến (lịch sự)	VIỆT
+458	Xin mời đến ~.	VIỆT
+459	Xin mời đi đến ~.	VIỆT
+460	gây ra	KHỞI
+461	Xin vui lòng trả lời.	ĐÁP
+462	Chúng tôi xin từ chối ~.	ĐOẠN
+463	tiến hành, tổ chức	HÀNH
+464	đang tiến hành ~ (lịch sự)	HÀNH
+465	okonomiyaki (bánh xèo Nhật)	HẢO THIÊU
+466	gạo, cơm	MỄ
+467	nổi giận	NỘ
+468	xảy ra (vd: động đất xảy ra)	KHỞI
+469	kìm nén, hạn chế	ỨC
+470	cá	NGƯ
+471	Tôi xin phép về trước.	TIÊN THẤT LỄ
+472	rượu, rượu sake	TỬU
+473	rượu	TỬU
+474	Mời quý vị rủ gia đình, bạn bè cùng đến.	DỤ HỢP THƯỢNG XUẤT
+475	lắng xuống, dừng (vd: rung lắc dừng)	
+476	đĩa	MÃNH
+477	Chúc hạnh phúc.	HẠNH

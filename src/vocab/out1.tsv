@@ -1,0 +1,479 @@
+id	vi	hv
+478	ông cụ, ông già	
+479	chỉ, cho biết	GIÁO
+480	dạy	GIÁO
+481	thời gian (lịch sự)	THỜI GIAN
+482	khăn ướt lau tay	
+483	tán gẫu, nói chuyện	
+484	tán gẫu	
+485	Xin lỗi đã làm phiền.	
+486	Xin phép làm phiền.	
+487	đến thăm (nhà)	
+488	sành điệu, thời trang	
+489	ăn diện	
+490	thông báo	TRI
+491	thông báo	TRI
+492	Xin thông báo.	TRI
+493	Xin thông báo đến quý vị.	TRI
+494	số thông báo	TRI PHIÊN HIỆU
+495	Tôi sẽ kiểm tra ạ.	ĐIỀU
+496	lâu đài	THÀNH
+497	đẩy	ÁP
+498	ấn, bấm	ÁP
+499	đóng (dấu)	ÁP
+500	được đề xuất, nên dùng	
+501	món gợi ý, đặc sản	
+502	giới thiệu, gợi ý	
+503	Cảm ơn vì luôn giúp đỡ.	THẾ THOẠI
+504	Cảm ơn vì đã giúp đỡ tôi.	THẾ THOẠI
+505	Mong được giúp đỡ.	THẾ THOẠI
+506	bị ô nhiễm	Ô NHIỄM
+507	muộn, chậm	TRÌ
+508	Muộn nhỉ.	TRÌ
+509	bị muộn	TRÌ
+510	đến khuya	TRÌ
+511	Xin lỗi đã làm phiền nhưng ~	KHỦNG NHẬP
+512	Mau khỏe nhé. (với người ốm)	ĐẠI SỰ
+513	nhà (của người khác)	TRẠCH
+514	bình tĩnh, ổn định	LẠC TRƯỚC
+515	trà, trà Nhật	TRÀ
+516	trà Nhật	TRÀ
+517	pha trà	TRÀ
+518	sạch (vết bẩn bong ra)	LẠC
+519	rơi, ngã	LẠC
+520	Xin mời sử dụng.	SỬ
+521	Anh/chị vất vả rồi.	BÌ
+522	Xin mời người tiếp theo.	THỨ PHƯƠNG
+523	Quý khách có cần thêm ~ không ạ?	
+524	Tôi có thông tin muốn báo.	TRUYỀN
+525	chồng (của tôi)	PHU
+526	đồ nhắm	
+527	chăm sóc, bảo dưỡng	THỦ NHẬP
+528	Xin mời ra ngoài.	XUẤT
+529	cửa ra (lịch sự)	XUẤT KHẨU
+530	chùa	TỰ
+531	cuộc gọi (lịch sự)	ĐIỆN THOẠI
+532	số điện thoại (lịch sự)	ĐIỆN THOẠI PHIÊN HIỆU
+533	âm thanh	ÂM
+534	liên hệ, hỏi đáp	VẤN HỢP
+535	Xin vui lòng liên hệ.	VẤN HỢP
+536	bố (của người khác)	PHỤ
+537	em trai (của tôi)	ĐỆ
+538	em trai (của người khác)	ĐỆ
+539	otoori (tục uống rượu ở đảo Miyako)	
+540	có tiếng động	ÂM
+541	bé trai	NAM TỬ
+542	người đàn ông	NAM NHÂN
+543	Otoko wa Tsurai yo (tên phim)	NAM
+544	tiền mừng tuổi	NIÊN NGỌC
+545	Anh/chị đánh rơi đồ này.	LẠC
+546	đồ thất lạc	LẠC VẬT
+547	hôm kia	
+548	giao hàng (lịch sự)	GIỚI
+549	người lớn	ĐẠI NHÂN
+550	người lớn	ĐẠI NHÂN
+551	hàng xóm	
+552	điệu múa	DŨNG
+553	Xin mời lấy ~.	THỦ
+554	nhảy, múa	DŨNG
+555	ngạc nhiên	KINH
+556	gây tiếng ồn	ÂM LẬP
+557	bụng	PHÚC
+558	no bụng	PHÚC
+559	đói bụng	PHÚC
+560	giống nhau	ĐỒNG
+561	Xin vui lòng xếp hàng.	TỊNH
+562	anh trai (của người khác)	HUYNH
+563	cơm nắm	
+564	thịt	NHỤC
+565	chị gái (của người khác)	TỶ
+566	lời nhờ, yêu cầu	NGUYỆN
+567	Làm ơn. / Nhờ anh/chị.	NGUYỆN
+568	Làm ơn cho ~.	NGUYỆN
+569	đũa	
+570	cô, bác (phụ nữ trung niên)	
+571	Chào buổi sáng.	
+572	Xin vui lòng hạn chế ~.	KHỐNG
+573	rút tiền (lịch sự)	DẪN XUẤT
+574	một người (lịch sự)	NHÂN DẠNG
+575	phòng tắm	PHONG LỮ
+576	nhà tắm	PHONG LỮ
+577	tắm bồn	PHONG LỮ NHẬP
+578	cơm hộp bento	BIỆN ĐƯƠNG
+579	ghi nhớ	GIÁC
+580	Xin lỗi đã để quý khách chờ.	ĐÃI
+581	Như vậy có đúng không ạ?	
+582	Chúng tôi đã chờ quý khách.	ĐÃI
+583	Rất mong được đón tiếp quý khách.	ĐÃI
+584	bùa hộ mệnh	THỦ
+585	~ đã đến ạ.	KIẾN
+586	kiệu thần (mikoshi)	
+587	Xin vui lòng cho xem ~.	KIẾN
+588	nhân viên cửa hàng	ĐIẾM NHÂN
+589	quà lưu niệm	THỔ SẢN
+590	tã, bỉm	
+591	đáng mừng	
+592	Xin chúc mừng.	
+593	Chúc mừng.	
+594	nặng	TRỌNG
+595	kỷ niệm	TƯ XUẤT
+596	nghĩ	TƯ
+597	trọng lượng	TRỌNG
+598	thú vị	
+599	thú vị, vui	
+600	bánh mochi	BÍNH
+601	Quý khách mang về đúng không ạ?	TRÌ QUY
+602	Xin vui lòng mang theo ~.	TRÌ
+603	Tôi sẽ mang đến cho quý khách.	TRÌ
+604	Quý khách có ~ không ạ?	TRÌ
+605	đồ chơi	
+606	đồ chơi	
+607	hơn mình nghĩ	TƯ
+608	muốn mua (lịch sự)	CẦU
+609	cơm gà trứng oyakodon	THÂN TỬ TỈNH
+610	Chúc ngủ ngon.	
+611	nước nóng	THANG
+612	bơi	VỊNH
+613	và	
+614	Xin mời ~ (gọi loa tìm người).	HÔ XUẤT THÂN THƯỢNG
+615	Xin vui lòng đọc.	ĐỘC
+616	Hà Lan	
+617	buổi định hướng	
+618	gọi lại	CHIẾT PHẢN
+619	xuống (xe, tàu)	GIÁNG
+620	đi xuống	HẠ
+621	gãy (xương)	CHIẾT
+622	hộp nhạc	
+623	tao, tớ (nam giới)	
+624	nước cam	
+625	rút (tiền)	
+626	Xin đừng để quên đồ khi xuống tàu.	VONG VẬT GIÁNG
+627	bàn giao, trao (lịch sự)	ĐỘ
+628	kết thúc, xong	CHUNG
+629	làm xong ~ (vd: ăn xong)	CHUNG
+630	âm nhạc	ÂM LẠC
+631	suối nước nóng	ÔN TUYỀN
+632	nhiệt độ	ÔN ĐỘ
+633	bé gái	NỮ TỬ
+634	con muỗi	VĂN
+635	màu kaki	
+636	Ghana	
+637	thảm	
+638	tầng ~	GIAI
+639	~ lần (vd: 1 lần)	HỒI
+640	con sò, vỏ sò	BỐI
+641	hội, nhóm (vd: nhóm tình nguyện)	HỘI
+642	thẻ hội viên	HỘI VIÊN CHỨNG
+643	nước ngoài	HẢI NGOẠI
+644	du lịch nước ngoài	HẢI NGOẠI LỮ HÀNH
+645	bãi biển	HẢI NGẠN
+646	bờ biển	HẢI NGẠN
+647	hoàn thành trong ~ buổi	HỒI HOÀN KẾT
+648	cuộc họp	HỘI NGHỊ
+649	phòng họp	HỘI NGHỊ THẤT
+650	quầy thu ngân / thanh toán	HỘI KẾ
+651	lúc thanh toán	HỘI KẾ THỜI
+652	chăm sóc, điều dưỡng	GIỚI HỘ
+653	nước ngoài	NGOẠI QUỐC
+654	ngoại ngữ	NGOẠI QUỐC NGỮ
+655	người nước ngoài	NGOẠI QUỐC NHÂN
+656	mạng lưới hỗ trợ người nước ngoài	NGOẠI QUỐC NHÂN CHI VIỆN
+657	thẻ đăng ký người nước ngoài	NGOẠI QUỐC NHÂN ĐĂNG LỤC CHỨNG
+658	dành cho người nước ngoài	NGOẠI QUỐC NHÂN HƯỚNG
+659	tổ chức	KHAI THÔI
+660	đang diễn ra	KHAI THÔI TRUNG
+661	cửa soát vé	CẢI TRÁT
+662	bắt đầu	KHAI THỦY
+663	công ty	HỘI XÃ
+664	ra ngoài, đi vắng	NGOẠI XUẤT
+665	nơi đang ra ngoài	NGOẠI XUẤT TIÊN
+666	hội trường, địa điểm	HỘI TRƯỜNG
+667	tàu nhanh	KHOÁI TỐC
+668	cầu thang	GIAI ĐOẠN
+669	đèn pin	HOÀI TRUNG ĐIỆN ĐĂNG
+670	đáy biển	HẢI ĐỂ
+671	Hãy viết ~.	THƯ
+672	khai trương (vd: giảm giá khai trương)	KHAI ĐIẾM
+673	sushi băng chuyền	HỒI CHUYỂN
+674	hướng dẫn viên	
+675	lần thứ ~ (vd: lần 2)	HỒI MỤC
+676	mua sắm	MÃI VẬT
+677	mua sắm	MÃI VẬT
+678	hội thoại	HỘI THOẠI
+679	mua	MÃI
+680	quầy	
+681	trả lại	PHẢN
+682	lúc về, trên đường về	QUY
+683	về (nhà)	QUY
+684	khuôn mặt	NHAN
+685	họa sĩ	HỌA GIA
+686	giá cả	GIÁ CÁCH
+687	khoa học	KHOA HỌC
+688	gương	KÍNH
+689	nhân viên phụ trách	HỆ VIÊN
+690	mất (thời gian)	
+691	tốn (phí)	
+692	tốn (phí)	
+693	Kagawa	HƯƠNG XUYÊN
+694	hàu	
+695	chìa khóa	
+696	có khóa	KIỆN PHÓ
+697	thư bảo đảm	THƯ LƯU
+698	như sau	HẠ KÝ
+699	có hạn	HẠN
+700	chỉ ~ (vd: chỉ 1 lần)	HẠN
+701	chỉ trong ~ (vd: chỉ 1 tuần)	HẠN
+702	viết	THƯ
+703	mỗi, các	CÁC
+704	vẽ (tranh)	MIÊU
+705	đồ nội thất	GIA CỤ
+706	các ga, mỗi ga	CÁC DỊCH
+707	tàu thường (dừng mọi ga)	CÁC DỊCH ĐÌNH XA
+708	mỗi người, tự mỗi người	CÁC TỰ
+709	học sinh, sinh viên	HỌC SINH
+710	phóng to, mở rộng	KHUẾCH ĐẠI
+711	xác nhận, kiểm tra	XÁC NHẬN
+712	ẩn nấp	ẨN
+713	té (nước) vào nhau	HỢP
+714	~ tháng	NGUYỆT
+715	rắc, rưới	
+716	treo (vd: treo lên tường)	
+717	đeo (vd: đeo kính)	
+718	rưới, chan (vd: rưới nước sốt)	
+719	giỏ	
+720	Chúng tôi có ~ ạ.	
+721	cái ô, dù	TẢN
+722	hỏa hoạn	HỎA TAI
+723	chuông báo cháy	HỎA TAI BÁO TRI KHÍ
+724	hướng gió	PHONG HƯỚNG
+725	đồ trang trí	SỨC
+726	trang trí	SỨC
+727	trưng bày, trang trí	SỨC
+728	hỏa hoạn, đám cháy	HỎA SỰ
+729	Vâng, tôi hiểu rồi ạ.	
+730	cho mượn, cho thuê	THẢI XUẤT
+731	bị cháy	HỎA SỰ
+732	ca sĩ	CA THỦ
+733	thường ngày, giản dị	
+734	cho mượn	THẢI
+735	cho mượn	THẢI
+736	khí ga	
+737	công ty ga	HỘI XÃ
+738	bếp ga	
+739	bình ga	
+740	gió	PHONG
+741	kiếm (tiền)	GIÁ
+742	thuốc cảm	DƯỢC
+743	tạm thời	GIẢ THIẾT
+744	băng cát-xét	
+745	gia đình / gia đình (anh/chị)	GIA TỘC
+746	gia đình	GIA TỘC
+747	cùng gia đình	GIA TỘC
+748	cách ~ (vd: cách đọc)	PHƯƠNG
+749	vai	KIÊN
+750	cứng	CỐ
+751	mỏi vai	KIÊN
+752	chữ katakana	
+753	(Hãy) dọn dẹp đi.	PHIẾN PHÓ
+754	dọn dẹp	PHIẾN PHÓ
+755	làm đông cứng	CỐ
+756	một mặt	PHIẾN DIỆN
+757	kể, nói chuyện	NGỮ
+758	tháng ~ (vd: tháng 12)	NGUYỆT
+759	nhạc cụ	LẠC KHÍ
+760	vác trên vai	
+761	ngầu, đẹp trai	
+762	trường học	HỌC HIỆU
+763	dao rọc giấy	
+764	cắt tóc	
+765	báo cáo hoạt động	HOẠT ĐỘNG BÁO CÁO
+766	cơm thịt heo chiên katsudon	TỈNH
+767	cốc, tách	
+768	mì ly	
+769	thành công, hoạt động nổi bật	HOẠT DƯỢC
+770	gia đình, hộ gia đình	GIA ĐÌNH
+771	món ăn gia đình	GIA ĐÌNH LIỆU LÝ
+772	danh mục	
+773	đồ điện gia dụng	GIA ĐIỆN
+774	đồ điện gia dụng	GIA ĐIỆN
+775	sản phẩm điện gia dụng	GIA ĐIỆN CHẾ PHẨM
+776	góc (đường)	GIÁC
+777	gado gado (món Indonesia)	
+778	~ nhỉ? (tự hỏi)	
+779	không biết ~ nhỉ	
+780	Kanazawa	KIM TRẠCH
+781	nhất định, luôn luôn	TẤT
+782	khá là	
+783	cua	
+784	làm nóng, đun nóng	GIA NHIỆT
+785	rác cháy được	KHẢ NHIÊN
+786	bạn gái	BỈ NỮ
+787	vỏ bọc, nắp che	
+788	cặp, túi xách	
+789	quán cà phê	
+790	che, phủ lên	
+791	đội (vd: đội mũ)	
+792	đội (vd: đội mũ bảo hiểm)	
+793	dị ứng phấn hoa	HOA PHẤN CHỨNG
+794	bức tường	BÍCH
+795	Không sao đâu.	
+796	chịu đựng	
+797	không chịu nổi	
+798	giấy	CHỈ
+799	tóc	PHÁT
+800	tóc dài	PHÁT TRƯỜNG
+801	tóc ngắn	PHÁT ĐOẢN
+802	dao cạo	
+803	sấm sét	LÔI
+804	hộp giấy (đồ uống)	CHỈ
+805	băng dính vải	
+806	máy ảnh	
+807	gói gia vị (mì)	
+808	ngứa	
+809	Có chỗ nào ngứa không ạ?	
+810	đi đến (thường xuyên)	THÔNG
+811	thứ Ba	HỎA DIỆU NHẬT
+812	trống rỗng	KHÔNG
+813	từ ~ đến ~	
+814	màu sắc	
+815	nhuộm màu (tóc)	
+816	đồ chiên karaage	ĐƯỜNG DƯƠNG
+817	gà rán karaage	
+818	cay	TÂN
+819	karaoke	
+820	cuộc thi karaoke	ĐẠI HỘI
+821	Thông báo từ ~.	TRI
+822	đến từ ~	LAI
+823	thủy tinh, kính	
+824	cơ thể	THỂ
+825	karate	KHÔNG THỦ
+826	Anh/chị đến từ ~ phải không?	
+827	Đây là thông báo từ ~.	TRI
+828	mượn	TÁ
+829	nhẹ	KHINH
+830	Calpis (nước uống sữa chua)	
+831	rượu chu-hi vị Calpis	
+832	cà ri	
+833	cơm cà ri	
+834	lịch	
+835	sông	XUYÊN
+836	vỏ (vd: vỏ cà chua)	BÌ
+837	vỏ bánh (vd: vỏ gyoza)	BÌ
+838	dễ thương	
+839	Dễ thương quá!	
+840	thay đổi	BIẾN
+841	trong ~ (vd: trong 2 năm)	GIAN
+842	lon, hộp	PHẪU
+843	suy nghĩ	KHẢO
+844	mùa khô	CAN QUÝ
+845	môi trường	HOÀN CẢNH
+846	người có phận sự	QUAN HỆ GIẢ
+847	tham quan, du lịch	QUAN QUANG
+848	khách du lịch	QUAN QUANG KHÁCH
+849	góc giới thiệu du lịch	QUAN QUANG THIỆU GIỚI
+850	địa điểm du lịch	QUAN QUANG ĐỊA
+851	Hàn Quốc	HÀN QUỐC
+852	chữ Hán	HÁN TỰ
+853	cảm giác, vẻ ngoài	CẢM
+854	cảm ơn, biết ơn	CẢM TẠ
+855	cảm thấy	CẢM
+856	đau khớp	QUAN TIẾT THỐNG
+857	bị lây nhiễm	CẢM NHIỄM
+858	hoàn toàn	HOÀN TOÀN
+859	cảm tưởng	CẢM TƯỞNG
+860	dễ	GIẢN ĐƠN
+861	dễ, đơn giản	GIẢN ĐƠN
+862	một cách đơn giản	GIẢN ĐƠN
+863	đồ hộp	PHẪU
+864	pin khô	CAN ĐIỆN TRÌ
+865	cảm động	CẢM ĐỘNG
+866	vùng Kanto	QUAN ĐÔNG
+867	trong tòa nhà	QUÁN NỘI
+868	Cạn ly! / Dô!	CAN BÔI
+869	Cố lên nhé.	
+870	Tôi sẽ cố gắng.	
+871	cố gắng	
+872	biển hiệu	KHÁN BẢN
+873	Campuchia	
+874	phòng quản lý	QUẢN LÝ THẤT
+875	phòng người quản lý tòa nhà	QUẢN LÝ NHÂN THẤT
+876	hoàn tất	HOÀN LIỄU
+877	móc chìa khóa	
+878	màu vàng	HOÀNG SẮC
+879	vàng	HOÀNG SẮC
+880	tắt, biến mất	TIÊU
+881	nhiệt độ không khí	KHÍ ÔN
+882	cơ hội	CƠ HỘI
+883	thay quần áo	TRƯỚC THẾ
+884	thời hạn, thời gian	KỲ GIAN
+885	nghe	VĂN
+886	nghe	VĂN
+887	hỏi	VĂN
+888	nguy hiểm	NGUY HIỂM
+889	về nước	QUY QUỐC
+890	loại máy, mẫu máy	CƠ CHỦNG
+891	kỹ thuật	KỸ THUẬT
+892	vết xước	THƯƠNG
+893	xây dựng, tạo dựng	TRÚC
+894	mùa	QUÝ TIẾT
+895	phía bắc	BẮC
+896	đàn ghi-ta	
+897	kỳ vọng, mong đợi	KỲ ĐÃI
+898	về nhà	QUY TRẠCH
+899	cửa Bắc	BẮC KHẨU
+900	cửa Bắc (ra/vào)	BẮC KHẨU
+901	bừa bộn	
+902	bẩn	
+903	đồ quý giá	QUÝ TRỌNG PHẨM
+904	khu hút thuốc	KHIẾT YÊN SỞ
+905	động cơ ban đầu, cơ duyên	
+906	nhận ra	KHÍ
+907	nhà bếp	
+908	chắc chắn	
+909	Hãy đến nhé.	LAI
+910	bột đậu nành kinako	
+911	thích, ưng ý	KHÍ NHẬP
+912	điền vào	KÝ NHẬP
+913	ngày điền	KÝ NHẬP NHẬT
+914	ví dụ cách điền	KÝ NHẬP LỆ
+915	cái chày	XỬ
+916	hôm qua	TẠC NHẬT
+917	chức năng	CƠ NĂNG
+918	nấm	
+919	nghiêm khắc	
+920	quyên góp	KÝ PHÓ
+921	thẻ quà tặng	
+922	tâm trạng, cảm giác	KHÍ PHÂN
+923	cảm thấy khó chịu, mệt	KHÍ PHÂN ÁC
+924	nguyện vọng	HY VỌNG
+925	hy vọng, nguyện vọng	HY VỌNG
+926	giá bán lẻ đề xuất	HY VỌNG TIỂU MẠI GIÁ CÁCH
+927	phí cơ bản	CƠ BẢN LIỆU KIM
+928	được quyết định	QUYẾT
+929	Kimi no Na wa (Tên cậu là gì?)	QUÂN DANH
+930	quyết định	QUYẾT
+931	cảm giác, tâm trạng	KHÍ TRÌ
+932	dễ chịu, sảng khoái	KHÍ TRÌ
+933	Thật dễ chịu.	KHÍ TRÌ
+934	kimono	TRƯỚC VẬT
+935	thẻ rút tiền	
+936	chơi ném bắt bóng	
+937	mũ lưỡi trai	
+938	nắp chai	
+939	tủ	
+940	cắm trại	
+941	chín	
+942	hút	HẤP DẪN
+943	lực hút	HẤP DẪN LỰC
+944	tầng 9	GIAI
+945	9 tháng	NGUYỆT
+946	đơn xin nghỉ phép	HƯU HẠ GIỚI
+947	xe cứu thương	CỨU CẤP XA
+948	ngày nghỉ (cửa hàng)	HƯU NGHIỆP NHẬT
+949	phòng nghỉ	HƯU KHẾ THẤT
+950	khu nghỉ ngơi	HƯU KHẾ SỞ
+951	nghỉ giải lao	HƯU KHẾ
+952	9 cái	CÁ
+953	chín mươi	
+954	xe chở nước	CẤP THỦY XA
+955	chín nghìn	

@@ -1,0 +1,389 @@
+{
+ "lv": "初中級",
+ "bai": 11,
+ "title": "これは詐欺メールですよ",
+ "title_vi": "Đây là email lừa đảo đấy",
+ "points": [
+  {
+   "no": "❶",
+   "pattern": "V- てほしいんですが",
+   "meaning_vi": "tôi muốn (anh/chị) V giúp… (nhờ vả)",
+   "examples": [
+    {
+     "jp": "このメールを{見|み}てほしいんですが……。",
+     "vi": "Tôi muốn nhờ anh/chị xem giúp email này..."
+    }
+   ],
+   "explain_vi": [
+    "Đây là cách nói dùng khi nhờ ai đó làm gì. Trong bài này, nó được dùng khi gặp chuyện khó khăn và hỏi người khác cách xử lý.",
+    "「V-てほしい」 dùng khi người nói truyền đạt việc mình muốn người khác làm cho mình. Ngược lại, khi nói việc bản thân mình muốn làm thì dùng 「V-たい」.",
+    "Đây là dạng 「～んですが」 nối vào sau 「V-てほしい」."
+   ],
+   "explain_jp": [
+    "だれかに何かをお願いするときの言い方です。この課では、何か困ったことがあって、ほかの人に対応方法を聞くときに使っています。",
+    "「V-てほしい」は、話し手がほかの人にしてもらいたいことを伝えるときに使います。一方、自分がしたいことを言うときは、「V-たい」を使います。",
+    "「V-てほしい」に「～んですが」が接続した形です。"
+   ],
+   "more_examples": [
+    {
+     "jp": "すみません、ちょっと{日本語|にほんご}でわからないことがあって、{手伝|てつだ}ってほしいんですが……。",
+     "vi": "Xin lỗi, có chỗ tiếng Nhật tôi không hiểu, tôi muốn nhờ anh/chị giúp một chút..."
+    },
+    {
+     "jp": "ちょっと{教|おし}えてほしいんですが、{知|し}らない{番号|ばんごう}から{電話|でんわ}があったとき、いつもどうしていますか？",
+     "vi": "Tôi muốn hỏi anh/chị một chút: khi có cuộc gọi từ số lạ, anh/chị thường làm thế nào?"
+    }
+   ],
+   "worksheet": [],
+   "quiz": [
+    {
+     "q": "すみません、この書類の書き方を教えて（　）んですが……。",
+     "o": [
+      "ほしい",
+      "たい",
+      "ください"
+     ],
+     "a": 0,
+     "ex_vi": "Nhờ người khác làm giúp: 「V-てほしいんですが」. 「教えてたい」「教えてくださいんですが」 sai ngữ pháp."
+    },
+    {
+     "q": "先輩、ちょっと相談に（　）ほしいんですが……。",
+     "o": [
+      "乗って",
+      "乗り",
+      "乗る"
+     ],
+     "a": 0,
+     "ex_vi": "「ほしい」 nối với thể テ: 相談に乗る → 乗ってほしい (muốn anh/chị cho lời khuyên)."
+    },
+    {
+     "q": "（自分がしたいこと）すみません、来週、休みを（　）んですが……。",
+     "o": [
+      "取りたい",
+      "取ってほしい",
+      "取ってあげたい"
+     ],
+     "a": 0,
+     "ex_vi": "Việc bản thân mình muốn làm thì dùng 「V-たい」, không dùng 「V-てほしい」 (muốn người khác làm)."
+    },
+    {
+     "q": "A：どうしたんですか？　B：変なメッセージが来たので、ちょっと（　）ほしいんですが……。",
+     "o": [
+      "見て",
+      "見る",
+      "見た"
+     ],
+     "a": 0,
+     "ex_vi": "「V-てほしい」: 見る → 見て + ほしい. Nhờ người khác xem giúp tin nhắn lạ."
+    }
+   ]
+  },
+  {
+   "no": "❷",
+   "pattern": "N になっている",
+   "meaning_vi": "(theo quy định) là N / đã được quy định là N",
+   "examples": [
+    {
+     "jp": "{缶|かん}ジュースは{持|も}ち{込|こ}み{禁止|きんし}になっています。",
+     "vi": "Nước đóng lon thì bị cấm mang vào."
+    }
+   ],
+   "explain_vi": [
+    "Đây là cách nói khi nêu quy định. Nó được dùng khi nói về những điều đã được quyết định từ trước như luật lệ, quy tắc, chứ không phải điều bản thân mình tự quyết. Trong bài này, nó được dùng ở dạng 「～禁止になっている」 khi nhân viên nói với khách những điều không được làm trước khi vào hội trường buổi hòa nhạc.",
+    "Ngoài ra còn có cách nói 「Nとなっている」 dùng trong tình huống trang trọng."
+   ],
+   "explain_jp": [
+    "決まりを言うときの言い方です。自分が決めたことではなく、ルールや規則など、あらかじめ決められたことを言うときに使います。この課では、コンサート会場の入場前に、スタッフが客にしてはいけないことを言うときに「～禁止になっている」の形で使っています。",
+    "フォーマルな場面で使われる「Nとなっている」という言い方もあります。"
+   ],
+   "more_examples": [
+    {
+     "jp": "{会場|かいじょう}は、{再入場|さいにゅうじょう}{不可|ふか}になっていますので、ご{注意|ちゅうい}ください。",
+     "vi": "Hội trường không cho phép vào lại, xin quý khách lưu ý."
+    },
+    {
+     "jp": "11{時|じ}{開演|かいえん}となっています。{開演|かいえん}まで、しばらくお{待|ま}ちください。",
+     "vi": "Buổi diễn bắt đầu lúc 11 giờ. Xin quý khách vui lòng chờ một chút cho đến giờ bắt đầu."
+    }
+   ],
+   "worksheet": [],
+   "quiz": [
+    {
+     "q": "館内での写真撮影は禁止（　）います。",
+     "o": [
+      "になって",
+      "がなって",
+      "をなって"
+     ],
+     "a": 0,
+     "ex_vi": "Nêu quy định: 「Nになっている」 → 禁止になっています."
+    },
+    {
+     "q": "（コンサート会場で）会場は、再入場不可（　）なっております。",
+     "o": [
+      "と",
+      "を",
+      "で"
+     ],
+     "a": 0,
+     "ex_vi": "Tình huống trang trọng dùng 「Nとなっている」: 不可となっております."
+    },
+    {
+     "q": "A：ここでタバコを吸ってもいいですか。　B：すみません、ここは禁煙に（　）。",
+     "o": [
+      "なっています",
+      "なりたいです",
+      "なってください"
+     ],
+     "a": 0,
+     "ex_vi": "Quy định đã được đặt ra từ trước → 「禁煙になっています」 (ở đây cấm hút thuốc)."
+    },
+    {
+     "q": "受付は9時からに（　）ので、もう少しお待ちください。",
+     "o": [
+      "なっています",
+      "なりません",
+      "なってみます"
+     ],
+     "a": 0,
+     "ex_vi": "Nói về quy định / lịch đã được quyết định sẵn: 「9時からになっています」."
+    }
+   ]
+  },
+  {
+   "no": "❸",
+   "pattern": "V- ていただけますか？",
+   "meaning_vi": "anh/chị có thể (vui lòng) V giúp tôi được không ạ?",
+   "examples": [
+    {
+     "jp": "{身分証明書|みぶんしょうめいしょ}を{見|み}せていただけますか？",
+     "vi": "Anh/chị vui lòng cho tôi xem giấy tờ tùy thân được không ạ?"
+    }
+   ],
+   "explain_vi": [
+    "Đây là cách nói khi nhờ người đối diện làm điều mình muốn một cách lịch sự. Dùng với người mình không quen biết lắm như người mới gặp lần đầu, hoặc với người bề trên. Trong bài này, nó được dùng khi nhân viên hội trường buổi hòa nhạc xác nhận danh tính khách.",
+    "Đây là dạng nghi vấn của 「V-ていただける」 — thể khả năng của 「V-ていただく」.",
+    "「V-ていただく」 là cách nói khiêm nhường (謙譲語) của 「V-てもらう」. Khiêm nhường ngữ là một loại kính ngữ, sẽ được học ở 『初中級』 Bài 16."
+   ],
+   "explain_jp": [
+    "相手にしてほしいことを、丁寧に依頼するときの言い方です。初対面などのよく知らない人や、目上の人に対して使います。この課では、コンサート会場のスタッフが、客に本人確認をする際に使っています。",
+    "「V-ていただく」の可能形「V-ていただける」を質問の形にします。",
+    "「V-ていただく」は、「V-てもらう」の謙譲語の言い方です。謙譲語は敬語の1つですが、『初中級』第16課で勉強します。"
+   ],
+   "more_examples": [
+    {
+     "jp": "{荷物検査|にもつけんさ}をしています。ポケットの{中身|なかみ}を{全部|ぜんぶ}{出|だ}していただけますか？",
+     "vi": "Chúng tôi đang kiểm tra hành lý. Anh/chị vui lòng lấy hết đồ trong túi ra được không ạ?"
+    },
+    {
+     "jp": "こちらにフルネームでサインしていただけますか？",
+     "vi": "Anh/chị vui lòng ký đầy đủ họ tên vào đây được không ạ?"
+    }
+   ],
+   "worksheet": [],
+   "quiz": [
+    {
+     "q": "すみません、こちらに名前を（　）いただけますか？",
+     "o": [
+      "書いて",
+      "書き",
+      "書く"
+     ],
+     "a": 0,
+     "ex_vi": "「V-ていただけますか」 nối với thể テ: 書く → 書いていただけますか."
+    },
+    {
+     "q": "部長、この資料を見て（　）か？",
+     "o": [
+      "いただけます",
+      "いただきます",
+      "ほしいです"
+     ],
+     "a": 0,
+     "ex_vi": "Nhờ cấp trên lịch sự: 「V-ていただけますか」 (dạng nghi vấn của thể khả năng 「いただける」)."
+    },
+    {
+     "q": "（コンサート会場で）すみません、チケットを（　）いただけますか？",
+     "o": [
+      "見せて",
+      "見て",
+      "見えて"
+     ],
+     "a": 0,
+     "ex_vi": "Nhân viên muốn khách cho xem vé → 見せる (cho xem): 見せていただけますか."
+    },
+    {
+     "q": "（初めて会う人に）すみません、写真を（　）。",
+     "o": [
+      "撮っていただけますか",
+      "撮ってほしい",
+      "撮ってくれ"
+     ],
+     "a": 0,
+     "ex_vi": "Nhờ người lạ cần nói lịch sự → 「V-ていただけますか？」."
+    }
+   ]
+  },
+  {
+   "no": "❹",
+   "pattern": "お V になる ＜尊敬語②＞",
+   "meaning_vi": "kính ngữ: (khách / người trên) V",
+   "examples": [
+    {
+     "jp": "それとも、{戻|もど}って、お{飲|の}みになりますか？",
+     "vi": "Hay là quý khách sẽ quay lại để uống ạ?"
+    }
+   ],
+   "explain_vi": [
+    "「お飲みになりますか？」 là tôn kính ngữ (尊敬語) của 「飲みますか？」, thể hiện sự kính trọng đối với người đối diện.",
+    "Gắn 「お～になる」 vào thể マス của động từ đã bỏ 「ます」.",
+    "Ở 尊敬語① (→『初中級』 Bài 8 ❷) chúng ta đã học các động từ tôn kính như 「いらっしゃる」「おっしゃる」. Những động từ không có dạng đặc biệt như vậy thì dùng 「おVになる」."
+   ],
+   "explain_jp": [
+    "「お飲みになりますか？」は、「飲みますか？」の尊敬語です。相手への敬意を表します。",
+    "動詞のマス形から「ます」を取った形に、「お～になる」をつけます。",
+    "尊敬語①（→『初中級』第8課➋）では、「いらっしゃる」「おっしゃる」などの尊敬の動詞を勉強しました。こうした特別な形を持たない動詞は、「おVになる」を使って言います。"
+   ],
+   "more_examples": [
+    {
+     "jp": "お{荷物|にもつ}、お{預|あず}けになりますか？",
+     "vi": "Quý khách có muốn gửi hành lý không ạ?"
+    },
+    {
+     "jp": "{本人確認|ほんにんかくにん}がまだの{方|かた}は、こちらにお{並|なら}びになってお{待|ま}ちください。",
+     "vi": "Quý khách nào chưa xác nhận danh tính, xin vui lòng xếp hàng ở đây và chờ ạ."
+    }
+   ],
+   "worksheet": [],
+   "quiz": [
+    {
+     "q": "社長はもうお帰り（　）。",
+     "o": [
+      "になりました",
+      "しました",
+      "なりました"
+     ],
+     "a": 0,
+     "ex_vi": "Kính ngữ 「おVになる」: 帰ります → お帰りになりました (giám đốc đã về rồi)."
+    },
+    {
+     "q": "（お客様に）こちらの雑誌、お（　）になりますか？",
+     "o": [
+      "読み",
+      "読む",
+      "読んで"
+     ],
+     "a": 0,
+     "ex_vi": "「お＋V(マス bỏ ます)＋になる」: 読みます → お読みになります."
+    },
+    {
+     "q": "先生は、毎朝新聞を（　）。",
+     "o": [
+      "お読みになります",
+      "お読みします",
+      "読まれになります"
+     ],
+     "a": 0,
+     "ex_vi": "Nói về hành động của người trên → tôn kính ngữ 「お読みになります」. 「お読みします」 là khiêm nhường ngữ (dùng cho bản thân)."
+    },
+    {
+     "q": "お客様、こちらにお（　）お待ちください。",
+     "o": [
+      "座りになって",
+      "座りして",
+      "座るになって"
+     ],
+     "a": 0,
+     "ex_vi": "「おVになる」 ở thể テ: お座りになって + お待ちください (giống ví dụ お並びになってお待ちください)."
+    }
+   ]
+  },
+  {
+   "no": "◆",
+   "pattern": "お V になる",
+   "meaning_vi": "ví dụ các động từ ở dạng おVになる",
+   "examples": [],
+   "explain_vi": [
+    "お飲みになります* (飲む: uống), お預けになります (預ける: gửi), お読みになります (読む: đọc), お待ちになります (待つ: chờ), お入りになります (入る: vào), お座りになります (座る: ngồi), お並びになります (並ぶ: xếp hàng)",
+    "* Cũng có thể nói bằng tôn kính ngữ 「召し上がる」."
+   ],
+   "explain_jp": [
+    "お飲みになります＊（飲む）、お預けになります（預ける）、お読みになります（読む）、お待ちになります（待つ）、お入りになります（入る）、お座りになります（座る）、お並びになります（並ぶ）",
+    "＊尊敬語「召し上がる」を使って言うこともできます。"
+   ],
+   "more_examples": [],
+   "worksheet": [],
+   "quiz": []
+  },
+  {
+   "no": "❺",
+   "pattern": "V- ることがある",
+   "meaning_vi": "có khi / có trường hợp V (không phải lúc nào cũng vậy)",
+   "examples": [
+    {
+     "jp": "{在留|ざいりゅう}カードを{持|も}っていないと、{罰金|ばっきん}を{支払|しはら}うことがあります。",
+     "vi": "Nếu không mang theo thẻ cư trú, có trường hợp bạn sẽ phải nộp phạt."
+    }
+   ],
+   "explain_vi": [
+    "Mẫu này dùng khi muốn nói rằng không phải lúc nào cũng nhất định như vậy, mà có trường hợp xảy ra như vậy. 「在留カードを持っていないと、罰金を支払うことになります。」 là cách nói khẳng định như một điều đã được quyết định, còn 「在留カードを持っていないと、罰金を支払うことがあります。」 là cách nói rằng có khả năng điều đó xảy ra."
+   ],
+   "explain_jp": [
+    "必ずそうなるのではなく、そうなる場合があることを言うときに使います。「在留カードを持っていないと、罰金を支払うことになります。」の場合は、決められたこととして断定した言い方ですが、「在留カードを持っていないと、罰金を支払うことがあります。」の場合は、そうなる可能性があるという言い方になります。"
+   ],
+   "more_examples": [
+    {
+     "jp": "{地域|ちいき}の{国際交流団体|こくさいこうりゅうだんたい}では、{外国語|がいこくご}で{相談|そうだん}に{乗|の}ってくれることがあります。",
+     "vi": "Ở các tổ chức giao lưu quốc tế tại địa phương, có khi họ sẽ tư vấn cho bạn bằng tiếng nước ngoài."
+    },
+    {
+     "jp": "{銀行|ぎんこう}に、{在留資格|ざいりゅうしかく}が{変|か}わったことを{伝|つた}えないと、{口座|こうざ}が{使|つか}えなくなることがあります。",
+     "vi": "Nếu không báo cho ngân hàng việc tư cách lưu trú đã thay đổi, có trường hợp tài khoản sẽ không dùng được nữa."
+    }
+   ],
+   "worksheet": [],
+   "quiz": [
+    {
+     "q": "大雪の日は、電車が止まる（　）。",
+     "o": [
+      "ことがあります",
+      "ことにします",
+      "ようにします"
+     ],
+     "a": 0,
+     "ex_vi": "Không phải lúc nào cũng vậy nhưng có trường hợp xảy ra → 「V-ることがある」."
+    },
+    {
+     "q": "住所が変わったのに届けないと、大切な手紙が届かない（　）があります。",
+     "o": [
+      "こと",
+      "もの",
+      "ところ"
+     ],
+     "a": 0,
+     "ex_vi": "Mẫu 「V-ることがある」 / 「V-ないことがある」: có trường hợp thư không tới."
+    },
+    {
+     "q": "無料のWi-Fiを使うと、個人情報が（　）ことがあります。",
+     "o": [
+      "{盗|ぬす}まれる",
+      "{盗|ぬす}まれて",
+      "{盗|ぬす}まれ"
+     ],
+     "a": 0,
+     "ex_vi": "「ことがある」 nối với động từ thể từ điển: 盗まれることがあります (có khi bị đánh cắp)."
+    },
+    {
+     "q": "「必ず罰金を払う」ではなく、「払う可能性がある」と言いたいときは、「罰金を払う（　）」と言います。",
+     "o": [
+      "ことがあります",
+      "ことになります",
+      "ことにします"
+     ],
+     "a": 0,
+     "ex_vi": "「ことになります」 là khẳng định như điều đã quyết định; 「ことがあります」 chỉ khả năng có thể xảy ra."
+    }
+   ]
+  }
+ ]
+}

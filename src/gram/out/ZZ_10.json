@@ -1,0 +1,324 @@
+{
+ "lv": "初中級",
+ "bai": 10,
+ "title": "どうやって日本語を勉強してる？",
+ "title_vi": "Bạn học tiếng Nhật bằng cách nào?",
+ "points": [
+  {
+   "no": "❶",
+   "pattern": "V（普通形）＋N ③",
+   "meaning_vi": "mệnh đề động từ bổ nghĩa cho danh từ ③ (N không phải chủ ngữ hay tân ngữ của V)",
+   "examples": [
+    {
+     "jp": "アニメ・マンガを{入|い}り{口|ぐち}として、{日本語|にほんご}を{勉強|べんきょう}するサイトです。",
+     "vi": "Đây là trang web học tiếng Nhật lấy anime, manga làm điểm khởi đầu."
+    },
+    {
+     "jp": "{漢字|かんじ}の{練習|れんしゅう}ができるアプリです。",
+     "vi": "Đây là ứng dụng có thể luyện chữ Hán."
+    }
+   ],
+   "explain_vi": [
+    "Đây là cách nói dùng khi bổ nghĩa, giải thích cho danh từ. Trong bài này, nó được dùng để giải thích về các trang web, ứng dụng học tiếng Nhật.",
+    "Trước đây trong 『いろどり』, ở 「V＋N①」 chúng ta đã học trường hợp N là chủ ngữ của V (→『初級1』 Bài 15 ❸); ở 「V＋N②」 là trường hợp N là tân ngữ của V (→『初級1』 Bài 17 ❶). Bài này học các trường hợp N và V có quan hệ khác ngoài quan hệ chủ ngữ hay tân ngữ.",
+    "Các câu ví dụ trên có thể nói lại thành câu như: 「（この）サイトで、アニメ・マンガを入り口として、日本語を勉強します。」「（この）アプリで、漢字の練習ができます。」",
+    "Như các câu ví dụ bên dưới, còn có cách dùng mà V giải thích nội dung của N (「サービス」「きっかけ」「メリット」「力」)."
+   ],
+   "explain_jp": [
+    "名詞を修飾して説明するときの言い方です。この課では、日本語学習のためのサイトやアプリについての説明で使っています。",
+    "これまで『いろどり』では、「V＋N①」で、NがVの主語となっているものを扱いました（→『初級1』第15課➌）。「V＋N②」では、NがVの目的語となっているものを扱いました（→『初級1』第17課➊）。ここでは、NとVの関係が、主語や目的語以外の関係にあるものを取り上げます。",
+    "上の例文では、それぞれ「（この）サイトで、アニメ・マンガを入り口として、日本語を勉強します。」「（この）アプリで、漢字の練習ができます。」のように、文に言い換えることができます。",
+    "下の例文のように、VがN（「サービス」「きっかけ」「メリット」「力」）の内容を説明する使い方もあります。"
+   ],
+   "more_examples": [
+    {
+     "jp": "ここが、みんなでいつも{勉強|べんきょう}している{教室|きょうしつ}です。",
+     "vi": "Đây là lớp học nơi mọi người luôn cùng nhau học."
+    },
+    {
+     "jp": "このサイトでは、オンラインレッスンが{受|う}けられるサービスがあります。",
+     "vi": "Trang web này có dịch vụ cho phép học các buổi học trực tuyến."
+    },
+    {
+     "jp": "{私|わたし}が{日本語|にほんご}を{始|はじ}めたきっかけは、{日本|にほん}のアニメです。",
+     "vi": "Cái cớ khiến tôi bắt đầu học tiếng Nhật là anime Nhật Bản."
+    },
+    {
+     "jp": "{日本語|にほんご}の{勉強|べんきょう}に、{AI|エーアイ}を{使|つか}うメリットが{非常|ひじょう}に{大|おお}きい。",
+     "vi": "Lợi ích của việc dùng AI để học tiếng Nhật là vô cùng lớn."
+    },
+    {
+     "jp": "{日本語|にほんご}を{話|はな}す{力|ちから}をもっとつけたいです。",
+     "vi": "Tôi muốn nâng cao hơn nữa khả năng nói tiếng Nhật."
+    }
+   ],
+   "worksheet": [],
+   "quiz": [
+    {
+     "q": "ここは、毎週みんなで日本語を（　）教室です。",
+     "o": [
+      "勉強する",
+      "勉強します",
+      "勉強して"
+     ],
+     "a": 0,
+     "ex_vi": "Động từ bổ nghĩa cho danh từ phải ở thể thông thường: 勉強する教室 = lớp học nơi (chúng tôi) học."
+    },
+    {
+     "q": "これは、無料で会話の練習が（　）サイトです。",
+     "o": [
+      "できる",
+      "できます",
+      "できるの"
+     ],
+     "a": 0,
+     "ex_vi": "「できる＋サイト」: trang web có thể luyện hội thoại. Trước danh từ dùng thể thông thường, không thêm 「の」."
+    },
+    {
+     "q": "私が日本語を始めた（　）は、日本の歌です。",
+     "o": [
+      "きっかけ",
+      "メリット",
+      "サービス"
+     ],
+     "a": 0,
+     "ex_vi": "「V＋きっかけ」: cái cớ / lý do bắt đầu làm gì. Bắt đầu học tiếng Nhật nhờ bài hát Nhật → きっかけ."
+    },
+    {
+     "q": "もっと日本語を（　）力をつけたいです。",
+     "o": [
+      "聞く",
+      "聞いて",
+      "聞き"
+     ],
+     "a": 0,
+     "ex_vi": "V (thể thông thường) giải thích nội dung của 「力」: 聞く力 = khả năng nghe."
+    }
+   ]
+  },
+  {
+   "no": "❷",
+   "pattern": "名詞で終わる言い方",
+   "meaning_vi": "cách nói kết thúc bằng danh từ (dùng trong văn viết, tiêu đề)",
+   "examples": [
+    {
+     "jp": "{国際交流基金|こくさいこうりゅうききん}が{運営|うんえい}する{日本語学習|にほんごがくしゅう}プラットフォーム。",
+     "vi": "Nền tảng học tiếng Nhật do Quỹ Giao lưu Quốc tế Nhật Bản (Japan Foundation) vận hành."
+    },
+    {
+     "jp": "{日本語学習番組|にほんごがくしゅうばんぐみ}「ひきだすにほんご」のサイト。",
+     "vi": "Trang web của chương trình học tiếng Nhật 「ひきだすにほんご」 (Hikidasu Nihongo)."
+    }
+   ],
+   "explain_vi": [
+    "Đây là cách nói dùng khi tóm gọn câu cho ngắn. Trong các câu ví dụ trên, 「です」 đã được lược bỏ. Trong bài này, nó được dùng ở phần mở đầu của các bài giới thiệu trang web học tiếng Nhật..., làm chủ đề hay tiêu đề cho các câu giải thích tiếp theo.",
+    "Cách nói này thường dùng trong văn viết. Các cách nói kết thúc bằng danh từ gồm có 「V（普通形）＋N」, 「N1のN2」..."
+   ],
+   "explain_jp": [
+    "文を短くまとめるときの言い方です。上の例文では、「です」が省略されています。この課では、日本語学習のためのサイトなどの紹介文の冒頭で、あとに続く説明文のトピックや見出しとして使われています。",
+    "書き言葉でよく使われます。名詞で終わる言い方には、「V（普通形）＋N」や、「N1のN2」などがあります。"
+   ],
+   "more_examples": [
+    {
+     "jp": "1{日|にち}3{分|ぷん}から{始|はじ}められるレッスン。{楽|たの}しく、{勉強|べんきょう}を{続|つづ}けられます。",
+     "vi": "Bài học có thể bắt đầu chỉ từ 3 phút mỗi ngày. Bạn có thể duy trì việc học một cách vui vẻ."
+    },
+    {
+     "jp": "{自学自習|じがくじしゅう}とオンラインレッスンのセットプラン。{日本語力|にほんごりょく}アップにつながります。",
+     "vi": "Gói kết hợp tự học và học trực tuyến. Giúp nâng cao năng lực tiếng Nhật."
+    }
+   ],
+   "worksheet": [],
+   "quiz": [
+    {
+     "q": "（アプリの紹介文）「（　）。毎日楽しく勉強を続けられます。」",
+     "o": [
+      "ゲームで漢字が覚えられるアプリ",
+      "ゲームで漢字が覚えられるアプリなので",
+      "ゲームで漢字が覚えられるアプリでしたが"
+     ],
+     "a": 0,
+     "ex_vi": "Phần mở đầu bài giới thiệu thường là cụm kết thúc bằng danh từ (lược 「です」), làm tiêu đề cho câu giải thích phía sau."
+    },
+    {
+     "q": "（サイトの紹介文）「1日10分から始められる（　）。だれでも簡単に続けられます。」",
+     "o": [
+      "レッスン",
+      "レッスンして",
+      "レッスンなら"
+     ],
+     "a": 0,
+     "ex_vi": "Tiêu đề kết thúc bằng danh từ theo dạng 「V（普通形）＋N」: 始められるレッスン。"
+    },
+    {
+     "q": "「自学自習とオンラインレッスン（　）セットプラン。」",
+     "o": [
+      "の",
+      "が",
+      "を"
+     ],
+     "a": 0,
+     "ex_vi": "Cách nói kết thúc bằng danh từ dạng 「N1のN2」: オンラインレッスンのセットプラン。"
+    },
+    {
+     "q": "「国際交流基金が（　）日本語学習プラットフォーム。」",
+     "o": [
+      "運営する",
+      "運営します",
+      "運営しています"
+     ],
+     "a": 0,
+     "ex_vi": "Trước danh từ dùng thể thông thường: 運営する＋プラットフォーム. Câu kết thúc bằng danh từ, lược 「です」."
+    }
+   ]
+  },
+  {
+   "no": "❸",
+   "pattern": "【数量】も",
+   "meaning_vi": "những / tận (số lượng) — cảm thấy số lượng đó nhiều",
+   "examples": [
+    {
+     "jp": "3{回|かい}も{見|み}るの？ すごいね。",
+     "vi": "Xem tận 3 lần á? Ghê thật."
+    }
+   ],
+   "explain_vi": [
+    "「も」 đứng sau các từ chỉ số lượng, thể hiện cảm giác người nói thấy số lượng đó là nhiều. Ở đây, người nói cảm thấy việc xem một bộ phim 3 lần là nhiều nên hỏi 「3回も見るの？」."
+   ],
+   "explain_jp": [
+    "「も」は、数量を表す表現の後ろについて、その数量が多いと感じていることを表します。ここでは、ドラマを3回見ることについて、多いと感じていて、「3回も見るの？」と聞いています。"
+   ],
+   "more_examples": [
+    {
+     "jp": "{漢字|かんじ}のテストで、{8|やっ}つも{間違|まちが}えてしまいました。",
+     "vi": "Trong bài kiểm tra chữ Hán, tôi đã sai những 8 câu."
+    },
+    {
+     "jp": "もう10{年|ねん}も{日本語|にほんご}を{勉強|べんきょう}しているけど、うまく{話|はな}せません。",
+     "vi": "Tôi đã học tiếng Nhật tận 10 năm rồi mà vẫn không nói giỏi được."
+    }
+   ],
+   "worksheet": [],
+   "quiz": [
+    {
+     "q": "きのうは宿題が多くて、5時間（　）勉強しました。",
+     "o": [
+      "も",
+      "しか",
+      "だけ"
+     ],
+     "a": 0,
+     "ex_vi": "Bài tập nhiều nên học tận 5 tiếng → cảm giác nhiều: 「5時間も」."
+    },
+    {
+     "q": "この本、もう3回（　）読んだの？ すごいね。",
+     "o": [
+      "も",
+      "しか",
+      "で"
+     ],
+     "a": 0,
+     "ex_vi": "「すごいね」 cho thấy người nói thấy 3 lần là nhiều → 「3回も」."
+    },
+    {
+     "q": "財布を落として、3万円（　）なくしてしまった。",
+     "o": [
+      "も",
+      "しか",
+      "まで"
+     ],
+     "a": 0,
+     "ex_vi": "Mất tận 3 vạn yên — số tiền lớn → 「も」. 「しか」 phải đi với thể phủ định."
+    },
+    {
+     "q": "もう5年（　）日本に住んでいるのに、まだ敬語が苦手です。",
+     "o": [
+      "も",
+      "しか",
+      "ごろ"
+     ],
+     "a": 0,
+     "ex_vi": "Sống ở Nhật tận 5 năm (thời gian dài) mà vẫn chưa giỏi kính ngữ → 「5年も」."
+    }
+   ]
+  },
+  {
+   "no": "❹",
+   "pattern": "V- てくる",
+   "meaning_vi": "dần dần trở nên ~ (diễn tả sự thay đổi tới hiện tại)",
+   "examples": [
+    {
+     "jp": "{自分|じぶん}の{言|い}いたいことが{日本語|にほんご}で{言|い}えるようになってきたと{思|おも}う。",
+     "vi": "Mình nghĩ là mình đã dần nói được những điều mình muốn nói bằng tiếng Nhật."
+    }
+   ],
+   "explain_vi": [
+    "Đây là cách nói dùng khi nói về sự thay đổi. Trong bài này, nó được dùng khi nói về những điều đã thay đổi so với trước đây trong việc học tiếng Nhật.",
+    "Nối với thể テ của động từ.",
+    "Như câu ví dụ trên, mẫu này cũng có thể nối với 「V-（られ）るようになった」 (→『初級2』 Bài 17 ❶) — cách nói diễn tả việc trước đây không làm được nay đã làm được — thành dạng 「V-（られ）るようになってきた」."
+   ],
+   "explain_jp": [
+    "変化を言うときの言い方です。この課では、日本語学習で、以前と比べて変わったことを言うときに使っています。",
+    "動詞のテ形に接続します。",
+    "上の例文のように、以前できなかったことが、できるようになったことを表す「V-（られ）るようになった」（→『初級2』第17課➊）と接続して、「V-（られ）るようになってきた」の形で使うこともあります。"
+   ],
+   "more_examples": [
+    {
+     "jp": "たくさん{練習|れんしゅう}して、{敬語|けいご}も{使|つか}えるようになってきた。",
+     "vi": "Nhờ luyện tập nhiều, tôi đã dần dùng được cả kính ngữ."
+    },
+    {
+     "jp": "{最初|さいしょ}は、{日本人|にほんじん}の{話|はな}すスピードが{速|はや}いと{思|おも}うかもしれないけど、だんだん{慣|な}れてくるよ。",
+     "vi": "Lúc đầu có thể bạn sẽ thấy người Nhật nói nhanh, nhưng dần dần sẽ quen thôi."
+    },
+    {
+     "jp": "{私|わたし}の{国|くに}では、{日本語|にほんご}を{勉強|べんきょう}する{人|ひと}が{増|ふ}えてきました。",
+     "vi": "Ở nước tôi, số người học tiếng Nhật đã tăng lên."
+    }
+   ],
+   "worksheet": [],
+   "quiz": [
+    {
+     "q": "日本の生活にも、だんだん慣れて（　）。",
+     "o": [
+      "きました",
+      "みました",
+      "おきました"
+     ],
+     "a": 0,
+     "ex_vi": "「だんだん」 + sự thay đổi → 「V-てくる」: 慣れてきました = đã dần quen."
+    },
+    {
+     "q": "最近、日本語のニュースが少しわかるように（　）きました。",
+     "o": [
+      "なって",
+      "して",
+      "なり"
+     ],
+     "a": 0,
+     "ex_vi": "「V-るようになってきた」: なる → なって + きました."
+    },
+    {
+     "q": "毎日練習して、漢字が読める（　）なってきた。",
+     "o": [
+      "ように",
+      "ために",
+      "ことに"
+     ],
+     "a": 0,
+     "ex_vi": "Diễn tả việc dần làm được: 「V-（られ）るようになってきた」."
+    },
+    {
+     "q": "この町では、外国人の観光客が増え（　）。",
+     "o": [
+      "てきました",
+      "ておきました",
+      "てみました"
+     ],
+     "a": 0,
+     "ex_vi": "Sự thay đổi (số lượng tăng lên) → 「増えてきました」."
+    }
+   ]
+  }
+ ]
+}

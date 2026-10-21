@@ -1,0 +1,236 @@
+{
+ "lv": "初中級",
+ "bai": 17,
+ "title": "ホールの仕事について説明します",
+ "title_vi": "Tôi sẽ giải thích về công việc phục vụ ở sảnh",
+ "points": [
+  {
+   "no": "❶",
+   "pattern": "N でございます",
+   "meaning_vi": "là N (cách nói rất lịch sự của 「Nです」)",
+   "examples": [
+    {
+     "jp": "はい、JF{水産|すいさん}でございます。",
+     "vi": "Vâng, JF Suisan xin nghe ạ."
+    }
+   ],
+   "explain_vi": [
+    "Đây là cách nói lịch sự của 「Nです」. Trong bài này, nhân viên cửa hàng hoặc công ty dùng khi nghe điện thoại hoặc khi mang món ăn ra cho khách.",
+    "「Nでございます」 thường được dùng trong các tình huống tiếp khách ở ngành dịch vụ. Cách nói này lịch sự hơn 「Nになります」 (→『初中級』Bài 16 ❸)."
+   ],
+   "explain_jp": [
+    "「Nです」の丁寧な言い方です。この課では、店や会社の人が、電話に出るときや、料理を提供するときに使っています。",
+    "「Nでございます」は、サービス業などの接客の場面でよく使われます。「Nになります」（→『初中級』第16課➌）よりも丁寧な言い方です。"
+   ],
+   "more_examples": [
+    {
+     "jp": "こちらが、ルームキーでございます。お{出|で}かけの{際|さい}は、フロントにお{預|あず}けください。",
+     "vi": "Đây là chìa khóa phòng ạ. Khi ra ngoài, quý khách vui lòng gửi lại ở quầy lễ tân."
+    },
+    {
+     "jp": "お{待|ま}たせいたしました。お{刺身定食|さしみていしょく}でございます。",
+     "vi": "Xin lỗi đã để quý khách đợi. Đây là suất cơm sashimi ạ."
+    }
+   ],
+   "worksheet": [],
+   "quiz": [
+    {
+     "q": "店員：「お待たせいたしました。こちら、天ぷら定食（　）。」",
+     "o": [
+      "でいらっしゃいます",
+      "でございます",
+      "でおります"
+     ],
+     "a": 1,
+     "ex_vi": "Mang món ăn ra cho khách: 「Nでございます」 = cách nói rất lịch sự của 「Nです」."
+    },
+    {
+     "q": "電話：「はい、さくらホテル（　）。」",
+     "o": [
+      "ございます",
+      "でございます",
+      "になりました"
+     ],
+     "a": 1,
+     "ex_vi": "Nghe điện thoại ở công ty/cửa hàng: 「〇〇でございます」 (〇〇 xin nghe). Phải có 「で」 sau danh từ."
+    },
+    {
+     "q": "「お客様のお席は、窓側のこちら（　）。」",
+     "o": [
+      "でございません",
+      "でございます",
+      "をございます"
+     ],
+     "a": 1,
+     "ex_vi": "Chỉ chỗ ngồi cho khách một cách lịch sự: 「こちらでございます」."
+    },
+    {
+     "q": "「Nになります」と「Nでございます」では、（　）のほうが丁寧な言い方です。",
+     "o": [
+      "Nでございます",
+      "どちらも同じ",
+      "Nになります"
+     ],
+     "a": 0,
+     "ex_vi": "Theo ghi chú ngữ pháp, 「Nでございます」 lịch sự hơn 「Nになります」 (Bài 16 ❸)."
+    }
+   ]
+  },
+  {
+   "no": "❷",
+   "pattern": "V-ること／V-ないこと",
+   "meaning_vi": "phải V／không được V (dùng trong nội quy, quy định)",
+   "examples": [
+    {
+     "jp": "{指定|してい}の{制服|せいふく}を{着用|ちゃくよう}すること。",
+     "vi": "Phải mặc đồng phục theo quy định."
+    },
+    {
+     "jp": "{制服|せいふく}は{常|つね}に{清潔|せいけつ}に{保|たも}ち、{汚|よご}れたままにしないこと。",
+     "vi": "Đồng phục phải luôn giữ sạch sẽ, không được để bẩn."
+    }
+   ],
+   "explain_vi": [
+    "Dùng khi nói những việc phải làm hoặc không được làm, như các quy định, nội quy. Thường dùng trong văn viết như các thông báo lưu ý, bảng nội quy được dán lên.",
+    "Khi nói việc phải làm, gắn 「こと」 vào sau thể từ điển của động từ.",
+    "Khi nói việc không được làm, gắn 「こと」 vào sau thể ナイ của động từ."
+   ],
+   "explain_jp": [
+    "決まりや規則など、しなければならないことや、してはいけないことを言うときに使います。注意書きや規則についての掲示物など、書き言葉でよく使われます。",
+    "しなければならないことを言うときは、動詞の辞書形に「こと」を接続します。",
+    "してはいけないことを言うときには、動詞のナイ形に「こと」を接続します。"
+   ],
+   "more_examples": [
+    {
+     "jp": "{遅刻|ちこく}・{欠勤|けっきん}の{場合|ばあい}は、{早|はや}めに{連絡|れんらく}すること。",
+     "vi": "Trường hợp đi muộn hoặc nghỉ làm thì phải liên lạc sớm."
+    },
+    {
+     "jp": "{工場内|こうじょうない}でたばこを{吸|す}わないこと。",
+     "vi": "Không được hút thuốc trong nhà máy."
+    }
+   ],
+   "worksheet": [],
+   "quiz": [
+    {
+     "q": "【ルール】作業の前に、必ず手を（　）こと。",
+     "o": [
+      "洗った",
+      "洗って",
+      "洗う"
+     ],
+     "a": 2,
+     "ex_vi": "Việc phải làm → thể từ điển + こと: 「手を洗うこと」 (phải rửa tay)."
+    },
+    {
+     "q": "【注意】キッチンでは、携帯電話を（　）こと。",
+     "o": [
+      "使わない",
+      "使わなかった",
+      "使わなくて"
+     ],
+     "a": 0,
+     "ex_vi": "Việc không được làm → thể ナイ + こと: 「使わないこと」 (không được dùng điện thoại)."
+    },
+    {
+     "q": "【休憩室】使ったコップは、自分で（　）こと。",
+     "o": [
+      "片づける",
+      "片づけよう",
+      "片づけた"
+     ],
+     "a": 0,
+     "ex_vi": "Nội quy: cốc đã dùng thì phải tự dọn → 「片づけること」."
+    },
+    {
+     "q": "【規則】仕事中は、髪が長い人は髪を（　）こと。",
+     "o": [
+      "結んだ",
+      "結べ",
+      "結ぶ"
+     ],
+     "a": 2,
+     "ex_vi": "Quy định bằng văn viết: 「V(thể từ điển)＋こと」 = phải làm. Không dùng thể た hay thể mệnh lệnh."
+    }
+   ]
+  },
+  {
+   "no": "❸",
+   "pattern": "V-ていただければと思います／ありがたいと思います",
+   "meaning_vi": "nếu được (ai đó) làm V giúp thì tôi rất mong／rất biết ơn (đề đạt nguyện vọng lịch sự)",
+   "examples": [
+    {
+     "jp": "{冷房|れいぼう}を、もう{少|すこ}し{弱|よわ}くしていただければと{思|おも}います。",
+     "vi": "Tôi mong là có thể chỉnh máy lạnh yếu đi một chút ạ."
+    },
+    {
+     "jp": "メールとか、メッセージとかでできるようにしていただければ、とてもありがたいと{思|おも}います。",
+     "vi": "Nếu có thể làm sao để liên lạc được qua email hay tin nhắn thì tôi rất biết ơn ạ."
+    }
+   ],
+   "explain_vi": [
+    "Đây là cách nói khi muốn truyền đạt một cách lịch sự nguyện vọng của mình tới đối phương. Trong bài này, nó được dùng khi đề đạt với cấp trên trong buổi trao đổi ở nơi làm việc về việc cải thiện môi trường làm việc.",
+    "「V-ていただく」 là khiêm nhường ngữ của 「V-てもらう」. Mẫu này là thể バ của 「V-ていただける」 (thể khả năng của 「V-ていただく」) nối với 「と思います」 hoặc 「ありがたいと思います」.",
+    "Ngoài ra còn có các cách nói 「V-ていただければありがたいです」 (nếu được ~ thì tôi rất biết ơn), 「V-ていただければ助かります」 (nếu được ~ thì giúp tôi nhiều lắm)."
+   ],
+   "explain_jp": [
+    "自分の要望を、相手に丁寧に伝えるときの言い方です。この課では、職場の面談で上司に対して、職場環境の改善についての要望を言うときに使っています。",
+    "「V-ていただく」は、「V-てもらう」の謙譲語です。「V-ていただく」の可能形「V-ていただける」のバ形に、「と思います」「ありがたいと思います」が接続した形です。",
+    "「V-ていただければありがたいです」「V-ていただければ助かります」という言い方もあります。"
+   ],
+   "more_examples": [
+    {
+     "jp": "{指示|しじ}がわからないときがあるので、もう{少|すこ}しやさしい{日本語|にほんご}で{説明|せつめい}していただければと{思|おも}います。",
+     "vi": "Vì có lúc tôi không hiểu chỉ thị, nên tôi mong được giải thích bằng tiếng Nhật dễ hơn một chút."
+    },
+    {
+     "jp": "{資格手当|しかくてあて}をつけていただければありがたいと{思|おも}います。",
+     "vi": "Nếu công ty có thể thêm phụ cấp chứng chỉ thì tôi rất biết ơn ạ."
+    }
+   ],
+   "worksheet": [],
+   "quiz": [
+    {
+     "q": "休憩時間を、もう少し長くして（　）と思います。",
+     "o": [
+      "いただければ",
+      "いただいて",
+      "いただけば"
+     ],
+     "a": 0,
+     "ex_vi": "Thể バ của 「いただける」 là 「いただければ」 → 「V-ていただければと思います」 (tôi mong được ~)."
+    },
+    {
+     "q": "仕事の手順をもう一度教えていただければ、（　）と思います。",
+     "o": [
+      "すみません",
+      "ありがたい",
+      "ありがとう"
+     ],
+     "a": 1,
+     "ex_vi": "Mẫu cố định: 「V-ていただければ、ありがたいと思います」 (nếu được ~ thì tôi rất biết ơn)."
+    },
+    {
+     "q": "シフトの希望を、もう少し早く（　）いただければ助かります。",
+     "o": [
+      "教えて",
+      "教える",
+      "教えた"
+     ],
+     "a": 0,
+     "ex_vi": "「V-ていただければ」 cần thể テ của động từ: 「教えていただければ助かります」."
+    },
+    {
+     "q": "面談で：「夜勤の回数を少し（　）いただければと思います。」",
+     "o": [
+      "減って",
+      "減らさせて",
+      "減らして"
+     ],
+     "a": 2,
+     "ex_vi": "Nhờ cấp trên giảm số ca đêm → tha động từ 「減らす」 → 「減らしていただければ」. 「減る」 là tự động từ."
+    }
+   ]
+  }
+ ]
+}

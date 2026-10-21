@@ -1,0 +1,42 @@
+Irodori_Shokyu1_Bai01.html|レストランで働いています|Tôi đang làm việc ở nhà hàng|
+Irodori_Shokyu1_Bai02.html|ゲームをするのが好きです|Tôi thích chơi game|
+Irodori_Shokyu1_Bai03.html|冬はとても寒くなります|Mùa đông trở nên rất lạnh|
+Irodori_Shokyu1_Bai04.html|昨日はすごい雨でしたね|Hôm qua mưa to quá nhỉ|
+Irodori_Shokyu1_Bai05.html|とてもにぎやかで便利です|Rất nhộn nhịp và tiện lợi|
+Irodori_Shokyu1_Bai06.html|郵便局はどう行ったらいいですか？|Đến bưu điện thì đi thế nào ạ?|
+Irodori_Shokyu1_Bai07.html|道に迷ってちょっと遅れます|Tôi bị lạc đường nên sẽ đến muộn một chút|いっしょに
+Irodori_Shokyu1_Bai08.html|野球、したことありますか？|Bạn đã chơi bóng chày bao giờ chưa?|いっしょに
+Irodori_Shokyu1_Bai09.html|読み方を教えてもらえませんか？|Bạn chỉ giúp tôi cách đọc được không?|
+Irodori_Shokyu1_Bai10.html|日本語教室に参加したいんですが…|Tôi muốn tham gia lớp tiếng Nhật…|
+Irodori_Shokyu1_Bai11.html|肉と野菜は私が買って行きます|Thịt và rau thì tôi sẽ mua mang đến|おいしい
+Irodori_Shokyu1_Bai12.html|お弁当、おいしそうですね|Cơm hộp trông ngon nhỉ|おいしい
+Irodori_Shokyu1_Bai13.html|あと10分ぐらいで終わりそうです|Chắc khoảng 10 phút nữa là xong|
+Irodori_Shokyu1_Bai14.html|休みを取ってもいいでしょうか？|Tôi xin nghỉ có được không ạ?|
+Irodori_Shokyu1_Bai15.html|熱があってのどが痛いんです|Tôi bị sốt và đau họng|
+Irodori_Shokyu1_Bai16.html|食べすぎないようにしています|Tôi cố gắng không ăn quá nhiều|
+Irodori_Shokyu1_Bai17.html|兄がくれたお守りです|Đây là bùa hộ mệnh anh trai tôi tặng|
+Irodori_Shokyu1_Bai18.html|何かプレゼントをあげませんか？|Mình tặng quà gì đó nhé?|
+Irodori_Shokyu2_Bai01.html|先週、日本に来たばかりです|Tôi vừa mới sang Nhật tuần trước|
+Irodori_Shokyu2_Bai02.html|まじめそうな人ですね|Trông có vẻ là người nghiêm túc nhỉ|
+Irodori_Shokyu2_Bai03.html|アレルギーがあるので、食べられないんです|Vì bị dị ứng nên tôi không ăn được|レストランで
+Irodori_Shokyu2_Bai04.html|しょうゆをつけないで食べてください|Xin hãy ăn mà không chấm xì dầu|レストランで
+Irodori_Shokyu2_Bai05.html|早く予約したほうがいいですよ|Nên đặt trước sớm đấy|
+Irodori_Shokyu2_Bai06.html|いろいろなところに行けて、よかったです|Đi được nhiều nơi, thật tốt quá|
+Irodori_Shokyu2_Bai07.html|雨が降ったら、ホールでやります|Nếu trời mưa thì làm ở hội trường|
+Irodori_Shokyu2_Bai08.html|屋台はどこかわかりますか？|Bạn có biết quầy hàng ở đâu không?|
+Irodori_Shokyu2_Bai09.html|成人の日は、何をするんですか？|Ngày Thành nhân thì làm gì vậy?|
+Irodori_Shokyu2_Bai10.html|どんな服を着て行けばいいですか？|Nên mặc quần áo như thế nào?|
+Irodori_Shokyu2_Bai11.html|ポイントカードを忘れてしまいました|Tôi lỡ quên thẻ tích điểm mất rồi|
+Irodori_Shokyu2_Bai12.html|この掃除機は軽くて動かしやすいですよ|Máy hút bụi này nhẹ và dễ di chuyển lắm|
+Irodori_Shokyu2_Bai13.html|いろいろな資料を展示してあります|Có trưng bày nhiều loại tư liệu|さまざまなサービス
+Irodori_Shokyu2_Bai14.html|前髪は、もう少し短く切ってもらえますか？|Phần tóc mái cắt ngắn thêm chút được không ạ?|さまざまなサービス
+Irodori_Shokyu2_Bai15.html|会議室の電気がついたままでした|Đèn phòng họp vẫn còn bật|
+Irodori_Shokyu2_Bai16.html|地震が来ても、あわてて動かないでください|Dù động đất đến cũng đừng hoảng hốt di chuyển|
+Irodori_Shokyu2_Bai17.html|日本語が前より話せるようになりました|Tôi đã nói tiếng Nhật được hơn trước|
+Irodori_Shokyu2_Bai18.html|将来、自分の会社を作ろうと思います|Tương lai tôi định lập công ty riêng|
+Irodori_Shochukyu_Bai01.html|フットサルって、何でしたっけ？|Futsal là gì ấy nhỉ?|
+Irodori_Shochukyu_Bai02.html|ドラマを見るのがいちばん好きです|Tôi thích nhất là xem phim truyền hình|
+Irodori_Shochukyu_Bai03.html|引っ越しの準備はどうですか？|Chuẩn bị chuyển nhà thế nào rồi?|どこに
+Irodori_Shochukyu_Bai04.html|エアコンが壊れたみたいなんですが…|Hình như điều hòa bị hỏng rồi…|どこに
+Irodori_Shochukyu_Bai05.html|どんなお店がいいですか？|Quán như thế nào thì được?|
+Irodori_Shochukyu_Bai06.html|毎日、自炊してます|Ngày nào tôi cũng tự nấu ăn|

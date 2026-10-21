@@ -1,0 +1,234 @@
+{
+ "lv": "初中級",
+ "bai": 15,
+ "title": "桜島を見てみたいんです",
+ "title_vi": "Tôi muốn thử ngắm núi Sakurajima",
+ "points": [
+  {
+   "no": "❶",
+   "pattern": "連用中止",
+   "meaning_vi": "dạng liên dụng trung chỉ: nối câu bằng thể マス bỏ ます (văn viết)",
+   "examples": [
+    {
+     "jp": "「みはらしの{丘|おか}」が{一面|いちめん}ネモフィラの{青|あお}に{染|そ}まり、{空|そら}と{地面|じめん}の{境目|さかいめ}がわからないほどの{絶景|ぜっけい}が{広|ひろ}がります。",
+     "vi": "Đồi Miharashi được nhuộm kín một màu xanh của hoa nemophila, cảnh tuyệt đẹp trải rộng đến mức không phân biệt được đâu là ranh giới giữa bầu trời và mặt đất."
+    }
+   ],
+   "explain_vi": [
+    "Đây là dạng động từ dùng khi nối hai câu trở lên, gọi là 連用中止 (dạng liên dụng trung chỉ).",
+    "Khi nối câu cũng có thể dùng thể テ của động từ, nhưng 連用中止 thường được dùng trong văn viết.",
+    "Đây là thể マス của động từ đã bỏ 「ます」.",
+    "Với những động từ có gốc chỉ có 1 chữ như 「見る」「来る」, thường dùng thể テ để nói. (Ví dụ) 冬には白鳥がやって来て、美しい風景が見られます。 (Vào mùa đông, thiên nga bay đến và có thể ngắm phong cảnh tuyệt đẹp.)"
+   ],
+   "explain_jp": [
+    "2つ以上の文をつなぐときに使う動詞の形です。連用中止といいます。",
+    "文をつなぐときには、動詞のテ形も使われますが、連用中止は書き言葉でよく使われます。",
+    "動詞のマス形から「ます」をとった形です。",
+    "「見る」「来る」など、動詞の語幹が1文字の場合は、テ形を使って言うことが多いです。（例）冬には白鳥がやって来て、美しい風景が見られます。"
+   ],
+   "more_examples": [
+    {
+     "jp": "{高山|たかやま}には{古|ふる}い{街並|まちな}みが{残|のこ}り、{観光|かんこう}が{楽|たの}しめる。",
+     "vi": "Ở Takayama, những dãy phố cổ vẫn còn được giữ lại, có thể tận hưởng việc tham quan."
+    },
+    {
+     "jp": "{奥大井湖上駅|おくおおいこじょうえき}は、{湖|みずうみ}の{真|ま}ん{中|なか}にあり、{美|うつく}しい{写真|しゃしん}が{撮|と}れる。",
+     "vi": "Ga Oku-Oi Kojo nằm giữa hồ, có thể chụp được những bức ảnh đẹp."
+    }
+   ],
+   "worksheet": [],
+   "quiz": [
+    {
+     "q": "この町には古いお寺が多く（　）、毎年たくさんの観光客が訪れる。",
+     "o": [
+      "残り",
+      "残る",
+      "残ります"
+     ],
+     "a": 0,
+     "ex_vi": "Nối câu trong văn viết bằng 連用中止: 残ります → 残り、～."
+    },
+    {
+     "q": "春には桜が（　）、秋には紅葉が楽しめる。",
+     "o": [
+      "咲き",
+      "咲く",
+      "咲きます"
+     ],
+     "a": 0,
+     "ex_vi": "連用中止 = thể マス bỏ ます: 咲きます → 咲き、～."
+    },
+    {
+     "q": "この駅は山の上に（　）、景色がとてもきれいだ。",
+     "o": [
+      "あり",
+      "ある",
+      "あります"
+     ],
+     "a": 0,
+     "ex_vi": "あります → あり、～ (giống ví dụ 湖の真ん中にあり、～)."
+    },
+    {
+     "q": "冬には白鳥がやって（　）、美しい風景が見られます。",
+     "o": [
+      "来て",
+      "来",
+      "来る"
+     ],
+     "a": 0,
+     "ex_vi": "Động từ có gốc 1 chữ như 来る・見る thường dùng thể テ thay cho 連用中止: 来て."
+    }
+   ]
+  },
+  {
+   "no": "❷",
+   "pattern": "N1 ＋助詞＋ の N2",
+   "meaning_vi": "N1 + trợ từ + の + N2 (cách nói ngắn gọn)",
+   "examples": [
+    {
+     "jp": "{公園|こうえん}へのアクセスは{JR|ジェーアール}{勝田駅|かつたえき}からバスで{約|やく}15{分|ふん}。",
+     "vi": "Đường đến công viên: khoảng 15 phút đi xe buýt từ ga JR Katsuta."
+    }
+   ],
+   "explain_vi": [
+    "「の」 thể hiện quan hệ giữa danh từ với danh từ ở dạng 「N1のN2」, nhưng như câu ví dụ trên, cũng có cách nói mà trước 「の」 có một trợ từ.",
+    "「公園へのアクセス」 trong câu ví dụ trên có cùng nghĩa với 「公園へアクセスする」, nhưng bằng cách dùng dạng 「N1＋助詞＋のN2」 có thể diễn đạt bằng lời ngắn gọn hơn.",
+    "Trước 「の」 có thể là các trợ từ 「から」「まで」「で」「へ」「と」. Các trợ từ 「が」「を」「に」 không đứng trước 「の」. (Ví dụ) 公園へ／にアクセスする (đi đến công viên) → 〇 公園へのアクセス, × 公園にのアクセス"
+   ],
+   "explain_jp": [
+    "「の」は、「N1のN2」の形で、名詞と名詞の関係を示しますが、上の例文のように、「の」の前に助詞が来る言い方もあります。",
+    "上の例文の「公園へのアクセス」は、「公園へアクセスする」と同じ意味ですが、「N1＋助詞＋のN2」の形にすることで、より短い言葉で言うことができます。",
+    "「の」の前には、「から」「まで」「で」「へ」「と」の助詞が来ます。「が」「を」「に」の助詞は来ません。（例）公園へ／にアクセスする　〇公園へのアクセス　×公園にのアクセス"
+   ],
+   "more_examples": [
+    {
+     "jp": "{子|こ}どもとの{旅行|りょこう}は{疲|つか}れたけど、いい{思|おも}い{出|で}ができました。",
+     "vi": "Chuyến du lịch cùng con cái tuy mệt nhưng đã có những kỷ niệm đẹp."
+    },
+    {
+     "jp": "{日本|にほん}では、{外国人観光客|がいこくじんかんこうきゃく}へのサービスがいろいろある。",
+     "vi": "Ở Nhật có nhiều dịch vụ dành cho khách du lịch nước ngoài."
+    }
+   ],
+   "worksheet": [],
+   "quiz": [
+    {
+     "q": "友だち（　）旅行は、とても楽しかったです。",
+     "o": [
+      "との",
+      "にの",
+      "をの"
+     ],
+     "a": 0,
+     "ex_vi": "「と」 có thể đứng trước 「の」: 友だちとの旅行 (chuyến du lịch cùng bạn)."
+    },
+    {
+     "q": "空港（　）バスは、30分おきに出ています。",
+     "o": [
+      "からの",
+      "からに",
+      "をの"
+     ],
+     "a": 0,
+     "ex_vi": "「から」 + の + N: 空港からのバス (xe buýt từ sân bay)."
+    },
+    {
+     "q": "家族（　）手紙を書きました。",
+     "o": [
+      "への",
+      "にの",
+      "がの"
+     ],
+     "a": 0,
+     "ex_vi": "「に」 không đứng trước 「の」, phải dùng 「への」: 家族への手紙."
+    },
+    {
+     "q": "東京（　）新幹線の切符を買いました。",
+     "o": [
+      "までの",
+      "までに",
+      "までを"
+     ],
+     "a": 0,
+     "ex_vi": "「まで」 + の + N: 東京までの切符 (vé đi đến Tokyo)."
+    }
+   ]
+  },
+  {
+   "no": "❸",
+   "pattern": "もし S ば、～",
+   "meaning_vi": "nếu (giả sử) ~ thì ~ (điều kiện giả định + mong muốn)",
+   "examples": [
+    {
+     "jp": "もし{時間|じかん}とお{金|かね}があれば、ぜひ{行|い}ってみたいのは、{小笠原|おがさわら}です。",
+     "vi": "Nếu có thời gian và tiền bạc, nơi tôi nhất định muốn đến thử là Ogasawara."
+    }
+   ],
+   "explain_vi": [
+    "Dùng khi nói điều kiện giả định. Sau khi nói điều giả định ở vế trước, người nói nói lên mong muốn, nguyện vọng của mình. Trong bài này, nó được dùng khi nói về những nơi du lịch mình muốn đến.",
+    "Dùng thể バ của động từ để diễn tả những việc chưa thành hiện thực hoặc có khả năng xảy ra thấp."
+   ],
+   "explain_jp": [
+    "仮定条件を言うときに使います。前の文で仮定したことを言ってから、希望や願望を言います。この課では、行きたい旅行先について話すときに使っています。",
+    "動詞のバ形を使って、実現していないことや、起こる可能性の低いことを表します。"
+   ],
+   "more_examples": [
+    {
+     "jp": "このホテル、もしもっと{安|やす}ければ、{1週間|いっしゅうかん}ぐらい{泊|と}まりたいです。",
+     "vi": "Khách sạn này mà rẻ hơn thì tôi muốn ở khoảng một tuần."
+    },
+    {
+     "jp": "もし3か{月|げつ}{休|やす}みがとれれば、{世界一周旅行|せかいいっしゅうりょこう}に{行|い}きたい。",
+     "vi": "Nếu được nghỉ 3 tháng, tôi muốn đi du lịch vòng quanh thế giới."
+    },
+    {
+     "jp": "もしチャンスがあれば、{地元|じもと}のお{祭|まつ}りに{参加|さんか}してみたい。",
+     "vi": "Nếu có cơ hội, tôi muốn thử tham gia lễ hội của địa phương."
+    }
+   ],
+   "worksheet": [],
+   "quiz": [
+    {
+     "q": "もしお金が（　）、世界中を旅行したいです。",
+     "o": [
+      "あれば",
+      "あると",
+      "あって"
+     ],
+     "a": 0,
+     "ex_vi": "Giả định + mong muốn: 「もし～ば、～たい」. ある → あれば."
+    },
+    {
+     "q": "もし休みが（　）、北海道に行きたい。",
+     "o": [
+      "とれれば",
+      "とれるば",
+      "とれて"
+     ],
+     "a": 0,
+     "ex_vi": "とれる (nhóm 2) → thể バ 「とれれば」."
+    },
+    {
+     "q": "このかばん、もしもっと（　）、買いたいです。",
+     "o": [
+      "安ければ",
+      "安いれば",
+      "安くば"
+     ],
+     "a": 0,
+     "ex_vi": "Tính từ イ thể バ: 安い → 安ければ."
+    },
+    {
+     "q": "もし天気が（　）、山に登ってみたいです。",
+     "o": [
+      "よければ",
+      "いければ",
+      "よくば"
+     ],
+     "a": 0,
+     "ex_vi": "いい (よい) → thể バ 「よければ」."
+    }
+   ]
+  }
+ ]
+}
