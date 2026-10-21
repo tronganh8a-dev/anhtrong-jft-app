@@ -135,6 +135,8 @@ export async function handle(req, env, next) {
     const h = new Headers({ Location: dest, 'Cache-Control': 'no-store' });
     h.append('Set-Cookie', `${COOKIE}=${encodeURIComponent(val)}; Path=/; Max-Age=${DAYS * 86400}; HttpOnly; Secure; SameSite=Lax`);
     h.append('Set-Cookie', `jft_user=${encodeURIComponent(u)}; Path=/; Max-Age=${DAYS * 86400}; Secure; SameSite=Lax`);
+    // vé dùng 1 lần: mở app ngay sau khi đăng nhập; tải lại trang = phải đăng nhập lại
+    h.append('Set-Cookie', `jft_once=1; Path=/; Max-Age=120; HttpOnly; Secure; SameSite=Lax`);
     return new Response(null, { status: 303, headers: h });
   }
 
@@ -146,16 +148,28 @@ export async function handle(req, env, next) {
   }
 
   if (url.pathname.startsWith('/app/media/cover/') && req.method === 'GET') return next();
+  if (url.pathname === '/login' && req.method === 'GET') return loginPage('', '', safeNext(url.searchParams.get('next')));
   const user = await currentUser(req, env);
   if (!user) {
-    if (url.pathname === '/login') return loginPage('', '', safeNext(url.searchParams.get('next')));
     const accept = req.headers.get('Accept') || '';
     if (req.method === 'GET' && accept.includes('text/html') && req.headers.get('Sec-Fetch-Dest') !== 'iframe') {
       return Response.redirect(`${url.origin}/login?next=${encodeURIComponent(url.pathname + url.search)}`, 302);
     }
     return new Response('Cần đăng nhập', { status: 401, headers: { 'Cache-Control': 'no-store' } });
   }
-  if (url.pathname === '/login') return Response.redirect(url.origin + '/', 302);
+  // Mở / tải lại trang chính của app: bắt buộc đăng nhập lại mỗi lần
+  const dest = req.headers.get('Sec-Fetch-Dest');
+  const isDoc = req.method === 'GET' && (dest === 'document' || (!dest && (req.headers.get('Accept') || '').includes('text/html')));
+  if (isDoc && (url.pathname === '/' || url.pathname === '/index.html')) {
+    if (!getCookie(req, 'jft_once')) {
+      return new Response(null, { status: 302, headers: { Location: '/login', 'Cache-Control': 'no-store' } });
+    }
+    const r = await next();
+    const o = new Response(r.body, r);
+    o.headers.set('Cache-Control', 'no-store');
+    o.headers.append('Set-Cookie', `jft_once=; Path=/; Max-Age=0; HttpOnly; Secure; SameSite=Lax`);
+    return o;
+  }
 
   const res = await next();
   const out = new Response(res.body, res);
