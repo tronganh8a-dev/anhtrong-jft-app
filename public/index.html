@@ -111,6 +111,16 @@ footer{margin-top:36px;color:var(--muted);font-size:12px;border-top:1px solid va
 .secttl.phase{align-items:center;gap:10px}.secttl.phase img{width:30px;height:42px;object-fit:cover;border-radius:4px;box-shadow:0 2px 5px rgba(0,0,0,.2)}
 @media (max-width:900px){.hero .covers{display:none}}
 @media (max-width:760px){.lvcards{display:grid;grid-template-columns:1fr 1fr;gap:8px}.lvc{padding:6px 10px 6px 6px;gap:8px}.lvc img{width:36px;height:50px}.lvc b{font-size:14px}}
+.pt{display:inline-flex;align-items:flex-start;gap:6px;vertical-align:middle}
+.pt .pm{display:inline-flex}
+.pt .m{display:inline-block;padding:3px 0 0;border-top:2px solid transparent;line-height:1.2}
+.pt .m.h{border-top-color:#d6336c}.pt .m.up{border-left:2px solid #d6336c;margin-left:-1px;padding-left:1px}
+.pt .m.dn{border-right:2px solid #d6336c;padding-right:1px}
+.pt .m.pt0{width:.7em;border-top-style:dashed}
+.pt .pn{font-size:10px;font-weight:700;color:#d6336c;border:1.5px solid #d6336c;border-radius:5px;padding:0 4px;line-height:15px;margin-top:3px;font-family:system-ui,sans-serif}
+.pt.big .m{padding-top:6px;border-top-width:3px}.pt.big .m.up{border-left-width:3px}.pt.big .m.dn{border-right-width:3px}.pt.big .pn{font-size:12px;line-height:18px}
+.wp{display:block;margin-top:2px}
+.ptn{font-size:12.5px;color:var(--muted);margin-top:4px}
 .sched{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:18px;border-left:4px solid var(--pink)}
 .sched .jp{font-size:12px;color:var(--muted);margin-left:8px}.sched p{margin:4px 0 0;color:var(--muted);font-size:14px}
 .sched .sbtn{display:flex;gap:10px;flex-wrap:wrap}.sched .btn{text-decoration:none}
@@ -468,7 +478,7 @@ body.locked .app{filter:blur(6px);pointer-events:none}
     <div id="vArea"></div>
     <div class="card"><div class="h2"><span id="vListTtl">Danh sách từ</span> <span class="jp" id="vCount"></span></div><input class="search" id="vSearch" placeholder="Tìm từ, cách đọc, nghĩa…" style="width:100%;margin-bottom:8px"><ul class="wl" id="wl"></ul></div>
   </div>
-  <footer>© 2026 Anh Trọng Dạy JFT · 出典：国際交流基金『いろどり 生活の日本語』ことばリスト · Nghĩa tiếng Việt và âm Hán Việt do Anh Trọng Dạy JFT biên soạn.</footer>
+  <footer>© 2026 Anh Trọng Dạy JFT · 出典：国際交流基金『いろどり 生活の日本語』ことばリスト · Nghĩa tiếng Việt và âm Hán Việt do Anh Trọng Dạy JFT biên soạn. · Trọng âm (アクセント): dữ liệu <a href="https://github.com/mifunetoshiro/kanjium" target="_blank" rel="noopener">Kanjium</a> (CC BY-SA 4.0); vạch đỏ = phần đọc cao, gạch dọc = chỗ hạ giọng, số = vị trí hạ giọng (0 = bằng).</footer>
 </section>
 </main>
 </div>
@@ -707,6 +717,15 @@ let vLv='初級1',vBai=1,vMode='card',vIdx=0,vList=[];
 const VLV=['入門','初級1','初級2'];
 function speak(t){try{const u=new SpeechSynthesisUtterance(t);u.lang='ja-JP';u.rate=.9;speechSynthesis.cancel();speechSynthesis.speak(u)}catch(e){}}
 function wordsOf(lv,b){const o=w=>(w.l.find(x=>x[0]===lv&&x[1]===b)||[0,0,0])[2];return VOCAB.words.filter(w=>w.l.some(x=>x[0]===lv&&x[1]===b)).sort((a,c)=>o(a)-o(c))}
+/* ===== trọng âm (pitch accent) — dữ liệu Kanjium (CC BY-SA 4.0) ===== */
+function moras(y){const out=[];for(const c of y.replace(/[（(].*?[）)]|[～〜\s　]/g,'')){if(/[ゃゅょぁぃぅぇぉャュョァィゥェォヮゎ]/.test(c)&&out.length)out[out.length-1]+=c;else out.push(c)}return out}
+const PT={0:'Bằng (平板)',1:'Đầu cao (頭高)'};
+function ptName(n,len){n=+n;return n===0?'平板 · bằng':n===1?'頭高 · đầu cao':n===len?'尾高 · đuôi cao':'中高 · giữa cao'}
+function pitch(w,big){if(w.a==null||w.a==='')return `<span class="jp">${esc(w.y)}</span>`;const n=+String(w.a).split(',')[0];const m=moras(w.y.split(/[／\/]/)[0]);if(!m.length)return esc(w.y);
+ const hi=i=>n===0?i>0:n===1?i===0:(i>0&&i<n);
+ const h=m.map((c,i)=>{const H=hi(i),up=i>0&&H&&!hi(i-1),dn=H&&(i===m.length-1?n===m.length:!hi(i+1)&&n>0);return `<span class="m${H?' h':''}${up?' up':''}${dn?' dn':''}">${esc(c)}</span>`}).join('');
+ const tail=n===0?'<span class="m h pt0" aria-hidden="true"></span>':'';
+ return `<span class="pt${big?' big':''}" title="Trọng âm [${esc(String(w.a))}] · ${ptName(n,m.length)}"><span class="jp pm">${h}${tail}</span><span class="pn">${esc(String(w.a).split(',')[0])}</span></span>`}
 function furi(w){return w.k?`<ruby>${esc(w.h)}<rt>${esc(w.y)}</rt></ruby>`:esc(w.h)}
 function renderVocab(){lvCards($('#lvVocab'),VLV.map(x=>[x,VOCAB.words.filter(w=>w.l.some(y=>y[0]===x)).length+' từ']),vLv,k=>{vLv=k;vBai=1;vIdx=0;renderVocab()});
  const bais=[...new Set(VOCAB.words.flatMap(w=>w.l.filter(x=>x[0]===vLv).map(x=>x[1])))].sort((a,b)=>a-b);
@@ -715,12 +734,12 @@ function renderVocab(){lvCards($('#lvVocab'),VLV.map(x=>[x,VOCAB.words.filter(w=
  pills($('#vmodes'),[['card','Flashcard'],['mean','Trắc nghiệm nghĩa'],['read','Chọn cách đọc'],['listen','Nghe chọn từ']],vMode,k=>{vMode=k;vIdx=0;renderVocab()});
  vList=wordsOf(vLv,vBai);$('#vListTtl').textContent=`${vLv} · Bài ${vBai}`;$('#vCount').textContent=vList.length+' từ';renderWL();renderVArea()}
 function renderWL(){const q=$('#vSearch').value.trim().toLowerCase();const src=q?VOCAB.words.filter(w=>(w.h+w.y+w.v+(w.e||'')).toLowerCase().includes(q)).slice(0,200):vList;
- $('#wl').innerHTML=src.map(w=>`<li><span class="jp">${furi(w)}${w.hv?`<small>${esc(w.hv)}</small>`:''}</span><span>${esc(w.v)}<small>${q?esc(w.l.map(x=>x[0]+' B'+x[1]).join(', ')):''}</small></span></li>`).join('')||'<li class="muted">Không có từ.</li>'}
+ $('#wl').innerHTML=src.map(w=>`<li><span class="jp">${furi(w)}${w.hv?`<small>${esc(w.hv)}</small>`:''}${w.a!=null?`<small class="wp">${pitch(w)}</small>`:''}</span><span>${esc(w.v)}<small>${q?esc(w.l.map(x=>x[0]+' B'+x[1]).join(', ')):''}</small></span></li>`).join('')||'<li class="muted">Không có từ.</li>'}
 $('#vSearch').oninput=renderWL;
 function renderVArea(){const A=$('#vArea');if(!vList.length){A.innerHTML='<div class="card muted">Bài này chưa có từ.</div>';return}
  const w=vList[vIdx%vList.length];
  if(vMode==='card'){A.innerHTML=`<div class="fc" id="fc" role="button" tabindex="0" aria-label="Lật thẻ"><div class="fc-in"><div class="face front"><span class="tag gray cnt">${vIdx%vList.length+1} / ${vList.length}</span><div class="w jp">${furi(w)}</div><button class="spk" data-sp="1" type="button">🔊 Nghe</button><span class="hint">Chạm để lật thẻ</span></div>
-  <div class="face back">${w.hv?`<div class="hv">${esc(w.hv)}</div>`:''}<div class="y jp">${esc(w.y)}</div><div class="mean">${esc(w.v)}</div>${w.e?`<div class="en">${esc(w.e)}</div>`:''}<button class="spk" data-sp="1" type="button">🔊 Nghe</button><span class="hint">Chạm để lật lại</span></div></div></div>
+  <div class="face back">${w.hv?`<div class="hv">${esc(w.hv)}</div>`:''}<div class="y jp">${pitch(w,true)}</div>${w.a!=null?`<div class="ptn">${ptName(+String(w.a).split(',')[0],moras(w.y).length)}</div>`:''}<div class="mean">${esc(w.v)}</div>${w.e?`<div class="en">${esc(w.e)}</div>`:''}<button class="spk" data-sp="1" type="button">🔊 Nghe</button><span class="hint">Chạm để lật lại</span></div></div></div>
   <div class="fcbar"><button type="button" id="vPrev">← Trước</button><button type="button" id="vShuf">Trộn thẻ</button><button type="button" id="vNext">Tiếp →</button></div>`;
   $('#fc').onclick=e=>{if(e.target.closest('[data-sp]')){speak(w.y);return}$('#fc').classList.toggle('flip')};
   $('#fc').onkeydown=e=>{if(e.key===' '||e.key==='Enter'){e.preventDefault();$('#fc').classList.toggle('flip')}};

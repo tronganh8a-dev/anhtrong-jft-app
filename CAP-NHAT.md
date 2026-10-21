@@ -32,3 +32,6 @@ Không nằm trong repo. Sửa trên Cloudflare: app → Settings → Variables 
 ## Bài tập về nhà (tab "Bài tập về nhà")
 - File làm bài: `public/btvn/BTVN_BuoiXX.html` · bản in: `public/btvn/pdf/BTVN_BuoiXX.pdf` · danh sách: `public/app/data/hw.js`.
 - Nguồn dựng: `src/btvn/` (`extract.py` lấy 漢字のことば + script từ web bài học, `gen_btvn.py` sinh câu hỏi, `render.py` xuất HTML/PDF).
+
+## Trọng âm từ vựng
+- `src/pitch/add_pitch.py` thêm trường `a` (vị trí hạ giọng) vào `public/app/data/vocab.js` từ `src/pitch/accents_sub.tsv` (trích từ Kanjium, CC BY-SA 4.0). Chạy lại sau mỗi lần `build_data.py`.
