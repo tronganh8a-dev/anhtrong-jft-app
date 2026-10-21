@@ -135,6 +135,21 @@ footer{margin-top:36px;color:var(--muted);font-size:12px;border-top:1px solid va
 .pbtn.c3{background:linear-gradient(135deg,#f8e05a,#efc929);color:#3b3000}.pbtn.c4{background:linear-gradient(135deg,#a5cc4f,#7fae2e)}
 @media (max-width:1100px){.sched .sbtn{grid-template-columns:1fr 1fr}}
 @media (max-width:600px){.sched .sbtn{grid-template-columns:1fr}.pbtn{padding:11px 14px}}
+.hero .ht{position:relative;z-index:1;padding:6px 0 4px}
+.hero .kick{display:flex;align-items:center;gap:6px;font-size:12.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#6b5a4a}
+.hero .kick i{width:9px;height:9px;border-radius:50%;display:inline-block}.hero .kick i:nth-child(1){background:#ec6f9b}.hero .kick i:nth-child(2){background:#f2a93b}.hero .kick i:nth-child(3){background:#f2cf2a}.hero .kick i:nth-child(4){background:#9cc443;margin-right:6px}
+.hero .kick .jp{letter-spacing:.04em}
+.hero h2{font-size:44px;line-height:1.1;font-weight:800;letter-spacing:-.02em;color:#1f2430;margin:12px 0 10px}
+.hero h2 mark{background:linear-gradient(transparent 58%,#ffd94d 58%,#ffd94d 90%,transparent 90%);color:inherit;padding:0 .06em;border-radius:2px}
+.hero .by{display:flex;align-items:center;gap:10px;font-size:16.5px;color:#3c4652}
+.hero .by .logo{width:30px;height:30px;border-radius:8px;font-size:12px}
+.hero .by b{color:#1f2430}
+.hero .cta{display:flex;gap:10px;margin-top:18px;flex-wrap:wrap}
+.hero .hb{border:1.5px solid #1f2430;background:transparent;color:#1f2430;border-radius:999px;padding:9px 18px;font:inherit;font-weight:700;font-size:14.5px;cursor:pointer;transition:transform .15s,box-shadow .15s,background .15s}
+.hero .hb.pri{background:#1f2430;color:#fff}.hero .hb span{display:inline-block;transition:transform .15s}
+.hero .hb:hover{transform:translateY(-1px);box-shadow:0 6px 16px rgba(31,36,48,.18)}.hero .hb.pri:hover span{transform:translateX(3px)}
+.hero .hb:not(.pri):hover{background:rgba(255,255,255,.6)}
+@media (max-width:760px){.hero h2{font-size:32px}.hero .kick{font-size:11px;letter-spacing:.1em}}
 .sched{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:18px;border-left:4px solid var(--pink)}
 .sched .jp{font-size:12px;color:var(--muted);margin-left:8px}.sched p{margin:4px 0 0;color:var(--muted);font-size:14px}
 .sched .btn{text-decoration:none}
@@ -389,7 +404,12 @@ body.locked .app{filter:blur(6px);pointer-events:none}
 <!-- HOME -->
 <section class="screen on" id="home">
   <div class="hero">
-    <div><h2>Học và Luyện thi JFT - Anh Trọng Dạy JFT</h2></div>
+    <div class="ht">
+      <div class="kick"><i></i><i></i><i></i><i></i><span>Giáo trình <span class="jp">いろどり</span> · JFT-Basic</span></div>
+      <h2>Học và Luyện thi <mark>JFT</mark></h2>
+      <div class="by"><span class="logo">AT</span><span>cùng <b>Anh Trọng Dạy JFT</b></span></div>
+      <div class="cta"><button class="hb pri" data-go="learn" type="button">Bắt đầu học <span>→</span></button><button class="hb" data-go="exam" type="button">Làm đề thi thử</button></div>
+    </div>
     <div class="covers" aria-hidden="true"><img src="app/media/cover/nyumon.jpg" alt=""><img src="app/media/cover/s1.jpg" alt=""><img src="app/media/cover/s2.jpg" alt=""><img src="app/media/cover/sc.jpg" alt=""></div>
   </div>
   <div class="card sched">
