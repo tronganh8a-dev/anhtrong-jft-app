@@ -96,3 +96,7 @@ for f in sorted(glob.glob(A + 'gram/out/*.json')):
 GR.sort(key=lambda g: (ORDL.index(g['lv']) if g['lv'] in ORDL else 9, g['bai']))
 js('grammar', 'GRAMMAR', GR)
 print('grammar lessons', len(GR), 'points', sum(len(g['points']) for g in GR))
+
+# trọng âm từ vựng
+import subprocess, sys
+subprocess.run([sys.executable, A + 'pitch/add_pitch.py'], check=True)
