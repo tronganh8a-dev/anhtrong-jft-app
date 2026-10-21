@@ -58,8 +58,9 @@ main{min-width:0;padding:26px 34px 60px}
 .levels{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
 footer{margin-top:36px;color:var(--muted);font-size:12px;border-top:1px solid var(--line);padding-top:14px}
 /* home */
-.hero{background:linear-gradient(135deg,#0d5a8c,#0a4670);color:#fff;border-radius:var(--r);padding:26px 28px;display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center}
-.hero h2{margin:0 0 6px;font-size:26px}.hero p{margin:0;color:#d4e6f3}
+.hero{background:radial-gradient(520px 260px at 0% 0%,#fbd3e1 0%,rgba(251,211,225,0) 70%),radial-gradient(600px 300px at 38% 120%,#fde3b0 0%,rgba(253,227,176,0) 70%),radial-gradient(520px 300px at 70% -20%,#fdf1a6 0%,rgba(253,241,166,0) 70%),linear-gradient(100deg,#fff4f7 0%,#fff8ec 45%,#fbf9e3 70%,#f1f7dc 100%);color:#1d2a35;border-radius:var(--r);padding:26px 28px 30px;display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center;border:1px solid #f1e6d6}
+.hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:6px;background:linear-gradient(90deg,#ef9ab9 0 25%,#f2a93b 25% 50%,#f6d936 50% 75%,#b9d34a 75% 100%)}
+.hero h2{margin:0 0 6px;font-size:28px;letter-spacing:-.01em}.hero h2 .c1{color:#e2457f}.hero h2 .c2{color:#e8891c}.hero h2 .c3{color:#7ea72a}.hero p{margin:0;color:#5a6873}
 .hero .stat{display:flex;gap:10px}.hero .stat div{background:rgba(255,255,255,.12);border-radius:12px;padding:10px 14px;text-align:center}.hero .stat b{display:block;font-size:22px}.hero .stat small{color:#cfe2ef;font-size:12px}
 .pass{margin-top:18px}
 .pass .ph{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
@@ -102,7 +103,7 @@ footer{margin-top:36px;color:var(--muted);font-size:12px;border-top:1px solid va
 .lvc.on{border-color:var(--blue);box-shadow:0 0 0 3px var(--blue-soft)}.lvc.on b{color:var(--blue)}
 .hero{position:relative;overflow:hidden}
 .hero .covers{position:relative;width:250px;height:150px;flex:none}
-.hero .covers img{position:absolute;bottom:-34px;width:96px;border-radius:6px;box-shadow:0 10px 24px rgba(0,0,0,.35);transform-origin:50% 100%;transform:rotate(var(--r));animation:wobble 2.8s ease-in-out infinite;animation-delay:var(--d)}
+.hero .covers img{position:absolute;bottom:-34px;width:96px;border-radius:6px;box-shadow:0 10px 22px rgba(120,80,30,.28);transform-origin:50% 100%;transform:rotate(var(--r));animation:wobble 2.8s ease-in-out infinite;animation-delay:var(--d)}
 .hero .covers img:nth-child(1){left:0;--r:-12deg;--d:0s}.hero .covers img:nth-child(2){left:50px;bottom:-24px;--r:-4deg;--d:-.7s}
 .hero .covers img:nth-child(3){left:100px;bottom:-24px;--r:4deg;--d:-1.4s}.hero .covers img:nth-child(4){left:150px;--r:12deg;--d:-2.1s}
 @keyframes wobble{0%,100%{transform:rotate(var(--r)) translateY(0)}20%{transform:rotate(calc(var(--r) - 3deg)) translateY(-5px)}40%{transform:rotate(calc(var(--r) + 2.5deg)) translateY(-2px)}60%{transform:rotate(calc(var(--r) - 1.5deg)) translateY(-6px)}80%{transform:rotate(calc(var(--r) + 1deg)) translateY(-1px)}}
@@ -121,6 +122,9 @@ footer{margin-top:36px;color:var(--muted);font-size:12px;border-top:1px solid va
 .pt.big .m{padding-top:6px;border-top-width:3px}.pt.big .m.up{border-left-width:3px}.pt.big .m.dn{border-right-width:3px}.pt.big .pn{font-size:12px;line-height:18px}
 .wp{display:block;margin-top:2px}
 .ptn{font-size:12.5px;color:var(--muted);margin-top:4px}
+.vex{margin-top:6px;padding:6px 10px;border-left:3px solid var(--line);background:var(--bg);border-radius:0 8px 8px 0;font-size:14px;line-height:1.7}
+.vex small{display:block;color:var(--muted);font-size:12.5px;line-height:1.45}
+.fc .vex{text-align:left;max-width:440px;margin:10px auto 0;font-size:15px}
 .sched{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:18px;border-left:4px solid var(--pink)}
 .sched .jp{font-size:12px;color:var(--muted);margin-left:8px}.sched p{margin:4px 0 0;color:var(--muted);font-size:14px}
 .sched .sbtn{display:flex;gap:10px;flex-wrap:wrap}.sched .btn{text-decoration:none}
@@ -375,7 +379,7 @@ body.locked .app{filter:blur(6px);pointer-events:none}
 <!-- HOME -->
 <section class="screen on" id="home">
   <div class="hero">
-    <div><h2>Học và Luyện thi JFT - Anh Trọng Dạy JFT</h2></div>
+    <div><h2>Học và <span class="c1">Luyện</span> <span class="c2">thi</span> <span class="c3">JFT</span> - Anh Trọng Dạy JFT</h2></div>
     <div class="covers" aria-hidden="true"><img src="app/media/cover/nyumon.jpg" alt=""><img src="app/media/cover/s1.jpg" alt=""><img src="app/media/cover/s2.jpg" alt=""><img src="app/media/cover/sc.jpg" alt=""></div>
   </div>
   <div class="card sched">
@@ -478,7 +482,7 @@ body.locked .app{filter:blur(6px);pointer-events:none}
     <div id="vArea"></div>
     <div class="card"><div class="h2"><span id="vListTtl">Danh sách từ</span> <span class="jp" id="vCount"></span></div><input class="search" id="vSearch" placeholder="Tìm từ, cách đọc, nghĩa…" style="width:100%;margin-bottom:8px"><ul class="wl" id="wl"></ul></div>
   </div>
-  <footer>© 2026 Anh Trọng Dạy JFT · 出典：国際交流基金『いろどり 生活の日本語』ことばリスト · Nghĩa tiếng Việt và âm Hán Việt do Anh Trọng Dạy JFT biên soạn. · Trọng âm (アクセント): dữ liệu <a href="https://github.com/mifunetoshiro/kanjium" target="_blank" rel="noopener">Kanjium</a> (CC BY-SA 4.0); vạch đỏ = phần đọc cao, gạch dọc = chỗ hạ giọng, số = vị trí hạ giọng (0 = bằng).</footer>
+  <footer>© 2026 Anh Trọng Dạy JFT · 出典：国際交流基金『いろどり 生活の日本語』ことばリスト · Nghĩa tiếng Việt và âm Hán Việt do Anh Trọng Dạy JFT biên soạn. · Trọng âm (アクセント): dữ liệu <a href="https://github.com/mifunetoshiro/kanjium" target="_blank" rel="noopener">Kanjium</a> (CC BY-SA 4.0); vạch đỏ = phần đọc cao, gạch dọc = chỗ hạ giọng, số = vị trí hạ giọng (0 = bằng). · Câu ví dụ: trích từ いろどり (ví dụ ngữ pháp, hội thoại, ワークシート). Audio từ vựng: VOICEVOX:青山龍星.</footer>
 </section>
 </main>
 </div>
@@ -715,6 +719,8 @@ function renderSkill(){lvCards($('#lvSkill'),Object.keys(LV).map(k=>[k,SKILLS.fi
 /* ===== vocab ===== */
 let vLv='初級1',vBai=1,vMode='card',vIdx=0,vList=[];
 const VLV=['入門','初級1','初級2'];
+let VAU=null;function sayW(w){if(w&&w.au){try{speechSynthesis.cancel()}catch(e){};if(VAU)VAU.pause();VAU=new Audio('app/media/vau/'+w.au+'.mp3');VAU.play().catch(()=>speak(w.y));return}speak(w.y)}
+function exHtml(w){if(w.x==null||!VOCAB.ex)return '';const e=VOCAB.ex[w.x];return `<div class="vex"><span class="jp">${rb(e[0])}</span>${e[1]?`<small>${esc(e[1])}</small>`:''}</div>`}
 function speak(t){try{const u=new SpeechSynthesisUtterance(t);u.lang='ja-JP';u.rate=.9;speechSynthesis.cancel();speechSynthesis.speak(u)}catch(e){}}
 function wordsOf(lv,b){const o=w=>(w.l.find(x=>x[0]===lv&&x[1]===b)||[0,0,0])[2];return VOCAB.words.filter(w=>w.l.some(x=>x[0]===lv&&x[1]===b)).sort((a,c)=>o(a)-o(c))}
 /* ===== trọng âm (pitch accent) — dữ liệu Kanjium (CC BY-SA 4.0) ===== */
@@ -734,14 +740,14 @@ function renderVocab(){lvCards($('#lvVocab'),VLV.map(x=>[x,VOCAB.words.filter(w=
  pills($('#vmodes'),[['card','Flashcard'],['mean','Trắc nghiệm nghĩa'],['read','Chọn cách đọc'],['listen','Nghe chọn từ']],vMode,k=>{vMode=k;vIdx=0;renderVocab()});
  vList=wordsOf(vLv,vBai);$('#vListTtl').textContent=`${vLv} · Bài ${vBai}`;$('#vCount').textContent=vList.length+' từ';renderWL();renderVArea()}
 function renderWL(){const q=$('#vSearch').value.trim().toLowerCase();const src=q?VOCAB.words.filter(w=>(w.h+w.y+w.v).toLowerCase().includes(q)).slice(0,200):vList;
- $('#wl').innerHTML=src.map(w=>`<li><span class="jp">${furi(w)}${w.hv?`<small>${esc(w.hv)}</small>`:''}${w.a!=null?`<small class="wp">${pitch(w)}</small>`:''}</span><span>${esc(w.v)}<small>${q?esc(w.l.map(x=>x[0]+' B'+x[1]).join(', ')):''}</small></span></li>`).join('')||'<li class="muted">Không có từ.</li>'}
+ $('#wl').innerHTML=src.map(w=>`<li><span class="jp">${furi(w)}${w.hv?`<small>${esc(w.hv)}</small>`:''}${w.a!=null?`<small class="wp">${pitch(w)}</small>`:''}</span><span>${esc(w.v)}${exHtml(w)}<small>${q?esc(w.l.map(x=>x[0]+' B'+x[1]).join(', ')):''}</small></span></li>`).join('')||'<li class="muted">Không có từ.</li>'}
 $('#vSearch').oninput=renderWL;
 function renderVArea(){const A=$('#vArea');if(!vList.length){A.innerHTML='<div class="card muted">Bài này chưa có từ.</div>';return}
  const w=vList[vIdx%vList.length];
  if(vMode==='card'){A.innerHTML=`<div class="fc" id="fc" role="button" tabindex="0" aria-label="Lật thẻ"><div class="fc-in"><div class="face front"><span class="tag gray cnt">${vIdx%vList.length+1} / ${vList.length}</span><div class="w jp">${furi(w)}</div><button class="spk" data-sp="1" type="button">🔊 Nghe</button><span class="hint">Chạm để lật thẻ</span></div>
-  <div class="face back">${w.hv?`<div class="hv">${esc(w.hv)}</div>`:''}<div class="y jp">${pitch(w,true)}</div>${w.a!=null?`<div class="ptn">${ptName(+String(w.a).split(',')[0],moras(w.y).length)}</div>`:''}<div class="mean">${esc(w.v)}</div><button class="spk" data-sp="1" type="button">🔊 Nghe</button><span class="hint">Chạm để lật lại</span></div></div></div>
+  <div class="face back">${w.hv?`<div class="hv">${esc(w.hv)}</div>`:''}<div class="y jp">${pitch(w,true)}</div>${w.a!=null?`<div class="ptn">${ptName(+String(w.a).split(',')[0],moras(w.y).length)}</div>`:''}<div class="mean">${esc(w.v)}</div>${exHtml(w)}<button class="spk" data-sp="1" type="button">🔊 Nghe</button><span class="hint">Chạm để lật lại</span></div></div></div>
   <div class="fcbar"><button type="button" id="vPrev">← Trước</button><button type="button" id="vShuf">Trộn thẻ</button><button type="button" id="vNext">Tiếp →</button></div>`;
-  $('#fc').onclick=e=>{if(e.target.closest('[data-sp]')){speak(w.y);return}$('#fc').classList.toggle('flip')};
+  $('#fc').onclick=e=>{if(e.target.closest('[data-sp]')){sayW(w);return}$('#fc').classList.toggle('flip')};
   $('#fc').onkeydown=e=>{if(e.key===' '||e.key==='Enter'){e.preventDefault();$('#fc').classList.toggle('flip')}};
   $('#vPrev').onclick=()=>{vIdx=(vIdx-1+vList.length)%vList.length;renderVArea()};$('#vNext').onclick=()=>{vIdx++;renderVArea()};$('#vShuf').onclick=()=>{vList.sort(()=>Math.random()-.5);vIdx=0;renderVArea()};return}
  // quiz modes
@@ -751,7 +757,7 @@ function renderVArea(){const A=$('#vArea');if(!vList.length){A.innerHTML='<div c
  const lab=o=>vMode==='mean'?esc(o.v):vMode==='read'?`<span class="jp">${esc(o.y)}</span>`:`<span class="jp">${esc(o.h)}</span>`;
  const prompt=vMode==='mean'?`<div class="w jp">${furi(tw)}</div>`:vMode==='read'?`<div class="w jp">${esc(tw.h)}</div>`:`<div style="text-align:center;margin:16px 0"><button class="btn" id="vPlay" type="button">🔊 Nghe từ</button></div>`;
  A.innerHTML=`<div class="card vq"><div class="h2">${vMode==='mean'?'Chọn nghĩa đúng':vMode==='read'?'Chọn cách đọc đúng':'Nghe và chọn từ đúng'} <span class="jp">${vIdx%pool.length+1} / ${pool.length}</span></div>${prompt}<div class="opts">${opts.map((o,k)=>`<button class="opt" data-k="${k}" type="button"><span class="k">${k+1}</span>${lab(o)}</button>`).join('')}</div><div id="vfb"></div></div>`;
- if(vMode==='listen'){$('#vPlay').onclick=()=>speak(tw.y);setTimeout(()=>speak(tw.y),250)}
+ if(vMode==='listen'){$('#vPlay').onclick=()=>sayW(tw);setTimeout(()=>sayW(tw),250)}
  $$('#vArea .opt').forEach(b=>b.onclick=()=>{if(b.parentNode.dataset.done)return;b.parentNode.dataset.done=1;const o=opts[+b.dataset.k];const ok=o===tw;
   $$('#vArea .opt').forEach((x,k)=>{if(opts[k]===tw)x.classList.add('right');else if(x===b)x.classList.add('wrong')});
   $('#vfb').innerHTML=`<div class="fb ${ok?'ok':'ng'}">${ok?'Đúng rồi!':'Chưa đúng.'} <span class="jp">${furi(tw)}</span> · ${esc(tw.v)}${tw.hv?' · '+esc(tw.hv):''}</div><button class="btn" id="vNx" style="margin-top:10px" type="button">Câu tiếp →</button>`;
