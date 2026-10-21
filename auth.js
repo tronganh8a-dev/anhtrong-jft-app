@@ -80,6 +80,11 @@ input:focus{outline:0;border-color:#0d5a8c;background:#fff;box-shadow:0 0 0 4px 
 button.go{width:100%;margin-top:4px;border:0;border-radius:12px;background:linear-gradient(135deg,#0d5a8c,#0a4670);color:#fff;font-family:inherit;font-weight:700;font-size:16.5px;padding:14px;cursor:pointer;box-shadow:0 8px 20px rgba(13,90,140,.28);transition:transform .15s,box-shadow .15s}
 button.go:hover{transform:translateY(-1px);box-shadow:0 12px 26px rgba(13,90,140,.34)}
 .help{margin-top:16px;font-size:13px;color:#5a6873;text-align:center}
+.soc{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}
+.soc a{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:12px;text-decoration:none;color:#fff;transition:transform .15s,box-shadow .15s}
+.soc a:hover{transform:translateY(-1px);box-shadow:0 8px 18px rgba(0,0,0,.15)}
+.soc svg{width:22px;height:22px;flex:none}.soc span{display:flex;flex-direction:column;line-height:1.2;min-width:0}.soc b{font-size:14px}.soc small{font-size:11.5px;opacity:.85;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.soc .fb{background:#1877f2}.soc .tt{background:#111}
 small.cr{display:block;margin-top:22px;color:#9aa6b0;font-size:11.5px;text-align:center;line-height:1.5}
 @media (max-width:880px){
  body{grid-template-columns:1fr}
@@ -105,7 +110,8 @@ small.cr{display:block;margin-top:22px;color:#9aa6b0;font-size:11.5px;text-align
  <label for="p">Mật khẩu</label><div class="f"><input id="p" name="p" type="password" autocomplete="current-password" required style="padding-right:64px"><button class="eye" type="button" onclick="const i=document.getElementById('p');i.type=i.type==='password'?'text':'password';this.textContent=i.type==='password'?'Hiện':'Ẩn'">Hiện</button></div>
  <div class="err" role="alert">${esc(err)}</div>
  <button class="go" type="submit">Vào học →</button>
- <div class="help">Chưa có tài khoản? Nhắn Anh Trọng Dạy JFT để được cấp.</div>
+ <div class="help">Chưa có tài khoản? Nhắn Anh Trọng Dạy JFT để được cấp:</div>
+ <div class="soc"><a class="fb" href="https://www.facebook.com/anh.trongg.2024/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M14 8V6.5c0-.7.5-1 1-1h2V2h-3c-3 0-4 2-4 4.3V8H7.5v3.5H10V22h4V11.5h2.8l.5-3.5H14z"/></svg><span><b>Facebook</b><small>Anh Trọng</small></span></a><a class="tt" href="https://www.tiktok.com/@anhtrong.daygino" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.6 2h-3.4v13.4a2.9 2.9 0 1 1-2.9-2.9c.3 0 .6 0 .9.1V9.2a6.4 6.4 0 1 0 5.4 6.3V8.8a8 8 0 0 0 4.4 1.3V6.7a4.6 4.6 0 0 1-4.4-4.7z"/></svg><span><b>TikTok</b><small>@anhtrong.daygino</small></span></a></div>
  <small class="cr">© 2026 Anh Trọng Dạy JFT · 出典：国際交流基金「いろどり 生活の日本語」。表紙の著作権は国際交流基金に帰属します。</small>
 </form>
 </main>
