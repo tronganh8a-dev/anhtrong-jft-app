@@ -125,9 +125,19 @@ footer{margin-top:36px;color:var(--muted);font-size:12px;border-top:1px solid va
 .vex{margin-top:6px;padding:6px 10px;border-left:3px solid var(--line);background:var(--bg);border-radius:0 8px 8px 0;font-size:14px;line-height:1.7}
 .vex small{display:block;color:var(--muted);font-size:12.5px;line-height:1.45}
 .fc .vex{text-align:left;max-width:440px;margin:10px auto 0;font-size:15px}
+.sched .sbtn{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;width:100%;margin-top:4px}
+.pbtn{display:flex;align-items:center;gap:10px;padding:12px 14px;border-radius:14px;text-decoration:none;color:#fff;box-shadow:0 6px 16px rgba(0,0,0,.08);transition:transform .15s,box-shadow .15s;min-width:0}
+.pbtn svg{width:24px;height:24px;flex:none;opacity:.95}
+.pbtn span{display:flex;flex-direction:column;min-width:0;line-height:1.25}.pbtn b{font-size:15px}.pbtn small{font-size:12px;opacity:.85;font-weight:600;margin:0;color:inherit}
+.pbtn i{margin-left:auto;font-style:normal;font-weight:800;opacity:.8;transition:transform .15s}
+.pbtn:hover{transform:translateY(-2px);box-shadow:0 10px 22px rgba(0,0,0,.14)}.pbtn:hover i{transform:translate(2px,-2px)}
+.pbtn.c1{background:linear-gradient(135deg,#ec6f9b,#d93c76)}.pbtn.c2{background:linear-gradient(135deg,#f5a845,#e8861a)}
+.pbtn.c3{background:linear-gradient(135deg,#f8e05a,#efc929);color:#3b3000}.pbtn.c4{background:linear-gradient(135deg,#a5cc4f,#7fae2e)}
+@media (max-width:1100px){.sched .sbtn{grid-template-columns:1fr 1fr}}
+@media (max-width:600px){.sched .sbtn{grid-template-columns:1fr}.pbtn{padding:11px 14px}}
 .sched{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:18px;border-left:4px solid var(--pink)}
 .sched .jp{font-size:12px;color:var(--muted);margin-left:8px}.sched p{margin:4px 0 0;color:var(--muted);font-size:14px}
-.sched .sbtn{display:flex;gap:10px;flex-wrap:wrap}.sched .btn{text-decoration:none}
+.sched .btn{text-decoration:none}
 .tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:18px}
 .tile{text-align:left;border:1px solid var(--line);background:var(--paper);border-radius:var(--r);padding:18px;box-shadow:var(--sh);display:flex;flex-direction:column;gap:6px;transition:transform .15s,border-color .15s}
 .tile:hover{transform:translateY(-2px);border-color:var(--blue)}
@@ -384,7 +394,7 @@ body.locked .app{filter:blur(6px);pointer-events:none}
   </div>
   <div class="card sched">
     <div><b>Xem lịch thi JFT-Basic</b><span class="jp">試験日程 · Prometric</span><p>Lịch thi và chỗ trống cập nhật trên trang chính thức của Prometric. Chưa có tài khoản Prometric thì đăng ký trước, sau đó đăng nhập để đặt / xem lịch thi.</p></div>
-    <div class="sbtn"><a class="btn" href="https://www.prometric-jp.com/ssw/schedule/jft_basic_overseas/" target="_blank" rel="noopener">Thi ở Việt Nam ↗</a><a class="btn ghost" href="https://www.prometric-jp.com/ssw/schedule/jft_basic_domestic/" target="_blank" rel="noopener">Thi ở Nhật ↗</a><a class="btn ghost" href="https://j6.prometric-jp.com/IdGet/IdNew?CN=JL&amp;LC=JA" target="_blank" rel="noopener">Đăng ký tài khoản Prometric ↗</a><a class="btn ghost" href="https://j6.prometric-jp.com/Reserve/Login?CN=JL&amp;LC=JA" target="_blank" rel="noopener">Đăng nhập Prometric ↗</a></div>
+    <div class="sbtn"><a class="pbtn c1" href="https://www.prometric-jp.com/ssw/schedule/jft_basic_overseas/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><span><b>Lịch thi ở Việt Nam</b><small>海外 · Overseas</small></span><i>↗</i></a><a class="pbtn c2" href="https://www.prometric-jp.com/ssw/schedule/jft_basic_domestic/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><span><b>Lịch thi ở Nhật</b><small>国内 · Japan</small></span><i>↗</i></a><a class="pbtn c3" href="https://j6.prometric-jp.com/IdGet/IdNew?CN=JL&amp;LC=JA" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="8" r="4"/><path d="M2 21c0-4 3-6 7-6s7 2 7 6M19 8v6M16 11h6"/></svg><span><b>Đăng ký tài khoản</b><small>Prometric ID</small></span><i>↗</i></a><a class="pbtn c4" href="https://j6.prometric-jp.com/Reserve/Login?CN=JL&amp;LC=JA" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4M10 17l5-5-5-5M15 12H3"/></svg><span><b>Đăng nhập</b><small>Đặt / xem lịch thi</small></span><i>↗</i></a></div>
   </div>
   <div class="card pass">
     <div class="ph"><div><b>Điểm đậu JFT-Basic</b><span class="jp">判定基準点</span></div><span class="muted" style="font-size:13px">Thang điểm 10 – 250 · đánh giá theo tổng điểm</span></div>
