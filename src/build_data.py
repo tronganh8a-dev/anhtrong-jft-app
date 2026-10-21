@@ -81,7 +81,7 @@ for n in sorted(LT, key=int):
                        o=[dict(t=o) for o in opts], a=a, pt=pt, ex=cl(r[16])))
     # keep JFT section order
     qs.sort(key=lambda q: ORDER.index(q['s']) if q['s'] in ORDER else 9)
-    exams.append(dict(id='lt' + n, group='Đề thi thử JFT-Basic · luyenthitokutei.com', title=f'Đề {int(n):02d}', sub=LT[n].get('nm') or '', time=60,
+    exams.append(dict(id='lt' + n, group='Đề thi thử JFT-Basic', title=f'Đề {int(n)}', sub='', time=60,
                       hasListen=any(q['s'] == '聴解' for q in qs), qs=qs))
 js('exams', 'EXAMS', exams)
 open(OUT + 'app/data/exams.js', 'a', encoding='utf-8').write('window.EXTLINKS=[];')
