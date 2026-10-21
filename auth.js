@@ -46,17 +46,17 @@ const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;',
 
 function loginPage(err = '', user = '', next = '/') {
   return new Response(`<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Đăng nhập · Anh Trọng Dạy JFT</title><meta name="robots" content="noindex"><meta name="theme-color" content="#0a4670">
+<title>Đăng nhập · Anh Trọng Dạy JFT</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&display=swap" rel="stylesheet"><meta name="robots" content="noindex"><meta name="theme-color" content="#0a4670">
 <style>
 *{box-sizing:border-box}
 html,body{margin:0;min-height:100%}
-body{min-height:100vh;display:grid;grid-template-columns:1.15fr 1fr;font-family:"Be Vietnam Pro","Segoe UI",system-ui,-apple-system,sans-serif;color:#17222c;background:#f3f6f8}
-.jp{font-family:"Hiragino Kaku Gothic ProN","Yu Gothic","Noto Sans JP",Meiryo,sans-serif}
+body{min-height:100vh;display:grid;grid-template-columns:1.15fr 1fr;font-family:"M PLUS Rounded 1c","Hiragino Maru Gothic ProN","Segoe UI",system-ui,sans-serif;color:#17222c;background:#f3f6f8}
+.jp{font-family:"M PLUS Rounded 1c","Hiragino Maru Gothic ProN",sans-serif}
 .side{position:relative;overflow:hidden;color:#fff;padding:48px 56px;display:flex;flex-direction:column;background:radial-gradient(900px 600px at 90% 0%,#1a78b4 0%,rgba(26,120,180,0) 60%),linear-gradient(140deg,#0b3d60 0%,#0d5a8c 55%,#0a4670 100%)}
 .side::after{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);background-size:44px 44px;mask-image:linear-gradient(180deg,#000,transparent 80%);pointer-events:none}
 .brand{display:flex;align-items:center;gap:12px;font-weight:700;font-size:18px;position:relative;z-index:1}
 .logo{width:42px;height:42px;border-radius:11px;background:#c42f66;color:#fff;display:grid;place-items:center;font-weight:800;font-size:16px;flex:none}
-.side h1{position:relative;z-index:1;font-size:44px;line-height:1.12;margin:56px 0 14px;letter-spacing:-.01em;font-weight:800}
+.side h1{position:relative;z-index:1;font-size:46px;line-height:1.2;margin:56px 0 22px;letter-spacing:-.01em;font-weight:800}
 .side h1 span{color:#ffd166;white-space:nowrap}
 .side p.lead{position:relative;z-index:1;margin:0;font-size:17px;color:#d4e6f3;max-width:470px;line-height:1.55}
 .chips{position:relative;z-index:1;display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
@@ -98,7 +98,6 @@ small.cr{display:block;margin-top:22px;color:#9aa6b0;font-size:11.5px;text-align
 <aside class="side">
  <div class="brand"><span class="logo">AT</span>Anh Trọng Dạy JFT</div>
  <h1>Học và Luyện thi <span>JFT-Basic</span></h1>
- <p class="lead">Học trọn bộ giáo trình <span class="jp">いろどり 生活の日本語</span>: bài giảng slide, ngữ pháp, từ vựng, luyện kỹ năng và 20 đề thi thử giống máy thi thật.</p>
  <div class="chips"><span class="jp">入門 A1</span><span class="jp">初級1 A2</span><span class="jp">初級2 A2</span><span class="jp">初中級 A2/B1</span></div>
  <div class="books" aria-hidden="true"><img src="/app/media/cover/nyumon.jpg" alt=""><img src="/app/media/cover/s1.jpg" alt=""><img src="/app/media/cover/s2.jpg" alt=""><img src="/app/media/cover/sc.jpg" alt=""></div>
 </aside>
