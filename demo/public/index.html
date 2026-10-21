@@ -61,6 +61,22 @@ footer{margin-top:36px;color:var(--muted);font-size:12px;border-top:1px solid va
 .hero{background:linear-gradient(135deg,#0d5a8c,#0a4670);color:#fff;border-radius:var(--r);padding:26px 28px;display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center}
 .hero h2{margin:0 0 6px;font-size:26px}.hero p{margin:0;color:#d4e6f3}
 .hero .stat{display:flex;gap:10px}.hero .stat div{background:rgba(255,255,255,.12);border-radius:12px;padding:10px 14px;text-align:center}.hero .stat b{display:block;font-size:22px}.hero .stat small{color:#cfe2ef;font-size:12px}
+.pass{margin-top:18px}
+.pass .ph{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+.pass .ph b{font-size:18px}.pass .ph .jp{font-size:12px;color:var(--muted);margin-left:8px}
+.scale{position:relative;display:flex;height:14px;border-radius:99px;overflow:hidden;margin:16px 0 26px;background:var(--bg)}
+.scale .seg{height:100%}.scale .s0{background:linear-gradient(90deg,#f6dbe6,#e9a3bd)}.scale .s1{background:#e2457f}.scale .s2{background:#f39a2b}.scale .s3{background:linear-gradient(90deg,#c6d84a,#7fb83b)}
+.scale .tk{position:absolute;top:18px;transform:translateX(-50%);font-size:12.5px;font-weight:700;color:var(--ink);font-variant-numeric:tabular-nums}
+.scale .tk:first-of-type{transform:none}.scale .tk:last-of-type{transform:translateX(-100%)}
+.scale{overflow:visible}.scale .seg:first-child{border-radius:99px 0 0 99px}.scale .seg:nth-child(4){border-radius:0 99px 99px 0}
+.pass .lv{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.pass .lv>div{border:1px solid var(--line);border-radius:12px;padding:12px 14px;border-top:4px solid}
+.pass .l1{border-top-color:#e2457f!important}.pass .l2{border-top-color:#f39a2b!important}.pass .l3{border-top-color:#7fb83b!important;background:var(--ok-soft)}
+.pass .lv b{font-size:17px}.pass .lv .r{margin-left:8px;font-weight:700;color:var(--muted);font-variant-numeric:tabular-nums}
+.pass .lv p{margin:6px 0 0;font-size:14px}
+.pass .pn{margin:14px 0 0;padding-left:18px;font-size:14px;color:var(--muted)}.pass .pn li{margin:3px 0}
+.pass .src{margin-top:10px;font-size:12.5px;color:var(--muted)}.pass .src a{color:var(--blue)}
+@media (max-width:760px){.pass .lv{grid-template-columns:1fr}}
 .sched{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:18px;border-left:4px solid var(--pink)}
 .sched .jp{font-size:12px;color:var(--muted);margin-left:8px}.sched p{margin:4px 0 0;color:var(--muted);font-size:14px}
 .sched .sbtn{display:flex;gap:10px;flex-wrap:wrap}.sched .btn{text-decoration:none}
@@ -69,7 +85,7 @@ footer{margin-top:36px;color:var(--muted);font-size:12px;border-top:1px solid va
 .tile:hover{transform:translateY(-2px);border-color:var(--blue)}
 .tile .ti{width:40px;height:40px;border-radius:10px;display:grid;place-items:center;margin-bottom:6px}
 .tile b{font-size:17px}.tile .jp{color:var(--muted);font-size:13px}.tile p{margin:2px 0 0;color:var(--muted);font-size:13.5px}
-.tips{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:18px}
+.tips{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
 .tips .card{padding:14px}.tips b{display:block;margin-bottom:4px}.tips p{margin:0;font-size:13.5px;color:var(--muted)}
 /* grammar */
 .gp{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--sh);padding:18px 20px;margin-bottom:16px}
@@ -322,17 +338,26 @@ body.locked .app{filter:blur(6px);pointer-events:none}
     <div><b>Xem lịch thi JFT-Basic</b><span class="jp">試験日程 · Prometric</span><p>Lịch thi và chỗ trống cập nhật trên trang chính thức của Prometric.</p></div>
     <div class="sbtn"><a class="btn" href="https://www.prometric-jp.com/ssw/schedule/jft_basic_overseas/" target="_blank" rel="noopener">Thi ở Việt Nam ↗</a><a class="btn ghost" href="https://www.prometric-jp.com/ssw/schedule/jft_basic_domestic/" target="_blank" rel="noopener">Thi ở Nhật ↗</a></div>
   </div>
-  <div class="tiles">
-    <button class="tile" data-go="learn" type="button"><span class="ti" style="background:var(--blue-soft);color:var(--blue)">▶</span><b>Học qua slide</b><span class="jp">授業スライド</span><p>Slide và web bài học いろどり: 初級1, 初級2, 初中級.</p></button>
-    <button class="tile" data-go="exam" type="button"><span class="ti" style="background:var(--pink-soft);color:var(--pink)">✎</span><b>Làm đề</b><span class="jp">模擬試験</span><p>Đề thi thử bấm giờ, giao diện giống máy thi CBT.</p></button>
-    <button class="tile" data-go="skill" type="button"><span class="ti" style="background:#fff1dc;color:var(--amber)">♪</span><b>Luyện kỹ năng</b><span class="jp">聴解・読解</span><p>Câu nghe, câu đọc cắt từ bài luyện いろどり, chấm ngay.</p></button>
-    <button class="tile" data-go="gram" type="button"><span class="ti" style="background:#efe8fb;color:#6a3fb5">文</span><b>Ngữ pháp</b><span class="jp">文法</span><p>Giải thích tiếng Việt từng mẫu, bài tập ワークシート có đáp án, trắc nghiệm.</p></button>
-    <button class="tile" data-go="vocab" type="button"><span class="ti" style="background:var(--ok-soft);color:var(--ok)">字</span><b>Từ vựng</b><span class="jp">語彙</span><p>Từ vựng いろどり theo bài: flashcard, trắc nghiệm, nghe.</p></button>
-    <button class="tile" data-go="hw" type="button"><span class="ti" style="background:#e6f1f8;color:#0d4f7c">✓</span><b>Bài tập về nhà</b><span class="jp">宿題</span><p>25 buổi theo lộ trình: từ vựng, chữ Hán, ngữ pháp, hội thoại. Chấm điểm ngay, có bản PDF.</p></button>
+  <div class="card pass">
+    <div class="ph"><div><b>Điểm đậu JFT-Basic</b><span class="jp">判定基準点</span></div><span class="muted" style="font-size:13px">Thang điểm 10 – 250 · đánh giá theo tổng điểm</span></div>
+    <div class="scale" aria-label="Thang điểm JFT-Basic">
+      <div class="seg s0" style="width:56.25%"></div><div class="seg s1" style="width:12.5%"></div><div class="seg s2" style="width:10.4%"></div><div class="seg s3" style="width:20.85%"></div>
+      <span class="tk" style="left:0">10</span><span class="tk" style="left:56.25%">145</span><span class="tk" style="left:68.75%">175</span><span class="tk" style="left:79.15%">200</span><span class="tk" style="left:100%">250</span>
+    </div>
+    <div class="lv">
+      <div class="l1"><b>A1</b><span class="r">145 – 174</span><p>Dùng cho tư cách lưu trú <span class="jp">育成就労</span>: thường cần A1 trở lên khi bắt đầu làm việc.</p></div>
+      <div class="l2"><b>A2.1</b><span class="r">175 – 199</span><p>Chủ yếu để xét điều kiện chuyển nơi làm việc theo nguyện vọng trong chế độ <span class="jp">育成就労</span>. Một số ngành có thể yêu cầu cao hơn.</p></div>
+      <div class="l3"><b>A2.2 (A2)</b><span class="r">200 – 250</span><p><b>Mốc đậu để xin visa Kỹ năng đặc định số 1</b> (<span class="jp">特定技能1号</span>). Mục tiêu của khoá học: từ 200 điểm.</p></div>
+    </div>
+    <ul class="pn">
+      <li>Từ tháng 8/2026, phiếu kết quả ghi thêm mức A1 và A2.1. Dưới 145 điểm hiển thị dấu “*”.</li>
+      <li>Phiếu kết quả có tỉ lệ đúng của 4 phần (<span class="jp">文字と語彙・会話と表現・聴解・読解</span>) để tham khảo; đậu hay không xét theo <b>tổng điểm</b>.</li>
+      <li>Đề trong app quy đổi về thang 250 theo % câu đúng, chỉ để ước lượng.</li>
+    </ul>
+    <div class="src">Nguồn: The Japan Foundation — <a href="https://www.jpf.go.jp/jft-basic/vi/notice/" target="_blank" rel="noopener">Thông báo về đánh giá A1, A2.1</a></div>
   </div>
   <div class="tips">
     <div class="card"><b>JFT-Basic gồm 4 phần</b><p>文字と語彙 · 会話と表現 · 聴解 · 読解. Làm bài trên máy, khoảng 60 phút.</p></div>
-    <div class="card"><b>Mốc đạt</b><p>200 / 250 điểm. Đề trong app chấm theo % số câu đúng.</p></div>
     <div class="card"><b>Phần nghe</b><p>Mỗi câu nghe tối đa 2 lần. Đọc câu hỏi trước khi bấm nghe.</p></div>
     <div class="card"><b>Mẹo học</b><p>Học slide → ôn từ vựng bài đó → luyện kỹ năng bài đó → làm đề thử.</p></div>
   </div>
