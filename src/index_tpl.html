@@ -61,6 +61,9 @@ footer{margin-top:36px;color:var(--muted);font-size:12px;border-top:1px solid va
 .hero{background:linear-gradient(135deg,#0d5a8c,#0a4670);color:#fff;border-radius:var(--r);padding:26px 28px;display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center}
 .hero h2{margin:0 0 6px;font-size:26px}.hero p{margin:0;color:#d4e6f3}
 .hero .stat{display:flex;gap:10px}.hero .stat div{background:rgba(255,255,255,.12);border-radius:12px;padding:10px 14px;text-align:center}.hero .stat b{display:block;font-size:22px}.hero .stat small{color:#cfe2ef;font-size:12px}
+.sched{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:18px;border-left:4px solid var(--pink)}
+.sched .jp{font-size:12px;color:var(--muted);margin-left:8px}.sched p{margin:4px 0 0;color:var(--muted);font-size:14px}
+.sched .sbtn{display:flex;gap:10px;flex-wrap:wrap}.sched .btn{text-decoration:none}
 .tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:18px}
 .tile{text-align:left;border:1px solid var(--line);background:var(--paper);border-radius:var(--r);padding:18px;box-shadow:var(--sh);display:flex;flex-direction:column;gap:6px;transition:transform .15s,border-color .15s}
 .tile:hover{transform:translateY(-2px);border-color:var(--blue)}
@@ -314,6 +317,10 @@ body.locked .app{filter:blur(6px);pointer-events:none}
   <div class="hero">
     <div><h2>Học và luyện thi JFT-Basic</h2><p>Bài học いろどり qua slide, đề thi thử giao diện CBT, luyện từng kỹ năng và từ vựng theo từng bài.</p></div>
     <div class="stat" id="homeStat"></div>
+  </div>
+  <div class="card sched">
+    <div><b>Xem lịch thi JFT-Basic</b><span class="jp">試験日程 · Prometric</span><p>Lịch thi và chỗ trống cập nhật trên trang chính thức của Prometric.</p></div>
+    <div class="sbtn"><a class="btn" href="https://www.prometric-jp.com/ssw/schedule/jft_basic_overseas/" target="_blank" rel="noopener">Thi ở Việt Nam ↗</a><a class="btn ghost" href="https://www.prometric-jp.com/ssw/schedule/jft_basic_domestic/" target="_blank" rel="noopener">Thi ở Nhật ↗</a></div>
   </div>
   <div class="tiles">
     <button class="tile" data-go="learn" type="button"><span class="ti" style="background:var(--blue-soft);color:var(--blue)">▶</span><b>Học qua slide</b><span class="jp">授業スライド</span><p>Slide và web bài học いろどり: 初級1, 初級2, 初中級.</p></button>
