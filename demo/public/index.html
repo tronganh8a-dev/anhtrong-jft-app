@@ -629,7 +629,7 @@ function render(){stopAudio();const it=S.items,q=it[S.i],sec=curSec(),pos=sec.id
  $('#cbtSec').innerHTML=S.secs.map((s,k)=>`<div class="s${k===S.sec?' cur':''}${k<S.sec?' done':''}" title="${esc(secName(s.name))}">${esc(secName(s.name).slice(0,4))}${secName(s.name).length>4?'…':''}<i></i></div>`).join('');
  let ctx='';if(S.mode==='exam'){for(let k=S.i-1;k>=0&&!it[k].o;k--)ctx=ctxHtml(it[k])+ctx}
  const sel=S.ans[S.i]||[],chk=S.instant&&S.checked[S.i],pic=q.o.some(o=>o.img),multi=isMulti(q);
- const viTxt=[q.setvi,q.tvi].filter(Boolean).map(esc).join('<br>');const hasVi=viTxt||q.o.some(o=>o.vi);
+ const viTxt=[q.setvi,q.tvi,q.labvi].filter(Boolean).map(esc).join('<br>');const hasVi=viTxt||q.o.some(o=>o.vi);
  let h='';
  if(S.mode==='skill'){if(q.t)h+=`<div class="cbt-ins jp">${q.t}</div>`}else if(q.ins)h+=`<div class="cbt-ins">${q.ins}</div>`;
  if(hasVi)h+=`<button class="langbtn" id="langBtn" type="button">Tiếng Việt</button><div class="langbox" id="langBox">${viTxt||'Nghĩa các lựa chọn hiện bên dưới.'}</div>`;

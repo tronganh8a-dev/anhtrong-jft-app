@@ -38,21 +38,20 @@ print('vocab', len(W))
 # ---------- skills
 SK = json.load(open(R + 'skills_raw.json'))
 def anm(a): return 'app/media/au/' + a.replace('audio3/', 'sc-').replace('audio2/', 's2-').replace('audio/', 's1-')
+def im(x): return 'app/media/img/' + os.path.basename(x)
 skills = []
-for it in SK:
+for it in SK:   # trường t/label/q đã là HTML (có ruby) do skills_extract.py sinh ra
     opts = []; letters = []
     for o in it['opts']:
         t = o['t']
         if o['v'] in ('o', 'x') and len(it['opts']) == 2: t = '○ Đúng' if o['v'] == 'o' else '× Sai'
-        if t == o['v'] and o['img']: t = o['v'] + '.'
-        opts.append(dict(t=h(t), img=('app/media/img/' + os.path.basename(o['img'])) if o['img'] else None, vi=o.get('vi') or ''))
+        opts.append(dict(t=t, img=im(o['img']) if o['img'] else None, vi=o.get('vi') or ''))
         letters.append(o['v'])
-    if all(re.fullmatch(r'[a-zア-ン]\.?', html.unescape(o['t'])) and not o['img'] for o in opts): continue
     a = [letters.index(x) for x in it['ans'] if x in letters]
     if not a: continue
     skills.append(dict(lv=it['lv'], bai=it['bai'], sec=it['sec'], s=('聴解' if it['sec'] == 'listen' else '読解'), src=f"{it['lvname']} Bài {it['bai']}",
-                       set=it['setting'], setvi=it['setting_vi'], t=it['q'], tvi=it['qvi'], lab=h(it['label']) if it['label'] else '',
-                       au=anm(it['audio']) if it['audio'] else None, imgs=['app/media/img/' + os.path.basename(x) for x in it['imgs']], o=opts, a=a))
+                       set=it['setting'], setvi=it['setting_vi'], t=it['q'], tvi=it['qvi'], lab=it['label'] or '', labvi=it.get('labvi') or '',
+                       au=anm(it['audio']) if it['audio'] else None, imgs=[im(x) for x in it['imgs']], o=opts, a=a))
 js('skills', 'SKILLS', skills)
 print('skills', len(skills))
 
@@ -100,3 +99,4 @@ print('grammar lessons', len(GR), 'points', sum(len(g['points']) for g in GR))
 # trọng âm từ vựng
 import subprocess, sys
 subprocess.run([sys.executable, A + 'pitch/add_pitch.py'], check=True)
+subprocess.run([sys.executable, A + 'pitch/add_examples.py'], check=True)
