@@ -256,6 +256,9 @@ body.gjp .gp .jpx{display:block}
 .cbt-sec{width:46px;background:#f4f4f4;border-right:1px solid #ddd;display:flex;flex-direction:column;flex:none}
 .cbt-sec .s{border-bottom:1px solid #ddd;padding:6px 0 10px;text-align:center;font-size:12.5px;color:#333;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex:1;max-height:136px;display:flex;flex-direction:column;align-items:center;gap:6px}
 .cbt-sec .s.cur{color:#c00;background:#fff}
+.cbt-sec .s.go{cursor:pointer}.cbt-sec .s.go:hover{background:#fff}
+.secbar{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px}.secbar button{border:1px solid #c9d3bb;background:#fff;color:#2b3a14;border-radius:999px;padding:7px 14px;font-weight:700;font-size:14px;cursor:pointer;display:inline-flex;gap:8px;align-items:center;font-family:var(--vi)}.secbar button small{font-weight:600;color:#6b7b55;font-size:12px}.secbar button.on{background:#6b9524;border-color:#6b9524;color:#fff}.secbar button.on small{color:#e6f0d5}
+@media (max-width:760px){.secbar{flex-wrap:nowrap;overflow-x:auto;gap:6px;margin-bottom:12px;padding-bottom:2px}.secbar button{flex:none;padding:5px 10px;font-size:12.5px}}
 .cbt-sec .s i{display:block;width:12px;flex:1;border-radius:6px;background:#dfe3e6}
 .cbt-sec .s.done i,.cbt-sec .s.cur i{background:#6b9524}
 .cbt-nums{width:74px;flex:none;padding:10px 0 10px 14px;overflow-y:auto;display:flex;flex-direction:column;gap:6px}
@@ -612,6 +615,7 @@ $('#exMode').addEventListener('click',e=>{const m=e.target.closest('[data-mode]'
 
 /* ===== CBT engine (mô phỏng màn hình JFT-Basic) ===== */
 const SEC_EN={'文法':'Grammar','文字と語彙':'Script and Vocabulary','会話と表現':'Conversation and Expression','聴解':'Listening Comprehension','読解':'Reading Comprehension'};
+const SEC_VI={'文字と語彙':'Chữ & Từ vựng','会話と表現':'Hội thoại & Diễn đạt','聴解':'Nghe hiểu','読解':'Đọc hiểu'};
 const SEC_SHORT={'文字と語彙':'Script and Vocabulary','会話と表現':'Conversation and Expression','聴解':'Listening Comprehension','読解':'Reading Comprehension'};
 let S=null,tick=null,AU=null;
 function fmt(s){const h=Math.floor(s/3600),m=Math.floor(s%3600/60),x=s%60;return [h,m,x].map(v=>String(v).padStart(2,'0')).join(':')}
@@ -645,11 +649,13 @@ function ctxHtml(c){if(c.kind==='video')return `${c.t?`<div class="cbt-q">${c.t}
  if(c.kind==='text'&&(c.t||c.d))return `<div class="cbt-set">${c.t||''}${c.d?'<br>'+c.d:''}</div>`;return ''}
 function render(){stopAudio();const it=S.items,q=it[S.i],sec=curSec(),pos=sec.idx.indexOf(S.i);
  $('#hQ').textContent=pos+1;$('#hS').textContent=secName(sec.name);if(S.mode==='exam')$('#timer').textContent=fmt(S.left);
- $('#cbtSec').innerHTML=S.secs.map((s,k)=>`<div class="s${k===S.sec?' cur':''}${k<S.sec?' done':''}" title="${esc(secName(s.name))}">${esc(secName(s.name).slice(0,4))}${secName(s.name).length>4?'…':''}<i></i></div>`).join('');
+ const free=S.mode==='exam'&&(S.practice||S.done);
+ $('#cbtSec').innerHTML=S.secs.map((s,k)=>`<div class="s${k===S.sec?' cur':''}${k<S.sec?' done':''}${free?' go':''}" data-sk="${k}" title="${esc(secName(s.name))}">${esc(secName(s.name).slice(0,4))}${secName(s.name).length>4?'…':''}<i></i></div>`).join('');
  let ctx='';if(S.mode==='exam'){for(let k=S.i-1;k>=0&&!it[k].o;k--)ctx=ctxHtml(it[k])+ctx}
  const sel=S.ans[S.i]||[],chk=S.instant&&S.checked[S.i],pic=q.o.some(o=>o.img),multi=isMulti(q);
  const viTxt=[q.setvi,q.tvi,q.labvi].filter(Boolean).map(esc).join('<br>');const hasVi=viTxt||q.o.some(o=>o.vi);
  let h='';
+ if(free)h+=`<div class="secbar">`+S.secs.map((s,k)=>{const n=s.idx.filter(x=>S.ans[x]&&S.ans[x].length).length;return `<button type="button" data-sk="${k}" class="${k===S.sec?'on':''}">${esc(SEC_VI[s.name]||secName(s.name))}<small>${n}/${s.idx.length}</small></button>`}).join('')+`</div>`;
  if(S.mode==='skill'){if(q.t)h+=`<div class="cbt-ins jp">${q.t}</div>`}else if(q.ins)h+=`<div class="cbt-ins">${q.ins}</div>`;
  if(hasVi)h+=`<button class="langbtn" id="langBtn" type="button">Tiếng Việt</button><div class="langbox" id="langBox">${viTxt||'Nghĩa các lựa chọn hiện bên dưới.'}</div>`;
  h+=ctx;
@@ -669,6 +675,7 @@ function render(){stopAudio();const it=S.items,q=it[S.i],sec=curSec(),pos=sec.id
  if(chk&&q.ex)h+=`<div class="exp">${q.ex}</div>`;
  if(q.src)h+=`<p class="vi-t" style="margin:18px 0 0 46px">Nguồn: ${esc(q.src)}</p>`;
  $('#qArea').innerHTML=h;$('#cbtBody').scrollTop=0;wirePlayers();
+ if(free)$$('[data-sk]').forEach(b=>b.onclick=()=>{const k=+b.dataset.sk;if(k===S.sec)return;S.sec=k;const L=S.secs[k].idx;S.i=L.find(x=>!(S.ans[x]&&S.ans[x].length))??L[0];render()});
  const lb=$('#langBtn');if(lb)lb.onclick=()=>$('#langBox').classList.toggle('on');
  $$('#qArea .alist input').forEach(inp=>inp.onchange=()=>{if(chk)return;const k=+inp.value;let a=S.ans[S.i]||[];if(multi){a=inp.checked?[...a,k]:a.filter(x=>x!==k)}else a=[k];S.ans[S.i]=a;if(S.instant&&!multi)S.checked[S.i]=true;render()});
  const cb=$('#chkBtn');if(cb)cb.onclick=()=>{S.checked[S.i]=true;render()};
