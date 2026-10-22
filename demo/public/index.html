@@ -586,7 +586,7 @@ $('#lgrid').addEventListener('click',e=>{const vb=e.target.closest('[data-view]'
  const v=e.target.closest('[data-voc]');if(v){const[lv,b]=v.dataset.voc.split('|');const map={s1:'初級1',s2:'初級2',sc:'初級2'};vLv=map[lv];vBai=+b;go('vocab');renderVocab()}});
 
 /* ===== exam list ===== */
-function renderExams(){const g={};EXAMS.forEach((e,i)=>{(g[e.group]=g[e.group]||[]).push([e,i])});
+function renderExams(){if(!EXAMS.length){$('#examList').innerHTML='<div class="card" style="padding:28px;text-align:center"><b style="font-size:1.15rem">Bộ đề mới đang được cập nhật</b><p class="muted" style="margin-top:6px">Đề thi thử mới (có đáp án và giải thích) sẽ sớm có mặt tại đây.</p></div>';return}const g={};EXAMS.forEach((e,i)=>{(g[e.group]=g[e.group]||[]).push([e,i])});
  $('#examList').innerHTML=Object.entries(g).map(([gn,arr])=>`<div class="exg">`+arr.map(([e,i])=>{const no=(e.title.match(/\d+/)||[i+1])[0];
   return `<button class="exb" data-ex="${i}" type="button" aria-label="${esc(e.title)}"><span class="k">Đề thi thử</span><span class="num"><small>Đề</small>${no}</span><span class="go">Bắt đầu làm bài <i>→</i></span></button>`}).join('')+'</div>').join('')}
 $('#examList').addEventListener('click',e=>{const b=e.target.closest('[data-ex]');if(b)startExam(+b.dataset.ex)});

@@ -44,7 +44,7 @@ src/
   build_index.py        → public/index.html (bản online: unlock(), logout → /logout, tên user từ cookie jft_user)
   build_data.py         → public/app/data/*.js (tự gọi pitch/add_pitch.py + pitch/add_examples.py ở cuối)
   build_demo.py         → demo/public (bản dùng thử: 初級1 Bài 1–2, Đề đầu tiên ×2, kỹ năng 初級1 Bài 2–3…)
-  raw/lt_exams.json     20 đề thi (nguồn luyenthitokutei.com)
+  raw/lt_exams.json     (đã xoá 22/10 — bộ đề cũ; build_data chạy được khi không có file)
   raw/skills_raw.json   câu luyện kỹ năng (do skills_extract.py sinh)
   raw/titles.txt        danh sách bài
   skills_extract.py     trích câu nghe/đọc từ web bài học (cần các file *_body.html — xem mục 6)
@@ -65,7 +65,7 @@ Quy trình sau khi sửa: `python3 src/build_data.py` (nếu đổi dữ liệu)
 - `/app/media/cover/*` công khai (ảnh bìa ở trang đăng nhập). Trang đăng nhập dùng font M PLUS Rounded 1c, có bìa sách + nút Facebook/TikTok.
 
 ## 5. Dữ liệu & quy ước
-- **Đề thi**: `Đề {n}`, nhóm "Đề thi thử JFT-Basic". Đang **tạm gỡ Đề 1**: `HIDE_EXAMS = {1}` trong `src/build_data.py` (xoá số để hiện lại). Ảnh đề lấy từ web ngoài.
+- **Đề thi**: 22/10 anh yêu cầu **xoá toàn bộ bộ đề cũ** (đã xoá `src/raw/lt_exams.json`, tab Làm đề hiện "Bộ đề mới đang được cập nhật"). Anh sẽ gửi **đề mới** → nhập vào app, **bắt buộc có đáp án + giải thích**: làm xong được chấm và xem đáp án đúng kèm giải thích từng câu (trường `ex` của câu hỏi; màn kết quả cần hiện đáp án + giải thích). `HIDE_EXAMS` trong `src/build_data.py` để ẩn tạm đề theo số.
 - **Luyện kỹ năng** (517 câu): mỗi câu có `lab` (nhãn HTML có ruby), `labvi`, `au`, `imgs`, `o[]` (t có thể là HTML, img), `a[]`. Đã sửa 21/10 vì trước đó bị lẫn nhãn/tranh/lựa chọn.
 - **Từ vựng** (3.817 từ): trọng âm `a` (Kanjium, ~2.589 từ), ví dụ `x` → `VOCAB.ex` (~2.117 từ, trích いろどり), audio `au` → `app/media/vau/<md5>.mp3` (VOICEVOX 青山龍星 ノーマル). Không có tiếng Anh.
 - **Bài tập về nhà**: 25 buổi × 90 phút theo lộ trình (buổi 1 = tổng ôn 入門 + Bài 1–2 初級1).
@@ -76,7 +76,7 @@ Quy trình sau khi sửa: `python3 src/build_data.py` (nếu đổi dữ liệu)
 - Video quảng bá `AnhTrongJFT_App_QuangBa_v2.mp4` (ngang, không phụ đề; ghi "20 đề"), thumbnail dọc 1080×1440 & ngang, PDF lộ trình 25 buổi, ZIP bài tập — anh giữ các file đã gửi.
 
 ## 7. Việc đang chờ
-- **Đề thi mới**: phần từ vựng/ngữ pháp anh giao em tự soạn; phần nghe/đọc anh còn tìm nguồn (phương án: link ra ngoài, tự soạn + audio VOICEVOX, hoặc nguồn được phép). Không dùng vnjpclub/Minna.
+- **Đề thi mới**: chờ anh gửi đề; nhập vào app kèm đáp án + giải thích (xem mục 5). Không dùng vnjpclub/Minna.
 - **Cá nhân hoá (lưu tiến độ, bài làm theo tài khoản)**: dự định dùng Cloudflare D1 — chờ anh tạo D1 Database ID + tên tài khoản giáo viên.
 - Tuỳ chọn: áp font M PLUS Rounded 1c cho toàn app (đã đề xuất, chưa chốt).
-- Video quảng bá ghi "20 đề" trong khi web đang 19 đề (Đề 1 tạm gỡ).
+- Video quảng bá/thumbnail còn nhắc "20 đề thi thử" — bộ đề cũ đã xoá.

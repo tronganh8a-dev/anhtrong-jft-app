@@ -58,9 +58,9 @@ print('skills', len(skills))
 # ---------- exams (luyenthitokutei.com)
 SECMAP = {'BG': '文字と語彙', 'KH': '会話と表現', 'CK': '聴解', 'DK': '読解'}
 ORDER = ['文字と語彙', '会話と表現', '聴解', '読解']
-LT = json.load(open(R + 'lt_exams.json'))
+LT = json.load(open(R + 'lt_exams.json')) if os.path.exists(R + 'lt_exams.json') else {}   # 22/10: đã xoá bộ đề cũ, chờ đề mới
 def cl(x): return (str(x) if x is not None else '').replace('\r', '').strip()
-HIDE_EXAMS = {1}   # đề tạm gỡ khỏi web — xoá số khỏi đây để hiện lại
+HIDE_EXAMS = set()   # số đề muốn tạm ẩn
 exams = []
 for n in sorted(LT, key=int):
     if int(n) in HIDE_EXAMS: continue
