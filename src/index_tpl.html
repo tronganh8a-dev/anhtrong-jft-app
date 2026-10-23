@@ -260,8 +260,9 @@ body.gjp .gp .jpx{display:block}
 .vposter .pb{z-index:2}
 .vstage{width:min(100%,calc((100vh - 250px) * 16 / 9));min-width:min(100%,640px);margin:0 auto}
 .vbox{background:#0b1117;border-radius:18px;overflow:hidden;box-shadow:0 18px 40px -12px rgba(10,40,70,.35),0 0 0 1px rgba(23,34,44,.08)}
-.vplayer{position:relative;aspect-ratio:16/9;background:#000}
-.vplayer iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.vplayer{position:relative;aspect-ratio:16/9;background:#000;overflow:hidden}
+/* khung YouTube cao hơn khung hiển thị 90px mỗi đầu: video vẫn hiện đủ, thanh tiêu đề/kênh của YouTube nằm ngoài vùng nhìn thấy */
+.vplayer iframe{position:absolute;left:0;top:-90px;width:100%;height:calc(100% + 180px);border:0}
 .vposter{position:absolute;inset:0;border:0;padding:0;background:#0b1117 center/cover no-repeat;display:grid;place-items:center;cursor:pointer}
 .vposter::before{content:none}
 .vposter .pb{position:relative;width:88px;height:88px;border-radius:50%;background:rgba(255,255,255,.95);display:grid;place-items:center;box-shadow:0 10px 30px rgba(0,0,0,.35);transition:transform .2s}
