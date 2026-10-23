@@ -303,6 +303,17 @@ body.gjp .gp .jpx{display:block}
 .vinfo h2{font-size:23px;line-height:1.35;margin:8px 0 0}
 .vacts{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
 .vdesc{margin:8px 0 0;color:var(--muted);font-weight:600;font-size:14.5px}
+.vmat{margin-top:16px}
+.vmh{font-size:12px;font-weight:800;letter-spacing:.08em;color:var(--muted);text-transform:uppercase;margin:0 0 8px;display:flex;align-items:center;gap:8px}
+.vmh span{background:var(--line);color:var(--ink);border-radius:99px;padding:1px 8px;font-size:11px;letter-spacing:0}
+.vmg{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:8px}
+.vm{display:flex;align-items:center;gap:10px;min-width:0;text-align:left;border:1px solid var(--line);background:var(--paper);border-radius:12px;padding:8px 10px;color:var(--ink);text-decoration:none;cursor:pointer;font:inherit;transition:border-color .15s}
+.vm:hover{border-color:var(--blue)}
+.vm .ic{width:30px;height:30px;border-radius:9px;background:var(--blue-soft);color:var(--blue);display:grid;place-items:center;flex:none;font-weight:600;font-size:15px}
+.vm .ic.sl{background:var(--pink-soft);color:var(--pink);font-size:11px}.vm .ic.dr{background:#e6f4ea}.vm .ic.dr svg{width:18px;height:18px}
+.vm .t{min-width:0;display:flex;flex-direction:column}
+.vm b{font-size:13.5px;line-height:1.3;font-weight:700;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.vm small{font-size:11px;color:var(--muted);font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .vlearn{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:16px}
 .vlearn .lb{font-size:12px;font-weight:800;letter-spacing:.08em;color:var(--muted);text-transform:uppercase;margin-right:4px}
 .vlb{display:inline-flex;align-items:center;gap:10px;border:1px solid var(--line);background:var(--paper);border-radius:12px;padding:7px 14px 7px 7px;font-weight:700;font-size:14px;color:var(--ink);box-shadow:var(--sh)}
@@ -347,6 +358,7 @@ body.cine{overflow:hidden}
   .vinfo{margin-top:12px;gap:12px}.vinfo .tx{flex-basis:100%}
   .vinfo h2{font-size:18px;margin-top:6px}
   .vacts{width:100%}.docbtn{flex:1}
+  .vmat{margin-top:12px}.vmg{grid-template-columns:1fr 1fr;gap:6px}.vm{padding:7px 8px;gap:8px;border-radius:10px}.vm .ic{width:26px;height:26px;font-size:13px;border-radius:8px}.vm b{font-size:12.5px}.vm small{display:none}.vm[href] small{display:block}.vm{min-height:44px}.vinfo .vdesc{display:none}
   .vlist{margin-top:24px}
   .vgrid{grid-template-columns:1fr;gap:10px}
   .vit{flex-direction:row;align-items:stretch}
@@ -1102,7 +1114,9 @@ document.addEventListener('visibilitychange',vSavePos);window.addEventListener('
 function renderVideo(autoplay){const A=$('#vidArea');vDestroy();if(!VID.length){A.innerHTML='<div class="card vempty">Video bài giảng đang được cập nhật.</div>';return}
  if(!VID.find(x=>x.id===vCur))vCur=(VID.find(x=>x.id===store.get('jftVid'))||VID[VID.length-1]).id;
  const v=VID.find(x=>x.id===vCur);
- const docs=(v.docs||[]).map(d=>`<a class="docbtn" href="${esc(d.u)}" target="_blank" rel="noopener"><span class="di">${DRIVE_IC}</span><span><b>${esc(d.t)}</b><small>Google Drive · mở tab mới</small></span><i>↗</i></a>`).join('');
+ const mats=[...(v.docs||[]).map(d=>`<a class="vm" href="${esc(d.u)}" target="_blank" rel="noopener"><span class="ic dr">${DRIVE_IC}</span><span class="t"><b>${esc(d.t)}</b><small>Google Drive ↗</small></span></a>`),
+  ...(v.slides||[]).map((x,i)=>`<button class="vm" type="button" data-vs="${i}"><span class="ic sl">▶</span><span class="t"><b>${esc(x.t)}</b><small>${esc(x.sub||'Slide')}</small></span></button>`),
+  ...(v.learn||[]).map((l,i)=>`<button class="vm" type="button" data-vl="${i}"><span class="ic jp">${({kanji:'漢',vocab:'語',gram:'文'})[l.tab]||'教'}</span><span class="t"><b>${esc(l.t)}</b><small>Học lại trong app</small></span></button>`)];
  const groups=[];VID.forEach(x=>{let g=groups.find(g=>g.s===x.series);if(!g)groups.push(g={s:x.series,j:x.series_jp||'',a:[]});g.a.push(x)});
  A.innerHTML=`<div class="vstage"><div class="vbox" id="vBox"><div class="vplayer" id="vPlayer"></div>
   <div class="vctl" id="vCtl"><button id="vPP" type="button" aria-label="Phát">${VIC.play}</button><button id="vB10" type="button" title="Lùi 10 giây" aria-label="Lùi 10 giây">${VIC.b10}</button><button id="vF10" type="button" title="Tới 10 giây" aria-label="Tới 10 giây">${VIC.f10}</button><span class="tm" id="vTm">0:00</span>
@@ -1111,7 +1125,7 @@ function renderVideo(autoplay){const A=$('#vidArea');vDestroy();if(!VID.length){
    <span class="vspdw"><button class="vspd" id="vSpd" type="button" title="Tốc độ phát">${vRate}x</button><div class="vmenu" id="vMenu">${[0.75,1,1.25,1.5,2].map(r=>`<button type="button" data-r="${r}"${r===vRate?' class="on"':''}>${r}x</button>`).join('')}</div></span>
    <button id="vCineB" type="button" title="Màn hình lớn" aria-label="Màn hình lớn">${VIC.cine}</button><button id="vFS" type="button" title="Toàn màn hình" aria-label="Toàn màn hình">${VIC.fs}</button></div></div>
   <div class="vinfo"><div class="tx"><div class="ser"><span class="no">${esc(v.no||'')}</span><span>${esc(v.series)}</span>${v.series_jp?`<span class="jp">· ${esc(v.series_jp)}</span>`:''}${(v.tags||[]).map(t=>`<span class="tag jp">${esc(t)}</span>`).join('')}</div><h2>${esc(v.title)}</h2>${v.desc?`<p class="vdesc">${esc(v.desc)}</p>`:''}</div>
-  <div class="vacts">${docs}</div></div>${(v.slides||[]).length?`<div class="vlearn"><span class="lb">Slide buổi học</span>${v.slides.map((x,i)=>`<button class="vlb" type="button" data-vs="${i}"><span class="ic sl">▶</span>${esc(x.t)}<i>→</i></button>`).join('')}</div>`:''}${(v.learn||[]).length?`<div class="vlearn"><span class="lb">Học lại trong app</span>${v.learn.map((l,i)=>`<button class="vlb" type="button" data-vl="${i}"><span class="ic">${({kanji:'漢',vocab:'語',gram:'文'})[l.tab]||'教'}</span>${esc(l.t)}<i>→</i></button>`).join('')}</div>`:''}</div>
+  </div>${mats.length?`<div class="vmat"><div class="vmh">Tài liệu buổi học<span>${mats.length}</span></div><div class="vmg">${mats.join('')}</div></div>`:''}</div>
   <div class="vlist">${groups.map(g=>`<div class="vgh">${esc(g.s)}${g.j?`<span class="jp">${esc(g.j)}</span>`:''}<span class="n">${g.a.length} video</span></div><div class="vgrid">${g.a.map(x=>`<button class="vit${x.id===vCur?' on':''}" data-vid="${x.id}" type="button"><span class="th">${vThumb(x)}${x.id===vCur?'<span class="now">Đang xem</span>':''}</span><span class="bd"><small>${esc(x.no||'')}${x.docs&&x.docs.length?' · có tài liệu':''}</small><b>${esc(x.title)}</b><span class="tg">${(x.tags||[]).map(t=>`<span class="tag gray jp">${esc(t)}</span>`).join('')}</span></span></button>`).join('')}</div>`).join('')}</div>`;
  vPoster();vBindCtl();if(autoplay)vidPlay()}
 $('#vidArea').addEventListener('click',e=>{const sb=e.target.closest('[data-vs]');if(sb){const v=VID.find(x=>x.id===vCur),x=v.slides[+sb.dataset.vs];vidPause();openDocView({f:x.u,jp:x.t,vi:x.sub||'',k:'slide'},v.no||'');return}const lb=e.target.closest('[data-vl]');if(lb){const v=VID.find(x=>x.id===vCur),l=v.learn[+lb.dataset.vl];vidPause();dTab=l.tab;store.set('dTab',dTab);dLv[l.tab]=l.lv;dGrp[l.tab+l.lv]=l.g;go('learn');renderDocs();return}const b=e.target.closest('[data-vid]');if(!b)return;vCur=b.dataset.vid;store.set('jftVid',vCur);renderVideo(true);$('#video').scrollIntoView({behavior:'smooth'})});
