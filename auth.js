@@ -7,6 +7,7 @@
 
 const COOKIE = 'jft_s';
 const DAYS = 30;
+const KEEP_DAYS = 3; // "Lưu đăng nhập": cùng 1 trình duyệt giữ 3 ngày, hết hạn thì đăng nhập lại
 const enc = new TextEncoder();
 
 function accounts(env) {
@@ -76,6 +77,13 @@ label{display:block;font-weight:600;font-size:13px;margin:14px 0 6px;color:#2a3a
 input{width:100%;border:1.5px solid #dbe2e7;border-radius:12px;padding:13px 14px;font:inherit;font-size:16px;background:#f8fafb;transition:border-color .15s,box-shadow .15s,background .15s}
 input:focus{outline:0;border-color:#0d5a8c;background:#fff;box-shadow:0 0 0 4px rgba(13,90,140,.12)}
 .eye{position:absolute;right:8px;top:50%;transform:translateY(-50%);border:0;background:none;color:#5a6873;font-family:inherit;font-weight:600;font-size:12.5px;padding:6px 8px;cursor:pointer;border-radius:8px}
+.keep{display:flex;align-items:center;gap:10px;margin:16px 0 0;font-size:14px;font-weight:600;color:#2a3a47;cursor:pointer;user-select:none}
+.keep input{position:absolute;opacity:0;width:1px;height:1px}
+.keep .bx{width:22px;height:22px;border-radius:7px;border:1.5px solid #c5d0d8;background:#f8fafb;display:grid;place-items:center;flex:none;transition:background .15s,border-color .15s}
+.keep .bx::after{content:"";width:6px;height:11px;border:solid #fff;border-width:0 2.5px 2.5px 0;transform:rotate(45deg) translate(-1px,-1px);opacity:0}
+.keep input:checked+.bx{background:#0d5a8c;border-color:#0d5a8c}.keep input:checked+.bx::after{opacity:1}
+.keep input:focus-visible+.bx{box-shadow:0 0 0 4px rgba(13,90,140,.18)}
+.keep small{font-weight:500;color:#7a8893;font-size:12.5px}
 .err{color:#b3261e;font-size:13.5px;min-height:20px;margin-top:12px;font-weight:600}
 button.go{width:100%;margin-top:4px;border:0;border-radius:12px;background:linear-gradient(135deg,#0d5a8c,#0a4670);color:#fff;font-family:inherit;font-weight:700;font-size:16.5px;padding:14px;cursor:pointer;box-shadow:0 8px 20px rgba(13,90,140,.28);transition:transform .15s,box-shadow .15s}
 button.go:hover{transform:translateY(-1px);box-shadow:0 12px 26px rgba(13,90,140,.34)}
@@ -107,6 +115,7 @@ small.cr{display:block;margin-top:22px;color:#9aa6b0;font-size:11.5px;text-align
  <input type="hidden" name="next" value="${esc(next)}">
  <label for="u">Tài khoản</label><div class="f"><input id="u" name="u" autocomplete="username" value="${esc(user)}" required autofocus></div>
  <label for="p">Mật khẩu</label><div class="f"><input id="p" name="p" type="password" autocomplete="current-password" required style="padding-right:64px"><button class="eye" type="button" onclick="const i=document.getElementById('p');i.type=i.type==='password'?'text':'password';this.textContent=i.type==='password'?'Hiện':'Ẩn'">Hiện</button></div>
+ <label class="keep"><input type="checkbox" name="keep" value="1" checked><span class="bx"></span><span>Lưu đăng nhập <small>· trong 3 ngày</small></span></label>
  <div class="err" role="alert">${esc(err)}</div>
  <button class="go" type="submit">Vào học →</button>
  <div class="help">Chưa có tài khoản? Nhắn Anh Trọng Dạy JFT để được cấp:</div>
@@ -137,6 +146,8 @@ export async function handle(req, env, next) {
     h.append('Set-Cookie', `jft_user=${encodeURIComponent(u)}; Path=/; Max-Age=${DAYS * 86400}; Secure; SameSite=Lax`);
     // vé dùng 1 lần: mở app ngay sau khi đăng nhập; tải lại trang = phải đăng nhập lại
     h.append('Set-Cookie', `jft_once=1; Path=/; Max-Age=120; HttpOnly; Secure; SameSite=Lax`);
+    // "Lưu đăng nhập": giữ phiên 3 ngày, mở/tải lại app không phải đăng nhập lại
+    h.append('Set-Cookie', f.get('keep') ? `jft_keep=1; Path=/; Max-Age=${KEEP_DAYS * 86400}; HttpOnly; Secure; SameSite=Lax` : `jft_keep=; Path=/; Max-Age=0; HttpOnly; Secure; SameSite=Lax`);
     return new Response(null, { status: 303, headers: h });
   }
 
@@ -144,11 +155,15 @@ export async function handle(req, env, next) {
     const h = new Headers({ Location: '/login', 'Cache-Control': 'no-store' });
     h.append('Set-Cookie', `${COOKIE}=; Path=/; Max-Age=0; HttpOnly; Secure; SameSite=Lax`);
     h.append('Set-Cookie', `jft_user=; Path=/; Max-Age=0; Secure; SameSite=Lax`);
+    h.append('Set-Cookie', `jft_keep=; Path=/; Max-Age=0; HttpOnly; Secure; SameSite=Lax`);
     return new Response(null, { status: 303, headers: h });
   }
 
   if (url.pathname.startsWith('/app/media/cover/') && req.method === 'GET') return next();
-  if (url.pathname === '/login' && req.method === 'GET') return loginPage('', '', safeNext(url.searchParams.get('next')));
+  if (url.pathname === '/login' && req.method === 'GET') {
+    if (getCookie(req, 'jft_keep') && await currentUser(req, env)) return new Response(null, { status: 302, headers: { Location: safeNext(url.searchParams.get('next')), 'Cache-Control': 'no-store' } });
+    return loginPage('', '', safeNext(url.searchParams.get('next')));
+  }
   const user = await currentUser(req, env);
   if (!user) {
     const accept = req.headers.get('Accept') || '';
@@ -160,7 +175,7 @@ export async function handle(req, env, next) {
   // Mở / tải lại trang chính của app: bắt buộc đăng nhập lại mỗi lần
   const dest = req.headers.get('Sec-Fetch-Dest');
   const isDoc = req.method === 'GET' && (dest === 'document' || (!dest && (req.headers.get('Accept') || '').includes('text/html')));
-  if (isDoc && (url.pathname === '/' || url.pathname === '/index.html')) {
+  if (isDoc && (url.pathname === '/' || url.pathname === '/index.html') && !getCookie(req, 'jft_keep')) {
     if (!getCookie(req, 'jft_once')) {
       return new Response(null, { status: 302, headers: { Location: '/login', 'Cache-Control': 'no-store' } });
     }
