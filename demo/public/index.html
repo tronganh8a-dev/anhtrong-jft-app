@@ -240,16 +240,34 @@ body.gjp .gp .jpx{display:block}
 .skb:hover{border-color:var(--blue)}
 .skb b{display:block}.skb small{color:var(--muted)}
 /* video */
+.vthumb{position:absolute;inset:0;container-type:inline-size;overflow:hidden;color:#fff;text-align:left;font-family:var(--vi);
+ background:radial-gradient(90% 120% at 100% 0%,#1f86c4 0%,rgba(31,134,196,0) 60%),linear-gradient(140deg,#0b3d60 0%,#0d5a8c 55%,#0a4670 100%)}
+.vthumb::before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.06) 1px,transparent 1px);background-size:4.5cqw 4.5cqw;mask-image:linear-gradient(160deg,#000 20%,transparent 75%);-webkit-mask-image:linear-gradient(160deg,#000 20%,transparent 75%)}
+.vthumb::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1.3cqw;background:linear-gradient(90deg,#ec6f9b 0 25%,#f2a93b 25% 50%,#f2cf2a 50% 75%,#9cc443 75% 100%)}
+.vthumb .tx{position:absolute;left:6cqw;top:6.5cqw;width:38cqw;z-index:1}
+.vthumb .k{display:block;font-size:2.3cqw;font-weight:700;letter-spacing:.14em;text-transform:uppercase;opacity:.85}
+.vthumb .n{display:block;font-size:10cqw;font-weight:800;line-height:1;margin:1.4cqw 0 1.8cqw;color:#ffd166;letter-spacing:-.01em}
+.vthumb .t{display:block;font-size:3.3cqw;font-weight:700;line-height:1.32}
+.vthumb .tg{display:flex;gap:1cqw;margin-top:2.2cqw;flex-wrap:wrap}
+.vthumb .tg span{font-family:var(--jp);font-size:2.2cqw;border:1px solid rgba(255,255,255,.45);border-radius:99px;padding:.3cqw 1.6cqw;font-weight:600}
+.vthumb .br{position:absolute;left:6cqw;bottom:5cqw;display:flex;align-items:center;gap:1.3cqw;font-size:2.2cqw;font-weight:700;z-index:1}
+.vthumb .br i{font-style:normal;width:4.4cqw;height:4.4cqw;border-radius:1.1cqw;background:#c42f66;display:grid;place-items:center;font-size:1.8cqw;font-weight:800}
+.vthumb .bk{position:absolute;right:3cqw;bottom:0;width:46cqw;height:100%}
+.vthumb .bk img{position:absolute;bottom:-7cqw;width:15.5cqw;border-radius:.8cqw;box-shadow:0 2cqw 4cqw rgba(0,0,0,.45);transform-origin:50% 100%;transform:rotate(var(--r))}
+.vthumb .bk img:nth-child(1){left:0;--r:-13deg}.vthumb .bk img:nth-child(2){left:10cqw;bottom:-5cqw;--r:-4deg}.vthumb .bk img:nth-child(3){left:20cqw;bottom:-5cqw;--r:5deg}.vthumb .bk img:nth-child(4){left:30cqw;--r:13deg}
+@container (max-width:520px){.vthumb .t,.vthumb .tg,.vthumb .br{display:none}.vthumb .tx{top:9cqw;width:50cqw}.vthumb .k{font-size:5cqw;letter-spacing:.08em}.vthumb .n{font-size:12.5cqw;margin-top:2.5cqw;white-space:nowrap}.vthumb .bk{width:58cqw;right:-4cqw}.vthumb .bk img{width:22cqw;bottom:-9cqw}.vthumb .bk img:nth-child(2){left:12cqw}.vthumb .bk img:nth-child(3){left:24cqw}.vthumb .bk img:nth-child(4){left:36cqw}.vthumb::after{height:2.4cqw}}
+@container (max-width:220px){.vthumb .k{display:none}.vthumb .tx{top:24cqw}.vthumb .n{font-size:16cqw;margin:0}.vthumb .bk{width:56cqw;right:-2cqw}.vthumb .bk img{width:20cqw;bottom:-13cqw}.vthumb .bk img:nth-child(2){left:11cqw;bottom:-11cqw}.vthumb .bk img:nth-child(3){left:22cqw;bottom:-11cqw}.vthumb .bk img:nth-child(4){left:33cqw}}
+.vposter .pb{z-index:2}
 .vstage{width:min(100%,calc((100vh - 250px) * 16 / 9));min-width:min(100%,640px);margin:0 auto}
 .vbox{background:#0b1117;border-radius:18px;overflow:hidden;box-shadow:0 18px 40px -12px rgba(10,40,70,.35),0 0 0 1px rgba(23,34,44,.08)}
 .vplayer{position:relative;aspect-ratio:16/9;background:#000}
 .vplayer iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .vposter{position:absolute;inset:0;border:0;padding:0;background:#0b1117 center/cover no-repeat;display:grid;place-items:center;cursor:pointer}
-.vposter::before{content:"";position:absolute;inset:0;background:rgba(8,18,28,.18)}
+.vposter::before{content:none}
 .vposter .pb{position:relative;width:88px;height:88px;border-radius:50%;background:rgba(255,255,255,.95);display:grid;place-items:center;box-shadow:0 10px 30px rgba(0,0,0,.35);transition:transform .2s}
 .vposter .pb::after{content:"";margin-left:7px;border-style:solid;border-width:17px 0 17px 28px;border-color:transparent transparent transparent var(--pink)}
 .vposter:hover .pb{transform:scale(1.08)}
-.vposter .vres{position:absolute;left:16px;bottom:14px;background:rgba(11,17,23,.82);color:#fff;font-size:13px;font-weight:700;border-radius:99px;padding:6px 14px}
+.vposter .vres{z-index:2;position:absolute;left:16px;bottom:14px;background:rgba(11,17,23,.82);color:#fff;font-size:13px;font-weight:700;border-radius:99px;padding:6px 14px}
 .vctl{display:flex;align-items:center;gap:2px;padding:6px 10px 8px;color:#e8eef3;background:#0b1117;user-select:none;-webkit-user-select:none}
 .vctl button{background:none;border:0;color:inherit;width:38px;height:38px;border-radius:10px;display:grid;place-items:center;flex:none;padding:0}
 .vctl button:hover{background:rgba(255,255,255,.1)}
@@ -295,8 +313,8 @@ body.gjp .gp .jpx{display:block}
 .vit{border:1px solid var(--line);background:var(--paper);border-radius:14px;padding:0;overflow:hidden;text-align:left;display:flex;flex-direction:column;box-shadow:var(--sh);transition:border-color .15s,transform .15s}
 .vit:hover{border-color:var(--blue);transform:translateY(-2px)}
 .vit .th{position:relative;aspect-ratio:16/9;background:#0b1117 center/cover no-repeat}
-.vit .th::after{content:"";position:absolute;left:50%;top:50%;width:46px;height:46px;margin:-23px 0 0 -23px;border-radius:50%;background:rgba(255,255,255,.9) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M9 6.5v11l9-5.5z' fill='%23c42f66'/%3E%3C/svg%3E") center/26px no-repeat;opacity:.9}
-.vit .th .now{position:absolute;left:10px;top:10px;background:var(--pink);color:#fff;font-size:11.5px;font-weight:700;border-radius:99px;padding:3px 10px}
+.vit .th::after{content:"";position:absolute;z-index:1;right:10px;bottom:12px;width:38px;height:38px;border-radius:50%;background:rgba(255,255,255,.9) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M9 6.5v11l9-5.5z' fill='%23c42f66'/%3E%3C/svg%3E") center/26px no-repeat;opacity:.9}
+.vit .th .now{z-index:1;position:absolute;left:10px;top:10px;background:var(--pink);color:#fff;font-size:11.5px;font-weight:700;border-radius:99px;padding:3px 10px}
 .vit .bd{padding:12px 14px 14px;display:flex;flex-direction:column;gap:6px}
 .vit .bd small{color:var(--muted);font-weight:600;font-size:12px}
 .vit .bd b{font-size:15px;line-height:1.4}
@@ -316,7 +334,7 @@ body.cine{overflow:hidden}
   .vctl{padding:4px 4px 6px}.vctl button{width:36px;height:36px}.vctl .tm{font-size:12px;padding:0 2px}
   .vseek{margin:0 6px}
   .vvolw,#vCineB,#vB10,#vF10{display:none}
-  .vposter .pb{width:64px;height:64px}.vposter .pb::after{border-width:13px 0 13px 21px;margin-left:5px}
+  .vposter .pb{width:60px;height:60px;position:absolute;left:70%;top:42%;transform:translate(-50%,-50%)}.vposter:hover .pb{transform:translate(-50%,-50%) scale(1.06)}.vposter .pb::after{border-width:13px 0 13px 21px;margin-left:5px}
   .vposter .vres{left:10px;bottom:10px;font-size:12px;padding:4px 10px}
   .vinfo{margin-top:12px;gap:12px}.vinfo .tx{flex-basis:100%}
   .vinfo h2{font-size:18px;margin-top:6px}
@@ -325,7 +343,7 @@ body.cine{overflow:hidden}
   .vgrid{grid-template-columns:1fr;gap:10px}
   .vit{flex-direction:row;align-items:stretch}
   .vit .th{width:132px;flex:none;aspect-ratio:16/10}
-  .vit .th::after{width:32px;height:32px;margin:-16px 0 0 -16px;background-size:18px}
+  .vit .th::after{width:26px;height:26px;right:6px;bottom:8px;background-size:15px}
   .vit .th .now{left:6px;top:6px;font-size:10px;padding:2px 7px}
   .vit .bd{padding:9px 12px;gap:3px}.vit .bd b{font-size:14px}
   body.cine .vbox{width:min(100vw,calc((100vh - 70px) * 16 / 9));top:50%;margin:0}
@@ -943,6 +961,8 @@ const VIC={play:'<svg viewBox="0 0 24 24"><path d="M8 5.2v13.6L19 12z" fill="cur
  fsx:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5"/></svg>'};
 const vfmt=t=>{t=Math.max(0,Math.floor(t||0));const h=Math.floor(t/3600),m=Math.floor(t%3600/60),x=String(t%60).padStart(2,'0');return h?`${h}:${String(m).padStart(2,'0')}:${x}`:`${m}:${x}`};
 const vPosKey=id=>'jftVidPos_'+id;
+function vThumb(v){const cv=v.covers||['nyumon','s1','s2','sc'];
+ return `<span class="vthumb" aria-hidden="true"><span class="tx"><span class="k">${esc(v.series)}</span><span class="n">${esc(v.no||'')}</span><span class="t">${esc(v.title)}</span><span class="tg">${(v.tags||[]).map(t=>`<span>${esc(t)}</span>`).join('')}</span></span><span class="br"><i>AT</i>Anh Trọng Dạy JFT</span><span class="bk">${cv.map(c=>`<img src="app/media/cover/${c}.jpg" alt="" loading="lazy">`).join('')}</span></span>`}
 function ytApi(){return new Promise(res=>{if(window.YT&&YT.Player)return res();const prev=window.onYouTubeIframeAPIReady;window.onYouTubeIframeAPIReady=()=>{if(prev)prev();res()};
  if(!document.getElementById('ytapi')){const sc=document.createElement('script');sc.id='ytapi';sc.src='https://www.youtube.com/iframe_api';document.head.appendChild(sc)}})}
 const vOk=()=>YTP&&typeof YTP.getCurrentTime==='function';
@@ -958,9 +978,8 @@ async function vidPlay(){const v=VID.find(x=>x.id===vCur);if(!v)return;vDestroy(
    onStateChange:e=>{vSync();if(e.data===0){store.set(vPosKey(vCur),'0');vDestroy();vPoster();vSync(true)}}}});
  vTick=setInterval(vSync,400)}
 function vPoster(){const v=VID.find(x=>x.id===vCur);const pos=+(store.get(vPosKey(v.id))||0);
- $('#vPlayer').innerHTML=`<button class="vposter" id="vPoster" type="button" style="background-image:url('${ytThumb(v.yt)}')" aria-label="Phát video"><span class="pb"></span>${pos>10?`<span class="vres">▶ Xem tiếp từ ${vfmt(pos)}</span>`:''}</button>`;
- $('#vPoster').onclick=vidPlay;
- const im=new Image();im.onload=()=>{const p=$('#vPoster');if(p&&im.naturalWidth>200)p.style.backgroundImage=`url('${im.src}')`};im.src=ytThumb(v.yt,'maxresdefault')}
+ $('#vPlayer').innerHTML=`<button class="vposter" id="vPoster" type="button" aria-label="Phát video">${vThumb(v)}<span class="pb"></span>${pos>10?`<span class="vres">▶ Xem tiếp từ ${vfmt(pos)}</span>`:''}</button>`;
+ $('#vPoster').onclick=vidPlay}
 function vSeekUI(f,d){f=Math.min(1,Math.max(0,f||0));const sk=$('#vSeek');if(!sk)return;sk.querySelector('.pl').style.width=f*100+'%';sk.querySelector('.kn').style.left=f*100+'%';if(d)$('#vTm').textContent=`${vfmt(f*d)} / ${vfmt(d)}`}
 function vSync(reset){const pp=$('#vPP');if(!pp)return;
  if(reset||!vOk()){pp.innerHTML=VIC.play;return}
@@ -1006,7 +1025,7 @@ function renderVideo(autoplay){const A=$('#vidArea');vDestroy();if(!VID.length){
    <button id="vCineB" type="button" title="Màn hình lớn" aria-label="Màn hình lớn">${VIC.cine}</button><button id="vFS" type="button" title="Toàn màn hình" aria-label="Toàn màn hình">${VIC.fs}</button></div></div>
   <div class="vinfo"><div class="tx"><div class="ser"><span class="no">${esc(v.no||'')}</span><span>${esc(v.series)}</span>${v.series_jp?`<span class="jp">· ${esc(v.series_jp)}</span>`:''}${(v.tags||[]).map(t=>`<span class="tag jp">${esc(t)}</span>`).join('')}</div><h2>${esc(v.title)}</h2></div>
   <div class="vacts">${docs}</div></div></div>
-  <div class="vlist">${groups.map(g=>`<div class="vgh">${esc(g.s)}${g.j?`<span class="jp">${esc(g.j)}</span>`:''}<span class="n">${g.a.length} video</span></div><div class="vgrid">${g.a.map(x=>`<button class="vit${x.id===vCur?' on':''}" data-vid="${x.id}" type="button"><span class="th" style="background-image:url('${ytThumb(x.yt,'mqdefault')}')">${x.id===vCur?'<span class="now">Đang xem</span>':''}</span><span class="bd"><small>${esc(x.no||'')}${x.docs&&x.docs.length?' · có tài liệu':''}</small><b>${esc(x.title)}</b><span class="tg">${(x.tags||[]).map(t=>`<span class="tag gray jp">${esc(t)}</span>`).join('')}</span></span></button>`).join('')}</div>`).join('')}</div>`;
+  <div class="vlist">${groups.map(g=>`<div class="vgh">${esc(g.s)}${g.j?`<span class="jp">${esc(g.j)}</span>`:''}<span class="n">${g.a.length} video</span></div><div class="vgrid">${g.a.map(x=>`<button class="vit${x.id===vCur?' on':''}" data-vid="${x.id}" type="button"><span class="th">${vThumb(x)}${x.id===vCur?'<span class="now">Đang xem</span>':''}</span><span class="bd"><small>${esc(x.no||'')}${x.docs&&x.docs.length?' · có tài liệu':''}</small><b>${esc(x.title)}</b><span class="tg">${(x.tags||[]).map(t=>`<span class="tag gray jp">${esc(t)}</span>`).join('')}</span></span></button>`).join('')}</div>`).join('')}</div>`;
  vPoster();vBindCtl();if(autoplay)vidPlay()}
 $('#vidArea').addEventListener('click',e=>{const b=e.target.closest('[data-vid]');if(!b)return;vCur=b.dataset.vid;store.set('jftVid',vCur);renderVideo(true);$('#video').scrollIntoView({behavior:'smooth'})});
 $('#vCineX').onclick=()=>document.body.classList.remove('cine');$('#vCine').onclick=e=>{if(e.target.id==='vCine')document.body.classList.remove('cine')};
