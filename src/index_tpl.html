@@ -357,7 +357,7 @@ body.cine{overflow:hidden}
   body.cine .vbox{width:min(100vw,calc((100vh - 70px) * 16 / 9));top:50%;margin:0}
 }
 /* tài liệu */
-.dtabs{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:0 0 20px}
+.dtabs{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:0 0 20px}
 .dtab{display:flex;align-items:center;gap:12px;border:1.5px solid var(--line);background:var(--paper);border-radius:14px;padding:12px 14px;text-align:left;cursor:pointer;color:var(--ink);transition:border-color .15s,box-shadow .15s,transform .15s}
 .dtab:hover{transform:translateY(-1px);box-shadow:var(--sh)}
 .dtab .di{width:40px;height:40px;border-radius:11px;display:grid;place-items:center;font-family:var(--jp);font-weight:600;font-size:19px;flex:none;color:#fff}
@@ -414,7 +414,9 @@ body.cine{overflow:hidden}
 .gb .gq{align-self:flex-start}
 .dnote{color:var(--muted);font-size:13px;margin:-6px 0 14px}
 .dsoon{border:1px dashed var(--line);border-radius:12px;padding:10px 12px;color:var(--muted);font-size:13.5px}
+@media (max-width:1100px){.dtabs{grid-template-columns:repeat(3,1fr)}}
 @media (max-width:900px){.dtabs{grid-template-columns:1fr 1fr}}
+.bgrp{margin:0 0 22px}.bgrp h3{font-size:17px;margin:0 0 10px;color:var(--ink)}.bgrp h3 small{color:var(--muted);font-weight:600;font-size:13px;margin-left:6px}
 @media (max-width:760px){
   .dtabs{gap:8px}.dtab{padding:9px 10px;gap:9px}.dtab .di{width:34px;height:34px;font-size:16px}.dtab b{font-size:14px}.dtab small{font-size:11px}
   .wgrid{grid-template-columns:1fr 1fr;gap:10px}.wc .w{font-size:18px}.wc .bd{padding:9px 10px 11px}.wc .vi{font-size:13.5px}.wc .ex{display:none}
@@ -1118,7 +1120,7 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape')document.body.classL
  if(e.key===' '||e.key==='k'){e.preventDefault();$('#vPP').click()}else if(e.key==='ArrowLeft'){e.preventDefault();$('#vB10').click()}else if(e.key==='ArrowRight'){e.preventDefault();$('#vF10').click()}else if(e.key==='f')vFs()});
 
 /* ===== tài liệu: slide + từ vựng / chữ Hán / ngữ pháp (tài liệu lớp cô Quỳnh) ===== */
-const DT=[['slide','スライド','Slide bài giảng','#0d5a8c','授'],['vocab','語彙','Từ vựng','#c42f66','語'],['kanji','漢字','Chữ Hán','#e08a1e','漢'],['gram','文法','Ngữ pháp','#5d8f1f','文']];
+const DT=[['buoi','授業','Theo buổi học','#7b3fa0','回'],['slide','スライド','Slide bài giảng','#0d5a8c','授'],['vocab','語彙','Từ vựng','#c42f66','語'],['kanji','漢字','Chữ Hán','#e08a1e','漢'],['gram','文法','Ngữ pháp','#5d8f1f','文']];
 const DLV=['入門','初級1','初級2'],DLVVI={'入門':'Nhập môn','初級1':'Sơ cấp 1','初級2':'Sơ cấp 2'};
 let dTab=store.get('dTab')||'slide',dLv={vocab:'入門',kanji:'入門',gram:'入門'},dGrp={};
 function loadDocs(){return window.DOCS?Promise.resolve():new Promise((ok,ng)=>{const sc=document.createElement('script');sc.src='app/data/docs.js';sc.onload=ok;sc.onerror=ng;document.head.appendChild(sc)})}
@@ -1129,8 +1131,9 @@ function mcq(ans,pool,key,show,extra){const ds=picks(pool,ans,3,key);const all=s
 function renderDocs(){
  $('#dTabs').innerHTML=DT.map(([k,j,vi,c,ic])=>`<button class="dtab${k===dTab?' on':''}" data-dt="${k}" type="button" role="tab" aria-selected="${k===dTab}"><span class="di" style="background:${c}">${ic}</span><span><b>${vi}</b><small class="jp">${j}</small></span></button>`).join('');
  $('#dSlide').hidden=dTab!=='slide';$('#dDoc').hidden=dTab==='slide';
- $('#dFoot').innerHTML=dTab==='slide'?'© 2026 Anh Trọng Dạy JFT · 出典：国際交流基金『いろどり 生活の日本語』':'© 2026 Anh Trọng Dạy JFT · Nguồn: tài liệu tổng hợp Từ vựng – Hán tự – Ngữ pháp của lớp luyện thi JFT A2 cô Quỳnh (Anh Trọng Dạy JFT), theo giáo trình 『いろどり 生活の日本語』(国際交流基金). Giải thích, âm Hán Việt, ví dụ ghi "tự soạn" và bài luyện tập do Anh Trọng Dạy JFT biên soạn.';
+ $('#dFoot').innerHTML=dTab==='buoi'?'© 2026 Anh Trọng Dạy JFT · Tài liệu từng buổi do Anh Trọng Dạy JFT biên soạn · 出典：国際交流基金『いろどり 生活の日本語』':dTab==='slide'?'© 2026 Anh Trọng Dạy JFT · 出典：国際交流基金『いろどり 生活の日本語』':'© 2026 Anh Trọng Dạy JFT · Nguồn: tài liệu tổng hợp Từ vựng – Hán tự – Ngữ pháp của lớp luyện thi JFT A2 cô Quỳnh (Anh Trọng Dạy JFT), theo giáo trình 『いろどり 生活の日本語』(国際交流基金). Giải thích, âm Hán Việt, ví dụ ghi "tự soạn" và bài luyện tập do Anh Trọng Dạy JFT biên soạn.';
  if(dTab==='slide'){renderLearn();return}
+ if(dTab==='buoi'){renderBuoi();return}
  const A=$('#dDoc');if(!window.DOCS){A.innerHTML='<div class="card muted">Đang tải tài liệu…</div>';loadDocs().then(renderDocs).catch(()=>{A.innerHTML='<div class="card muted">Không tải được tài liệu. Kiểm tra mạng rồi thử lại.</div>'});return}
  const lv=dLv[dTab],D=DOCS[dTab];
  const unit={vocab:'từ',kanji:'từ',gram:'mẫu'}[dTab];
@@ -1180,6 +1183,12 @@ function dGram(lv,L){const bs=[...new Set(L.map(p=>p.bai))].sort((a,b)=>a-b),key
    ${(p.qz||[]).length?`<button class="btn sm gq" type="button" data-gq="${i}">Luyện ${p.qz.length} câu mẫu này →</button>`:''}</div></details>`).join('')}</div>`;
  $('#dBody').onclick=e=>{const q=e.target.closest('[data-gq]');if(q){const p=P[+q.dataset.gq];startSkill(gItems([p]),`Ngữ pháp ${p.n}`);return}
   if(e.target.closest('[data-pr]'))startSkill(shuf(gItems(P)).slice(0,30),`${DLVVI[lv]}${b==='all'?'':' Bài '+b} · Ngữ pháp`)}}
+const BUOI=[{n:2,d:'Buổi 2',it:[
+ {f:'tailieu/Buoi02_ChuHan_TuVung_NguPhap.html',jp:'漢字・語彙・文法 入門',vi:'Chữ Hán 1–20 · Từ vựng Bài 4–7 · Ngữ pháp 初級1 Bài 1·2·3',k:'slide',tag:'Slide'},
+ {f:'tailieu/Buoi02_LuyenNghe.html',jp:'聴解 · 聞き取り練習',vi:'Luyện nghe hiểu: 5 bài nghe 初級2 kèm đáp án và giải thích',k:'slide',tag:'Slide'}]}];
+function renderBuoi(){$('#dDoc').innerHTML=BUOI.map(B=>`<div class="bgrp"><h3>${B.d}<small>${B.it.length} tài liệu</small></h3><div class="lgrid">${B.it.map((x,i)=>`<div class="lc"><span class="no">${B.d}<span class="tag gray">${x.tag}</span></span><span class="ttl jp">${x.jp}</span><small>${esc(x.vi)}</small><div class="acts"><button class="btn sm" type="button" data-bd="${B.n}|${i}">▶ Mở</button><a class="btn sm ghost" href="${encodeURI(x.f)}" target="_blank" rel="noopener">↗ Tab mới</a></div></div>`).join('')}</div></div>`).join('');
+ $('#dDoc').onclick=e=>{const b=e.target.closest('[data-bd]');if(!b)return;const[n,i]=b.dataset.bd.split('|'),B=BUOI.find(x=>x.n==n),x=B.it[+i];openDocView(x,B.d)}}
+function openDocView(x,d){VW=null;go('viewer');$('#vTitle').textContent=x.jp;$('#vSub').textContent=`${d} · ${x.vi}`;$('#vTabs').innerHTML='';$('#vFrameWrap').classList.toggle('web',x.k==='web');const src=encodeURI(x.f);$('#vOpen').href=src;$('#vPath').textContent=x.f;if($('#vFrame').getAttribute('src')!==src)$('#vFrame').setAttribute('src',src)}
 $('#dTabs').addEventListener('click',e=>{const b=e.target.closest('[data-dt]');if(!b)return;dTab=b.dataset.dt;store.set('dTab',dTab);renderDocs()});
 document.addEventListener('click',e=>{const b=e.target.closest('[data-go="learn"]');if(b)renderDocs()});
 
