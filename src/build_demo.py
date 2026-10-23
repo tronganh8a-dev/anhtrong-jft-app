@@ -24,7 +24,7 @@ for w in json.loads(load('vocab.js'))['words']:
     l = [x for x in w['l'] if x[0] == '初級1' and x[1] in (1, 2)]
     if l: W.append({**w, 'l': l})
 save('vocab.js', 'VOCAB', {'words': W, 'ex': json.loads(load('vocab.js')).get('ex', [])})
-save('videos.js', 'VIDEOS', [{**v, 'docs': []} for v in json.loads(load('videos.js'))[:1]])
+save('videos.js', 'VIDEOS', [{**v, 'docs': [], 'slides': [], 'learn': []} for v in json.loads(load('videos.js'))[:1]])
 DD = json.loads(load('docs.js'))
 save('docs.js', 'DOCS', dict(vocab={k: [w for w in v if w['b'] in (sorted({x['b'] for x in v})[:2])] if k == '入門' else [] for k, v in DD['vocab'].items()},
      kanji={k: (v[:20] if k == '入門' else []) for k, v in DD['kanji'].items()}, gram={k: (v[:2] if k == '入門' else []) for k, v in DD['gram'].items()}))

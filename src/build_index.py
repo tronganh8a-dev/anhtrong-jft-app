@@ -15,5 +15,11 @@ reps=[("const ACCOUNT={user:'","const ACCOUNT={user:decodeURIComponent((document
 for a,b in reps:
     assert a in s,a; s=s.replace(a,b)
 s=s.replace('<body class="locked">','<body>')
+import hashlib, re as _re
+def _ver(m):
+    f = A + '../public/app/data/' + m.group(1)
+    h = hashlib.md5(open(f, 'rb').read()).hexdigest()[:8] if os.path.exists(f) else '0'
+    return f"app/data/{m.group(1)}?v={h}"
+s = _re.sub(r"app/data/([\w-]+\.js)(?=['\"])", _ver, s)
 open(A+'../public/index.html','w',encoding='utf-8').write(s)
 print('ok index')

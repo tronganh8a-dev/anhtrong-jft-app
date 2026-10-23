@@ -27,7 +27,9 @@ Trang chủ (hero gradient + dải 4 màu sách, lịch thi & link Prometric, h�
 - **Tài liệu → Từ vựng/Chữ Hán/Ngữ pháp**: dữ liệu từ 7 file PDF tổng hợp của lớp cô Quỳnh (23/10). Nguồn trích: `src/docs/*_src.json`; phần soạn (sửa lỗi trích, âm Hán Việt, phân tích On/Kun, mẹo nhớ, giải thích ngữ pháp, ví dụ tự soạn, 3 câu quiz/mẫu) ở `src/docs/ans/*.json` (theo `src/docs/SPEC_*.md`); `quizfix_*.json` = sửa sau kiểm định. Dựng: `python3 src/build_docs.py` → `public/app/data/docs.js` (tải khi mở tab). Ảnh từ vựng: `public/app/media/doc/<md5>.jpg`. Bài luyện tập tự sinh ở trình duyệt (nhìn tranh chọn từ, chọn nghĩa, chọn cách đọc, chọn chữ Hán) và dùng giao diện CBT `startSkill`.
 - **Tài liệu → Theo buổi học** (23/10): file HTML tài liệu từng buổi ở `public/tailieu/` (vd. `Buoi02_*.html`), danh sách khai báo trong mảng `BUOI` của `src/index_tpl.html` (k:'slide' = khung 16:9, k:'web' = khung cao). Thêm buổi mới: chép file vào `public/tailieu/` + thêm 1 dòng vào `BUOI` → build_index.
 - **Video**: danh sách ở `src/raw/videos.json` → `python3 src/build_videos.py`. YouTube nhúng với `controls=0`, thanh điều khiển riêng của app, khung iframe kéo cao 90px mỗi đầu để ẩn tiêu đề YouTube. Không chọn được chất lượng (YouTube khoá); anh không dùng R2 (không có thẻ thanh toán).
-- **Đăng nhập**: ô "Lưu đăng nhập" (cookie `jft_keep`, 3 ngày) — có tích thì mở/tải lại app không phải đăng nhập lại.
+- **Đăng nhập**: KHÔNG lưu đăng nhập — tải lại trang là phải đăng nhập lại (cookie `jft_once` dùng 1 lần; cookie cũ `jft_keep` bị xoá khi login/logout).
+- **Cache**: trang HTML và `/app/data/*` trả `private, no-cache` (ảnh/audio 1 giờ); build_index gắn `?v=<md5>` vào link data → sửa là thấy ngay.
+- **Trang video**: trường `slides` trong `videos.json` (đường dẫn `tailieu/...`) → hàng "Slide buổi học" dưới video, bấm mở trong khung xem của app (openDocView).
 
 Link Prometric trên trang chủ:
 - Lịch thi ở VN/nước ngoài: https://www.prometric-jp.com/ssw/schedule/jft_basic_overseas/

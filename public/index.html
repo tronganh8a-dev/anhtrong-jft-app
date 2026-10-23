@@ -306,7 +306,7 @@ body.gjp .gp .jpx{display:block}
 .vlearn{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:16px}
 .vlearn .lb{font-size:12px;font-weight:800;letter-spacing:.08em;color:var(--muted);text-transform:uppercase;margin-right:4px}
 .vlb{display:inline-flex;align-items:center;gap:10px;border:1px solid var(--line);background:var(--paper);border-radius:12px;padding:7px 14px 7px 7px;font-weight:700;font-size:14px;color:var(--ink);box-shadow:var(--sh)}
-.vlb:hover{border-color:var(--blue)}.vlb i{font-style:normal;color:var(--muted)}
+.vlb:hover{border-color:var(--blue)}a.vlb{text-decoration:none}.vlb .ic.sl{background:var(--pink-soft);color:var(--pink);font-size:12px}.vlb i{font-style:normal;color:var(--muted)}
 .vlb .ic{width:30px;height:30px;border-radius:9px;background:var(--blue-soft);color:var(--blue);display:grid;place-items:center;font-family:var(--jp);font-weight:600}
 .docbtn{display:flex;align-items:center;gap:12px;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:10px 16px 10px 10px;text-decoration:none;color:var(--ink);box-shadow:var(--sh);transition:border-color .15s,transform .15s}
 .docbtn:hover{border-color:#1e8e3e;transform:translateY(-1px)}
@@ -356,6 +356,7 @@ body.cine{overflow:hidden}
   .vit .bd{padding:9px 12px;gap:3px}.vit .bd b{font-size:14px}
   body.cine .vbox{width:min(100vw,calc((100vh - 70px) * 16 / 9));top:50%;margin:0}
 }
+/* slide buổi học */
 /* tài liệu */
 .dtabs{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:0 0 20px}
 .dtab{display:flex;align-items:center;gap:12px;border:1.5px solid var(--line);background:var(--paper);border-radius:14px;padding:12px 14px;text-align:left;cursor:pointer;color:var(--ink);transition:border-color .15s,box-shadow .15s,transform .15s}
@@ -759,13 +760,13 @@ body.locked .app{filter:blur(6px);pointer-events:none}
   <div class="grid-ov" id="gridOv"><div class="box"><h3>Danh sách câu · <span id="gTitle"></span></h3><div class="gq" id="gq"></div><div class="lg">Xanh: đã trả lời · Viền đỏ: đã đánh dấu. Bấm vào số để đến câu đó.</div><button class="btn sm" id="gClose" type="button" style="margin-top:12px">Đóng</button></div></div>
 </div>
 
-<script src="app/data/lessons.js"></script>
-<script src="app/data/exams.js"></script>
-<script src="app/data/skills.js"></script>
-<script src="app/data/vocab.js"></script>
-<script src="app/data/grammar.js"></script>
-<script src="app/data/hw.js"></script>
-<script src="app/data/videos.js"></script>
+<script src="app/data/lessons.js?v=3cff6f60"></script>
+<script src="app/data/exams.js?v=f3a3c894"></script>
+<script src="app/data/skills.js?v=d1153b37"></script>
+<script src="app/data/vocab.js?v=4314c895"></script>
+<script src="app/data/grammar.js?v=7e915ad4"></script>
+<script src="app/data/hw.js?v=3bb59009"></script>
+<script src="app/data/videos.js?v=bff12b1d"></script>
 <script>
 /* ===== cấu hình tài khoản chung (đổi tại đây) ===== */
 const ACCOUNT={user:decodeURIComponent((document.cookie.match(/(?:^|; )jft_user=([^;]*)/)||[0,''])[1])||'hocvien',hash:''};
@@ -1110,10 +1111,10 @@ function renderVideo(autoplay){const A=$('#vidArea');vDestroy();if(!VID.length){
    <span class="vspdw"><button class="vspd" id="vSpd" type="button" title="Tốc độ phát">${vRate}x</button><div class="vmenu" id="vMenu">${[0.75,1,1.25,1.5,2].map(r=>`<button type="button" data-r="${r}"${r===vRate?' class="on"':''}>${r}x</button>`).join('')}</div></span>
    <button id="vCineB" type="button" title="Màn hình lớn" aria-label="Màn hình lớn">${VIC.cine}</button><button id="vFS" type="button" title="Toàn màn hình" aria-label="Toàn màn hình">${VIC.fs}</button></div></div>
   <div class="vinfo"><div class="tx"><div class="ser"><span class="no">${esc(v.no||'')}</span><span>${esc(v.series)}</span>${v.series_jp?`<span class="jp">· ${esc(v.series_jp)}</span>`:''}${(v.tags||[]).map(t=>`<span class="tag jp">${esc(t)}</span>`).join('')}</div><h2>${esc(v.title)}</h2>${v.desc?`<p class="vdesc">${esc(v.desc)}</p>`:''}</div>
-  <div class="vacts">${docs}</div></div>${(v.learn||[]).length?`<div class="vlearn"><span class="lb">Học lại trong app</span>${v.learn.map((l,i)=>`<button class="vlb" type="button" data-vl="${i}"><span class="ic">${({kanji:'漢',vocab:'語',gram:'文'})[l.tab]||'教'}</span>${esc(l.t)}<i>→</i></button>`).join('')}</div>`:''}</div>
+  <div class="vacts">${docs}</div></div>${(v.slides||[]).length?`<div class="vlearn"><span class="lb">Slide buổi học</span>${v.slides.map((x,i)=>`<button class="vlb" type="button" data-vs="${i}"><span class="ic sl">▶</span>${esc(x.t)}<i>→</i></button>`).join('')}</div>`:''}${(v.learn||[]).length?`<div class="vlearn"><span class="lb">Học lại trong app</span>${v.learn.map((l,i)=>`<button class="vlb" type="button" data-vl="${i}"><span class="ic">${({kanji:'漢',vocab:'語',gram:'文'})[l.tab]||'教'}</span>${esc(l.t)}<i>→</i></button>`).join('')}</div>`:''}</div>
   <div class="vlist">${groups.map(g=>`<div class="vgh">${esc(g.s)}${g.j?`<span class="jp">${esc(g.j)}</span>`:''}<span class="n">${g.a.length} video</span></div><div class="vgrid">${g.a.map(x=>`<button class="vit${x.id===vCur?' on':''}" data-vid="${x.id}" type="button"><span class="th">${vThumb(x)}${x.id===vCur?'<span class="now">Đang xem</span>':''}</span><span class="bd"><small>${esc(x.no||'')}${x.docs&&x.docs.length?' · có tài liệu':''}</small><b>${esc(x.title)}</b><span class="tg">${(x.tags||[]).map(t=>`<span class="tag gray jp">${esc(t)}</span>`).join('')}</span></span></button>`).join('')}</div>`).join('')}</div>`;
  vPoster();vBindCtl();if(autoplay)vidPlay()}
-$('#vidArea').addEventListener('click',e=>{const lb=e.target.closest('[data-vl]');if(lb){const v=VID.find(x=>x.id===vCur),l=v.learn[+lb.dataset.vl];vidPause();dTab=l.tab;store.set('dTab',dTab);dLv[l.tab]=l.lv;dGrp[l.tab+l.lv]=l.g;go('learn');renderDocs();return}const b=e.target.closest('[data-vid]');if(!b)return;vCur=b.dataset.vid;store.set('jftVid',vCur);renderVideo(true);$('#video').scrollIntoView({behavior:'smooth'})});
+$('#vidArea').addEventListener('click',e=>{const sb=e.target.closest('[data-vs]');if(sb){const v=VID.find(x=>x.id===vCur),x=v.slides[+sb.dataset.vs];vidPause();openDocView({f:x.u,jp:x.t,vi:x.sub||'',k:'slide'},v.no||'');return}const lb=e.target.closest('[data-vl]');if(lb){const v=VID.find(x=>x.id===vCur),l=v.learn[+lb.dataset.vl];vidPause();dTab=l.tab;store.set('dTab',dTab);dLv[l.tab]=l.lv;dGrp[l.tab+l.lv]=l.g;go('learn');renderDocs();return}const b=e.target.closest('[data-vid]');if(!b)return;vCur=b.dataset.vid;store.set('jftVid',vCur);renderVideo(true);$('#video').scrollIntoView({behavior:'smooth'})});
 $('#vCineX').onclick=()=>document.body.classList.remove('cine');$('#vCine').onclick=e=>{if(e.target.id==='vCine')document.body.classList.remove('cine')};
 document.addEventListener('keydown',e=>{if(e.key==='Escape')document.body.classList.remove('cine');
  if(!$('#video').classList.contains('on')||!vOk()||/INPUT|TEXTAREA|SELECT/.test((e.target.tagName||'')))return;
@@ -1123,7 +1124,7 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape')document.body.classL
 const DT=[['buoi','授業','Theo buổi học','#7b3fa0','回'],['slide','スライド','Slide bài giảng','#0d5a8c','授'],['vocab','語彙','Từ vựng','#c42f66','語'],['kanji','漢字','Chữ Hán','#e08a1e','漢'],['gram','文法','Ngữ pháp','#5d8f1f','文']];
 const DLV=['入門','初級1','初級2'],DLVVI={'入門':'Nhập môn','初級1':'Sơ cấp 1','初級2':'Sơ cấp 2'};
 let dTab=store.get('dTab')||'slide',dLv={vocab:'入門',kanji:'入門',gram:'入門'},dGrp={};
-function loadDocs(){return window.DOCS?Promise.resolve():new Promise((ok,ng)=>{const sc=document.createElement('script');sc.src='app/data/docs.js';sc.onload=ok;sc.onerror=ng;document.head.appendChild(sc)})}
+function loadDocs(){return window.DOCS?Promise.resolve():new Promise((ok,ng)=>{const sc=document.createElement('script');sc.src='app/data/docs.js?v=81a415a8';sc.onload=ok;sc.onerror=ng;document.head.appendChild(sc)})}
 const shuf=a=>{a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a};
 function picks(pool,ans,n,key){const seen=new Set([key(ans)]),out=[];for(const x of shuf(pool)){const k=key(x);if(!k||seen.has(k))continue;seen.add(k);out.push(x);if(out.length>=n)break}return out}
 function mcqD(ansT,ds,extra){const all=shuf([ansT,...ds]);return Object.assign({o:all.map(t=>({t})),a:[all.indexOf(ansT)]},extra)}

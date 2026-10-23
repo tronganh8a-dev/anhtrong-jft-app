@@ -65,6 +65,18 @@
     "t": "Tài liệu buổi học",
     "u": "https://drive.google.com/drive/folders/13_AVODXoxb_nqMo6JpZnzVTCQoftbyTs?usp=drive_link"
    }
+  ],
+  "slides": [
+   {
+    "t": "Slide luyện nghe hiểu",
+    "sub": "5 bài nghe 初級2 · script",
+    "u": "tailieu/Buoi02_LuyenNghe.html"
+   },
+   {
+    "t": "Slide Chữ Hán – Từ vựng – Ngữ pháp",
+    "sub": "241 slide · đố trước, giải thích sau",
+    "u": "tailieu/Buoi02_ChuHan_TuVung_NguPhap.html"
+   }
   ]
  }
 ]
