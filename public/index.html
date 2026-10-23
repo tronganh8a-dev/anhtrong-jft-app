@@ -13,6 +13,7 @@
   --ok:#1d7a4b;--ok-soft:#e1f3e9;--ng:#b3261e;--ng-soft:#fbe9e7;--cando:#fff3b0;--amber:#b86a00;
   --jp:"Klee One","Hiragino Mincho ProN","Yu Mincho",serif;
   --vi:"Quicksand","Segoe UI",system-ui,sans-serif;
+  --mix:"Quicksand","Klee One","Hiragino Mincho ProN","Yu Mincho",sans-serif;
   --r:14px;--sh:0 1px 2px rgba(23,34,44,.06),0 4px 14px rgba(23,34,44,.05);
 }
 *{box-sizing:border-box}
@@ -395,14 +396,14 @@ body.cine{overflow:hidden}
 .gp summary{list-style:none;display:flex;gap:14px;align-items:center;padding:14px 16px;cursor:pointer}
 .gp summary::-webkit-details-marker{display:none}
 .gp .no{width:36px;height:36px;border-radius:10px;background:var(--blue-soft);color:var(--blue);display:grid;place-items:center;font-weight:800;font-size:14px;flex:none}
-.gp .pt{display:block;flex:1;min-width:0}.gp .pt .p{display:block;font-family:var(--jp);font-size:20px;line-height:1.7;font-weight:600}.gp .pt .m{color:var(--muted);font-weight:600;font-size:14px}
+.gp .pt{display:block;flex:1;min-width:0}.gp .pt .p{display:block;font-family:var(--mix);font-size:20px;line-height:1.7;font-weight:600}.gp .pt .m{color:var(--muted);font-weight:600;font-size:14px}
 .gp .chev{color:var(--muted);transition:transform .2s;font-size:18px}.gp[open] .chev{transform:rotate(90deg)}
 .gp[open]{border-color:#b9cfe0}
 .gb{padding:2px 18px 18px 66px;display:flex;flex-direction:column;gap:12px}
 .gb .lb{font-size:11.5px;font-weight:800;letter-spacing:.08em;color:var(--blue);text-transform:uppercase;margin-bottom:4px;display:flex;gap:6px;align-items:center}
-.gb .st{background:#f2f7fb;border-left:4px solid var(--blue);border-radius:8px;padding:8px 12px;font-family:var(--jp);font-size:16px;line-height:2}
+.gb .st{background:#f2f7fb;border-left:4px solid var(--blue);border-radius:8px;padding:8px 12px;font-family:var(--mix);font-size:16px;line-height:2}
 .gb p{margin:0 0 6px;line-height:1.65}
-.gex{background:#f8f9fb;border-radius:10px;padding:8px 12px;font-family:var(--jp);font-size:16px;line-height:2.05;margin-bottom:6px}
+.gex{background:#f8f9fb;border-radius:10px;padding:8px 12px;font-family:var(--mix);font-size:16px;line-height:2.05;margin-bottom:6px}
 .gex small{display:block;font-family:var(--vi);font-size:13.5px;color:var(--muted);line-height:1.45}
 .gb .gq{align-self:flex-start}
 .dnote{color:var(--muted);font-size:13px;margin:-6px 0 14px}
@@ -1117,6 +1118,7 @@ let dTab=store.get('dTab')||'slide',dLv={vocab:'入門',kanji:'入門',gram:'入
 function loadDocs(){return window.DOCS?Promise.resolve():new Promise((ok,ng)=>{const sc=document.createElement('script');sc.src='app/data/docs.js';sc.onload=ok;sc.onerror=ng;document.head.appendChild(sc)})}
 const shuf=a=>{a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a};
 function picks(pool,ans,n,key){const seen=new Set([key(ans)]),out=[];for(const x of shuf(pool)){const k=key(x);if(!k||seen.has(k))continue;seen.add(k);out.push(x);if(out.length>=n)break}return out}
+function mcqD(ansT,ds,extra){const all=shuf([ansT,...ds]);return Object.assign({o:all.map(t=>({t})),a:[all.indexOf(ansT)]},extra)}
 function mcq(ans,pool,key,show,extra){const ds=picks(pool,ans,3,key);const all=shuf([ans,...ds]);return Object.assign({o:all.map(x=>({t:show(x)})),a:[all.indexOf(ans)]},extra)}
 function renderDocs(){
  $('#dTabs').innerHTML=DT.map(([k,j,vi,c,ic])=>`<button class="dtab${k===dTab?' on':''}" data-dt="${k}" type="button" role="tab" aria-selected="${k===dTab}"><span class="di" style="background:${c}">${ic}</span><span><b>${vi}</b><small class="jp">${j}</small></span></button>`).join('');
@@ -1144,7 +1146,7 @@ function dVocab(lv,L){const bs=[...new Set(L.map(w=>w.b))].sort((a,b)=>a-b);cons
   for(const w of shuf(W)){if(mode==='pic'&&!w.img)continue;if(mode==='read'&&!(w.r&&/[一-龯々]/.test(w.w)))continue;
    if(mode==='pic')items.push(mcq(w,pool.filter(x=>x.img),x=>x.w,x=>`<span class="jp">${x.wr}</span>`,{s:'語彙',t:T.pic,img:'app/media/doc/'+w.img,ex:vAns(w)}));
    else if(mode==='mean')items.push(mcq(w,pool,x=>x.vi,x=>esc(x.vi),{s:'語彙',t:T.mean,lab:`<span class="jp" style="font-size:30px;line-height:1.8">${w.wr}</span>`,ex:vAns(w)}));
-   else items.push(mcq(w,pool.filter(x=>x.r),x=>x.r,x=>`<span class="jp">${esc(x.r)}</span>`,{s:'語彙',t:T.read,lab:`<span class="jp" style="font-size:32px">${w.w}</span>`,ex:vAns(w)}))}
+   else{const ex={s:'語彙',t:T.read,lab:`<span class="jp" style="font-size:32px">${w.w}</span>`,ex:vAns(w)};items.push(w.rd?mcqD(`<span class="jp">${esc(w.r)}</span>`,w.rd.map(r=>`<span class="jp">${esc(r)}</span>`),ex):mcq(w,pool.filter(x=>x.r),x=>x.r,x=>`<span class="jp">${esc(x.r)}</span>`,ex))}}
   startSkill(items.slice(0,20),`${DLVVI[lv]} Bài ${b} · Từ vựng`)}}
 const kAns=k=>`<div class="ans">Đáp án: <span class="jp">${k.wr}</span></div>${k.hv?`<div class="hv">${esc(k.hv)}</div>`:''}<div><b>${esc(k.vi)}</b></div>${(k.chars||[]).length?`<ul>${k.chars.map(c=>`<li><span class="jp" style="font-size:18px">${esc(c.k)}</span> <b>${esc(c.hv||'')}</b> – ${esc(c.vi||'')}${c.on?` · On: <span class="jp">${esc(c.on)}</span>`:''}${c.kun?` · Kun: <span class="jp">${esc(c.kun)}</span>`:''}</li>`).join('')}</ul>`:''}${k.tip?`<div>${esc(k.tip)}</div>`:''}`;
 function dKanji(lv,L){const N=20,ng=Math.ceil(L.length/N),key=dTab+lv;let g=+(dGrp[key]||0);if(g>=ng)g=0;
@@ -1156,11 +1158,11 @@ function dKanji(lv,L){const N=20,ng=Math.ceil(L.length/N),key=dTab+lv;let g=+(dG
    ${k.tip?`<div class="tip">💡 ${esc(k.tip)}</div>`:''}${k.ex?`<div class="kex jp">${k.ex.jp}<small>${esc(k.ex.vi)} <i>(ví dụ tự soạn)</i></small></div>`:''}</div></details>`).join('')}</div>`;
  $('#dBody').onclick=e=>{const pb=e.target.closest('[data-pr]');if(!pb)return;const mode=pb.dataset.pr;let items=[];
   for(const k of shuf(K)){
-   if(mode==='read')items.push(mcq(k,L,x=>x.r,x=>`<span class="jp">${esc(x.r)}</span>`,{s:'漢字',t:'読み方を選んでください。',lab:`<span class="jp" style="font-size:34px">${k.w}</span>`,ex:kAns(k)}));
+   if(mode==='read'){const ex={s:'漢字',t:'読み方を選んでください。',lab:`<span class="jp" style="font-size:34px">${k.w}</span>`,ex:kAns(k)};items.push(k.rd?mcqD(`<span class="jp">${esc(k.r)}</span>`,k.rd.map(r=>`<span class="jp">${esc(r)}</span>`),ex):mcq(k,L,x=>x.r,x=>`<span class="jp">${esc(x.r)}</span>`,ex))}
    else if(mode==='mean')items.push(mcq(k,L,x=>x.vi,x=>esc(x.vi),{s:'漢字',t:'意味を選んでください。',lab:`<span class="jp" style="font-size:34px">${k.w}</span>`,ex:kAns(k)}));
-   else items.push(mcq(k,L,x=>x.w,x=>`<span class="jp" style="font-size:22px">${x.w}</span>`,{s:'漢字',t:'正しい漢字を選んでください。',lab:`<span class="jp" style="font-size:28px">${esc(k.r)}</span><br><span style="font-size:16px;font-weight:600">${esc(k.vi)}</span>`,ex:kAns(k)}))}
+   else{const W=x=>`<span class="jp" style="font-size:22px">${x}</span>`,ex={s:'漢字',t:'正しい漢字を選んでください。',lab:`<span class="jp" style="font-size:28px">${esc(k.r)}</span><br><span style="font-size:16px;font-weight:600">${esc(k.vi)}</span>`,ex:kAns(k)};items.push(k.wk?mcqD(W(k.w),k.wk.map(W),ex):mcq(k,L,x=>x.w,x=>W(x.w),ex))}}
   startSkill(items,`${DLVVI[lv]} nhóm ${g+1} · Chữ Hán`)}}
-function gItems(P){return P.flatMap(p=>(p.qz||[]).map(q=>{const idx=shuf(q.o.map((_,i)=>i));return {s:'文法',t:'正しいものを選んでください。',lab:q.q,o:idx.map(i=>({t:`<span class="jp">${q.o[i]}</span>`})),a:[idx.indexOf(q.a)],ex:`<div class="ans">Mẫu: <span class="jp">${p.p}</span> — ${esc(p.m)}</div><div>${q.ex}</div>`}}))}
+function gItems(P){return P.flatMap(p=>(p.qz||[]).map(q=>{const idx=shuf(q.o.map((_,i)=>i));return {s:'文法',t:'正しいものを選んでください。',lab:q.q,o:idx.map(i=>({t:`<span class="jp">${q.o[i]}</span>`})),a:[idx.indexOf(q.a)],ex:`<div class="ans">Mẫu: <span style="font-family:var(--mix)">${p.p}</span> — ${esc(p.m)}</div><div>${q.ex}</div>`}}))}
 function dGram(lv,L){const bs=[...new Set(L.map(p=>p.bai))].sort((a,b)=>a-b),key=dTab+lv;let b=dGrp[key];if(b!=='all'&&!bs.includes(+b))b='all';
  grpChips('Bài',[['all','Tất cả'],...bs.map(x=>[x,'Bài '+x])],b,x=>{dGrp[key]=x==='all'?'all':+x;renderDocs()});
  const P=b==='all'?L:L.filter(p=>p.bai===+b),nq=P.reduce((a,p)=>a+(p.qz||[]).length,0);

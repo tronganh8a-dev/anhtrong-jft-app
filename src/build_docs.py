@@ -68,5 +68,20 @@ for g in G:
               qz=[dict(q=FE(q['q']), o=[FE(o) for o in q['o']], a=q['a'], ex=FE(q.get('ex_vi', ''))) for q in a.get('quiz', []) if isinstance(q.get('a'), int) and 0 <= q['a'] < len(q['o'])])
     gram[g['lv']].append(it)
 print('gram', {k: len(v) for k, v in gram.items()}, 'đã soạn', len(ga))
+# đáp án nhiễu soạn riêng (ans/dist_*.json): rd = cách đọc sai na ná, wk = cách viết sai na ná
+DI = {}
+for f in sorted(glob.glob(D + 'ans/dist_*.json')):
+    for x in json.load(open(f, encoding='utf-8')): DI[x['id']] = x
+nd = 0
+for kind, src in (('k', kanji), ('v', vocab)):
+    for lv in LV:
+        for i, it in enumerate(src[lv]):
+            x = DI.get(f'{kind}|{lv}|{i}')
+            if not x: continue
+            rd = [r for r in dict.fromkeys(x.get('rd') or []) if r and r != it['r']][:3]
+            if len(rd) == 3: it['rd'] = rd; nd += 1
+            wk = [E(w) for w in dict.fromkeys(x.get('wk') or []) if w and E(w) != it['w']][:3]
+            if kind == 'k' and len(wk) == 3: it['wk'] = wk
+print('đáp án nhiễu', nd, '/', len(DI))
 open(A + '../public/app/data/docs.js', 'w', encoding='utf-8').write('window.DOCS=' + json.dumps(dict(vocab=vocab, kanji=kanji, gram=gram), ensure_ascii=False, separators=(',', ':')) + ';')
 print('docs.js', os.path.getsize(A + '../public/app/data/docs.js') // 1024, 'KB')
