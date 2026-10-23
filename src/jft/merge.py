@@ -75,12 +75,17 @@ for tag in ORDER:
             if a and isinstance(a.get('a'), int): a = dict(a, a=remap[a['a']])
             opts = keep
         t = txt(q['t']); d = txt(q['d'])
+        # furigana cho đề: phần chữ & từ vựng không gắn vào lựa chọn (lộ đáp án); câu hỏi đọc chữ Hán (lựa chọn toàn kana) không gắn vào câu hỏi
+        vocab_sec = sec == '文字と語彙'
+        kana_opts = all(re.fullmatch(r'[\u3040-\u30ffー・、。\s0-9a-zA-Z.,]*', o or '') for o in opts)
+        if not (vocab_sec and kana_opts): t = furi(t); d = furi(d)
+        OF = (lambda o: E(o)) if vocab_sec else (lambda o: FE(o))
         if a and a.get('q_jp'):
-            t = f'<span class="jp">{E(a["q_jp"])}</span><br><span class="vi-q">{t}</span>' if t else E(a['q_jp'])
+            t = f'<span class="jp">{FE(a["q_jp"])}</span><br><span class="vi-q">{t}</span>' if t else FE(a['q_jp'])
         item = dict(s=sec, ins='', gset=d or None, gimg=None, gau=None, t=t,
                     imgs=['app/media/jft/img/' + os.path.splitext(os.path.basename(p))[0] + '.jpg' for p in q['img']],
                     img=None, au=('app/media/jft/au/' + q['au'][0] + '.mp3') if q['au'] and os.path.exists(REPO + 'public/app/media/jft/au/' + q['au'][0] + '.mp3') else None,
-                    o=[{'t': E(o)} for o in opts], a=[a['a']] if a and isinstance(a.get('a'), int) and 0 <= a['a'] < len(opts) else None,
+                    o=[{'t': OF(o)} for o in opts], a=[a['a']] if a and isinstance(a.get('a'), int) and 0 <= a['a'] < len(opts) else None,
                     ex=ex_html(q, a, opts))
         if q['au'] and not item['au']:
             item['ins'] = '⚠ Lỗi audio: file nghe gốc của câu này đang bị khoá quyền truy cập, sẽ cập nhật sau.'
