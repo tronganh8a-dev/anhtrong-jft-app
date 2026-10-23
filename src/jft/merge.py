@@ -20,22 +20,29 @@ def txt(t):
     t = re.sub(r'^\s*\d+\s*[\.．]\s*', '', t)  # "25. ..." -> bỏ số thứ tự (app tự đánh số)
     return '<br>'.join(E(x.strip()) for x in t.split('\n') if x.strip())
 
+from furi import furi, ruby_word, USED, KANJI
+FE = lambda s: furi(E(s))
+def vword(w, r):
+    w = E(w); r = (r or '').strip()
+    if r and re.search(KANJI, w) and re.fullmatch(r'[\u3040-\u309fー]+', r): return ruby_word(w, r)
+    return furi(w)
+
 def ex_html(q, a, opts):
     if not a: return ''
-    h = f'<div class="ans">Đáp án đúng: {E(opts[a["a"]])}</div>'
+    h = f'<div class="ans">Đáp án đúng: <span class="jp">{FE(opts[a["a"]])}</span></div>'
     if a.get('script'):
         h += '<span class="lb">NỘI DUNG BÀI NGHE · スクリプト</span><div class="scr">' + ''.join(
-            f'<p class="jp">{E(l.get("jp",""))}</p>' + (f'<p class="v">{E(l.get("vi",""))}</p>' if l.get('vi') else '') for l in a['script']) + '</div>'
+            f'<p class="jp">{FE(l.get("jp",""))}</p>' + (f'<p class="v">{FE(l.get("vi",""))}</p>' if l.get('vi') else '') for l in a['script']) + '</div>'
     if a.get('trans_vi'):
-        h += f'<span class="lb">DỊCH</span><div>{E(a["trans_vi"])}</div>'
-    h += f'<span class="lb">GIẢI THÍCH</span><div>{E(a.get("why_vi",""))}</div>'
+        h += f'<span class="lb">DỊCH</span><div>{FE(a["trans_vi"])}</div>'
+    h += f'<span class="lb">GIẢI THÍCH</span><div>{FE(a.get("why_vi",""))}</div>'
     if a.get('why_jp'):
-        h += f'<div class="jp" style="margin-top:6px;color:#5a4a1a">{E(a["why_jp"])}</div>'
+        h += f'<div class="jp" style="margin-top:6px;color:#5a4a1a">{FE(a["why_jp"])}</div>'
     voc = [v for v in (a.get('vocab') or []) if isinstance(v, list) and len(v) >= 2]
     if voc:
         h += '<span class="lb">TỪ VỰNG</span><ul>' + ''.join(
-            f'<li><span class="jp">{E(v[0])}</span>' + (f'（{E(v[1])}）' if len(v) > 1 and v[1] and v[1] != v[0] else '') +
-            (f' <b>{E(v[2])}</b>' if len(v) > 2 and v[2] else '') + (f' – {E(v[3])}' if len(v) > 3 else '') + '</li>' for v in voc) + '</ul>'
+            f'<li><span class="jp">{vword(v[0], v[1] if len(v) > 1 else "")}</span>' +
+            (f' <b>{E(v[2])}</b>' if len(v) > 2 and v[2] else '') + (f' – {FE(v[3])}' if len(v) > 3 else '') + '</li>' for v in voc) + '</ul>'
     return h
 
 OV = json.load(open(H + 'overrides.json')) if os.path.exists(H + 'overrides.json') else {}
@@ -89,4 +96,5 @@ for tag in ORDER:
     exams.append(e)
     stats[tag] = dict(n=len(qs), answered=sum(1 for x in qs if x['a'] is not None), flag=low)
 json.dump(exams, open(REPO + 'src/raw/jft_exams.json', 'w'), ensure_ascii=False, indent=0)
+json.dump(USED, open(H + 'furi_used.json', 'w'), ensure_ascii=False, indent=0)
 for k, v in stats.items(): print(k, v)
