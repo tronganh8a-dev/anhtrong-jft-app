@@ -105,3 +105,4 @@ print('grammar lessons', len(GR), 'points', sum(len(g['points']) for g in GR))
 import subprocess, sys
 subprocess.run([sys.executable, A + 'pitch/add_pitch.py'], check=True)
 subprocess.run([sys.executable, A + 'pitch/add_examples.py'], check=True)
+subprocess.run([sys.executable, A + 'build_videos.py'], check=True)

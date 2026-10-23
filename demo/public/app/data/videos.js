@@ -1,0 +1,1 @@
+window.VIDEOS=[{"id":"captoc-01","series":"Khoá cấp tốc","series_jp":"短期集中コース","no":"Buổi 1","title":"Luyện đọc hiểu tìm kiếm thông tin + Nghe hiểu","tags":["読解","聴解"],"yt":"d84Fa6YJixE","date":"2026-10-23","docs":[]}];

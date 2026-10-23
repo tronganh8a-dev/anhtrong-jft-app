@@ -239,6 +239,71 @@ body.gjp .gp .jpx{display:block}
 .skb{border:1px solid var(--line);background:var(--paper);border-radius:12px;padding:12px;text-align:left}
 .skb:hover{border-color:var(--blue)}
 .skb b{display:block}.skb small{color:var(--muted)}
+/* video */
+.vstage{width:min(100%,calc((100vh - 190px) * 16 / 9));min-width:min(100%,640px);margin:0 auto}
+.vplayer{position:relative;aspect-ratio:16/9;background:#0b1117;border-radius:18px;overflow:hidden;box-shadow:0 18px 40px -12px rgba(10,40,70,.35),0 0 0 1px rgba(23,34,44,.08)}
+.vplayer iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.vposter{position:absolute;inset:0;border:0;padding:0;background:#0b1117 center/cover no-repeat;display:grid;place-items:center;cursor:pointer}
+.vposter::before{content:"";position:absolute;inset:0;background:rgba(8,18,28,.18)}
+.vposter .pb{position:relative;width:88px;height:88px;border-radius:50%;background:rgba(255,255,255,.95);display:grid;place-items:center;box-shadow:0 10px 30px rgba(0,0,0,.35);transition:transform .2s}
+.vposter .pb::after{content:"";margin-left:7px;border-style:solid;border-width:17px 0 17px 28px;border-color:transparent transparent transparent var(--pink)}
+.vposter:hover .pb{transform:scale(1.08)}
+.vposter .cap{position:absolute;left:24px;right:24px;bottom:20px;color:#fff;text-align:left;font-weight:700;font-size:20px;line-height:1.35;text-shadow:0 1px 8px rgba(0,0,0,.5)}
+.vposter .cap small{display:block;font-size:13px;font-weight:600;opacity:.85;letter-spacing:.04em;text-transform:uppercase;margin-bottom:4px}
+.vinfo{display:flex;gap:18px;align-items:flex-start;justify-content:space-between;margin-top:18px;flex-wrap:wrap}
+.vinfo .tx{min-width:0;flex:1 1 360px}
+.vinfo .ser{display:flex;gap:6px;flex-wrap:wrap;align-items:center;font-size:13px;color:var(--muted);font-weight:600}
+.vinfo .ser .no{background:var(--pink);color:#fff;border-radius:99px;padding:2px 10px;font-size:12px;font-weight:700}
+.vinfo h2{font-size:23px;line-height:1.35;margin:8px 0 0}
+.vacts{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.docbtn{display:flex;align-items:center;gap:12px;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:10px 16px 10px 10px;text-decoration:none;color:var(--ink);box-shadow:var(--sh);transition:border-color .15s,transform .15s}
+.docbtn:hover{border-color:#1e8e3e;transform:translateY(-1px)}
+.docbtn .di{width:42px;height:42px;border-radius:11px;background:#e6f4ea;display:grid;place-items:center;flex:none}
+.docbtn .di svg{width:24px;height:24px}
+.docbtn b{display:block;font-size:14.5px;line-height:1.25}.docbtn small{color:var(--muted);font-size:12px}
+.docbtn i{font-style:normal;color:var(--muted);margin-left:6px}
+.cinebtn{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--paper);border-radius:14px;padding:0 16px;height:64px;font-weight:700;color:var(--blue);box-shadow:var(--sh)}
+.cinebtn svg{width:20px;height:20px}
+.cinebtn:hover{border-color:var(--blue)}
+.vlist{margin-top:34px}
+.vgh{display:flex;align-items:baseline;gap:10px;margin:0 0 12px;font-size:16px;font-weight:700}
+.vgh .jp{font-weight:400;font-size:13px;color:var(--muted)}.vgh .n{margin-left:auto;font-size:12.5px;color:var(--muted);font-weight:600}
+.vgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px;margin-bottom:26px}
+.vit{border:1px solid var(--line);background:var(--paper);border-radius:14px;padding:0;overflow:hidden;text-align:left;display:flex;flex-direction:column;box-shadow:var(--sh);transition:border-color .15s,transform .15s}
+.vit:hover{border-color:var(--blue);transform:translateY(-2px)}
+.vit .th{position:relative;aspect-ratio:16/9;background:#0b1117 center/cover no-repeat}
+.vit .th::after{content:"";position:absolute;left:50%;top:50%;width:46px;height:46px;margin:-23px 0 0 -23px;border-radius:50%;background:rgba(255,255,255,.9) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M9 6.5v11l9-5.5z' fill='%23c42f66'/%3E%3C/svg%3E") center/26px no-repeat;opacity:.9}
+.vit .th .now{position:absolute;left:10px;top:10px;background:var(--pink);color:#fff;font-size:11.5px;font-weight:700;border-radius:99px;padding:3px 10px}
+.vit .bd{padding:12px 14px 14px;display:flex;flex-direction:column;gap:6px}
+.vit .bd small{color:var(--muted);font-weight:600;font-size:12px}
+.vit .bd b{font-size:15px;line-height:1.4}
+.vit .bd .tg{display:flex;gap:5px;flex-wrap:wrap}
+.vit.on{border-color:var(--pink);box-shadow:0 0 0 2px var(--pink-soft),var(--sh)}
+.vit.on .th::after{display:none}
+.vempty{text-align:center;padding:50px 20px;color:var(--muted)}
+.vcine{display:none;position:fixed;inset:0;background:rgba(5,10,16,.97);z-index:55}
+.vcine button{position:absolute;top:14px;right:18px;background:rgba(255,255,255,.12);color:#fff;border:1px solid rgba(255,255,255,.25);border-radius:99px;padding:8px 16px;font-weight:700}
+.vcine button small{opacity:.6;font-weight:600;margin-left:4px}
+body.cine .vcine{display:block}
+body.cine .vplayer{position:fixed;z-index:56;left:50%;top:calc(50% + 14px);transform:translate(-50%,-50%);width:min(96vw,calc((100vh - 110px) * 16 / 9));border-radius:12px}
+body.cine{overflow:hidden}
+@media (max-width:760px){
+  .vstage{width:auto;min-width:0}
+  .vplayer{border-radius:0;box-shadow:none;margin:0 -14px}
+  .vposter .pb{width:64px;height:64px}.vposter .pb::after{border-width:13px 0 13px 21px;margin-left:5px}
+  .vposter .cap{font-size:15px;left:14px;right:14px;bottom:12px}.vposter .cap small{font-size:11px}
+  .vinfo{margin-top:12px;gap:12px}.vinfo .tx{flex-basis:100%}
+  .vinfo h2{font-size:18px;margin-top:6px}
+  .vacts{width:100%}.docbtn{flex:1}
+  .cinebtn{display:none}
+  .vlist{margin-top:24px}
+  .vgrid{grid-template-columns:1fr;gap:10px}
+  .vit{flex-direction:row;align-items:stretch}
+  .vit .th{width:132px;flex:none;aspect-ratio:16/10}
+  .vit .th::after{width:32px;height:32px;margin:-16px 0 0 -16px;background-size:18px}
+  .vit .th .now{left:6px;top:6px;font-size:10px;padding:2px 7px}
+  .vit .bd{padding:9px 12px;gap:3px}.vit .bd b{font-size:14px}
+}
 /* CBT overlay — mô phỏng màn hình thi JFT-Basic */
 .cbt{display:none;position:fixed;inset:0;background:#fff;z-index:50;flex-direction:column;font-family:"Open Sans","Segoe UI",Arial,sans-serif;color:#000}
 .cbt.on{display:flex}
@@ -415,13 +480,13 @@ body.locked .app{filter:blur(6px);pointer-events:none}
   <button class="nav" data-go="learn" type="button"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4M10 8.5v5l4-2.5z"/></svg>Học qua slide<span class="jp">授業</span></button>
   <button class="nav" data-go="exam" type="button"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h3"/></svg>Làm đề<span class="jp">模擬試験</span></button>
   <button class="nav" data-go="gram" type="button"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19V5a2 2 0 0 1 2-2h12v18H6a2 2 0 0 1-2-2z"/><path d="M8 7h7M8 11h7M8 15h4"/></svg>Ngữ pháp<span class="jp">文法</span></button>
-  <button class="nav" data-go="skill" type="button"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><rect x="3" y="15" width="4" height="6" rx="1"/><rect x="17" y="15" width="4" height="6" rx="1"/></svg>Luyện kỹ năng<span class="jp">技能別</span></button>
+  <button class="nav" data-go="video" type="button"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="6" width="14" height="12" rx="2.5"/><path d="M16 10.5l5.2-3v9l-5.2-3z"/></svg>Video<span class="jp">動画</span></button>
   <button class="nav" data-go="vocab" type="button"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="6" width="13" height="15" rx="2"/><path d="M8 3h11a2 2 0 0 1 2 2v12"/></svg>Từ vựng<span class="jp">語彙</span></button>
   <button class="nav" data-go="hw" type="button"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4V3h6v1M9 11l2 2 4-4M9 17h6"/></svg>Bài tập về nhà<span class="jp">宿題</span></button>
   <div class="grow"></div>
   <button class="out" id="logout" type="button">Đăng xuất</button>
 </aside>
-<main><div style="background:#fff3b0;border:1px solid #f1c48b;color:#5a4300;border-radius:12px;padding:10px 14px;margin:0 0 14px;font-size:14px"><b>BẢN DÙNG THỬ</b> · Mỗi phần mở 2 mục (2 bài học, 2 đề, 2 bài ngữ pháp, 2 bài kỹ năng, từ vựng 2 bài, 2 buổi bài tập về nhà). Liên hệ <b>Anh Trọng Dạy JFT</b> để học bản đầy đủ: 42 bài, 20 đề, 3.800+ từ.</div>
+<main><div style="background:#fff3b0;border:1px solid #f1c48b;color:#5a4300;border-radius:12px;padding:10px 14px;margin:0 0 14px;font-size:14px"><b>BẢN DÙNG THỬ</b> · Mỗi phần mở 2 mục (2 bài học, 2 đề, 2 bài ngữ pháp, 1 video bài giảng, từ vựng 2 bài, 2 buổi bài tập về nhà). Liên hệ <b>Anh Trọng Dạy JFT</b> để học bản đầy đủ: 42 bài, 11 đề có giải thích, video bài giảng, 3.800+ từ.</div>
 <!-- HOME -->
 <section class="screen on" id="home">
   <div class="hero">
@@ -458,7 +523,7 @@ body.locked .app{filter:blur(6px);pointer-events:none}
   <div class="tips">
     <div class="card"><b>JFT-Basic gồm 4 phần</b><p>文字と語彙 · 会話と表現 · 聴解 · 読解. Làm bài trên máy, khoảng 60 phút.</p></div>
     <div class="card"><b>Phần nghe</b><p>Mỗi câu nghe tối đa 2 lần. Đọc câu hỏi trước khi bấm nghe.</p></div>
-    <div class="card"><b>Mẹo học</b><p>Học slide → ôn từ vựng bài đó → luyện kỹ năng bài đó → làm đề thử.</p></div>
+    <div class="card"><b>Mẹo học</b><p>Học slide → ôn từ vựng bài đó → xem video bài giảng → làm đề thử.</p></div>
   </div>
   <footer>© 2026 Anh Trọng Dạy JFT · 出典：国際交流基金『いろどり 生活の日本語』。本文・イラスト・音声・表紙の著作権は国際交流基金に帰属します。</footer>
 </section>
@@ -498,16 +563,13 @@ body.locked .app{filter:blur(6px);pointer-events:none}
   <footer>© 2026 Anh Trọng Dạy JFT · 出典：国際交流基金『いろどり 生活の日本語』文法ノート・文法ワークシート（解答・音声）。Bản dịch tiếng Việt và câu trắc nghiệm nhanh do Anh Trọng Dạy JFT biên soạn.</footer>
 </section>
 
-<!-- SKILL -->
-<section class="screen" id="skill">
-  <div class="topbar"><h1>Luyện theo kỹ năng<span class="jp">技能別練習 · いろどりの練習問題から</span></h1></div>
-  <div class="levels" id="lvSkill"></div>
-  <div class="levels" id="secSkill"></div>
-  <div class="card" style="margin-bottom:14px"><div class="h2">Luyện ngẫu nhiên <span class="jp">ランダム10問</span></div><div style="display:flex;gap:8px;flex-wrap:wrap" id="rndSkill"></div></div>
-  <div class="h2">Luyện theo bài <span class="jp">課ごと</span></div>
-  <div class="sk-grid" id="skGrid"></div>
-  <footer>© 2026 Anh Trọng Dạy JFT · 出典：国際交流基金『いろどり 生活の日本語』 · Đáp án theo phần đáp án đã soạn trong bài học.</footer>
+<!-- VIDEO -->
+<section class="screen" id="video">
+  <div class="topbar"><h1>Video bài giảng<span class="jp">授業動画 · 解説・文法</span></h1></div>
+  <div id="vidArea"></div>
+  <footer>© 2026 Anh Trọng Dạy JFT · Video do Anh Trọng Dạy JFT biên soạn và giảng dạy. Vui lòng không chia sẻ video, tài liệu ra ngoài khoá học.</footer>
 </section>
+<div class="vcine" id="vCine" aria-hidden="true"><button type="button" id="vCineX">✕ Thu nhỏ <small>Esc</small></button></div>
 
 <!-- HOMEWORK -->
 <section class="screen" id="hw">
@@ -573,6 +635,7 @@ body.locked .app{filter:blur(6px);pointer-events:none}
 <script src="app/data/vocab.js"></script>
 <script src="app/data/grammar.js"></script>
 <script src="app/data/hw.js"></script>
+<script src="app/data/videos.js"></script>
 <script>
 /* ===== cấu hình tài khoản chung (đổi tại đây) ===== */
 const ACCOUNT={user:decodeURIComponent((document.cookie.match(/(?:^|; )jft_user=([^;]*)/)||[0,''])[1])||'hocvien',hash:''};
@@ -587,7 +650,7 @@ $('#loginForm').onsubmit=e=>{e.preventDefault();const h=fnv($('#lu').value.trim(
 $('#logout').style.display='none';
 
 /* ===== nav ===== */
-function go(id){$$('.screen').forEach(s=>s.classList.toggle('on',s.id===id));const nid={hwv:'hw',viewer:'learn'}[id]||id;$$('.nav').forEach(n=>n.classList.toggle('on',n.dataset.go===nid));window.scrollTo(0,0)}
+function go(id){if(id!=='video'&&window.vidPause)vidPause();$$('.screen').forEach(s=>s.classList.toggle('on',s.id===id));const nid={hwv:'hw',viewer:'learn'}[id]||id;$$('.nav').forEach(n=>n.classList.toggle('on',n.dataset.go===nid));window.scrollTo(0,0)}
 document.addEventListener('click',e=>{const b=e.target.closest('[data-go]');if(b)go(b.dataset.go)});
 const LV={s1:'初級1 (A2)',s2:'初級2 (A2)',sc:'初中級 (A2/B1)'};
 const CV={s1:'s1',s2:'s2',sc:'sc','入門':'nyumon','初級1':'s1','初級2':'s2','初中級':'sc'};
@@ -839,7 +902,30 @@ $('#hwList').addEventListener('click',e=>{const b=e.target.closest('[data-hw]');
 $('#hwBack').onclick=()=>{$('#hwFrame').removeAttribute('src');renderHw();go('hw')};
 document.addEventListener('click',e=>{const b=e.target.closest('[data-go="hw"]');if(b)renderHw()});
 
-renderLearn();renderExams();renderSkill();renderVocab();renderGram();renderHw();
+/* ===== video bài giảng ===== */
+const VID=window.VIDEOS||[];let vCur=null;
+const ytThumb=(id,q)=>`https://i.ytimg.com/vi/${id}/${q||'hqdefault'}.jpg`;
+const DRIVE_IC='<svg viewBox="0 0 24 24"><path d="M8.2 3.5h7.6l6 10.4-3.8 6.6H6l-3.8-6.6z" fill="none"/><path d="M8.2 3.5 2.2 13.9l3.8 6.6 6-10.4z" fill="#1e8e3e"/><path d="M15.8 3.5H8.2l6 10.4h7.6z" fill="#fbbc04"/><path d="M21.8 13.9H9.8L6 20.5h12z" fill="#4285f4"/></svg>';
+function vidPause(){const f=$('#vPlayer iframe');if(f)try{f.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}','*')}catch(e){}document.body.classList.remove('cine')}
+function vidPlay(){const v=VID.find(x=>x.id===vCur);if(!v)return;
+ $('#vPlayer').innerHTML=`<iframe src="https://www.youtube-nocookie.com/embed/${v.yt}?autoplay=1&rel=0&modestbranding=1&playsinline=1&enablejsapi=1" title="${esc(v.title)}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>`}
+function renderVideo(autoplay){const A=$('#vidArea');if(!VID.length){A.innerHTML='<div class="card vempty">Video bài giảng đang được cập nhật.</div>';return}
+ if(!VID.find(x=>x.id===vCur))vCur=(VID.find(x=>x.id===store.get('jftVid'))||VID[VID.length-1]).id;
+ const v=VID.find(x=>x.id===vCur);
+ const docs=(v.docs||[]).map(d=>`<a class="docbtn" href="${esc(d.u)}" target="_blank" rel="noopener"><span class="di">${DRIVE_IC}</span><span><b>${esc(d.t)}</b><small>Google Drive · mở tab mới</small></span><i>↗</i></a>`).join('');
+ const groups=[];VID.forEach(x=>{let g=groups.find(g=>g.s===x.series);if(!g)groups.push(g={s:x.series,j:x.series_jp||'',a:[]});g.a.push(x)});
+ A.innerHTML=`<div class="vstage"><div class="vplayer" id="vPlayer"><button class="vposter" id="vPoster" type="button" style="background-image:url('${ytThumb(v.yt)}')" aria-label="Phát video"><span class="pb"></span></button></div>
+  <div class="vinfo"><div class="tx"><div class="ser"><span class="no">${esc(v.no||'')}</span><span>${esc(v.series)}</span>${v.series_jp?`<span class="jp">· ${esc(v.series_jp)}</span>`:''}${(v.tags||[]).map(t=>`<span class="tag jp">${esc(t)}</span>`).join('')}</div><h2>${esc(v.title)}</h2></div>
+  <div class="vacts">${docs}<button class="cinebtn" id="vCineBtn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>Màn hình lớn</button></div></div></div>
+  <div class="vlist">${groups.map(g=>`<div class="vgh">${esc(g.s)}${g.j?`<span class="jp">${esc(g.j)}</span>`:''}<span class="n">${g.a.length} video</span></div><div class="vgrid">${g.a.map(x=>`<button class="vit${x.id===vCur?' on':''}" data-vid="${x.id}" type="button"><span class="th" style="background-image:url('${ytThumb(x.yt,'mqdefault')}')">${x.id===vCur?'<span class="now">Đang xem</span>':''}</span><span class="bd"><small>${esc(x.no||'')}${x.docs&&x.docs.length?' · có tài liệu':''}</small><b>${esc(x.title)}</b><span class="tg">${(x.tags||[]).map(t=>`<span class="tag gray jp">${esc(t)}</span>`).join('')}</span></span></button>`).join('')}</div>`).join('')}</div>`;
+ $('#vPoster').onclick=vidPlay;{const im=new Image();im.onload=()=>{const p=$('#vPoster');if(p&&im.naturalWidth>200)p.style.backgroundImage=`url('${im.src}')`};im.src=ytThumb(v.yt,'maxresdefault')}
+ $('#vCineBtn').onclick=()=>{if(!$('#vPlayer iframe'))vidPlay();document.body.classList.add('cine')};
+ if(autoplay)vidPlay()}
+$('#vidArea').addEventListener('click',e=>{const b=e.target.closest('[data-vid]');if(!b)return;vCur=b.dataset.vid;store.set('jftVid',vCur);renderVideo(true);$('#video').scrollIntoView({behavior:'smooth'})});
+$('#vCineX').onclick=()=>document.body.classList.remove('cine');$('#vCine').onclick=e=>{if(e.target.id==='vCine')document.body.classList.remove('cine')};
+document.addEventListener('keydown',e=>{if(e.key==='Escape')document.body.classList.remove('cine')});
+
+renderLearn();renderExams();renderVideo();renderVocab();renderGram();renderHw();
 </script>
 </body>
 </html>
