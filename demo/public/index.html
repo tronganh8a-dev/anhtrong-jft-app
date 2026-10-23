@@ -302,6 +302,8 @@ body.gjp .gp .jpx{display:block}
 .cbt-f{background:#000;border-top:4px solid #6b9524;min-height:57px;display:flex;align-items:center;gap:10px;padding:6px 12px}
 .cbt-f .ic{background:none;border:0;color:#fff;font-size:26px;line-height:1;padding:2px 6px}
 .cbt-f .sp{flex:1}
+.cbt-f .fu{margin-left:8px;color:#fff;background:#3f5a17;border:1px solid #6b9524;border-radius:3px;padding:4px 10px;font-size:13px;font-weight:700;display:inline-flex;align-items:center;gap:6px;cursor:pointer;font-family:var(--vi)}.cbt-f .fu rt{font-size:.55em}.cbt-f .fu b{background:#6b9524;border-radius:3px;padding:1px 6px;font-size:11.5px}.cbt-f .fu:not(.on){background:none;border-color:#555;color:#bbb}.cbt-f .fu:not(.on) b{background:#555}
+body.nofuri #cbt rt{display:none}body.nofuri .exp{line-height:1.7}
 .cbt-f .fl{width:44px;height:42px;background:#6b9524;border:0;border-radius:3px;color:#fff;font-size:20px}
 .cbt-f .fl.on{background:#c4a000}
 .cbt-f .nb{height:42px;border:0;border-radius:3px;color:#fff;font-weight:700;font-size:17px;padding:0 16px;background:#6b9524}
@@ -339,7 +341,7 @@ body.novi .vi-t{display:none}
   .cbt-img,.cbt-imgs,.ply,.yt{margin-left:0}
   .alist{margin-left:0}.fb,.chkb{margin-left:0}
   .alist.pic label{width:calc(50% - 7px)}
-  .cbt-f .ex{display:none}
+  .cbt-f .ex{display:none}.cbt-f .fu{margin-left:4px;padding:4px 7px}.cbt-f .fu .t{display:none}.cbt-f .nb{white-space:nowrap;padding:0 10px;font-size:15px}.cbt-f .ic{font-size:22px;padding:2px 3px}
 }
 /* vocab */
 .vtools{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:12px}
@@ -556,6 +558,7 @@ body.locked .app{filter:blur(6px);pointer-events:none}
     <button class="ic" id="viTg" type="button" title="Bật/tắt tiếng Việt" aria-label="Bật/tắt tiếng Việt">⚙</button>
     <button class="ic" id="gridBtn" type="button" title="Xem danh sách câu" aria-label="Danh sách câu">▦</button>
     <button class="ex" id="cbtClose" type="button">Thoát</button>
+    <button class="fu on" id="furiTg" type="button" aria-pressed="true" title="Bật/tắt phiên âm hiragana trên chữ Hán"><ruby>漢<rt>かん</rt></ruby><span class="t"> Furigana</span> <b>BẬT</b></button>
     <span class="sp"></span>
     <button class="fl" id="flagBtn" type="button" title="Đánh dấu câu này" aria-label="Đánh dấu">⚑</button>
     <button class="nb bk" id="prevQ" type="button">‹ Back</button>
@@ -625,6 +628,9 @@ function stopAudio(){if(AU){AU.pause();AU=null}}
 function closeCbt(){clearInterval(tick);stopAudio();$('#cbt').classList.remove('on');$('#gridOv').classList.remove('on');document.body.style.overflow='';S=null}
 $('#cbtClose').onclick=()=>{if(!S||S.done||confirm('Thoát bài đang làm? Kết quả sẽ không được lưu.'))closeCbt()};
 $('#viTg').onclick=()=>document.body.classList.toggle('novi');
+function setFuri(on){document.body.classList.toggle('nofuri',!on);const b=$('#furiTg');b.classList.toggle('on',on);b.setAttribute('aria-pressed',on);b.querySelector('b').textContent=on?'BẬT':'TẮT';try{localStorage.setItem('jftFuri',on?'1':'0')}catch(e){}}
+$('#furiTg').onclick=()=>setFuri(document.body.classList.contains('nofuri'));
+try{if(localStorage.getItem('jftFuri')==='0')setFuri(false)}catch(e){}
 function buildSecs(items,totalSec){const secs=[];items.forEach((q,k)=>{if(!q.o)return;const n=q.s||'';let s=secs.find(x=>x.name===n);if(!s){s={name:n,idx:[]};secs.push(s)}s.idx.push(k)});
  const tot=secs.reduce((a,s)=>a+s.idx.length,0)||1;secs.forEach(s=>s.time=Math.max(60,Math.round(totalSec*s.idx.length/tot)));return secs}
 function startExam(i,mode){const e=EXAMS[i];const items=e.qs.map(q=>({...q}));const pr=mode==='practice';
