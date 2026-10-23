@@ -188,7 +188,9 @@ export async function handle(req, env, next) {
 
   const res = await next();
   const out = new Response(res.body, res);
-  out.headers.set('Cache-Control', 'private, max-age=3600');
+  // Trang HTML + dữ liệu app: luôn hỏi lại máy chủ (có bản mới là thấy ngay); ảnh/audio vẫn lưu 1 giờ
+  const fresh = url.pathname === '/' || url.pathname.endsWith('.html') || url.pathname.startsWith('/app/data/');
+  out.headers.set('Cache-Control', fresh ? 'private, no-cache' : 'private, max-age=3600');
   out.headers.set('X-Robots-Tag', 'noindex');
   return out;
 }
