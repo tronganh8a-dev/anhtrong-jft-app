@@ -1,0 +1,4174 @@
+[
+ {
+  "i": 0,
+  "w": "学生",
+  "r": "がくせい",
+  "vi": "Học sinh",
+  "hv": "HỌC SINH",
+  "chars": [
+   {
+    "k": "学",
+    "hv": "HỌC",
+    "on": "ガク",
+    "kun": "まな.ぶ",
+    "vi": "học"
+   },
+   {
+    "k": "生",
+    "hv": "SINH",
+    "on": "セイ・ショウ",
+    "kun": "い.きる・う.まれる",
+    "vi": "sinh ra, sống"
+   }
+  ],
+  "tip_vi": "学 (HỌC) + 生 (SINH) = người đi học. Lưu ý 学生 dùng cho cả sinh viên đại học.",
+  "ex": {
+   "jp": "私は大学の学生です。",
+   "vi": "Tôi là sinh viên đại học."
+  }
+ },
+ {
+  "i": 1,
+  "w": "学校",
+  "r": "がっこう",
+  "vi": "Trường học",
+  "hv": "HỌC HIỆU",
+  "chars": [
+   {
+    "k": "学",
+    "hv": "HỌC",
+    "on": "ガク",
+    "kun": "まな.ぶ",
+    "vi": "học"
+   },
+   {
+    "k": "校",
+    "hv": "HIỆU",
+    "on": "コウ",
+    "kun": "",
+    "vi": "trường học"
+   }
+  ],
+  "tip_vi": "Biến âm: がく + こう → がっこう (く thành っ nhỏ).",
+  "ex": {
+   "jp": "学校は駅の近くにあります。",
+   "vi": "Trường học ở gần nhà ga."
+  }
+ },
+ {
+  "i": 2,
+  "w": "生活",
+  "r": "せいかつ",
+  "vi": "Cuộc sống",
+  "hv": "SINH HOẠT",
+  "chars": [
+   {
+    "k": "生",
+    "hv": "SINH",
+    "on": "セイ・ショウ",
+    "kun": "い.きる・う.まれる",
+    "vi": "sinh ra, sống"
+   },
+   {
+    "k": "活",
+    "hv": "HOẠT",
+    "on": "カツ",
+    "kun": "",
+    "vi": "hoạt động, sống"
+   }
+  ],
+  "tip_vi": "生 (SINH: sống) + 活 (HOẠT: hoạt động) = sinh hoạt, cuộc sống hằng ngày.",
+  "ex": {
+   "jp": "日本の生活は楽しいです。",
+   "vi": "Cuộc sống ở Nhật rất vui."
+  }
+ },
+ {
+  "i": 3,
+  "w": "去年",
+  "r": "きょねん",
+  "vi": "Năm ngoái",
+  "hv": "KHỨ NIÊN",
+  "chars": [
+   {
+    "k": "去",
+    "hv": "KHỨ",
+    "on": "キョ・コ",
+    "kun": "さ.る",
+    "vi": "đã qua, rời đi"
+   },
+   {
+    "k": "年",
+    "hv": "NIÊN",
+    "on": "ネン",
+    "kun": "とし",
+    "vi": "năm"
+   }
+  ],
+  "tip_vi": "去 (KHỨ: đã qua) + 年 (NIÊN: năm) = năm đã qua. Đọc きょねん, không phải きょとし.",
+  "ex": {
+   "jp": "去年、日本に来ました。",
+   "vi": "Tôi đã đến Nhật vào năm ngoái."
+  }
+ },
+ {
+  "i": 4,
+  "w": "先週",
+  "r": "せんしゅう",
+  "vi": "Tuần trước",
+  "hv": "TIÊN CHU",
+  "chars": [
+   {
+    "k": "先",
+    "hv": "TIÊN",
+    "on": "セン",
+    "kun": "さき",
+    "vi": "trước, đầu tiên"
+   },
+   {
+    "k": "週",
+    "hv": "CHU",
+    "on": "シュウ",
+    "kun": "",
+    "vi": "tuần"
+   }
+  ],
+  "tip_vi": "先 (TIÊN: trước) + 週 (CHU: tuần). Tương tự: 先月 (tháng trước).",
+  "ex": {
+   "jp": "先週、友だちと映画を見ました。",
+   "vi": "Tuần trước tôi đã xem phim với bạn."
+  }
+ },
+ {
+  "i": 5,
+  "w": "元気",
+  "r": "げんき",
+  "vi": "Sức khoẻ",
+  "hv": "NGUYÊN KHÍ",
+  "chars": [
+   {
+    "k": "元",
+    "hv": "NGUYÊN",
+    "on": "ゲン・ガン",
+    "kun": "もと",
+    "vi": "gốc, nguồn"
+   },
+   {
+    "k": "気",
+    "hv": "KHÍ",
+    "on": "キ・ケ",
+    "kun": "",
+    "vi": "khí, tinh thần"
+   }
+  ],
+  "tip_vi": "元 (NGUYÊN) + 気 (KHÍ) = nguyên khí, khỏe khoắn. お元気ですか = Bạn có khỏe không?",
+  "ex": {
+   "jp": "母は元気です。",
+   "vi": "Mẹ tôi khỏe."
+  }
+ },
+ {
+  "i": 6,
+  "w": "忙しい",
+  "r": "いそがしい",
+  "vi": "Bận rộn",
+  "hv": "MANG",
+  "chars": [
+   {
+    "k": "忙",
+    "hv": "MANG",
+    "on": "ボウ",
+    "kun": "いそが.しい",
+    "vi": "bận rộn"
+   }
+  ],
+  "tip_vi": "Chữ 忙 có bộ tâm đứng 忄 bên trái: bận đến mức tâm trí rối bời.",
+  "ex": {
+   "jp": "今週は仕事が忙しいです。",
+   "vi": "Tuần này công việc bận rộn."
+  }
+ },
+ {
+  "i": 7,
+  "w": "働く",
+  "r": "はたらく",
+  "vi": "Làm việc",
+  "hv": "ĐỘNG",
+  "chars": [
+   {
+    "k": "働",
+    "hv": "ĐỘNG",
+    "on": "ドウ",
+    "kun": "はたら.く",
+    "vi": "làm việc"
+   }
+  ],
+  "tip_vi": "働 = bộ nhân 亻 + 動 (chuyển động): người chuyển động = làm việc.",
+  "ex": {
+   "jp": "私は工場で働いています。",
+   "vi": "Tôi đang làm việc ở nhà máy."
+  }
+ },
+ {
+  "i": 8,
+  "w": "作る",
+  "r": "つくる",
+  "vi": "Nấu, chế tạo",
+  "hv": "TÁC",
+  "chars": [
+   {
+    "k": "作",
+    "hv": "TÁC",
+    "on": "サク・サ",
+    "kun": "つく.る",
+    "vi": "làm, tạo ra"
+   }
+  ],
+  "tip_vi": "作 có bộ nhân 亻: con người làm ra, tạo ra. Dùng cho nấu món ăn: 料理を作る.",
+  "ex": {
+   "jp": "昼ご飯を作ります。",
+   "vi": "Tôi nấu bữa trưa."
+  }
+ },
+ {
+  "i": 9,
+  "w": "人",
+  "r": "ひと・じん",
+  "vi": "Người",
+  "hv": "NHÂN",
+  "chars": [
+   {
+    "k": "人",
+    "hv": "NHÂN",
+    "on": "ジン・ニン",
+    "kun": "ひと",
+    "vi": "người"
+   }
+  ],
+  "tip_vi": "Đứng một mình đọc ひと; sau tên nước đọc じん (ベトナム人); đếm người: 一人 ひとり, 二人 ふたり.",
+  "ex": {
+   "jp": "あの人は私の先生です。",
+   "vi": "Người kia là giáo viên của tôi."
+  }
+ },
+ {
+  "i": 10,
+  "w": "犬",
+  "r": "いぬ",
+  "vi": "Con chó",
+  "hv": "KHUYỂN",
+  "chars": [
+   {
+    "k": "犬",
+    "hv": "KHUYỂN",
+    "on": "ケン",
+    "kun": "いぬ",
+    "vi": "con chó"
+   }
+  ],
+  "tip_vi": "犬 giống 大 (to) thêm một dấu chấm ở góc phải. Đừng nhầm với 太 (chấm ở dưới).",
+  "ex": {
+   "jp": "私の家に犬がいます。",
+   "vi": "Nhà tôi có con chó."
+  }
+ },
+ {
+  "i": 11,
+  "w": "家族",
+  "r": "かぞく",
+  "vi": "Gia đình",
+  "hv": "GIA TỘC",
+  "chars": [
+   {
+    "k": "家",
+    "hv": "GIA",
+    "on": "カ・ケ",
+    "kun": "いえ・や",
+    "vi": "nhà"
+   },
+   {
+    "k": "族",
+    "hv": "TỘC",
+    "on": "ゾク",
+    "kun": "",
+    "vi": "dòng họ, nhóm"
+   }
+  ],
+  "tip_vi": "家 (GIA: nhà) + 族 (TỘC: dòng họ) = gia tộc, gia đình.",
+  "ex": {
+   "jp": "家族は四人です。",
+   "vi": "Gia đình tôi có bốn người."
+  }
+ },
+ {
+  "i": 12,
+  "w": "夕方",
+  "r": "ゆうがた",
+  "vi": "Chiều tối",
+  "hv": "TỊCH PHƯƠNG",
+  "chars": [
+   {
+    "k": "夕",
+    "hv": "TỊCH",
+    "on": "セキ",
+    "kun": "ゆう",
+    "vi": "buổi chiều tối"
+   },
+   {
+    "k": "方",
+    "hv": "PHƯƠNG",
+    "on": "ホウ",
+    "kun": "かた",
+    "vi": "phương hướng, cách"
+   }
+  ],
+  "tip_vi": "夕 đọc ゆう; 方 ở đây đọc kun là がた (biến âm từ かた).",
+  "ex": {
+   "jp": "夕方、公園を散歩します。",
+   "vi": "Chiều tối tôi đi dạo ở công viên."
+  }
+ },
+ {
+  "i": 13,
+  "w": "英語",
+  "r": "えいご",
+  "vi": "Tiếng Anh",
+  "hv": "ANH NGỮ",
+  "chars": [
+   {
+    "k": "英",
+    "hv": "ANH",
+    "on": "エイ",
+    "kun": "",
+    "vi": "anh tài, nước Anh"
+   },
+   {
+    "k": "語",
+    "hv": "NGỮ",
+    "on": "ゴ",
+    "kun": "かた.る",
+    "vi": "ngôn ngữ, lời"
+   }
+  ],
+  "tip_vi": "Tên ngôn ngữ = tên nước + 語 (ご): ベトナム語, 日本語, 英語.",
+  "ex": {
+   "jp": "英語が少しわかります。",
+   "vi": "Tôi hiểu tiếng Anh một chút."
+  }
+ },
+ {
+  "i": 14,
+  "w": "音楽",
+  "r": "おんがく",
+  "vi": "Âm nhạc",
+  "hv": "ÂM NHẠC",
+  "chars": [
+   {
+    "k": "音",
+    "hv": "ÂM",
+    "on": "オン・イン",
+    "kun": "おと・ね",
+    "vi": "âm thanh"
+   },
+   {
+    "k": "楽",
+    "hv": "LẠC, NHẠC",
+    "on": "ガク・ラク",
+    "kun": "たの.しい",
+    "vi": "vui; âm nhạc"
+   }
+  ],
+  "tip_vi": "楽 có 2 âm: がく (âm nhạc) và らく (thoải mái); trong 音楽 đọc がく.",
+  "ex": {
+   "jp": "音楽を聞くのが好きです。",
+   "vi": "Tôi thích nghe nhạc."
+  }
+ },
+ {
+  "i": 15,
+  "w": "習う",
+  "r": "ならう",
+  "vi": "Học (từ ai đó)",
+  "hv": "TẬP",
+  "chars": [
+   {
+    "k": "習",
+    "hv": "TẬP",
+    "on": "シュウ",
+    "kun": "なら.う",
+    "vi": "học, luyện tập"
+   }
+  ],
+  "tip_vi": "習 có 羽 (lông vũ) ở trên: chim non tập vỗ cánh nhiều lần = luyện tập. 習う là học từ ai đó.",
+  "ex": {
+   "jp": "友だちにギターを習います。",
+   "vi": "Tôi học đàn ghi-ta từ bạn."
+  }
+ },
+ {
+  "i": 16,
+  "w": "出かける",
+  "r": "でかける",
+  "vi": "Ra ngoài",
+  "hv": "XUẤT",
+  "chars": [
+   {
+    "k": "出",
+    "hv": "XUẤT",
+    "on": "シュツ",
+    "kun": "で.る・だ.す",
+    "vi": "ra, xuất"
+   }
+  ],
+  "tip_vi": "出 (ra) + かける: ra ngoài, đi đâu đó. Chỉ có 出 viết bằng chữ Hán.",
+  "ex": {
+   "jp": "日曜日は家族と出かけます。",
+   "vi": "Chủ nhật tôi đi chơi với gia đình."
+  }
+ },
+ {
+  "i": 17,
+  "w": "季節",
+  "r": "きせつ",
+  "vi": "Mùa",
+  "hv": "QUÝ TIẾT",
+  "chars": [
+   {
+    "k": "季",
+    "hv": "QUÝ",
+    "on": "キ",
+    "kun": "",
+    "vi": "mùa"
+   },
+   {
+    "k": "節",
+    "hv": "TIẾT",
+    "on": "セツ",
+    "kun": "ふし",
+    "vi": "tiết, đốt"
+   }
+  ],
+  "tip_vi": "季 có bộ 禾 (lúa) trên 子: mùa vụ của cây lúa. 季節 = mùa trong năm.",
+  "ex": {
+   "jp": "日本には四つの季節があります。",
+   "vi": "Nhật Bản có bốn mùa."
+  }
+ },
+ {
+  "i": 18,
+  "w": "春",
+  "r": "はる",
+  "vi": "Xuân",
+  "hv": "XUÂN",
+  "chars": [
+   {
+    "k": "春",
+    "hv": "XUÂN",
+    "on": "シュン",
+    "kun": "はる",
+    "vi": "mùa xuân"
+   }
+  ],
+  "tip_vi": "春 phía dưới có 日 (mặt trời): nắng xuân ấm lên.",
+  "ex": {
+   "jp": "春に桜が咲きます。",
+   "vi": "Mùa xuân hoa anh đào nở."
+  }
+ },
+ {
+  "i": 19,
+  "w": "夏",
+  "r": "なつ",
+  "vi": "Hạ",
+  "hv": "HẠ",
+  "chars": [
+   {
+    "k": "夏",
+    "hv": "HẠ",
+    "on": "カ",
+    "kun": "なつ",
+    "vi": "mùa hè"
+   }
+  ],
+  "tip_vi": "Âm On ít gặp ở N5: 夏 thường đọc なつ; 夏休み = nghỉ hè.",
+  "ex": {
+   "jp": "夏はとても暑いです。",
+   "vi": "Mùa hè rất nóng."
+  }
+ },
+ {
+  "i": 20,
+  "w": "秋",
+  "r": "あき",
+  "vi": "Thu",
+  "hv": "THU",
+  "chars": [
+   {
+    "k": "秋",
+    "hv": "THU",
+    "on": "シュウ",
+    "kun": "あき",
+    "vi": "mùa thu"
+   }
+  ],
+  "tip_vi": "秋 = 禾 (lúa) + 火 (lửa): mùa lúa chín vàng như lửa.",
+  "ex": {
+   "jp": "秋は涼しくて、いい季節です。",
+   "vi": "Mùa thu mát mẻ, là mùa đẹp."
+  }
+ },
+ {
+  "i": 21,
+  "w": "冬",
+  "r": "ふゆ",
+  "vi": "Đông",
+  "hv": "ĐÔNG",
+  "chars": [
+   {
+    "k": "冬",
+    "hv": "ĐÔNG",
+    "on": "トウ",
+    "kun": "ふゆ",
+    "vi": "mùa đông"
+   }
+  ],
+  "tip_vi": "Hai chấm cuối chữ 冬 gợi hình băng tuyết.",
+  "ex": {
+   "jp": "冬は雪が降ります。",
+   "vi": "Mùa đông tuyết rơi."
+  }
+ },
+ {
+  "i": 22,
+  "w": "花",
+  "r": "はな",
+  "vi": "Hoa",
+  "hv": "HOA",
+  "chars": [
+   {
+    "k": "花",
+    "hv": "HOA",
+    "on": "カ",
+    "kun": "はな",
+    "vi": "hoa"
+   }
+  ],
+  "tip_vi": "花 = bộ thảo 艹 + 化 (biến hóa): cây cỏ biến thành hoa. Phân biệt 花 はな (hoa) và 鼻 はな (mũi).",
+  "ex": {
+   "jp": "花を買いました。",
+   "vi": "Tôi đã mua hoa."
+  }
+ },
+ {
+  "i": 23,
+  "w": "同じ",
+  "r": "おなじ",
+  "vi": "Giống nhau",
+  "hv": "ĐỒNG",
+  "chars": [
+   {
+    "k": "同",
+    "hv": "ĐỒNG",
+    "on": "ドウ",
+    "kun": "おな.じ",
+    "vi": "giống, cùng"
+   }
+  ],
+  "tip_vi": "Viết là 同じ (okurigana じ). Cấu trúc: AとBは同じです.",
+  "ex": {
+   "jp": "私と兄は同じ会社で働いています。",
+   "vi": "Tôi và anh trai làm cùng một công ty."
+  }
+ },
+ {
+  "i": 24,
+  "w": "暑い",
+  "r": "あつい",
+  "vi": "Nóng",
+  "hv": "THỬ",
+  "chars": [
+   {
+    "k": "暑",
+    "hv": "THỬ",
+    "on": "ショ",
+    "kun": "あつ.い",
+    "vi": "nóng (thời tiết)"
+   }
+  ],
+  "tip_vi": "暑い có bộ 日 (mặt trời): nóng do thời tiết. Nóng khi chạm vào là 熱い, cùng đọc あつい.",
+  "ex": {
+   "jp": "今日は暑いですね。",
+   "vi": "Hôm nay nóng nhỉ."
+  }
+ },
+ {
+  "i": 25,
+  "w": "寒い",
+  "r": "さむい",
+  "vi": "Lạnh",
+  "hv": "HÀN",
+  "chars": [
+   {
+    "k": "寒",
+    "hv": "HÀN",
+    "on": "カン",
+    "kun": "さむ.い",
+    "vi": "lạnh"
+   }
+  ],
+  "tip_vi": "寒い dùng cho thời tiết lạnh; đồ vật lạnh khi chạm là 冷たい.",
+  "ex": {
+   "jp": "北海道の冬は寒いです。",
+   "vi": "Mùa đông ở Hokkaido lạnh."
+  }
+ },
+ {
+  "i": 26,
+  "w": "天気",
+  "r": "てんき",
+  "vi": "Thời tiết",
+  "hv": "THIÊN KHÍ",
+  "chars": [
+   {
+    "k": "天",
+    "hv": "THIÊN",
+    "on": "テン",
+    "kun": "あめ・あま",
+    "vi": "trời"
+   },
+   {
+    "k": "気",
+    "hv": "KHÍ",
+    "on": "キ・ケ",
+    "kun": "",
+    "vi": "khí, tinh thần"
+   }
+  ],
+  "tip_vi": "天 (THIÊN: trời) + 気 (KHÍ) = khí trời, thời tiết.",
+  "ex": {
+   "jp": "明日の天気はどうですか。",
+   "vi": "Thời tiết ngày mai thế nào?"
+  }
+ },
+ {
+  "i": 27,
+  "w": "晴れ",
+  "r": "はれ",
+  "vi": "Nắng",
+  "hv": "TÌNH",
+  "chars": [
+   {
+    "k": "晴",
+    "hv": "TÌNH",
+    "on": "セイ",
+    "kun": "は.れる",
+    "vi": "trời quang, nắng"
+   }
+  ],
+  "tip_vi": "晴 có bộ 日 (mặt trời) + 青 (xanh): trời xanh có nắng. Động từ: 晴れる.",
+  "ex": {
+   "jp": "今日は晴れです。",
+   "vi": "Hôm nay trời nắng."
+  }
+ },
+ {
+  "i": 28,
+  "w": "雨",
+  "r": "あめ",
+  "vi": "Mưa",
+  "hv": "VŨ",
+  "chars": [
+   {
+    "k": "雨",
+    "hv": "VŨ",
+    "on": "ウ",
+    "kun": "あめ",
+    "vi": "mưa"
+   }
+  ],
+  "tip_vi": "Chữ 雨 trông như bầu trời có những giọt mưa rơi. 雨 và 飴 (kẹo) cùng đọc あめ.",
+  "ex": {
+   "jp": "雨の日は家にいます。",
+   "vi": "Ngày mưa tôi ở nhà."
+  }
+ },
+ {
+  "i": 29,
+  "w": "雪",
+  "r": "ゆき",
+  "vi": "Tuyết",
+  "hv": "TUYẾT",
+  "chars": [
+   {
+    "k": "雪",
+    "hv": "TUYẾT",
+    "on": "セツ",
+    "kun": "ゆき",
+    "vi": "tuyết"
+   }
+  ],
+  "tip_vi": "雪 có bộ 雨 phía trên: thứ rơi từ trời như mưa.",
+  "ex": {
+   "jp": "雪が降っています。",
+   "vi": "Tuyết đang rơi."
+  }
+ },
+ {
+  "i": 30,
+  "w": "風",
+  "r": "かぜ",
+  "vi": "Gió",
+  "hv": "PHONG",
+  "chars": [
+   {
+    "k": "風",
+    "hv": "PHONG",
+    "on": "フウ・フ",
+    "kun": "かぜ",
+    "vi": "gió"
+   }
+  ],
+  "tip_vi": "風 đọc かぜ; 風邪 (cảm lạnh) cũng đọc かぜ.",
+  "ex": {
+   "jp": "今日は風が強いです。",
+   "vi": "Hôm nay gió mạnh."
+  }
+ },
+ {
+  "i": 31,
+  "w": "今",
+  "r": "いま",
+  "vi": "Bây giờ",
+  "hv": "KIM",
+  "chars": [
+   {
+    "k": "今",
+    "hv": "KIM",
+    "on": "コン・キン",
+    "kun": "いま",
+    "vi": "bây giờ"
+   }
+  ],
+  "tip_vi": "今 đọc いま. Khi ghép: 今日 きょう, 今年 ことし, 今週 こんしゅう (cách đọc đặc biệt).",
+  "ex": {
+   "jp": "今、何時ですか。",
+   "vi": "Bây giờ là mấy giờ?"
+  }
+ },
+ {
+  "i": 32,
+  "w": "昨日",
+  "r": "きのう",
+  "vi": "Hôm qua",
+  "hv": "TẠC NHẬT",
+  "chars": [
+   {
+    "k": "昨",
+    "hv": "TẠC",
+    "on": "サク",
+    "kun": "",
+    "vi": "hôm qua, trước"
+   },
+   {
+    "k": "日",
+    "hv": "NHẬT",
+    "on": "ニチ・ジツ",
+    "kun": "ひ・か",
+    "vi": "ngày, mặt trời"
+   }
+  ],
+  "tip_vi": "Cách đọc đặc biệt: 昨日 = きのう (không đọc theo từng chữ).",
+  "ex": {
+   "jp": "昨日は雨でした。",
+   "vi": "Hôm qua trời mưa."
+  }
+ },
+ {
+  "i": 33,
+  "w": "明日",
+  "r": "あした",
+  "vi": "Ngày mai",
+  "hv": "MINH NHẬT",
+  "chars": [
+   {
+    "k": "明",
+    "hv": "MINH",
+    "on": "メイ・ミョウ",
+    "kun": "あか.るい・あ.す",
+    "vi": "sáng"
+   },
+   {
+    "k": "日",
+    "hv": "NHẬT",
+    "on": "ニチ・ジツ",
+    "kun": "ひ・か",
+    "vi": "ngày, mặt trời"
+   }
+  ],
+  "tip_vi": "Cách đọc đặc biệt: 明日 = あした (trang trọng: あす).",
+  "ex": {
+   "jp": "明日、病院へ行きます。",
+   "vi": "Ngày mai tôi đi bệnh viện."
+  }
+ },
+ {
+  "i": 34,
+  "w": "毎日",
+  "r": "まいにち",
+  "vi": "Hằng ngày",
+  "hv": "MỖI NHẬT",
+  "chars": [
+   {
+    "k": "毎",
+    "hv": "MỖI",
+    "on": "マイ",
+    "kun": "",
+    "vi": "mỗi"
+   },
+   {
+    "k": "日",
+    "hv": "NHẬT",
+    "on": "ニチ・ジツ",
+    "kun": "ひ・か",
+    "vi": "ngày, mặt trời"
+   }
+  ],
+  "tip_vi": "毎 (MỖI) + 日 (NHẬT). Tương tự: 毎週, 毎月, 毎年, 毎朝.",
+  "ex": {
+   "jp": "毎日、日本語を勉強します。",
+   "vi": "Hằng ngày tôi học tiếng Nhật."
+  }
+ },
+ {
+  "i": 35,
+  "w": "強い",
+  "r": "つよい",
+  "vi": "Mạnh",
+  "hv": "CƯỜNG",
+  "chars": [
+   {
+    "k": "強",
+    "hv": "CƯỜNG",
+    "on": "キョウ・ゴウ",
+    "kun": "つよ.い",
+    "vi": "mạnh"
+   }
+  ],
+  "tip_vi": "強 có bộ 弓 (cung): cánh cung mạnh. Trái nghĩa: 弱い (yếu).",
+  "ex": {
+   "jp": "兄はとても強いです。",
+   "vi": "Anh trai tôi rất khỏe."
+  }
+ },
+ {
+  "i": 36,
+  "w": "町",
+  "r": "まち",
+  "vi": "Khu phố",
+  "hv": "ĐINH",
+  "chars": [
+   {
+    "k": "町",
+    "hv": "ĐINH",
+    "on": "チョウ",
+    "kun": "まち",
+    "vi": "khu phố, thị trấn"
+   }
+  ],
+  "tip_vi": "町 = 田 (ruộng) + 丁: nơi người ở quanh ruộng đồng, khu phố.",
+  "ex": {
+   "jp": "私の町は小さいです。",
+   "vi": "Thị trấn của tôi nhỏ."
+  }
+ },
+ {
+  "i": 37,
+  "w": "店",
+  "r": "みせ",
+  "vi": "Cửa hàng",
+  "hv": "ĐIẾM",
+  "chars": [
+   {
+    "k": "店",
+    "hv": "ĐIẾM",
+    "on": "テン",
+    "kun": "みせ",
+    "vi": "cửa hàng"
+   }
+  ],
+  "tip_vi": "店 có bộ 广 (mái nhà): nơi có mái che để bán hàng.",
+  "ex": {
+   "jp": "この店は安いです。",
+   "vi": "Cửa hàng này rẻ."
+  }
+ },
+ {
+  "i": 38,
+  "w": "食堂",
+  "r": "しょくどう",
+  "vi": "Nhà ăn",
+  "hv": "THỰC ĐƯỜNG",
+  "chars": [
+   {
+    "k": "食",
+    "hv": "THỰC",
+    "on": "ショク",
+    "kun": "た.べる",
+    "vi": "ăn"
+   },
+   {
+    "k": "堂",
+    "hv": "ĐƯỜNG",
+    "on": "ドウ",
+    "kun": "",
+    "vi": "gian nhà lớn, hội trường"
+   }
+  ],
+  "tip_vi": "食 (THỰC: ăn) + 堂 (ĐƯỜNG: gian nhà lớn) = phòng ăn, nhà ăn.",
+  "ex": {
+   "jp": "会社の食堂で昼ご飯を食べます。",
+   "vi": "Tôi ăn trưa ở nhà ăn của công ty."
+  }
+ },
+ {
+  "i": 39,
+  "w": "便利",
+  "r": "べんり",
+  "vi": "Tiện lợi",
+  "hv": "TIỆN LỢI",
+  "chars": [
+   {
+    "k": "便",
+    "hv": "TIỆN",
+    "on": "ベン・ビン",
+    "kun": "たよ.り",
+    "vi": "tiện lợi; thư tín"
+   },
+   {
+    "k": "利",
+    "hv": "LỢI",
+    "on": "リ",
+    "kun": "き.く",
+    "vi": "lợi ích"
+   }
+  ],
+  "tip_vi": "便 (TIỆN) + 利 (LỢI) = tiện lợi. Thêm 不 phía trước thành 不便 (bất tiện).",
+  "ex": {
+   "jp": "駅の近くは便利です。",
+   "vi": "Gần ga thì tiện lợi."
+  }
+ },
+ {
+  "i": 40,
+  "w": "不便",
+  "r": "ふべん",
+  "vi": "Bất tiện",
+  "hv": "BẤT TIỆN",
+  "chars": [
+   {
+    "k": "不",
+    "hv": "BẤT",
+    "on": "フ・ブ",
+    "kun": "",
+    "vi": "không"
+   },
+   {
+    "k": "便",
+    "hv": "TIỆN",
+    "on": "ベン・ビン",
+    "kun": "たよ.り",
+    "vi": "tiện lợi; thư tín"
+   }
+  ],
+  "tip_vi": "不 (BẤT: không) + 便 (TIỆN). 不 đọc ふ trong từ này.",
+  "ex": {
+   "jp": "私の家は駅から遠くて不便です。",
+   "vi": "Nhà tôi xa ga nên bất tiện."
+  }
+ },
+ {
+  "i": 41,
+  "w": "静か",
+  "r": "しずか",
+  "vi": "Yên tĩnh",
+  "hv": "TĨNH",
+  "chars": [
+   {
+    "k": "静",
+    "hv": "TĨNH",
+    "on": "セイ・ジョウ",
+    "kun": "しず.か",
+    "vi": "yên tĩnh"
+   }
+  ],
+  "tip_vi": "静 có 青 (xanh) bên trái: màu xanh gợi sự yên bình. Tính từ đuôi な: 静かな町.",
+  "ex": {
+   "jp": "図書館は静かです。",
+   "vi": "Thư viện yên tĩnh."
+  }
+ },
+ {
+  "i": 42,
+  "w": "有名",
+  "r": "ゆうめい",
+  "vi": "Nổi tiếng",
+  "hv": "HỮU DANH",
+  "chars": [
+   {
+    "k": "有",
+    "hv": "HỮU",
+    "on": "ユウ・ウ",
+    "kun": "あ.る",
+    "vi": "có"
+   },
+   {
+    "k": "名",
+    "hv": "DANH",
+    "on": "メイ・ミョウ",
+    "kun": "な",
+    "vi": "tên, nổi tiếng"
+   }
+  ],
+  "tip_vi": "有 (HỮU: có) + 名 (DANH: tên) = có tên tuổi, nổi tiếng. Tính từ đuôi な.",
+  "ex": {
+   "jp": "京都は有名な町です。",
+   "vi": "Kyoto là thành phố nổi tiếng."
+  }
+ },
+ {
+  "i": 43,
+  "w": "多い",
+  "r": "おおい",
+  "vi": "Nhiều",
+  "hv": "ĐA",
+  "chars": [
+   {
+    "k": "多",
+    "hv": "ĐA",
+    "on": "タ",
+    "kun": "おお.い",
+    "vi": "nhiều"
+   }
+  ],
+  "tip_vi": "多 gồm hai chữ 夕 chồng lên nhau: nhiều buổi chiều = nhiều. Trước danh từ thường dùng 多くの.",
+  "ex": {
+   "jp": "この町は人が多いです。",
+   "vi": "Thị trấn này đông người."
+  }
+ },
+ {
+  "i": 44,
+  "w": "少ない",
+  "r": "すくない",
+  "vi": "Ít",
+  "hv": "THIỂU",
+  "chars": [
+   {
+    "k": "少",
+    "hv": "THIỂU",
+    "on": "ショウ",
+    "kun": "すく.ない・すこ.し",
+    "vi": "ít"
+   }
+  ],
+  "tip_vi": "Phân biệt: 少ない (すくない, ít) và 少し (すこし, một chút). Trái nghĩa của 多い.",
+  "ex": {
+   "jp": "私の町は店が少ないです。",
+   "vi": "Thị trấn của tôi ít cửa hàng."
+  }
+ },
+ {
+  "i": 45,
+  "w": "遠い",
+  "r": "とおい",
+  "vi": "Xa",
+  "hv": "VIỄN",
+  "chars": [
+   {
+    "k": "遠",
+    "hv": "VIỄN",
+    "on": "エン・オン",
+    "kun": "とお.い",
+    "vi": "xa"
+   }
+  ],
+  "tip_vi": "遠 có bộ 辶 (đi đường): phải đi nhiều mới tới = xa. Trái nghĩa: 近い.",
+  "ex": {
+   "jp": "会社は家から遠いです。",
+   "vi": "Công ty xa nhà."
+  }
+ },
+ {
+  "i": 46,
+  "w": "道",
+  "r": "みち",
+  "vi": "Con đường",
+  "hv": "ĐẠO",
+  "chars": [
+   {
+    "k": "道",
+    "hv": "ĐẠO",
+    "on": "ドウ",
+    "kun": "みち",
+    "vi": "con đường"
+   }
+  ],
+  "tip_vi": "道 có bộ 辶 (bước đi) + 首 (đầu): đường đi. Âm On どう trong 柔道, 書道.",
+  "ex": {
+   "jp": "この道をまっすぐ行ってください。",
+   "vi": "Hãy đi thẳng con đường này."
+  }
+ },
+ {
+  "i": 47,
+  "w": "公園",
+  "r": "こうえん",
+  "vi": "Công viên",
+  "hv": "CÔNG VIÊN",
+  "chars": [
+   {
+    "k": "公",
+    "hv": "CÔNG",
+    "on": "コウ",
+    "kun": "おおやけ",
+    "vi": "công cộng"
+   },
+   {
+    "k": "園",
+    "hv": "VIÊN",
+    "on": "エン",
+    "kun": "その",
+    "vi": "vườn"
+   }
+  ],
+  "tip_vi": "公 (CÔNG: công cộng) + 園 (VIÊN: vườn) = vườn công cộng.",
+  "ex": {
+   "jp": "子どもと公園で遊びます。",
+   "vi": "Tôi chơi với con ở công viên."
+  }
+ },
+ {
+  "i": 48,
+  "w": "銀行",
+  "r": "ぎんこう",
+  "vi": "Ngân hàng",
+  "hv": "NGÂN HÀNG",
+  "chars": [
+   {
+    "k": "銀",
+    "hv": "NGÂN",
+    "on": "ギン",
+    "kun": "",
+    "vi": "bạc"
+   },
+   {
+    "k": "行",
+    "hv": "HÀNH, HÀNG",
+    "on": "コウ・ギョウ",
+    "kun": "い.く・おこな.う",
+    "vi": "đi; hàng"
+   }
+  ],
+  "tip_vi": "銀 (NGÂN: bạc) + 行 (HÀNG) = ngân hàng. 行 ở đây đọc こう.",
+  "ex": {
+   "jp": "銀行でお金を下ろします。",
+   "vi": "Tôi rút tiền ở ngân hàng."
+  }
+ },
+ {
+  "i": 49,
+  "w": "お寺",
+  "r": "おてら",
+  "vi": "Chùa",
+  "hv": "TỰ",
+  "chars": [
+   {
+    "k": "寺",
+    "hv": "TỰ",
+    "on": "ジ",
+    "kun": "てら",
+    "vi": "chùa"
+   }
+  ],
+  "tip_vi": "寺 đọc てら, thường thêm お thành お寺. Tên chùa dùng 〜寺 (じ): 清水寺.",
+  "ex": {
+   "jp": "日曜日にお寺へ行きました。",
+   "vi": "Chủ nhật tôi đã đi chùa."
+  }
+ },
+ {
+  "i": 50,
+  "w": "神社",
+  "r": "じんじゃ",
+  "vi": "Đền thờ",
+  "hv": "THẦN XÃ",
+  "chars": [
+   {
+    "k": "神",
+    "hv": "THẦN",
+    "on": "シン・ジン",
+    "kun": "かみ",
+    "vi": "thần"
+   },
+   {
+    "k": "社",
+    "hv": "XÃ",
+    "on": "シャ",
+    "kun": "やしろ",
+    "vi": "đền thờ; công ty"
+   }
+  ],
+  "tip_vi": "神 (THẦN) + 社 (XÃ). Lưu ý đọc じんじゃ (không phải しんしゃ). Chùa là Phật giáo, 神社 là đền Thần đạo.",
+  "ex": {
+   "jp": "正月に神社へ行きます。",
+   "vi": "Dịp Tết tôi đi đền."
+  }
+ },
+ {
+  "i": 51,
+  "w": "右",
+  "r": "みぎ",
+  "vi": "Phải",
+  "hv": "HỮU",
+  "chars": [
+   {
+    "k": "右",
+    "hv": "HỮU",
+    "on": "ウ・ユウ",
+    "kun": "みぎ",
+    "vi": "bên phải"
+   }
+  ],
+  "tip_vi": "右 có 口 (miệng) bên dưới: tay phải là tay cầm đũa đưa cơm lên miệng.",
+  "ex": {
+   "jp": "右に曲がってください。",
+   "vi": "Hãy rẽ phải."
+  }
+ },
+ {
+  "i": 52,
+  "w": "左",
+  "r": "ひだり",
+  "vi": "Trái",
+  "hv": "TẢ",
+  "chars": [
+   {
+    "k": "左",
+    "hv": "TẢ",
+    "on": "サ",
+    "kun": "ひだり",
+    "vi": "bên trái"
+   }
+  ],
+  "tip_vi": "左 có 工 bên dưới, phân biệt với 右 có 口.",
+  "ex": {
+   "jp": "銀行は駅の左にあります。",
+   "vi": "Ngân hàng ở bên trái nhà ga."
+  }
+ },
+ {
+  "i": 53,
+  "w": "近く",
+  "r": "ちかく",
+  "vi": "Gần",
+  "hv": "CẬN",
+  "chars": [
+   {
+    "k": "近",
+    "hv": "CẬN",
+    "on": "キン",
+    "kun": "ちか.い",
+    "vi": "gần"
+   }
+  ],
+  "tip_vi": "Danh từ từ tính từ 近い: 近く = chỗ gần, gần đây. 駅の近く = gần ga.",
+  "ex": {
+   "jp": "家の近くにスーパーがあります。",
+   "vi": "Gần nhà có siêu thị."
+  }
+ },
+ {
+  "i": 54,
+  "w": "車",
+  "r": "くるま",
+  "vi": "Ô tô",
+  "hv": "XA",
+  "chars": [
+   {
+    "k": "車",
+    "hv": "XA",
+    "on": "シャ",
+    "kun": "くるま",
+    "vi": "xe"
+   }
+  ],
+  "tip_vi": "Chữ 車 trông như chiếc xe nhìn từ trên xuống, có trục và hai bánh.",
+  "ex": {
+   "jp": "車で会社へ行きます。",
+   "vi": "Tôi đi làm bằng ô tô."
+  }
+ },
+ {
+  "i": 55,
+  "w": "送る",
+  "r": "おくる",
+  "vi": "Gửi, tiễn",
+  "hv": "TỐNG",
+  "chars": [
+   {
+    "k": "送",
+    "hv": "TỐNG",
+    "on": "ソウ",
+    "kun": "おく.る",
+    "vi": "gửi, tiễn"
+   }
+  ],
+  "tip_vi": "送 có bộ 辶 (đi đường): đưa đi, gửi đi. 駅まで送る = tiễn ra ga.",
+  "ex": {
+   "jp": "国の家族に荷物を送りました。",
+   "vi": "Tôi đã gửi hàng cho gia đình ở quê."
+  }
+ },
+ {
+  "i": 56,
+  "w": "時間",
+  "r": "じかん",
+  "vi": "Thời gian",
+  "hv": "THỜI GIAN",
+  "chars": [
+   {
+    "k": "時",
+    "hv": "THỜI",
+    "on": "ジ",
+    "kun": "とき",
+    "vi": "thời gian, giờ"
+   },
+   {
+    "k": "間",
+    "hv": "GIAN",
+    "on": "カン・ケン",
+    "kun": "あいだ・ま",
+    "vi": "khoảng giữa"
+   }
+  ],
+  "tip_vi": "時 (THỜI) + 間 (GIAN) = thời gian. Thêm 〜時間 sau số = số giờ: 二時間.",
+  "ex": {
+   "jp": "時間がありません。",
+   "vi": "Tôi không có thời gian."
+  }
+ },
+ {
+  "i": 57,
+  "w": "待つ",
+  "r": "まつ",
+  "vi": "Chờ",
+  "hv": "ĐÃI",
+  "chars": [
+   {
+    "k": "待",
+    "hv": "ĐÃI",
+    "on": "タイ",
+    "kun": "ま.つ",
+    "vi": "chờ đợi"
+   }
+  ],
+  "tip_vi": "待 có bộ 彳 (bước chân) + 寺. Dùng: 〜を待つ (chờ ~).",
+  "ex": {
+   "jp": "駅で友だちを待ちます。",
+   "vi": "Tôi chờ bạn ở ga."
+  }
+ },
+ {
+  "i": 58,
+  "w": "止まる",
+  "r": "とまる",
+  "vi": "Dừng",
+  "hv": "CHỈ",
+  "chars": [
+   {
+    "k": "止",
+    "hv": "CHỈ",
+    "on": "シ",
+    "kun": "と.まる・と.める",
+    "vi": "dừng lại"
+   }
+  ],
+  "tip_vi": "止 tự động từ 止まる (dừng lại), tha động từ 止める (cho dừng).",
+  "ex": {
+   "jp": "電車が止まりました。",
+   "vi": "Tàu điện đã dừng lại."
+  }
+ },
+ {
+  "i": 59,
+  "w": "着く",
+  "r": "つく",
+  "vi": "Tới nơi",
+  "hv": "TRƯỚC",
+  "chars": [
+   {
+    "k": "着",
+    "hv": "TRƯỚC",
+    "on": "チャク",
+    "kun": "き.る・つ.く",
+    "vi": "mặc; đến nơi"
+   }
+  ],
+  "tip_vi": "着 có hai nghĩa: 着く (つく, đến nơi) và 着る (きる, mặc áo). Dùng: 〜に着く.",
+  "ex": {
+   "jp": "九時に会社に着きます。",
+   "vi": "Tôi đến công ty lúc 9 giờ."
+  }
+ },
+ {
+  "i": 60,
+  "w": "急ぐ",
+  "r": "いそぐ",
+  "vi": "Gấp, vội vã",
+  "hv": "CẤP",
+  "chars": [
+   {
+    "k": "急",
+    "hv": "CẤP",
+    "on": "キュウ",
+    "kun": "いそ.ぐ",
+    "vi": "gấp, vội"
+   }
+  ],
+  "tip_vi": "急 có bộ 心 (tim) bên dưới: tim đập nhanh vì vội.",
+  "ex": {
+   "jp": "時間がないから、急ぎましょう。",
+   "vi": "Không có thời gian nên hãy nhanh lên."
+  }
+ },
+ {
+  "i": 61,
+  "w": "お金",
+  "r": "おかね",
+  "vi": "Tiền",
+  "hv": "KIM",
+  "chars": [
+   {
+    "k": "金",
+    "hv": "KIM",
+    "on": "キン・コン",
+    "kun": "かね",
+    "vi": "vàng, tiền"
+   }
+  ],
+  "tip_vi": "金 đọc かね, thường thêm お thành お金. Âm On きん trong 金曜日.",
+  "ex": {
+   "jp": "お金がありません。",
+   "vi": "Tôi không có tiền."
+  }
+ },
+ {
+  "i": 62,
+  "w": "食事",
+  "r": "しょくじ",
+  "vi": "Dùng bữa",
+  "hv": "THỰC SỰ",
+  "chars": [
+   {
+    "k": "食",
+    "hv": "THỰC",
+    "on": "ショク",
+    "kun": "た.べる",
+    "vi": "ăn"
+   },
+   {
+    "k": "事",
+    "hv": "SỰ",
+    "on": "ジ",
+    "kun": "こと",
+    "vi": "việc"
+   }
+  ],
+  "tip_vi": "食 (THỰC: ăn) + 事 (SỰ: việc) = việc ăn uống, bữa ăn.",
+  "ex": {
+   "jp": "家族と食事をしました。",
+   "vi": "Tôi đã dùng bữa cùng gia đình."
+  }
+ },
+ {
+  "i": 63,
+  "w": "店",
+  "r": "みせ",
+  "vi": "Cửa hàng",
+  "hv": "ĐIẾM",
+  "chars": [
+   {
+    "k": "店",
+    "hv": "ĐIẾM",
+    "on": "テン",
+    "kun": "みせ",
+    "vi": "cửa hàng"
+   }
+  ],
+  "tip_vi": "店 có bộ 广 (mái nhà) + 占: nơi có mái che để buôn bán. Âm On てん trong 店員 (nhân viên cửa hàng).",
+  "ex": {
+   "jp": "あの店でパンを買います。",
+   "vi": "Tôi mua bánh mì ở cửa hàng kia."
+  }
+ },
+ {
+  "i": 64,
+  "w": "博物館",
+  "r": "はくぶつかん",
+  "vi": "Viện bảo tàng",
+  "hv": "BÁC VẬT QUÁN",
+  "chars": [
+   {
+    "k": "博",
+    "hv": "BÁC",
+    "on": "ハク・バク",
+    "kun": "",
+    "vi": "rộng, uyên bác"
+   },
+   {
+    "k": "物",
+    "hv": "VẬT",
+    "on": "ブツ・モツ",
+    "kun": "もの",
+    "vi": "đồ vật"
+   },
+   {
+    "k": "館",
+    "hv": "QUÁN",
+    "on": "カン",
+    "kun": "やかた",
+    "vi": "tòa nhà lớn"
+   }
+  ],
+  "tip_vi": "博 (BÁC: rộng) + 物 (VẬT) + 館 (QUÁN: tòa nhà) = tòa nhà chứa nhiều đồ vật.",
+  "ex": {
+   "jp": "週末に博物館へ行きました。",
+   "vi": "Cuối tuần tôi đã đến viện bảo tàng."
+  }
+ },
+ {
+  "i": 65,
+  "w": "動物園",
+  "r": "どうぶつえん",
+  "vi": "Sở thú",
+  "hv": "ĐỘNG VẬT VIÊN",
+  "chars": [
+   {
+    "k": "動",
+    "hv": "ĐỘNG",
+    "on": "ドウ",
+    "kun": "うご.く",
+    "vi": "chuyển động"
+   },
+   {
+    "k": "物",
+    "hv": "VẬT",
+    "on": "ブツ・モツ",
+    "kun": "もの",
+    "vi": "đồ vật"
+   },
+   {
+    "k": "園",
+    "hv": "VIÊN",
+    "on": "エン",
+    "kun": "その",
+    "vi": "vườn"
+   }
+  ],
+  "tip_vi": "動物 (động vật) + 園 (vườn) = vườn động vật.",
+  "ex": {
+   "jp": "子どもと動物園へ行きたいです。",
+   "vi": "Tôi muốn đi sở thú với con."
+  }
+ },
+ {
+  "i": 66,
+  "w": "試合",
+  "r": "しあい",
+  "vi": "Trận đấu",
+  "hv": "THÍ HỢP",
+  "chars": [
+   {
+    "k": "試",
+    "hv": "THÍ",
+    "on": "シ",
+    "kun": "ため.す・こころ.みる",
+    "vi": "thử, thi"
+   },
+   {
+    "k": "合",
+    "hv": "HỢP",
+    "on": "ゴウ・ガッ",
+    "kun": "あ.う",
+    "vi": "hợp, khớp"
+   }
+  ],
+  "tip_vi": "試 (THÍ: thử, thi) + 合 (HỢP). Lưu ý đọc しあい (合 đọc kun あい).",
+  "ex": {
+   "jp": "明日、サッカーの試合があります。",
+   "vi": "Ngày mai có trận đấu bóng đá."
+  }
+ },
+ {
+  "i": 67,
+  "w": "楽しい",
+  "r": "たのしい",
+  "vi": "Vui",
+  "hv": "LẠC",
+  "chars": [
+   {
+    "k": "楽",
+    "hv": "LẠC, NHẠC",
+    "on": "ガク・ラク",
+    "kun": "たの.しい",
+    "vi": "vui; âm nhạc"
+   }
+  ],
+  "tip_vi": "楽 ở đây đọc たの (kun). Okurigana: 楽しい.",
+  "ex": {
+   "jp": "日本の生活は楽しいです。",
+   "vi": "Cuộc sống ở Nhật rất vui."
+  }
+ },
+ {
+  "i": 68,
+  "w": "難しい",
+  "r": "むずかしい",
+  "vi": "Khó",
+  "hv": "NAN",
+  "chars": [
+   {
+    "k": "難",
+    "hv": "NAN",
+    "on": "ナン",
+    "kun": "むずか.しい",
+    "vi": "khó"
+   }
+  ],
+  "tip_vi": "Okurigana dài: 難しい = むずか + しい. Trái nghĩa: 易しい (やさしい, dễ).",
+  "ex": {
+   "jp": "漢字は難しいです。",
+   "vi": "Chữ Hán khó."
+  }
+ },
+ {
+  "i": 69,
+  "w": "登る",
+  "r": "のぼる",
+  "vi": "Leo (núi, tháp)",
+  "hv": "ĐĂNG",
+  "chars": [
+   {
+    "k": "登",
+    "hv": "ĐĂNG",
+    "on": "トウ・ト",
+    "kun": "のぼ.る",
+    "vi": "leo, trèo"
+   }
+  ],
+  "tip_vi": "登 dùng với trợ từ に: 山に登る (leo núi).",
+  "ex": {
+   "jp": "富士山に登りたいです。",
+   "vi": "Tôi muốn leo núi Phú Sĩ."
+  }
+ },
+ {
+  "i": 70,
+  "w": "高校",
+  "r": "こうこう",
+  "vi": "Trường cấp 3",
+  "hv": "CAO HIỆU",
+  "chars": [
+   {
+    "k": "高",
+    "hv": "CAO",
+    "on": "コウ",
+    "kun": "たか.い",
+    "vi": "cao"
+   },
+   {
+    "k": "校",
+    "hv": "HIỆU",
+    "on": "コウ",
+    "kun": "",
+    "vi": "trường học"
+   }
+  ],
+  "tip_vi": "高 (CAO) + 校 (HIỆU) = 高等学校 (trường trung học phổ thông) nói tắt.",
+  "ex": {
+   "jp": "弟は高校の学生です。",
+   "vi": "Em trai tôi là học sinh cấp 3."
+  }
+ },
+ {
+  "i": 71,
+  "w": "大学",
+  "r": "だいがく",
+  "vi": "Đại học",
+  "hv": "ĐẠI HỌC",
+  "chars": [
+   {
+    "k": "大",
+    "hv": "ĐẠI",
+    "on": "ダイ・タイ",
+    "kun": "おお.きい",
+    "vi": "to, lớn"
+   },
+   {
+    "k": "学",
+    "hv": "HỌC",
+    "on": "ガク",
+    "kun": "まな.ぶ",
+    "vi": "học"
+   }
+  ],
+  "tip_vi": "大 (ĐẠI: lớn) + 学 (HỌC) = đại học. 大 đọc だい.",
+  "ex": {
+   "jp": "兄は大学で英語を勉強しています。",
+   "vi": "Anh trai tôi đang học tiếng Anh ở đại học."
+  }
+ },
+ {
+  "i": 72,
+  "w": "練習",
+  "r": "れんしゅう",
+  "vi": "Luyện tập",
+  "hv": "LUYỆN TẬP",
+  "chars": [
+   {
+    "k": "練",
+    "hv": "LUYỆN",
+    "on": "レン",
+    "kun": "ね.る",
+    "vi": "rèn luyện"
+   },
+   {
+    "k": "習",
+    "hv": "TẬP",
+    "on": "シュウ",
+    "kun": "なら.う",
+    "vi": "học, luyện tập"
+   }
+  ],
+  "tip_vi": "練 (LUYỆN) + 習 (TẬP). Dùng với する: 練習する.",
+  "ex": {
+   "jp": "毎日、ピアノを練習します。",
+   "vi": "Hằng ngày tôi luyện tập đàn piano."
+  }
+ },
+ {
+  "i": 73,
+  "w": "漢字",
+  "r": "かんじ",
+  "vi": "Hán tự",
+  "hv": "HÁN TỰ",
+  "chars": [
+   {
+    "k": "漢",
+    "hv": "HÁN",
+    "on": "カン",
+    "kun": "",
+    "vi": "Hán (Trung Hoa)"
+   },
+   {
+    "k": "字",
+    "hv": "TỰ",
+    "on": "ジ",
+    "kun": "あざ",
+    "vi": "chữ"
+   }
+  ],
+  "tip_vi": "漢 (HÁN) + 字 (TỰ: chữ) = chữ Hán. 漢 có bộ thủy 氵.",
+  "ex": {
+   "jp": "漢字を毎日五つ覚えます。",
+   "vi": "Mỗi ngày tôi nhớ năm chữ Hán."
+  }
+ },
+ {
+  "i": 74,
+  "w": "無料",
+  "r": "むりょう",
+  "vi": "Miễn phí",
+  "hv": "VÔ LIỆU",
+  "chars": [
+   {
+    "k": "無",
+    "hv": "VÔ",
+    "on": "ム・ブ",
+    "kun": "な.い",
+    "vi": "không có"
+   },
+   {
+    "k": "料",
+    "hv": "LIỆU",
+    "on": "リョウ",
+    "kun": "",
+    "vi": "phí; nguyên liệu"
+   }
+  ],
+  "tip_vi": "無 (VÔ: không) + 料 (LIỆU: phí) = không mất phí. Trái nghĩa: 有料 (có phí).",
+  "ex": {
+   "jp": "この博物館は無料です。",
+   "vi": "Viện bảo tàng này miễn phí."
+  }
+ },
+ {
+  "i": 75,
+  "w": "言う",
+  "r": "いう",
+  "vi": "Nói",
+  "hv": "NGÔN",
+  "chars": [
+   {
+    "k": "言",
+    "hv": "NGÔN",
+    "on": "ゲン・ゴン",
+    "kun": "い.う・こと",
+    "vi": "nói, lời"
+   }
+  ],
+  "tip_vi": "Viết là 言う nhưng đọc いう (phát âm thường nghe như ゆう).",
+  "ex": {
+   "jp": "もう一度言ってください。",
+   "vi": "Hãy nói lại một lần nữa."
+  }
+ },
+ {
+  "i": 76,
+  "w": "書く",
+  "r": "かく",
+  "vi": "Viết",
+  "hv": "THƯ",
+  "chars": [
+   {
+    "k": "書",
+    "hv": "THƯ",
+    "on": "ショ",
+    "kun": "か.く",
+    "vi": "viết; sách"
+   }
+  ],
+  "tip_vi": "書 có 聿 (cây bút) ở trên: cầm bút để viết.",
+  "ex": {
+   "jp": "ここに名前を書いてください。",
+   "vi": "Hãy viết tên vào đây."
+  }
+ },
+ {
+  "i": 77,
+  "w": "貸す",
+  "r": "かす",
+  "vi": "Cho mượn",
+  "hv": "THẢI",
+  "chars": [
+   {
+    "k": "貸",
+    "hv": "THẢI",
+    "on": "タイ",
+    "kun": "か.す",
+    "vi": "cho mượn"
+   }
+  ],
+  "tip_vi": "貸 có 貝 (vỏ sò, tiền) bên dưới: cho mượn đồ, tiền. Trái nghĩa: 借りる (mượn).",
+  "ex": {
+   "jp": "友だちに本を貸しました。",
+   "vi": "Tôi đã cho bạn mượn sách."
+  }
+ },
+ {
+  "i": 78,
+  "w": "教える",
+  "r": "おしえる",
+  "vi": "Chỉ, dạy",
+  "hv": "GIÁO",
+  "chars": [
+   {
+    "k": "教",
+    "hv": "GIÁO",
+    "on": "キョウ",
+    "kun": "おし.える",
+    "vi": "dạy"
+   }
+  ],
+  "tip_vi": "Dùng: AにBを教える. Còn có nghĩa chỉ cho biết: 電話番号を教えてください.",
+  "ex": {
+   "jp": "先生は日本語を教えています。",
+   "vi": "Giáo viên đang dạy tiếng Nhật."
+  }
+ },
+ {
+  "i": 79,
+  "w": "説明する",
+  "r": "せつめいする",
+  "vi": "Giải thích",
+  "hv": "THUYẾT MINH",
+  "chars": [
+   {
+    "k": "説",
+    "hv": "THUYẾT",
+    "on": "セツ",
+    "kun": "と.く",
+    "vi": "giải thích, thuyết"
+   },
+   {
+    "k": "明",
+    "hv": "MINH",
+    "on": "メイ・ミョウ",
+    "kun": "あか.るい・あ.す",
+    "vi": "sáng"
+   }
+  ],
+  "tip_vi": "説 có bộ ngôn 言: dùng lời để giải thích. 説明 + する = động từ.",
+  "ex": {
+   "jp": "先生が使い方を説明しました。",
+   "vi": "Giáo viên đã giải thích cách dùng."
+  }
+ },
+ {
+  "i": 80,
+  "w": "午前",
+  "r": "ごぜん",
+  "vi": "Buổi sáng",
+  "hv": "NGỌ TIỀN",
+  "chars": [
+   {
+    "k": "午",
+    "hv": "NGỌ",
+    "on": "ゴ",
+    "kun": "",
+    "vi": "giờ Ngọ, giữa trưa"
+   },
+   {
+    "k": "前",
+    "hv": "TIỀN",
+    "on": "ゼン",
+    "kun": "まえ",
+    "vi": "phía trước, trước"
+   }
+  ],
+  "tip_vi": "午 (NGỌ: giữa trưa) + 前 (TIỀN: trước) = trước giữa trưa, buổi sáng (AM).",
+  "ex": {
+   "jp": "午前九時に会議があります。",
+   "vi": "Có cuộc họp lúc 9 giờ sáng."
+  }
+ },
+ {
+  "i": 81,
+  "w": "午後",
+  "r": "ごご",
+  "vi": "Buổi chiều",
+  "hv": "NGỌ HẬU",
+  "chars": [
+   {
+    "k": "午",
+    "hv": "NGỌ",
+    "on": "ゴ",
+    "kun": "",
+    "vi": "giờ Ngọ, giữa trưa"
+   },
+   {
+    "k": "後",
+    "hv": "HẬU",
+    "on": "ゴ・コウ",
+    "kun": "あと・うし.ろ",
+    "vi": "sau"
+   }
+  ],
+  "tip_vi": "午 (NGỌ) + 後 (HẬU: sau) = sau giữa trưa, buổi chiều (PM).",
+  "ex": {
+   "jp": "午後は図書館で勉強します。",
+   "vi": "Buổi chiều tôi học ở thư viện."
+  }
+ },
+ {
+  "i": 82,
+  "w": "教科書",
+  "r": "きょうかしょ",
+  "vi": "Sách giáo khoa",
+  "hv": "GIÁO KHOA THƯ",
+  "chars": [
+   {
+    "k": "教",
+    "hv": "GIÁO",
+    "on": "キョウ",
+    "kun": "おし.える",
+    "vi": "dạy"
+   },
+   {
+    "k": "科",
+    "hv": "KHOA",
+    "on": "カ",
+    "kun": "",
+    "vi": "khoa, môn"
+   },
+   {
+    "k": "書",
+    "hv": "THƯ",
+    "on": "ショ",
+    "kun": "か.く",
+    "vi": "viết; sách"
+   }
+  ],
+  "tip_vi": "教 (GIÁO) + 科 (KHOA: môn) + 書 (THƯ: sách) = sách của môn học.",
+  "ex": {
+   "jp": "教科書の十ページを開いてください。",
+   "vi": "Hãy mở sách giáo khoa trang 10."
+  }
+ },
+ {
+  "i": 83,
+  "w": "教室",
+  "r": "きょうしつ",
+  "vi": "Lớp học",
+  "hv": "GIÁO THẤT",
+  "chars": [
+   {
+    "k": "教",
+    "hv": "GIÁO",
+    "on": "キョウ",
+    "kun": "おし.える",
+    "vi": "dạy"
+   },
+   {
+    "k": "室",
+    "hv": "THẤT",
+    "on": "シツ",
+    "kun": "むろ",
+    "vi": "phòng"
+   }
+  ],
+  "tip_vi": "教 (GIÁO: dạy) + 室 (THẤT: phòng) = phòng học. 室 có bộ 宀 (mái nhà).",
+  "ex": {
+   "jp": "教室に学生が二十人います。",
+   "vi": "Trong lớp học có 20 học sinh."
+  }
+ },
+ {
+  "i": 84,
+  "w": "先生",
+  "r": "せんせい",
+  "vi": "Giáo viên",
+  "hv": "TIÊN SINH",
+  "chars": [
+   {
+    "k": "先",
+    "hv": "TIÊN",
+    "on": "セン",
+    "kun": "さき",
+    "vi": "trước, đầu tiên"
+   },
+   {
+    "k": "生",
+    "hv": "SINH",
+    "on": "セイ・ショウ",
+    "kun": "い.きる・う.まれる",
+    "vi": "sinh ra, sống"
+   }
+  ],
+  "tip_vi": "先 (TIÊN: trước) + 生 (SINH) = người sinh ra trước, thầy cô. Cũng dùng gọi bác sĩ.",
+  "ex": {
+   "jp": "田中先生は優しいです。",
+   "vi": "Cô Tanaka hiền."
+  }
+ },
+ {
+  "i": 85,
+  "w": "全部",
+  "r": "ぜんぶ",
+  "vi": "Tất cả",
+  "hv": "TOÀN BỘ",
+  "chars": [
+   {
+    "k": "全",
+    "hv": "TOÀN",
+    "on": "ゼン",
+    "kun": "まった.く",
+    "vi": "toàn bộ"
+   },
+   {
+    "k": "部",
+    "hv": "BỘ",
+    "on": "ブ",
+    "kun": "",
+    "vi": "bộ phận, phần"
+   }
+  ],
+  "tip_vi": "全 (TOÀN) + 部 (BỘ) = toàn bộ. 全部で〜 = tổng cộng ~.",
+  "ex": {
+   "jp": "全部でいくらですか。",
+   "vi": "Tổng cộng bao nhiêu tiền?"
+  }
+ },
+ {
+  "i": 86,
+  "w": "回",
+  "r": "かい",
+  "vi": "Lần",
+  "hv": "HỒI",
+  "chars": [
+   {
+    "k": "回",
+    "hv": "HỒI",
+    "on": "カイ",
+    "kun": "まわ.る",
+    "vi": "lần; quay vòng"
+   }
+  ],
+  "tip_vi": "Chữ 回 là hình vòng tròn lồng nhau: vòng quay, số lần. Đếm: 一回, 二回, 三回.",
+  "ex": {
+   "jp": "一週間に三回、運動します。",
+   "vi": "Một tuần tôi tập thể dục ba lần."
+  }
+ },
+ {
+  "i": 87,
+  "w": "参加する",
+  "r": "さんかする",
+  "vi": "Tham gia",
+  "hv": "THAM GIA",
+  "chars": [
+   {
+    "k": "参",
+    "hv": "THAM",
+    "on": "サン",
+    "kun": "まい.る",
+    "vi": "tham gia; đến (khiêm nhường)"
+   },
+   {
+    "k": "加",
+    "hv": "GIA",
+    "on": "カ",
+    "kun": "くわ.える",
+    "vi": "thêm vào"
+   }
+  ],
+  "tip_vi": "参 (THAM) + 加 (GIA) = tham gia. Dùng: 〜に参加する.",
+  "ex": {
+   "jp": "日曜日のパーティーに参加します。",
+   "vi": "Tôi sẽ tham gia bữa tiệc Chủ nhật."
+  }
+ },
+ {
+  "i": 88,
+  "w": "用意する",
+  "r": "よういする",
+  "vi": "Chuẩn bị",
+  "hv": "DỤNG Ý",
+  "chars": [
+   {
+    "k": "用",
+    "hv": "DỤNG",
+    "on": "ヨウ",
+    "kun": "もち.いる",
+    "vi": "dùng; việc"
+   },
+   {
+    "k": "意",
+    "hv": "Ý",
+    "on": "イ",
+    "kun": "",
+    "vi": "ý, ý nghĩ"
+   }
+  ],
+  "tip_vi": "用 (DỤNG) + 意 (Ý) = để sẵn trong ý, chuẩn bị. Dùng: 〜を用意する.",
+  "ex": {
+   "jp": "パーティーの飲み物を用意します。",
+   "vi": "Tôi chuẩn bị đồ uống cho bữa tiệc."
+  }
+ },
+ {
+  "i": 89,
+  "w": "飲み物",
+  "r": "のみもの",
+  "vi": "Đồ uống",
+  "hv": "ẨM VẬT",
+  "chars": [
+   {
+    "k": "飲",
+    "hv": "ẨM",
+    "on": "イン",
+    "kun": "の.む",
+    "vi": "uống"
+   },
+   {
+    "k": "物",
+    "hv": "VẬT",
+    "on": "ブツ・モツ",
+    "kun": "もの",
+    "vi": "đồ vật"
+   }
+  ],
+  "tip_vi": "飲み (uống) + 物 (もの: đồ vật). Tương tự: 食べ物 (đồ ăn).",
+  "ex": {
+   "jp": "飲み物は何がいいですか。",
+   "vi": "Đồ uống thì bạn muốn gì?"
+  }
+ },
+ {
+  "i": 90,
+  "w": "お茶",
+  "r": "おちゃ",
+  "vi": "Trà",
+  "hv": "TRÀ",
+  "chars": [
+   {
+    "k": "茶",
+    "hv": "TRÀ",
+    "on": "チャ・サ",
+    "kun": "",
+    "vi": "trà"
+   }
+  ],
+  "tip_vi": "茶 có bộ thảo 艹 ở trên: lá cây dùng pha trà. Thường thêm お.",
+  "ex": {
+   "jp": "お茶をどうぞ。",
+   "vi": "Mời bạn dùng trà."
+  }
+ },
+ {
+  "i": 91,
+  "w": "お酒",
+  "r": "おさけ",
+  "vi": "Rượu",
+  "hv": "TỬU",
+  "chars": [
+   {
+    "k": "酒",
+    "hv": "TỬU",
+    "on": "シュ",
+    "kun": "さけ",
+    "vi": "rượu"
+   }
+  ],
+  "tip_vi": "酒 có bộ thủy 氵 (nước) + 酉 (bình rượu). Thường thêm お thành お酒.",
+  "ex": {
+   "jp": "父はお酒が好きです。",
+   "vi": "Bố tôi thích rượu."
+  }
+ },
+ {
+  "i": 92,
+  "w": "材料",
+  "r": "ざいりょう",
+  "vi": "Nguyên liệu",
+  "hv": "TÀI LIỆU",
+  "chars": [
+   {
+    "k": "材",
+    "hv": "TÀI",
+    "on": "ザイ",
+    "kun": "",
+    "vi": "gỗ, vật liệu"
+   },
+   {
+    "k": "料",
+    "hv": "LIỆU",
+    "on": "リョウ",
+    "kun": "",
+    "vi": "phí; nguyên liệu"
+   }
+  ],
+  "tip_vi": "材 (TÀI: vật liệu, có bộ 木 gỗ) + 料 (LIỆU) = nguyên liệu.",
+  "ex": {
+   "jp": "カレーの材料を買いました。",
+   "vi": "Tôi đã mua nguyên liệu làm cà ri."
+  }
+ },
+ {
+  "i": 93,
+  "w": "野菜",
+  "r": "やさい",
+  "vi": "Rau",
+  "hv": "DÃ THÁI",
+  "chars": [
+   {
+    "k": "野",
+    "hv": "DÃ",
+    "on": "ヤ",
+    "kun": "の",
+    "vi": "cánh đồng, hoang dã"
+   },
+   {
+    "k": "菜",
+    "hv": "THÁI",
+    "on": "サイ",
+    "kun": "な",
+    "vi": "rau"
+   }
+  ],
+  "tip_vi": "野 (DÃ: cánh đồng) + 菜 (THÁI: rau, có bộ 艹) = rau ngoài đồng.",
+  "ex": {
+   "jp": "毎日、野菜を食べます。",
+   "vi": "Hằng ngày tôi ăn rau."
+  }
+ },
+ {
+  "i": 94,
+  "w": "牛肉",
+  "r": "ぎゅうにく",
+  "vi": "Thịt bò",
+  "hv": "NGƯU NHỤC",
+  "chars": [
+   {
+    "k": "牛",
+    "hv": "NGƯU",
+    "on": "ギュウ",
+    "kun": "うし",
+    "vi": "con bò"
+   },
+   {
+    "k": "肉",
+    "hv": "NHỤC",
+    "on": "ニク",
+    "kun": "",
+    "vi": "thịt"
+   }
+  ],
+  "tip_vi": "牛 (NGƯU: bò) + 肉 (NHỤC: thịt). Tương tự: 豚肉, 鶏肉 (thịt gà).",
+  "ex": {
+   "jp": "牛肉は高いです。",
+   "vi": "Thịt bò đắt."
+  }
+ },
+ {
+  "i": 95,
+  "w": "豚肉",
+  "r": "ぶたにく",
+  "vi": "Thịt heo",
+  "hv": "ĐỒN NHỤC",
+  "chars": [
+   {
+    "k": "豚",
+    "hv": "ĐỒN",
+    "on": "トン",
+    "kun": "ぶた",
+    "vi": "con lợn"
+   },
+   {
+    "k": "肉",
+    "hv": "NHỤC",
+    "on": "ニク",
+    "kun": "",
+    "vi": "thịt"
+   }
+  ],
+  "tip_vi": "豚 có bộ 月 (thịt) bên trái + 豕 (con lợn). 豚 đọc ぶた, ghép với 肉 thành ぶたにく.",
+  "ex": {
+   "jp": "豚肉で料理を作ります。",
+   "vi": "Tôi nấu món ăn bằng thịt heo."
+  }
+ },
+ {
+  "i": 96,
+  "w": "お皿",
+  "r": "おさら",
+  "vi": "Cái đĩa",
+  "hv": "MÃNH",
+  "chars": [
+   {
+    "k": "皿",
+    "hv": "MÃNH",
+    "on": "ベイ",
+    "kun": "さら",
+    "vi": "cái đĩa"
+   }
+  ],
+  "tip_vi": "Chữ 皿 là hình cái đĩa nhìn ngang. Thường thêm お thành お皿.",
+  "ex": {
+   "jp": "お皿を洗います。",
+   "vi": "Tôi rửa đĩa."
+  }
+ },
+ {
+  "i": 97,
+  "w": "売る",
+  "r": "うる",
+  "vi": "Bán",
+  "hv": "MẠI",
+  "chars": [
+   {
+    "k": "売",
+    "hv": "MẠI",
+    "on": "バイ",
+    "kun": "う.る",
+    "vi": "bán"
+   }
+  ],
+  "tip_vi": "売 đọc うる; trái nghĩa 買う (かう, mua). 売り場 = quầy bán hàng.",
+  "ex": {
+   "jp": "この店は野菜を売っています。",
+   "vi": "Cửa hàng này bán rau."
+  }
+ },
+ {
+  "i": 98,
+  "w": "持って行く",
+  "r": "もっていく",
+  "vi": "Cầm đi",
+  "hv": "TRÌ HÀNH",
+  "chars": [
+   {
+    "k": "持",
+    "hv": "TRÌ",
+    "on": "ジ",
+    "kun": "も.つ",
+    "vi": "cầm, mang"
+   },
+   {
+    "k": "行",
+    "hv": "HÀNH, HÀNG",
+    "on": "コウ・ギョウ",
+    "kun": "い.く・おこな.う",
+    "vi": "đi; hàng"
+   }
+  ],
+  "tip_vi": "持って (cầm) + 行く (đi) = mang đi. Đối nghĩa: 持って来る (mang đến).",
+  "ex": {
+   "jp": "パーティーに飲み物を持って行きます。",
+   "vi": "Tôi mang đồ uống đến bữa tiệc."
+  }
+ },
+ {
+  "i": 99,
+  "w": "卵",
+  "r": "たまご",
+  "vi": "Trứng",
+  "hv": "NOÃN",
+  "chars": [
+   {
+    "k": "卵",
+    "hv": "NOÃN",
+    "on": "ラン",
+    "kun": "たまご",
+    "vi": "trứng"
+   }
+  ],
+  "tip_vi": "Chữ 卵 trông như hai quả trứng nằm cạnh nhau.",
+  "ex": {
+   "jp": "毎朝、卵を食べます。",
+   "vi": "Sáng nào tôi cũng ăn trứng."
+  }
+ },
+ {
+  "i": 100,
+  "w": "料理",
+  "r": "りょうり",
+  "vi": "Nấu ăn, món ăn",
+  "hv": "LIỆU LÝ",
+  "chars": [
+   {
+    "k": "料",
+    "hv": "LIỆU",
+    "on": "リョウ",
+    "kun": "",
+    "vi": "phí; nguyên liệu"
+   },
+   {
+    "k": "理",
+    "hv": "LÝ",
+    "on": "リ",
+    "kun": "",
+    "vi": "lý, lẽ"
+   }
+  ],
+  "tip_vi": "料 (LIỆU) + 理 (LÝ) = xử lý nguyên liệu, nấu ăn. 料理する = nấu ăn.",
+  "ex": {
+   "jp": "母の料理はおいしいです。",
+   "vi": "Món ăn mẹ nấu rất ngon."
+  }
+ },
+ {
+  "i": 101,
+  "w": "お湯",
+  "r": "おゆ",
+  "vi": "Nước nóng",
+  "hv": "THANG",
+  "chars": [
+   {
+    "k": "湯",
+    "hv": "THANG",
+    "on": "トウ",
+    "kun": "ゆ",
+    "vi": "nước nóng"
+   }
+  ],
+  "tip_vi": "湯 có bộ thủy 氵: nước nóng. Thường nói お湯; nước lạnh là 水 (みず).",
+  "ex": {
+   "jp": "お湯を沸かします。",
+   "vi": "Tôi đun nước nóng."
+  }
+ },
+ {
+  "i": 102,
+  "w": "調理方法",
+  "r": "ちょうりほうほう",
+  "vi": "Cách nấu ăn",
+  "hv": "ĐIỀU LÝ PHƯƠNG PHÁP",
+  "chars": [
+   {
+    "k": "調",
+    "hv": "ĐIỀU",
+    "on": "チョウ",
+    "kun": "しら.べる",
+    "vi": "điều chỉnh, tra cứu"
+   },
+   {
+    "k": "理",
+    "hv": "LÝ",
+    "on": "リ",
+    "kun": "",
+    "vi": "lý, lẽ"
+   },
+   {
+    "k": "方",
+    "hv": "PHƯƠNG",
+    "on": "ホウ",
+    "kun": "かた",
+    "vi": "phương hướng, cách"
+   },
+   {
+    "k": "法",
+    "hv": "PHÁP",
+    "on": "ホウ",
+    "kun": "",
+    "vi": "phép, phương pháp"
+   }
+  ],
+  "tip_vi": "調理 (điều lý: nấu nướng) + 方法 (phương pháp) = cách chế biến món ăn.",
+  "ex": {
+   "jp": "この料理の調理方法を教えてください。",
+   "vi": "Hãy chỉ cho tôi cách nấu món này."
+  }
+ },
+ {
+  "i": 103,
+  "w": "少し",
+  "r": "すこし",
+  "vi": "Một chút",
+  "hv": "THIỂU",
+  "chars": [
+   {
+    "k": "少",
+    "hv": "THIỂU",
+    "on": "ショウ",
+    "kun": "すく.ない・すこ.し",
+    "vi": "ít"
+   }
+  ],
+  "tip_vi": "Phân biệt: 少し (すこし, một chút) và 少ない (すくない, ít).",
+  "ex": {
+   "jp": "日本語が少しわかります。",
+   "vi": "Tôi hiểu tiếng Nhật một chút."
+  }
+ },
+ {
+  "i": 104,
+  "w": "味",
+  "r": "あじ",
+  "vi": "Vị",
+  "hv": "VỊ",
+  "chars": [
+   {
+    "k": "味",
+    "hv": "VỊ",
+    "on": "ミ",
+    "kun": "あじ",
+    "vi": "vị"
+   }
+  ],
+  "tip_vi": "味 có bộ khẩu 口 (miệng): thứ cảm nhận bằng miệng, vị.",
+  "ex": {
+   "jp": "このスープは味が薄いです。",
+   "vi": "Món súp này vị nhạt."
+  }
+ },
+ {
+  "i": 105,
+  "w": "甘い",
+  "r": "あまい",
+  "vi": "Ngọt",
+  "hv": "CAM",
+  "chars": [
+   {
+    "k": "甘",
+    "hv": "CAM",
+    "on": "カン",
+    "kun": "あま.い",
+    "vi": "ngọt"
+   }
+  ],
+  "tip_vi": "甘い vừa nghĩa ngọt, vừa nghĩa nuông chiều (子どもに甘い).",
+  "ex": {
+   "jp": "このケーキは甘いです。",
+   "vi": "Bánh này ngọt."
+  }
+ },
+ {
+  "i": 106,
+  "w": "辛い",
+  "r": "からい",
+  "vi": "Cay",
+  "hv": "TÂN",
+  "chars": [
+   {
+    "k": "辛",
+    "hv": "TÂN",
+    "on": "シン",
+    "kun": "から.い",
+    "vi": "cay"
+   }
+  ],
+  "tip_vi": "辛い đọc からい (cay); cùng chữ còn đọc つらい (vất vả, khổ).",
+  "ex": {
+   "jp": "タイ料理は辛いです。",
+   "vi": "Món Thái cay."
+  }
+ },
+ {
+  "i": 107,
+  "w": "苦手",
+  "r": "にがて",
+  "vi": "Không thích, kém",
+  "hv": "KHỔ THỦ",
+  "chars": [
+   {
+    "k": "苦",
+    "hv": "KHỔ",
+    "on": "ク",
+    "kun": "くる.しい・にが.い",
+    "vi": "khổ; đắng"
+   },
+   {
+    "k": "手",
+    "hv": "THỦ",
+    "on": "シュ",
+    "kun": "て",
+    "vi": "tay"
+   }
+  ],
+  "tip_vi": "苦 (KHỔ) + 手 (THỦ: tay). Đọc にがて. Dùng: 〜が苦手です (không giỏi/không thích ~).",
+  "ex": {
+   "jp": "私は辛い料理が苦手です。",
+   "vi": "Tôi không ăn được đồ cay."
+  }
+ },
+ {
+  "i": 108,
+  "w": "コピー機",
+  "r": "コピーき",
+  "vi": "Máy photo",
+  "hv": "CƠ",
+  "chars": [
+   {
+    "k": "機",
+    "hv": "CƠ",
+    "on": "キ",
+    "kun": "はた",
+    "vi": "máy"
+   }
+  ],
+  "tip_vi": "コピー + 機 (き: máy). Tương tự: 洗濯機 (máy giặt).",
+  "ex": {
+   "jp": "コピー機は二階にあります。",
+   "vi": "Máy photo ở tầng 2."
+  }
+ },
+ {
+  "i": 109,
+  "w": "数字",
+  "r": "すうじ",
+  "vi": "Chữ số",
+  "hv": "SỐ TỰ",
+  "chars": [
+   {
+    "k": "数",
+    "hv": "SỐ",
+    "on": "スウ",
+    "kun": "かず・かぞ.える",
+    "vi": "số, đếm"
+   },
+   {
+    "k": "字",
+    "hv": "TỰ",
+    "on": "ジ",
+    "kun": "あざ",
+    "vi": "chữ"
+   }
+  ],
+  "tip_vi": "数 (SỐ) + 字 (TỰ: chữ) = chữ số. 数 đọc すう.",
+  "ex": {
+   "jp": "ここに数字を書いてください。",
+   "vi": "Hãy viết chữ số vào đây."
+  }
+ },
+ {
+  "i": 110,
+  "w": "電気",
+  "r": "でんき",
+  "vi": "Điện",
+  "hv": "ĐIỆN KHÍ",
+  "chars": [
+   {
+    "k": "電",
+    "hv": "ĐIỆN",
+    "on": "デン",
+    "kun": "",
+    "vi": "điện"
+   },
+   {
+    "k": "気",
+    "hv": "KHÍ",
+    "on": "キ・ケ",
+    "kun": "",
+    "vi": "khí, tinh thần"
+   }
+  ],
+  "tip_vi": "電 có bộ 雨 ở trên: tia chớp trong mưa = điện. 電気をつける/消す = bật/tắt đèn.",
+  "ex": {
+   "jp": "部屋の電気を消してください。",
+   "vi": "Hãy tắt đèn trong phòng."
+  }
+ },
+ {
+  "i": 111,
+  "w": "音",
+  "r": "おと",
+  "vi": "Âm thanh",
+  "hv": "ÂM",
+  "chars": [
+   {
+    "k": "音",
+    "hv": "ÂM",
+    "on": "オン・イン",
+    "kun": "おと・ね",
+    "vi": "âm thanh"
+   }
+  ],
+  "tip_vi": "音 (おと) dùng cho tiếng động; tiếng người/động vật là 声 (こえ).",
+  "ex": {
+   "jp": "隣の部屋の音がうるさいです。",
+   "vi": "Tiếng ồn từ phòng bên cạnh rất ồn."
+  }
+ },
+ {
+  "i": 112,
+  "w": "机",
+  "r": "つくえ",
+  "vi": "Cái bàn",
+  "hv": "CƠ",
+  "chars": [
+   {
+    "k": "机",
+    "hv": "CƠ",
+    "on": "キ",
+    "kun": "つくえ",
+    "vi": "cái bàn"
+   }
+  ],
+  "tip_vi": "机 có bộ 木 (gỗ): đồ làm bằng gỗ, cái bàn.",
+  "ex": {
+   "jp": "机の上に本があります。",
+   "vi": "Trên bàn có quyển sách."
+  }
+ },
+ {
+  "i": 113,
+  "w": "都合",
+  "r": "つごう",
+  "vi": "Thuận tiện",
+  "hv": "ĐÔ HỢP",
+  "chars": [
+   {
+    "k": "都",
+    "hv": "ĐÔ",
+    "on": "ト・ツ",
+    "kun": "みやこ",
+    "vi": "thủ đô"
+   },
+   {
+    "k": "合",
+    "hv": "HỢP",
+    "on": "ゴウ・ガッ",
+    "kun": "あ.う",
+    "vi": "hợp, khớp"
+   }
+  ],
+  "tip_vi": "都 (ĐÔ) + 合 (HỢP). Lưu ý đọc つごう (都 đọc つ). 都合がいい = thời gian tiện.",
+  "ex": {
+   "jp": "明日の都合はどうですか。",
+   "vi": "Ngày mai bạn có tiện không?"
+  }
+ },
+ {
+  "i": 114,
+  "w": "悪い",
+  "r": "わるい",
+  "vi": "Xấu",
+  "hv": "ÁC",
+  "chars": [
+   {
+    "k": "悪",
+    "hv": "ÁC",
+    "on": "アク",
+    "kun": "わる.い",
+    "vi": "xấu, ác"
+   }
+  ],
+  "tip_vi": "悪 có bộ 心 (tim) bên dưới: tâm xấu, ác. 体に悪い = có hại cho sức khỏe.",
+  "ex": {
+   "jp": "今日は天気が悪いです。",
+   "vi": "Hôm nay thời tiết xấu."
+  }
+ },
+ {
+  "i": 115,
+  "w": "動く",
+  "r": "うごく",
+  "vi": "Hoạt động",
+  "hv": "ĐỘNG",
+  "chars": [
+   {
+    "k": "動",
+    "hv": "ĐỘNG",
+    "on": "ドウ",
+    "kun": "うご.く",
+    "vi": "chuyển động"
+   }
+  ],
+  "tip_vi": "動 = 重 (nặng) + 力 (sức): dùng sức để làm vật nặng chuyển động. Máy không chạy: 動かない.",
+  "ex": {
+   "jp": "このパソコンが動きません。",
+   "vi": "Cái máy tính này không chạy."
+  }
+ },
+ {
+  "i": 116,
+  "w": "使う",
+  "r": "つかう",
+  "vi": "Sử dụng",
+  "hv": "SỬ",
+  "chars": [
+   {
+    "k": "使",
+    "hv": "SỬ",
+    "on": "シ",
+    "kun": "つか.う",
+    "vi": "sử dụng"
+   }
+  ],
+  "tip_vi": "使 có bộ nhân 亻: người sử dụng. Dùng: 〜を使う.",
+  "ex": {
+   "jp": "このはさみを使ってもいいですか。",
+   "vi": "Tôi dùng cái kéo này được không?"
+  }
+ },
+ {
+  "i": 117,
+  "w": "終わる",
+  "r": "おわる",
+  "vi": "Kết thúc",
+  "hv": "CHUNG",
+  "chars": [
+   {
+    "k": "終",
+    "hv": "CHUNG",
+    "on": "シュウ",
+    "kun": "お.わる",
+    "vi": "kết thúc"
+   }
+  ],
+  "tip_vi": "終 có bộ mịch 糸 (sợi chỉ) + 冬 (mùa đông, cuối năm): cuối sợi chỉ = kết thúc.",
+  "ex": {
+   "jp": "仕事は六時に終わります。",
+   "vi": "Công việc kết thúc lúc 6 giờ."
+  }
+ },
+ {
+  "i": 118,
+  "w": "お願いします",
+  "r": "おねがいします",
+  "vi": "Làm ơn",
+  "hv": "NGUYỆN",
+  "chars": [
+   {
+    "k": "願",
+    "hv": "NGUYỆN",
+    "on": "ガン",
+    "kun": "ねが.う",
+    "vi": "mong ước, nhờ"
+   }
+  ],
+  "tip_vi": "願 đọc ねが; お願いします là câu nhờ vả lịch sự, rất hay dùng.",
+  "ex": {
+   "jp": "すみません、お水をお願いします。",
+   "vi": "Xin lỗi, cho tôi xin nước."
+  }
+ },
+ {
+  "i": 119,
+  "w": "用事",
+  "r": "ようじ",
+  "vi": "Việc bận",
+  "hv": "DỤNG SỰ",
+  "chars": [
+   {
+    "k": "用",
+    "hv": "DỤNG",
+    "on": "ヨウ",
+    "kun": "もち.いる",
+    "vi": "dùng; việc"
+   },
+   {
+    "k": "事",
+    "hv": "SỰ",
+    "on": "ジ",
+    "kun": "こと",
+    "vi": "việc"
+   }
+  ],
+  "tip_vi": "用 (DỤNG: việc) + 事 (SỰ) = việc riêng cần làm. Hay dùng để từ chối: 用事があります.",
+  "ex": {
+   "jp": "明日は用事があるので、行けません。",
+   "vi": "Ngày mai tôi có việc bận nên không đi được."
+  }
+ },
+ {
+  "i": 120,
+  "w": "氏名",
+  "r": "しめい",
+  "vi": "Họ tên",
+  "hv": "THỊ DANH",
+  "chars": [
+   {
+    "k": "氏",
+    "hv": "THỊ",
+    "on": "シ",
+    "kun": "うじ",
+    "vi": "họ"
+   },
+   {
+    "k": "名",
+    "hv": "DANH",
+    "on": "メイ・ミョウ",
+    "kun": "な",
+    "vi": "tên, nổi tiếng"
+   }
+  ],
+  "tip_vi": "氏 (THỊ: họ) + 名 (DANH: tên) = họ và tên, hay gặp trên giấy tờ, biểu mẫu.",
+  "ex": {
+   "jp": "ここに氏名を書いてください。",
+   "vi": "Hãy viết họ tên vào đây."
+  }
+ },
+ {
+  "i": 121,
+  "w": "理由",
+  "r": "りゆう",
+  "vi": "Lý do",
+  "hv": "LÝ DO",
+  "chars": [
+   {
+    "k": "理",
+    "hv": "LÝ",
+    "on": "リ",
+    "kun": "",
+    "vi": "lý, lẽ"
+   },
+   {
+    "k": "由",
+    "hv": "DO",
+    "on": "ユ・ユウ",
+    "kun": "よし",
+    "vi": "lý do"
+   }
+  ],
+  "tip_vi": "理 (LÝ) + 由 (DO) = lý do. Lưu ý 由 đọc ゆう: りゆう.",
+  "ex": {
+   "jp": "遅れた理由を教えてください。",
+   "vi": "Hãy cho tôi biết lý do đến muộn."
+  }
+ },
+ {
+  "i": 122,
+  "w": "連絡先",
+  "r": "れんらくさき",
+  "vi": "Địa chỉ liên lạc",
+  "hv": "LIÊN LẠC TIÊN",
+  "chars": [
+   {
+    "k": "連",
+    "hv": "LIÊN",
+    "on": "レン",
+    "kun": "つ.れる",
+    "vi": "liên tục; dẫn theo"
+   },
+   {
+    "k": "絡",
+    "hv": "LẠC",
+    "on": "ラク",
+    "kun": "から.む",
+    "vi": "quấn; liên lạc"
+   },
+   {
+    "k": "先",
+    "hv": "TIÊN",
+    "on": "セン",
+    "kun": "さき",
+    "vi": "trước, đầu tiên"
+   }
+  ],
+  "tip_vi": "連絡 (liên lạc) + 先 (さき: nơi, điểm đến) = nơi liên lạc (số điện thoại, địa chỉ).",
+  "ex": {
+   "jp": "連絡先を教えてください。",
+   "vi": "Hãy cho tôi thông tin liên lạc."
+  }
+ },
+ {
+  "i": 123,
+  "w": "別に",
+  "r": "べつに",
+  "vi": "Không có gì đặc biệt",
+  "hv": "BIỆT",
+  "chars": [
+   {
+    "k": "別",
+    "hv": "BIỆT",
+    "on": "ベツ",
+    "kun": "わか.れる",
+    "vi": "riêng, khác; chia tay"
+   }
+  ],
+  "tip_vi": "Thường đi với phủ định: 別に〜ない (không hẳn ~). 別にかまいません = Không sao cả.",
+  "ex": {
+   "jp": "「どうしたの？」「別に。」",
+   "vi": "\"Có chuyện gì vậy?\" \"Không có gì.\""
+  }
+ },
+ {
+  "i": 124,
+  "w": "早く",
+  "r": "はやく",
+  "vi": "Nhanh, sớm",
+  "hv": "TẢO",
+  "chars": [
+   {
+    "k": "早",
+    "hv": "TẢO",
+    "on": "ソウ",
+    "kun": "はや.い",
+    "vi": "sớm"
+   }
+  ],
+  "tip_vi": "早く viết 早 khi nói sớm về thời gian; nhanh về tốc độ là 速く, cùng đọc はやく.",
+  "ex": {
+   "jp": "明日は早く起きます。",
+   "vi": "Ngày mai tôi sẽ dậy sớm."
+  }
+ },
+ {
+  "i": 125,
+  "w": "吸う",
+  "r": "すう",
+  "vi": "Hút",
+  "hv": "HẤP",
+  "chars": [
+   {
+    "k": "吸",
+    "hv": "HẤP",
+    "on": "キュウ",
+    "kun": "す.う",
+    "vi": "hút, hít"
+   }
+  ],
+  "tip_vi": "吸 có bộ khẩu 口: hít vào bằng miệng. たばこを吸う = hút thuốc.",
+  "ex": {
+   "jp": "ここでたばこを吸わないでください。",
+   "vi": "Xin đừng hút thuốc ở đây."
+  }
+ },
+ {
+  "i": 126,
+  "w": "取る",
+  "r": "とる",
+  "vi": "Chụp ảnh, lấy",
+  "hv": "THỦ",
+  "chars": [
+   {
+    "k": "取",
+    "hv": "THỦ",
+    "on": "シュ",
+    "kun": "と.る",
+    "vi": "lấy"
+   }
+  ],
+  "tip_vi": "取る có nhiều nghĩa: lấy, chụp (写真を取る/撮る), giành. Chụp ảnh thường viết 撮る.",
+  "ex": {
+   "jp": "塩を取ってください。",
+   "vi": "Lấy giúp tôi lọ muối."
+  }
+ },
+ {
+  "i": 127,
+  "w": "帰る",
+  "r": "かえる",
+  "vi": "Về",
+  "hv": "QUY",
+  "chars": [
+   {
+    "k": "帰",
+    "hv": "QUY",
+    "on": "キ",
+    "kun": "かえ.る",
+    "vi": "trở về"
+   }
+  ],
+  "tip_vi": "帰る là động từ nhóm 1 dù có đuôi える: 帰ります, 帰って.",
+  "ex": {
+   "jp": "六時に家に帰ります。",
+   "vi": "Tôi về nhà lúc 6 giờ."
+  }
+ },
+ {
+  "i": 128,
+  "w": "伝える",
+  "r": "つたえる",
+  "vi": "Truyền đạt",
+  "hv": "TRUYỀN",
+  "chars": [
+   {
+    "k": "伝",
+    "hv": "TRUYỀN",
+    "on": "デン",
+    "kun": "つた.える",
+    "vi": "truyền đạt"
+   }
+  ],
+  "tip_vi": "伝 có bộ nhân 亻: truyền lời từ người này sang người khác. 伝えてください = nhắn giúp.",
+  "ex": {
+   "jp": "田中さんに伝えてください。",
+   "vi": "Hãy nhắn lại với anh Tanaka."
+  }
+ },
+ {
+  "i": 129,
+  "w": "熱",
+  "r": "ねつ",
+  "vi": "Sốt",
+  "hv": "NHIỆT",
+  "chars": [
+   {
+    "k": "熱",
+    "hv": "NHIỆT",
+    "on": "ネツ",
+    "kun": "あつ.い",
+    "vi": "nóng; sốt"
+   }
+  ],
+  "tip_vi": "熱 có 4 chấm 灬 (lửa) bên dưới: nóng, sốt. 熱がある = bị sốt.",
+  "ex": {
+   "jp": "昨日から熱があります。",
+   "vi": "Tôi bị sốt từ hôm qua."
+  }
+ },
+ {
+  "i": 130,
+  "w": "薬",
+  "r": "くすり",
+  "vi": "Thuốc",
+  "hv": "DƯỢC",
+  "chars": [
+   {
+    "k": "薬",
+    "hv": "DƯỢC",
+    "on": "ヤク",
+    "kun": "くすり",
+    "vi": "thuốc"
+   }
+  ],
+  "tip_vi": "薬 có bộ thảo 艹: thuốc làm từ cây cỏ. Uống thuốc là 薬を飲む.",
+  "ex": {
+   "jp": "食事の後で薬を飲んでください。",
+   "vi": "Hãy uống thuốc sau bữa ăn."
+  }
+ },
+ {
+  "i": 131,
+  "w": "病気",
+  "r": "びょうき",
+  "vi": "Bệnh",
+  "hv": "BỆNH KHÍ",
+  "chars": [
+   {
+    "k": "病",
+    "hv": "BỆNH",
+    "on": "ビョウ",
+    "kun": "やまい",
+    "vi": "bệnh"
+   },
+   {
+    "k": "気",
+    "hv": "KHÍ",
+    "on": "キ・ケ",
+    "kun": "",
+    "vi": "khí, tinh thần"
+   }
+  ],
+  "tip_vi": "病 (BỆNH) + 気 (KHÍ). 病 có bộ 疒 (bệnh tật). Đọc びょうき.",
+  "ex": {
+   "jp": "病気で会社を休みました。",
+   "vi": "Tôi nghỉ làm vì bị ốm."
+  }
+ },
+ {
+  "i": 132,
+  "w": "病院",
+  "r": "びょういん",
+  "vi": "Bệnh viện",
+  "hv": "BỆNH VIỆN",
+  "chars": [
+   {
+    "k": "病",
+    "hv": "BỆNH",
+    "on": "ビョウ",
+    "kun": "やまい",
+    "vi": "bệnh"
+   },
+   {
+    "k": "院",
+    "hv": "VIỆN",
+    "on": "イン",
+    "kun": "",
+    "vi": "viện"
+   }
+  ],
+  "tip_vi": "病 (BỆNH) + 院 (VIỆN). Chú ý びょういん (bệnh viện) khác びよういん (美容院, tiệm làm tóc).",
+  "ex": {
+   "jp": "病院へ行きます。",
+   "vi": "Tôi đi bệnh viện."
+  }
+ },
+ {
+  "i": 133,
+  "w": "医者",
+  "r": "いしゃ",
+  "vi": "Bác sĩ",
+  "hv": "Y GIẢ",
+  "chars": [
+   {
+    "k": "医",
+    "hv": "Y",
+    "on": "イ",
+    "kun": "",
+    "vi": "y, chữa bệnh"
+   },
+   {
+    "k": "者",
+    "hv": "GIẢ",
+    "on": "シャ",
+    "kun": "もの",
+    "vi": "người (làm gì)"
+   }
+  ],
+  "tip_vi": "医 (Y) + 者 (GIẢ: người) = người làm nghề y.",
+  "ex": {
+   "jp": "医者に相談しました。",
+   "vi": "Tôi đã hỏi ý kiến bác sĩ."
+  }
+ },
+ {
+  "i": 134,
+  "w": "住所",
+  "r": "じゅうしょ",
+  "vi": "Địa chỉ",
+  "hv": "TRÚ SỞ",
+  "chars": [
+   {
+    "k": "住",
+    "hv": "TRÚ",
+    "on": "ジュウ",
+    "kun": "す.む",
+    "vi": "sống, cư trú"
+   },
+   {
+    "k": "所",
+    "hv": "SỞ",
+    "on": "ショ",
+    "kun": "ところ",
+    "vi": "nơi chốn"
+   }
+  ],
+  "tip_vi": "住 (TRÚ: sống) + 所 (SỞ: nơi) = nơi ở, địa chỉ. 住 có bộ nhân 亻.",
+  "ex": {
+   "jp": "ここに住所を書いてください。",
+   "vi": "Hãy viết địa chỉ vào đây."
+  }
+ },
+ {
+  "i": 135,
+  "w": "才",
+  "r": "さい",
+  "vi": "Tuổi",
+  "hv": "TÀI",
+  "chars": [
+   {
+    "k": "才",
+    "hv": "TÀI",
+    "on": "サイ",
+    "kun": "",
+    "vi": "tài năng; tuổi"
+   }
+  ],
+  "tip_vi": "才 là cách viết đơn giản thay cho 歳 (さい, tuổi). Đặc biệt: 二十歳 đọc はたち.",
+  "ex": {
+   "jp": "息子は五才です。",
+   "vi": "Con trai tôi 5 tuổi."
+  }
+ },
+ {
+  "i": 136,
+  "w": "痛い",
+  "r": "いたい",
+  "vi": "Đau",
+  "hv": "THỐNG",
+  "chars": [
+   {
+    "k": "痛",
+    "hv": "THỐNG",
+    "on": "ツウ",
+    "kun": "いた.い",
+    "vi": "đau"
+   }
+  ],
+  "tip_vi": "痛 có bộ 疒 (bệnh tật): đau. Dùng: 頭が痛い (đau đầu).",
+  "ex": {
+   "jp": "頭が痛いです。",
+   "vi": "Tôi bị đau đầu."
+  }
+ },
+ {
+  "i": 137,
+  "w": "眠い",
+  "r": "ねむい",
+  "vi": "Buồn ngủ",
+  "hv": "MIÊN",
+  "chars": [
+   {
+    "k": "眠",
+    "hv": "MIÊN",
+    "on": "ミン",
+    "kun": "ねむ.い・ねむ.る",
+    "vi": "ngủ, buồn ngủ"
+   }
+  ],
+  "tip_vi": "眠 có bộ 目 (mắt): mắt muốn nhắm lại = buồn ngủ.",
+  "ex": {
+   "jp": "昨日遅く寝たので、眠いです。",
+   "vi": "Hôm qua ngủ muộn nên tôi buồn ngủ."
+  }
+ },
+ {
+  "i": 138,
+  "w": "寝る",
+  "r": "ねる",
+  "vi": "Ngủ",
+  "hv": "TẨM",
+  "chars": [
+   {
+    "k": "寝",
+    "hv": "TẨM",
+    "on": "シン",
+    "kun": "ね.る",
+    "vi": "ngủ, nằm"
+   }
+  ],
+  "tip_vi": "寝 có bộ 宀 (mái nhà): nằm ngủ trong nhà. Là động từ nhóm 2: 寝ます.",
+  "ex": {
+   "jp": "毎晩十一時に寝ます。",
+   "vi": "Tối nào tôi cũng ngủ lúc 11 giờ."
+  }
+ },
+ {
+  "i": 139,
+  "w": "記入する",
+  "r": "きにゅうする",
+  "vi": "Điền vào",
+  "hv": "KÝ NHẬP",
+  "chars": [
+   {
+    "k": "記",
+    "hv": "KÝ",
+    "on": "キ",
+    "kun": "しる.す",
+    "vi": "ghi chép"
+   },
+   {
+    "k": "入",
+    "hv": "NHẬP",
+    "on": "ニュウ",
+    "kun": "い.る・はい.る",
+    "vi": "vào"
+   }
+  ],
+  "tip_vi": "記 (KÝ: ghi) + 入 (NHẬP: vào) = ghi vào giấy tờ. Hay gặp trên biểu mẫu.",
+  "ex": {
+   "jp": "この紙に記入してください。",
+   "vi": "Hãy điền vào tờ giấy này."
+  }
+ },
+ {
+  "i": 140,
+  "w": "体",
+  "r": "からだ",
+  "vi": "Cơ thể",
+  "hv": "THỂ",
+  "chars": [
+   {
+    "k": "体",
+    "hv": "THỂ",
+    "on": "タイ・テイ",
+    "kun": "からだ",
+    "vi": "cơ thể"
+   }
+  ],
+  "tip_vi": "体 = 亻 (người) + 本 (gốc): gốc của con người là cơ thể.",
+  "ex": {
+   "jp": "体に気をつけてください。",
+   "vi": "Hãy giữ gìn sức khỏe."
+  }
+ },
+ {
+  "i": 141,
+  "w": "顔",
+  "r": "かお",
+  "vi": "Mặt",
+  "hv": "NHAN",
+  "chars": [
+   {
+    "k": "顔",
+    "hv": "NHAN",
+    "on": "ガン",
+    "kun": "かお",
+    "vi": "khuôn mặt"
+   }
+  ],
+  "tip_vi": "顔 có bộ 頁 (đầu) bên phải. 顔を洗う = rửa mặt.",
+  "ex": {
+   "jp": "毎朝、顔を洗います。",
+   "vi": "Sáng nào tôi cũng rửa mặt."
+  }
+ },
+ {
+  "i": 142,
+  "w": "目",
+  "r": "め",
+  "vi": "Mắt",
+  "hv": "MỤC",
+  "chars": [
+   {
+    "k": "目",
+    "hv": "MỤC",
+    "on": "モク",
+    "kun": "め",
+    "vi": "mắt"
+   }
+  ],
+  "tip_vi": "Chữ 目 là hình con mắt dựng đứng.",
+  "ex": {
+   "jp": "目が痛いです。",
+   "vi": "Tôi bị đau mắt."
+  }
+ },
+ {
+  "i": 143,
+  "w": "口",
+  "r": "くち",
+  "vi": "Miệng",
+  "hv": "KHẨU",
+  "chars": [
+   {
+    "k": "口",
+    "hv": "KHẨU",
+    "on": "コウ・ク",
+    "kun": "くち",
+    "vi": "miệng"
+   }
+  ],
+  "tip_vi": "Chữ 口 là hình cái miệng mở. 入口 (いりぐち) = lối vào.",
+  "ex": {
+   "jp": "口を大きく開けてください。",
+   "vi": "Hãy há miệng to ra."
+  }
+ },
+ {
+  "i": 144,
+  "w": "頭",
+  "r": "あたま",
+  "vi": "Đầu",
+  "hv": "ĐẦU",
+  "chars": [
+   {
+    "k": "頭",
+    "hv": "ĐẦU",
+    "on": "トウ・ズ",
+    "kun": "あたま",
+    "vi": "đầu"
+   }
+  ],
+  "tip_vi": "頭 có bộ 頁 (đầu) bên phải. 頭がいい = thông minh.",
+  "ex": {
+   "jp": "頭が痛いので、薬を飲みました。",
+   "vi": "Vì đau đầu nên tôi đã uống thuốc."
+  }
+ },
+ {
+  "i": 145,
+  "w": "足",
+  "r": "あし",
+  "vi": "Chân",
+  "hv": "TÚC",
+  "chars": [
+   {
+    "k": "足",
+    "hv": "TÚC",
+    "on": "ソク",
+    "kun": "あし・た.りる",
+    "vi": "chân; đủ"
+   }
+  ],
+  "tip_vi": "足 vừa là chân, vừa có nghĩa đủ (足りる). 足が痛い = đau chân.",
+  "ex": {
+   "jp": "たくさん歩いて、足が痛いです。",
+   "vi": "Đi bộ nhiều nên tôi đau chân."
+  }
+ },
+ {
+  "i": 146,
+  "w": "手",
+  "r": "て",
+  "vi": "Tay",
+  "hv": "THỦ",
+  "chars": [
+   {
+    "k": "手",
+    "hv": "THỦ",
+    "on": "シュ",
+    "kun": "て",
+    "vi": "tay"
+   }
+  ],
+  "tip_vi": "Chữ 手 là hình bàn tay có các ngón. 手を洗う = rửa tay.",
+  "ex": {
+   "jp": "食事の前に手を洗います。",
+   "vi": "Tôi rửa tay trước khi ăn."
+  }
+ },
+ {
+  "i": 147,
+  "w": "起きる",
+  "r": "おきる",
+  "vi": "Thức dậy",
+  "hv": "KHỞI",
+  "chars": [
+   {
+    "k": "起",
+    "hv": "KHỞI",
+    "on": "キ",
+    "kun": "お.きる",
+    "vi": "thức dậy"
+   }
+  ],
+  "tip_vi": "起 có bộ 走 (chạy) bên trái: đứng dậy để đi. Động từ nhóm 2: 起きます.",
+  "ex": {
+   "jp": "毎朝六時に起きます。",
+   "vi": "Sáng nào tôi cũng dậy lúc 6 giờ."
+  }
+ },
+ {
+  "i": 148,
+  "w": "歩く",
+  "r": "あるく",
+  "vi": "Đi bộ",
+  "hv": "BỘ",
+  "chars": [
+   {
+    "k": "歩",
+    "hv": "BỘ",
+    "on": "ホ・ブ",
+    "kun": "ある.く",
+    "vi": "đi bộ"
+   }
+  ],
+  "tip_vi": "歩 = 止 (dừng) + 少: bước đi từng bước. Dùng: 道を歩く.",
+  "ex": {
+   "jp": "駅まで歩いて行きます。",
+   "vi": "Tôi đi bộ đến ga."
+  }
+ },
+ {
+  "i": 149,
+  "w": "走る",
+  "r": "はしる",
+  "vi": "Chạy",
+  "hv": "TẨU",
+  "chars": [
+   {
+    "k": "走",
+    "hv": "TẨU",
+    "on": "ソウ",
+    "kun": "はし.る",
+    "vi": "chạy"
+   }
+  ],
+  "tip_vi": "走 đọc はしる; là động từ nhóm 1 dù có đuôi る: 走ります.",
+  "ex": {
+   "jp": "毎朝、公園を走ります。",
+   "vi": "Sáng nào tôi cũng chạy ở công viên."
+  }
+ },
+ {
+  "i": 150,
+  "w": "運動する",
+  "r": "うんどうする",
+  "vi": "Vận động",
+  "hv": "VẬN ĐỘNG",
+  "chars": [
+   {
+    "k": "運",
+    "hv": "VẬN",
+    "on": "ウン",
+    "kun": "はこ.ぶ",
+    "vi": "vận chuyển, vận may"
+   },
+   {
+    "k": "動",
+    "hv": "ĐỘNG",
+    "on": "ドウ",
+    "kun": "うご.く",
+    "vi": "chuyển động"
+   }
+  ],
+  "tip_vi": "運 (VẬN) + 動 (ĐỘNG) = vận động, tập thể dục.",
+  "ex": {
+   "jp": "毎日、少し運動します。",
+   "vi": "Hằng ngày tôi vận động một chút."
+  }
+ },
+ {
+  "i": 151,
+  "w": "お父さん",
+  "r": "おとうさん",
+  "vi": "Bố",
+  "hv": "PHỤ",
+  "chars": [
+   {
+    "k": "父",
+    "hv": "PHỤ",
+    "on": "フ",
+    "kun": "ちち",
+    "vi": "bố"
+   }
+  ],
+  "tip_vi": "Cách đọc đặc biệt: お父さん = おとうさん. Khi nói về bố mình với người ngoài dùng 父 (ちち).",
+  "ex": {
+   "jp": "お父さんはお元気ですか。",
+   "vi": "Bố bạn có khỏe không?"
+  }
+ },
+ {
+  "i": 152,
+  "w": "お母さん",
+  "r": "おかあさん",
+  "vi": "Mẹ",
+  "hv": "MẪU",
+  "chars": [
+   {
+    "k": "母",
+    "hv": "MẪU",
+    "on": "ボ",
+    "kun": "はは",
+    "vi": "mẹ"
+   }
+  ],
+  "tip_vi": "Cách đọc đặc biệt: お母さん = おかあさん. Nói về mẹ mình với người ngoài dùng 母 (はは).",
+  "ex": {
+   "jp": "お母さんは料理が上手ですね。",
+   "vi": "Mẹ bạn nấu ăn giỏi nhỉ."
+  }
+ },
+ {
+  "i": 153,
+  "w": "兄",
+  "r": "あに",
+  "vi": "Anh trai",
+  "hv": "HUYNH",
+  "chars": [
+   {
+    "k": "兄",
+    "hv": "HUYNH",
+    "on": "キョウ・ケイ",
+    "kun": "あに",
+    "vi": "anh trai"
+   }
+  ],
+  "tip_vi": "兄 (あに) dùng khi nói về anh trai mình với người khác (khiêm nhường).",
+  "ex": {
+   "jp": "兄は東京に住んでいます。",
+   "vi": "Anh trai tôi sống ở Tokyo."
+  }
+ },
+ {
+  "i": 154,
+  "w": "お兄さん",
+  "r": "おにいさん",
+  "vi": "Anh trai: khi gọi anh trai hoặc nói về anh trai người khác",
+  "hv": "HUYNH",
+  "chars": [
+   {
+    "k": "兄",
+    "hv": "HUYNH",
+    "on": "キョウ・ケイ",
+    "kun": "あに",
+    "vi": "anh trai"
+   }
+  ],
+  "tip_vi": "Cách đọc đặc biệt: お兄さん = おにいさん. Dùng gọi anh trai mình hoặc nói về anh trai người khác.",
+  "ex": {
+   "jp": "お兄さんは何歳ですか。",
+   "vi": "Anh trai bạn bao nhiêu tuổi?"
+  }
+ },
+ {
+  "i": 155,
+  "w": "姉",
+  "r": "あね",
+  "vi": "Chị gái",
+  "hv": "TỈ",
+  "chars": [
+   {
+    "k": "姉",
+    "hv": "TỈ",
+    "on": "シ",
+    "kun": "あね",
+    "vi": "chị gái"
+   }
+  ],
+  "tip_vi": "姉 có bộ nữ 女: người phụ nữ lớn hơn trong nhà. Nói về chị mình: 姉 (あね).",
+  "ex": {
+   "jp": "姉は看護師です。",
+   "vi": "Chị gái tôi là y tá."
+  }
+ },
+ {
+  "i": 156,
+  "w": "お姉さん",
+  "r": "おねえさん",
+  "vi": "Chị gái: khi gọi chị gái hoặc nói về chị gái người khác",
+  "hv": "TỈ",
+  "chars": [
+   {
+    "k": "姉",
+    "hv": "TỈ",
+    "on": "シ",
+    "kun": "あね",
+    "vi": "chị gái"
+   }
+  ],
+  "tip_vi": "Cách đọc đặc biệt: お姉さん = おねえさん (kéo dài bằng え).",
+  "ex": {
+   "jp": "お姉さんはきれいですね。",
+   "vi": "Chị gái bạn đẹp nhỉ."
+  }
+ },
+ {
+  "i": 157,
+  "w": "弟",
+  "r": "おとうと",
+  "vi": "Em trai",
+  "hv": "ĐỆ",
+  "chars": [
+   {
+    "k": "弟",
+    "hv": "ĐỆ",
+    "on": "テイ・ダイ",
+    "kun": "おとうと",
+    "vi": "em trai"
+   }
+  ],
+  "tip_vi": "弟 đọc おとうと, dễ nhầm với おとうさん (bố). Chú ý không có さん.",
+  "ex": {
+   "jp": "弟は高校生です。",
+   "vi": "Em trai tôi là học sinh cấp 3."
+  }
+ },
+ {
+  "i": 158,
+  "w": "妹",
+  "r": "いもうと",
+  "vi": "Em gái",
+  "hv": "MUỘI",
+  "chars": [
+   {
+    "k": "妹",
+    "hv": "MUỘI",
+    "on": "マイ",
+    "kun": "いもうと",
+    "vi": "em gái"
+   }
+  ],
+  "tip_vi": "妹 = 女 (nữ) + 未 (chưa): cô gái chưa lớn = em gái.",
+  "ex": {
+   "jp": "妹は大学で勉強しています。",
+   "vi": "Em gái tôi đang học đại học."
+  }
+ },
+ {
+  "i": 159,
+  "w": "夫",
+  "r": "おっと",
+  "vi": "Chồng",
+  "hv": "PHU",
+  "chars": [
+   {
+    "k": "夫",
+    "hv": "PHU",
+    "on": "フ・フウ",
+    "kun": "おっと",
+    "vi": "chồng"
+   }
+  ],
+  "tip_vi": "Chữ 夫 giống 天 nhưng nét sổ đâm xuyên lên trên nét ngang đầu. Gọi chồng người khác: ご主人.",
+  "ex": {
+   "jp": "夫は会社員です。",
+   "vi": "Chồng tôi là nhân viên công ty."
+  }
+ },
+ {
+  "i": 160,
+  "w": "妻",
+  "r": "つま",
+  "vi": "Vợ",
+  "hv": "THÊ",
+  "chars": [
+   {
+    "k": "妻",
+    "hv": "THÊ",
+    "on": "サイ",
+    "kun": "つま",
+    "vi": "vợ"
+   }
+  ],
+  "tip_vi": "妻 có bộ nữ 女 ở dưới. Gọi vợ người khác: 奥さん.",
+  "ex": {
+   "jp": "妻と二人で住んでいます。",
+   "vi": "Tôi sống cùng vợ, hai người."
+  }
+ },
+ {
+  "i": 161,
+  "w": "両親",
+  "r": "りょうしん",
+  "vi": "Bố mẹ",
+  "hv": "LƯỠNG THÂN",
+  "chars": [
+   {
+    "k": "両",
+    "hv": "LƯỠNG",
+    "on": "リョウ",
+    "kun": "",
+    "vi": "cả hai"
+   },
+   {
+    "k": "親",
+    "hv": "THÂN",
+    "on": "シン",
+    "kun": "おや・した.しい",
+    "vi": "cha mẹ; thân thiết"
+   }
+  ],
+  "tip_vi": "両 (LƯỠNG: cả hai) + 親 (THÂN: cha mẹ) = cả bố và mẹ.",
+  "ex": {
+   "jp": "両親はベトナムにいます。",
+   "vi": "Bố mẹ tôi ở Việt Nam."
+  }
+ },
+ {
+  "i": 162,
+  "w": "男の子",
+  "r": "おとこのこ",
+  "vi": "Bé trai",
+  "hv": "NAM TỬ",
+  "chars": [
+   {
+    "k": "男",
+    "hv": "NAM",
+    "on": "ダン・ナン",
+    "kun": "おとこ",
+    "vi": "đàn ông, nam"
+   },
+   {
+    "k": "子",
+    "hv": "TỬ",
+    "on": "シ・ス",
+    "kun": "こ",
+    "vi": "con, đứa trẻ"
+   }
+  ],
+  "tip_vi": "男 = 田 (ruộng) + 力 (sức): người dùng sức làm ruộng = đàn ông.",
+  "ex": {
+   "jp": "公園で男の子が遊んでいます。",
+   "vi": "Bé trai đang chơi ở công viên."
+  }
+ },
+ {
+  "i": 163,
+  "w": "女の子",
+  "r": "おんなのこ",
+  "vi": "Bé gái",
+  "hv": "NỮ TỬ",
+  "chars": [
+   {
+    "k": "女",
+    "hv": "NỮ",
+    "on": "ジョ・ニョ",
+    "kun": "おんな",
+    "vi": "phụ nữ, nữ"
+   },
+   {
+    "k": "子",
+    "hv": "TỬ",
+    "on": "シ・ス",
+    "kun": "こ",
+    "vi": "con, đứa trẻ"
+   }
+  ],
+  "tip_vi": "女 là hình người phụ nữ ngồi khoanh tay. 女の子 đọc おんなのこ.",
+  "ex": {
+   "jp": "あの女の子は私の娘です。",
+   "vi": "Bé gái kia là con gái tôi."
+  }
+ },
+ {
+  "i": 164,
+  "w": "お祝い",
+  "r": "おいわい",
+  "vi": "Chúc mừng",
+  "hv": "CHÚC",
+  "chars": [
+   {
+    "k": "祝",
+    "hv": "CHÚC",
+    "on": "シュク",
+    "kun": "いわ.う",
+    "vi": "chúc mừng"
+   }
+  ],
+  "tip_vi": "祝 có bộ 示 (礻, thần linh): cầu chúc. Động từ: 祝う.",
+  "ex": {
+   "jp": "友だちに結婚のお祝いを送りました。",
+   "vi": "Tôi đã gửi quà mừng cưới cho bạn."
+  }
+ },
+ {
+  "i": 165,
+  "w": "誕生日",
+  "r": "たんじょうび",
+  "vi": "Sinh nhật",
+  "hv": "ĐẢN SINH NHẬT",
+  "chars": [
+   {
+    "k": "誕",
+    "hv": "ĐẢN",
+    "on": "タン",
+    "kun": "",
+    "vi": "sinh ra"
+   },
+   {
+    "k": "生",
+    "hv": "SINH",
+    "on": "セイ・ショウ",
+    "kun": "い.きる・う.まれる",
+    "vi": "sinh ra, sống"
+   },
+   {
+    "k": "日",
+    "hv": "NHẬT",
+    "on": "ニチ・ジツ",
+    "kun": "ひ・か",
+    "vi": "ngày, mặt trời"
+   }
+  ],
+  "tip_vi": "誕生 (đản sinh) + 日 (ngày). Lưu ý 日 đọc び (biến âm).",
+  "ex": {
+   "jp": "誕生日はいつですか。",
+   "vi": "Sinh nhật bạn là khi nào?"
+  }
+ },
+ {
+  "i": 166,
+  "w": "結婚",
+  "r": "けっこん",
+  "vi": "Kết hôn",
+  "hv": "KẾT HÔN",
+  "chars": [
+   {
+    "k": "結",
+    "hv": "KẾT",
+    "on": "ケツ",
+    "kun": "むす.ぶ",
+    "vi": "buộc, kết"
+   },
+   {
+    "k": "婚",
+    "hv": "HÔN",
+    "on": "コン",
+    "kun": "",
+    "vi": "hôn nhân"
+   }
+  ],
+  "tip_vi": "結 (KẾT) + 婚 (HÔN). Biến âm: けつ + こん → けっこん. Dùng: 〜と結婚する.",
+  "ex": {
+   "jp": "来年、結婚します。",
+   "vi": "Năm sau tôi sẽ kết hôn."
+  }
+ },
+ {
+  "i": 167,
+  "w": "時計",
+  "r": "とけい",
+  "vi": "Đồng hồ",
+  "hv": "THỜI KẾ",
+  "chars": [
+   {
+    "k": "時",
+    "hv": "THỜI",
+    "on": "ジ",
+    "kun": "とき",
+    "vi": "thời gian, giờ"
+   },
+   {
+    "k": "計",
+    "hv": "KẾ",
+    "on": "ケイ",
+    "kun": "はか.る",
+    "vi": "đo, tính"
+   }
+  ],
+  "tip_vi": "Cách đọc đặc biệt: 時計 = とけい (không đọc じけい).",
+  "ex": {
+   "jp": "この時計は父のプレゼントです。",
+   "vi": "Chiếc đồng hồ này là quà của bố."
+  }
+ },
+ {
+  "i": 168,
+  "w": "幸せ",
+  "r": "しあわせ",
+  "vi": "Hạnh phúc",
+  "hv": "HẠNH",
+  "chars": [
+   {
+    "k": "幸",
+    "hv": "HẠNH",
+    "on": "コウ",
+    "kun": "しあわ.せ・さいわ.い",
+    "vi": "hạnh phúc, may mắn"
+   }
+  ],
+  "tip_vi": "Viết 幸せ (okurigana せ). Tính từ đuôi な: 幸せな家族.",
+  "ex": {
+   "jp": "家族と一緒にいると幸せです。",
+   "vi": "Ở bên gia đình tôi thấy hạnh phúc."
+  }
+ },
+ {
+  "i": 169,
+  "w": "生まれる",
+  "r": "うまれる",
+  "vi": "Sinh ra",
+  "hv": "SINH",
+  "chars": [
+   {
+    "k": "生",
+    "hv": "SINH",
+    "on": "セイ・ショウ",
+    "kun": "い.きる・う.まれる",
+    "vi": "sinh ra, sống"
+   }
+  ],
+  "tip_vi": "Dùng dạng quá khứ: 〜で生まれました (sinh ra ở ~). 生 đọc う.",
+  "ex": {
+   "jp": "私はハノイで生まれました。",
+   "vi": "Tôi sinh ra ở Hà Nội."
+  }
+ },
+ {
+  "i": 170,
+  "w": "思う",
+  "r": "おもう",
+  "vi": "Nghĩ",
+  "hv": "TƯ",
+  "chars": [
+   {
+    "k": "思",
+    "hv": "TƯ",
+    "on": "シ",
+    "kun": "おも.う",
+    "vi": "nghĩ"
+   }
+  ],
+  "tip_vi": "思 = 田 + 心 (tim): suy nghĩ trong lòng. Dùng: 〜と思います.",
+  "ex": {
+   "jp": "明日は雨だと思います。",
+   "vi": "Tôi nghĩ ngày mai trời mưa."
+  }
+ },
+ {
+  "i": 171,
+  "w": "選ぶ",
+  "r": "えらぶ",
+  "vi": "Chọn",
+  "hv": "TUYỂN",
+  "chars": [
+   {
+    "k": "選",
+    "hv": "TUYỂN",
+    "on": "セン",
+    "kun": "えら.ぶ",
+    "vi": "chọn"
+   }
+  ],
+  "tip_vi": "選 có bộ 辶 (bước đi). 選手 (せんしゅ) = tuyển thủ.",
+  "ex": {
+   "jp": "好きな色を選んでください。",
+   "vi": "Hãy chọn màu bạn thích."
+  }
+ },
+ {
+  "i": 172,
+  "w": "合格する",
+  "r": "ごうかくする",
+  "vi": "Thi đậu",
+  "hv": "HỢP CÁCH",
+  "chars": [
+   {
+    "k": "合",
+    "hv": "HỢP",
+    "on": "ゴウ・ガッ",
+    "kun": "あ.う",
+    "vi": "hợp, khớp"
+   },
+   {
+    "k": "格",
+    "hv": "CÁCH",
+    "on": "カク",
+    "kun": "",
+    "vi": "cách, quy cách"
+   }
+  ],
+  "tip_vi": "合 (HỢP) + 格 (CÁCH) = đạt quy cách, thi đỗ. Đọc ごうかく; dùng: 〜に合格する.",
+  "ex": {
+   "jp": "JFTの試験に合格しました。",
+   "vi": "Tôi đã thi đậu kỳ thi JFT."
+  }
+ }
+]

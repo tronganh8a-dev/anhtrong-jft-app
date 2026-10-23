@@ -1,0 +1,18 @@
+[
+  {
+    "id": "117-1",
+    "problem": "A chưa nhắc tới 海 mà B lại dùng 海なら — không đúng chức năng của mẫu N なら (lấy lại chủ đề người kia vừa nói rồi gợi ý), câu đối thoại thiếu tự nhiên.",
+    "fix": {
+      "q": "A：週末、海に 行きたいんですが、どこが いいですか。 B：＿＿＿",
+      "ex_vi": "A nói muốn đi biển và hỏi nên đi đâu; B lấy lại chủ đề 海 và gợi ý: 「海なら、白浜がおすすめですよ」. Hai câu còn lại chỉ kể chuyện của bản thân B, không phải lời gợi ý."
+    }
+  },
+  {
+    "id": "156-2",
+    "problem": "Lựa chọn 何時でも (何時でも来てもいいですよ) cũng được người Nhật dùng khá phổ biến, dễ bị coi là đáp án đúng thứ hai; giải thích 'không ghép với ても' là quá tuyệt đối.",
+    "fix": {
+      "o": ["何時を", "何時まで", "何時ごろも", "何時に"],
+      "ex_vi": "Từ để hỏi + V-ても: 何時に来てもいいですよ (mấy giờ đến cũng được). 何時を sai trợ từ; 何時まで (đến mấy giờ) không hợp nghĩa; 何時ごろも sai ngữ pháp."
+    }
+  }
+]

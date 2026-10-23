@@ -1,0 +1,1881 @@
+[
+{
+"n": 1,
+"pattern": "Nが好きです",
+"meaning": "Thích N",
+"example": "肉と野菜が好きです。",
+"irodori": [
+"入門",
+5
+],
+"lv": "入門"
+},
+{
+"n": 2,
+"pattern": "Nは好きじゃないです",
+"meaning": "Không thích N",
+"example": "魚は好きじゃないです。",
+"irodori": [
+"入門",
+5
+],
+"lv": "入門"
+},
+{
+"n": 3,
+"pattern": "Nはちょっと...",
+"meaning": "N thì... Cách nói khéo léo thứ mình không thích",
+"example": "わさびは、ちょっと...。",
+"irodori": [
+"入門",
+5
+],
+"lv": "入門"
+},
+{
+"n": 4,
+"pattern": "【人】は【場所】にいます",
+"meaning": "Có người hoặc con vật",
+"example": "山田さんは、食堂にいます。",
+"irodori": [
+"入門",
+8
+],
+"lv": "入門"
+},
+{
+"n": 5,
+"pattern": "(【人】 ( は)いません∕いないです",
+"meaning": "Không có người, con vật",
+"example": "辻さんは、いませんね。アマンダさん、いないですね。",
+"irodori": [
+"入門",
+8
+],
+"lv": "入門"
+},
+{
+"n": 6,
+"pattern": "Nの【Vị trí】にあります",
+"meaning": "Cách nói vị trí cụ thể",
+"example": "引き出しの中にあります。",
+"irodori": [
+"入門",
+8
+],
+"lv": "入門"
+},
+{
+"n": 7,
+"pattern": "【Thời gian cụ thể】に∕ごろV-ます",
+"meaning": "Làm V lúc.... Làm V khoảng lúc.....",
+"example": "5時に起きます。 11時ごろ寝ます。",
+"irodori": [
+"入門",
+9
+],
+"lv": "入門"
+},
+{
+"n": 8,
+"pattern": "【Thời gian】がいいです",
+"meaning": "Cách chốt thời gian",
+"example": "私は、土曜日がいいです。",
+"irodori": [
+"入門",
+9
+],
+"lv": "入門"
+},
+{
+"n": 9,
+"pattern": "V-てください V-て V-てくれる?",
+"meaning": "Cách ra mệnh lệnh Yêu cầu đối phương làm V",
+"example": "ちょっと、手伝ってください。そこのドライバ-、取って。窓、閉めてくれる?",
+"irodori": [
+"入門",
+10
+],
+"lv": "入門"
+},
+{
+"n": 10,
+"pattern": "Nですね <確認>",
+"meaning": "Xác nhận thông tin Chỉ cần bê lại thông tin thêm chữ ね",
+"example": "A : これ、コピ-、 30枚お願い。 B : はい、 30ですね。",
+"irodori": null,
+"lv": "入門",
+"irodori_guess": [
+"入門",
+10
+]
+},
+{
+"n": 11,
+"pattern": "N、貸してください N、借りてもいいですか? N、いいですか? N、ありますか?",
+"meaning": "Cách mượn đồ",
+"example": "ホチキス、貸してください。すみません。借りてもいいですか? これ、いいですか? スマホの充電器、ありますか?",
+"irodori": [
+"入門",
+10
+],
+"lv": "入門"
+},
+{
+"n": 12,
+"pattern": "どんなN",
+"meaning": "Loại N nào",
+"example": "どんなスポ-ツが好きですか?",
+"irodori": null,
+"lv": "入門",
+"irodori_guess": [
+"入門",
+10
+]
+},
+{
+"n": 13,
+"pattern": "いつもたいて V-ますよくときどき",
+"meaning": "Cách nói tần xuất làm V",
+"example": "休みの日は、たいてい、映画を見ます。",
+"irodori": [
+"入門",
+11
+],
+"lv": "入門"
+},
+{
+"n": 14,
+"pattern": "あまり V-ませんぜんぜん V-ないです【】【】【",
+"meaning": "Ít khi làm V Hoàn toàn không làm V",
+"example": "スポ-ツは、ぜんぜんしないね。",
+"irodori": null,
+"lv": "入門",
+"irodori_guess": [
+"入門",
+11
+]
+},
+{
+"n": 15,
+"pattern": "【Thời gian】に【Địa điểm】で【Sự kiện 】があります",
+"meaning": "Cách nói sự kiện diễn ra khi nào, ở đâu",
+"example": "日曜日に、さくら公園でタイフェスティバルがありますね。",
+"irodori": [
+"入門",
+12
+],
+"lv": "入門"
+},
+{
+"n": 16,
+"pattern": "N ( sự kiện, hành động) に行きます",
+"meaning": "Cách diễn tả mục đích của chuyển động",
+"example": "明日の忘年会に行きますか?",
+"irodori": [
+"入門",
+12
+],
+"lv": "入門"
+},
+{
+"n": 17,
+"pattern": "いっしょに。。。 V-ませんか?",
+"meaning": "Cùng làm V không",
+"example": "いっしょに行きませんか?",
+"irodori": [
+"入門",
+12
+],
+"lv": "入門"
+},
+{
+"n": 18,
+"pattern": "V-ましょう",
+"meaning": "Làm V thôi",
+"example": "また今度行きましょう。",
+"irodori": [
+"入門",
+12
+],
+"lv": "入門"
+},
+{
+"n": 19,
+"pattern": "Vます-に行きます",
+"meaning": "Đi làm V",
+"example": "みんなで、いっしょに焼肉を食べに行きませんか?",
+"irodori": [
+"入門",
+12
+],
+"lv": "入門"
+},
+{
+"n": 20,
+"pattern": "【Phương tiện】で来ます",
+"meaning": "Đi bằng phương tiện: で",
+"example": "バイクで来ます。",
+"irodori": [
+"入門",
+13
+],
+"lv": "入門"
+},
+{
+"n": 21,
+"pattern": "【Khoảng thời gian】かかります",
+"meaning": "Cách nói tốn bao nhiêu thời gian",
+"example": "1時間半かかります。",
+"irodori": [
+"入門",
+13
+],
+"lv": "入門"
+},
+{
+"n": 22,
+"pattern": "【場所】で【Phưng tiện】に乗ります【場所】で【Phưng tiện】を降ります",
+"meaning": "Lên: に Xuống: を",
+"example": "ここから、 12番のバスに乗ります。バスセンタ-で、バスを降ります。",
+"irodori": null,
+"lv": "入門",
+"irodori_guess": [
+"入門",
+13
+]
+},
+{
+"n": 23,
+"pattern": "A-なNですね A-いNですね",
+"meaning": "Cách bày tỏ cảm tưởng, cảm xúc ồ",
+"example": "にぎやかな通りですね。広い公園ですね。",
+"irodori": [
+"入門",
+14
+],
+"lv": "入門"
+},
+{
+"n": 24,
+"pattern": "Aな-ですね A-いですねナA! イA-い!",
+"meaning": "",
+"example": "このコート、おしゃれですね。この傘、おもしろいですね。このコート、すてき! このバッグ、かわいい! 気",
+"irodori": [
+"入門",
+15
+],
+"lv": "入門"
+},
+{
+"n": 25,
+"pattern": "。。。ですね。",
+"meaning": "Đồng cảm => Bê lại thông tin và thêm ね",
+"example": "今日はいい天気ですね。 =>そうですね。いいてんきですね。",
+"irodori": [
+"初級1",
+4
+],
+"lv": "初級1"
+},
+{
+"n": 26,
+"pattern": "Nがほしいんですが",
+"meaning": "Muốn N",
+"example": "電池がほしいんですが、どこで買えますか? 延長コ-ドがほしいんですが...。",
+"irodori": [
+"入門",
+15
+],
+"lv": "初級1"
+},
+{
+"n": 27,
+"pattern": "N1 とN2【Số lượng】ずつ",
+"meaning": "Mỗi thứ .... Cách nói số lượng giống nhau",
+"example": "チョコレートケーキとチーズケーキ、 2個ずつお願いします。",
+"irodori": [
+"入門",
+16
+],
+"lv": "初級1"
+},
+{
+"n": 28,
+"pattern": "何もV-ませんでしたどこにもV-ませんでした",
+"meaning": "Không làm gì, không đi đâu",
+"example": "週末は、何もしませんでした。私は、どこにも行きませんでした。",
+"irodori": [
+"入門",
+17
+],
+"lv": "初級1"
+},
+{
+"n": 29,
+"pattern": "V-たいです",
+"meaning": "Muốn làm V",
+"example": "炊飯器(すいはんき)が買いたいです。買いたくない",
+"irodori": null,
+"lv": "初級1",
+"irodori_guess": [
+"初級1",
+4
+]
+},
+{
+"n": 30,
+"pattern": "どこかV-ます",
+"meaning": "どこか、だれか、なにか: đâu đó, ai đó, cái gì đó",
+"example": "どこか旅行したいです。",
+"irodori": [
+"入門",
+18
+],
+"lv": "初級1"
+},
+{
+"n": 31,
+"pattern": "S1。あと、 S2。",
+"meaning": "S1. THÊM NỮA S2",
+"example": "雪が見たいです。あと、温泉に入りたいです。",
+"irodori": [
+"入門",
+18
+],
+"lv": "初級1"
+},
+{
+"n": 32,
+"pattern": "【Địa điểm A】へ行きます",
+"meaning": "Đi địa điểm A",
+"example": "京都(きょうと)へ行きたいです。",
+"irodori": null,
+"lv": "初級1",
+"irodori_guess": [
+"初級1",
+4
+]
+},
+{
+"n": 33,
+"pattern": "S1。それから、 S2。",
+"meaning": "S1. SAU ĐÓ S2 ( Thứ tự hành động)",
+"example": "露天風呂に入りました。それから、温泉の近くで、鶏の天ぷらを食べました。",
+"irodori": [
+"入門",
+18
+],
+"lv": "初級1"
+},
+{
+"n": 34,
+"pattern": "S1。それに、 S2。",
+"meaning": "S1.HƠN NỮA S2 (Nhấn mạnh )",
+"example": "気持ちよかったです。それに、景色もきれいでした。",
+"irodori": [
+"入門",
+18
+],
+"lv": "初級1"
+},
+{
+"n": 35,
+"pattern": "S1。でも、 S2。",
+"meaning": "S1. NHƯNG S2 (2 mệnh đề đối lập nhau)",
+"example": "おいしかったです。でも、ちょっと高かったです。",
+"irodori": [
+"入門",
+18
+],
+"lv": "初級1"
+},
+{
+"n": 36,
+"pattern": "【Khoảng thời gian】になります",
+"meaning": "Được... thời gian rồi",
+"example": "日本に来て1年になります。",
+"irodori": [
+"初級1",
+1
+],
+"lv": "初級1"
+},
+{
+"n": 37,
+"pattern": "【Thời gian cụ thể】に来ました",
+"meaning": "Đã đến ....",
+"example": "去年の9月に来ました。",
+"irodori": [
+"初級1",
+1
+],
+"lv": "初級1"
+},
+{
+"n": 38,
+"pattern": "V-ています 1",
+"meaning": "Nói về công việc hiện tại",
+"example": "日本では、何をしていますか?",
+"irodori": [
+"初級1",
+1
+],
+"lv": "初級1"
+},
+{
+"n": 39,
+"pattern": "V-ています 2",
+"meaning": "Đang làm V ( Hành động vẫn đang diễn ra)",
+"example": "いけばなを習っています。",
+"irodori": [
+"初級1",
+2
+],
+"lv": "初級1"
+},
+{
+"n": 40,
+"pattern": "趣味はV-ることです",
+"meaning": "Cách nói sở thích",
+"example": "趣味は映画を見ることです。",
+"irodori": [
+"初級1",
+2
+],
+"lv": "初級1"
+},
+{
+"n": 41,
+"pattern": "V-るのが好きです",
+"meaning": "Thích làm V",
+"example": "ゲームをするのが好きです。",
+"irodori": [
+"初級1",
+2
+],
+"lv": "初級1"
+},
+{
+"n": 42,
+"pattern": "V1-て、 V2",
+"meaning": "Liệt kê hành động",
+"example": "毎週、夕方までバドミントンをして、そのあと、みんなでご飯を食べます。",
+"irodori": [
+"初級1",
+2
+],
+"lv": "初級1"
+},
+{
+"n": 43,
+"pattern": "Nができます",
+"meaning": "Biết, có thể làm N",
+"example": "日本語ができます。",
+"irodori": [
+"初級1",
+2
+],
+"lv": "初級1"
+},
+{
+"n": 44,
+"pattern": "N に Aな-になります Aい-く",
+"meaning": "Trở nên....",
+"example": "春は桜の花が咲きます。暖かくなります。",
+"irodori": [
+"初級1",
+3
+],
+"lv": "初級1"
+},
+{
+"n": 45,
+"pattern": "A-いのが好きです",
+"meaning": "Thích A ( Tính từ)",
+"example": "私は暑いのが好きです。",
+"irodori": [
+"初級1",
+3
+],
+"lv": "初級1"
+},
+{
+"n": 46,
+"pattern": "A-いのが苦手です",
+"meaning": "Không thích A (Tính từ)",
+"example": "寒いのが苦手です。",
+"irodori": [
+"初級1",
+3
+],
+"lv": "初級1"
+},
+{
+"n": 47,
+"pattern": "S1から、 S2",
+"meaning": "Vì... nên...",
+"example": "暑いのが大好きですから、夏が好きです。",
+"irodori": [
+"初級1",
+3
+],
+"lv": "初級1"
+},
+{
+"n": 48,
+"pattern": "N1やN2",
+"meaning": "Nào là N1, nào là N2..v...v...",
+"example": "海や山で遊ぶのも楽しいです。秋物梨",
+"irodori": [
+"初級1",
+3
+],
+"lv": "初級1"
+},
+{
+"n": 49,
+"pattern": "N1とか(N2とか)",
+"meaning": "Như là N1, như là n2 => Đưa ra ví dụ",
+"example": "秋は果物がおいしいですよね。ぶどうとか梨とか。",
+"irodori": [
+"初級1",
+3
+],
+"lv": "初級1"
+},
+{
+"n": 50,
+"pattern": "V-ています 3",
+"meaning": "Cách nói thời tiết HIỆN TẠI",
+"example": "今も少し雨が降っています。",
+"irodori": [
+"初級1",
+4
+],
+"lv": "初級1"
+},
+{
+"n": 51,
+"pattern": "N A- なでしょう A-い V-る",
+"meaning": "Có lẽ là... => Cách nói thờ tiết tương lai",
+"example": "明日は晴れるでしょう。",
+"irodori": [
+"初級1",
+4
+],
+"lv": "初級1"
+},
+{
+"n": 52,
+"pattern": "Aい- くて、 Aな- で、〜 N で、",
+"meaning": "Nối câu",
+"example": "この町は、とてもにぎやかで、便利です。",
+"irodori": [
+"初級1",
+5
+],
+"lv": "初級1"
+},
+{
+"n": 53,
+"pattern": "A-い Aな- だ〜けど N だ",
+"meaning": "Nhưng.....",
+"example": "この辺りは静かだけど、ちょっと不便です。年中花",
+"irodori": [
+"初級1",
+5
+],
+"lv": "初級1"
+},
+{
+"n": 54,
+"pattern": "V-ることができます",
+"meaning": "Có thể làm V",
+"example": "一年中、いろいろな花を見ることができます。",
+"irodori": [
+"初級1",
+5
+],
+"lv": "初級1"
+},
+{
+"n": 55,
+"pattern": "Nに行きたいんですが...",
+"meaning": "Tôi muốn đi N",
+"example": "マルイチデパートに行きたいんですが...。",
+"irodori": [
+"初級1",
+6
+],
+"lv": "初級1"
+},
+{
+"n": 56,
+"pattern": "V-て、〜",
+"meaning": "Cách chỉ đường (Dùng thể て)",
+"example": "この道をまっすぐ行って、 2つ目の信号を左に曲がってください。",
+"irodori": [
+"初級1",
+6
+],
+"lv": "初級1"
+},
+{
+"n": 57,
+"pattern": "N1じゃなくて、 N2",
+"meaning": "Không phải N1 mà là N2",
+"example": "1つ目じゃなくて、 2つ目です。",
+"irodori": [
+"初級1",
+6
+],
+"lv": "初級1"
+},
+{
+"n": 58,
+"pattern": "Nはどうですか?",
+"meaning": "Đưa ra gợi ý lần 1 ( Cuộc hẹn)",
+"example": "6時はどうですか?",
+"irodori": [
+"初級1",
+7
+],
+"lv": "初級1"
+},
+{
+"n": 59,
+"pattern": "Nでもいいですか?",
+"meaning": "Đưa ra gợi ý lần 2 (Cuộc hẹn)",
+"example": "6時半でもいいですか? 新行",
+"irodori": [
+"初級1",
+7
+],
+"lv": "初級1"
+},
+{
+"n": 60,
+"pattern": "もうV-ました",
+"meaning": "Đã làm V",
+"example": "新しいアウトレットモール、もう行きましたか?",
+"irodori": [
+"初級1",
+8
+],
+"lv": "初級1"
+},
+{
+"n": 61,
+"pattern": "V-たことがあります",
+"meaning": "Đã từng làm V",
+"example": "プロレスを見たことがありますか?",
+"irodori": [
+"初級1",
+8
+],
+"lv": "初級1"
+},
+{
+"n": 62,
+"pattern": "V-に行きませんか?",
+"meaning": "Cùng đi làm V không",
+"example": "いっしょに食べに行きませんか?",
+"irodori": [
+"初級1",
+8
+],
+"lv": "初級1"
+},
+{
+"n": 63,
+"pattern": "Nの前に、〜 Vる",
+"meaning": "Trước khi làm V, N",
+"example": "食事の前に、お金をおろしたいんですが...。",
+"irodori": [
+"初級1",
+8
+],
+"lv": "初級1"
+},
+{
+"n": 64,
+"pattern": "Nのあと(で) 、〜 Vた",
+"meaning": "Sau khi làm V, N",
+"example": "買い物のあとで、ゲームコーナーに行きませんか?",
+"irodori": [
+"初級1",
+8
+],
+"lv": "初級1"
+},
+{
+"n": 65,
+"pattern": "V-たいんですが...",
+"meaning": "Bày tỏ mong muốn của bản thân",
+"example": "ジョギングシューズを買いたいんですが...。",
+"irodori": [
+"初級1",
+8
+],
+"lv": "初級1"
+},
+{
+"n": 66,
+"pattern": "Nで <手段>",
+"meaning": "Phương tiện, cách thức",
+"example": "アニメで日本語を勉強しました。",
+"irodori": [
+"初級1",
+9
+],
+"lv": "初級1"
+},
+{
+"n": 67,
+"pattern": "N1は、〜。(でも、) N2は、〜。",
+"meaning": "N1.... Nhưng N2....",
+"example": "日本語は、読むのは少し難しいです。でも、会話は得意です。",
+"irodori": [
+"初級1",
+9
+],
+"lv": "初級1"
+},
+{
+"n": 68,
+"pattern": "V-てもらえませんか?",
+"meaning": "Bạn làm V giúp tôi được không ? => Nhờ vả",
+"example": "日本語をチェックしてもらえませんか?",
+"irodori": [
+"初級1",
+9
+],
+"lv": "初級1"
+},
+{
+"n": 69,
+"pattern": "Vます方",
+"meaning": "Cách làm V",
+"example": "この書類の書き方がよくわかりません。",
+"irodori": [
+"初級1",
+9
+],
+"lv": "初級1"
+},
+{
+"n": 70,
+"pattern": "V-てみたいんですが...",
+"meaning": "Tôi muốn làm thử V",
+"example": "合気道をやってみたいんですが...。",
+"irodori": [
+"初級1",
+10
+],
+"lv": "初級1"
+},
+{
+"n": 71,
+"pattern": "【Khoảng thời gian】(に) 〜回",
+"meaning": "Cách nói tần xuất thực hiện hành động",
+"example": "日本語クラスは週に1回です。",
+"irodori": [
+"初級1",
+10
+],
+"lv": "初級1"
+},
+{
+"n": 72,
+"pattern": "V-ましょうか?",
+"meaning": "Để tôi làm V giúp nhé",
+"example": "教室のチラシを持って来ましょうか?",
+"irodori": [
+"初級1",
+10
+],
+"lv": "初級1"
+},
+{
+"n": 73,
+"pattern": "Nのとき、〜",
+"meaning": "Khi N",
+"example": "高校のとき、少し日本語を勉強しました。",
+"irodori": [
+"初級1",
+10
+],
+"lv": "初級1"
+},
+{
+"n": 74,
+"pattern": "A-いとき、〜",
+"meaning": "Khi...",
+"example": "若いとき、よく旅行しました。",
+"irodori": null,
+"lv": "初級1",
+"irodori_guess": [
+"初級1",
+10
+]
+},
+{
+"n": 75,
+"pattern": "A-なとき、〜",
+"meaning": "Khi...",
+"example": "暇なとき、料理を作ります。",
+"irodori": null,
+"lv": "初級1",
+"irodori_guess": [
+"初級1",
+10
+]
+},
+{
+"n": 76,
+"pattern": "V-て行きます",
+"meaning": "Làm V rồi đi",
+"example": "肉と野菜は、私が買って行きますよ。",
+"irodori": [
+"初級1",
+11
+],
+"lv": "初級1"
+},
+{
+"n": 77,
+"pattern": "V-て来ます",
+"meaning": "Làm V rồi quay lại",
+"example": "",
+"irodori": null,
+"lv": "初級1",
+"irodori_guess": [
+"初級1",
+11
+]
+},
+{
+"n": 78,
+"pattern": "N1とN2(と) 、どっちがいいですか? S (danh từ chung)。どれがいいですか?",
+"meaning": "#VALUE!",
+"example": "チョコレートケーキとチーズケーキ、どっちがいいですか? お茶、いろいろありますね。どれがいいですか?",
+"irodori": [
+"初級1",
+11
+],
+"lv": "初級1"
+},
+{
+"n": 79,
+"pattern": "Nのほうがいいです",
+"meaning": "N tốt hơn",
+"example": "塩のほうがいいです。",
+"irodori": [
+"初級1",
+11
+],
+"lv": "初級1"
+},
+{
+"n": 80,
+"pattern": "【Từ để hỏi】でもいいです",
+"meaning": "",
+"example": "A: 何が食べたいですか。 B: 何でもいいです。",
+"irodori": null,
+"lv": "初級1",
+"irodori_guess": [
+"初級1",
+11
+]
+},
+{
+"n": 81,
+"pattern": "Aい Aなそうです Vます",
+"meaning": "Trông có vẻ",
+"example": "そのお弁当、おいしそうですね。どのぐらういかかりそですか?",
+"irodori": [
+"初級1",
+12
+],
+"lv": "初級1"
+},
+{
+"n": 82,
+"pattern": "Aい AなそうなN です。 Vます",
+"meaning": "N trông có vẻ",
+"example": "それ、辛そうな料理ですね。",
+"irodori": [
+"初級1",
+12
+],
+"lv": "初級1"
+},
+{
+"n": 83,
+"pattern": "A-くて、〜 A-くなくて、〜",
+"meaning": "Nối câu",
+"example": "この卵焼き、甘くて、おいしいですね。茶碗蒸し、甘くなくて、おいしいですよ。",
+"irodori": [
+"初級1",
+12
+],
+"lv": "初級1"
+},
+{
+"n": 84,
+"pattern": "V-てみます",
+"meaning": "Làm thử V",
+"example": "よかったら、この卵焼き、食べてみてください。",
+"irodori": [
+"初級1",
+12
+],
+"lv": "初級1"
+},
+{
+"n": 85,
+"pattern": "Tự động từ: NがVています Tha động từ: NをVます",
+"meaning": "Tự động từ: diễn tả 1 việc tự xảy ra không ai tác động Tha động từ: có sự tác động của con người",
+"example": "鶏肉とか、エビとか、きのことかが入ってます。ときどき、銀杏も入れますよ。",
+"irodori": [
+"初級1",
+12
+],
+"lv": "初級1"
+},
+{
+"n": 86,
+"pattern": "〜んですが...",
+"meaning": "Trình bày: vấn đề, lý do, bệnh tật",
+"example": "電気がつかないんですが。。。東京から、国の友だちが来るんです。昨日から38度の熱があって、のどがすごく痛いんです。ば",
+"irodori": [
+"初級1",
+14
+],
+"lv": "初級1"
+},
+{
+"n": 87,
+"pattern": "V-たいとき、どうすればいいですか?",
+"meaning": "Khi muốn làm V, làm như nào thì được",
+"example": "両面コピーしたいときは、どうすればいいですか?",
+"irodori": [
+"初級1",
+13
+],
+"lv": "初級1"
+},
+{
+"n": 88,
+"pattern": "V-ると、〜",
+"meaning": "Hễ làm V1 xảy ra V2",
+"example": "このスタートボタンを押すと、コピーが始まります。",
+"irodori": [
+"初級1",
+13
+],
+"lv": "初級1"
+},
+{
+"n": 89,
+"pattern": "Aい- くて、 Aな- で、〜 N で、 V- て、",
+"meaning": "Cách nói nguyên nhân, kết quả",
+"example": "道が混んでいて、ぜんぜん動きません。昨日は、休んですみませんでした。病院行少刻",
+"irodori": [
+"初級1",
+14
+],
+"lv": "初級1"
+},
+{
+"n": 90,
+"pattern": "S1。それで、 S2",
+"meaning": "S1. Chính vì vậy S2",
+"example": "これから病院に行きます。それで、少し遅刻します。",
+"irodori": [
+"初級1",
+14
+],
+"lv": "初級1"
+},
+{
+"n": 91,
+"pattern": "V-てもいいですか?",
+"meaning": "Tôi làm V được không ?",
+"example": "トイレに行って来てもいいですか?",
+"irodori": [
+"初級1",
+14
+],
+"lv": "初級1"
+},
+{
+"n": 92,
+"pattern": "V-てもいいでしょうか?",
+"meaning": "",
+"example": "明日の午後、早退してもいいでしょうか?",
+"irodori": [
+"初級1",
+14
+],
+"lv": "初級1"
+},
+{
+"n": 93,
+"pattern": "V-なければなりません V-なくちゃならない V-なくちゃ V-なきゃ",
+"meaning": "Phải làm V",
+"example": "ちょっと、役所に行かなければならないんです。",
+"irodori": [
+"初級1",
+14
+],
+"lv": "初級1"
+},
+{
+"n": 94,
+"pattern": "V-ないでください",
+"meaning": "Xin đừng làm V",
+"example": "今週は仕事を休んで、できるだけ人に会わないでください。",
+"irodori": [
+"初級1",
+15
+],
+"lv": "初級1"
+},
+{
+"n": 95,
+"pattern": "V thể ngắn N1 の Aい N2 Aな",
+"meaning": "Bổ ngữ",
+"example": "こちらは、せきを抑える薬です。 | この薬は、痛くてがまんできないときに、飲んでください。",
+"irodori": [
+"初級1",
+15
+],
+"lv": "初級1"
+},
+{
+"n": 96,
+"pattern": "V-るといいです(よ)",
+"meaning": "Làm V thì tốt (cho lời khuyên về chữa bệnh)",
+"example": "よく眠れないときは、ぬるいお風呂にゆっくり入るといいですよ。",
+"irodori": [
+"初級1",
+16
+],
+"lv": "初級1"
+},
+{
+"n": 97,
+"pattern": "Vます Aいすぎます Aな",
+"meaning": "Quá....",
+"example": "昨日、飲みすぎました。この色は派手すぎます。",
+"irodori": [
+"初級1",
+16
+],
+"lv": "初級1"
+},
+{
+"n": 98,
+"pattern": "V1-たり、 V2-たり(します)",
+"meaning": "Liệt kê hành động ( Không cần theo trình tự thời gian)",
+"example": "ジョギングしたり、ときどき家でヨガをしたりしてます。",
+"irodori": [
+"初級1",
+16
+],
+"lv": "初級1"
+},
+{
+"n": 99,
+"pattern": "V-るようにしています",
+"meaning": "Cố gắng làm V",
+"example": "できるだけ、野菜をたくさん食べるようにしています。",
+"irodori": [
+"初級1",
+16
+],
+"lv": "初級1"
+},
+{
+"n": 100,
+"pattern": "V-ないようにしています【人】【物】をもらます",
+"meaning": "Cố gắng không làm V",
+"example": "健康のために、食べすぎないようにしています。グプ誕生日友だちもら",
+"irodori": [
+"初級1",
+16
+],
+"lv": "初級1"
+},
+{
+"n": 101,
+"pattern": "【人】に【物】をもらいます【人】が【物】をくれす",
+"meaning": "Nhận N",
+"example": "このマグカップ、誕生日に、友だちにもらっれ兄がくれお守す",
+"irodori": null,
+"lv": "初級1",
+"irodori_guess": [
+"初級1",
+16
+]
+},
+{
+"n": 102,
+"pattern": "【人】が【物】をくれます【人】【物】をあげます",
+"meaning": "Cách nói ai đó CHO mình, người thân",
+"example": "これは、兄がくれたお守りです。ナさ何プゼをあげま",
+"irodori": [
+"初級1",
+17
+],
+"lv": "初級1"
+},
+{
+"n": 103,
+"pattern": "【人】に【物】をあげます",
+"meaning": "Tặng N",
+"example": "アナさんに何かプレゼントをあげませんか?",
+"irodori": [
+"初級1",
+18
+],
+"lv": "初級1"
+},
+{
+"n": 104,
+"pattern": "Vngắn Aいそうです。 Aなだ N だ",
+"meaning": "Nghe nói là...",
+"example": "お子さんが生まれたそうですね。",
+"irodori": [
+"初級1",
+18
+],
+"lv": "初級1"
+},
+{
+"n": 105,
+"pattern": "Vngắn Aいと言っていました Aなだって N だ",
+"meaning": "Đã nói là...",
+"example": "アナさん、前に焼き鳥が好きだと言っていました",
+"irodori": null,
+"lv": "初級1",
+"irodori_guess": [
+"初級1",
+18
+]
+},
+{
+"n": 106,
+"pattern": "Vngắn Aいと思います Aなだ N だ",
+"meaning": "Nghĩ là...",
+"example": "もっと、思い出に残るものがいいと思います。",
+"irodori": [
+"初級1",
+18
+],
+"lv": "初級1"
+},
+{
+"n": 107,
+"pattern": "N1というN2",
+"meaning": "N2 gọi là N1",
+"example": "ホアは「花」という意味です。",
+"irodori": [
+"初級2",
+1
+],
+"lv": "初級2"
+},
+{
+"n": 108,
+"pattern": "V-たばかりです",
+"meaning": "Vừa mới làm V",
+"example": "先週、日本に来たばかりです。",
+"irodori": [
+"初級2",
+1
+],
+"lv": "初級2"
+},
+{
+"n": 109,
+"pattern": "V-ていました",
+"meaning": "Nói về công việc đã làm trong quá khứ",
+"example": "ベトナムでは、ホテルで働いていました。",
+"irodori": [
+"初級2",
+1
+],
+"lv": "初級2"
+},
+{
+"n": 110,
+"pattern": "V-ている+人",
+"meaning": "Người..... => Tình huống: tìm người",
+"example": "ナインさんは、帽子をかぶっている人です。加藤さんは、あそこで、コピーをしている人です。",
+"irodori": [
+"初級2",
+2
+],
+"lv": "初級2"
+},
+{
+"n": 111,
+"pattern": "Sよ",
+"meaning": "よ: đấy => Nói về thông tin người nghe chưa biết",
+"example": "原さんは、座って、本を読んでる人ですよ。",
+"irodori": [
+"初級2",
+2
+],
+"lv": "初級2"
+},
+{
+"n": 112,
+"pattern": "Vngắn Aい Aなだし、。。。し。。。 N だ",
+"meaning": "Vừa... vừa.... => Dùng để liệt kê lý do, hoặc đặc điểm",
+"example": "三船敏郎は、演技(えんぎ)が上手だし、本当にかっこいいです。",
+"irodori": null,
+"lv": "初級2",
+"irodori_guess": [
+"初級2",
+2
+]
+},
+{
+"n": 113,
+"pattern": "Vngắn Aいので、。。。 Aな N",
+"meaning": "Vì... nên...",
+"example": "今日は自転車で来たので、飲めないんです。",
+"irodori": [
+"初級2",
+3
+],
+"lv": "初級2"
+},
+{
+"n": 114,
+"pattern": "Sよね",
+"meaning": "Xác nhận thông tin",
+"example": "おすし、わさび、入ってますよね。",
+"irodori": [
+"初級2",
+3
+],
+"lv": "初級2"
+},
+{
+"n": 115,
+"pattern": "Nでお願いします。",
+"meaning": "Cách đưa ra sự lựa chọn",
+"example": "A: テーブルと座敷がございますが...。 B: テーブルでお願いします。",
+"irodori": null,
+"lv": "初級2",
+"irodori_guess": [
+"初級2",
+3
+]
+},
+{
+"n": 116,
+"pattern": "A-な A-いのは、 Nです V-る",
+"meaning": "Tính từ, động từ hoá N",
+"example": "人気があるのは、お刺身定食です。",
+"irodori": [
+"初級2",
+3
+],
+"lv": "初級2"
+},
+{
+"n": 117,
+"pattern": "Nなら、〜<Gợi ý>",
+"meaning": "Nêu là N thì.... (Vế 2 là gợi ý)",
+"example": "A: この近くに、おすすめの店がありますか? B: この近くなら、「平兵衛」がおすすめです。菜食",
+"irodori": null,
+"lv": "初級2",
+"irodori_guess": [
+"初級2",
+3
+]
+},
+{
+"n": 118,
+"pattern": "V1て、 V1ないで、〜 V2",
+"meaning": "Làm V1 rồi làm V2 Không làm V1 mà làm V2",
+"example": "こちらの野菜の天ぷらは、つゆにつけて食べてください。エビはつゆにつけないで、塩をかけて食べて",
+"irodori": [
+"初級2",
+4
+],
+"lv": "初級2"
+},
+{
+"n": 119,
+"pattern": "Vてちゃだめです Vでじゃ",
+"meaning": "Không được làm V",
+"example": "一度に、そんなにたくさんお肉を入れちゃだめですよ。",
+"irodori": [
+"初級2",
+4
+],
+"lv": "初級2"
+},
+{
+"n": 120,
+"pattern": "V-てから、〜",
+"meaning": "Sau khi làm V1 thì làm V2",
+"example": "うどんは、お肉と野菜を食べてから、入れましょう。",
+"irodori": [
+"初級2",
+4
+],
+"lv": "初級2"
+},
+{
+"n": 121,
+"pattern": "",
+"meaning": "Thể khả năng Trợ từ を => が",
+"example": "",
+"irodori": null,
+"lv": "初級2",
+"irodori_guess": [
+"初級2",
+4
+]
+},
+{
+"n": 122,
+"pattern": "V-れます <可能形3>",
+"meaning": "Thể khả năng",
+"example": "DVDもたくさん見れました。久しぶりに、実家の母の料理を食べれてよかったです。",
+"irodori": [
+"初級2",
+9
+],
+"lv": "初級2"
+},
+{
+"n": 123,
+"pattern": "S(普通形) って聞きました S(普通形) って言っていました",
+"meaning": "Đã nghe là .... Đã nói là.....",
+"example": "うどんがおいしいって聞きました。バスが安くて便利だって先輩が言ってました。",
+"irodori": [
+"初級2",
+5
+],
+"lv": "初級2"
+},
+{
+"n": 124,
+"pattern": "【Từ để hỏi】 V-たらいいですか?",
+"meaning": "Làm V như nào thì được",
+"example": "日光に行くんですけど、何で行ったらいいですか?",
+"irodori": [
+"初級2",
+5
+],
+"lv": "初級2"
+},
+{
+"n": 125,
+"pattern": "V-たほうがいいです",
+"meaning": "Nên làm V",
+"example": "厚い上着を持って行ったほうがいいですよ。ば行",
+"irodori": [
+"初級2",
+5
+],
+"lv": "初級2"
+},
+{
+"n": 126,
+"pattern": "V-ないほうがいいです",
+"meaning": "Không nên làm V",
+"example": "できれば、日曜日は行かないほうがいいですよ。",
+"irodori": [
+"初級2",
+5
+],
+"lv": "初級2"
+},
+{
+"n": 127,
+"pattern": "V-るつもりです Vない",
+"meaning": "Dự định làm, không làm V",
+"example": "明日は、中禅寺湖に行くつもりです。",
+"irodori": [
+"初級2",
+6
+],
+"lv": "初級2"
+},
+{
+"n": 128,
+"pattern": "V-(thể khả năng) て、〜 (cảm xúc)",
+"meaning": "Có thể làm V nên thấy...",
+"example": "いろいろなところに行けて、よかったです。",
+"irodori": [
+"初級2",
+6
+],
+"lv": "初級2"
+},
+{
+"n": 129,
+"pattern": "V-(thể khả năng) なくて、〜 ( cảm xúc)",
+"meaning": "Không thể làm V nên thấy....",
+"example": "ショーが見られなくて、残念でした。",
+"irodori": [
+"初級2",
+6
+],
+"lv": "初級2"
+},
+{
+"n": 130,
+"pattern": "V1-る V1-ているとき〜 V2 V1-た",
+"meaning": "V1 làm trước => V1 chia Vた V1 làm sau => V1 chia Vる Đang làm V1 xảy ra bất ngờ => Vている",
+"example": "道を歩いているとき、リスを見ました。ウミネコが近くに来たとき、ちょっとこわかったです。",
+"irodori": [
+"初級2",
+6
+],
+"lv": "初級2"
+},
+{
+"n": 131,
+"pattern": "【人】と【Tổng số người】で",
+"meaning": "Cách nói tổng số người",
+"example": "友だちと2人でハウステンボスに行って来ました。",
+"irodori": [
+"初級2",
+6
+],
+"lv": "初級2"
+},
+{
+"n": 132,
+"pattern": "〜たら、〜",
+"meaning": "1 Nếu... thì... 2Sau khi làm V1 thì làm V2",
+"example": "雨が降ったら、盆踊りは日曜日にやるよ。盆踊りが終わったら、いっしょに居酒屋に行きましょう。",
+"irodori": [
+"初級2",
+7
+],
+"lv": "初級2"
+},
+{
+"n": 133,
+"pattern": "Nhóm 1: V います→ あれます *い=>われます Nhóm 2: Vえます + られる Nhóm 3: Nします → Nされます来ます → こられます",
+"meaning": "Thể bị động",
+"example": "7月14日、「ひかりホール」において、コンサートが開催されます。",
+"irodori": [
+"初級2",
+7
+],
+"lv": "初級2"
+},
+{
+"n": 134,
+"pattern": "まだ Vていません Vています",
+"meaning": "Vẫn chưa làm V Vẫn đang làm V",
+"example": "B:まだ始まってません。",
+"irodori": null,
+"lv": "初級2",
+"irodori_guess": [
+"初級2",
+7
+]
+},
+{
+"n": 135,
+"pattern": "【Từ để hỏi】 +S(普通形) か、〜",
+"meaning": "Ghép 2 câu hỏi thành 1 câu Mẹo: thay ですか=>か",
+"example": "明日のフリーマーケットは、何時からか、わかりますか?",
+"irodori": [
+"初級2",
+8
+],
+"lv": "初級2"
+},
+{
+"n": 164,
+"pattern": "〜かどうか、〜",
+"meaning": ".... Hay không....",
+"example": "店が開いているかどうか、わからないけど... 。",
+"irodori": [
+"初級2",
+16
+],
+"lv": "初級2"
+},
+{
+"n": 136,
+"pattern": "〜んですか?",
+"meaning": "Hỏi thông tin",
+"example": "成人の日は、何をするんですか?",
+"irodori": [
+"初級2",
+9
+],
+"lv": "初級2"
+},
+{
+"n": 137,
+"pattern": "Nしか+Phủ định",
+"meaning": "Chỉ...",
+"example": "乗り物に3つしか乗れませんでした。",
+"irodori": [
+"初級2",
+9
+],
+"lv": "初級2"
+},
+{
+"n": 138,
+"pattern": "Nだけ",
+"meaning": "Chỉ...",
+"example": "今年は、 1日だけ実家に帰りました。",
+"irodori": [
+"初級2",
+9
+],
+"lv": "初級2"
+},
+{
+"n": 139,
+"pattern": "V-たりして、〜 (cảm xúc)",
+"meaning": "Đưa ra ví dụ về hành động",
+"example": "友だちといっしょに買い物をしたりして、楽しかったです。",
+"irodori": [
+"初級2",
+9
+],
+"lv": "初級2"
+},
+{
+"n": 140,
+"pattern": "V1ます-ながら、〜V2",
+"meaning": "Vừa làm V1 vừa làm V2",
+"example": "ソンクラーンは、町を歩きながら、みんなで水をかけ合います。",
+"irodori": [
+"初級2",
+9
+],
+"lv": "初級2"
+},
+{
+"n": 141,
+"pattern": "Nによってちがいます",
+"meaning": "Phụ thuộc vào N sẽ khác nhau",
+"example": "レバランは、年によって違います。",
+"irodori": [
+"初級2",
+9
+],
+"lv": "初級2"
+},
+{
+"n": 142,
+"pattern": "【Từ để hỏi】 V-ばいいですか?",
+"meaning": "Làm V như nào thì được",
+"example": "お葬式には、何を持っていけばいいですか?",
+"irodori": null,
+"lv": "初級2",
+"irodori_guess": [
+"初級2",
+9
+]
+},
+{
+"n": 143,
+"pattern": "V-てはいけません∕だめです Vちゃいけません∕だめです",
+"meaning": "Không được làm V",
+"example": "信号が赤のときは、横断歩道を渡ってはいけませんよ。バスの中では、話しちゃだめだよね。",
+"irodori": [
+"初級2",
+10
+],
+"lv": "初級2"
+},
+{
+"n": 144,
+"pattern": "Vるように、〜",
+"meaning": "Để.....thì... Lưu ý: Chỉ đi với động từ không ý chí",
+"example": "次の人がすぐに席に座れるように、食器を片付けます。",
+"irodori": [
+"初級2",
+10
+],
+"lv": "初級2"
+},
+{
+"n": 145,
+"pattern": "V-ないように、〜",
+"meaning": "Để không.... Thì....",
+"example": "トイレがつまらないように、紙はごみ箱に捨てます。店店「今度気",
+"irodori": [
+"初級2",
+10
+],
+"lv": "初級2"
+},
+{
+"n": 146,
+"pattern": "Người にB bị động",
+"meaning": "Bị, được ai đó làm V",
+"example": "お店の店長さんに、「今度から気をつけて」と注意されました。",
+"irodori": null,
+"lv": "初級2",
+"irodori_guess": [
+"初級2",
+10
+]
+},
+{
+"n": 147,
+"pattern": "S(普通形) の?",
+"meaning": "Câu hỏi dạng ngắn",
+"example": "お金を払わないで、ジュース飲んだの?",
+"irodori": [
+"初級2",
+10
+],
+"lv": "初級2"
+},
+{
+"n": 148,
+"pattern": "V-てみてもいいですか?",
+"meaning": "Tôi làm thử V được không ?",
+"example": "このセーター、着てみてもいいですか?",
+"irodori": [
+"初級2",
+11
+],
+"lv": "初級2"
+},
+{
+"n": 149,
+"pattern": "もしかしたら V ngắn かもしれません Aい A な N",
+"meaning": "Không chừng.... có lẽ....",
+"example": "もしかしたら、バッグをとられたかもしれません。",
+"irodori": [
+"初級2",
+11
+],
+"lv": "初級2"
+},
+{
+"n": 150,
+"pattern": "V-てしまいました",
+"meaning": "Lỡ làm V",
+"example": "ポイントカード、忘れてしまいました。",
+"irodori": [
+"初級2",
+11
+],
+"lv": "初級2"
+},
+{
+"n": 151,
+"pattern": "V-るまで、〜",
+"meaning": "Cho đến lúc làm V",
+"example": "手元に届くまで、 2日しかかかりませんでした。",
+"irodori": [
+"初級2",
+12
+],
+"lv": "初級2"
+},
+{
+"n": 152,
+"pattern": "Vます-にくいです",
+"meaning": "Khó làm V",
+"example": "この掃除機は、重くて、使いにくいですね。",
+"irodori": [
+"初級2",
+12
+],
+"lv": "初級2"
+},
+{
+"n": 153,
+"pattern": "Vます-やすいです",
+"meaning": "Dễ làm V",
+"example": "トーシマの掃除機のほうが動かしやすいですよ。",
+"irodori": null,
+"lv": "初級2",
+"irodori_guess": [
+"初級2",
+12
+]
+},
+{
+"n": 154,
+"pattern": "V tha động từ-てあります",
+"meaning": "Có làm V",
+"example": "昔、使われた道具とか、いろいろな資料を展示してあります。本",
+"irodori": [
+"初級2",
+13
+],
+"lv": "初級2"
+},
+{
+"n": 155,
+"pattern": "N1だけじゃなくて、 N2も〜",
+"meaning": "Không chỉ N1 mà N2 cũng...",
+"example": "本だけじゃなくて、 CDとか、 DVDもただで借りられます。",
+"irodori": [
+"初級2",
+13
+],
+"lv": "初級2"
+},
+{
+"n": 156,
+"pattern": "【Từ để hỏi】 V-ても、〜",
+"meaning": "Cho dù.... Thì cũng....",
+"example": "返却は、市内の図書館なら、どこに返してもいいです。",
+"irodori": [
+"初級2",
+13
+],
+"lv": "初級2"
+},
+{
+"n": 157,
+"pattern": "Aなに V Aいく",
+"meaning": "Làm V trong trạng thái",
+"example": "全体的に短く切ってください。",
+"irodori": [
+"初級2",
+14
+],
+"lv": "初級2"
+},
+{
+"n": 158,
+"pattern": "Nのために、〜",
+"meaning": "Dành cho N, Vì N",
+"example": "外国の方のために、いろいろなサービスがあります。",
+"irodori": [
+"初級2",
+14
+],
+"lv": "初級2"
+},
+{
+"n": 159,
+"pattern": "V-たままです",
+"meaning": "Để nguyên trạng thái V",
+"example": "会議室の電気がついたままでしたよ。",
+"irodori": [
+"初級2",
+15
+],
+"lv": "初級2"
+},
+{
+"n": 160,
+"pattern": "V-るのにいいです",
+"meaning": "Tốt cho việc làm V",
+"example": "マイストローは、ごみを減らすのにいいんですよ。",
+"irodori": [
+"初級2",
+15
+],
+"lv": "初級2"
+},
+{
+"n": 161,
+"pattern": "V mệnh lệnh V-るな",
+"meaning": "Thể mệnh lệnh Cấm chỉ",
+"example": "急げ。こっちに集まれ。走るな。",
+"irodori": [
+"初級2",
+16
+],
+"lv": "初級2"
+},
+{
+"n": 162,
+"pattern": "Vkhả năngるようになりました",
+"meaning": "Trở nên có thể làm V",
+"example": "最近は、ほかの人にお店の情報を教えられるようになりました。",
+"irodori": [
+"初級2",
+17
+],
+"lv": "初級2"
+},
+{
+"n": 163,
+"pattern": "V khả năngなくなります",
+"meaning": "Trở nên không thể làm V",
+"example": "ドアが開かなくなると、外に逃げられなくなります。",
+"irodori": [
+"初級2",
+16
+],
+"lv": "初級2"
+},
+{
+"n": 165,
+"pattern": "V-(よ) うと思います",
+"meaning": "Dự định làm",
+"example": "将来は、タイで、自分の会社を作ろうと思います。",
+"irodori": [
+"初級2",
+18
+],
+"lv": "初級2"
+},
+{
+"n": 166,
+"pattern": "Vý chíるために、〜",
+"meaning": "Để làm V thì...",
+"example": "日本に住むために、もっと日本語をがんばろうと思います。",
+"irodori": [
+"初級2",
+18
+],
+"lv": "初級2"
+},
+{
+"n": 167,
+"pattern": "V-てあげます",
+"meaning": "Làm V cho người khác",
+"example": "両親に、家を建ててあげるつもりです。",
+"irodori": [
+"初級2",
+18
+],
+"lv": "初級2"
+},
+{
+"n": 168,
+"pattern": "V-てもらいます",
+"meaning": "Được ng khác làm V cho",
+"example": "JF工業のみなさんには、とても親切にしてもらいました。",
+"irodori": [
+"初級2",
+18
+],
+"lv": "初級2"
+},
+{
+"n": 169,
+"pattern": "Người は V-てくれますが",
+"meaning": "Người khác làm V cho mình",
+"example": "山内さんは、私にたくさん、日本語を教えてくれました。",
+"irodori": [
+"初級2",
+18
+],
+"lv": "初級2"
+}
+]

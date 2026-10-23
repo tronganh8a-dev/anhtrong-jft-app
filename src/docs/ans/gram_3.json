@@ -1,0 +1,1837 @@
+[
+ {
+  "n": 59,
+  "pattern": "N でもいいですか",
+  "meaning_vi": "N có được không? (đưa ra phương án khác khi hẹn)",
+  "structure": [
+   "N ＋ でもいいですか",
+   "Thời gian／địa điểm／đồ vật ＋ でもいいですか"
+  ],
+  "explain_vi": [
+   "Mẫu này dùng khi phương án người kia đưa ra không hợp với mình, và mình đề xuất một phương án thay thế một cách nhẹ nhàng: 「N có được không?」. Thường gặp khi hẹn giờ, hẹn ngày, chọn địa điểm, hoặc khi không có đúng thứ người ta cần mà muốn dùng thứ khác thay.",
+   "Cách ghép rất đơn giản: danh từ ＋ でもいいですか. Ví dụ 7時はちょっと…。8時でもいいですか (7 giờ thì hơi… 8 giờ có được không?). Trước câu này thường có một câu từ chối khéo như 「〜はちょっと…」.",
+   "でも ở đây mang sắc thái 「dù không phải cái anh muốn, nhưng cái này cũng được chứ?」, nên nghe lịch sự và mềm mỏng. Đừng nhầm với でも đứng đầu câu (nhưng). Trả lời đồng ý: ええ、いいですよ。Không đồng ý: すみません、〜はちょっと…。"
+  ],
+  "example": {
+   "jp": "6時半でもいいですか？",
+   "vi": "6 giờ rưỡi có được không?"
+  },
+  "examples": [
+   {
+    "jp": "あしたはちょっと…。あさってでもいいですか。",
+    "vi": "Ngày mai thì hơi khó… Ngày kia có được không?"
+   },
+   {
+    "jp": "ボールペンがありません。えんぴつでもいいですか。",
+    "vi": "Tôi không có bút bi. Bút chì có được không?"
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A：7時に 会いませんか。\nB：すみません、7時は ちょっと…。8時＿＿＿ いいですか。",
+    "o": [
+     "まで",
+     "には",
+     "から",
+     "でも"
+    ],
+    "a": 3,
+    "ex_vi": "Đề xuất phương án thay thế dùng 「N でもいいですか」. Các lựa chọn khác không tạo thành câu hỏi đề xuất tự nhiên."
+   },
+   {
+    "q": "A：土曜日は どうですか。\nB：土曜日は 仕事なんです。日曜日でも いいですか。\nA：＿＿＿",
+    "o": [
+     "いいえ、けっこうです。",
+     "どういたしまして。",
+     "はじめまして。",
+     "ええ、いいですよ。"
+    ],
+    "a": 3,
+    "ex_vi": "B hỏi 「Chủ nhật có được không?」 nên đáp đồng ý là 「ええ、いいですよ」. 「いいえ、けっこうです」 là từ chối lời mời/đồ mời, 「どういたしまして」 đáp lời cảm ơn, 「はじめまして」 chào lần đầu."
+   },
+   {
+    "q": "（お店で）すみません、カードが ありません。現金＿＿＿ いいですか。",
+    "o": [
+     "を",
+     "でも",
+     "と",
+     "が"
+    ],
+    "a": 1,
+    "ex_vi": "Không có thẻ nên đề xuất trả bằng tiền mặt thay thế: 現金でもいいですか. Các trợ từ が、を、と không ghép được với いいですか theo nghĩa này."
+   }
+  ]
+ },
+ {
+  "n": 60,
+  "pattern": "もう V-ました",
+  "meaning_vi": "Đã làm V rồi",
+  "structure": [
+   "もう ＋ V-ました (đã … rồi)",
+   "もう V-ましたか → はい、もう V-ました／いいえ、まだです",
+   "まだ ＋ V-ていません (vẫn chưa …)"
+  ],
+  "explain_vi": [
+   "もう đi với động từ thể quá khứ V-ました để nói một việc đã xong, đã hoàn thành rồi. Dạng câu hỏi もう V-ましたか dùng để hỏi 「anh/chị đã … chưa?」, ví dụ hỏi đã ăn chưa, đã đi chưa, đã nộp giấy tờ chưa.",
+   "Khi trả lời: nếu đã làm thì nói はい、もう V-ました. Nếu chưa làm thì nói いいえ、まだです hoặc いいえ、まだ V-ていません. Lưu ý: không nói 「まだ V-ました」 vì まだ (vẫn chưa) không đi với thể quá khứ khẳng định.",
+   "Lỗi hay gặp của người Việt: dịch 「chưa」 thành 「V-ませんでした」. Câu いいえ、食べませんでした có nghĩa là 「(lúc đó) tôi đã không ăn」, khác với 「tôi chưa ăn」 (まだ食べていません). Khi hỏi về một việc mà người kia có thể sẽ làm, hãy dùng まだです."
+  ],
+  "example": {
+   "jp": "新しいアウトレットモール、もう行きましたか？",
+   "vi": "Trung tâm outlet mới, anh/chị đã đi chưa?"
+  },
+  "examples": [
+   {
+    "jp": "書類はもう出しました。",
+    "vi": "Tôi đã nộp giấy tờ rồi."
+   },
+   {
+    "jp": "A：昼ごはん、もう食べましたか。B：いいえ、まだです。",
+    "vi": "A: Anh ăn trưa chưa? B: Chưa, tôi chưa ăn."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A：昼ごはんは もう 食べましたか。\nB：いいえ、＿＿＿。",
+    "o": [
+     "食べました",
+     "もうです",
+     "まだです",
+     "もう食べました"
+    ],
+    "a": 2,
+    "ex_vi": "Chưa ăn thì trả lời 「いいえ、まだです」. 「もうです」 không có nghĩa; 「食べました」, 「もう食べました」 mâu thuẫn với いいえ."
+   },
+   {
+    "q": "仕事は ＿＿＿ 終わりました。これから 帰ります。",
+    "o": [
+     "まだ",
+     "あとで",
+     "もう",
+     "これから"
+    ],
+    "a": 2,
+    "ex_vi": "Việc đã xong rồi nên 「もう終わりました」. まだ không đi với ました khẳng định; これから và あとで chỉ tương lai, không hợp với 終わりました."
+   },
+   {
+    "q": "A：その 映画、もう 見ましたか。\nB：＿＿＿",
+    "o": [
+     "はい、まだです。",
+     "いいえ、まだ 見ていません。",
+     "いいえ、まだ 見ました。",
+     "はい、まだ 見ています。"
+    ],
+    "a": 1,
+    "ex_vi": "「Chưa xem」 là まだ見ていません. まだ không đi với 見ました; 「はい、まだです」 mâu thuẫn; 「まだ見ています」 nghĩa là 「vẫn đang xem」."
+   }
+  ]
+ },
+ {
+  "n": 61,
+  "pattern": "V-たことがあります",
+  "meaning_vi": "Đã từng làm V",
+  "structure": [
+   "V-た ＋ ことがあります (đã từng)",
+   "V-た ＋ ことがありません (chưa từng)",
+   "V-た ＋ ことがありますか (đã từng … chưa?)"
+  ],
+  "explain_vi": [
+   "Mẫu này dùng để nói về kinh nghiệm: trong đời mình đã từng làm việc gì đó ít nhất một lần. Ví dụ đã từng ăn sushi, đã từng leo núi Phú Sĩ, đã từng làm việc ở nhà máy. Rất hay dùng khi phỏng vấn xin việc hoặc làm quen.",
+   "Cách chia: chuyển động từ sang thể た (thể quá khứ thường) rồi thêm ことがあります. Ví dụ 食べる → 食べた → 食べたことがあります; 行く → 行った → 行ったことがあります; する → したことがあります. Phủ định là ことがありません, có thể thêm 一度も (chưa một lần nào).",
+   "Phân biệt với V-ました: 「きのう、すしを食べました」 là kể một việc cụ thể ở thời điểm cụ thể. Còn 「すしを食べたことがあります」 là nói về kinh nghiệm, nên thường không đi với きのう, 先週. Không dùng mẫu này cho việc làm hằng ngày (ví dụ không nói 「朝ごはんを食べたことがあります」)."
+  ],
+  "example": {
+   "jp": "プロレスを見たことがありますか？",
+   "vi": "Anh/chị đã từng xem đấu vật chuyên nghiệp chưa?"
+  },
+  "examples": [
+   {
+    "jp": "わたしは工場で働いたことがあります。",
+    "vi": "Tôi đã từng làm việc ở nhà máy."
+   },
+   {
+    "jp": "日本の温泉に入ったことがありません。",
+    "vi": "Tôi chưa từng tắm suối nước nóng ở Nhật."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "わたしは 富士山に 登った＿＿＿が あります。",
+    "o": [
+     "ところ",
+     "もの",
+     "こと",
+     "とき"
+    ],
+    "a": 2,
+    "ex_vi": "Mẫu kinh nghiệm là 「V-たことがあります」. もの, とき, ところ không ghép với があります theo nghĩa 「đã từng」."
+   },
+   {
+    "q": "A：日本の すしを 食べたことが ありますか。\nB：いいえ、＿＿＿。",
+    "o": [
+     "ありません",
+     "いません",
+     "しません",
+     "なりません"
+    ],
+    "a": 0,
+    "ex_vi": "Câu hỏi dùng ことがありますか thì câu trả lời phủ định là ことがありません, nói gọn là 「いいえ、ありません」. Các động từ khác không khớp với こと."
+   },
+   {
+    "q": "日本で 着物を ＿＿＿ ことが あります。",
+    "o": [
+     "着て",
+     "着ます",
+     "着た",
+     "着る"
+    ],
+    "a": 2,
+    "ex_vi": "Trước ことがあります phải là thể た: 着た. 着る ことがあります mang nghĩa khác (thỉnh thoảng có lúc mặc), 着て và 着ます không ghép được."
+   }
+  ]
+ },
+ {
+  "n": 62,
+  "pattern": "V-ます に行きませんか",
+  "meaning_vi": "Cùng đi (làm) V không?",
+  "structure": [
+   "V-ます (bỏ ます) ＋ に行きませんか",
+   "N (hành động: 買い物、食事…) ＋ に行きませんか"
+  ],
+  "explain_vi": [
+   "Mẫu này dùng để rủ ai đó cùng đi đâu đó với mục đích làm một việc: đi ăn, đi xem phim, đi mua sắm. 〜ませんか là cách mời lịch sự, mềm hơn 〜ましょう. Thường thêm いっしょに ở trước.",
+   "Cách ghép: bỏ ます của động từ rồi thêm に行きませんか. Ví dụ 食べます → 食べに行きませんか; 見ます → 見に行きませんか. Với danh từ chỉ hành động thì ghép trực tiếp: 買い物に行きませんか, 食事に行きませんか. Trợ từ に ở đây chỉ mục đích.",
+   "Trả lời đồng ý: いいですね。行きましょう。Từ chối khéo: すみません、〜はちょっと…。Lưu ý không dùng thể từ điển (食べるに行く là sai) và không quên に (食べ行きませんか là sai)."
+  ],
+  "example": {
+   "jp": "いっしょに食べに行きませんか？",
+   "vi": "Mình cùng đi ăn không?"
+  },
+  "examples": [
+   {
+    "jp": "週末、いっしょに映画を見に行きませんか。",
+    "vi": "Cuối tuần này cùng đi xem phim không?"
+   },
+   {
+    "jp": "仕事のあとで、飲みに行きませんか。",
+    "vi": "Sau giờ làm cùng đi uống chút không?"
+   }
+  ],
+  "quiz": [
+   {
+    "q": "週末、いっしょに 映画を 見＿＿＿ 行きませんか。",
+    "o": [
+     "が",
+     "に",
+     "を",
+     "で"
+    ],
+    "a": 1,
+    "ex_vi": "Chỉ mục đích của việc đi dùng に: 見に行きませんか. Các trợ từ を, で, が không chỉ mục đích."
+   },
+   {
+    "q": "A：あした、いっしょに 買い物に 行きませんか。\nB：＿＿＿",
+    "o": [
+     "はい、行きませんでした。",
+     "いいえ、行きましょう。",
+     "どういたしまして。",
+     "いいですね。行きましょう。"
+    ],
+    "a": 3,
+    "ex_vi": "Đồng ý lời rủ: 「いいですね。行きましょう」. 「行きませんでした」 là quá khứ phủ định, 「いいえ、行きましょう」 mâu thuẫn, 「どういたしまして」 đáp lời cảm ơn."
+   },
+   {
+    "q": "昼休み、ラーメンを ＿＿＿に 行きませんか。",
+    "o": [
+     "食べ",
+     "食べて",
+     "食べる",
+     "食べた"
+    ],
+    "a": 0,
+    "ex_vi": "Trước に行きます là động từ bỏ ます: 食べます → 食べ. Thể từ điển, thể て, thể た đều không đứng trước に theo mẫu này."
+   }
+  ]
+ },
+ {
+  "n": 63,
+  "pattern": "N の前に、〜 ／ V-る前に、〜",
+  "meaning_vi": "Trước N／Trước khi làm V, …",
+  "structure": [
+   "N ＋ の前に、〜",
+   "V-る (thể từ điển) ＋ 前に、〜"
+  ],
+  "explain_vi": [
+   "Mẫu này cho biết hành động ở vế sau xảy ra trước một sự việc hoặc hành động khác. Ví dụ trước bữa ăn thì rút tiền, trước khi ngủ thì đánh răng, trước khi vào làm thì thay đồ.",
+   "Với danh từ: N ＋ の前に (食事の前に、仕事の前に). Với động từ: luôn dùng thể từ điển ＋ 前に (寝る前に、食べる前に), kể cả khi cả câu nói về quá khứ. Ví dụ 日本に来る前に、日本語を勉強しました (Trước khi sang Nhật, tôi đã học tiếng Nhật), không nói 来た前に.",
+   "Lưu ý に sau 前: 前に là 「trước (về thời gian)」. Còn 前で là 「ở phía trước (về vị trí)」, ví dụ 駅の前で会いましょう. Đừng nhầm hai cách này. Mẫu ngược lại là 〜のあとで／V-たあとで (sau khi)."
+  ],
+  "example": {
+   "jp": "食事の前に、お金をおろしたいんですが…。",
+   "vi": "Trước khi ăn, tôi muốn rút ít tiền…"
+  },
+  "examples": [
+   {
+    "jp": "仕事の前に、作業服に着替えます。",
+    "vi": "Trước giờ làm, tôi thay quần áo bảo hộ."
+   },
+   {
+    "jp": "寝る前に、シャワーをあびます。",
+    "vi": "Trước khi ngủ, tôi tắm vòi sen."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "寝る＿＿＿、歯を みがきます。",
+    "o": [
+     "あとで",
+     "前で",
+     "中に",
+     "前に"
+    ],
+    "a": 3,
+    "ex_vi": "Thể từ điển 寝る ＋ 前に = trước khi ngủ. 前で chỉ vị trí; あとで phải đi với thể た (寝たあとで); 中に không dùng như vậy."
+   },
+   {
+    "q": "ごはんを ＿＿＿前に、手を 洗います。",
+    "o": [
+     "食べる",
+     "食べて",
+     "食べ",
+     "食べた"
+    ],
+    "a": 0,
+    "ex_vi": "Trước 前に luôn là thể từ điển: 食べる前に. Thể た, thể て, dạng bỏ ます đều sai."
+   },
+   {
+    "q": "A：いつ シャワーを あびますか。\nB：＿＿＿、あびます。",
+    "o": [
+     "朝ごはんで前に",
+     "朝ごはんの前に",
+     "朝ごはんが前に",
+     "朝ごはんの前を"
+    ],
+    "a": 1,
+    "ex_vi": "Danh từ ＋ の前に: 朝ごはんの前に (trước bữa sáng). Các lựa chọn khác dùng sai trợ từ."
+   }
+  ]
+ },
+ {
+  "n": 64,
+  "pattern": "N のあと(で)、〜 ／ V-たあと(で)、〜",
+  "meaning_vi": "Sau N／Sau khi làm V, …",
+  "structure": [
+   "N ＋ のあと(で)、〜",
+   "V-た ＋ あと(で)、〜"
+  ],
+  "explain_vi": [
+   "Mẫu này cho biết hành động ở vế sau xảy ra sau một sự việc hoặc hành động khác: sau khi mua sắm thì đi chơi game, sau giờ làm thì đi uống, sau bữa ăn thì uống thuốc. Có thể nói あとで hoặc bỏ で thành あと, nghĩa gần như nhau.",
+   "Với danh từ: N ＋ のあとで (買い物のあとで、授業のあとで). Với động từ: luôn dùng thể た ＋ あとで (食べたあとで、仕事が終わったあとで), kể cả khi câu nói về tương lai. Không nói 食べるあとで.",
+   "Đây là mẫu ngược với 〜の前に／V-る前に. Mẹo nhớ: 「trước」 đi với thể từ điển (việc chưa xảy ra), 「sau」 đi với thể た (việc đã xảy ra). Cũng có thể dùng V-てから với nghĩa gần giống: 食べてから、薬を飲みます."
+  ],
+  "example": {
+   "jp": "買い物のあとで、ゲームコーナーに行きませんか？",
+   "vi": "Sau khi mua sắm, mình đi khu trò chơi điện tử không?"
+  },
+  "examples": [
+   {
+    "jp": "仕事が終わったあとで、スーパーに行きます。",
+    "vi": "Sau khi xong việc, tôi đi siêu thị."
+   },
+   {
+    "jp": "この薬は食事のあとで飲んでください。",
+    "vi": "Thuốc này hãy uống sau bữa ăn."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "仕事が ＿＿＿ あとで、飲みに 行きませんか。",
+    "o": [
+     "終わる",
+     "終わります",
+     "終わった",
+     "終わって"
+    ],
+    "a": 2,
+    "ex_vi": "Trước あとで động từ phải ở thể た: 終わったあとで. Thể từ điển, thể て, thể ます đều không đứng trước あとで."
+   },
+   {
+    "q": "授業の＿＿＿、先生に 質問しました。",
+    "o": [
+     "あとを",
+     "あとが",
+     "あとの",
+     "あとで"
+    ],
+    "a": 3,
+    "ex_vi": "Danh từ ＋ のあとで = sau N. あとを, あとが, あとの không tạo thành trạng ngữ thời gian ở đây."
+   },
+   {
+    "q": "A：映画の あとで、どうしますか。\nB：＿＿＿",
+    "o": [
+     "映画を 見る前です。",
+     "はい、あとです。",
+     "きのう 見ました。",
+     "カフェで お茶を 飲みましょう。"
+    ],
+    "a": 3,
+    "ex_vi": "A hỏi sau khi xem phim sẽ làm gì, nên đề xuất một việc làm sau đó là hợp lý. Các câu còn lại không trả lời đúng câu hỏi."
+   }
+  ]
+ },
+ {
+  "n": 65,
+  "pattern": "V-たいんですが…",
+  "meaning_vi": "Tôi muốn làm V… (nói ra mong muốn để nhờ giúp)",
+  "structure": [
+   "V-ます (bỏ ます) ＋ たいんですが…",
+   "N を ＋ V-たいんですが…"
+  ],
+  "explain_vi": [
+   "Mẫu này dùng khi mình nói ra mong muốn của bản thân với người khác (nhân viên cửa hàng, nhân viên ngân hàng, đồng nghiệp…) với ý ngầm là 「xin hãy giúp tôi / chỉ cho tôi」. Câu thường bỏ lửng sau が, người nghe tự hiểu và đáp lại.",
+   "Cách ghép: bỏ ます ＋ たい ＋ んですが. Ví dụ 買います → 買いたいんですが; 作ります → 作りたいんですが. んです làm cho câu mang sắc thái giải thích hoàn cảnh, còn が… bỏ lửng làm câu nghe nhẹ nhàng, lịch sự.",
+   "So với 「V-たいです」: 「〜たいです」 chỉ là nói mình muốn gì, còn 「〜たいんですが…」 là mở đầu để nhờ vả, hỏi han. Ví dụ ở quầy ngân hàng nên nói 口座を作りたいんですが…, nghe tự nhiên hơn 口座を作りたいです."
+  ],
+  "example": {
+   "jp": "ジョギングシューズを買いたいんですが…。",
+   "vi": "Tôi muốn mua giày chạy bộ…"
+  },
+  "examples": [
+   {
+    "jp": "すみません、銀行で口座を作りたいんですが…。",
+    "vi": "Xin lỗi, tôi muốn mở tài khoản ngân hàng…"
+   },
+   {
+    "jp": "あしたの午後、病院に行きたいんですが…。",
+    "vi": "Chiều mai tôi muốn đi bệnh viện…"
+   }
+  ],
+  "quiz": [
+   {
+    "q": "（駅で）すみません、空港まで ＿＿＿んですが…。",
+    "o": [
+     "行って",
+     "行きます",
+     "行きたい",
+     "行き"
+    ],
+    "a": 2,
+    "ex_vi": "Nói mong muốn để nhờ chỉ đường: 行きたいんですが…. 行きますんです, 行ってんです, 行きんです đều sai ngữ pháp."
+   },
+   {
+    "q": "A：いらっしゃいませ。\nB：あのう、Tシャツを 買いたいんですが…。\nA：＿＿＿",
+    "o": [
+     "はい、買いたいです。",
+     "Tシャツは こちらです。",
+     "いただきます。",
+     "いいえ、買いません。"
+    ],
+    "a": 1,
+    "ex_vi": "Khách nói muốn mua áo phông, nhân viên chỉ chỗ: 「Tシャツはこちらです」. Các câu khác không phải câu đáp của nhân viên."
+   },
+   {
+    "q": "（銀行で）すみません、口座を ＿＿＿たいんですが…。",
+    "o": [
+     "作る",
+     "作った",
+     "作って",
+     "作り"
+    ],
+    "a": 3,
+    "ex_vi": "Trước たい là động từ bỏ ます: 作ります → 作りたい. Các dạng còn lại không ghép với たい."
+   }
+  ]
+ },
+ {
+  "n": 66,
+  "pattern": "N で (phương tiện, cách thức)",
+  "meaning_vi": "Bằng N (phương tiện, cách thức)",
+  "structure": [
+   "N (phương tiện／công cụ／cách thức) ＋ で ＋ V",
+   "何で ＋ V-ますか (bằng gì?)"
+  ],
+  "explain_vi": [
+   "Trợ từ で đứng sau danh từ để chỉ phương tiện, công cụ hoặc cách thức thực hiện hành động. Ví dụ đi bằng xe buýt (バスで), viết bằng bút bi (ボールペンで), học tiếng Nhật bằng anime (アニメで), liên lạc bằng LINE (LINEで).",
+   "Cách ghép: N ＋ で ＋ động từ. Câu hỏi là 何で 〜か (bằng gì?). Ví dụ 何で会社へ来ますか → 電車で来ます. Riêng đi bộ thì nói 歩いて, không nói 足で.",
+   "Lưu ý phân biệt: で ở đây chỉ phương tiện, khác với で chỉ nơi xảy ra hành động (図書館で勉強します). Lỗi hay gặp là dùng に cho phương tiện (バスに行きます là sai). Khi nói 「lên xe buýt」 thì mới dùng に: バスに乗ります."
+  ],
+  "example": {
+   "jp": "アニメで日本語を勉強しました。",
+   "vi": "Tôi đã học tiếng Nhật qua anime."
+  },
+  "examples": [
+   {
+    "jp": "毎日、自転車で会社へ行きます。",
+    "vi": "Hằng ngày tôi đi làm bằng xe đạp."
+   },
+   {
+    "jp": "休みの連絡はLINEでしてください。",
+    "vi": "Báo nghỉ thì hãy liên lạc bằng LINE."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "毎日 バス＿＿＿ 会社へ 行きます。",
+    "o": [
+     "を",
+     "が",
+     "に",
+     "で"
+    ],
+    "a": 3,
+    "ex_vi": "Phương tiện đi lại dùng で: バスで行きます. バスに là 「lên xe buýt」 (dùng với 乗ります), không dùng với 行きます."
+   },
+   {
+    "q": "作文は パソコン＿＿＿ 書きます。",
+    "o": [
+     "で",
+     "を",
+     "へ",
+     "と"
+    ],
+    "a": 0,
+    "ex_vi": "Công cụ để viết dùng で: パソコンで書きます. を, へ, と không chỉ công cụ."
+   },
+   {
+    "q": "A：今日は 何で 来ましたか。\nB：＿＿＿",
+    "o": [
+     "自転車で 来ました。",
+     "自転車が 来ました。",
+     "自転車を 来ました。",
+     "自転車に 来ました。"
+    ],
+    "a": 0,
+    "ex_vi": "Hỏi 「đến bằng gì」 thì trả lời N で来ました. Các trợ từ に, を, が sai nghĩa."
+   }
+  ]
+ },
+ {
+  "n": 67,
+  "pattern": "N1 は、〜。でも、N2 は、〜。",
+  "meaning_vi": "N1 thì …. Nhưng N2 thì … (so sánh đối lập)",
+  "structure": [
+   "N1 は 〜。でも、N2 は 〜。",
+   "N1 は 〜が、N2 は 〜。"
+  ],
+  "explain_vi": [
+   "Mẫu này dùng để so sánh, đối lập hai sự việc: điều này thế này, còn điều kia thì khác. Ví dụ đọc thì khó nhưng nói thì giỏi; thịt thì thích nhưng cá thì không thích lắm. Hay dùng khi tự giới thiệu năng lực của mình.",
+   "Điểm quan trọng là trợ từ は được đặt sau cả hai đối tượng được so sánh (N1は … N2は …). Ở đây は mang nghĩa 「còn … thì」, nhấn mạnh sự đối lập. Ngay cả những chỗ bình thường dùng が hay を cũng đổi thành は, ví dụ 肉は好きです。でも、魚はあまり好きじゃないです.",
+   "でも đứng đầu câu thứ hai nghĩa là 「nhưng」. Nếu muốn nối thành một câu thì dùng 〜が、: 読むのは難しいですが、会話は得意です. Đừng dùng そして hay それから vì đó là nối tiếp, không phải đối lập."
+  ],
+  "example": {
+   "jp": "日本語は、読むのは少し難しいです。でも、会話は得意です。",
+   "vi": "Tiếng Nhật thì đọc hơi khó. Nhưng hội thoại thì tôi giỏi."
+  },
+  "examples": [
+   {
+    "jp": "ひらがなは書けます。でも、漢字はまだ書けません。",
+    "vi": "Hiragana thì tôi viết được. Nhưng chữ Hán thì vẫn chưa viết được."
+   },
+   {
+    "jp": "平日は忙しいです。でも、週末は暇です。",
+    "vi": "Ngày thường thì bận. Nhưng cuối tuần thì rảnh."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "肉は 好きです。でも、魚＿＿＿ あまり 好きじゃないです。",
+    "o": [
+     "は",
+     "に",
+     "を",
+     "で"
+    ],
+    "a": 0,
+    "ex_vi": "Đối lập với 肉は nên dùng は: 魚は. 好き đi với が hoặc は, không đi với を, に, で."
+   },
+   {
+    "q": "ひらがなは 書けます。＿＿＿、漢字は 書けません。",
+    "o": [
+     "そして",
+     "だから",
+     "それから",
+     "でも"
+    ],
+    "a": 3,
+    "ex_vi": "Hai vế trái ngược (viết được ↔ không viết được) nên dùng でも. そして, それから là nối tiếp; だから là chỉ kết quả."
+   },
+   {
+    "q": "A：この 店、どうですか。\nB：料理は おいしいです。でも、＿＿＿。",
+    "o": [
+     "値段は ちょっと 高いです",
+     "値段も 安いです",
+     "とても いい 店です",
+     "料理も おいしいです"
+    ],
+    "a": 0,
+    "ex_vi": "Sau でも phải là ý đối lập với 「món ăn ngon」: 「giá thì hơi đắt」. Các câu còn lại đều là ý tốt, không đối lập."
+   }
+  ]
+ },
+ {
+  "n": 68,
+  "pattern": "V-てもらえませんか",
+  "meaning_vi": "Anh/chị làm V giúp tôi được không? (nhờ vả)",
+  "structure": [
+   "V-て ＋ もらえませんか",
+   "N を ＋ V-て ＋ もらえませんか"
+  ],
+  "explain_vi": [
+   "Mẫu này dùng để nhờ người khác làm giúp mình việc gì đó một cách lịch sự: 「anh/chị có thể … giúp tôi được không?」. Ví dụ nhờ kiểm tra tiếng Nhật, nhờ chỉ cách dùng máy, nhờ cầm giúp đồ.",
+   "Cách ghép: động từ thể て ＋ もらえませんか. Ví dụ チェックする → チェックしてもらえませんか; 教える → 教えてもらえませんか; 持つ → 持ってもらえませんか.",
+   "So về độ lịch sự: V-てください là yêu cầu khá trực tiếp; V-てもらえませんか là hỏi ý người nghe nên mềm và lịch sự hơn, rất hợp khi nhờ cấp trên, đồng nghiệp người Nhật. Trả lời đồng ý: はい、いいですよ. Không nói 「はい、もらえます」."
+  ],
+  "example": {
+   "jp": "日本語をチェックしてもらえませんか？",
+   "vi": "Anh/chị kiểm tra giúp tôi phần tiếng Nhật được không?"
+  },
+  "examples": [
+   {
+    "jp": "すみません、この機械の使い方を教えてもらえませんか。",
+    "vi": "Xin lỗi, anh/chị chỉ giúp tôi cách dùng máy này được không?"
+   },
+   {
+    "jp": "あしたのシフト、代わってもらえませんか。",
+    "vi": "Anh/chị đổi ca ngày mai giúp tôi được không?"
+   }
+  ],
+  "quiz": [
+   {
+    "q": "すみません、この 漢字の 読み方を 教えて＿＿＿か。",
+    "o": [
+     "ください",
+     "もらいます",
+     "もらえません",
+     "あげます"
+    ],
+    "a": 2,
+    "ex_vi": "Nhờ lịch sự: 教えてもらえませんか. 「くださいか」 sai ngữ pháp; 「もらいますか」, 「あげますか」 không phải câu nhờ vả."
+   },
+   {
+    "q": "A：すみません、窓を 開けてもらえませんか。\nB：＿＿＿",
+    "o": [
+     "はい、いいですよ。",
+     "はい、もらえません。",
+     "どうぞ よろしく。",
+     "いいえ、開けてもらいます。"
+    ],
+    "a": 0,
+    "ex_vi": "Đồng ý lời nhờ: 「はい、いいですよ」. Các câu còn lại sai ngữ cảnh hoặc mâu thuẫn."
+   },
+   {
+    "q": "荷物が 重いです。ちょっと ＿＿＿もらえませんか。",
+    "o": [
+     "持って",
+     "持った",
+     "持つ",
+     "持ち"
+    ],
+    "a": 0,
+    "ex_vi": "Trước もらえませんか là thể て: 持ってもらえませんか. Các dạng khác không ghép được."
+   }
+  ]
+ },
+ {
+  "n": 69,
+  "pattern": "V-ます 方 (〜方)",
+  "meaning_vi": "Cách làm V",
+  "structure": [
+   "V-ます (bỏ ます) ＋ 方",
+   "N の ＋ V-ます 方 (N を V → N の V方)"
+  ],
+  "explain_vi": [
+   "Ghép 方 (đọc là かた) vào sau động từ bỏ ます để tạo thành danh từ 「cách làm V」. Ví dụ 書き方 (cách viết), 読み方 (cách đọc), 使い方 (cách dùng), 作り方 (cách làm/nấu), 行き方 (cách đi).",
+   "Cách ghép: bỏ ます rồi thêm 方: 書きます → 書き方; 使います → 使い方. Vì đã thành danh từ, nên đối tượng đi kèm dùng の thay cho を: 書類を書く → 書類の書き方; 機械を使う → 機械の使い方.",
+   "Hay dùng với わかりません／教えてください: この書類の書き方がわかりません (Tôi không biết cách điền giấy tờ này). Lỗi hay gặp: dùng thể từ điển (書く方) hoặc giữ を (書類を書き方). Động từ する thì thành しかた: 勉強のしかた."
+  ],
+  "example": {
+   "jp": "この書類の書き方がよくわかりません。",
+   "vi": "Tôi không rõ cách điền giấy tờ này lắm."
+  },
+  "examples": [
+   {
+    "jp": "すみません、駅への行き方を教えてください。",
+    "vi": "Xin lỗi, hãy chỉ cho tôi cách đi đến nhà ga."
+   },
+   {
+    "jp": "この洗剤の使い方は、ここに書いてあります。",
+    "vi": "Cách dùng loại nước tẩy này được ghi ở đây."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "この 機械の ＿＿＿方を 教えてください。",
+    "o": [
+     "使って",
+     "使い",
+     "使った",
+     "使う"
+    ],
+    "a": 1,
+    "ex_vi": "Bỏ ます rồi thêm 方: 使います → 使い方. Các dạng khác không ghép với 方 theo nghĩa 「cách làm」."
+   },
+   {
+    "q": "すみません、駅への 行き＿＿＿が わかりません。",
+    "o": [
+     "こと",
+     "もの",
+     "とき",
+     "方"
+    ],
+    "a": 3,
+    "ex_vi": "行き方 = cách đi. 行きこと, 行きもの, 行きとき không tồn tại."
+   },
+   {
+    "q": "A：この スマホ、写真の ＿＿＿が わかりません。\nB：あ、ここを 押してください。",
+    "o": [
+     "撮って方",
+     "撮り方",
+     "撮る方",
+     "撮った方"
+    ],
+    "a": 1,
+    "ex_vi": "Cách chụp ảnh là 撮り方 (撮ります bỏ ます ＋ 方). Thể từ điển, thể て, thể た không dùng trong mẫu này."
+   }
+  ]
+ },
+ {
+  "n": 70,
+  "pattern": "V-てみたいんですが…",
+  "meaning_vi": "Tôi muốn thử làm V… (hỏi thăm, nhờ giúp)",
+  "structure": [
+   "V-て ＋ みたいんですが…",
+   "V-て ＋ みたいです (muốn thử)"
+  ],
+  "explain_vi": [
+   "Mẫu này kết hợp V-てみる (làm thử) và 〜たいんですが… (nói mong muốn để nhờ giúp). Dùng khi mình muốn thử làm việc gì đó lần đầu và hỏi thăm người khác cách đăng ký, tham gia: muốn thử tập aikido, muốn thử mặc kimono, muốn tham gia lớp nấu ăn.",
+   "Cách ghép: động từ thể て ＋ みたい ＋ んですが. Ví dụ やる → やってみたいんですが; 着る → 着てみたいんですが; 参加する → 参加してみたいんですが.",
+   "Câu bỏ lửng sau が để người nghe tiếp lời (chỉ cách đăng ký, giới thiệu chỗ…). Nếu chỉ kể mong muốn của mình thì nói 〜てみたいです. Lỗi hay gặp: quên chia thể て (やりみたい là sai)."
+  ],
+  "example": {
+   "jp": "合気道をやってみたいんですが…。",
+   "vi": "Tôi muốn thử tập aikido…"
+  },
+  "examples": [
+   {
+    "jp": "一度、着物を着てみたいんですが…。",
+    "vi": "Tôi muốn thử mặc kimono một lần…"
+   },
+   {
+    "jp": "この料理教室に参加してみたいんですが…。",
+    "vi": "Tôi muốn thử tham gia lớp nấu ăn này…"
+   }
+  ],
+  "quiz": [
+   {
+    "q": "一度 着物を 着て＿＿＿たいんですが…。",
+    "o": [
+     "あり",
+     "し",
+     "なり",
+     "み"
+    ],
+    "a": 3,
+    "ex_vi": "Làm thử là V-てみる → 着てみたい. あり, なり, し không ghép sau thể て theo nghĩa này."
+   },
+   {
+    "q": "A：日本で 何が したいですか。\nB：富士山に ＿＿＿んですが…。",
+    "o": [
+     "登りてみたい",
+     "登ってみません",
+     "登ったみたい",
+     "登ってみたい"
+    ],
+    "a": 3,
+    "ex_vi": "Thể て của 登る là 登って, ghép みたい: 登ってみたい. 登りて là sai thể て; 登ってみません và 登ったみたい không ghép được với んですが ở đây."
+   },
+   {
+    "q": "A：すみません、この 料理教室に ＿＿＿んですが…。\nB：はい、この 紙に 名前を 書いてください。",
+    "o": [
+     "参加しみたい",
+     "参加してみます",
+     "参加してみたい",
+     "参加してみて"
+    ],
+    "a": 2,
+    "ex_vi": "Nói mong muốn tham gia thử: 参加してみたいんですが…. Các lựa chọn khác sai cách chia hoặc không ghép được với んですが."
+   }
+  ]
+ },
+ {
+  "n": 71,
+  "pattern": "[khoảng thời gian] に 〜回",
+  "meaning_vi": "Cách nói tần suất: … lần trong (khoảng thời gian)",
+  "structure": [
+   "[khoảng thời gian: 1日、週、月、年] ＋ に ＋ [số] 回",
+   "どのぐらい／何回 ＋ V-ますか (bao lâu một lần / mấy lần?)"
+  ],
+  "explain_vi": [
+   "Mẫu này dùng để nói một việc được làm bao nhiêu lần trong một khoảng thời gian: một tuần một lần, một ngày ba lần, một năm hai lần. Rất hay gặp khi nói lịch học, lịch đi tập, cách uống thuốc.",
+   "Cách ghép: khoảng thời gian ＋ に ＋ số lần (回). Ví dụ 週に1回 (tuần 1 lần), 1日に3回 (ngày 3 lần), 月に2回 (tháng 2 lần), 年に1回 (năm 1 lần). Với 週、月、年 người Nhật thường nói gọn 週に、月に、年に. Trợ từ に có thể lược trong văn nói: 1日3回.",
+   "Đặt cụm tần suất trước động từ: 週に2回ジムに行きます. Hoặc dùng như vị ngữ với です: 日本語クラスは週に1回です. Đừng dùng で hay を thay cho に."
+  ],
+  "example": {
+   "jp": "日本語クラスは週に1回です。",
+   "vi": "Lớp tiếng Nhật một tuần một buổi."
+  },
+  "examples": [
+   {
+    "jp": "この薬は1日に3回飲んでください。",
+    "vi": "Thuốc này hãy uống ngày 3 lần."
+   },
+   {
+    "jp": "国の家族とは週に2回電話で話します。",
+    "vi": "Tôi gọi điện nói chuyện với gia đình ở quê một tuần hai lần."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "わたしは 週＿＿＿ 3回 ジムに 行きます。",
+    "o": [
+     "が",
+     "を",
+     "に",
+     "で"
+    ],
+    "a": 2,
+    "ex_vi": "Tần suất dùng [khoảng thời gian] に [số] 回: 週に3回. で, を, が không dùng trong mẫu này."
+   },
+   {
+    "q": "A：どのぐらい 国へ 帰りますか。\nB：＿＿＿ 帰ります。",
+    "o": [
+     "1年に 1回",
+     "1年を 1回",
+     "1年が 1回",
+     "1回に 1年"
+    ],
+    "a": 0,
+    "ex_vi": "「Một năm một lần」 là 1年に1回. Các lựa chọn khác dùng sai trợ từ hoặc đảo ngược thứ tự."
+   },
+   {
+    "q": "この 薬は 1日に ＿＿＿ 飲んでください。",
+    "o": [
+     "3時",
+     "3人",
+     "3回",
+     "3日"
+    ],
+    "a": 2,
+    "ex_vi": "Đếm số lần dùng 回: 1日に3回. 3時 là 3 giờ, 3日 là 3 ngày, 3人 là 3 người."
+   }
+  ]
+ },
+ {
+  "n": 72,
+  "pattern": "V-ましょうか",
+  "meaning_vi": "Để tôi làm V (giúp) nhé?",
+  "structure": [
+   "V-ます (bỏ ます) ＋ ましょうか",
+   "(わたしが) V-ましょうか → ええ、お願いします／いいえ、大丈夫です"
+  ],
+  "explain_vi": [
+   "Mẫu V-ましょうか ở đây dùng khi mình chủ động đề nghị làm giúp người khác: 「để tôi … nhé?」. Ví dụ thấy người khác xách đồ nặng thì nói 持ちましょうか; thấy nóng thì hỏi 窓を開けましょうか.",
+   "Cách ghép: bỏ ます ＋ ましょうか: 持ちます → 持ちましょうか; 持って来ます → 持って来ましょうか. Đáp lại khi đồng ý: ええ、お願いします／ありがとうございます. Khi từ chối lịch sự: いいえ、大丈夫です.",
+   "Lưu ý phân biệt: V-ましょうか cũng có thể là rủ cùng làm (いっしょに行きましょうか), cần dựa vào ngữ cảnh. Còn V-ませんか là mời người kia làm, V-てもらえませんか là nhờ người kia làm giúp mình, ngược hướng với ましょうか."
+  ],
+  "example": {
+   "jp": "教室のチラシを持って来ましょうか？",
+   "vi": "Để tôi mang tờ rơi của lớp học đến nhé?"
+  },
+  "examples": [
+   {
+    "jp": "その箱、重そうですね。持ちましょうか。",
+    "vi": "Cái hộp đó trông nặng nhỉ. Để tôi xách giúp nhé?"
+   },
+   {
+    "jp": "暑いですね。エアコンをつけましょうか。",
+    "vi": "Nóng nhỉ. Để tôi bật điều hòa nhé?"
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A：荷物、重そうですね。＿＿＿。\nB：ありがとうございます。",
+    "o": [
+     "持ちませんか",
+     "持ちましょうか",
+     "持ちたいです",
+     "持ってもらえませんか"
+    ],
+    "a": 1,
+    "ex_vi": "Đề nghị giúp người khác: 持ちましょうか. 持ちませんか là mời người kia cầm, 持ってもらえませんか là nhờ người kia, 持ちたいです chỉ là mong muốn."
+   },
+   {
+    "q": "A：暑いですね。窓を 開けましょうか。\nB：＿＿＿",
+    "o": [
+     "はい、どういたしまして。",
+     "ええ、お願いします。",
+     "いいえ、開けてもいいです。",
+     "ええ、開けましょうか。"
+    ],
+    "a": 1,
+    "ex_vi": "Đồng ý với lời đề nghị giúp: 「ええ、お願いします」. Các câu khác không phải cách đáp lời đề nghị."
+   },
+   {
+    "q": "A：ここ、わかりますか。＿＿＿か。\nB：はい、お願いします。",
+    "o": [
+     "説明してもらえません",
+     "説明したい",
+     "説明しましょう",
+     "説明してください"
+    ],
+    "a": 2,
+    "ex_vi": "A đề nghị giảng giúp: 説明しましょうか, B nhận lời bằng お願いします. 「説明してもらえませんか」 là A nhờ B, không hợp với câu trả lời; 「くださいか」 và 「したいか」 sai."
+   }
+  ]
+ },
+ {
+  "n": 73,
+  "pattern": "N のとき、〜",
+  "meaning_vi": "Khi (là) N, …",
+  "structure": [
+   "N ＋ のとき、〜",
+   "N ＋ のときは、〜 (nhấn mạnh)"
+  ],
+  "explain_vi": [
+   "Mẫu này dùng để nói thời điểm, giai đoạn xảy ra sự việc: khi còn là học sinh cấp 3, khi còn nhỏ, khi nghỉ, khi trời mưa. Vế sau là việc xảy ra hoặc thói quen vào thời điểm đó.",
+   "Cách ghép: danh từ ＋ の ＋ とき. Ví dụ 高校のとき、子どものとき、休みのとき、20歳のとき. Không bỏ の (子どもとき là sai) và không dùng な (子どもなとき là sai).",
+   "Có thể thêm は thành 〜のときは để nhấn mạnh hoặc so sánh: 雨のときは、バスで行きます. Thì của cả câu do động từ cuối câu quyết định: 高校のとき、日本語を勉強しました (quá khứ)."
+  ],
+  "example": {
+   "jp": "高校のとき、少し日本語を勉強しました。",
+   "vi": "Hồi cấp 3, tôi có học một chút tiếng Nhật."
+  },
+  "examples": [
+   {
+    "jp": "休みのとき、よく友だちと買い物に行きます。",
+    "vi": "Khi được nghỉ, tôi thường đi mua sắm với bạn."
+   },
+   {
+    "jp": "雨のときは、電車で会社へ行きます。",
+    "vi": "Khi trời mưa, tôi đi làm bằng tàu điện."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "子ども＿＿＿ とき、よく 川で 遊びました。",
+    "o": [
+     "が",
+     "の",
+     "に",
+     "な"
+    ],
+    "a": 1,
+    "ex_vi": "Danh từ ＋ のとき: 子どものとき. な dùng cho tính từ đuôi な; に, が không đứng trước とき."
+   },
+   {
+    "q": "A：いつ 日本に 来ましたか。\nB：＿＿＿、来ました。",
+    "o": [
+     "20歳なとき",
+     "20歳のとき",
+     "20歳いとき",
+     "20歳とき"
+    ],
+    "a": 1,
+    "ex_vi": "20歳 là danh từ nên ghép bằng の: 20歳のとき. Các lựa chọn khác sai cách nối."
+   },
+   {
+    "q": "大学生の＿＿＿、レストランで アルバイトを していました。",
+    "o": [
+     "ほう",
+     "とき",
+     "もの",
+     "こと"
+    ],
+    "a": 1,
+    "ex_vi": "Nói giai đoạn trong quá khứ: 大学生のとき (khi còn là sinh viên). ほう, こと, もの không có nghĩa thời điểm."
+   }
+  ]
+ },
+ {
+  "n": 74,
+  "pattern": "A-い とき、〜",
+  "meaning_vi": "Khi (đang) A, … (tính từ đuôi い)",
+  "structure": [
+   "A-い ＋ とき、〜",
+   "A-くない ＋ とき、〜 (khi không A)"
+  ],
+  "explain_vi": [
+   "Mẫu này dùng tính từ đuôi い để nói về trạng thái, thời điểm: khi còn trẻ (若いとき), khi bận (忙しいとき), khi đau đầu (頭が痛いとき), khi trời lạnh (寒いとき).",
+   "Cách ghép: giữ nguyên tính từ đuôi い rồi thêm とき, không thêm の hay な. Ví dụ 若いとき (đúng), không nói 若いのとき hay 若いなとき. Phủ định: 寒くないとき.",
+   "Thì của câu do vế sau quyết định: 若いとき、よく旅行しました (quá khứ), 寒いとき、温かいお茶を飲みます (thói quen). Mẫu này giống Nのとき và A-なとき, chỉ khác cách nối trước とき."
+  ],
+  "example": {
+   "jp": "若いとき、よく旅行しました。",
+   "vi": "Hồi còn trẻ, tôi thường đi du lịch."
+  },
+  "examples": [
+   {
+    "jp": "忙しいとき、コンビニでお弁当を買います。",
+    "vi": "Khi bận, tôi mua cơm hộp ở cửa hàng tiện lợi."
+   },
+   {
+    "jp": "頭が痛いとき、この薬を飲んでください。",
+    "vi": "Khi đau đầu, hãy uống thuốc này."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "＿＿＿ とき、よく この 公園で 遊びました。",
+    "o": [
+     "小さく",
+     "小さいな",
+     "小さい",
+     "小さいの"
+    ],
+    "a": 2,
+    "ex_vi": "Tính từ đuôi い đứng thẳng trước とき: 小さいとき. Không thêm の hay な, không dùng dạng く."
+   },
+   {
+    "q": "頭が ＿＿＿ とき、この 薬を 飲んでください。",
+    "o": [
+     "痛く",
+     "痛さ",
+     "痛い",
+     "痛くて"
+    ],
+    "a": 2,
+    "ex_vi": "痛いとき = khi đau. 痛くて là dạng nối câu, 痛さ là danh từ (độ đau), 痛く là dạng trạng từ, đều không đứng trước とき."
+   },
+   {
+    "q": "A：寒いとき、何を 飲みますか。\nB：＿＿＿",
+    "o": [
+     "はい、寒いです。",
+     "いいえ、飲みませんでした。",
+     "冷たい ジュースが 寒いです。",
+     "温かい お茶を 飲みます。"
+    ],
+    "a": 3,
+    "ex_vi": "Hỏi 「khi lạnh thì uống gì」, trả lời đồ uống: 温かいお茶を飲みます. Các câu còn lại không trả lời câu hỏi 何を."
+   }
+  ]
+ },
+ {
+  "n": 75,
+  "pattern": "A-な とき、〜",
+  "meaning_vi": "Khi (đang) A, … (tính từ đuôi な)",
+  "structure": [
+   "A-な ＋ とき、〜",
+   "A-じゃない ＋ とき、〜 (khi không A)"
+  ],
+  "explain_vi": [
+   "Mẫu này dùng tính từ đuôi な để nói về trạng thái, thời điểm: khi rảnh (暇なとき), khi khỏe (元気なとき), khi vất vả (大変なとき), khi yên tĩnh (静かなとき).",
+   "Cách ghép: tính từ đuôi な phải giữ な rồi mới thêm とき: 暇なとき. Không nói 暇のとき, 暇とき hay 暇だとき. Đây là điểm khác với danh từ (dùng の) và tính từ đuôi い (không thêm gì).",
+   "Tóm tắt 3 cách nối trước とき: N ＋ のとき (休みのとき), A-い ＋ とき (忙しいとき), A-な ＋ なとき (暇なとき). Hay dùng khi rủ rê hoặc nói thói quen: 暇なとき、遊びに来てください."
+  ],
+  "example": {
+   "jp": "暇なとき、料理を作ります。",
+   "vi": "Khi rảnh, tôi nấu ăn."
+  },
+  "examples": [
+   {
+    "jp": "暇なとき、また遊びに来てください。",
+    "vi": "Khi nào rảnh thì lại đến chơi nhé."
+   },
+   {
+    "jp": "仕事が大変なとき、先輩が手伝ってくれました。",
+    "vi": "Khi công việc vất vả, đàn anh đã giúp tôi."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "静か＿＿＿ とき、本を 読みます。",
+    "o": [
+     "に",
+     "の",
+     "だ",
+     "な"
+    ],
+    "a": 3,
+    "ex_vi": "静か là tính từ đuôi な nên nối 静かなとき. の dùng cho danh từ; に, だ không đứng trước とき."
+   },
+   {
+    "q": "仕事が ＿＿＿ とき、友だちが 手伝ってくれました。",
+    "o": [
+     "大変の",
+     "大変",
+     "大変な",
+     "大変に"
+    ],
+    "a": 2,
+    "ex_vi": "大変 là tính từ đuôi な: 大変なとき. Bỏ な hoặc dùng の, に đều sai."
+   },
+   {
+    "q": "A：日曜日は 何を しますか。\nB：＿＿＿ とき、映画を 見に 行きます。",
+    "o": [
+     "暇だ",
+     "暇い",
+     "暇の",
+     "暇な"
+    ],
+    "a": 3,
+    "ex_vi": "暇 là tính từ đuôi な, nên nói 暇なとき. 暇い không tồn tại; 暇の, 暇だ không đứng trước とき."
+   }
+  ]
+ },
+ {
+  "n": 76,
+  "pattern": "V-て行きます",
+  "meaning_vi": "Làm V rồi đi／mang (theo) đi",
+  "structure": [
+   "V-て ＋ 行きます",
+   "N を ＋ 持って行きます／買って行きます (mang đi / mua mang đến)"
+  ],
+  "explain_vi": [
+   "Mẫu này dùng khi làm một việc rồi mới đi (đến chỗ khác), hoặc mang theo vật gì khi đi. Hay gặp nhất là 持って行きます (mang đi), 買って行きます (mua rồi mang đến), 連れて行きます (dẫn người đi).",
+   "Cách ghép: động từ thể て ＋ 行きます. Ví dụ 買う → 買って行きます; 持つ → 持って行きます. Hướng di chuyển là rời xa chỗ người nói đang đứng, đến một nơi khác (bữa tiệc, nhà bạn, công ty…).",
+   "Phân biệt: V-て行きます là làm xong rồi đi (買って行きます: mua rồi mang đến đó); V-に行きます là đi để làm (買いに行きます: đi để mua). V-て来ます thì hướng về phía người nói hoặc đi rồi quay lại."
+  ],
+  "example": {
+   "jp": "肉と野菜は、私が買って行きますよ。",
+   "vi": "Thịt và rau thì để tôi mua rồi mang đến nhé."
+  },
+  "examples": [
+   {
+    "jp": "雨ですから、かさを持って行きます。",
+    "vi": "Trời mưa nên tôi mang ô theo."
+   },
+   {
+    "jp": "あしたのパーティーに、飲み物を買って行きます。",
+    "vi": "Tôi sẽ mua đồ uống mang đến bữa tiệc ngày mai."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "あしたの パーティーに ケーキを ＿＿＿ 行きます。",
+    "o": [
+     "買った",
+     "買います",
+     "買って",
+     "買う"
+    ],
+    "a": 2,
+    "ex_vi": "Mua rồi mang đến: 買って行きます (thể て ＋ 行きます). Thể từ điển, thể た, thể ます không ghép trực tiếp với 行きます."
+   },
+   {
+    "q": "A：あしたの 花見、何か 持って 行きましょうか。\nB：じゃあ、＿＿＿。",
+    "o": [
+     "お菓子が 持って 行きます",
+     "お菓子を 持って 行きましたか",
+     "お菓子を 持たないで 行きました",
+     "お菓子を 持って 行ってください"
+    ],
+    "a": 3,
+    "ex_vi": "A đề nghị mang gì đó, B nhờ mang bánh kẹo: 持って行ってください. Các câu khác sai thì hoặc sai trợ từ."
+   },
+   {
+    "q": "外は 雨ですよ。かさを ＿＿＿ 行ってください。",
+    "o": [
+     "持った",
+     "持って",
+     "持ち",
+     "持つ"
+    ],
+    "a": 1,
+    "ex_vi": "Mang ô theo: 持って行ってください. Trước 行く cần thể て; 持ち, 持つ, 持った đều sai."
+   }
+  ]
+ },
+ {
+  "n": 77,
+  "pattern": "V-て来ます",
+  "meaning_vi": "Đi làm V rồi quay lại／mang (đến) đây",
+  "structure": [
+   "V-て ＋ 来ます (thường viết 〜てきます)",
+   "N を ＋ 持って来ます／買って来ます"
+  ],
+  "explain_vi": [
+   "Mẫu này dùng khi mình đi đến đâu đó làm một việc rồi quay về chỗ cũ. Ví dụ ra cửa hàng tiện lợi mua đồ rồi quay lại: コンビニで買って来ます. Cũng dùng khi mang vật hoặc người đến chỗ người nói đang ở: 持って来ます (mang đến đây).",
+   "Cách ghép: động từ thể て ＋ 来ます. Ví dụ 買う → 買って来ます; 行く → 行って来ます; 持つ → 持って来ます. Trong sách và tin nhắn, phần 来ます hay được viết bằng hiragana: 買ってきます.",
+   "Câu chào 行ってきます khi ra khỏi nhà chính là mẫu này (đi rồi sẽ về), người ở nhà đáp いってらっしゃい. Ở công ty khi ra ngoài một lát, nói 「ちょっと銀行に行ってきます」 cho mọi người biết mình sẽ quay lại. Phân biệt với V-て行きます (làm rồi đi, rời xa chỗ người nói)."
+  ],
+  "example": {
+   "jp": "ちょっと飲み物を買って来ます。",
+   "vi": "Tôi đi mua chút đồ uống rồi quay lại.",
+   "self": true
+  },
+  "examples": [
+   {
+    "jp": "すみません、郵便局に行って来ます。すぐ戻ります。",
+    "vi": "Xin lỗi, tôi ra bưu điện một chút. Tôi sẽ quay lại ngay."
+   },
+   {
+    "jp": "あした、国のお菓子を持って来ますね。",
+    "vi": "Ngày mai tôi sẽ mang bánh kẹo quê tôi đến nhé."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A：どこへ 行くんですか。\nB：郵便局で 切手を ＿＿＿ 来ます。",
+    "o": [
+     "買い",
+     "買った",
+     "買って",
+     "買う"
+    ],
+    "a": 2,
+    "ex_vi": "Đi mua rồi quay lại: 買って来ます (thể て ＋ 来ます). 買い phải có に (買いに来ます) và nghĩa khác; 買う, 買った sai."
+   },
+   {
+    "q": "A：じゃあ、行ってきます。\nB：＿＿＿",
+    "o": [
+     "ただいま。",
+     "いってらっしゃい。",
+     "いってきます。",
+     "おかえりなさい。"
+    ],
+    "a": 1,
+    "ex_vi": "Đáp lại 行ってきます là いってらっしゃい. おかえりなさい đáp lại ただいま khi về; ただいま, いってきます là câu của người đi/về."
+   },
+   {
+    "q": "（会社で）すみません、銀行に 行って ＿＿＿。30分で 戻ります。",
+    "o": [
+     "来ます",
+     "行きます",
+     "あります",
+     "あげます"
+    ],
+    "a": 0,
+    "ex_vi": "Đi rồi quay lại công ty: 行って来ます. 行って行きます không dùng; あげます, あります sai nghĩa."
+   }
+  ]
+ },
+ {
+  "n": 78,
+  "pattern": "N1 と N2(と)、どっちがいいですか ／ N、どれがいいですか",
+  "meaning_vi": "Hỏi chọn: giữa 2 thứ thì cái nào (どっち)／giữa nhiều thứ thì cái nào (どれ)",
+  "structure": [
+   "N1 と N2(と)、どっちがいいですか (chọn 1 trong 2)",
+   "N (nhiều loại)、どれがいいですか (chọn 1 trong 3 thứ trở lên)",
+   "→ N のほうがいいです／N がいいです"
+  ],
+  "explain_vi": [
+   "Mẫu này dùng để hỏi ý người khác muốn chọn cái nào. Khi chỉ có 2 lựa chọn, dùng どっち (lịch sự hơn: どちら): コーヒーと紅茶、どっちがいいですか. Khi có từ 3 lựa chọn trở lên, dùng どれ: お茶、いろいろありますね。どれがいいですか.",
+   "Cách ghép: N1 と N2 (có thể thêm と sau N2) ＋ 、どっちがいいですか. Với どれ thì nêu chung một nhóm đồ vật rồi hỏi どれがいいですか. Trợ từ sau từ để hỏi luôn là が (どっちが、どれが), không dùng は.",
+   "Trả lời: với どっち thường dùng N のほうがいいです (n.79) hoặc N がいいです; với どれ thì nói これがいいです／N がいいです. Nếu cái nào cũng được thì nói どっちでもいいです (2 thứ) hoặc どれでもいいです (nhiều thứ). Lỗi hay gặp: dùng どれ khi chỉ có 2 thứ."
+  ],
+  "example": {
+   "jp": "チョコレートケーキとチーズケーキ、どっちがいいですか？お茶、いろいろありますね。どれがいいですか？",
+   "vi": "Bánh sô-cô-la và bánh phô mai, bạn thích cái nào? Trà có nhiều loại nhỉ. Bạn chọn loại nào?"
+  },
+  "examples": [
+   {
+    "jp": "電車とバスと、どっちがいいですか。",
+    "vi": "Tàu điện và xe buýt, cái nào tiện hơn?"
+   },
+   {
+    "jp": "シャツがたくさんありますね。どれがいいですか。",
+    "vi": "Có nhiều áo sơ mi nhỉ. Bạn thích cái nào?"
+   }
+  ],
+  "quiz": [
+   {
+    "q": "コーヒーと 紅茶、＿＿＿が いいですか。",
+    "o": [
+     "どこ",
+     "どっち",
+     "どれ",
+     "だれ"
+    ],
+    "a": 1,
+    "ex_vi": "Chọn giữa 2 thứ dùng どっち. どれ dùng khi có từ 3 thứ trở lên; どこ hỏi nơi chốn, だれ hỏi người."
+   },
+   {
+    "q": "ケーキが 5種類 ありますね。＿＿＿が いいですか。",
+    "o": [
+     "どれ",
+     "どっち",
+     "いつ",
+     "どう"
+    ],
+    "a": 0,
+    "ex_vi": "Có 5 loại (nhiều hơn 2) nên dùng どれ. どっち chỉ dùng cho 2 thứ; どう, いつ không đi với が いいですか để chọn đồ."
+   },
+   {
+    "q": "A：赤と 青と、どっちが いいですか。\nB：＿＿＿",
+    "o": [
+     "赤と 青です。",
+     "はい、そうです。",
+     "青が いいです。",
+     "いいえ、いいです。"
+    ],
+    "a": 2,
+    "ex_vi": "Câu hỏi chọn 1 trong 2 thì trả lời bằng thứ mình chọn: 青がいいです. Không trả lời bằng はい／いいえ."
+   }
+  ]
+ },
+ {
+  "n": 79,
+  "pattern": "N のほうがいいです",
+  "meaning_vi": "N thì tốt hơn／Tôi chọn N hơn",
+  "structure": [
+   "N ＋ のほうがいいです",
+   "A-い／A-な ＋ ほうがいいです (cái … hơn thì tốt)"
+  ],
+  "explain_vi": [
+   "Mẫu này dùng để trả lời khi được hỏi chọn giữa 2 thứ (どっちがいいですか): mình chọn cái nào, thấy cái nào tốt hơn. Ví dụ ở quán yakitori được hỏi 「たれと塩、どっちがいいですか」 thì đáp 「塩のほうがいいです」.",
+   "Cách ghép: danh từ ＋ の ＋ ほうがいいです. Với tính từ thì ghép trực tiếp: 大きいほうがいいです, 静かなほうがいいです. Trợ từ đi với ほう là が, không dùng は hay に.",
+   "So với N がいいです: cả hai đều là lựa chọn, nhưng N のほうがいいです nhấn mạnh sự so sánh với cái còn lại (cái này hơn cái kia). Lưu ý: V-たほうがいいです (nên làm V) là mẫu khuyên bảo, khác nghĩa với mẫu này."
+  ],
+  "example": {
+   "jp": "塩のほうがいいです。",
+   "vi": "Tôi chọn vị muối hơn."
+  },
+  "examples": [
+   {
+    "jp": "A：電車とバス、どっちがいいですか。B：電車のほうがいいです。速いですから。",
+    "vi": "A: Tàu điện và xe buýt, cái nào tốt hơn? B: Tàu điện thì tốt hơn. Vì nhanh."
+   },
+   {
+    "jp": "今日は暑いですから、冷たいお茶のほうがいいです。",
+    "vi": "Hôm nay nóng nên tôi chọn trà lạnh hơn."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A：電車と バス、どっちが いいですか。\nB：電車の ＿＿＿が いいです。",
+    "o": [
+     "ほう",
+     "まえ",
+     "とき",
+     "ほか"
+    ],
+    "a": 0,
+    "ex_vi": "Chọn 1 trong 2: N のほうがいいです. ほか (khác), まえ (trước), とき (khi) không dùng để so sánh."
+   },
+   {
+    "q": "A：ビールと ワイン、どっちが いいですか。\nB：＿＿＿",
+    "o": [
+     "ワインの ほうに いいです。",
+     "ワインが ほうです。",
+     "ワインの ほうが いいです。",
+     "ワインは ほうが いいです。"
+    ],
+    "a": 2,
+    "ex_vi": "Đúng mẫu là N の ほう が いいです. Các lựa chọn khác sai trợ từ hoặc thiếu いい."
+   },
+   {
+    "q": "A：温かい お茶と 冷たい お茶、どっちが いいですか。\nB：冷たい お茶＿＿＿ ほうが いいです。",
+    "o": [
+     "な",
+     "が",
+     "を",
+     "の"
+    ],
+    "a": 3,
+    "ex_vi": "Danh từ ＋ の ＋ ほう: お茶のほうがいいです. が, を, な không nối danh từ với ほう."
+   }
+  ]
+ },
+ {
+  "n": 80,
+  "pattern": "[từ để hỏi] でもいいです",
+  "meaning_vi": "Cái gì／lúc nào／ở đâu／ai… cũng được",
+  "structure": [
+   "何 ＋ でもいいです (なんでも: cái gì cũng được)",
+   "いつ／どこ／だれ／どれ／どっち ＋ でもいいです"
+  ],
+  "explain_vi": [
+   "Ghép でも vào sau từ để hỏi để nói 「bất cứ … cũng được」, tức là mình không có yêu cầu đặc biệt. Ví dụ 何でもいいです (cái gì cũng được), いつでもいいです (lúc nào cũng được), どこでもいいです (ở đâu cũng được), だれでもいいです (ai cũng được).",
+   "Cách ghép: từ để hỏi ＋ でもいいです. Lưu ý 何でも đọc là なんでも. Khi được hỏi 「何が食べたいですか」 mà không có món đặc biệt muốn ăn, có thể trả lời 何でもいいです.",
+   "Phân biệt với từ để hỏi ＋ も (phủ định): 何も食べません (không ăn gì cả), どこも行きません (không đi đâu cả). Và từ để hỏi ＋ か: 何か (cái gì đó), どこか (nơi nào đó). Ba dạng でも／も／か rất dễ nhầm. Câu 何でもいいです đôi khi nghe hơi thờ ơ, nên có thể nói mềm hơn: 何でもいいですよ."
+  ],
+  "example": {
+   "jp": "A：何が食べたいですか。B：何でもいいです。",
+   "vi": "A: Bạn muốn ăn gì? B: Gì cũng được."
+  },
+  "examples": [
+   {
+    "jp": "今週は暇ですから、いつでもいいですよ。",
+    "vi": "Tuần này tôi rảnh nên lúc nào cũng được."
+   },
+   {
+    "jp": "A：どこで会いましょうか。B：どこでもいいです。",
+    "vi": "A: Mình gặp nhau ở đâu? B: Ở đâu cũng được."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A：いつ 会いましょうか。\nB：今週は 暇ですから、＿＿＿ いいですよ。",
+    "o": [
+     "いつでも",
+     "いつも",
+     "なんでも",
+     "どこでも"
+    ],
+    "a": 0,
+    "ex_vi": "Hỏi thời gian, trả lời 「lúc nào cũng được」: いつでもいいです. いつも là 「luôn luôn」; どこでも là nơi chốn; なんでも là đồ vật."
+   },
+   {
+    "q": "A：どこで 食べましょうか。\nB：＿＿＿ いいです。",
+    "o": [
+     "どこも",
+     "どこでも",
+     "どこか",
+     "どこへ"
+    ],
+    "a": 1,
+    "ex_vi": "Ở đâu cũng được: どこでもいいです. どこも dùng với phủ định, どこか là 「nơi nào đó」, どこへ là 「đi đâu」."
+   },
+   {
+    "q": "A：何を 飲みますか。\nB：＿＿＿",
+    "o": [
+     "何も いいです。",
+     "何が いいです。",
+     "何か いいです。",
+     "何でも いいです。"
+    ],
+    "a": 3,
+    "ex_vi": "Uống gì cũng được: 何でもいいです. 何も đi với phủ định, 何か là 「cái gì đó」, 何がいいです không tự nhiên."
+   }
+  ]
+ },
+ {
+  "n": 81,
+  "pattern": "A-い／A-な／V-ます ＋ そうです",
+  "meaning_vi": "Trông có vẻ …／Có vẻ sắp …",
+  "structure": [
+   "A-い (bỏ い) ＋ そうです (おいしい → おいしそうです)",
+   "A-な (bỏ な) ＋ そうです (便利 → 便利そうです)",
+   "V-ます (bỏ ます) ＋ そうです (かかります → かかりそうです)"
+  ],
+  "explain_vi": [
+   "Mẫu そうです này dùng để nói ấn tượng khi nhìn thấy: 「trông có vẻ …」. Ví dụ nhìn hộp cơm thấy ngon thì nói おいしそうですね. Với động từ, nó cho biết 「có vẻ sẽ, có vẻ sắp」: 雨が降りそうです (trời có vẻ sắp mưa), 時間がかかりそうです (có vẻ sẽ mất thời gian).",
+   "Cách ghép: tính từ đuôi い bỏ い (おいし・そう), tính từ đuôi な bỏ な (便利・そう), động từ bỏ ます (降り・そう). Ngoại lệ cần nhớ: いい → よさそうです, ない → なさそうです.",
+   "Lưu ý: không dùng mẫu này cho những thứ nhìn là biết ngay như màu sắc (không nói 赤そう). Đừng nhầm với そうです nghe nói (thể thường ＋ そうです: おいしいそうです = nghe nói là ngon), đó là mẫu khác. Muốn bổ nghĩa cho danh từ thì dùng そうな ＋ N (n.82)."
+  ],
+  "example": {
+   "jp": "そのお弁当、おいしそうですね。どのぐらいかかりそうですか？",
+   "vi": "Hộp cơm đó trông ngon nhỉ. Có vẻ sẽ mất khoảng bao lâu?"
+  },
+  "examples": [
+   {
+    "jp": "空が暗いですね。雨が降りそうです。",
+    "vi": "Trời tối quá nhỉ. Có vẻ sắp mưa."
+   },
+   {
+    "jp": "この仕事、ちょっと大変そうですね。",
+    "vi": "Công việc này trông hơi vất vả nhỉ."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "この ケーキ、とても ＿＿＿ そうですね。",
+    "o": [
+     "おいしい",
+     "おいしいな",
+     "おいし",
+     "おいしく"
+    ],
+    "a": 2,
+    "ex_vi": "Tính từ đuôi い bỏ い rồi thêm そう: おいしそう. おいしいそうです là 「nghe nói ngon」, khác nghĩa khi đang nhìn thấy bánh."
+   },
+   {
+    "q": "空が 暗いですね。雨が ＿＿＿ そうです。",
+    "o": [
+     "降り",
+     "降れ",
+     "降って",
+     "降ら"
+    ],
+    "a": 0,
+    "ex_vi": "Động từ bỏ ます ＋ そう: 降ります → 降りそうです (có vẻ sắp mưa). Các dạng khác không ghép với そう."
+   },
+   {
+    "q": "A：この かばん、どうですか。\nB：ポケットが 多くて、＿＿＿ そうですね。",
+    "o": [
+     "便利に",
+     "便利の",
+     "便利な",
+     "便利"
+    ],
+    "a": 3,
+    "ex_vi": "Tính từ đuôi な bỏ な rồi thêm そう: 便利そうです. Giữ な, dùng に hay の đều sai."
+   }
+  ]
+ },
+ {
+  "n": 82,
+  "pattern": "A-い／A-な／V-ます ＋ そうな N",
+  "meaning_vi": "N trông có vẻ …",
+  "structure": [
+   "A-い (bỏ い) ＋ そうな ＋ N (辛そうな料理)",
+   "A-な (bỏ な) ＋ そうな ＋ N (元気そうな人)",
+   "V-ます (bỏ ます) ＋ そうな ＋ N (雨が降りそうな空)"
+  ],
+  "explain_vi": [
+   "Đây là dạng そう (trông có vẻ) dùng để bổ nghĩa cho danh từ. Vì 〜そう hoạt động như tính từ đuôi な, nên khi đứng trước danh từ phải thêm な: 辛そうな料理 (món ăn trông có vẻ cay), おもしろそうな本 (quyển sách trông có vẻ hay).",
+   "Cách ghép giống mẫu n.81: tính từ đuôi い bỏ い, tính từ đuôi な bỏ な, động từ bỏ ます, rồi thêm そうな ＋ danh từ. Ngoại lệ: いい → よさそうな, ない → なさそうな. Ví dụ よさそうな店 (quán trông có vẻ tốt).",
+   "Lỗi hay gặp: quên な (辛そう料理) hoặc dùng の (辛そうの料理), hoặc giữ đuôi い (辛いそうな). Hay dùng khi bình luận về đồ ăn, đồ vật, người mình nhìn thấy: それ、辛そうな料理ですね."
+  ],
+  "example": {
+   "jp": "それ、辛そうな料理ですね。",
+   "vi": "Món đó trông có vẻ cay nhỉ."
+  },
+  "examples": [
+   {
+    "jp": "あそこにおもしろそうな店がありますよ。",
+    "vi": "Ở đằng kia có một quán trông có vẻ thú vị đấy."
+   },
+   {
+    "jp": "雨が降りそうな日は、かさを持って行きます。",
+    "vi": "Những hôm trời có vẻ sắp mưa, tôi mang ô theo."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "楽し＿＿＿ ゲームですね。",
+    "o": [
+     "そうな",
+     "そうの",
+     "そうに",
+     "そう"
+    ],
+    "a": 0,
+    "ex_vi": "Trước danh từ, 〜そう phải thêm な: 楽しそうなゲーム. の, に hoặc bỏ trống đều sai."
+   },
+   {
+    "q": "わあ、＿＿＿ 料理ですね。写真を 撮っても いいですか。",
+    "o": [
+     "おいしそう",
+     "おいしそうな",
+     "おいしそうの",
+     "おいしいそうな"
+    ],
+    "a": 1,
+    "ex_vi": "Bỏ い của おいしい rồi thêm そうな: おいしそうな料理. Giữ い, dùng の hoặc thiếu な đều sai."
+   },
+   {
+    "q": "A：見て。あそこに ＿＿＿ 店が ありますよ。\nB：本当だ。入ってみましょう。",
+    "o": [
+     "おもしろそうに",
+     "おもしろいそうな",
+     "おもしろそうな",
+     "おもしろそうで"
+    ],
+    "a": 2,
+    "ex_vi": "Bổ nghĩa cho 店 dùng おもしろそうな. に, で không nối với danh từ; おもしろいそうな sai vì phải bỏ い."
+   }
+  ]
+ },
+ {
+  "n": 83,
+  "pattern": "A-くて、〜 ／ A-くなくて、〜",
+  "meaning_vi": "Nối câu với tính từ đuôi い: … và …／không … mà …",
+  "structure": [
+   "A-い (bỏ い) ＋ くて、〜 (甘い → 甘くて)",
+   "A-い (bỏ い) ＋ くなくて、〜 (甘い → 甘くなくて)",
+   "Ngoại lệ: いい → よくて"
+  ],
+  "explain_vi": [
+   "Mẫu này dùng để nối hai tính từ hoặc hai ý miêu tả lại với nhau trong một câu, giống 「… và …」 trong tiếng Việt. Ví dụ この卵焼き、甘くて、おいしいですね (Món trứng cuộn này ngọt và ngon). Vế trước cũng có thể là lý do cho vế sau.",
+   "Cách chia: bỏ い, thêm くて: 甘い → 甘くて, 広い → 広くて, 近い → 近くて. Phủ định: bỏ い, thêm くなくて: 甘い → 甘くなくて (không ngọt, và…). Ngoại lệ: いい → よくて. Với tính từ đuôi な và danh từ thì dùng で: 静かで、きれいです.",
+   "Hai ý được nối nên cùng chiều (cùng tốt hoặc cùng xấu). Nếu trái ngược thì dùng 〜が、 hoặc でも: 安いですが、おいしくないです. Lỗi hay gặp: nói 甘いくて hoặc 甘いで."
+  ],
+  "example": {
+   "jp": "この卵焼き、甘くて、おいしいですね。茶碗蒸し、甘くなくて、おいしいですよ。",
+   "vi": "Món trứng cuộn này ngọt và ngon nhỉ. Món trứng hấp chawanmushi thì không ngọt mà ngon lắm đấy."
+  },
+  "examples": [
+   {
+    "jp": "このアパートは駅から近くて、便利です。",
+    "vi": "Căn hộ này gần ga nên tiện lợi."
+   },
+   {
+    "jp": "この仕事は難しくなくて、楽しいです。",
+    "vi": "Công việc này không khó mà lại vui."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "この 部屋は 広＿＿＿、明るいです。",
+    "o": [
+     "いで",
+     "くで",
+     "いて",
+     "くて"
+    ],
+    "a": 3,
+    "ex_vi": "Tính từ đuôi い nối câu: bỏ い thêm くて → 広くて. いて, いで, くで đều sai."
+   },
+   {
+    "q": "この カレーは 辛く＿＿＿、おいしいです。",
+    "o": [
+     "ないくて",
+     "なくて",
+     "ないて",
+     "なくで"
+    ],
+    "a": 1,
+    "ex_vi": "Phủ định của tính từ đuôi い khi nối câu: 辛くない → 辛くなくて. Các dạng khác sai cách chia."
+   },
+   {
+    "q": "A：新しい アパートは どうですか。\nB：＿＿＿、とても いいです。",
+    "o": [
+     "駅から 近くで",
+     "駅から 近くて",
+     "駅から 近いくて",
+     "駅から 近いで"
+    ],
+    "a": 1,
+    "ex_vi": "近い là tính từ đuôi い: bỏ い thêm くて → 近くて. 近いで, 近くで, 近いくて đều sai."
+   }
+  ]
+ },
+ {
+  "n": 84,
+  "pattern": "V-てみます",
+  "meaning_vi": "Làm thử V",
+  "structure": [
+   "V-て ＋ みます (làm thử)",
+   "V-て ＋ みてください (hãy thử …)",
+   "V-て ＋ みたいです (muốn thử …)"
+  ],
+  "explain_vi": [
+   "Mẫu này dùng khi làm một việc để thử xem kết quả, cảm giác thế nào: ăn thử, mặc thử, dùng thử, đi thử. Ví dụ 食べてみます (tôi sẽ ăn thử), 着てみてもいいですか (tôi mặc thử được không?).",
+   "Cách ghép: động từ thể て ＋ みます. みる chia như động từ bình thường: みてください (hãy thử), みたいです (muốn thử), みました (đã thử), みてもいいですか (thử được không). Phần みる thường viết bằng hiragana.",
+   "Hay dùng khi mời người khác thử món ăn: よかったら、食べてみてください (nếu được thì anh/chị ăn thử xem). Lỗi hay gặp: dùng thể ます (食べみます là sai) hoặc viết nhầm thành 見ます với nghĩa 「xem」."
+  ],
+  "example": {
+   "jp": "よかったら、この卵焼き、食べてみてください。",
+   "vi": "Nếu được thì anh/chị ăn thử món trứng cuộn này xem."
+  },
+  "examples": [
+   {
+    "jp": "このくつ、はいてみてもいいですか。",
+    "vi": "Tôi đi thử đôi giày này được không?"
+   },
+   {
+    "jp": "新しいアプリを使ってみました。とても便利でした。",
+    "vi": "Tôi đã dùng thử ứng dụng mới. Rất tiện lợi."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "（お店で）この くつ、＿＿＿ みても いいですか。",
+    "o": [
+     "はく",
+     "はき",
+     "はいて",
+     "はいた"
+    ],
+    "a": 2,
+    "ex_vi": "Làm thử: thể て ＋ みる → はいてみても いいですか. Các dạng còn lại không ghép với みる."
+   },
+   {
+    "q": "A：この アプリ、便利ですよ。\nB：そうですか。じゃあ、使って ＿＿＿。",
+    "o": [
+     "なります",
+     "みます",
+     "あります"
+    ],
+    "a": 1,
+    "ex_vi": "Nghe giới thiệu rồi quyết định dùng thử: 使ってみます. 使ってあります, 使ってなります không hợp ngữ cảnh."
+   },
+   {
+    "q": "日本の 着物を 一度 ＿＿＿ たいです。",
+    "o": [
+     "着みる",
+     "着てみる",
+     "着てみ",
+     "着みて"
+    ],
+    "a": 2,
+    "ex_vi": "Muốn thử: 着て ＋ み(ます) ＋ たい → 着てみたい. Các dạng khác sai cách ghép."
+   }
+  ]
+ },
+ {
+  "n": 85,
+  "pattern": "N が 自動詞 ／ N を 他動詞",
+  "meaning_vi": "Tự động từ (sự việc tự xảy ra) và tha động từ (có người tác động)",
+  "structure": [
+   "N が ＋ tự động từ (入ります、つきます、開きます…)",
+   "N を ＋ tha động từ (入れます、つけます、開けます…)",
+   "N が ＋ tự động từ thể て ＋ います (trạng thái: 入っています)"
+  ],
+  "explain_vi": [
+   "Trong tiếng Nhật có nhiều cặp động từ gần giống nhau: một từ là tự động từ (自動詞), chỉ sự việc tự xảy ra hoặc trạng thái, không nói ai làm; một từ là tha động từ (他動詞), chỉ hành động có người tác động lên vật. Ví dụ 入ります (vào, có ở trong) và 入れます (cho vào), つきます (đèn sáng) và つけます (bật đèn), 開きます (mở ra) và 開けます (mở).",
+   "Trợ từ là điểm quan trọng nhất: tự động từ đi với が (電気がつきます), tha động từ đi với を (電気をつけます). Muốn tả trạng thái hiện tại thì dùng tự động từ thể て ＋ います: 鶏肉が入っています (có thịt gà ở trong), 電気がついています (đèn đang sáng). Trong văn nói, 入っています thường rút gọn thành 入ってます.",
+   "Lỗi hay gặp: dùng を với tự động từ (電気をつきます) hoặc が với tha động từ khi nói người làm (わたしが砂糖が入れます). Khi nhờ ai làm gì phải dùng tha động từ: 電気をつけてください. Khi báo sự cố thì thường dùng tự động từ: 電気がつかないんですが…."
+  ],
+  "example": {
+   "jp": "鶏肉とか、エビとか、きのことかが入ってます。ときどき、銀杏も入れますよ。",
+   "vi": "Có thịt gà, tôm, nấm các thứ ở trong. Thỉnh thoảng tôi cũng cho cả hạt bạch quả vào nữa đấy."
+  },
+  "examples": [
+   {
+    "jp": "会議室の電気がついています。だれかいますか。",
+    "vi": "Đèn phòng họp đang sáng. Có ai ở trong không?"
+   },
+   {
+    "jp": "暗いですから、電気をつけてください。",
+    "vi": "Tối quá, hãy bật đèn lên."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "この スープには 野菜が たくさん ＿＿＿ います。",
+    "o": [
+     "入る",
+     "入れて",
+     "入り",
+     "入って"
+    ],
+    "a": 3,
+    "ex_vi": "Trợ từ が ＋ trạng thái → tự động từ thể て: 野菜が入っています. 入れて là tha động từ, phải đi với を."
+   },
+   {
+    "q": "暗いですね。電気を ＿＿＿ ください。",
+    "o": [
+     "つく",
+     "つけて",
+     "ついて",
+     "つけ"
+    ],
+    "a": 1,
+    "ex_vi": "Có を và là lời nhờ người khác làm, nên dùng tha động từ つける: つけてください. ついて là tự động từ, không đi với を."
+   },
+   {
+    "q": "A：コーヒーに 砂糖＿＿＿ 入れますか。\nB：いいえ、けっこうです。",
+    "o": [
+     "に",
+     "を",
+     "が",
+     "で"
+    ],
+    "a": 1,
+    "ex_vi": "入れます là tha động từ nên đối tượng đi với を: 砂糖を入れます. が đi với tự động từ 入ります."
+   }
+  ]
+ },
+ {
+  "n": 86,
+  "pattern": "〜んですが… ／ 〜んです",
+  "meaning_vi": "Trình bày vấn đề, lý do, tình trạng (bệnh tật…)",
+  "structure": [
+   "V／A-い (thể thường) ＋ んです／んですが…",
+   "A-な／N ＋ な ＋ んです／んですが…"
+  ],
+  "explain_vi": [
+   "〜んです dùng khi giải thích hoàn cảnh, lý do, hoặc trình bày một vấn đề cho người khác hiểu. Thêm が… và bỏ lửng câu (〜んですが…) là cách mở lời để nhờ giúp đỡ, ví dụ báo đèn không sáng, báo bị ốm, xin nghỉ. Người nghe sẽ hiểu ý và đáp lại.",
+   "Cách ghép: động từ và tính từ đuôi い ở thể thường ＋ んです: つかない → つかないんです, 痛い → 痛いんです, 来る → 来るんです. Tính từ đuôi な và danh từ thêm な: 暇なんです, 誕生日なんです. Khi hỏi lý do người khác cũng dùng mẫu này: どうしたんですか.",
+   "Ví dụ khi đi khám: 昨日から38度の熱があって、のどがすごく痛いんです (Từ hôm qua tôi sốt 38 độ, họng đau lắm). Lỗi hay gặp: dùng thể lịch sự trước んです (つきませんんです là sai) hoặc quên な với danh từ (誕生日んです là sai)."
+  ],
+  "example": {
+   "jp": "電気がつかないんですが…。東京から、国の友だちが来るんです。昨日から38度の熱があって、のどがすごく痛いんです。",
+   "vi": "Đèn không sáng ạ… Bạn ở quê tôi từ Tokyo sẽ đến chơi. Từ hôm qua tôi bị sốt 38 độ, họng đau lắm."
+  },
+  "examples": [
+   {
+    "jp": "すみません、エアコンが動かないんですが…。",
+    "vi": "Xin lỗi, điều hòa không chạy ạ…"
+   },
+   {
+    "jp": "あしたは子どもの誕生日なんです。早く帰ってもいいですか。",
+    "vi": "Mai là sinh nhật con tôi. Tôi về sớm được không ạ?"
+   }
+  ],
+  "quiz": [
+   {
+    "q": "すみません、エアコンが ＿＿＿ んですが…。",
+    "o": [
+     "つかなくて",
+     "つかない",
+     "つきません",
+     "つかないの"
+    ],
+    "a": 1,
+    "ex_vi": "Trước んです dùng thể thường: つかないんですが…. Thể lịch sự つきません, thể て, つかないの không đứng trước んです."
+   },
+   {
+    "q": "A：どうしたんですか。\nB：＿＿＿",
+    "o": [
+     "頭が 痛いですか。",
+     "頭が 痛いんです。",
+     "頭が 痛いなんです。",
+     "頭が 痛くんです。"
+    ],
+    "a": 1,
+    "ex_vi": "Tính từ đuôi い ghép trực tiếp: 痛いんです. Không thêm な, không dùng dạng く; 痛いですか là câu hỏi."
+   },
+   {
+    "q": "あのう、あしたは 子どもの 誕生日＿＿＿ んですが…。",
+    "o": [
+     "の",
+     "な",
+     "に",
+     "だ"
+    ],
+    "a": 1,
+    "ex_vi": "Danh từ ＋ な ＋ んです: 誕生日なんです. だ, の, に đều sai trước んです."
+   }
+  ]
+ },
+ {
+  "n": 87,
+  "pattern": "V-たいとき(は)、どうすればいいですか",
+  "meaning_vi": "Khi muốn làm V thì nên làm thế nào?",
+  "structure": [
+   "V-ます (bỏ ます) ＋ たいとき(は)、どうすればいいですか",
+   "→ 〜てください／〜ます (trả lời cách làm)"
+  ],
+  "explain_vi": [
+   "Mẫu này dùng để hỏi cách làm, thủ tục khi mình muốn làm việc gì đó: muốn photo 2 mặt, muốn xin nghỉ, muốn mượn sách, muốn vứt rác cỡ lớn… Rất hữu ích ở công ty, ký túc xá, tòa thị chính.",
+   "Cách ghép: động từ bỏ ます ＋ たい ＋ とき(は)、どうすればいいですか. Ví dụ コピーしたいときは、どうすればいいですか; 休みたいときは、どうすればいいですか. は sau とき giúp nhấn mạnh trường hợp đang hỏi.",
+   "どうすればいいですか là cụm cố định, nghĩa là 「làm thế nào thì được?」. Câu trả lời thường là hướng dẫn: 〜てください hoặc 〜ます. Đừng chia sai thành どうしたいいですか hay どうするいいですか."
+  ],
+  "example": {
+   "jp": "両面コピーしたいときは、どうすればいいですか？",
+   "vi": "Khi muốn photo 2 mặt thì làm thế nào ạ?"
+  },
+  "examples": [
+   {
+    "jp": "会社を休みたいときは、どうすればいいですか。",
+    "vi": "Khi muốn nghỉ làm thì tôi phải làm thế nào?"
+   },
+   {
+    "jp": "大きいごみを捨てたいときは、どうすればいいですか。",
+    "vi": "Khi muốn vứt rác cỡ lớn thì làm thế nào?"
+   }
+  ],
+  "quiz": [
+   {
+    "q": "会社を 休み＿＿＿ ときは、どうすれば いいですか。",
+    "o": [
+     "て",
+     "た",
+     "ます",
+     "たい"
+    ],
+    "a": 3,
+    "ex_vi": "Khi muốn làm gì: bỏ ます ＋ たいとき → 休みたいとき. Các dạng khác không ghép được."
+   },
+   {
+    "q": "A：日本語の 本を 借りたいとき、どうすれば いいですか。\nB：＿＿＿",
+    "o": [
+     "はい、借りたいです。",
+     "図書館の カードを 作ってください。",
+     "いいえ、どうしません。",
+     "本を 返しました。"
+    ],
+    "a": 1,
+    "ex_vi": "Hỏi cách làm thì trả lời bằng hướng dẫn: カードを作ってください. Các câu còn lại không chỉ cách làm."
+   },
+   {
+    "q": "ごみを 捨てたいときは、どう＿＿＿ いいですか。",
+    "o": [
+     "する",
+     "します",
+     "すれば",
+     "した"
+    ],
+    "a": 2,
+    "ex_vi": "Cụm cố định là どうすればいいですか. した, する, します không ghép với いいですか theo cách này."
+   }
+  ]
+ }
+]

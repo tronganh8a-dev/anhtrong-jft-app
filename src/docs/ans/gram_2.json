@@ -1,0 +1,1784 @@
+[
+ {
+  "n": 30,
+  "pattern": "どこか・だれか・なにか ＋ V-ます",
+  "meaning_vi": "Đâu đó, ai đó, cái gì đó",
+  "structure": [
+   "どこか（へ）＋ V-ます／V-たいです",
+   "だれか・なにか ＋ V-ます",
+   "どこも・だれも・なにも ＋ V-ません (phủ định hoàn toàn)"
+  ],
+  "explain_vi": [
+   "どこか, だれか, なにか là từ nghi vấn (どこ, だれ, なに) gắn thêm か, mang nghĩa không xác định: đâu đó, ai đó, cái gì đó. Dùng khi người nói chưa biết rõ hoặc không cần nói cụ thể, ví dụ muốn đi du lịch nhưng chưa quyết định nơi nào.",
+   "Sau どこか có thể thêm へ／に (どこかへ行きたい), nhưng trong hội thoại thường lược bỏ. Sau なにか, だれか thì trợ từ を và が thường bị lược: なにか食べたいです, だれかいますか.",
+   "Câu hỏi có か được trả lời bằng はい／いいえ: なにか食べますか → はい、食べます. Còn câu hỏi không có か thì phải trả lời nội dung cụ thể: なにを食べますか → パンを食べます. Lỗi hay gặp: nhầm với どこも／なにも, hai từ này đi với động từ phủ định (どこも行きません = không đi đâu cả)."
+  ],
+  "example": {
+   "jp": "どこか旅行したいです。",
+   "vi": "Tôi muốn đi du lịch đâu đó."
+  },
+  "examples": [
+   {
+    "jp": "のどがかわきましたね。なにか飲みませんか。",
+    "vi": "Khát nước quá nhỉ. Mình uống gì đó không?"
+   },
+   {
+    "jp": "すみません、だれか手伝ってください。",
+    "vi": "Xin lỗi, ai đó giúp tôi với."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A：週末、＿＿＿ 行きましたか。\nB：はい、京都へ 行きました。",
+    "o": [
+     "どこか",
+     "どこも",
+     "どこで",
+     "どこ"
+    ],
+    "a": 0,
+    "ex_vi": "B trả lời はい nên câu hỏi là dạng có/không: どこか行きましたか (Có đi đâu đó không?). どこも đi với phủ định, どこで hỏi nơi diễn ra hành động."
+   },
+   {
+    "q": "のどが かわきました。＿＿＿ 飲みたいです。",
+    "o": [
+     "なに",
+     "だれか",
+     "なにも",
+     "なにか"
+    ],
+    "a": 3,
+    "ex_vi": "なにか = cái gì đó: muốn uống cái gì đó. なにも đi với phủ định, だれか là người, なに đứng một mình không dùng như vậy."
+   },
+   {
+    "q": "A：あそこに ＿＿＿ いますか。\nB：いいえ、だれも いません。",
+    "o": [
+     "なにか",
+     "だれも",
+     "だれか",
+     "だれ"
+    ],
+    "a": 2,
+    "ex_vi": "Hỏi có người nào đó không nên dùng だれか, và B đáp いいえ、だれもいません. なにか chỉ đồ vật, mà đồ vật dùng あります chứ không dùng います."
+   }
+  ]
+ },
+ {
+  "n": 31,
+  "pattern": "S1。あと、S2。",
+  "meaning_vi": "S1. Với lại / thêm nữa S2",
+  "structure": [
+   "S1。あと、S2。",
+   "N1 を ください。あと、N2 も。"
+  ],
+  "explain_vi": [
+   "あと đứng đầu câu thứ hai, dùng để bổ sung thêm một ý, một mong muốn hay một món nữa sau khi đã nói xong câu thứ nhất. Nghĩa tương đương “với lại”, “còn nữa”, “thêm nữa” trong tiếng Việt.",
+   "あと mang tính khẩu ngữ, rất hay dùng khi nói chuyện, gọi món, nhờ vả: コーヒーをください。あと、ケーキも. Sau あと thường đặt dấu phẩy, câu sau hay dùng も để nhấn ý “cũng”.",
+   "Phân biệt: それから nhấn thứ tự hành động (sau đó); それに nhấn thêm lý do hoặc đánh giá cùng chiều (hơn nữa); でも là đối lập (nhưng). Không dùng あと để nối hai ý trái ngược."
+  ],
+  "example": {
+   "jp": "雪が見たいです。あと、温泉に入りたいです。",
+   "vi": "Tôi muốn ngắm tuyết. Với lại, tôi muốn tắm suối nước nóng."
+  },
+  "examples": [
+   {
+    "jp": "明日はタオルを持ってきてください。あと、水も持ってきてください。",
+    "vi": "Ngày mai hãy mang khăn theo nhé. Thêm nữa, mang cả nước nữa."
+   },
+   {
+    "jp": "日本で働きたいです。あと、富士山に登りたいです。",
+    "vi": "Tôi muốn làm việc ở Nhật. Với lại, tôi muốn leo núi Phú Sĩ."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "北海道で 雪が 見たいです。＿＿＿、ラーメンも 食べたいです。",
+    "o": [
+     "あと",
+     "じゃあ",
+     "だから",
+     "でも"
+    ],
+    "a": 0,
+    "ex_vi": "Câu sau bổ sung thêm một mong muốn nữa nên dùng あと. でも dùng cho ý đối lập, だから chỉ kết quả, じゃあ dùng khi chuyển ý, đều không hợp."
+   },
+   {
+    "q": "店員：ご注文は？\n客：コーヒーを ください。＿＿＿、サンドイッチも お願いします。",
+    "o": [
+     "でも",
+     "だから",
+     "あと",
+     "たとえば"
+    ],
+    "a": 2,
+    "ex_vi": "Gọi thêm một món nữa nên dùng あと (với lại). でも là đối lập, だから là kết quả, たとえば là đưa ví dụ, không phù hợp."
+   },
+   {
+    "q": "A：明日の 買い物、何が 要りますか。\nB：牛乳と 卵です。＿＿＿、パンも お願いします。",
+    "o": [
+     "けど",
+     "でも",
+     "から",
+     "あと"
+    ],
+    "a": 3,
+    "ex_vi": "B nhờ mua thêm bánh mì nên dùng あと. でも／けど là “nhưng”, không có ý đối lập ở đây; から không đứng đầu câu như vậy."
+   }
+  ]
+ },
+ {
+  "n": 32,
+  "pattern": "N（場所）へ 行きます",
+  "meaning_vi": "Đi đến địa điểm N",
+  "structure": [
+   "N（場所）＋ へ／に ＋ 行きます・来ます・帰ります",
+   "N（場所）＋ へ 行きたいです"
+  ],
+  "explain_vi": [
+   "Trợ từ へ chỉ hướng di chuyển, đặt sau địa điểm và đi với các động từ di chuyển 行きます (đi), 来ます (đến), 帰ります (về). Chú ý: へ trong trường hợp này đọc là “e”, không đọc là “he”.",
+   "Có thể thay へ bằng に mà nghĩa gần như không đổi: 京都に行きます. Muốn nói “muốn đi” thì đổi động từ sang thể たい: 京都へ行きたいです. Thời gian đặt trước: 来週、大阪へ行きます.",
+   "Lỗi hay gặp của người Việt: dùng を hoặc で sau địa điểm (京都を行きます, 京都で行きます là sai). で dùng cho nơi diễn ra hành động (京都で写真を撮ります), còn へ／に dùng cho nơi mình đi tới."
+  ],
+  "example": {
+   "jp": "京都へ行きたいです。",
+   "vi": "Tôi muốn đi Kyoto."
+  },
+  "examples": [
+   {
+    "jp": "来月、国へ帰ります。",
+    "vi": "Tháng sau tôi về nước."
+   },
+   {
+    "jp": "毎朝、自転車で会社へ行きます。",
+    "vi": "Mỗi sáng tôi đi làm bằng xe đạp."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "来月、国＿＿＿ 帰ります。",
+    "o": [
+     "で",
+     "が",
+     "を",
+     "へ"
+    ],
+    "a": 3,
+    "ex_vi": "Với động từ di chuyển 帰ります, nơi đến dùng へ (hoặc に). を, で, が không dùng để chỉ hướng đi."
+   },
+   {
+    "q": "A：夏休みは どこへ 行きますか。\nB：＿＿＿。",
+    "o": [
+     "沖縄で 行きます。",
+     "沖縄が 行きます。",
+     "沖縄へ 行きます。"
+    ],
+    "a": 2,
+    "ex_vi": "Nơi đi tới dùng へ: 沖縄へ行きます. で chỉ nơi diễn ra hành động, が chỉ chủ ngữ, đều sai."
+   },
+   {
+    "q": "毎朝 7時に 会社＿＿＿ 行きます。",
+    "o": [
+     "で",
+     "の",
+     "へ",
+     "を"
+    ],
+    "a": 2,
+    "ex_vi": "会社へ行きます = đi đến công ty. で dùng cho nơi làm việc gì đó, を và の không đi với 行きます theo nghĩa này."
+   }
+  ]
+ },
+ {
+  "n": 33,
+  "pattern": "S1。それから、S2。",
+  "meaning_vi": "S1. Sau đó S2 (thứ tự hành động)",
+  "structure": [
+   "S1（V-ました）。それから、S2（V-ました）。",
+   "V1-て ください。それから、V2-て ください。"
+  ],
+  "explain_vi": [
+   "それから đứng đầu câu thứ hai, có nghĩa “sau đó”, “rồi thì”. Dùng để kể các hành động theo đúng thứ tự thời gian: làm việc A xong rồi làm việc B.",
+   "Thì của từng câu do động từ trong câu quyết định: kể chuyện đã qua thì cả hai câu đều ở dạng ました. Khi hướng dẫn công việc cũng hay dùng: まず〜てください。それから、〜てください.",
+   "Phân biệt: それから nhấn thứ tự trước sau; それに là “hơn nữa”, thêm một đánh giá hay lý do cùng chiều; でも là “nhưng”, hai ý trái ngược. Không dùng それに để kể các bước hành động."
+  ],
+  "example": {
+   "jp": "露天風呂に入りました。それから、温泉の近くで、鶏の天ぷらを食べました。",
+   "vi": "Tôi đã tắm ở bồn tắm lộ thiên. Sau đó, tôi ăn món gà tẩm bột chiên tempura ở gần khu suối nước nóng."
+  },
+  "examples": [
+   {
+    "jp": "朝、掃除をしました。それから、買い物に行きました。",
+    "vi": "Buổi sáng tôi đã dọn dẹp. Sau đó tôi đi mua sắm."
+   },
+   {
+    "jp": "まず、手を洗ってください。それから、エプロンをつけてください。",
+    "vi": "Trước hết hãy rửa tay. Sau đó hãy đeo tạp dề vào."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "朝ご飯を 食べました。＿＿＿、会社へ 行きました。",
+    "o": [
+     "たとえば",
+     "でも",
+     "それに",
+     "それから"
+    ],
+    "a": 3,
+    "ex_vi": "Hai hành động xảy ra theo thứ tự (ăn sáng rồi đi làm) nên dùng それから. それに dùng để thêm đánh giá, でも là đối lập, たとえば là đưa ví dụ."
+   },
+   {
+    "q": "A：昨日は 何を しましたか。\nB：午前中は 洗濯を しました。＿＿＿、友だちと 映画を 見ました。",
+    "o": [
+     "それから",
+     "から",
+     "じゃあ",
+     "でも"
+    ],
+    "a": 0,
+    "ex_vi": "B kể các việc theo thứ tự thời gian: giặt đồ, sau đó xem phim, nên dùng それから. Không có ý đối lập nên でも sai; から không đứng đầu câu như vậy."
+   },
+   {
+    "q": "まず、手を 洗って ください。＿＿＿、エプロンを つけて ください。",
+    "o": [
+     "それから",
+     "それに",
+     "でも",
+     "だから"
+    ],
+    "a": 0,
+    "ex_vi": "Đây là các bước làm việc theo thứ tự nên dùng それから (sau đó). それに không dùng để nối các bước, だから và でも không hợp nghĩa."
+   }
+  ]
+ },
+ {
+  "n": 34,
+  "pattern": "S1。それに、S2。",
+  "meaning_vi": "S1. Hơn nữa S2 (thêm ý cùng chiều, nhấn mạnh)",
+  "structure": [
+   "S1。それに、S2（〜も〜）。"
+  ],
+  "explain_vi": [
+   "それに đứng đầu câu thứ hai, nghĩa là “hơn nữa”, “thêm vào đó”. Dùng khi muốn thêm một ý đánh giá hoặc một lý do cùng chiều với câu trước: tốt thì thêm cái tốt, xấu thì thêm cái xấu.",
+   "Câu sau それに thường có trợ từ も để nhấn ý “cũng”: 気持ちよかったです。それに、景色もきれいでした. Rất hay dùng khi nêu nhiều lý do: この部屋は広いです。それに、駅から近いです.",
+   "Phân biệt: それから là “sau đó” (thứ tự hành động); でも là “nhưng” (hai ý ngược nhau). Lỗi hay gặp: dùng それに để nối một ý trái ngược, ví dụ 安いです。それに、ちょっと遠いです là không tự nhiên, phải dùng でも."
+  ],
+  "example": {
+   "jp": "気持ちよかったです。それに、景色もきれいでした。",
+   "vi": "Rất dễ chịu. Hơn nữa, phong cảnh cũng đẹp."
+  },
+  "examples": [
+   {
+    "jp": "この仕事はおもしろいです。それに、みんな親切です。",
+    "vi": "Công việc này thú vị. Hơn nữa, mọi người đều tử tế."
+   },
+   {
+    "jp": "今日は雨です。それに、風も強いです。",
+    "vi": "Hôm nay trời mưa. Hơn nữa, gió cũng mạnh."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "この アパートは 駅から 近いです。＿＿＿、家賃も 安いです。",
+    "o": [
+     "でも",
+     "たとえば",
+     "じゃあ",
+     "それに"
+    ],
+    "a": 3,
+    "ex_vi": "Gần ga và rẻ đều là điểm tốt, cùng chiều, nên dùng それに (hơn nữa). でも dùng khi hai ý trái ngược."
+   },
+   {
+    "q": "今日は 雨です。＿＿＿、風も 強いです。",
+    "o": [
+     "じゃあ",
+     "でも",
+     "それに",
+     "たとえば"
+    ],
+    "a": 2,
+    "ex_vi": "Mưa và gió mạnh đều là thời tiết xấu, cùng chiều, nên dùng それに. Không có ý đối lập nên でも sai."
+   },
+   {
+    "q": "この 店は 安いです。それに、＿＿＿。",
+    "o": [
+     "ちょっと 高いです",
+     "料理も おいしいです",
+     "あまり おいしくないです"
+    ],
+    "a": 1,
+    "ex_vi": "Sau それに phải là một ý tốt cùng chiều với “rẻ”: đồ ăn cũng ngon. Hai lựa chọn còn lại là ý trái chiều, phải dùng でも."
+   }
+  ]
+ },
+ {
+  "n": 35,
+  "pattern": "S1。でも、S2。",
+  "meaning_vi": "S1. Nhưng S2 (hai ý đối lập)",
+  "structure": [
+   "S1。でも、S2。"
+  ],
+  "explain_vi": [
+   "でも đứng đầu câu thứ hai, nghĩa là “nhưng”. Dùng khi ý của câu sau ngược với điều người nghe có thể nghĩ từ câu trước: ngon nhưng đắt, muốn đi nhưng bận.",
+   "でも là từ nối dùng nhiều trong hội thoại hằng ngày, vẫn lịch sự khi đi với です／ます. Trong văn viết trang trọng người ta dùng しかし. Nếu muốn nối thành một câu thì dùng 〜けど hoặc 〜が: おいしかったけど、ちょっと高かったです.",
+   "Dùng でも rất tiện để từ chối khéo: 行きたいです。でも、その日はアルバイトがあります. Lỗi hay gặp: đặt でも vào giữa câu ngay sau です (おいしいですでも...), phải tách thành hai câu."
+  ],
+  "example": {
+   "jp": "おいしかったです。でも、ちょっと高かったです。",
+   "vi": "Ngon lắm. Nhưng hơi đắt."
+  },
+  "examples": [
+   {
+    "jp": "日本の生活は楽しいです。でも、家族に会いたいです。",
+    "vi": "Cuộc sống ở Nhật vui. Nhưng tôi nhớ gia đình."
+   },
+   {
+    "jp": "この仕事は大変です。でも、給料はいいです。",
+    "vi": "Công việc này vất vả. Nhưng lương thì tốt."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "日本の 夏は 楽しいです。＿＿＿、とても 暑いです。",
+    "o": [
+     "それに",
+     "それから",
+     "でも",
+     "あと"
+    ],
+    "a": 2,
+    "ex_vi": "“Vui” và “rất nóng” là một điểm tốt và một điểm không tốt nên dùng でも (nhưng). それに và あと là thêm ý cùng chiều, それから là thứ tự hành động."
+   },
+   {
+    "q": "この かばんは かわいいです。でも、＿＿＿。",
+    "o": [
+     "ちょっと 重いです",
+     "とても 軽いです",
+     "色も きれいです"
+    ],
+    "a": 0,
+    "ex_vi": "Sau でも phải là ý trái ngược với “dễ thương”: hơi nặng. Hai lựa chọn kia đều là điểm tốt, phải dùng それに."
+   },
+   {
+    "q": "A：日曜日、いっしょに 買い物に 行きませんか。\nB：行きたいです。＿＿＿、日曜日は アルバイトが あります。",
+    "o": [
+     "それから",
+     "あと",
+     "でも",
+     "それに"
+    ],
+    "a": 2,
+    "ex_vi": "B muốn đi nhưng lại có ca làm thêm, hai ý đối lập, nên dùng でも. Đây cũng là cách từ chối khéo."
+   }
+  ]
+ },
+ {
+  "n": 36,
+  "pattern": "（V-て、）N（期間）に なります",
+  "meaning_vi": "Đã được (khoảng thời gian) rồi",
+  "structure": [
+   "V-て、＋ N（期間）＋ に なります",
+   "N（期間）＋ に なります"
+  ],
+  "explain_vi": [
+   "Mẫu này dùng để nói từ lúc bắt đầu một việc đến nay đã được bao lâu: đến Nhật được 1 năm, làm ở công ty được 3 tháng. Phần trước thường là động từ thể て chỉ mốc bắt đầu (日本に来て, 働いて).",
+   "Khoảng thời gian là các từ như 1年, 半年, 3か月, 2週間, 10日 và luôn đi với に なります. Câu hỏi tương ứng: 日本に来て、どのくらいになりますか (Bạn đến Nhật được bao lâu rồi?).",
+   "Phân biệt với mẫu số 37: 〜に来ました dùng với thời điểm cụ thể (去年の9月に来ました), còn 〜になります dùng với khoảng thời gian (1年になります). Không nói 1年に来ました hay 9月になります theo nghĩa này."
+  ],
+  "example": {
+   "jp": "日本に来て1年になります。",
+   "vi": "Tôi đến Nhật được 1 năm rồi."
+  },
+  "examples": [
+   {
+    "jp": "この会社で働いて、3か月になります。",
+    "vi": "Tôi làm ở công ty này được 3 tháng rồi."
+   },
+   {
+    "jp": "日本語の勉強を始めて、半年になります。",
+    "vi": "Tôi bắt đầu học tiếng Nhật được nửa năm rồi."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A：日本に 来て、どのくらいに なりますか。\nB：＿＿＿。",
+    "o": [
+     "2年に 来ました。",
+     "2年に なります。",
+     "2年を します。"
+    ],
+    "a": 1,
+    "ex_vi": "Câu hỏi về khoảng thời gian (どのくらい) nên trả lời bằng 期間＋になります: 2年になります. 〜に来ました đi với thời điểm cụ thể."
+   },
+   {
+    "q": "この 会社で 働いて、半年＿＿＿ なります。",
+    "o": [
+     "を",
+     "が",
+     "に",
+     "で"
+    ],
+    "a": 2,
+    "ex_vi": "Khoảng thời gian luôn đi với に なります. Các trợ từ khác không đi với なります theo nghĩa này."
+   },
+   {
+    "q": "日本語の 勉強を ＿＿＿、3か月に なります。",
+    "o": [
+     "始めます",
+     "始めて",
+     "始めた"
+    ],
+    "a": 1,
+    "ex_vi": "Mốc bắt đầu được nói bằng thể て: 始めて、3か月になります. Không dùng thể ます hay thể た ở vị trí này."
+   }
+  ]
+ },
+ {
+  "n": 37,
+  "pattern": "N（時）に 来ました",
+  "meaning_vi": "Đã đến vào (thời điểm cụ thể)",
+  "structure": [
+   "N（年・月・日・時）＋ に ＋ 来ました",
+   "去年・先月・昨日 など ＋ 来ました (không dùng に)"
+  ],
+  "explain_vi": [
+   "Trợ từ に đặt sau thời điểm cụ thể để nói một việc xảy ra lúc nào: 2024年に, 9月に, 15日に, 7時に. Mẫu này hay dùng khi giới thiệu bản thân: 去年の9月に日本に来ました.",
+   "Những từ chỉ thời gian tương đối như 去年, 先月, 先週, 昨日, 今日, 明日, 毎日 thì KHÔNG dùng に: 昨日来ました. Nhưng nếu thêm mốc cụ thể phía sau thì lại dùng に: 去年の9月に来ました.",
+   "Phân biệt với mẫu số 36: hỏi いつ (khi nào) thì trả lời bằng thời điểm＋に来ました; hỏi どのくらい (bao lâu) thì trả lời bằng khoảng thời gian＋になります."
+  ],
+  "example": {
+   "jp": "去年の9月に来ました。",
+   "vi": "Tôi đã đến vào tháng 9 năm ngoái."
+  },
+  "examples": [
+   {
+    "jp": "2024年の4月に日本に来ました。",
+    "vi": "Tôi đã đến Nhật vào tháng 4 năm 2024."
+   },
+   {
+    "jp": "田中さんは先週の月曜日に会社に来ました。",
+    "vi": "Anh Tanaka đã đến công ty vào thứ Hai tuần trước."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A：いつ 日本へ 来ましたか。\nB：2024年の 4月＿＿＿ 来ました。",
+    "o": [
+     "で",
+     "を",
+     "に",
+     "と"
+    ],
+    "a": 2,
+    "ex_vi": "Thời điểm cụ thể (năm, tháng) đi với trợ từ に. で, を, と không dùng để chỉ thời điểm."
+   },
+   {
+    "q": "正しい 文は どれですか。",
+    "o": [
+     "昨日 大阪へ 来ました。",
+     "昨日に 大阪へ 来ました。",
+     "昨日を 大阪へ 来ました。"
+    ],
+    "a": 0,
+    "ex_vi": "昨日 là từ chỉ thời gian tương đối nên không dùng trợ từ nào: 昨日大阪へ来ました. 昨日に và 昨日を đều sai."
+   },
+   {
+    "q": "A：いつ この 会社に 来ましたか。\nB：＿＿＿。",
+    "o": [
+     "3月を 来ました。",
+     "3月で 来ました。",
+     "3月に 来ました。"
+    ],
+    "a": 2,
+    "ex_vi": "Hỏi いつ nên trả lời bằng thời điểm＋に: 3月に来ました. で và を không chỉ thời điểm."
+   }
+  ]
+ },
+ {
+  "n": 38,
+  "pattern": "V-ています（1）：仕事",
+  "meaning_vi": "Nói về công việc, việc đang làm hiện tại",
+  "structure": [
+   "N（場所）で ＋ 働いています",
+   "N（仕事）を ＋ しています",
+   "何を していますか (hỏi công việc)"
+  ],
+  "explain_vi": [
+   "V-ています ngoài nghĩa “đang làm ngay lúc này” còn dùng để nói về công việc, nghề nghiệp, việc mình làm đều đặn trong giai đoạn hiện tại. Câu hỏi 日本では、何をしていますか nghĩa là “Ở Nhật bạn đang làm công việc gì?”.",
+   "Cách trả lời thường gặp: 工場で働いています (làm ở nhà máy), 介護の仕事をしています (làm công việc điều dưỡng), 学校で日本語を勉強しています. Động từ chia thể て rồi thêm います: 働きます → 働いて → 働いています.",
+   "Phân biệt: 働きます (thể ます) nói thói quen hoặc việc tương lai, còn 働いています nói tình trạng công việc hiện nay. Khi giới thiệu nghề nghiệp ở Nhật, người ta dùng ています tự nhiên hơn. Lưu ý chọn trợ từ: nơi làm việc dùng で, tên công việc dùng を."
+  ],
+  "example": {
+   "jp": "日本では、何をしていますか？",
+   "vi": "Ở Nhật, bạn đang làm công việc gì?"
+  },
+  "examples": [
+   {
+    "jp": "私は大阪のホテルで働いています。",
+    "vi": "Tôi đang làm việc ở một khách sạn tại Osaka."
+   },
+   {
+    "jp": "姉はベトナムで日本語の先生をしています。",
+    "vi": "Chị gái tôi đang làm giáo viên tiếng Nhật ở Việt Nam."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A：日本では、何を していますか。\nB：工場で ＿＿＿。",
+    "o": [
+     "働きました。",
+     "働いています。",
+     "働いてください。"
+    ],
+    "a": 1,
+    "ex_vi": "Nói về công việc hiện tại dùng V-ています: 工場で働いています. 働きました là quá khứ, 働いてください là lời nhờ, không phải câu trả lời."
+   },
+   {
+    "q": "私は 今、ホテルで 清掃の 仕事を ＿＿＿。",
+    "o": [
+     "しましょう",
+     "しました",
+     "してください",
+     "しています"
+    ],
+    "a": 3,
+    "ex_vi": "今 (hiện nay) + công việc đang làm → しています. Các lựa chọn khác là rủ rê, nhờ vả hoặc quá khứ."
+   },
+   {
+    "q": "A：お仕事は 何を して いますか。\nB：＿＿＿。",
+    "o": [
+     "料理が 好きです。",
+     "レストランで 料理を 作っています。",
+     "レストランへ 行きたいです。"
+    ],
+    "a": 1,
+    "ex_vi": "Câu hỏi về công việc nên trả lời bằng V-ています: làm nấu ăn ở nhà hàng. Hai câu kia nói sở thích và mong muốn, không trả lời đúng câu hỏi."
+   }
+  ]
+ },
+ {
+  "n": 39,
+  "pattern": "V-ています（2）：進行・継続",
+  "meaning_vi": "Đang làm V (hành động đang diễn ra hoặc đang tiếp diễn trong một thời gian)",
+  "structure": [
+   "V-て ＋ います",
+   "V-て ＋ いません (phủ định)",
+   "今／最近 ＋ V-ています"
+  ],
+  "explain_vi": [
+   "V-ています diễn tả hành động đang diễn ra ngay lúc nói (今、ご飯を食べています = bây giờ đang ăn cơm) hoặc một việc đang tiếp diễn trong một giai đoạn (いけばなを習っています = dạo này đang học cắm hoa).",
+   "Cách chia: đổi động từ sang thể て rồi thêm います. 習います → 習って → 習っています; 食べます → 食べて → 食べています; します → して → しています. Phủ định là ています → ていません.",
+   "Hay đi với 今 (bây giờ), 最近 (dạo này), 毎週 (mỗi tuần). Lỗi hay gặp: dùng thể ます khi trả lời câu hỏi 今何をしていますか; thể ます là thói quen hoặc tương lai, không phải “đang”."
+  ],
+  "example": {
+   "jp": "いけばなを習っています。",
+   "vi": "Tôi đang học cắm hoa ikebana."
+  },
+  "examples": [
+   {
+    "jp": "今、駅で友だちを待っています。",
+    "vi": "Bây giờ tôi đang đợi bạn ở nhà ga."
+   },
+   {
+    "jp": "最近、毎週日曜日に料理教室に通っています。",
+    "vi": "Dạo này, chủ nhật nào tôi cũng đi học lớp nấu ăn."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A：もしもし、今 何を していますか。\nB：今、晩ご飯を ＿＿＿。",
+    "o": [
+     "食べています",
+     "食べます",
+     "食べてください"
+    ],
+    "a": 0,
+    "ex_vi": "Hỏi việc đang làm lúc này nên trả lời bằng V-ています. 食べます là thói quen hoặc tương lai, 食べてください là lời nhờ."
+   },
+   {
+    "q": "最近、週に 1回 ギターを ＿＿＿。",
+    "o": [
+     "習って",
+     "習いましょう",
+     "習っています"
+    ],
+    "a": 2,
+    "ex_vi": "Việc đang tiếp diễn trong giai đoạn gần đây (最近) dùng V-ています. 習って chưa trọn câu, 習いましょう là lời rủ."
+   },
+   {
+    "q": "A：田中さんは？\nB：あそこで 電話を ＿＿＿よ。",
+    "o": [
+     "しています",
+     "して",
+     "しましょう"
+    ],
+    "a": 0,
+    "ex_vi": "Anh Tanaka đang gọi điện ngay lúc đó nên dùng しています. して thiếu います, しましょう là rủ rê."
+   }
+  ]
+ },
+ {
+  "n": 40,
+  "pattern": "趣味は V-る ことです",
+  "meaning_vi": "Sở thích của tôi là (làm) V",
+  "structure": [
+   "趣味は ＋ V（辞書形）＋ ことです",
+   "趣味は ＋ N ＋ です"
+  ],
+  "explain_vi": [
+   "Đây là cách nói sở thích. こと biến động từ thành danh từ (việc làm V), nên 趣味は映画を見ることです nghĩa là “Sở thích của tôi là (việc) xem phim”.",
+   "Động từ phải ở thể từ điển (辞書形): 見ます → 見る, 読みます → 読む, 聞きます → 聞く, 作ります → 作る, します → する, 来ます → 来る. Tân ngữ của động từ vẫn giữ trợ từ を: 本を読むこと.",
+   "Nếu sở thích là danh từ thì nói thẳng: 趣味はサッカーです, 趣味は料理です. Lỗi hay gặp: 趣味は映画を見ますです hoặc 趣味はサッカーをするです (thiếu こと). Câu hỏi: 趣味は何ですか."
+  ],
+  "example": {
+   "jp": "趣味は映画を見ることです。",
+   "vi": "Sở thích của tôi là xem phim."
+  },
+  "examples": [
+   {
+    "jp": "私の趣味は日本の歌を聞くことです。",
+    "vi": "Sở thích của tôi là nghe nhạc Nhật."
+   },
+   {
+    "jp": "趣味は写真を撮ることです。休みの日はよく公園へ行きます。",
+    "vi": "Sở thích của tôi là chụp ảnh. Ngày nghỉ tôi hay đi công viên."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "私の 趣味は 本を ＿＿＿ ことです。",
+    "o": [
+     "読んで",
+     "読みます",
+     "読み",
+     "読む"
+    ],
+    "a": 3,
+    "ex_vi": "Trước こと phải dùng thể từ điển: 読む. Thể ます, thể て và 読み đều không đứng trước こと trong mẫu này."
+   },
+   {
+    "q": "A：趣味は 何ですか。\nB：＿＿＿。",
+    "o": [
+     "料理を 作ることです。",
+     "料理を 作って ことです。",
+     "料理を 作ります ことです。"
+    ],
+    "a": 0,
+    "ex_vi": "Mẫu đúng là 趣味は V-ることです: 料理を作ることです. Không đặt thể ます hay thể て trước こと."
+   },
+   {
+    "q": "趣味は ＿＿＿ です。",
+    "o": [
+     "サッカー",
+     "サッカーを する",
+     "サッカーを します"
+    ],
+    "a": 0,
+    "ex_vi": "Nếu không có こと thì phía trước です phải là danh từ: 趣味はサッカーです. Muốn dùng động từ thì phải nói サッカーをすることです."
+   }
+  ]
+ },
+ {
+  "n": 41,
+  "pattern": "V-る のが 好きです",
+  "meaning_vi": "Thích (việc) làm V",
+  "structure": [
+   "V（辞書形）＋ のが 好きです",
+   "V（辞書形）＋ のが 好きじゃないです (phủ định)",
+   "V（辞書形）＋ のが 上手です／苦手です"
+  ],
+  "explain_vi": [
+   "の đặt sau động từ thể từ điển để biến hành động thành danh từ, rồi dùng が 好きです để nói mình thích làm việc đó: ゲームをするのが好きです = Tôi thích chơi game.",
+   "Cách ghép: V辞書形 ＋ の ＋ が 好きです. Tân ngữ của động từ vẫn dùng を (ゲームを), nhưng trước 好きです luôn là が. Có thể thay 好き bằng 大好き, 嫌い, 上手, 苦手.",
+   "Phân biệt với mẫu 40: 趣味は〜ことです là giới thiệu sở thích chính thức; 〜のが好きです tự nhiên hơn trong hội thoại. Lỗi hay gặp: ゲームをするが好きです (thiếu の) hoặc ゲームをするのを好きです (dùng sai を)."
+  ],
+  "example": {
+   "jp": "ゲームをするのが好きです。",
+   "vi": "Tôi thích chơi game."
+  },
+  "examples": [
+   {
+    "jp": "休みの日は、うちでのんびりするのが好きです。",
+    "vi": "Ngày nghỉ tôi thích thư giãn ở nhà."
+   },
+   {
+    "jp": "私は朝早く起きるのが好きじゃないです。",
+    "vi": "Tôi không thích dậy sớm."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "私は 料理を 作る＿＿＿ 好きです。",
+    "o": [
+     "のに",
+     "のを",
+     "とが",
+     "のが"
+    ],
+    "a": 3,
+    "ex_vi": "Mẫu đúng là V-るのが好きです. Trước 好きです dùng が, nên のを và các lựa chọn khác đều sai."
+   },
+   {
+    "q": "妹は 歌を ＿＿＿ のが 好きです。",
+    "o": [
+     "歌う",
+     "歌います",
+     "歌って"
+    ],
+    "a": 0,
+    "ex_vi": "Trước の phải dùng thể từ điển: 歌う. Thể ます và thể て không đứng trước の."
+   },
+   {
+    "q": "A：休みの 日は 何を しますか。\nB：うちで ＿＿＿。",
+    "o": [
+     "のんびり しますのが 好きです。",
+     "のんびり するが 好きです。",
+     "のんびり するのが 好きです。"
+    ],
+    "a": 2,
+    "ex_vi": "Phải có の sau thể từ điển: するのが好きです. するが thiếu の, しますの dùng sai thể ます."
+   }
+  ]
+ },
+ {
+  "n": 42,
+  "pattern": "V1-て、V2",
+  "meaning_vi": "Làm V1 rồi làm V2 (liệt kê hành động theo thứ tự)",
+  "structure": [
+   "V1-て、V2-ます／V2-ました",
+   "V1-て、V2-て、V3-ます"
+  ],
+  "explain_vi": [
+   "Dùng thể て để nối nhiều hành động theo đúng thứ tự xảy ra: làm việc này, rồi làm việc kia. Có thể nối 2, 3 hành động liên tiếp.",
+   "Thì của cả câu do động từ cuối quyết định: 昨日は買い物をして、映画を見ました (quá khứ), 毎週バドミントンをして、ご飯を食べます (thói quen). Các động từ phía trước chỉ cần để ở thể て.",
+   "Cách làm thể て: 書きます → 書いて, 泳ぎます → 泳いで, 買います／待ちます／帰ります → 買って／待って／帰って, 飲みます／遊びます → 飲んで／遊んで, 話します → 話して, nhóm 2 bỏ ます thêm て (食べて), します → して, 来ます → 来て. Ngoại lệ hay sai: 行きます → 行って (không phải 行いて)."
+  ],
+  "example": {
+   "jp": "毎週、夕方までバドミントンをして、そのあと、みんなでご飯を食べます。",
+   "vi": "Mỗi tuần, chúng tôi chơi cầu lông đến chiều tối, sau đó mọi người cùng nhau đi ăn cơm."
+  },
+  "examples": [
+   {
+    "jp": "朝起きて、顔を洗って、朝ご飯を食べます。",
+    "vi": "Buổi sáng tôi thức dậy, rửa mặt rồi ăn sáng."
+   },
+   {
+    "jp": "昨日は仕事が終わって、スーパーで買い物をしました。",
+    "vi": "Hôm qua sau khi xong việc, tôi đi mua đồ ở siêu thị."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "朝 起きて、シャワーを ＿＿＿、会社へ 行きます。",
+    "o": [
+     "あびる",
+     "あびます",
+     "あびて"
+    ],
+    "a": 2,
+    "ex_vi": "Ở giữa câu nối hành động phải dùng thể て: あびて. Thể ます và thể từ điển không nối tiếp được với vế sau."
+   },
+   {
+    "q": "昨日は デパートへ 行って、くつを ＿＿＿。",
+    "o": [
+     "買って",
+     "買いました",
+     "買います"
+    ],
+    "a": 1,
+    "ex_vi": "Có 昨日 nên động từ cuối câu phải ở quá khứ: 買いました. Thì của cả câu do động từ cuối quyết định."
+   },
+   {
+    "q": "駅まで ＿＿＿、電車に 乗ります。",
+    "o": [
+     "歩って",
+     "歩いて",
+     "歩きて"
+    ],
+    "a": 1,
+    "ex_vi": "歩きます (đuôi き) đổi thành 歩いて. 歩きて và 歩って là cách chia sai."
+   }
+  ]
+ },
+ {
+  "n": 43,
+  "pattern": "N が できます",
+  "meaning_vi": "Biết, có thể làm N",
+  "structure": [
+   "N ＋ が できます",
+   "N ＋ が できません (phủ định)",
+   "N ＋ が 少し／よく ＋ できます"
+  ],
+  "explain_vi": [
+   "N ができます dùng để nói mình có khả năng hoặc biết làm một việc: 日本語ができます (biết tiếng Nhật), 運転ができます (biết lái xe), 料理ができます (biết nấu ăn). N thường là ngôn ngữ, môn thể thao, kỹ năng.",
+   "Trợ từ trước できます luôn là が, không dùng を. Có thể thêm trạng từ chỉ mức độ: 少しできます (biết một chút), よくできます, あまりできません (không giỏi lắm), 全然できません (hoàn toàn không biết).",
+   "Muốn dùng động từ thì đổi sang mẫu số 54: V-ることができます (日本語を話すことができます). Ngoài ra できます còn có nghĩa “xong, được làm ra”: 料理ができました = món ăn đã xong."
+  ],
+  "example": {
+   "jp": "日本語ができます。",
+   "vi": "Tôi biết tiếng Nhật."
+  },
+  "examples": [
+   {
+    "jp": "私は車の運転ができます。",
+    "vi": "Tôi biết lái xe ô tô."
+   },
+   {
+    "jp": "英語はあまりできませんが、日本語は少しできます。",
+    "vi": "Tiếng Anh tôi không giỏi lắm, nhưng tiếng Nhật thì biết một chút."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "私は 車の 運転＿＿＿ できます。",
+    "o": [
+     "に",
+     "で",
+     "が",
+     "を"
+    ],
+    "a": 2,
+    "ex_vi": "Mẫu đúng là N ができます, trợ từ trước できます là が. を là lỗi người Việt hay mắc."
+   },
+   {
+    "q": "A：英語が できますか。\nB：いいえ、＿＿＿。",
+    "o": [
+     "とても できます。",
+     "あまり できません。",
+     "よく できます。"
+    ],
+    "a": 1,
+    "ex_vi": "B trả lời いいえ nên phải là phủ định: あまりできません (không giỏi lắm). Hai lựa chọn kia là khẳng định, mâu thuẫn với いいえ."
+   },
+   {
+    "q": "A：テニスが できますか。\nB：＿＿＿。",
+    "o": [
+     "はい、少し できます。",
+     "いいえ、テニスが 好きです。",
+     "はい、テニスで できます。"
+    ],
+    "a": 0,
+    "ex_vi": "Trả lời về khả năng: はい、少しできます (Có, tôi chơi được một chút). テニスでできます dùng sai trợ từ, câu đầu không khớp với いいえ."
+   }
+  ]
+ },
+ {
+  "n": 44,
+  "pattern": "N・A-な ＋ に なります／A-い → A-く なります",
+  "meaning_vi": "Trở nên, trở thành...",
+  "structure": [
+   "A-い（〜い → 〜く）＋ なります",
+   "A-な（bỏ な）＋ に なります",
+   "N ＋ に なります"
+  ],
+  "explain_vi": [
+   "なります nghĩa là “trở nên, trở thành”, diễn tả sự thay đổi trạng thái: trời trở nên ấm, tiếng Nhật trở nên giỏi, trở thành bác sĩ. Thay đổi đã xảy ra thì dùng なりました.",
+   "Cách ghép: tính từ đuôi い bỏ い thêm く (暖かい → 暖かくなります, 寒い → 寒くなります); tính từ đuôi な bỏ な thêm に (上手 → 上手になります, 静か → 静かになります); danh từ thêm に (春になります, 医者になります).",
+   "Ngoại lệ: いい → よくなります (không nói いくなります). Lỗi hay gặp: dùng に cho tính từ đuôi い (暖かいになります là sai) hoặc dùng く cho tính từ đuôi な (静かくなります là sai, phải là 静かになります)."
+  ],
+  "example": {
+   "jp": "春は桜の花が咲きます。暖かくなります。",
+   "vi": "Mùa xuân hoa anh đào nở. Trời trở nên ấm áp."
+  },
+  "examples": [
+   {
+    "jp": "毎日練習して、日本語が上手になりました。",
+    "vi": "Nhờ luyện tập mỗi ngày, tiếng Nhật của tôi đã giỏi lên."
+   },
+   {
+    "jp": "11月になりました。大阪も寒くなりました。",
+    "vi": "Đã sang tháng 11. Osaka cũng trở lạnh rồi."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "3月に なりました。だんだん ＿＿＿ なりました。",
+    "o": [
+     "暖かく",
+     "暖かに",
+     "暖かい"
+    ],
+    "a": 0,
+    "ex_vi": "暖かい là tính từ đuôi い nên đổi い thành く: 暖かくなりました. 暖かいなります và 暖かになります đều sai."
+   },
+   {
+    "q": "毎日 練習して、日本語が 上手＿＿＿ なりました。",
+    "o": [
+     "で",
+     "に",
+     "が",
+     "く"
+    ],
+    "a": 1,
+    "ex_vi": "上手 là tính từ đuôi な nên dùng に なります: 上手になりました."
+   },
+   {
+    "q": "A：風邪は どうですか。\nB：薬を 飲んで、＿＿＿ なりました。",
+    "o": [
+     "いいに",
+     "よく",
+     "いく"
+    ],
+    "a": 1,
+    "ex_vi": "いい là ngoại lệ, chia thành よく: よくなりました (đã khỏe lên). いいに và いく đều sai."
+   }
+  ]
+ },
+ {
+  "n": 45,
+  "pattern": "A-い のが 好きです",
+  "meaning_vi": "Thích (cái / trạng thái) A",
+  "structure": [
+   "A-い ＋ のが 好きです",
+   "A-な ＋ な ＋ のが 好きです",
+   "A-い ＋ N ＋ が 好きです (cách nói thay)"
+  ],
+  "explain_vi": [
+   "の ở đây thay cho một danh từ đã rõ (đồ, thời tiết, cái…). 暑いのが好きです nghĩa là “thích trời nóng”, 辛いのが好きです là “thích đồ cay”. Người nghe tự hiểu の là gì nhờ ngữ cảnh.",
+   "Cách ghép: tính từ đuôi い giữ nguyên rồi thêm のが (暑いのが, 冷たいのが); tính từ đuôi な phải giữ な (静かなのが, にぎやかなのが). Có thể thay の bằng danh từ cụ thể: 甘いものが好きです.",
+   "Trước 好きです dùng が, không dùng を. Lỗi hay gặp: bỏ の (暑いが好きです là sai) hoặc quên な với tính từ đuôi な (静かのが là sai)."
+  ],
+  "example": {
+   "jp": "私は暑いのが好きです。",
+   "vi": "Tôi thích trời nóng."
+  },
+  "examples": [
+   {
+    "jp": "私は辛いのが大好きです。",
+    "vi": "Tôi rất thích đồ cay."
+   },
+   {
+    "jp": "コーヒーは冷たいのが好きです。",
+    "vi": "Cà phê thì tôi thích loại lạnh."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "私は 辛い＿＿＿ 好きです。",
+    "o": [
+     "を",
+     "が",
+     "のを",
+     "のが"
+    ],
+    "a": 3,
+    "ex_vi": "Sau tính từ cần の để thành danh từ, rồi dùng が trước 好きです: 辛いのが好きです. 辛いが thiếu の, のを dùng sai trợ từ."
+   },
+   {
+    "q": "A：コーヒーは 熱いのと 冷たいの、どちらが いいですか。\nB：私は ＿＿＿ のが 好きです。",
+    "o": [
+     "冷たいな",
+     "冷たい",
+     "冷たく"
+    ],
+    "a": 1,
+    "ex_vi": "Tính từ đuôi い giữ nguyên trước の: 冷たいのが好きです. Không thêm な, không đổi sang く."
+   },
+   {
+    "q": "私は 静か＿＿＿ 好きです。",
+    "o": [
+     "なのが",
+     "のが",
+     "いのが"
+    ],
+    "a": 0,
+    "ex_vi": "静か là tính từ đuôi な nên phải giữ な: 静かなのが好きです."
+   }
+  ]
+ },
+ {
+  "n": 46,
+  "pattern": "A-い のが 苦手です",
+  "meaning_vi": "Không chịu được / không thích A (tính từ)",
+  "structure": [
+   "A-い ＋ のが 苦手です",
+   "V（辞書形）＋ のが 苦手です",
+   "N ＋ が 苦手です"
+  ],
+  "explain_vi": [
+   "苦手です diễn tả điều mình không chịu được, không thích hoặc làm không giỏi. 寒いのが苦手です = Tôi không chịu được lạnh, sợ lạnh. Cách ghép giống mẫu 45: A-い ＋ のが.",
+   "苦手 nhẹ nhàng, lịch sự hơn 嫌い (ghét), nên khi nói với người Nhật, nhất là khi từ chối đồ ăn hay lời mời, dùng 苦手 sẽ tự nhiên hơn: すみません、辛いのはちょっと苦手です.",
+   "苦手 còn có nghĩa “kém, không giỏi”: 料理が苦手です (nấu ăn kém), 人前で話すのが苦手です. Trợ từ trước 苦手です là が (khi nhấn mạnh hoặc so sánh có thể dùng は)."
+  ],
+  "example": {
+   "jp": "寒いのが苦手です。",
+   "vi": "Tôi không chịu được lạnh."
+  },
+  "examples": [
+   {
+    "jp": "すみません、辛いのはちょっと苦手です。",
+    "vi": "Xin lỗi, đồ cay thì tôi hơi kém ăn."
+   },
+   {
+    "jp": "私は朝早く起きるのが苦手です。",
+    "vi": "Tôi rất khó dậy sớm."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "私は 寒い＿＿＿ 苦手です。",
+    "o": [
+     "のを",
+     "のが",
+     "くて",
+     "に"
+    ],
+    "a": 1,
+    "ex_vi": "Mẫu đúng là A-いのが苦手です. Trước 苦手です dùng が, không dùng を; くて và に không hợp."
+   },
+   {
+    "q": "A：辛い 料理は 大丈夫ですか。\nB：すみません、辛いのは ちょっと ＿＿＿。",
+    "o": [
+     "上手です",
+     "苦手です",
+     "好きです"
+    ],
+    "a": 1,
+    "ex_vi": "Có すみません và ちょっと nên đây là lời từ chối khéo: 苦手です. 好きです và 上手です không hợp với すみません."
+   },
+   {
+    "q": "A：日本の 冬は どうですか。\nB：寒いのが 苦手ですから、＿＿＿。",
+    "o": [
+     "ちょっと 大変です。",
+     "冬が 大好きです。",
+     "とても うれしいです。"
+    ],
+    "a": 0,
+    "ex_vi": "Vì sợ lạnh nên mùa đông hơi vất vả: ちょっと大変です. Hai lựa chọn kia mâu thuẫn với vế trước."
+   }
+  ]
+ },
+ {
+  "n": 47,
+  "pattern": "S1 から、S2",
+  "meaning_vi": "Vì S1 nên S2",
+  "structure": [
+   "V・A-い（thể thường／thể lịch sự）＋ から、S2",
+   "A-な・N ＋ だ／です ＋ から、S2",
+   "S2。〜からです (trả lời どうして)"
+  ],
+  "explain_vi": [
+   "から đặt ở cuối vế chỉ lý do, vế sau là kết quả. Thứ tự giống tiếng Việt “vì… nên…”, nhưng から gắn vào vế lý do: 暑いのが大好きですから、夏が好きです.",
+   "Trước から có thể dùng thể lịch sự (ですから, ますから) hoặc thể thường (だから, 行くから). Với tính từ đuôi な và danh từ phải có だ hoặc です: 雨だから／雨ですから, 便利だから. Tính từ đuôi い không thêm だ: 高いから.",
+   "Khi trả lời câu hỏi どうして (tại sao) có thể chỉ nói vế lý do: 熱がありましたから hoặc 〜からです. Lỗi hay gặp: 雨から (thiếu だ／です) hoặc đặt から vào vế kết quả theo thói quen tiếng Việt."
+  ],
+  "example": {
+   "jp": "暑いのが大好きですから、夏が好きです。",
+   "vi": "Vì tôi rất thích trời nóng nên tôi thích mùa hè."
+  },
+  "examples": [
+   {
+    "jp": "今日は雨ですから、うちで映画を見ます。",
+    "vi": "Hôm nay trời mưa nên tôi ở nhà xem phim."
+   },
+   {
+    "jp": "日本で働きたいですから、毎日日本語を勉強しています。",
+    "vi": "Vì muốn làm việc ở Nhật nên ngày nào tôi cũng học tiếng Nhật."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "今日は 雨＿＿＿、うちで 映画を 見ます。",
+    "o": [
+     "なから",
+     "から",
+     "ですから"
+    ],
+    "a": 2,
+    "ex_vi": "雨 là danh từ nên trước から phải có です hoặc だ: 雨ですから. 雨から và 雨なから đều sai."
+   },
+   {
+    "q": "日本の アニメが 好きです＿＿＿、日本語を 勉強して います。",
+    "o": [
+     "けど",
+     "を",
+     "から",
+     "と"
+    ],
+    "a": 2,
+    "ex_vi": "Thích anime là lý do học tiếng Nhật nên dùng から. けど là “nhưng”, không có ý đối lập ở đây."
+   },
+   {
+    "q": "A：どうして 夏が 好きなんですか。\nB：＿＿＿。",
+    "o": [
+     "海で 遊ぶのが 好きですから。",
+     "暑いのが 苦手ですから。",
+     "寒いのが 好きですから。"
+    ],
+    "a": 0,
+    "ex_vi": "Lý do hợp lý để thích mùa hè là thích chơi ở biển. Thích lạnh hoặc sợ nóng thì không phải lý do để thích mùa hè."
+   }
+  ]
+ },
+ {
+  "n": 48,
+  "pattern": "N1 や N2（など）",
+  "meaning_vi": "N1, N2… (liệt kê vài ví dụ, không hết)",
+  "structure": [
+   "N1 や N2 ＋ trợ từ",
+   "N1 や N2 など ＋ trợ từ"
+  ],
+  "explain_vi": [
+   "や dùng để nối các danh từ khi chỉ nêu vài ví dụ tiêu biểu, ngầm hiểu là còn những thứ khác nữa. 海や山 nghĩa là biển, núi… (và những nơi khác). Tiếng Việt có thể dịch “nào là… nào là…”, “như… và…”.",
+   "Chỉ dùng や để nối danh từ. Sau danh từ cuối có thể thêm など (vân vân) rồi mới đến trợ từ: 肉や野菜などを買いました. Trợ từ (を, が, で…) đặt sau danh từ cuối hoặc sau など.",
+   "Phân biệt với と: と liệt kê đầy đủ, chỉ có đúng những thứ đó (肉と野菜を買いました = chỉ mua thịt và rau). や thì còn những thứ khác. Mẫu 49 とか giống や nhưng mang tính khẩu ngữ hơn."
+  ],
+  "example": {
+   "jp": "海や山で遊ぶのも楽しいです。",
+   "vi": "Đi chơi ở biển hay núi cũng vui."
+  },
+  "examples": [
+   {
+    "jp": "スーパーで肉や野菜などを買いました。",
+    "vi": "Tôi đã mua thịt, rau… ở siêu thị."
+   },
+   {
+    "jp": "休みの日は京都や奈良へ行きます。",
+    "vi": "Ngày nghỉ tôi hay đi những nơi như Kyoto, Nara."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "冷蔵庫に 卵や 牛乳＿＿＿ あります。",
+    "o": [
+     "もが",
+     "とが",
+     "などが"
+    ],
+    "a": 2,
+    "ex_vi": "Mẫu N1やN2など: 卵や牛乳などがあります. とが và もが không có trong tiếng Nhật."
+   },
+   {
+    "q": "A：昨日、何を 買いましたか。\nB：＿＿＿。",
+    "o": [
+     "肉や 野菜を 買いました。",
+     "肉や 野菜で 買いました。",
+     "肉や 野菜に 買いました。"
+    ],
+    "a": 0,
+    "ex_vi": "Tân ngữ của 買います dùng を, đặt sau danh từ cuối: 肉や野菜を買いました. に và で dùng sai."
+   },
+   {
+    "q": "休みの 日は 京都＿＿＿ 奈良へ 行きます。",
+    "o": [
+     "や",
+     "を",
+     "で",
+     "が"
+    ],
+    "a": 0,
+    "ex_vi": "Nối hai địa danh làm ví dụ nên dùng や. Các trợ từ khác không nối hai danh từ."
+   }
+  ]
+ },
+ {
+  "n": 49,
+  "pattern": "N1 とか（N2 とか）",
+  "meaning_vi": "Như là N1, như là N2 (đưa ra ví dụ)",
+  "structure": [
+   "N1 とか N2 とか（＋ trợ từ）",
+   "N1 とか ＋ trợ từ／です"
+  ],
+  "explain_vi": [
+   "とか dùng để đưa ra ví dụ, nghĩa là “như là… này, … này”. Giống や nhưng mang tính khẩu ngữ, rất hay dùng khi nói chuyện thân mật hoặc trò chuyện với đồng nghiệp.",
+   "Có thể dùng một とか (ぶどうとか) hoặc lặp lại sau mỗi danh từ (ぶどうとか梨とか). Sau とか cuối có thể thêm trợ từ: サッカーとか野球とかが好きです, hoặc kết thúc câu luôn như ví dụ gốc.",
+   "Phân biệt: や thường không đứng cuối câu và dùng được trong văn viết; とか có thể đứng cuối câu, chỉ hợp với hội thoại. Trong văn bản trang trọng nên dùng や〜など."
+  ],
+  "example": {
+   "jp": "秋は果物がおいしいですよね。ぶどうとか梨とか。",
+   "vi": "Mùa thu hoa quả ngon nhỉ. Như là nho này, lê này."
+  },
+  "examples": [
+   {
+    "jp": "週末は洗濯とか掃除とかをします。",
+    "vi": "Cuối tuần tôi làm mấy việc như giặt giũ, dọn dẹp."
+   },
+   {
+    "jp": "日本の食べ物は、すしとかラーメンとかが好きです。",
+    "vi": "Món Nhật thì tôi thích những món như sushi, ramen."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A：どんな スポーツが 好きですか。\nB：サッカー＿＿＿ 野球とかが 好きです。",
+    "o": [
+     "で",
+     "とか",
+     "に",
+     "を"
+    ],
+    "a": 1,
+    "ex_vi": "Đưa ví dụ dạng N1とかN2とか: サッカーとか野球とか. Các trợ từ khác không nối danh từ."
+   },
+   {
+    "q": "A：日本の 食べ物で 何が 好きですか。\nB：＿＿＿。",
+    "o": [
+     "すしで ラーメンで。",
+     "すしを ラーメンを。",
+     "すしとか ラーメンとか。"
+    ],
+    "a": 2,
+    "ex_vi": "Đưa ví dụ trong hội thoại có thể kết thúc bằng とか: すしとかラーメンとか. で và を lặp lại như vậy là sai."
+   },
+   {
+    "q": "週末は 洗濯＿＿＿ 掃除とかを します。",
+    "o": [
+     "とか",
+     "に",
+     "が",
+     "で"
+    ],
+    "a": 0,
+    "ex_vi": "Liệt kê ví dụ việc nhà bằng 洗濯とか掃除とか. が, に, で không nối hai danh từ."
+   }
+  ]
+ },
+ {
+  "n": 50,
+  "pattern": "V-ています（3）：今の天気",
+  "meaning_vi": "Nói về thời tiết ngay lúc này",
+  "structure": [
+   "雨／雪 が 降っています",
+   "風 が 吹いています",
+   "晴れています／曇っています"
+  ],
+  "explain_vi": [
+   "Khi nói thời tiết đang diễn ra ngay lúc nói, dùng V-ています: 雨が降っています (trời đang mưa), 雪が降っています, 風が吹いています (gió đang thổi).",
+   "晴れています (trời đang nắng) và 曇っています (trời đang nhiều mây) diễn tả trạng thái hiện tại. Phủ định: 降っていません (không mưa).",
+   "Phân biệt: 雨が降ります là “trời sẽ mưa” hoặc nói chung chung (mùa này hay mưa), còn 雨が降っています là đang mưa bây giờ. Thời tiết tương lai dùng mẫu 51: 〜でしょう."
+  ],
+  "example": {
+   "jp": "今も少し雨が降っています。",
+   "vi": "Bây giờ trời vẫn còn mưa một chút."
+  },
+  "examples": [
+   {
+    "jp": "外は風が強く吹いています。",
+    "vi": "Ngoài trời gió đang thổi mạnh."
+   },
+   {
+    "jp": "東京は今日はよく晴れています。",
+    "vi": "Tokyo hôm nay trời nắng đẹp."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "外を 見て ください。今、雪が ＿＿＿。",
+    "o": [
+     "降ります",
+     "降りましょう",
+     "降っています"
+    ],
+    "a": 2,
+    "ex_vi": "Có 今 và đang nhìn ra ngoài nên tuyết đang rơi: 降っています. 降ります là tương lai hoặc nói chung, 降りましょう là rủ rê."
+   },
+   {
+    "q": "A：そちらの 天気は どうですか。\nB：今日は いい 天気です。よく ＿＿＿よ。",
+    "o": [
+     "晴れています",
+     "晴れて",
+     "晴れましょう"
+    ],
+    "a": 0,
+    "ex_vi": "Trạng thái thời tiết hiện tại: 晴れています. 晴れて thiếu います, 晴れましょう sai nghĩa."
+   },
+   {
+    "q": "A：今、外は 雨ですか。\nB：いいえ、雨は もう ＿＿＿。",
+    "o": [
+     "降っています。",
+     "降りましょう。",
+     "降っていません。"
+    ],
+    "a": 2,
+    "ex_vi": "B trả lời いいえ nên phải phủ định: もう降っていません (không còn mưa nữa)."
+   }
+  ]
+ },
+ {
+  "n": 51,
+  "pattern": "V-る／A-い／A-な・N ＋ でしょう",
+  "meaning_vi": "Có lẽ… (dự báo thời tiết, phỏng đoán tương lai)",
+  "structure": [
+   "V（辞書形）＋ でしょう",
+   "A-い ＋ でしょう",
+   "A-な（bỏ な）・N ＋ でしょう"
+  ],
+  "explain_vi": [
+   "でしょう diễn tả phỏng đoán, nghĩa là “có lẽ…”, “chắc là…”. Hay gặp nhất trong dự báo thời tiết: 明日は晴れるでしょう (Ngày mai có lẽ trời nắng).",
+   "Cách ghép: động từ thể từ điển ＋ でしょう (降るでしょう, 晴れるでしょう); tính từ đuôi い giữ nguyên (寒いでしょう); tính từ đuôi な và danh từ bỏ だ／な rồi thêm でしょう (雨でしょう, 静かでしょう).",
+   "Lỗi hay gặp: 雨だでしょう hoặc 静かなでしょう (thừa だ／な), hoặc dùng thể ます trước でしょう (降りますでしょう trong bài này nên tránh). Với thời tiết hiện tại thì dùng mẫu 50: 〜ています."
+  ],
+  "example": {
+   "jp": "明日は晴れるでしょう。",
+   "vi": "Ngày mai có lẽ trời sẽ nắng."
+  },
+  "examples": [
+   {
+    "jp": "午後から雨が降るでしょう。",
+    "vi": "Từ chiều có lẽ trời sẽ mưa."
+   },
+   {
+    "jp": "明日の朝はとても寒いでしょう。",
+    "vi": "Sáng mai có lẽ sẽ rất lạnh."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "明日は 雨＿＿＿。",
+    "o": [
+     "だでしょう",
+     "なでしょう",
+     "でしょう"
+    ],
+    "a": 2,
+    "ex_vi": "Danh từ đi thẳng với でしょう: 雨でしょう. Không thêm だ hay な."
+   },
+   {
+    "q": "明日の 朝は ＿＿＿ でしょう。",
+    "o": [
+     "寒い",
+     "寒く",
+     "寒いだ"
+    ],
+    "a": 0,
+    "ex_vi": "Tính từ đuôi い giữ nguyên trước でしょう: 寒いでしょう. 寒く và 寒いだ đều sai."
+   },
+   {
+    "q": "A：明日の 天気は どうですか。\nB：天気予報では、午後から 雪が ＿＿＿。",
+    "o": [
+     "降りましょう",
+     "降るでしょう",
+     "降ってでしょう"
+    ],
+    "a": 1,
+    "ex_vi": "Dự báo thời tiết dùng thể từ điển ＋ でしょう: 降るでしょう. 降りましょう là rủ rê, 降ってでしょう sai cách ghép."
+   }
+  ]
+ },
+ {
+  "n": 52,
+  "pattern": "A-い → A-くて、／A-な・N ＋ で、",
+  "meaning_vi": "Nối câu: … và … (vừa… vừa…)",
+  "structure": [
+   "A-い（〜い → 〜くて）、S2",
+   "A-な（bỏ な）＋ で、S2",
+   "N ＋ で、S2"
+  ],
+  "explain_vi": [
+   "Dùng để nối hai tính từ hoặc hai ý miêu tả thành một câu, nghĩa là “… và …”, “vừa… vừa…”: この町はにぎやかで、便利です (Thị trấn này náo nhiệt và tiện lợi).",
+   "Cách chia: tính từ đuôi い bỏ い thêm くて (広い → 広くて, 安い → 安くて); ngoại lệ いい → よくて. Tính từ đuôi な bỏ な thêm で (きれい → きれいで, 便利 → 便利で). Danh từ thêm で (学生で, 30歳で). Thì và mức lịch sự do vế cuối quyết định.",
+   "Hai ý nối bằng くて／で nên cùng chiều (cùng tốt hoặc cùng xấu). Nếu hai ý trái ngược (rẻ nhưng xa) thì không dùng くて／で mà dùng けど (mẫu 53). Lỗi hay gặp: 広いで, きれいくて."
+  ],
+  "example": {
+   "jp": "この町は、とてもにぎやかで、便利です。",
+   "vi": "Thị trấn này rất náo nhiệt và tiện lợi."
+  },
+  "examples": [
+   {
+    "jp": "私の部屋は広くて、明るいです。",
+    "vi": "Phòng của tôi rộng và sáng sủa."
+   },
+   {
+    "jp": "リンさんはベトナム人で、介護の仕事をしています。",
+    "vi": "Chị Linh là người Việt Nam, đang làm công việc điều dưỡng."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "この 部屋は ＿＿＿、明るいです。",
+    "o": [
+     "広くて",
+     "広いで",
+     "広いくて"
+    ],
+    "a": 0,
+    "ex_vi": "広い là tính từ đuôi い nên bỏ い thêm くて: 広くて. 広いで và 広いくて đều sai."
+   },
+   {
+    "q": "駅前の 店は きれい＿＿＿、安いです。",
+    "o": [
+     "で",
+     "くて",
+     "なくて"
+    ],
+    "a": 0,
+    "ex_vi": "きれい là tính từ đuôi な (dù kết thúc bằng い) nên dùng で: きれいで."
+   },
+   {
+    "q": "この ラーメンは 安くて、＿＿＿。",
+    "o": [
+     "おいしいです。",
+     "あまり 安くないです。",
+     "高いです。"
+    ],
+    "a": 0,
+    "ex_vi": "くて nối hai ý cùng chiều: rẻ và ngon. 高いです và 安くないです mâu thuẫn với 安くて."
+   }
+  ]
+ },
+ {
+  "n": 53,
+  "pattern": "A-い／V ＋ けど、A-な・N ＋ だけど、S2",
+  "meaning_vi": "… nhưng …",
+  "structure": [
+   "A-い・V（thể thường）＋ けど、S2",
+   "A-な・N ＋ だ ＋ けど、S2",
+   "〜です／〜ます ＋ けど、S2 (lịch sự hơn)"
+  ],
+  "explain_vi": [
+   "けど nối hai vế trái ngược nhau trong cùng một câu, nghĩa là “… nhưng …”: この辺りは静かだけど、ちょっと不便です (Khu này yên tĩnh nhưng hơi bất tiện).",
+   "Cách ghép: tính từ đuôi い và động từ thêm けど trực tiếp (安いけど, 行くけど); tính từ đuôi な và danh từ phải thêm だ trước けど (静かだけど, 雨だけど). Muốn lịch sự hơn thì dùng ですけど／ますけど.",
+   "Phân biệt: でも (mẫu 35) đứng đầu câu thứ hai, けど nằm giữa một câu. Trong văn viết trang trọng dùng が (静かですが). Lỗi hay gặp: 静かけど (thiếu だ) hoặc 安いだけど (thừa だ)."
+  ],
+  "example": {
+   "jp": "この辺りは静かだけど、ちょっと不便です。",
+   "vi": "Khu này yên tĩnh nhưng hơi bất tiện."
+  },
+  "examples": [
+   {
+    "jp": "この店は安いけど、ちょっと遠いです。",
+    "vi": "Cửa hàng này rẻ nhưng hơi xa."
+   },
+   {
+    "jp": "日本の生活は楽しいですけど、ちょっとさびしいです。",
+    "vi": "Cuộc sống ở Nhật vui nhưng hơi cô đơn."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "この 店は 安い＿＿＿、ちょっと 遠いです。",
+    "o": [
+     "けど",
+     "でけど",
+     "だけど"
+    ],
+    "a": 0,
+    "ex_vi": "安い là tính từ đuôi い nên thêm けど trực tiếp: 安いけど. Không thêm だ."
+   },
+   {
+    "q": "この 町は 便利＿＿＿、家賃が 高いです。",
+    "o": [
+     "だけど",
+     "けど",
+     "くて"
+    ],
+    "a": 0,
+    "ex_vi": "便利 là tính từ đuôi な nên cần だ trước けど: 便利だけど. Hai ý trái ngược nên không dùng くて (và 便利くて cũng sai cách chia)."
+   },
+   {
+    "q": "A：日本の 生活は どうですか。\nB：楽しいです＿＿＿、ちょっと さびしいです。",
+    "o": [
+     "けど",
+     "から",
+     "それに"
+    ],
+    "a": 0,
+    "ex_vi": "Vui và cô đơn là hai ý trái ngược nên dùng けど. から là lý do, không hợp; それに không đặt giữa câu như vậy."
+   }
+  ]
+ },
+ {
+  "n": 54,
+  "pattern": "V-る ことが できます",
+  "meaning_vi": "Có thể làm V",
+  "structure": [
+   "V（辞書形）＋ ことが できます",
+   "V（辞書形）＋ ことが できません (phủ định)",
+   "N ＋ が できます (mẫu 43)"
+  ],
+  "explain_vi": [
+   "V-ることができます diễn tả khả năng (biết làm, làm được) hoặc khả năng do hoàn cảnh cho phép (ở nơi này có thể làm gì): 一年中、いろいろな花を見ることができます = Quanh năm có thể ngắm nhiều loại hoa.",
+   "Cách ghép: động từ thể từ điển ＋ ことができます. 見ます → 見ることができます, します → することができます, 入ります → 入ることができます. Trợ từ của động từ phía trước giữ nguyên: 花を見る, 温泉に入る.",
+   "Mẫu này hay dùng để hỏi hoặc giới thiệu quy định: ここで写真を撮ることができますか (Ở đây có được chụp ảnh không?). Lỗi hay gặp: dùng thể ます hoặc thể て trước こと (見ますことができます là sai), hoặc dùng を thay cho が (ことをできます là sai)."
+  ],
+  "example": {
+   "jp": "一年中、いろいろな花を見ることができます。",
+   "vi": "Quanh năm có thể ngắm nhiều loại hoa khác nhau."
+  },
+  "examples": [
+   {
+    "jp": "このホテルでは温泉に入ることができます。",
+    "vi": "Ở khách sạn này có thể tắm suối nước nóng."
+   },
+   {
+    "jp": "私は漢字を少し書くことができます。",
+    "vi": "Tôi có thể viết được một ít chữ Hán."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "この 公園で バーベキューを ＿＿＿ ことが できます。",
+    "o": [
+     "して",
+     "する",
+     "します"
+    ],
+    "a": 1,
+    "ex_vi": "Trước こと phải dùng thể từ điển: する. します và して không đứng trước こと."
+   },
+   {
+    "q": "ここで 写真を とる＿＿＿ できますか。",
+    "o": [
+     "ことを",
+     "ことが",
+     "ことに"
+    ],
+    "a": 1,
+    "ex_vi": "Mẫu cố định là ことができます, trợ từ trước できます là が."
+   },
+   {
+    "q": "A：この ホテルで 何が できますか。\nB：＿＿＿。",
+    "o": [
+     "温泉に 入って ことが できます。",
+     "温泉を 入ることが できます。",
+     "温泉に 入ることが できます。"
+    ],
+    "a": 2,
+    "ex_vi": "入ります đi với trợ từ に (温泉に入る), và trước こと dùng thể từ điển. Hai lựa chọn kia sai trợ từ hoặc sai thể."
+   }
+  ]
+ },
+ {
+  "n": 55,
+  "pattern": "N に 行きたいんですが…",
+  "meaning_vi": "Tôi muốn đi đến N… (hỏi đường lịch sự)",
+  "structure": [
+   "すみません、N（場所）＋ に 行きたいんですが…",
+   "V-たい ＋ んですが…"
+  ],
+  "explain_vi": [
+   "Đây là cách mở lời rất lịch sự khi hỏi đường hoặc nhờ giúp đỡ. 〜たいんですが… nói lên mong muốn của mình rồi bỏ lửng câu, người nghe tự hiểu là mình đang cần giúp (chỉ đường).",
+   "Cách ghép: N（場所）に行きたい ＋ んですが. Có thể dùng cho động từ khác: この近くで昼ご飯を食べたいんですが… (Tôi muốn ăn trưa ở gần đây…), 銀行でお金をおろしたいんですが…. Trước んですが dùng thể thường (食べたい), không dùng thể ます.",
+   "Người nghe thường đáp: ああ、〜ですね rồi chỉ đường. Nói thẳng 〜はどこですか cũng được, nhưng 〜たいんですが… mềm mỏng và tự nhiên hơn khi bắt chuyện với người lạ."
+  ],
+  "example": {
+   "jp": "マルイチデパートに行きたいんですが…。",
+   "vi": "Tôi muốn đến cửa hàng bách hóa Maruichi…"
+  },
+  "examples": [
+   {
+    "jp": "すみません、市役所に行きたいんですが…。",
+    "vi": "Xin lỗi, tôi muốn đến tòa thị chính…"
+   },
+   {
+    "jp": "すみません、この近くで昼ご飯を食べたいんですが…。",
+    "vi": "Xin lỗi, tôi muốn ăn trưa ở gần đây…"
+   }
+  ],
+  "quiz": [
+   {
+    "q": "（駅で）すみません、市役所＿＿＿ 行きたいんですが…。",
+    "o": [
+     "に",
+     "で",
+     "を"
+    ],
+    "a": 0,
+    "ex_vi": "Nơi muốn đến dùng に (hoặc へ): 市役所に行きたいんですが. を và で không chỉ nơi đến."
+   },
+   {
+    "q": "A：すみません、郵便局に 行きたいんですが…。\nB：＿＿＿。",
+    "o": [
+     "はい、私も 行きたいです。",
+     "ああ、郵便局ですね。あそこの 信号を 右に 曲がって ください。",
+     "いいえ、行きません。"
+    ],
+    "a": 1,
+    "ex_vi": "A đang hỏi đường nên câu đáp phù hợp là chỉ đường. Hai câu kia hiểu sai ý của A."
+   },
+   {
+    "q": "すみません、この 近くで 昼ご飯を ＿＿＿ んですが…。",
+    "o": [
+     "食べて",
+     "食べたい",
+     "食べます"
+    ],
+    "a": 1,
+    "ex_vi": "Mẫu V-たいんですが… dùng để nói mong muốn và nhờ giúp: 食べたいんですが. Thể ます và thể て không đứng trước んですが."
+   }
+  ]
+ },
+ {
+  "n": 56,
+  "pattern": "V-て、〜（道案内）",
+  "meaning_vi": "Cách chỉ đường (dùng thể て)",
+  "structure": [
+   "N（道）を まっすぐ 行って、〜",
+   "N（信号・角）を 右／左に 曲がって ください",
+   "N（橋）を 渡って ください"
+  ],
+  "explain_vi": [
+   "Khi chỉ đường, người Nhật nối các bước bằng thể て và kết thúc bằng 〜てください: この道をまっすぐ行って、2つ目の信号を左に曲がってください.",
+   "Trợ từ quan trọng: con đường hay nơi đi qua dùng を (道を行く, 橋を渡る, 角を曲がる); hướng rẽ dùng に (右に曲がる, 左に曲がる). Từ hay gặp: まっすぐ (thẳng), 信号 (đèn giao thông), 角 (góc đường), 1つ目／2つ目 (thứ nhất／thứ hai), 交差点 (ngã tư).",
+   "Thể て cần nhớ: 行きます → 行って (ngoại lệ, không phải 行いて), 曲がります → 曲がって, 渡ります → 渡って, 歩きます → 歩いて. Động từ cuối dùng てください để lịch sự."
+  ],
+  "example": {
+   "jp": "この道をまっすぐ行って、2つ目の信号を左に曲がってください。",
+   "vi": "Hãy đi thẳng con đường này, rồi rẽ trái ở đèn giao thông thứ hai."
+  },
+  "examples": [
+   {
+    "jp": "あの角を右に曲がって、少し歩いてください。",
+    "vi": "Hãy rẽ phải ở góc đường kia rồi đi bộ thêm một chút."
+   },
+   {
+    "jp": "橋を渡って、コンビニの前で待ってください。",
+    "vi": "Hãy đi qua cầu rồi đợi trước cửa hàng tiện lợi."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "あの 角を 右に ＿＿＿、まっすぐ 行って ください。",
+    "o": [
+     "曲がる",
+     "曲がります",
+     "曲がって"
+    ],
+    "a": 2,
+    "ex_vi": "Nối các bước chỉ đường dùng thể て: 曲がって. Thể ます và thể từ điển không nối tiếp được."
+   },
+   {
+    "q": "この 道を まっすぐ 行って、橋＿＿＿ 渡って ください。",
+    "o": [
+     "で",
+     "を",
+     "に"
+    ],
+    "a": 1,
+    "ex_vi": "Nơi đi qua dùng trợ từ を: 橋を渡ります."
+   },
+   {
+    "q": "A：すみません、駅は どこですか。\nB：＿＿＿。",
+    "o": [
+     "この 道を まっすぐ 行きて、右に 曲がって ください。",
+     "この 道を まっすぐ 行いて、右に 曲がって ください。",
+     "この 道を まっすぐ 行って、右に 曲がって ください。"
+    ],
+    "a": 2,
+    "ex_vi": "行きます là ngoại lệ, thể て là 行って. 行きて và 行いて đều sai."
+   }
+  ]
+ },
+ {
+  "n": 57,
+  "pattern": "N1 じゃなくて、N2",
+  "meaning_vi": "Không phải N1 mà là N2",
+  "structure": [
+   "N1 ＋ じゃなくて、N2 ＋ です",
+   "A-な ＋ じゃなくて、〜",
+   "N1 ではなくて、N2 です (trang trọng)"
+  ],
+  "explain_vi": [
+   "Mẫu này dùng để đính chính, sửa lại thông tin sai: không phải cái này mà là cái kia. 1つ目じゃなくて、2つ目です = Không phải cái thứ nhất mà là cái thứ hai.",
+   "Cách ghép: danh từ ＋ じゃなくて, rồi đến thông tin đúng ＋ です. Khi trả lời câu hỏi sai thông tin thường bắt đầu bằng いいえ: いいえ、3階じゃなくて、4階です. Văn trang trọng dùng ではなくて.",
+   "Lỗi hay gặp: じゃないで (sai, phải là じゃなくて), hoặc trả lời はい rồi lại đính chính. Với tính từ đuôi い thì dùng くなくて (高くなくて), nhưng mẫu này chủ yếu dùng với danh từ."
+  ],
+  "example": {
+   "jp": "1つ目じゃなくて、2つ目です。",
+   "vi": "Không phải cái thứ nhất mà là cái thứ hai."
+  },
+  "examples": [
+   {
+    "jp": "会議は3階じゃなくて、4階です。",
+    "vi": "Cuộc họp không phải ở tầng 3 mà là tầng 4."
+   },
+   {
+    "jp": "これは砂糖じゃなくて、塩ですよ。",
+    "vi": "Đây không phải đường mà là muối đấy."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A：これは 砂糖ですか。\nB：いいえ、砂糖＿＿＿、塩です。",
+    "o": [
+     "じゃなくて",
+     "くなくて",
+     "じゃないで"
+    ],
+    "a": 0,
+    "ex_vi": "Đính chính danh từ dùng じゃなくて: 砂糖じゃなくて、塩です. じゃないで sai, くなくて dùng cho tính từ đuôi い."
+   },
+   {
+    "q": "A：会議は 3階ですか。\nB：＿＿＿。",
+    "o": [
+     "いいえ、3階で、4階です。",
+     "はい、3階じゃなくて、4階です。",
+     "いいえ、3階じゃなくて、4階です。"
+    ],
+    "a": 2,
+    "ex_vi": "Thông tin sai nên trả lời いいえ rồi đính chính bằng じゃなくて. はい mâu thuẫn với việc đính chính; 3階で nghĩa là “là tầng 3 và…”, sai nghĩa."
+   },
+   {
+    "q": "A：次の 駅で 降りますか。\nB：いいえ、次＿＿＿、その 次です。",
+    "o": [
+     "じゃないです",
+     "だけど",
+     "じゃなくて"
+    ],
+    "a": 2,
+    "ex_vi": "Đính chính: không phải ga kế tiếp mà là ga sau đó, nên dùng じゃなくて. じゃないです kết thúc câu nên không nối tiếp được, だけど là “nhưng”."
+   }
+  ]
+ },
+ {
+  "n": 58,
+  "pattern": "N は どうですか",
+  "meaning_vi": "N thì thế nào? (đưa ra gợi ý khi hẹn)",
+  "structure": [
+   "N（時間・日・場所）＋ は どうですか",
+   "N ＋ は いかがですか (lịch sự hơn)"
+  ],
+  "explain_vi": [
+   "Khi hẹn gặp, dùng N はどうですか để đề xuất một thời gian, ngày hoặc địa điểm: 6時はどうですか (6 giờ thì thế nào?), 土曜日はどうですか, 駅の前はどうですか.",
+   "Người nghe đồng ý thì đáp いいですね, そうしましょう; không tiện thì từ chối khéo: すみません、その日はちょっと… (bỏ lửng câu). Với cấp trên hoặc khách hàng dùng いかがですか cho lịch sự hơn.",
+   "Lưu ý: 〜はどうですか cũng dùng để hỏi cảm nhận (日本の生活はどうですか = Cuộc sống ở Nhật thế nào?), cần dựa vào ngữ cảnh để hiểu. Trợ từ đi trước luôn là は, không dùng を hay が."
+  ],
+  "example": {
+   "jp": "6時はどうですか？",
+   "vi": "6 giờ thì thế nào?"
+  },
+  "examples": [
+   {
+    "jp": "A：いつ会いましょうか。B：土曜日の午後はどうですか。",
+    "vi": "A: Mình gặp nhau khi nào nhỉ? B: Chiều thứ Bảy thì sao?"
+   },
+   {
+    "jp": "駅の前のカフェはどうですか。",
+    "vi": "Quán cà phê trước ga thì thế nào?"
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A：いつ 会いましょうか。\nB：土曜日＿＿＿ どうですか。",
+    "o": [
+     "が",
+     "は",
+     "を"
+    ],
+    "a": 1,
+    "ex_vi": "Mẫu đề xuất là N はどうですか: 土曜日はどうですか. を và が không dùng trong mẫu này."
+   },
+   {
+    "q": "A：何時に しましょうか。\nB：7時は どうですか。\nA：＿＿＿。",
+    "o": [
+     "いいですね。じゃあ、7時に。",
+     "はい、7時でした。",
+     "どういたしまして。"
+    ],
+    "a": 0,
+    "ex_vi": "Đồng ý với đề xuất thì nói いいですね. どういたしまして là đáp lời cảm ơn, 7時でした sai thì."
+   },
+   {
+    "q": "A：日曜日は どうですか。\nB：すみません、その 日は ＿＿＿。",
+    "o": [
+     "ちょっと…。",
+     "はい、どうぞ。",
+     "いいですね。"
+    ],
+    "a": 0,
+    "ex_vi": "Có すみません nên đây là lời từ chối khéo: その日はちょっと…. いいですね và はい、どうぞ là đồng ý, mâu thuẫn với すみません."
+   }
+  ]
+ }
+]

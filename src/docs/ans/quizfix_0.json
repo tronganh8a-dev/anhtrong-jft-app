@@ -1,0 +1,26 @@
+[
+  {
+    "id": "61-2",
+    "problem": "Có 2 lựa chọn đúng: 「日本で着物を着ることがあります」 (thỉnh thoảng có lúc mặc kimono) cũng đúng ngữ pháp và tự nhiên, chính ex_vi cũng thừa nhận. Cần thêm 一度 để buộc nghĩa kinh nghiệm và thay distractor 着る bằng dạng sai.",
+    "fix": {
+      "q": "日本で 一度 着物を ＿＿＿ ことが あります。",
+      "o": ["着て", "着ます", "着た", "着った"],
+      "a": 2,
+      "ex_vi": "Nói kinh nghiệm “đã từng một lần mặc kimono” dùng thể た + ことがあります: 着たことがあります. 着ます → thể た là 着た (không phải 着った); thể て và thể ます không đứng trước こと."
+    }
+  },
+  {
+    "id": "43-2",
+    "problem": "ex_vi nói “câu đầu không khớp với いいえ” nhưng câu đầu (lựa chọn 0) lại là đáp án đúng; câu không khớp là 「いいえ、テニスが好きです」.",
+    "fix": {
+      "ex_vi": "Trả lời về khả năng: はい、少しできます (Có, tôi chơi được một chút). テニスでできます dùng sai trợ từ (phải là テニスができます); いいえ、テニスが好きです nói về sở thích, không trả lời câu hỏi “có chơi được không”."
+    }
+  },
+  {
+    "id": "48-0",
+    "problem": "ex_vi nói “とが và もが không có trong tiếng Nhật” là không chính xác (AとBとが vẫn tồn tại trong văn viết). Lý do đúng là や phải khép bằng など, không ghép với と/も.",
+    "fix": {
+      "ex_vi": "Mẫu N1やN2など: 卵や牛乳などがあります (có trứng, sữa, v.v.). Đã dùng や để liệt kê ví dụ thì cuối danh sách dùng など, không ghép や với とが hay もが."
+    }
+  }
+]

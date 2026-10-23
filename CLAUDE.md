@@ -1,7 +1,7 @@
 # Bàn giao: App học & luyện thi JFT — Anh Trọng Dạy JFT
 
 > Dán file này cho trợ lý mới (hoặc mở repo bằng Claude Code: file này tự được đọc).
-> Cập nhật lần cuối: 22/10/2026.
+> Cập nhật lần cuối: 23/10/2026.
 
 ## 0. Cách làm việc với anh Trọng Anh
 - Trả lời **tiếng Việt, ngắn gọn**, xưng "em", gọi "anh". Báo: đã làm gì, còn thiếu gì — không kể từng bước.
@@ -22,7 +22,11 @@
   (Từng bị lỗi build ngẫu nhiên → đẩy 1 commit rỗng là build lại được.)
 
 ## 2. Các tab trong app
-Trang chủ (hero gradient + dải 4 màu sách, bìa sách rung rinh, lịch thi & link Prometric, hướng dẫn điểm đậu) · Học qua slide (42 bài: slide + web bài học) · Làm đề (CBT giống máy thi) · Ngữ pháp · Luyện kỹ năng (nghe/đọc) · Từ vựng (flashcard, trọng âm, audio, ví dụ) · Bài tập về nhà (25 buổi).
+Trang chủ (hero gradient + dải 4 màu sách, lịch thi & link Prometric, hướng dẫn điểm đậu) · **Tài liệu** (trước là "Học qua slide": 4 mục Slide bài giảng / Từ vựng / Chữ Hán / Ngữ pháp, 3 cấp 入門・初級1・初級2) · Làm đề (CBT giống máy thi; chế độ Thi thử / Luyện tập có giải thích, bật tắt furigana) · Ngữ pháp (文法ノート いろどり) · **Video** (thay tab Luyện kỹ năng 23/10) · Từ vựng (flashcard, trọng âm, audio, ví dụ) · Bài tập về nhà (25 buổi).
+
+- **Tài liệu → Từ vựng/Chữ Hán/Ngữ pháp**: dữ liệu từ 7 file PDF tổng hợp của lớp cô Quỳnh (23/10). Nguồn trích: `src/docs/*_src.json`; phần soạn (sửa lỗi trích, âm Hán Việt, phân tích On/Kun, mẹo nhớ, giải thích ngữ pháp, ví dụ tự soạn, 3 câu quiz/mẫu) ở `src/docs/ans/*.json` (theo `src/docs/SPEC_*.md`); `quizfix_*.json` = sửa sau kiểm định. Dựng: `python3 src/build_docs.py` → `public/app/data/docs.js` (tải khi mở tab). Ảnh từ vựng: `public/app/media/doc/<md5>.jpg`. Bài luyện tập tự sinh ở trình duyệt (nhìn tranh chọn từ, chọn nghĩa, chọn cách đọc, chọn chữ Hán) và dùng giao diện CBT `startSkill`.
+- **Video**: danh sách ở `src/raw/videos.json` → `python3 src/build_videos.py`. YouTube nhúng với `controls=0`, thanh điều khiển riêng của app, khung iframe kéo cao 90px mỗi đầu để ẩn tiêu đề YouTube. Không chọn được chất lượng (YouTube khoá); anh không dùng R2 (không có thẻ thanh toán).
+- **Đăng nhập**: ô "Lưu đăng nhập" (cookie `jft_keep`, 3 ngày) — có tích thì mở/tải lại app không phải đăng nhập lại.
 
 Link Prometric trên trang chủ:
 - Lịch thi ở VN/nước ngoài: https://www.prometric-jp.com/ssw/schedule/jft_basic_overseas/
