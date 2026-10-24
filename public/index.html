@@ -605,27 +605,31 @@ body.locked .app{filter:blur(6px);pointer-events:none}
 #penCv{position:fixed;inset:0;width:100vw;height:100vh;z-index:60;pointer-events:none;touch-action:auto}
 #penCv.draw{pointer-events:auto;touch-action:none;cursor:crosshair}
 #penCv.draw.er{cursor:cell}
-#penFab{position:fixed;right:22px;bottom:22px;z-index:61;width:52px;height:52px;border-radius:50%;border:0;background:var(--pink);color:#fff;display:none;place-items:center;box-shadow:0 8px 22px rgba(196,47,102,.4);cursor:pointer;transition:transform .15s}
-#penFab:hover{transform:scale(1.06)}#penFab svg{width:24px;height:24px}
-#penFab.show{display:grid}#penFab.show.open{display:none}
+#penFab{position:fixed;right:22px;bottom:22px;z-index:61;height:46px;border-radius:99px;border:0;background:var(--pink);color:#fff;display:none;align-items:center;gap:8px;padding:0 18px 0 14px;font:inherit;font-weight:700;font-size:15px;box-shadow:0 8px 22px rgba(196,47,102,.4);cursor:pointer;transition:transform .15s}
+#penFab:hover{transform:translateY(-2px)}#penFab svg{width:21px;height:21px}
+#penFab.show{display:flex}#penFab.show.open{display:none}
 body:has(.cbt.on) #penFab,body:has(.cbt.on) #penBar{display:none!important}
-#penBar{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);z-index:62;display:none;align-items:center;gap:4px;background:#17212b;color:#fff;border-radius:16px;padding:6px;box-shadow:0 12px 34px rgba(0,0,0,.35);user-select:none;-webkit-user-select:none;max-width:calc(100vw - 16px)}
+#penBar{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);z-index:62;display:none;align-items:center;gap:2px;background:#17212b;color:#fff;border-radius:16px;padding:6px;box-shadow:0 12px 34px rgba(0,0,0,.35);user-select:none;-webkit-user-select:none;white-space:nowrap}
 #penBar.on{display:flex}
-#penBar button{width:38px;height:38px;border:0;border-radius:11px;background:transparent;color:#cfd8e3;display:grid;place-items:center;cursor:pointer;flex:none;padding:0}
-#penBar button svg{width:21px;height:21px}
+#penBar .grp{display:flex;align-items:center;gap:2px}
+#penBar button{height:38px;min-width:34px;border:0;border-radius:11px;background:transparent;color:#cfd8e3;display:flex;align-items:center;justify-content:center;gap:6px;cursor:pointer;flex:none;padding:0 8px;font:inherit}
+#penBar button svg{width:19px;height:19px;flex:none}
+#penBar button b{font-size:13.5px;font-weight:700}
 #penBar button:hover{background:rgba(255,255,255,.08);color:#fff}
-#penBar button.on{background:#fff;color:#17212b}
-#penBar .sep{width:1px;height:24px;background:rgba(255,255,255,.18);margin:0 3px;flex:none}
-#penBar .cols{display:flex;gap:2px}
-#penBar .cl{width:30px}#penBar .cl i{width:18px;height:18px;border-radius:50%;display:block;box-shadow:0 0 0 2px rgba(255,255,255,.15)}
-#penBar .cl.on{background:rgba(255,255,255,.14)}#penBar .cl.on i{box-shadow:0 0 0 2px #fff}
+#penBar .tl.on{background:#fff;color:#17212b}
+#penBar .sep{width:1px;height:24px;background:rgba(255,255,255,.18);margin:0 4px;flex:none}
+#penBar .cl{min-width:30px;padding:0 4px}#penBar .cl i{width:19px;height:19px;border-radius:50%;display:block;box-shadow:0 0 0 2px rgba(255,255,255,.12)}
+#penBar .cl.on i{box-shadow:0 0 0 2px #17212b,0 0 0 4px #fff}
+#penBar .sz{min-width:34px;padding:0 6px}#penBar .sz i{width:18px;border-radius:9px;background:#cfd8e3;display:block}
+#penBar .sz.on{background:#fff}#penBar .sz.on i{background:#17212b}
 #penBar .x{color:#ff9fb8}
-.vframe:fullscreen #penBar{bottom:16px}
+@media (max-width:1180px){#penBar [data-a] b,#penBar [data-t="ptr"] b{display:none}}
 @media (max-width:760px){
-  #penFab{right:14px;bottom:calc(86px + env(safe-area-inset-bottom));width:46px;height:46px}
-  #penBar{bottom:calc(84px + env(safe-area-inset-bottom));gap:1px;padding:4px;border-radius:14px}
-  #penBar button{width:33px;height:34px;border-radius:9px}#penBar button svg{width:19px;height:19px}
-  #penBar .cl{width:24px}#penBar .cl i{width:15px;height:15px}#penBar .sep{margin:0 1px}
+  #penFab{right:14px;bottom:calc(86px + env(safe-area-inset-bottom));height:44px;padding:0 14px 0 12px;font-size:14px}
+  #penBar{bottom:calc(82px + env(safe-area-inset-bottom));flex-wrap:wrap;justify-content:center;width:calc(100vw - 16px);row-gap:4px;padding:5px;border-radius:14px}
+  #penBar button{height:34px;min-width:30px;padding:0 6px;border-radius:9px}#penBar button b{display:none}
+  #penBar .cl{min-width:28px;padding:0 3px}#penBar .cl i{width:17px;height:17px}#penBar .sz{min-width:30px}
+  #penBar .sep{display:none}#penBar .grp+.sep+.grp{margin-left:6px}
 }
 </style>
 </head>
@@ -1245,27 +1249,29 @@ const IC={
  un:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 14L4 9l5-5"/><path d="M4 9h10.5a5.5 5.5 0 010 11H11"/></svg>',
  cl:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M10 11v6M14 11v6"/><path d="M6 7l1 13h10l1-13M9 7V4h6v3"/></svg>',
  x:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>'};
-const COL={pen:['#e11d48','#1d4ed8','#111827','#16a34a'],hl:['#fde047','#86efac','#f9a8d4','#93c5fd']};
+const COL={pen:['#e11d48','#2563eb','#16a34a','#f59e0b','#111827'],hl:['#fde047','#86efac','#f9a8d4','#93c5fd','#fdba74']},SZ={pen:[2,3.5,6.5],hl:[12,20,30]};
+ IC.eye='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>';IC.eyx='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.6-7 10-7c2 0 3.7.7 5.1 1.6M22 12s-3.6 7-10 7c-2 0-3.7-.7-5.1-1.6"/><path d="M3 3l18 18"/></svg>';
 const cv=document.createElement('canvas');cv.id='penCv';
-const fab=document.createElement('button');fab.id='penFab';fab.type='button';fab.title='Bút dạ giảng bài (viết · highlight · xoá)';fab.setAttribute('aria-label','Bút dạ giảng bài');fab.innerHTML=IC.pen;
+const fab=document.createElement('button');fab.id='penFab';fab.type='button';fab.title='Bút dạ giảng bài (viết · highlight · xoá)';fab.setAttribute('aria-label','Bút dạ giảng bài');fab.innerHTML=IC.pen+'<span>Bút</span>';
 const bar=document.createElement('div');bar.id='penBar';bar.setAttribute('role','toolbar');bar.setAttribute('aria-label','Bút dạ giảng bài');
 document.body.append(cv,bar,fab);
 const ctx=cv.getContext('2d');
-let open=false,tool='pen',ci={pen:0,hl:0},strokes=[],hist=[],cur=null,dpr=1,raf=0;
+let open=false,hide=false,tool='pen',ci={pen:0,hl:0},si={pen:1,hl:1},strokes=[],hist=[],cur=null,dpr=1,raf=0;
 const fs=()=>!!(document.fullscreenElement||document.webkitFullscreenElement);
 const oy=()=>fs()?0:scrollY;
-function ui(){
- bar.innerHTML=`<button type="button" data-t="ptr" title="Con trỏ – bấm, cuộn trang (V)">${IC.ptr}</button><button type="button" data-t="pen" title="Bút viết (P)">${IC.pen}</button><button type="button" data-t="hl" title="Bút highlight (H)">${IC.hl}</button><button type="button" data-t="er" title="Tẩy – quẹt lên nét cần xoá (E)">${IC.er}</button><span class="sep"></span>
- <span class="cols">${(COL[tool==='hl'?'hl':'pen']).map((c,i)=>`<button type="button" class="cl${i===ci[tool==='hl'?'hl':'pen']?' on':''}" data-c="${i}" title="Màu"><i style="background:${c}"></i></button>`).join('')}</span><span class="sep"></span>
- <button type="button" data-a="un" title="Hoàn tác (Ctrl+Z)">${IC.un}</button><button type="button" data-a="cl" title="Xoá hết nét (Delete)">${IC.cl}</button><button type="button" class="x" data-a="x" title="Tắt bút">${IC.x}</button>`;
+function ui(){const k=tool==='hl'?'hl':'pen',T=(t,ic,l,h)=>`<button type="button" class="tl" data-t="${t}" title="${h}">${ic}<b>${l}</b></button>`,A=(a,ic,l,h,c='')=>`<button type="button" class="tl ${c}" data-a="${a}" title="${h}">${ic}<b>${l}</b></button>`;
+ bar.innerHTML=`<span class="grp">${T('ptr',IC.ptr,'Chuột','Con trỏ – bấm, cuộn trang (V)')}${T('pen',IC.pen,'Bút','Bút viết (P)')}${T('hl',IC.hl,'Highlight','Highlight – kéo ngang để tô (H)')}${T('er',IC.er,'Tẩy','Tẩy – quẹt lên nét cần xoá (E)')}</span><span class="sep"></span>
+ <span class="grp">${COL[k].map((c,i)=>`<button type="button" class="cl${i===ci[k]?' on':''}" data-c="${i}" title="Màu"><i style="background:${c}"></i></button>`).join('')}</span><span class="sep"></span>
+ <span class="grp">${SZ[k].map((w,i)=>`<button type="button" class="sz${i===si[k]?' on':''}" data-s="${i}" title="${['Nét mảnh','Nét vừa','Nét đậm'][i]}"><i style="height:${[2,4,7][i]}px"></i></button>`).join('')}</span><span class="sep"></span>
+ <span class="grp">${A('un',IC.un,'Hoàn tác','Hoàn tác (Ctrl+Z)')}${A('cl',IC.cl,'Xoá hết','Xoá hết nét (Delete)')}${A('hd',hide?IC.eyx:IC.eye,hide?'Hiện nét':'Ẩn nét','Ẩn / hiện các nét đã vẽ')}${A('x',IC.x,'Tắt','Tắt bút','x')}</span>`;
  bar.querySelectorAll('[data-t]').forEach(b=>b.classList.toggle('on',b.dataset.t===tool));
  const dr=open&&tool!=='ptr';cv.classList.toggle('draw',dr);cv.classList.toggle('er',tool==='er');
  bar.classList.toggle('on',open);fab.classList.toggle('open',open)}
 function size(){dpr=Math.min(devicePixelRatio||1,2);cv.width=innerWidth*dpr;cv.height=innerHeight*dpr;draw()}
-function path(s,o){const p=s.p;ctx.beginPath();ctx.moveTo(p[0].x,p[0].y-o);if(p.length<3){const q=p[p.length-1];ctx.lineTo(q.x+.01,q.y-o);return}
+function path(s,o){const p=s.p;ctx.beginPath();ctx.moveTo(p[0].x,p[0].y-o);if(s.t==='hl'){const q=p[p.length-1];ctx.lineTo(q.x,q.y-o);return}if(p.length<3){const q=p[p.length-1];ctx.lineTo(q.x+.01,q.y-o);return}
  for(let i=1;i<p.length-1;i++){const mx=(p[i].x+p[i+1].x)/2,my=(p[i].y+p[i+1].y)/2;ctx.quadraticCurveTo(p[i].x,p[i].y-o,mx,my-o)}const q=p[p.length-1];ctx.lineTo(q.x,q.y-o)}
-function draw(){raf=0;ctx.setTransform(dpr,0,0,dpr,0,0);ctx.clearRect(0,0,innerWidth,innerHeight);const f=fs(),o=oy();
- for(const s of cur&&cur.p?strokes.concat([cur]):strokes){if(s.f!==f)continue;ctx.globalAlpha=s.t==='hl'?.42:1;ctx.strokeStyle=s.c;ctx.lineWidth=s.w;ctx.lineCap='round';ctx.lineJoin='round';path(s,s.f?0:o);ctx.stroke()}
+function draw(){raf=0;ctx.setTransform(dpr,0,0,dpr,0,0);ctx.clearRect(0,0,innerWidth,innerHeight);const f=fs(),o=oy();if(hide)return;
+ for(const s of cur&&cur.p?strokes.concat([cur]):strokes){if(s.f!==f)continue;ctx.globalAlpha=s.t==='hl'?.42:1;ctx.strokeStyle=s.c;ctx.lineWidth=s.w;ctx.lineCap=s.t==='hl'?'butt':'round';ctx.lineJoin='round';path(s,s.f?0:o);ctx.stroke()}
  ctx.globalAlpha=1}
 const req=()=>{if(!raf)raf=requestAnimationFrame(draw)};
 const pt=e=>({x:e.clientX,y:e.clientY+oy()});
@@ -1273,21 +1279,23 @@ function erase(e){const p=pt(e),f=fs(),gone=strokes.filter(s=>s.f===f&&s.p.some(
  if(gone.length){strokes=strokes.filter(s=>!gone.includes(s));hist.push({del:gone});req()}}
 cv.addEventListener('pointerdown',e=>{if(!open||tool==='ptr'||(e.pointerType==='mouse'&&e.button!==0))return;e.preventDefault();try{cv.setPointerCapture(e.pointerId)}catch(_){}
  if(tool==='er'){cur={er:1,id:e.pointerId};erase(e);return}
- const k=tool==='hl'?'hl':'pen';cur={id:e.pointerId,t:tool,c:COL[k][ci[k]],w:tool==='hl'?(innerWidth<760?16:22):(innerWidth<760?3:3.6),f:fs(),p:[pt(e)]};req()});
+ const k=tool==='hl'?'hl':'pen';if(hide){hide=false;ui()}cur={id:e.pointerId,t:tool,c:COL[k][ci[k]],w:SZ[k][si[k]]*(innerWidth<760?.8:1),f:fs(),p:[pt(e)]};req()});
 cv.addEventListener('pointermove',e=>{if(!cur||e.pointerId!==cur.id)return;if(cur.er){erase(e);return}
+ if(cur.t==='hl'){const a=cur.p[0],q=pt(e);if(Math.abs(q.y-a.y)<Math.abs(q.x-a.x)*.25)q.y=a.y;cur.p=[a,q];req();return}
  const ev=e.getCoalescedEvents?e.getCoalescedEvents():[e];for(const x of (ev.length?ev:[e])){const q=pt(x),l=cur.p[cur.p.length-1];if(Math.hypot(q.x-l.x,q.y-l.y)>=1.2)cur.p.push(q)}req()});
-function up(e){if(!cur||(e&&e.pointerId!==cur.id))return;if(!cur.er){if(cur.t==='hl'&&cur.p.length>2&&e&&e.shiftKey){cur.p=[cur.p[0],cur.p[cur.p.length-1]]}strokes.push(cur);hist.push({add:cur})}cur=null;req()}
+function up(e){if(!cur||(e&&e.pointerId!==cur.id))return;if(!cur.er){if(cur.t==='hl'&&cur.p.length<2){cur=null;req();return}strokes.push(cur);hist.push({add:cur})}cur=null;req()}
 cv.addEventListener('pointerup',up);cv.addEventListener('pointercancel',up);
 function undo(){const h=hist.pop();if(!h)return;if(h.add)strokes=strokes.filter(s=>s!==h.add);else strokes=strokes.concat(h.del);req()}
-function clear(){const f=fs(),gone=strokes.filter(s=>s.f===f);if(!gone.length)return;strokes=strokes.filter(s=>s.f!==f);hist.push({del:gone});req()}
+function clear(){hide=false;const f=fs(),gone=strokes.filter(s=>s.f===f);if(!gone.length)return;strokes=strokes.filter(s=>s.f!==f);hist.push({del:gone});req()}
 function setTool(t){tool=t;ui()}
 function show(o){open=o;if(!o){cur=null}ui();req()}
 fab.onclick=()=>{tool='pen';show(true)};
 bar.addEventListener('pointerdown',e=>e.stopPropagation());
 bar.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;
  if(b.dataset.t){setTool(b.dataset.t);return}
- if(b.dataset.c){const k=tool==='hl'?'hl':'pen';ci[k]=+b.dataset.c;if(tool!=='pen'&&tool!=='hl')tool=k;ui();return}
- const a=b.dataset.a;if(a==='un')undo();else if(a==='cl')clear();else if(a==='x'){strokes=[];hist=[];show(false)}});
+ const k=tool==='hl'?'hl':'pen';if(b.dataset.c){ci[k]=+b.dataset.c;if(tool!=='pen'&&tool!=='hl')tool=k;ui();return}
+ if(b.dataset.s){si[k]=+b.dataset.s;if(tool!=='pen'&&tool!=='hl')tool=k;ui();return}
+ const a=b.dataset.a;if(a==='un')undo();else if(a==='cl')clear();else if(a==='hd'){hide=!hide;ui();req()}else if(a==='x'){strokes=[];hist=[];hide=false;show(false)}});
 /* phím tắt (cả khi đang bấm trong khung slide) */
 const NAV=['ArrowRight','ArrowLeft','PageDown','PageUp',' ','ArrowDown','ArrowUp'];
 function key(e,fromFrame){if(!open)return;const tg=e.target&&e.target.tagName||'';if(/INPUT|TEXTAREA|SELECT/.test(tg)||(e.target&&e.target.isContentEditable))return;
