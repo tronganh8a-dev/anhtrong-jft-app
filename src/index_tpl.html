@@ -266,6 +266,11 @@ body.gjp .gp .jpx{display:block}
 .vplayer iframe{position:absolute;left:0;top:-90px;width:100%;height:calc(100% + 180px);border:0}
 .vposter{position:absolute;inset:0;border:0;padding:0;background:#0b1117 center/cover no-repeat;display:grid;place-items:center;cursor:pointer}
 .vposter::before{content:none}
+.vsoon{cursor:default}.vsoon .soon{position:absolute;z-index:3;right:3%;top:5%;background:rgba(11,17,23,.82);color:#fff;border-radius:14px;padding:12px 20px;text-align:left;backdrop-filter:blur(4px);border:1px solid rgba(255,255,255,.18)}
+@media (max-width:760px){.vsoon .soon{padding:6px 10px;border-radius:9px}.vsoon .soon b{font-size:12px!important}.vsoon .soon small{display:none!important}}
+.vsoon .soon b{display:block;font-size:17px}.vsoon .soon small{display:block;margin-top:4px;font-size:13.5px;opacity:.85}
+.novid .vctl{display:none}
+.vit.soon .th::after{display:none}.vit .th .now.soonb{left:auto;right:10px;top:10px;background:#17212b}
 .vposter .pb{position:relative;width:88px;height:88px;border-radius:50%;background:rgba(255,255,255,.95);display:grid;place-items:center;box-shadow:0 10px 30px rgba(0,0,0,.35);transition:transform .2s}
 .vposter .pb::after{content:"";margin-left:7px;border-style:solid;border-width:17px 0 17px 28px;border-color:transparent transparent transparent var(--pink)}
 .vposter:hover .pb{transform:scale(1.08)}
@@ -1103,7 +1108,7 @@ const vOk=()=>YTP&&typeof YTP.getCurrentTime==='function';
 function vSavePos(){if(!vOk()||!vCur)return;const t=YTP.getCurrentTime(),d=YTP.getDuration();if(t>5)store.set(vPosKey(vCur),d&&t>d-20?'0':String(Math.floor(t)))}
 function vDestroy(){clearInterval(vTick);if(YTP){vSavePos();try{YTP.destroy()}catch(e){}}YTP=null}
 function vidPause(){if(vOk())try{YTP.pauseVideo()}catch(e){}vSavePos();document.body.classList.remove('cine')}
-async function vidPlay(){const v=VID.find(x=>x.id===vCur);if(!v)return;vDestroy();
+async function vidPlay(){const v=VID.find(x=>x.id===vCur);if(!v||!v.yt)return;vDestroy();
  $('#vPlayer').innerHTML='<div id="vYT"></div>';await ytApi();
  const st=+(store.get(vPosKey(v.id))||0),pv={autoplay:1,controls:0,rel:0,modestbranding:1,playsinline:1,iv_load_policy:3,disablekb:1,fs:0,cc_load_policy:0};
  if(st>10)pv.start=st-3;if(/^https?:/.test(location.origin))pv.origin=location.origin;
@@ -1111,7 +1116,7 @@ async function vidPlay(){const v=VID.find(x=>x.id===vCur);if(!v)return;vDestroy(
   events:{onReady:e=>{try{e.target.setPlaybackRate(vRate);e.target.playVideo()}catch(_){}vSync()},
    onStateChange:e=>{vSync();if(e.data===0){store.set(vPosKey(vCur),'0');vDestroy();vPoster();vSync(true)}}}});
  vTick=setInterval(vSync,400)}
-function vPoster(){const v=VID.find(x=>x.id===vCur);const pos=+(store.get(vPosKey(v.id))||0);
+function vPoster(){const v=VID.find(x=>x.id===vCur);if(!v.yt){$('#vPlayer').innerHTML=`<div class="vposter vsoon">${vThumb(v)}<span class="soon"><b>⏳ Video sắp có</b><small>Xem trước slide buổi học bên dưới</small></span></div>`;return}const pos=+(store.get(vPosKey(v.id))||0);
  $('#vPlayer').innerHTML=`<button class="vposter" id="vPoster" type="button" aria-label="Phát video">${vThumb(v)}<span class="pb"></span>${pos>10?`<span class="vres">▶ Xem tiếp từ ${vfmt(pos)}</span>`:''}</button>`;
  $('#vPoster').onclick=vidPlay}
 function vSeekUI(f,d){f=Math.min(1,Math.max(0,f||0));const sk=$('#vSeek');if(!sk)return;sk.querySelector('.pl').style.width=f*100+'%';sk.querySelector('.kn').style.left=f*100+'%';if(d)$('#vTm').textContent=`${vfmt(f*d)} / ${vfmt(d)}`}
@@ -1147,13 +1152,13 @@ function vBindCtl(){
 document.addEventListener('click',e=>{const m=$('#vMenu');if(m&&!e.target.closest('.vspdw'))m.classList.remove('on')});
 document.addEventListener('visibilitychange',vSavePos);window.addEventListener('pagehide',vSavePos);
 function renderVideo(autoplay){const A=$('#vidArea');vDestroy();if(!VID.length){A.innerHTML='<div class="card vempty">Video bài giảng đang được cập nhật.</div>';return}
- if(!VID.find(x=>x.id===vCur))vCur=(VID.find(x=>x.id===store.get('jftVid'))||VID[VID.length-1]).id;
+ if(!VID.find(x=>x.id===vCur))vCur=(VID.find(x=>x.id===store.get('jftVid'))||[...VID].reverse().find(x=>x.yt)||VID[VID.length-1]).id;
  const v=VID.find(x=>x.id===vCur);
  const mats=[...(v.docs||[]).map(d=>`<a class="vm" href="${esc(d.u)}" target="_blank" rel="noopener"><span class="ic dr">${DRIVE_IC}</span><span class="t"><b>${esc(d.t)}</b><small>Google Drive ↗</small></span></a>`),
   ...(v.slides||[]).map((x,i)=>`<button class="vm" type="button" data-vs="${i}"><span class="ic sl">▶</span><span class="t"><b>${esc(x.t)}</b><small>${esc(x.sub||'Slide')}</small></span></button>`),
   ...(v.learn||[]).map((l,i)=>`<button class="vm" type="button" data-vl="${i}"><span class="ic jp">${({kanji:'漢',vocab:'語',gram:'文'})[l.tab]||'教'}</span><span class="t"><b>${esc(l.t)}</b><small>Học lại trong app</small></span></button>`)];
  const groups=[];VID.forEach(x=>{let g=groups.find(g=>g.s===x.series);if(!g)groups.push(g={s:x.series,j:x.series_jp||'',a:[]});g.a.push(x)});
- A.innerHTML=`<div class="vstage"><div class="vbox" id="vBox"><div class="vplayer" id="vPlayer"></div>
+ A.innerHTML=`<div class="vstage${v.yt?'':' novid'}"><div class="vbox" id="vBox"><div class="vplayer" id="vPlayer"></div>
   <div class="vctl" id="vCtl"><button id="vPP" type="button" aria-label="Phát">${VIC.play}</button><button id="vB10" type="button" title="Lùi 10 giây" aria-label="Lùi 10 giây">${VIC.b10}</button><button id="vF10" type="button" title="Tới 10 giây" aria-label="Tới 10 giây">${VIC.f10}</button><span class="tm" id="vTm">0:00</span>
    <div class="vseek" id="vSeek" aria-label="Thanh tua"><div class="tr"><div class="bf"></div><div class="pl"></div></div><div class="kn"></div><div class="tip"></div></div>
    <span class="vvolw"><button id="vMute" type="button" title="Tắt / bật tiếng" aria-label="Tắt / bật tiếng">${VIC.vol}</button><input type="range" class="vvol" id="vVol" min="0" max="100" value="100" aria-label="Âm lượng"></span>
@@ -1161,7 +1166,7 @@ function renderVideo(autoplay){const A=$('#vidArea');vDestroy();if(!VID.length){
    <button id="vCineB" type="button" title="Màn hình lớn" aria-label="Màn hình lớn">${VIC.cine}</button><button id="vFS" type="button" title="Toàn màn hình" aria-label="Toàn màn hình">${VIC.fs}</button></div></div>
   <div class="vinfo"><div class="tx"><div class="ser"><span class="no">${esc(v.no||'')}</span><span>${esc(v.series)}</span>${v.series_jp?`<span class="jp">· ${esc(v.series_jp)}</span>`:''}${(v.tags||[]).map(t=>`<span class="tag jp">${esc(t)}</span>`).join('')}</div><h2>${esc(v.title)}</h2>${v.desc?`<p class="vdesc">${esc(v.desc)}</p>`:''}</div>
   </div>${mats.length?`<div class="vmat"><div class="vmh">Tài liệu buổi học<span>${mats.length}</span></div><div class="vmg">${mats.join('')}</div></div>`:''}</div>
-  <div class="vlist">${groups.map(g=>`<div class="vgh">${esc(g.s)}${g.j?`<span class="jp">${esc(g.j)}</span>`:''}<span class="n">${g.a.length} video</span></div><div class="vgrid">${g.a.map(x=>`<button class="vit${x.id===vCur?' on':''}" data-vid="${x.id}" type="button"><span class="th">${vThumb(x)}${x.id===vCur?'<span class="now">Đang xem</span>':''}</span><span class="bd"><small>${esc(x.no||'')}${x.docs&&x.docs.length?' · có tài liệu':''}</small><b>${esc(x.title)}</b><span class="tg">${(x.tags||[]).map(t=>`<span class="tag gray jp">${esc(t)}</span>`).join('')}</span></span></button>`).join('')}</div>`).join('')}</div>`;
+  <div class="vlist">${groups.map(g=>`<div class="vgh">${esc(g.s)}${g.j?`<span class="jp">${esc(g.j)}</span>`:''}<span class="n">${g.a.length} video</span></div><div class="vgrid">${g.a.map(x=>`<button class="vit${x.id===vCur?' on':''}${x.yt?'':' soon'}" data-vid="${x.id}" type="button"><span class="th">${vThumb(x)}${x.id===vCur?'<span class="now">Đang xem</span>':''}${x.yt?'':'<span class="now soonb">Sắp có video</span>'}</span><span class="bd"><small>${esc(x.no||'')}${x.docs&&x.docs.length?' · có tài liệu':''}</small><b>${esc(x.title)}</b><span class="tg">${(x.tags||[]).map(t=>`<span class="tag gray jp">${esc(t)}</span>`).join('')}</span></span></button>`).join('')}</div>`).join('')}</div>`;
  vPoster();vBindCtl();if(autoplay)vidPlay()}
 $('#vidArea').addEventListener('click',e=>{const sb=e.target.closest('[data-vs]');if(sb){const v=VID.find(x=>x.id===vCur),x=v.slides[+sb.dataset.vs];vidPause();openDocView({f:x.u,jp:x.t,vi:x.sub||'',k:'slide'},v.no||'');return}const lb=e.target.closest('[data-vl]');if(lb){const v=VID.find(x=>x.id===vCur),l=v.learn[+lb.dataset.vl];vidPause();dTab=l.tab;store.set('dTab',dTab);dLv[l.tab]=l.lv;dGrp[l.tab+l.lv]=l.g;go('learn');renderDocs();return}const b=e.target.closest('[data-vid]');if(!b)return;vCur=b.dataset.vid;store.set('jftVid',vCur);renderVideo(true);$('#video').scrollIntoView({behavior:'smooth'})});
 $('#vCineX').onclick=()=>document.body.classList.remove('cine');$('#vCine').onclick=e=>{if(e.target.id==='vCine')document.body.classList.remove('cine')};
