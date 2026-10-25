@@ -818,7 +818,7 @@ body:has(.cbt.on) #penFab,body:has(.cbt.on) #penBar{display:none!important}
 <script src="app/data/vocab.js?v=4314c895"></script>
 <script src="app/data/grammar.js?v=7e915ad4"></script>
 <script src="app/data/hw.js?v=3bb59009"></script>
-<script src="app/data/videos.js?v=dbff48b4"></script>
+<script src="app/data/videos.js?v=097a0707"></script>
 <script>
 /* ===== cấu hình tài khoản chung (đổi tại đây) ===== */
 const ACCOUNT={user:decodeURIComponent((document.cookie.match(/(?:^|; )jft_user=([^;]*)/)||[0,''])[1])||'hocvien',hash:''};
@@ -1168,7 +1168,7 @@ function renderVideo(autoplay){const A=$('#vidArea');vDestroy();if(!VID.length){
   </div>${mats.length?`<div class="vmat"><div class="vmh">Tài liệu buổi học<span>${mats.length}</span></div><div class="vmg">${mats.join('')}</div></div>`:''}</div>
   <div class="vlist">${groups.map(g=>`<div class="vgh">${esc(g.s)}${g.j?`<span class="jp">${esc(g.j)}</span>`:''}<span class="n">${g.a.length} video</span></div><div class="vgrid">${g.a.map(x=>`<button class="vit${x.id===vCur?' on':''}${x.yt?'':' soon'}" data-vid="${x.id}" type="button"><span class="th">${vThumb(x)}${x.id===vCur?'<span class="now">Đang xem</span>':''}${x.yt?'':'<span class="now soonb">Sắp có video</span>'}</span><span class="bd"><small>${esc(x.no||'')}${x.docs&&x.docs.length?' · có tài liệu':''}</small><b>${esc(x.title)}</b><span class="tg">${(x.tags||[]).map(t=>`<span class="tag gray jp">${esc(t)}</span>`).join('')}</span></span></button>`).join('')}</div>`).join('')}</div>`;
  vPoster();vBindCtl();if(autoplay)vidPlay()}
-$('#vidArea').addEventListener('click',e=>{const sb=e.target.closest('[data-vs]');if(sb){const v=VID.find(x=>x.id===vCur),x=v.slides[+sb.dataset.vs];vidPause();openDocView({f:x.u,jp:x.t,vi:x.sub||'',k:'slide'},v.no||'');return}const lb=e.target.closest('[data-vl]');if(lb){const v=VID.find(x=>x.id===vCur),l=v.learn[+lb.dataset.vl];vidPause();dTab=l.tab;store.set('dTab',dTab);dLv[l.tab]=l.lv;dGrp[l.tab+l.lv]=l.g;go('learn');renderDocs();return}const b=e.target.closest('[data-vid]');if(!b)return;vCur=b.dataset.vid;store.set('jftVid',vCur);renderVideo(true);$('#video').scrollIntoView({behavior:'smooth'})});
+$('#vidArea').addEventListener('click',e=>{const sb=e.target.closest('[data-vs]');if(sb){const v=VID.find(x=>x.id===vCur),x=v.slides[+sb.dataset.vs];vidPause();openDocView({f:x.u,jp:x.t,vi:x.sub||'',k:x.k||'slide'},v.no||'');return}const lb=e.target.closest('[data-vl]');if(lb){const v=VID.find(x=>x.id===vCur),l=v.learn[+lb.dataset.vl];vidPause();dTab=l.tab;store.set('dTab',dTab);dLv[l.tab]=l.lv;dGrp[l.tab+l.lv]=l.g;go('learn');renderDocs();return}const b=e.target.closest('[data-vid]');if(!b)return;vCur=b.dataset.vid;store.set('jftVid',vCur);renderVideo(true);$('#video').scrollIntoView({behavior:'smooth'})});
 $('#vCineX').onclick=()=>document.body.classList.remove('cine');$('#vCine').onclick=e=>{if(e.target.id==='vCine')document.body.classList.remove('cine')};
 document.addEventListener('keydown',e=>{if(e.key==='Escape')document.body.classList.remove('cine');
  if(!$('#video').classList.contains('on')||!vOk()||/INPUT|TEXTAREA|SELECT/.test((e.target.tagName||'')))return;
@@ -1242,7 +1242,8 @@ const BUOI=[{n:3,d:'Buổi 3',it:[
  {f:'tailieu/Buoi03_ChuHan_TuVung_NguPhap.html',jp:'漢字・語彙・文法 初級1',vi:'Chữ Hán 初級1 1–20 (kèm từ cùng chữ Hán) · Từ vựng Bài 1–3 · Ngữ pháp Bài 4',k:'slide',tag:'Slide'}]},
  {n:2,d:'Buổi 2',it:[
  {f:'tailieu/Buoi02_ChuHan_TuVung_NguPhap.html',jp:'漢字・語彙・文法 入門',vi:'Chữ Hán 1–20 · Từ vựng Bài 4–7 · Ngữ pháp 初級1 Bài 1·2·3',k:'slide',tag:'Slide'},
- {f:'tailieu/Buoi02_LuyenNghe.html',jp:'聴解 · 聞き取り練習',vi:'Luyện nghe hiểu: 5 bài nghe 初級2 kèm đáp án và giải thích',k:'slide',tag:'Slide'}]}];
+ {f:'tailieu/Buoi02_LuyenNghe.html',jp:'聴解 · 聞き取り練習',vi:'Luyện nghe hiểu: 5 bài nghe 初級2 kèm đáp án và giải thích',k:'slide',tag:'Slide'},
+ {f:'tailieu/Buoi02_OnTap_Flashcard.html',jp:'復習フラッシュカード',vi:'Ôn tập toàn bộ buổi 2: 213 thẻ chữ Hán, từ vựng, ngữ pháp, từ đọc hiểu, nghe hiểu',k:'web',tag:'Flashcard'}]}];
 function renderBuoi(){$('#dDoc').innerHTML=BUOI.map(B=>`<div class="bgrp"><h3>${B.d}<small>${B.it.length} tài liệu</small></h3><div class="lgrid">${B.it.map((x,i)=>`<div class="lc"><span class="no">${B.d}<span class="tag gray">${x.tag}</span></span><span class="ttl jp">${x.jp}</span><small>${esc(x.vi)}</small><div class="acts"><button class="btn sm" type="button" data-bd="${B.n}|${i}">▶ Mở</button><a class="btn sm ghost" href="${encodeURI(x.f)}" target="_blank" rel="noopener">↗ Tab mới</a></div></div>`).join('')}</div></div>`).join('');
  $('#dDoc').onclick=e=>{const b=e.target.closest('[data-bd]');if(!b)return;const[n,i]=b.dataset.bd.split('|'),B=BUOI.find(x=>x.n==n),x=B.it[+i];openDocView(x,B.d)}}
 function openDocView(x,d){VW=null;go('viewer');$('#vTitle').textContent=x.jp;$('#vSub').textContent=`${d} · ${x.vi}`;$('#vTabs').innerHTML='';$('#vFrameWrap').classList.toggle('web',x.k==='web');const src=encodeURI(x.f);$('#vOpen').href=src;$('#vPath').textContent=x.f;if($('#vFrame').getAttribute('src')!==src)$('#vFrame').setAttribute('src',src)}
