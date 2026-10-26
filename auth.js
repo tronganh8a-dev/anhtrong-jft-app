@@ -32,7 +32,7 @@ function getCookie(req, name) {
   return m ? decodeURIComponent(m[1]) : null;
 }
 
-async function currentUser(req, env) {
+export async function currentUser(req, env) {
   const v = getCookie(req, COOKIE);
   if (!v) return null;
   const [u, exp, sig] = v.split('|');

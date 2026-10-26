@@ -2,6 +2,8 @@
 // Riêng tên miền bản dùng thử (jft-dungthu.*): không đăng nhập, chỉ phục vụ thư mục public/_demo
 // (bản khoá, tạo bởi src/build_demo.py) – không bao giờ trả nội dung bản đầy đủ.
 import { handle } from './auth.js';
+import { isPublic, kiemtraPublic, ketqua } from './kiemtra.js';
+export { KiemTra } from './kiemtra.js';
 const isDemo = h => /^jft-dungthu\./i.test(h);
 async function demo(req, env) {
   const url = new URL(req.url);
@@ -25,5 +27,11 @@ async function demo(req, env) {
   return out;
 }
 export default {
-  fetch: (req, env) => isDemo(new URL(req.url).hostname) ? demo(req, env) : handle(req, env, () => env.ASSETS.fetch(req))
+  fetch(req, env) {
+    const url = new URL(req.url);
+    if (isDemo(url.hostname)) return demo(req, env);
+    // bài kiểm tra: link làm bài + nộp bài công khai; trang kết quả cần đăng nhập (giáo viên)
+    if (isPublic(url.pathname)) return kiemtraPublic(req, env);
+    return handle(req, env, () => url.pathname.startsWith('/kiemtra/ketqua') ? ketqua(req, env) : env.ASSETS.fetch(req));
+  }
 };

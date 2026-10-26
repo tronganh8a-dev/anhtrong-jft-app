@@ -72,6 +72,13 @@ Quy trình sau khi sửa: `python3 src/build_data.py` (nếu đổi dữ liệu)
 - Cookie `jft_s` (ký HMAC, 30 ngày) + `jft_user`. Cookie dùng 1 lần `jft_once` (120s) đặt khi đăng nhập: mỗi lần mở/tải lại `/` hoặc `/index.html` đều bắt đăng nhập lại (theo yêu cầu của anh).
 - `/app/media/cover/*` công khai (ảnh bìa ở trang đăng nhập). Trang đăng nhập dùng font M PLUS Rounded 1c, có bìa sách + nút Facebook/TikTok.
 
+## Bài kiểm tra theo buổi (26/10)
+- Link làm bài **công khai, không cần đăng nhập**: `/kiemtra/<id>` (vd `/kiemtra/buoi04`) – file `public/kiemtra/<id>.html` (KHÔNG chứa đáp án).
+- Nộp: `POST /api/kiemtra/nop` → `kiemtra.js` chấm theo `kiemtra/<id>.json` (đáp án + giải thích, ngoài public/, import qua `kiemtra/tests.js`) → lưu vào Durable Object `KiemTra` (SQLite, binding `KT`, khai báo trong wrangler.jsonc, migration v1).
+- Giáo viên xem: `/kiemtra/ketqua` (đăng nhập; nếu đặt biến môi trường `GIAOVIEN=ten1,ten2` thì chỉ các tài khoản đó xem được – CHƯA đặt thì mọi tài khoản đăng nhập đều xem được). Có tải CSV, xoá bài nộp, tỉ lệ đúng từng câu.
+- Tạo bài mới: sửa/nhân bản `src/kiemtra/gen.py` (chọn câu, đổi `id`) → chạy → sinh `public/kiemtra/<id>.html` + `kiemtra/<id>.json` + `kiemtra/tests.js`. Thêm link vào `BUOI` trong index_tpl.
+- Thử local: `.dev.vars` (ACCOUNTS, GIAOVIEN – không commit) + `npx wrangler dev`.
+
 ## 5. Dữ liệu & quy ước
 - **Đề thi**: 22/10 anh yêu cầu **xoá toàn bộ bộ đề cũ** (đã xoá `src/raw/lt_exams.json`, tab Làm đề hiện "Bộ đề mới đang được cập nhật"). Anh sẽ gửi **đề mới** → nhập vào app, **bắt buộc có đáp án + giải thích**: làm xong được chấm và xem đáp án đúng kèm giải thích từng câu (trường `ex` của câu hỏi; màn kết quả cần hiện đáp án + giải thích). `HIDE_EXAMS` trong `src/build_data.py` để ẩn tạm đề theo số.
 - **Luyện kỹ năng** (517 câu): mỗi câu có `lab` (nhãn HTML có ruby), `labvi`, `au`, `imgs`, `o[]` (t có thể là HTML, img), `a[]`. Đã sửa 21/10 vì trước đó bị lẫn nhãn/tranh/lựa chọn.

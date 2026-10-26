@@ -1,0 +1,171 @@
+{
+"title": "Kiểm tra Buổi 4",
+"secs": [
+{
+"name": "Chữ Hán",
+"n": 10
+},
+{
+"name": "Từ vựng",
+"n": 10
+},
+{
+"name": "Ngữ pháp",
+"n": 10
+}
+],
+"key": [
+{
+"a": 1,
+"ex": "<b class=\"jp\"><ruby>冬<rt>ふゆ</rt></ruby></b> <span class=\"hv\">ĐÔNG</span> – Đông. Mùa đông tuyết rơi."
+},
+{
+"a": 1,
+"ex": "<b class=\"jp\"><ruby>同<rt>おな</rt></ruby>じ</b> <span class=\"hv\">ĐỒNG</span> – Giống nhau. Tôi và anh trai làm cùng một công ty."
+},
+{
+"a": 2,
+"ex": "<b class=\"jp\"><ruby>暑<rt>あつ</rt></ruby>い</b> <span class=\"hv\">THỬ</span> – Nóng. Hôm nay nóng nhỉ."
+},
+{
+"a": 3,
+"ex": "<b class=\"jp\"><ruby>天気<rt>てんき</rt></ruby></b> <span class=\"hv\">THIÊN KHÍ</span> – Thời tiết. Thời tiết ngày mai thế nào?"
+},
+{
+"a": 3,
+"ex": "<b class=\"jp\"><ruby>晴<rt>は</rt></ruby>れ</b> <span class=\"hv\">TÌNH</span> – Nắng. Hôm nay trời nắng."
+},
+{
+"a": 0,
+"ex": "<b class=\"jp\"><ruby>風<rt>かぜ</rt></ruby></b> <span class=\"hv\">PHONG</span> – Gió. Hôm nay gió mạnh."
+},
+{
+"a": 1,
+"ex": "<b class=\"jp\"><ruby>昨日<rt>きのう</rt></ruby></b> <span class=\"hv\">TẠC NHẬT</span> – Hôm qua. Hôm qua trời mưa."
+},
+{
+"a": 1,
+"ex": "<b class=\"jp\"><ruby>毎日<rt>まいにち</rt></ruby></b> <span class=\"hv\">MỖI NHẬT</span> – Hằng ngày. Hằng ngày tôi học tiếng Nhật."
+},
+{
+"a": 3,
+"ex": "<b class=\"jp\"><ruby>店<rt>みせ</rt></ruby></b> <span class=\"hv\">ĐIẾM</span> – Cửa hàng. Cửa hàng này rẻ."
+},
+{
+"a": 3,
+"ex": "<b class=\"jp\"><ruby>食堂<rt>しょくどう</rt></ruby></b> <span class=\"hv\">THỰC ĐƯỜNG</span> – Nhà ăn. Tôi ăn trưa ở nhà ăn của công ty."
+},
+{
+"a": 3,
+"ex": "<b class=\"jp\"><ruby>左<rt>ひだり</rt></ruby>に<ruby>曲<rt>ま</rt></ruby>がる</b> <span class=hv>TẢ KHÚC</span> – Rẽ trái (Bài 6)"
+},
+{
+"a": 3,
+"ex": "<b class=\"jp\"><ruby>道<rt>みち</rt></ruby>を<ruby>渡<rt>わた</rt></ruby>る</b> <span class=hv>ĐẠO ĐỘ</span> – Băng qua đường (Bài 6)"
+},
+{
+"a": 3,
+"ex": "<b class=\"jp\"><ruby>信号<rt>しんごう</rt></ruby></b> <span class=hv>TÍN HIỆU</span> – Đèn giao thông (Bài 6)"
+},
+{
+"a": 2,
+"ex": "<b class=\"jp\"><ruby>交差点<rt>こうさてん</rt></ruby></b> <span class=hv>GIAO SAI ĐIỂM</span> – Ngã tư / giao lộ (Bài 6)"
+},
+{
+"a": 1,
+"ex": "<b class=\"jp\"><ruby>郵便局<rt>ゆうびんきょく</rt></ruby></b> <span class=hv>BƯU TIỆN CỤC</span> – Bưu điện (Bài 6)"
+},
+{
+"a": 3,
+"ex": "<b class=\"jp\"><ruby>駐車場<rt>ちゅうしゃじょう</rt></ruby></b> <span class=hv>TRÚ XA TRƯỜNG</span> – Bãi đỗ xe (Bài 6)"
+},
+{
+"a": 3,
+"ex": "<b class=\"jp\"><ruby>静<rt>しず</rt></ruby>か(な)</b> <span class=hv>TĨNH</span> – Yên tĩnh (Bài 5)"
+},
+{
+"a": 0,
+"ex": "<b class=\"jp\"><ruby>田舎<rt>いなか</rt></ruby></b> <span class=hv>ĐIỀN XÁ</span> – Nông thôn / vùng quê (Bài 5)"
+},
+{
+"a": 2,
+"ex": "<b class=\"jp\"><ruby>都会<rt>とかい</rt></ruby></b> <span class=hv>ĐÔ HỘI</span> – Thành phố / đô thị (Bài 5)"
+},
+{
+"a": 0,
+"ex": "<b class=\"jp\"><ruby>雷<rt>かみなり</rt></ruby> / <ruby>雷<rt>かみなり</rt></ruby>が<ruby>鳴<rt>な</rt></ruby>る</b> <span class=hv>LÔI / LÔI MINH</span> – Sấm / sấm kêu (Bài 4)"
+},
+{
+"a": 1,
+"ex": "きれい là tính từ đuôi な (dù kết thúc bằng い) nên dùng で: きれいで."
+},
+{
+"a": 1,
+"ex": "<ruby>便利<rt>べんり</rt></ruby> là tính từ đuôi な nên cần だ trước けど: <ruby>便利<rt>べんり</rt></ruby>だけど. Hai ý trái ngược nên không dùng くて (và <ruby>便<rt>びん</rt></ruby><ruby>利<rt>き</rt></ruby>くて cũng sai cách chia)."
+},
+{
+"a": 2,
+"ex": "Vui và cô đơn là hai ý trái ngược nên dùng けど. から là lý do, không hợp; それに không đặt giữa câu như vậy."
+},
+{
+"a": 1,
+"ex": "Mẫu cố định là ことができます, trợ từ trước できます là が."
+},
+{
+"a": 0,
+"ex": "<ruby>入<rt>はい</rt></ruby>ります đi với trợ từ に (<ruby>温泉<rt>おんせん</rt></ruby>に<ruby>入<rt>はい</rt></ruby>る), và trước こと dùng thể từ điển. Hai lựa chọn kia sai trợ từ hoặc sai thể."
+},
+{
+"a": 2,
+"ex": "Mẫu V-たいんですが… dùng để nói mong muốn và nhờ giúp: <ruby>食<rt>た</rt></ruby>べたいんですが. Thể ます và thể て không đứng trước んですが."
+},
+{
+"a": 2,
+"ex": "Nơi đi qua dùng trợ từ を: <ruby>橋<rt>はし</rt></ruby>を<ruby>渡<rt>わた</rt></ruby>ります."
+},
+{
+"a": 1,
+"ex": "<ruby>行<rt>い</rt></ruby>きます là ngoại lệ, thể て là <ruby>行<rt>い</rt></ruby>って. <ruby>行<rt>い</rt></ruby>きて và <ruby>行<rt>おこな</rt></ruby>いて đều sai."
+},
+{
+"a": 2,
+"ex": "Thông tin sai nên trả lời いいえ rồi đính chính bằng じゃなくて. はい mâu thuẫn với việc đính chính; 3階で nghĩa là “là tầng 3 và…”, sai nghĩa."
+},
+{
+"a": 1,
+"ex": "Không có thẻ nên đề xuất trả bằng tiền mặt thay thế: <ruby>現金<rt>げんきん</rt></ruby>でもいいですか. Các trợ từ が、を、と không ghép được với いいですか theo nghĩa này."
+}
+],
+"qs": [
+"冬は雪が降ります。",
+"私と兄は同じ会社で働いています。",
+"今日は暑いですね。",
+"明日の天気はどうですか。",
+"今日は晴れです。",
+"今日は風が強いです。",
+"昨日は雨でした。",
+"毎日、日本語を勉強します。",
+"この店は安いです。",
+"会社の食堂で昼ご飯を食べます。",
+"「Rẽ trái」",
+"「Băng qua đường」",
+"「Đèn giao thông」",
+"「Ngã tư / giao lộ」",
+"「Bưu điện」",
+"「Bãi đỗ xe」",
+"「Yên tĩnh」",
+"「Nông thôn / vùng quê」",
+"「Thành phố / đô thị」",
+"「Sấm」",
+"駅前の 店は きれい＿＿＿、安いです。",
+"この 町は 便利＿＿＿、家賃が 高いです。",
+"A：日本の 生活は どうですか。B：楽しいです＿＿＿、ちょっと さびしいです。",
+"ここで 写真を とる＿＿＿ できますか。",
+"A：この ホテルで 何が できますか。B：＿＿＿。",
+"すみません、この 近くで 昼ご飯を ＿＿＿ んですが…。",
+"この 道を まっすぐ 行って、橋＿＿＿ 渡って ください。",
+"A：すみません、駅は どこですか。B：＿＿＿。",
+"A：会議は 3階ですか。B：＿＿＿。",
+"（お店で）すみません、カードが ありません。現金＿＿＿ いいですか。"
+]
+}
