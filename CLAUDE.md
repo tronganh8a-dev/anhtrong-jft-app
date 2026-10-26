@@ -16,7 +16,7 @@
 - Repo: `tronganh8a-dev/anhtrong-jft-app` (private), nhánh `main`.
 - Host: **Cloudflare Workers** (Workers Builds tự build khi push `main`, ~2–3 phút):
   - Bản chính: worker `anhtrong-jft-app` → https://anhtrong-jft-app.tronganh8a.workers.dev (có đăng nhập)
-  - Bản dùng thử: worker `jft-dungthu` (Root directory = `demo/`), không đăng nhập. Hiện đủ danh mục nhưng KHOÁ (🔒 + popup liên hệ), mỗi phần chỉ mở mục đầu tiên/mặc định; mục khoá chỉ mang tiêu đề, không chép nội dung. Trang chủ bỏ nút Đăng ký/Đăng nhập Prometric.
+  - Bản dùng thử: worker `jft-dungthu` (Root directory = `demo/`), không đăng nhập. Hiện đủ danh mục nhưng KHOÁ (🔒 + popup liên hệ), mỗi phần chỉ mở mục đầu tiên/mặc định; mục khoá chỉ mang tiêu đề, không chép nội dung. Trang chủ bỏ nút Đăng ký/Đăng nhập Prometric. LƯU Ý: worker jft-dungthu thực tế chạy worker.js gốc → worker.js nhận tên miền `jft-dungthu.*` và chỉ phục vụ `public/_demo/` (bản sao demo do build_demo.py tạo), không đăng nhập.
 - Sau mỗi lần push, kiểm tra build:
   `gh api repos/tronganh8a-dev/anhtrong-jft-app/commits/<sha>/check-runs` → cả 2 phải `success`.
   (Từng bị lỗi build ngẫu nhiên → đẩy 1 commit rỗng là build lại được.)

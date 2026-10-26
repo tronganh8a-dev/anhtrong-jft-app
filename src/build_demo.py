@@ -116,3 +116,8 @@ assert s2 != s, 'không thấy nút đăng ký / đăng nhập'; s = s2
 s = s.replace('Chưa có tài khoản Prometric thì đăng ký trước, sau đó đăng nhập để đặt / xem lịch thi.', '')
 open(D + 'index.html', 'w', encoding='utf-8').write(s)
 print('demo: mở', L0['lv'], 'Bài', L0['bai'], '· đề 1/', len(E), '· ngữ pháp 初級1 Bài', g0, '· từ vựng 初級1 Bài 1 (', sum(1 for w in W if not w.get('lock')), 'từ ) · tài liệu', t0, '·', n, 'media')
+
+# Bản sao trong public/_demo: worker chính (worker.js) phục vụ thư mục này khi truy cập bằng tên miền jft-dungthu.*
+DD2 = P + '_demo/'
+if os.path.exists(DD2): shutil.rmtree(DD2)
+shutil.copytree(D, DD2)
