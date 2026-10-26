@@ -145,5 +145,89 @@
     "u": "tailieu/Buoi03_ChuHan_TuVung_NguPhap.html"
    }
   ]
+ },
+ {
+  "id": "captoc-04",
+  "series": "Khoá cấp tốc",
+  "series_jp": "短期集中コース",
+  "no": "Buổi 4",
+  "title": "Kiến thức JFT + Luyện đề kiểu máy thi",
+  "tags": [
+   "漢字",
+   "語彙",
+   "文法",
+   "模擬試験"
+  ],
+  "yt": "",
+  "date": "2026-10-26",
+  "desc": "Kèm theo: Chữ Hán 初級1 21–40 · Từ vựng 初級1 Bài 4–6 · Ngữ pháp 初級1 Bài 5–7 · Luyện đề 20 câu",
+  "learn": [
+   {
+    "t": "Chữ Hán 初級1 21–40",
+    "tab": "kanji",
+    "lv": "初級1",
+    "g": 1
+   },
+   {
+    "t": "Từ vựng 初級1 Bài 4",
+    "tab": "vocab",
+    "lv": "初級1",
+    "g": 4
+   },
+   {
+    "t": "Từ vựng 初級1 Bài 5",
+    "tab": "vocab",
+    "lv": "初級1",
+    "g": 5
+   },
+   {
+    "t": "Từ vựng 初級1 Bài 6",
+    "tab": "vocab",
+    "lv": "初級1",
+    "g": 6
+   },
+   {
+    "t": "Ngữ pháp 初級1 Bài 5",
+    "tab": "gram",
+    "lv": "初級1",
+    "g": 5
+   },
+   {
+    "t": "Ngữ pháp 初級1 Bài 6",
+    "tab": "gram",
+    "lv": "初級1",
+    "g": 6
+   },
+   {
+    "t": "Ngữ pháp 初級1 Bài 7",
+    "tab": "gram",
+    "lv": "初級1",
+    "g": 7
+   }
+  ],
+  "slides": [
+   {
+    "t": "Slide Phần 1: Chữ Hán – Từ vựng – Ngữ pháp",
+    "sub": "169 slide · đố trước, giải thích sau",
+    "u": "tailieu/Buoi04_Phan1_ChuHan_TuVung_NguPhap.html"
+   },
+   {
+    "t": "Slide Phần 2: Luyện đề JFT",
+    "sub": "20 câu 文字と語彙・会話と表現 · giao diện máy thi",
+    "u": "tailieu/Buoi04_Phan2_LuyenDe.html"
+   },
+   {
+    "t": "PDF tóm tắt + bài tập ôn tập",
+    "sub": "12 trang · 30 câu kiểu đề có đáp án",
+    "u": "tailieu/Buoi04_TomTat_ChuHan_TuVung_NguPhap.pdf",
+    "k": "web"
+   },
+   {
+    "t": "Bài kiểm tra Buổi 4",
+    "sub": "30 câu · làm xong bấm Nộp, có điểm và giải thích",
+    "u": "kiemtra/buoi04",
+    "k": "web"
+   }
+  ]
  }
 ]
