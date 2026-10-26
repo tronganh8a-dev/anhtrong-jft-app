@@ -16,7 +16,7 @@
 - Repo: `tronganh8a-dev/anhtrong-jft-app` (private), nhánh `main`.
 - Host: **Cloudflare Workers** (Workers Builds tự build khi push `main`, ~2–3 phút):
   - Bản chính: worker `anhtrong-jft-app` → https://anhtrong-jft-app.tronganh8a.workers.dev (có đăng nhập)
-  - Bản dùng thử: worker `jft-dungthu` (Root directory = `demo/`), không đăng nhập, mỗi mục chỉ 2 cái.
+  - Bản dùng thử: worker `jft-dungthu` (Root directory = `demo/`), không đăng nhập. Hiện đủ danh mục nhưng KHOÁ (🔒 + popup liên hệ), mỗi phần chỉ mở mục đầu tiên/mặc định; mục khoá chỉ mang tiêu đề, không chép nội dung. Trang chủ bỏ nút Đăng ký/Đăng nhập Prometric.
 - Sau mỗi lần push, kiểm tra build:
   `gh api repos/tronganh8a-dev/anhtrong-jft-app/commits/<sha>/check-runs` → cả 2 phải `success`.
   (Từng bị lỗi build ngẫu nhiên → đẩy 1 commit rỗng là build lại được.)
@@ -51,7 +51,7 @@ src/
   index_tpl.html        giao diện (HTML/CSS/JS 1 file)
   build_index.py        → public/index.html (bản online: unlock(), logout → /logout, tên user từ cookie jft_user)
   build_data.py         → public/app/data/*.js (tự gọi pitch/add_pitch.py + pitch/add_examples.py ở cuối)
-  build_demo.py         → demo/public (bản dùng thử: 初級1 Bài 1–2, Đề đầu tiên ×2, kỹ năng 初級1 Bài 2–3…)
+  build_demo.py         → demo/public (bản dùng thử: mở 1 mục đầu mỗi phần, còn lại khoá – lớp khoá chèn bằng JS cuối file)
   raw/lt_exams.json     (đã xoá 22/10 — bộ đề cũ; build_data chạy được khi không có file)
   raw/skills_raw.json   câu luyện kỹ năng (do skills_extract.py sinh)
   raw/titles.txt        danh sách bài
