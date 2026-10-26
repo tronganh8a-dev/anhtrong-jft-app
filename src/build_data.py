@@ -87,6 +87,8 @@ for n in sorted(LT, key=int):
 # 22/10: bộ đề mới (Google Form của trung tâm) có đáp án + giải thích song ngữ — sinh bởi scratchpad/newex/merge.py
 if os.path.exists(R + 'jft_exams.json'):
     exams = [e for e in json.load(open(R + 'jft_exams.json')) if e['id'] not in {f'jft-f{n}' for n in HIDE_EXAMS}]
+    import sys; sys.path.insert(0, A + 'jft'); from underline import underline_exams
+    print('gạch chân từ hỏi đọc/viết:', underline_exams(exams))
 js('exams', 'EXAMS', exams)
 open(OUT + 'app/data/exams.js', 'a', encoding='utf-8').write('window.EXTLINKS=[];')
 print('exams', len(exams), sum(len(e['qs']) for e in exams), sum(1 for e in exams for q in e['qs'] if not q['a']))
