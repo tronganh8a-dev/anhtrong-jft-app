@@ -1248,7 +1248,8 @@ function dGram(lv,L){const bs=[...new Set(L.map(p=>p.bai))].sort((a,b)=>a-b),key
  $('#dBody').onclick=e=>{const q=e.target.closest('[data-gq]');if(q){const p=P[+q.dataset.gq];startSkill(gItems([p]),`Ngữ pháp ${p.n}`);return}
   if(e.target.closest('[data-pr]'))startSkill(shuf(gItems(P)).slice(0,30),`${DLVVI[lv]}${b==='all'?'':' Bài '+b} · Ngữ pháp`)}}
 const BUOI=[{n:4,d:'Buổi 4',it:[
- {f:'tailieu/Buoi04_ChuHan_TuVung_NguPhap_LuyenDe.html',jp:'漢字・語彙・文法・模擬試験',vi:'Chữ Hán 初級1 21–40 · Từ vựng Bài 4–6 · Ngữ pháp Bài 5–7 · Luyện đề 文字と語彙 + 会話と表現 (20 câu, giao diện máy thi)',k:'slide',tag:'Slide'}]},
+ {f:'tailieu/Buoi04_Phan1_ChuHan_TuVung_NguPhap.html',jp:'漢字・語彙・文法 初級1',vi:'Phần 1 · Chữ Hán 初級1 21–40 · Từ vựng Bài 4–6 · Ngữ pháp Bài 5–7',k:'slide',tag:'Slide'},
+ {f:'tailieu/Buoi04_Phan2_LuyenDe.html',jp:'模擬試験 · 文字と語彙・会話と表現',vi:'Phần 2 · Luyện đề 20 câu trích bộ đề JFT, giao diện giống máy thi, có giải thích',k:'slide',tag:'Slide'}]},
  {n:3,d:'Buổi 3',it:[
  {f:'tailieu/Buoi03_ChuHan_TuVung_NguPhap.html',jp:'漢字・語彙・文法 初級1',vi:'Chữ Hán 初級1 1–20 (kèm từ cùng chữ Hán) · Từ vựng Bài 1–3 · Ngữ pháp Bài 4',k:'slide',tag:'Slide'}]},
  {n:2,d:'Buổi 2',it:[
