@@ -875,7 +875,7 @@ body.nlock{overflow:hidden}
 <script src="app/data/vocab.js?v=4314c895"></script>
 <script src="app/data/grammar.js?v=7e915ad4"></script>
 <script src="app/data/hw.js?v=3bb59009"></script>
-<script src="app/data/videos.js?v=d44f415e"></script>
+<script src="app/data/videos.js?v=829bcbea"></script>
 <script>
 /* ===== cấu hình tài khoản chung (đổi tại đây) ===== */
 const ACCOUNT={user:decodeURIComponent((document.cookie.match(/(?:^|; )jft_user=([^;]*)/)||[0,''])[1])||'hocvien',hash:''};
@@ -1297,7 +1297,8 @@ function dGram(lv,L){const bs=[...new Set(L.map(p=>p.bai))].sort((a,b)=>a-b),key
   if(e.target.closest('[data-pr]'))startSkill(shuf(gItems(P)).slice(0,30),`${DLVVI[lv]}${b==='all'?'':' Bài '+b} · Ngữ pháp`)}}
 const BUOI=[{n:5,d:'Buổi 5',it:[
  {f:'tailieu/Buoi05_Phan1_NguPhap_MindMap.html',jp:'文法まとめ · マインドマップ',vi:'Phần 1 · Mindmap 7 chủ đề ngữ pháp JFT (32 mẫu) + 14 câu trắc nghiệm bám sát いろどり',k:'slide',tag:'Slide'},
- {f:'tailieu/Buoi05_Phan2_LuyenDe.html',jp:'模擬試験 · 文字と語彙・会話と表現',vi:'Phần 2 · 文字と語彙 12 câu từ vựng いろどり 初級1 Bài 7–9 + 会話と表現 12 câu (Đề 2 + Đề 3), giao diện máy thi, có giải thích',k:'slide',tag:'Slide'}]},
+ {f:'tailieu/Buoi05_Phan2_LuyenDe.html',jp:'模擬試験 · 文字と語彙・会話と表現',vi:'Phần 2 · 文字と語彙 12 câu từ vựng いろどり 初級1 Bài 7–9 + 会話と表現 12 câu (Đề 2 + Đề 3), giao diện máy thi, có giải thích',k:'slide',tag:'Slide'},
+ {f:'tailieu/Buoi05_DocHieu_PhanTichCau.html',jp:'読解 · 説明する部分＋名詞',vi:'Phần 3 · Đọc hiểu: phân tích câu (phần giải thích + danh từ) + luyện 5 câu đọc hiểu trong bộ đề thi thử',k:'slide',tag:'Slide'}]},
  {n:4,d:'Buổi 4',it:[
  {f:'tailieu/Buoi04_Phan1_ChuHan_TuVung_NguPhap.html',jp:'漢字・語彙・文法 初級1',vi:'Phần 1 · Chữ Hán 初級1 21–40 · Từ vựng Bài 4–6 · Ngữ pháp Bài 5–7',k:'slide',tag:'Slide'},
  {f:'tailieu/Buoi04_Phan2_LuyenDe.html',jp:'模擬試験 · 文字と語彙・会話と表現',vi:'Phần 2 · Luyện đề 20 câu trích bộ đề JFT, giao diện giống máy thi, có giải thích',k:'slide',tag:'Slide'},
