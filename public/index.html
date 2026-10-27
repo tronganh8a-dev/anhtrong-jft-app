@@ -1286,7 +1286,10 @@ function dGram(lv,L){const bs=[...new Set(L.map(p=>p.bai))].sort((a,b)=>a-b),key
    ${(p.qz||[]).length?`<button class="btn sm gq" type="button" data-gq="${i}">Luyện ${p.qz.length} câu mẫu này →</button>`:''}</div></details>`).join('')}</div>`;
  $('#dBody').onclick=e=>{const q=e.target.closest('[data-gq]');if(q){const p=P[+q.dataset.gq];startSkill(gItems([p]),`Ngữ pháp ${p.n}`);return}
   if(e.target.closest('[data-pr]'))startSkill(shuf(gItems(P)).slice(0,30),`${DLVVI[lv]}${b==='all'?'':' Bài '+b} · Ngữ pháp`)}}
-const BUOI=[{n:4,d:'Buổi 4',it:[
+const BUOI=[{n:5,d:'Buổi 5',it:[
+ {f:'tailieu/Buoi05_Phan1_NguPhap_MindMap.html',jp:'文法まとめ · マインドマップ',vi:'Phần 1 · Mindmap 7 chủ đề ngữ pháp JFT (32 mẫu) + 14 câu trắc nghiệm bám sát いろどり',k:'slide',tag:'Slide'},
+ {f:'tailieu/Buoi05_Phan2_LuyenDe.html',jp:'模擬試験 · 文字と語彙・会話と表現',vi:'Phần 2 · Chữa đề JFT 24 câu (hết Đề 2 + Đề 3), giao diện máy thi, có giải thích',k:'slide',tag:'Slide'}]},
+ {n:4,d:'Buổi 4',it:[
  {f:'tailieu/Buoi04_Phan1_ChuHan_TuVung_NguPhap.html',jp:'漢字・語彙・文法 初級1',vi:'Phần 1 · Chữ Hán 初級1 21–40 · Từ vựng Bài 4–6 · Ngữ pháp Bài 5–7',k:'slide',tag:'Slide'},
  {f:'tailieu/Buoi04_Phan2_LuyenDe.html',jp:'模擬試験 · 文字と語彙・会話と表現',vi:'Phần 2 · Luyện đề 20 câu trích bộ đề JFT, giao diện giống máy thi, có giải thích',k:'slide',tag:'Slide'},
  {f:'tailieu/Buoi04_DocHieu_AiLamHanhDong.html',jp:'読解 · だれがしたか',vi:'Đọc hiểu · Ai làm hành động? Ngữ pháp あげる・もらう・くれる, bị động, sai khiến + bài đọc e-mail Shinkanzen N4, có đáp án và giải thích',k:'slide',tag:'Slide'},
