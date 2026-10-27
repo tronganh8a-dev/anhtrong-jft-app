@@ -230,5 +230,32 @@
     "k": "web"
    }
   ]
+ },
+ {
+  "id": "captoc-05",
+  "series": "Khoá cấp tốc",
+  "series_jp": "短期集中コース",
+  "no": "Buổi 5",
+  "title": "Tổng ôn 7 chủ đề ngữ pháp + Chữa đề JFT",
+  "tags": [
+   "文法",
+   "文字と語彙",
+   "会話と表現"
+  ],
+  "yt": "",
+  "date": "2026-10-27",
+  "desc": "Kèm theo: Mindmap 7 chủ đề ngữ pháp (32 mẫu) · 14 câu trắc nghiệm いろどり · Chữa đề JFT 24 câu (hết Đề 2 + Đề 3)",
+  "slides": [
+   {
+    "t": "Slide Phần 1: Mindmap 7 chủ đề ngữ pháp",
+    "sub": "26 slide · mindmap + 14 câu trắc nghiệm",
+    "u": "tailieu/Buoi05_Phan1_NguPhap_MindMap.html"
+   },
+   {
+    "t": "Slide Phần 2: Chữa đề JFT",
+    "sub": "24 câu 文字と語彙・会話と表現 · giao diện máy thi",
+    "u": "tailieu/Buoi05_Phan2_LuyenDe.html"
+   }
+  ]
  }
 ]
