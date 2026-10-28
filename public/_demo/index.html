@@ -1450,7 +1450,10 @@ function key(e,fromFrame){if(!open)return;const tg=e.target&&e.target.tagName||'
   if(fs()||strokes.some(s=>!s.f))clear(); // chuyển slide → xoá nét cũ (Ctrl+Z để lấy lại)
   if(!fromFrame){const fr=$('#vFrame');try{const d=fr.contentDocument;e.preventDefault();d.dispatchEvent(new KeyboardEvent('keydown',{key:e.key,code:e.code,keyCode:e.keyCode,which:e.which,bubbles:true,cancelable:true}))}catch(_){}}}}
 document.addEventListener('keydown',e=>key(e,false));
-$('#vFrame').addEventListener('load',()=>{try{$('#vFrame').contentWindow.addEventListener('keydown',e=>key(e,true),true)}catch(_){}});
+$('#vFrame').addEventListener('load',()=>{try{const w=$('#vFrame').contentWindow;w.addEventListener('keydown',e=>key(e,true),true);
+ /* slide tự bật toàn màn hình bên trong iframe sẽ che mất bút → chuyển sang toàn màn hình của khung xem (giữ bút) */
+ const de=w.document.documentElement,tg=()=>{if(fs()){(document.exitFullscreen||document.webkitExitFullscreen).call(document);return Promise.resolve()}const f=$('#vFrameWrap');return Promise.resolve((f.requestFullscreen||f.webkitRequestFullscreen||(()=>{})).call(f))};
+ de.requestFullscreen=tg;de.webkitRequestFullscreen=tg;w.document.exitFullscreen=tg;w.__inApp=1}catch(_){}});
 /* hiện nút ở các phần học; đổi trang thì xoá nét */
 window.penSync=id=>{fab.classList.toggle('show',SCR.includes(id));commit(true);strokes=strokes.filter(s=>s.f);hist=[];if(!SCR.includes(id))show(false);req()};
 const g0=go;go=function(id){g0(id);penSync(id)};
