@@ -263,5 +263,33 @@
     "u": "tailieu/Buoi05_DocHieu_PhanTichCau.html"
    }
   ]
+ },
+ {
+  "id": "captoc-06",
+  "series": "Khoá cấp tốc",
+  "series_jp": "短期集中コース",
+  "no": "Buổi 6",
+  "title": "Ngữ pháp mở rộng + Từ vựng N＋V + Đọc hiểu tâm trạng người viết",
+  "tags": [
+   "文法",
+   "文字と語彙",
+   "会話と表現",
+   "読解"
+  ],
+  "yt": "",
+  "date": "2026-10-28",
+  "desc": "Kèm theo: 6 chủ đề ngữ pháp mở rộng (mindmap + giải thích kỹ + 18 câu 会話と表現) · Từ vựng danh từ + động từ (36 cụm いろどり, 12 câu) · Đọc hiểu: tâm trạng người viết",
+  "slides": [
+   {
+    "t": "Slide Phần 1: Ngữ pháp mở rộng + Từ vựng N＋V",
+    "sub": "85 slide · mindmap · giải thích kỹ · 30 câu kiểu máy thi, có bình chọn",
+    "u": "tailieu/Buoi06_Phan1_NguPhap_TuVung.html"
+   },
+   {
+    "t": "Slide Phần 2: Đọc hiểu · Tâm trạng người viết",
+    "sub": "21 slide · 書いた人の気持ち · もんだい6 · luyện 3 bài đề thi thử",
+    "u": "tailieu/Buoi06_DocHieu_TamTrangNguoiViet.html"
+   }
+  ]
  }
 ]
