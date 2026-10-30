@@ -173,6 +173,14 @@ footer{margin-top:36px;color:var(--muted);font-size:12px;border-top:1px solid va
 .hero .hb:hover{transform:translateY(-1px);box-shadow:0 6px 16px rgba(31,36,48,.18)}.hero .hb.pri:hover span{transform:translateX(3px)}
 .hero .hb:not(.pri):hover{background:rgba(255,255,255,.6)}
 @media (max-width:760px){.hero h2{font-size:32px}.hero .kick{font-size:11px;letter-spacing:.1em}}
+.promo{display:grid;grid-template-columns:1fr auto;grid-template-areas:"k p" "t p" "c p";gap:4px 18px;align-items:center;margin-top:18px;padding:18px 22px;border-radius:18px;text-decoration:none;color:#3b1a0c;background:radial-gradient(420px 200px at 100% 0%,#ffd98a 0%,rgba(255,217,138,0) 70%),linear-gradient(110deg,#fff3e2 0%,#ffe6d2 55%,#ffd9c7 100%);border:1px solid #f6c9a8;box-shadow:0 6px 18px rgba(196,90,40,.10);position:relative;overflow:hidden;transition:transform .15s,box-shadow .15s}
+.promo:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(196,90,40,.18)}
+.promo .pk{grid-area:k;justify-self:start;background:#c42f66;color:#fff;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:4px 10px;border-radius:20px;white-space:nowrap}
+.promo .pt{grid-area:t;display:flex;flex-direction:column}.promo .pt b{font-size:21px;line-height:1.25;color:#2a1206}.promo .pt small{font-size:12px;color:#8a5a3c;margin-top:2px}
+.promo .pp{grid-area:p;display:flex;flex-direction:column;align-items:center;justify-content:center;background:#fff;border:2px dashed #e8956a;border-radius:16px;padding:10px 16px;min-width:112px;text-align:center}
+.promo .pp b{font-size:30px;line-height:1.05;color:#d2401f;letter-spacing:-.01em}.promo .pp small{font-size:11px;color:#8a5a3c}
+.promo .pc{grid-area:c;font-size:13px;font-weight:700;color:#b5371c}.promo .pc i{font-style:normal;display:inline-block;transition:transform .15s}.promo:hover .pc i{transform:translateX(3px)}
+@media (max-width:600px){.promo{padding:14px 14px;gap:4px 12px;margin-top:14px}.promo .pt b{font-size:17px}.promo .pp{min-width:92px;padding:8px 10px}.promo .pp b{font-size:24px}.promo .pc{font-size:12px}.promo .pk{font-size:9.5px;letter-spacing:.03em;padding:4px 8px}}
 .sched{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:18px;border-left:4px solid var(--pink)}
 .sched .jp{font-size:12px;color:var(--muted);margin-left:8px}.sched p{margin:4px 0 0;color:var(--muted);font-size:14px}
 .sched .btn{text-decoration:none}
@@ -729,6 +737,12 @@ body.nlock{overflow:hidden}
     </div>
     <div class="covers" aria-hidden="true"><img src="app/media/cover/nyumon.jpg" alt=""><img src="app/media/cover/s1.jpg" alt=""><img src="app/media/cover/s2.jpg" alt=""><img src="app/media/cover/sc.jpg" alt=""></div>
   </div>
+  <a class="promo" href="https://www.facebook.com/anh.trongg.2024/" target="_blank" rel="noopener">
+    <span class="pk">Ưu đãi cho học viên của lớp</span>
+    <span class="pt"><b>Học Gino Chế biến thực phẩm</b><small class="jp">特定技能1号 · 飲食料品製造業</small></span>
+    <span class="pp"><small>chỉ từ</small><b>5 sên</b><small>(5.000 yên)</small></span>
+    <span class="pc">Nhắn Anh Trọng để đăng ký <i>→</i></span>
+  </a>
   <div class="card news">
     <div class="nh"><div><b>Bảng tin</b><span class="jp">お知らせ</span></div><span class="muted">Bài mới từ Anh Trọng Dạy JFT · bấm để xem</span></div>
     <div class="nlist" id="newsList"></div>
