@@ -1305,7 +1305,8 @@ function dGram(lv,L){const bs=[...new Set(L.map(p=>p.bai))].sort((a,b)=>a-b),key
    ${(p.qz||[]).length?`<button class="btn sm gq" type="button" data-gq="${i}">Luyện ${p.qz.length} câu mẫu này →</button>`:''}</div></details>`).join('')}</div>`;
  $('#dBody').onclick=e=>{const q=e.target.closest('[data-gq]');if(q){const p=P[+q.dataset.gq];startSkill(gItems([p]),`Ngữ pháp ${p.n}`);return}
   if(e.target.closest('[data-pr]'))startSkill(shuf(gItems(P)).slice(0,30),`${DLVVI[lv]}${b==='all'?'':' Bài '+b} · Ngữ pháp`)}}
-const BUOI=[{n:6,d:'Buổi 6',it:[
+const BUOI=[{n:7,d:'Buổi 7',it:[{f:'tailieu/Buoi07_DocHieu_ChiThi_TuNoi.html',jp:'読解 · 「これ」「それ」・接続の表現',vi:'Đọc hiểu: từ chỉ thị + từ nối (kỹ năng 7–8) + もんだい7 説明文 + luyện 3 bài trong bộ đề thi thử',k:'slide',tag:'Slide'}]},
+{n:6,d:'Buổi 6',it:[
  {f:'tailieu/Buoi06_Phan1_NguPhap_TuVung.html',jp:'文法まとめ② · 名詞＋動詞',vi:'Phần 1 · 6 chủ đề ngữ pháp mở rộng (mindmap + giải thích kỹ + 18 câu 会話と表現) · Từ vựng danh từ + động từ (36 cụm いろどり, 12 câu 文字と語彙) · có bình chọn',k:'slide',tag:'Slide'},
  {f:'tailieu/Buoi06_DocHieu_TamTrangNguoiViet.html',jp:'読解 · 書いた人の気持ち',vi:'Phần 2 · Đọc hiểu: tâm trạng người viết (từ khen/chê, đường cảm xúc) + もんだい6 + luyện 3 bài trong bộ đề thi thử',k:'slide',tag:'Slide'}]},
  {n:5,d:'Buổi 5',it:[
