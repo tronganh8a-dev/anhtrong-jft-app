@@ -44,9 +44,9 @@ export async function currentUser(req, env) {
 
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
-function loginPage(err = '', user = '', next = '/') {
+function loginPage(err = '', user = '', next = '/', origin = '') {
   return new Response(`<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Đăng nhập · Anh Trọng Dạy JFT</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&display=swap" rel="stylesheet"><meta name="robots" content="noindex"><meta name="theme-color" content="#0a4670">
+<title>Đăng nhập · Anh Trọng Dạy JFT</title><link rel="icon" href="/app/media/brand/icon.svg" type="image/svg+xml"><link rel="icon" href="/app/media/brand/favicon-32.png" sizes="32x32" type="image/png"><link rel="apple-touch-icon" href="/app/media/brand/apple-touch-icon.png"><link rel="manifest" href="/app/media/brand/site.webmanifest"><meta name="theme-color" content="#0d5a8c"><meta name="description" content="Học và luyện thi JFT-Basic theo giáo trình いろどり cùng Anh Trọng Dạy JFT."><meta property="og:title" content="Anh Trọng Dạy JFT · Học & luyện thi JFT-Basic"><meta property="og:description" content="Học và luyện thi JFT-Basic theo giáo trình いろどり: bài học, đề thi thử giống máy thi, video chữa đề."><meta property="og:type" content="website"><meta property="og:image" content="${origin}/app/media/brand/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&display=swap" rel="stylesheet"><meta name="robots" content="noindex"><meta name="theme-color" content="#0a4670">
 <style>
 *{box-sizing:border-box}
 html,body{margin:0;min-height:100%}
@@ -54,7 +54,7 @@ body{min-height:100vh;display:grid;grid-template-columns:1.15fr 1fr;font-family:
 .jp{font-family:"M PLUS Rounded 1c","Hiragino Maru Gothic ProN",sans-serif}
 .side{position:relative;overflow:hidden;color:#fff;padding:48px 56px;display:flex;flex-direction:column;background:radial-gradient(900px 600px at 90% 0%,#1a78b4 0%,rgba(26,120,180,0) 60%),linear-gradient(140deg,#0b3d60 0%,#0d5a8c 55%,#0a4670 100%)}
 .side::after{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);background-size:44px 44px;mask-image:linear-gradient(180deg,#000,transparent 80%);pointer-events:none}
-.brand{display:flex;align-items:center;gap:12px;font-weight:700;font-size:18px;position:relative;z-index:1}
+.brand{position:relative;z-index:1}.brand img{display:block;width:230px;height:auto}
 .logo{width:42px;height:42px;border-radius:11px;background:#c42f66;color:#fff;display:grid;place-items:center;font-weight:800;font-size:16px;flex:none}
 .side h1{position:relative;z-index:1;font-size:46px;line-height:1.2;margin:56px 0 22px;letter-spacing:-.01em;font-weight:800}
 .side h1 span{color:#ffd166;white-space:nowrap}
@@ -89,14 +89,14 @@ small.cr{display:block;margin-top:22px;color:#9aa6b0;font-size:11.5px;text-align
 @media (max-width:880px){
  body{grid-template-columns:1fr}
  .side{padding:24px 20px 0;min-height:auto}
- .side h1{font-size:28px;margin:22px 0 8px}.side p.lead{font-size:14.5px}.chips{display:none}
+ .brand img{width:180px}.side h1{font-size:28px;margin:22px 0 8px}.side p.lead{font-size:14.5px}.chips{display:none}
  .books{height:150px;margin-top:18px;align-self:center;width:330px}
  .books img{width:96px;bottom:-44px}.books img:nth-child(2){left:70px;bottom:-34px}.books img:nth-child(3){left:140px;bottom:-34px}.books img:nth-child(4){left:210px}
  main{padding:22px 16px 32px}form{padding:26px 22px;margin-top:-8px}
 }
 </style></head><body>
 <aside class="side">
- <div class="brand"><span class="logo">AT</span>Anh Trọng Dạy JFT</div>
+ <div class="brand"><img src="/app/media/brand/logo-ngang-trang.svg" alt="Anh Trọng Dạy JFT" width="224" height="57"></div>
  <h1>Học và Luyện thi <span>JFT-Basic</span></h1>
  <div class="chips"><span class="jp">入門 A1</span><span class="jp">初級1 A2</span><span class="jp">初級2 A2</span><span class="jp">初中級 A2/B1</span></div>
  <div class="books" aria-hidden="true"><img src="/app/media/cover/nyumon.jpg" alt=""><img src="/app/media/cover/s1.jpg" alt=""><img src="/app/media/cover/s2.jpg" alt=""><img src="/app/media/cover/sc.jpg" alt=""></div>
@@ -129,7 +129,7 @@ export async function handle(req, env, next) {
     const p = String(f.get('p') || '');
     const dest = safeNext(f.get('next'));
     const pass = accounts(env).get(u);
-    if (!pass || pass !== p) return loginPage('Sai tài khoản hoặc mật khẩu.', u, dest);
+    if (!pass || pass !== p) return loginPage('Sai tài khoản hoặc mật khẩu.', u, dest, url.origin);
     const exp = Date.now() + DAYS * 864e5;
     const val = `${u}|${exp}|${await sign(env, `${u}|${exp}|${pass}`)}`;
     const h = new Headers({ Location: dest, 'Cache-Control': 'no-store' });
@@ -150,9 +150,9 @@ export async function handle(req, env, next) {
     return new Response(null, { status: 303, headers: h });
   }
 
-  if (url.pathname.startsWith('/app/media/cover/') && req.method === 'GET') return next();
+  if ((url.pathname.startsWith('/app/media/cover/') || url.pathname.startsWith('/app/media/brand/') || url.pathname === '/favicon.ico') && req.method === 'GET') return next();
   if (url.pathname === '/login' && req.method === 'GET') {
-    return loginPage('', '', safeNext(url.searchParams.get('next')));
+    return loginPage('', '', safeNext(url.searchParams.get('next')), url.origin);
   }
   const user = await currentUser(req, env);
   if (!user) {

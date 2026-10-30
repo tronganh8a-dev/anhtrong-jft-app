@@ -61,7 +61,7 @@ n = 0
 for root, _, fs in os.walk(P + 'app/media'):
     for f in fs:
         rel = os.path.relpath(os.path.join(root, f), P)
-        if rel.startswith('app/media/cover/') or rel.startswith('app/media/news/') or rel in blob or f in blob or ('gimg' in rel and '"'+os.path.splitext(f)[0]+'"' in blob):
+        if rel.startswith('app/media/cover/') or rel.startswith('app/media/news/') or rel.startswith('app/media/brand/') or rel in blob or f in blob or ('gimg' in rel and '"'+os.path.splitext(f)[0]+'"' in blob):
             cp(rel); n += 1
 s = open(P + 'index.html', encoding='utf-8').read()
 # Theo buổi học: mở tài liệu đầu tiên

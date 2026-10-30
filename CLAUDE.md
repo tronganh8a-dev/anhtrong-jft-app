@@ -98,3 +98,9 @@ Quy trình sau khi sửa: `python3 src/build_data.py` (nếu đổi dữ liệu)
 - **Cá nhân hoá (lưu tiến độ, bài làm theo tài khoản)**: dự định dùng Cloudflare D1 — chờ anh tạo D1 Database ID + tên tài khoản giáo viên.
 - Tuỳ chọn: áp font M PLUS Rounded 1c cho toàn app (đã đề xuất, chưa chốt).
 - Video quảng bá/thumbnail còn nhắc "20 đề thi thử" — bộ đề cũ đã xoá.
+
+## Logo thương hiệu (30/10/2026)
+- File gốc: `public/app/media/brand/` — `logo-ngang.svg` (nền sáng), `logo-ngang-trang.svg` (nền tối), `logo-mark.svg` / `logo-mark-trang.svg` (chỉ biểu tượng), `icon.svg` + `icon-512/192.png`, `apple-touch-icon.png`, `favicon-32/48.png`, `og.png` (ảnh chia sẻ link 1200×630), `site.webmanifest`; `public/favicon.ico`.
+- Màu: xanh #0d5a8c · hồng #c42f66 · chữ #0d2b40 (trùng --blue / --pink của app).
+- `/app/media/brand/` và `/favicon.ico` mở công khai (auth.js) để trang đăng nhập, trang kiểm tra dùng được.
+- Đang dùng ở: sidebar + form đăng nhập + hero (index_tpl), trang /login (auth.js, kèm og:image), trang kiểm tra (kiemtra/tpl.html, kiemtra.js), BTVN (btvn/render.py), header slide trong tailieu (class `logo lgimg`, nền là icon.svg).

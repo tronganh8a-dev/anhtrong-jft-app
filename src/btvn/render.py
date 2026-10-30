@@ -20,7 +20,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:"Be Vietnam Pro"
 ruby{ruby-position:over}rt{font-size:.55em;color:var(--muted)}
 body.nofuri rt{visibility:hidden}
 .wrap{max-width:860px;margin:0 auto;padding:20px 16px 80px}
-header.top{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+header.top{display:flex;align-items:center;gap:14px;margin-bottom:14px;flex-wrap:wrap}header.top .blogo{width:170px;height:auto;display:block}
 .logo{width:40px;height:40px;border-radius:10px;background:var(--acc);color:#fff;display:grid;place-items:center;font-weight:700;flex:none}
 header.top b{display:block}header.top small{color:var(--muted)}
 .hero{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 22px;margin-bottom:16px}
@@ -171,20 +171,20 @@ def page(s, mode):
     title = f'BTVN Buổi {s["no"]:02d} · {s["tv"]}'
     sub = ' · '.join(s['sub'])
     if mode == 'web':
-        top = f'''<header class="top"><span class="logo">AT</span><div><b>Anh Trọng Dạy JFT</b><small>Bài tập về nhà · Giáo trình いろどり</small></div></header>
+        top = f'''<header class="top"><img class="blogo" src="/app/media/brand/logo-ngang.svg" alt="Anh Trọng Dạy JFT" width="224" height="57"><small>Bài tập về nhà · Giáo trình いろどり</small></header>
 <div class="hero"><div class="k">Buổi {s["no"]:02d} · {html.escape(s["lvj"])} · {html.escape(s["bai"])}</div><h1><span class="jp">{html.escape(s["tj"])}</span>{html.escape(s["tv"])}</h1><div class="sub jp">{html.escape(sub)}</div>
 <div class="meta"><input id="nm" placeholder="Họ tên học viên" aria-label="Họ tên học viên"><button class="btn" id="fu" type="button">ふりがな: Bật</button><button class="btn" id="pr" type="button">In</button><span id="prog" style="color:var(--muted);font-size:14px"></span></div></div>
 <div class="res" id="res" aria-live="polite"></div>'''
         bar = '<div class="bar"><button class="btn" id="rs" type="button">Làm lại</button><button class="btn pri" id="sub" type="button">Nộp bài & chấm điểm</button></div>'
         css = CSS; bcls = ''
     else:
-        top = f'''<header class="top"><span class="logo">AT</span><div><b>Anh Trọng Dạy JFT</b><small>Bài tập về nhà · Giáo trình いろどり</small></div></header>
+        top = f'''<header class="top"><img class="blogo" src="/app/media/brand/logo-ngang.svg" alt="Anh Trọng Dạy JFT" width="224" height="57"><small>Bài tập về nhà · Giáo trình いろどり</small></header>
 <div class="hero"><div class="k">Buổi {s["no"]:02d} · {html.escape(s["lvj"])} · {html.escape(s["bai"])} · {s["total"]} câu chấm điểm</div><h1><span class="jp">{html.escape(s["tj"])}</span>{html.escape(s["tv"])}</h1><div class="sub jp">{html.escape(sub)}</div>
 <div class="meta"><span>Họ tên:</span><span class="name"></span><span style="margin-left:8mm">Điểm:</span><span class="name" style="min-width:25mm"></span></div></div>'''
         bar = ''; css = CSS + PRINT_CSS; bcls = 'print'
     foot = '<footer>© 2026 Anh Trọng Dạy JFT · 出典：国際交流基金「いろどり 生活の日本語」（ことば・漢字のことば・文法ワークシート・聴解スクリプト）。Câu trắc nghiệm kiểu JFT, câu nhiễu và phần giải thích tiếng Việt do Anh Trọng Dạy JFT soạn.</footer>'
     data = json.dumps(dict(no=s['no'], secs=d['secs']), ensure_ascii=False).replace('</', '<\\/')
-    return f'''<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{html.escape(title)}</title><style>{css}</style></head>
+    return f'''<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{html.escape(title)}</title><link rel="icon" href="/app/media/brand/icon.svg" type="image/svg+xml"><link rel="icon" href="/app/media/brand/favicon-32.png" sizes="32x32" type="image/png"><link rel="apple-touch-icon" href="/app/media/brand/apple-touch-icon.png"><style>{css}</style></head>
 <body class="{bcls}"><div class="wrap">{top}<div id="body"></div>{foot}</div>{bar}<script type="application/json" id="data">{data}</script><script>{JS}</script></body></html>'''
 
 for s in S:

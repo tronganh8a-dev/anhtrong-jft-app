@@ -86,7 +86,7 @@ export async function ketqua(req, env) {
     return `<tr><td>${jst(r.ts)}</td><td class="nm">${esc(r.name)}</td><td class="sc">${r.score}/${r.total}</td>${r.secs.map(s => `<td>${s.c}/${s.n}</td>`).join('')}<td>${mmss(r.dur)}</td><td class="wr">${wrong.length ? wrong.join(', ') : '—'}</td>
 <td><form method="post" action="/kiemtra/ketqua/xoa" onsubmit="return confirm('Xoá bài nộp của ${esc(r.name).replace(/'/g, '')}?')"><input type="hidden" name="id" value="${r.id}"><input type="hidden" name="t" value="${esc(t)}"><button title="Xoá">✕</button></form></td></tr>`;
   }).join('');
-  const html = `<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Kết quả kiểm tra · Anh Trọng Dạy JFT</title><meta name="robots" content="noindex">
+  const html = `<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Kết quả kiểm tra · Anh Trọng Dạy JFT</title><link rel="icon" href="/app/media/brand/icon.svg" type="image/svg+xml"><link rel="icon" href="/app/media/brand/favicon-32.png" sizes="32x32" type="image/png"><link rel="apple-touch-icon" href="/app/media/brand/apple-touch-icon.png"><meta name="robots" content="noindex">
 <style>body{margin:0;font-family:"M PLUS Rounded 1c","Segoe UI",system-ui,sans-serif;background:#f3f6f8;color:#17222c}.w{max-width:1100px;margin:0 auto;padding:18px 16px 40px}
 h1{font-size:22px;margin:0 0 4px}h3{margin:16px 0 6px;font-size:15px}.top{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:12px 0}
 select,a.b{font:inherit;font-size:14px;padding:8px 12px;border-radius:10px;border:1.5px solid #cfd8de;background:#fff;color:#0d5a8c;text-decoration:none;font-weight:700}
