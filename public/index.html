@@ -631,7 +631,7 @@ body.locked .app{filter:blur(6px);pointer-events:none}
 #penFab{position:fixed;right:22px;bottom:22px;z-index:61;height:46px;border-radius:99px;border:0;background:var(--pink);color:#fff;display:none;align-items:center;gap:8px;padding:0 18px 0 14px;font:inherit;font-weight:700;font-size:15px;box-shadow:0 8px 22px rgba(196,47,102,.4);cursor:pointer;transition:transform .15s}
 #penFab:hover{transform:translateY(-2px)}#penFab svg{width:21px;height:21px}
 #penFab.show{display:flex}#penFab.show.open{display:none}
-body:has(.cbt.on) #penFab,body:has(.cbt.on) #penBar{display:none!important}
+body:has(.cbt.on) #penFab{bottom:80px!important;right:18px!important}body:has(.cbt.on) #penBar{bottom:80px!important;left:50%!important}
 #penBar{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);z-index:62;display:none;align-items:center;gap:2px;background:#17212b;color:#fff;border-radius:16px;padding:6px;box-shadow:0 12px 34px rgba(0,0,0,.35);user-select:none;-webkit-user-select:none;white-space:nowrap}
 #penBar.on{display:flex}
 #penBar .grp{display:flex;align-items:center;gap:2px}
@@ -936,9 +936,9 @@ const SEC_VI={'文字と語彙':'Chữ & Từ vựng','会話と表現':'Hội t
 const SEC_SHORT={'文字と語彙':'Script and Vocabulary','会話と表現':'Conversation and Expression','聴解':'Listening Comprehension','読解':'Reading Comprehension'};
 let S=null,tick=null,AU=null;
 function fmt(s){const h=Math.floor(s/3600),m=Math.floor(s%3600/60),x=s%60;return [h,m,x].map(v=>String(v).padStart(2,'0')).join(':')}
-function openCbt(){$('#finBtn').style.visibility='';$('#cbt').classList.add('on');document.body.style.overflow='hidden';$('#cbtF').style.display='flex'}
+function openCbt(){$('#finBtn').style.visibility='';$('#cbt').classList.add('on');document.body.style.overflow='hidden';$('#cbtF').style.display='flex';window._pqi=null;window.penSync&&penSync('cbt')}
 function stopAudio(){if(AU){AU.pause();AU=null}}
-function closeCbt(){clearInterval(tick);stopAudio();$('#cbt').classList.remove('on');$('#gridOv').classList.remove('on');document.body.style.overflow='';S=null}
+function closeCbt(){clearInterval(tick);stopAudio();$('#cbt').classList.remove('on');$('#gridOv').classList.remove('on');document.body.style.overflow='';S=null;window.penSync&&penSync(($('.screen.on')||{}).id)}
 $('#cbtClose').onclick=()=>{if(!S||S.done||confirm('Thoát bài đang làm? Kết quả sẽ không được lưu.'))closeCbt()};
 $('#viTg').onclick=()=>document.body.classList.toggle('novi');
 function setFuri(on){document.body.classList.toggle('nofuri',!on);const b=$('#furiTg');b.classList.toggle('on',on);b.setAttribute('aria-pressed',on);b.querySelector('b').textContent=on?'BẬT':'TẮT';try{localStorage.setItem('jftFuri',on?'1':'0')}catch(e){}}
@@ -967,7 +967,7 @@ function wirePlayers(){$$('#qArea .ply').forEach(p=>{const a=new Audio(p.dataset
 function ctxHtml(c){if(c.kind==='video')return `${c.t?`<div class="cbt-q">${c.t}</div>`:''}${c.yt?`<div class="yt"><iframe src="https://www.youtube-nocookie.com/embed/${c.yt}?rel=0" title="Video" allow="encrypted-media" allowfullscreen loading="lazy"></iframe></div>`:''}`;
  if(c.kind==='image')return `${c.t?`<div class="cbt-q">${c.t}</div>`:''}${(c.imgs||[]).map(s=>`<img class="cbt-img" src="${s}" alt="Hình" loading="lazy">`).join('')}`;
  if(c.kind==='text'&&(c.t||c.d))return `<div class="cbt-set">${c.t||''}${c.d?'<br>'+c.d:''}</div>`;return ''}
-function render(){stopAudio();const it=S.items,q=it[S.i],sec=curSec(),pos=sec.idx.indexOf(S.i);
+function render(){stopAudio();if(S&&S.i!==window._pqi){window._pqi=S.i;window.penClr&&penClr()}const it=S.items,q=it[S.i],sec=curSec(),pos=sec.idx.indexOf(S.i);
  $('#hQ').textContent=pos+1;$('#hS').textContent=secName(sec.name);if(S.mode==='exam')$('#timer').textContent=fmt(S.left);
  const free=S.mode==='exam'&&(S.practice||S.done);
  $('#cbtSec').innerHTML=S.secs.map((s,k)=>`<div class="s${k===S.sec?' cur':''}${k<S.sec?' done':''}${free?' go':''}" data-sk="${k}" title="${esc(secName(s.name))}">${esc(secName(s.name).slice(0,4))}${secName(s.name).length>4?'…':''}<i></i></div>`).join('');
@@ -1373,7 +1373,7 @@ renderNews();
 
 /* ===== bút dạ giảng bài: viết, highlight, tẩy, hoàn tác, xoá ===== */
 (()=>{
-const SCR=['learn','viewer','gram','vocab'];
+const SCR=['learn','viewer','gram','vocab','exam','cbt'];
 const IC={
  ptr:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M5 3l14 7-6.2 1.8L10 18z"/></svg>',
  pen:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16.5 3.5a2.1 2.1 0 013 3L8 18l-4 1 1-4z"/><path d="M14.5 5.5l3 3"/></svg>',
@@ -1470,6 +1470,7 @@ $('#vFrame').addEventListener('load',()=>{try{const w=$('#vFrame').contentWindow
  const de=w.document.documentElement,tg=()=>{if(fs()){(document.exitFullscreen||document.webkitExitFullscreen).call(document);return Promise.resolve()}const f=$('#vFrameWrap');return Promise.resolve((f.requestFullscreen||f.webkitRequestFullscreen||(()=>{})).call(f))};
  w.Element.prototype.requestFullscreen=tg;w.Element.prototype.webkitRequestFullscreen=tg;de.requestFullscreen=tg;w.document.exitFullscreen=tg;w.__inApp=1}catch(_){}});
 /* hiện nút ở các phần học; đổi trang thì xoá nét */
+window.penClr=()=>{commit(true);strokes=strokes.filter(s=>s.f);hist=[];req()};
 window.penSync=id=>{fab.classList.toggle('show',SCR.includes(id));commit(true);strokes=strokes.filter(s=>s.f);hist=[];if(!SCR.includes(id))show(false);req()};
 const g0=go;go=function(id){g0(id);penSync(id)};
 const host=()=>{const el=document.fullscreenElement||document.webkitFullscreenElement||document.body;if(ed)commit();if(cv.parentNode!==el){el.append(cv,bar,fab)}size()};
