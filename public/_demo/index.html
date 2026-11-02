@@ -1205,7 +1205,7 @@ $('#aiF').onsubmit=async e=>{e.preventDefault();const t=q.value.trim();if(!t||bt
 (()=>{const K='promo-ai-v1';let seen=false;try{seen=!!localStorage.getItem(K)}catch(_){}if(seen)return;
 const m=document.createElement('div');m.id='promoAi';m.innerHTML=`<div class="pb" role="dialog" aria-modal="true"><div class="ph"><button class="x" type="button" aria-label="Đóng">✕</button><span class="tag">✨ CHỨC NĂNG MỚI</span>
 <h3>Hỏi đáp cùng <span>trợ giảng AI</span></h3><ul><li>Đang làm đề, bí câu nào? Bấm nút 💬 góc màn hình → <b>"Vì sao đáp án đúng?"</b></li><li>AI đọc đúng câu bạn đang làm, giải thích đáp án, dịch, từ vựng kèm <b>Hán Việt</b></li><li>Hỏi được ở mọi trang: từ vựng, ngữ pháp, chữ Hán… (100 câu/ngày)</li></ul></div>
-<img src="app/media/promo/ai_demo.webp" alt="Ví dụ hỏi AI khi làm đề">
+<img src="app/media/promo/ai_demo2.webp" alt="Ví dụ hỏi AI khi làm đề">
 <div class="pf"><label><input type="checkbox" id="promoNo"> Không hiện lại</label><button class="lt" type="button">Để sau</button><button class="go" type="button">Thử ngay →</button></div></div>`;
 document.body.append(m);const close=(keep)=>{m.classList.remove('on');if(keep||$('#promoNo').checked){try{localStorage.setItem(K,'1')}catch(_){}}};
 m.querySelector('.x').onclick=()=>close();m.querySelector('.lt').onclick=()=>close();m.onclick=e=>{if(e.target===m)close()};
