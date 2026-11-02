@@ -325,5 +325,20 @@
   "date": "2026-11-02",
   "desc": "Luyện tập làm đề thi thử JFT-Basic trên app (mục Làm đề), chữa từng câu.",
   "slides": []
+ },
+ {
+  "id": "captoc-09",
+  "series": "Khoá cấp tốc",
+  "series_jp": "短期集中コース",
+  "no": "Buổi 9",
+  "title": "Tổng ôn Ngữ pháp 1",
+  "tags": [
+   "文法",
+   "会話と表現"
+  ],
+  "yt": "https://youtu.be/AKpvyGkHXIE",
+  "date": "2026-11-02",
+  "desc": "Tổng ôn ngữ pháp trọng tâm JFT-Basic (phần 1).",
+  "slides": []
  }
 ]
