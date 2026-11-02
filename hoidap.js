@@ -8,8 +8,10 @@ export async function hoi(req, env, user) {
   if (req.method !== 'POST') return J({ e: 'POST' }, 405);
   if (!env.GEMINI_KEY) return J({ e: 'Chưa cài GEMINI_KEY trên Cloudflare.' }, 500);
   let b; try { b = await req.json(); } catch { return J({ e: 'Dữ liệu không hợp lệ' }, 400); }
-  const q = String(b.q || '').trim().slice(0, MAXQ);
-  if (!q) return J({ e: 'Bạn chưa nhập câu hỏi.' }, 400);
+  const q0 = String(b.q || '').trim().slice(0, MAXQ);
+  const ctx = String(b.ctx || '').slice(0, 1200);
+  const q = ctx ? `${ctx}\n\nCâu hỏi của học viên: ${q0}` : q0;
+  if (!q0) return J({ e: 'Bạn chưa nhập câu hỏi.' }, 400);
   const h = (Array.isArray(b.h) ? b.h : []).slice(-4).map(x => ({ role: x.r === 'm' ? 'model' : 'user', parts: [{ text: String(x.t || '').slice(0, 800) }] }));
   const cache = caches.default, origin = new URL(req.url).origin;
   // câu hỏi trùng (không kèm lịch sử) → lấy lại câu trả lời cũ, không tốn token

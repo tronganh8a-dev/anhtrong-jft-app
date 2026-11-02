@@ -173,9 +173,17 @@ footer{margin-top:36px;color:var(--muted);font-size:12px;border-top:1px solid va
 .hero .hb:hover{transform:translateY(-1px);box-shadow:0 6px 16px rgba(31,36,48,.18)}.hero .hb.pri:hover span{transform:translateX(3px)}
 .hero .hb:not(.pri):hover{background:rgba(255,255,255,.6)}
 @media (max-width:760px){.hero h2{font-size:32px}.hero .kick{font-size:11px;letter-spacing:.1em}}
-#ai .aiw{display:flex;flex-direction:column;gap:10px}#aiLog{display:flex;flex-direction:column;gap:10px;max-height:60vh;min-height:220px;overflow:auto;padding:4px}
-.am{max-width:85%;padding:10px 14px;border-radius:14px;line-height:1.65;white-space:pre-wrap;word-break:break-word;font-size:15px}.am.u{align-self:flex-end;background:var(--blue);color:#fff;border-bottom-right-radius:4px}.am.m{align-self:flex-start;background:#f1f5f9;border-bottom-left-radius:4px}.am.e{background:#fdecec;color:#a11}
-.am.ld{color:var(--muted)}#aiF{display:flex;gap:8px;align-items:flex-end}#aiQ{flex:1;resize:none;border:1px solid #cfd8e3;border-radius:12px;padding:10px 12px;font:inherit;font-size:15px}
+#aiFab{position:fixed;right:22px;bottom:80px;z-index:63;width:52px;height:52px;border-radius:50%;border:0;background:var(--blue);color:#fff;box-shadow:0 8px 22px rgba(13,90,140,.4);cursor:pointer;display:flex;align-items:center;justify-content:center}#aiFab svg{width:26px;height:26px}#aiFab:hover{transform:translateY(-2px)}
+body:has(.cbt.on) #aiFab{bottom:136px;right:18px}
+#aiBox{position:fixed;right:22px;bottom:80px;z-index:64;width:min(380px,calc(100vw - 24px));height:min(560px,calc(100vh - 120px));background:#fff;border-radius:18px;box-shadow:0 18px 50px rgba(13,43,64,.28);display:none;flex-direction:column;overflow:hidden;font-family:var(--vi,inherit);color:#0d2b40}#aiBox.on{display:flex}
+#aiBox .hd{background:var(--blue);color:#fff;padding:12px 14px;display:flex;align-items:center;gap:8px}#aiBox .hd b{flex:1;font-size:15px}#aiBox .hd small{display:block;font-weight:500;opacity:.8;font-size:11px}#aiBox .hd button{background:#ffffff22;border:0;color:#fff;border-radius:8px;width:30px;height:30px;cursor:pointer;font-size:16px}
+#aiLog{flex:1;overflow:auto;padding:12px;display:flex;flex-direction:column;gap:9px;background:#f7f9fc}
+.am{max-width:88%;padding:9px 12px;border-radius:14px;line-height:1.6;white-space:pre-wrap;word-break:break-word;font-size:14px}.am.u{align-self:flex-end;background:var(--blue);color:#fff;border-bottom-right-radius:4px}.am.m{align-self:flex-start;background:#fff;border:1px solid #e3eaf0;border-bottom-left-radius:4px}.am.e{background:#fdecec;color:#a11}.am.ld{color:#7d93a5}.am .cx{display:block;font-size:11px;opacity:.85;margin-bottom:3px}
+#aiCtx{display:none;margin:0 10px;padding:6px 10px;background:#fff6e5;border:1px solid #f6d48a;border-radius:10px;font-size:12px;align-items:center;gap:6px}#aiCtx.on{display:flex}#aiCtx span{flex:1;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}#aiCtx button{border:0;background:none;cursor:pointer;color:#a15c00;font-weight:700}
+#aiF{display:flex;gap:6px;padding:10px;border-top:1px solid #e3eaf0;background:#fff;align-items:flex-end}#aiQ{flex:1;resize:none;border:1px solid #cfd8e3;border-radius:12px;padding:8px 10px;font:inherit;font-size:14px;max-height:110px}#aiB{border:0;background:var(--pink);color:#fff;border-radius:12px;padding:9px 14px;font:inherit;font-weight:700;cursor:pointer}#aiB:disabled{opacity:.5}
+#aiQk{display:none;padding:0 10px 6px;gap:6px;flex-wrap:wrap}#aiQk.on{display:flex}#aiQk button{border:1px solid #cfe0ee;background:#eef5fb;color:#0d5a8c;border-radius:99px;padding:4px 10px;font:inherit;font-size:12px;cursor:pointer}
+#aiInfo{font-size:11px;color:#7d93a5;padding:0 12px 8px;background:#fff}
+@media (max-width:760px){#aiFab{right:14px;bottom:calc(140px + env(safe-area-inset-bottom));width:48px;height:48px}#aiBox{right:12px;left:12px;width:auto;bottom:calc(84px + env(safe-area-inset-bottom));height:calc(100vh - 150px)}body:has(.cbt.on) #aiFab{bottom:136px}body:has(.cbt.on) #aiBox{bottom:72px}}
 .promo{display:grid;grid-template-columns:1fr auto;grid-template-areas:"k p" "t p" "c p";gap:4px 18px;align-items:center;margin-top:18px;padding:18px 22px;border-radius:18px;text-decoration:none;color:#3b1a0c;background:radial-gradient(420px 200px at 100% 0%,#ffd98a 0%,rgba(255,217,138,0) 70%),linear-gradient(110deg,#fff3e2 0%,#ffe6d2 55%,#ffd9c7 100%);border:1px solid #f6c9a8;box-shadow:0 6px 18px rgba(196,90,40,.10);position:relative;overflow:hidden;transition:transform .15s,box-shadow .15s}
 .promo:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(196,90,40,.18)}
 .promo .pk{grid-area:k;justify-self:start;background:#c42f66;color:#fff;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:4px 10px;border-radius:20px;white-space:nowrap}
@@ -724,7 +732,6 @@ body.nlock{overflow:hidden}
   <button class="nav" data-go="gram" type="button"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19V5a2 2 0 0 1 2-2h12v18H6a2 2 0 0 1-2-2z"/><path d="M8 7h7M8 11h7M8 15h4"/></svg>Ngữ pháp<span class="jp">文法</span></button>
   <button class="nav" data-go="video" type="button"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="6" width="14" height="12" rx="2.5"/><path d="M16 10.5l5.2-3v9l-5.2-3z"/></svg>Video<span class="jp">動画</span></button>
   <button class="nav" data-go="vocab" type="button"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="6" width="13" height="15" rx="2"/><path d="M8 3h11a2 2 0 0 1 2 2v12"/></svg>Từ vựng<span class="jp">語彙</span></button>
-  <button class="nav" data-go="ai" type="button"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .8-1 1.5M12 16h.01"/></svg>Hỏi đáp<span class="jp">質問</span></button>
   <button class="nav" data-go="hw" type="button"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4V3h6v1M9 11l2 2 4-4M9 17h6"/></svg>Bài tập về nhà<span class="jp">宿題</span></button>
   <div class="grow"></div>
   <button class="out" id="logout" type="button">Đăng xuất</button>
@@ -839,13 +846,6 @@ body.nlock{overflow:hidden}
 </section>
 
 <!-- VOCAB -->
-<section class="screen" id="ai">
-  <h1>Hỏi đáp <span class="jp" style="font-size:.55em;color:var(--muted)">質問コーナー</span></h1>
-  <p class="muted" style="margin:-6px 0 12px">Hỏi trợ giảng AI về từ vựng, ngữ pháp, chữ Hán, đề JFT… Câu trả lời do AI tạo, có thể sai — câu quan trọng hãy hỏi lại thầy.</p>
-  <div class="card aiw"><div id="aiLog"><div class="am m">Chào bạn! Mình là trợ giảng AI của lớp Anh Trọng Dạy JFT. Bạn muốn hỏi gì? Ví dụ: <i>"Phân biệt あげる・くれる・もらう"</i>, <i>"忙 đọc là gì, Hán Việt?"</i></div></div>
-  <form id="aiF"><textarea id="aiQ" rows="2" maxlength="600" placeholder="Nhập câu hỏi… (Enter để gửi, Shift+Enter xuống dòng)"></textarea><button class="btn" id="aiB" type="submit">Gửi</button></form>
-  <div class="muted" id="aiInfo" style="font-size:12px;margin-top:6px"></div></div>
-</section>
 <section class="screen" id="vocab">
   <div class="topbar"><h1>Từ vựng<span class="jp">語彙 · いろどり ことばリスト</span></h1></div>
   <div class="levels" id="lvVocab"></div>
@@ -1153,14 +1153,34 @@ function renderVArea(){const A=$('#vArea');if(!vList.length){A.innerHTML='<div c
 $('#furiBtn').onclick=()=>{document.body.classList.toggle('nofuri');$('#furiBtn').textContent='ふりがな: '+(document.body.classList.contains('nofuri')?'Tắt':'Bật')};
 
 
-/* ===== hỏi đáp AI ===== */
-(()=>{const log=$('#aiLog'),f=$('#aiF'),q=$('#aiQ'),bt=$('#aiB');let H=[];
+
+/* ===== hỏi đáp AI (ô chat góc màn hình) ===== */
+(()=>{const IC='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .8-1 1.5M12 16h.01"/></svg>';
+const fab=document.createElement('button');fab.id='aiFab';fab.type='button';fab.title='Hỏi trợ giảng AI';fab.innerHTML=IC;document.body.append(fab);
+const box=document.createElement('div');box.id='aiBox';box.innerHTML=`<div class="hd">${IC.replace('<svg','<svg width="22" height="22"')}<b>Hỏi trợ giảng AI<small>Từ vựng · ngữ pháp · chữ Hán · đề JFT</small></b><button type="button" id="aiX" aria-label="Đóng">✕</button></div>
+<div id="aiLog"><div class="am m">Chào bạn! Hỏi mình bất cứ điều gì về tiếng Nhật/JFT nhé. Đang làm đề thì bấm <b>"Hỏi về câu này"</b> để mình xem đúng câu bạn đang làm.<br><small style="color:#7d93a5">AI có thể sai — câu quan trọng hãy hỏi lại thầy.</small></div></div>
+<div id="aiQk"><button type="button" data-q="Giải thích giúp mình vì sao đáp án đúng là như vậy">Vì sao đáp án đúng?</button><button type="button" data-q="Dịch câu này sang tiếng Việt">Dịch câu này</button><button type="button" data-q="Giải thích từ vựng và ngữ pháp quan trọng trong câu này">Từ vựng · ngữ pháp</button></div>
+<div id="aiCtx"><span></span><button type="button" title="Bỏ câu đang gắn">✕</button></div>
+<form id="aiF"><textarea id="aiQ" rows="1" maxlength="600" placeholder="Nhập câu hỏi…"></textarea><button id="aiB" type="submit">Gửi</button></form><div id="aiInfo"></div>`;document.body.append(box);
+const log=$('#aiLog'),q=$('#aiQ'),bt=$('#aiB'),cx=$('#aiCtx'),qk=$('#aiQk');let H=[],CTX=null;
+const plain=h=>{const d=document.createElement('div');d.innerHTML=String(h||'').replace(/<rt>.*?<\/rt>/g,'').replace(/<br\s*\/?>/gi,'\n');return d.textContent.replace(/[ \t]+/g,' ').trim()};
+function curQ(){if(!S||!$('#cbt').classList.contains('on'))return null;const it=S.items[S.i];if(!it)return null;const N='①②③④⑤';
+ let t=`[Câu đang làm – ${S.title||''} · ${it.s||''}]\n${plain(it.t)}\n`+it.o.map((o,i)=>N[i]+' '+plain(o.t)).join('\n');if(it.imgs&&it.imgs.length)t+='\n(Câu có tranh – AI không xem được tranh)';
+ if(S.done||S.checked&&S.checked[S.i]||S.instant&&S.ans[S.i]&&S.ans[S.i].length)t+=`\nĐáp án đúng: ${it.a.map(i=>N[i]).join(',')}`;return {t:t.slice(0,1200),lab:`Câu ${S.i+1}: ${plain(it.t).slice(0,60)}`}}
+function setCtx(c){CTX=c;cx.classList.toggle('on',!!c);qk.classList.toggle('on',!!c);if(c)cx.querySelector('span').textContent='📎 '+c.lab}
+function syncBtn(){const c=curQ();let b=$('#aiAsk');if(c&&box.classList.contains('on')&&!CTX){if(!b){b=document.createElement('button');b.id='aiAsk';b.type='button';b.textContent='📎 Hỏi về câu này';b.style.cssText='margin:0 10px 6px;align-self:flex-start;border:1px dashed #f2a93b;background:#fff8ec;color:#a15c00;border-radius:99px;padding:4px 12px;font:inherit;font-size:12px;cursor:pointer';b.onclick=()=>{setCtx(curQ());b.remove();q.focus()};box.insertBefore(b,cx)}}else if(b&&(!c||CTX))b.remove()}
+fab.onclick=()=>{box.classList.toggle('on');if(box.classList.contains('on')){const c=curQ();if(c&&(!CTX||CTX.t!==c.t))setCtx(c);syncBtn();q.focus()}};
+$('#aiX').onclick=()=>box.classList.remove('on');cx.querySelector('button').onclick=()=>{setCtx(null);syncBtn()};
+qk.onclick=e=>{const b=e.target.closest('[data-q]');if(b){q.value=b.dataset.q;$('#aiF').requestSubmit()}};
+setInterval(()=>{if(!box.classList.contains('on'))return;const c=curQ();if(CTX&&c&&CTX.t!==c.t)setCtx(c);if(CTX&&!c)setCtx(null);syncBtn()},800);
 const md=t=>esc(t).replace(/\*\*(.+?)\*\*/g,'<b>$1</b>').replace(/^#+\s*(.+)$/gm,'<b>$1</b>').replace(/^\s*[-*]\s+/gm,'• ');
 const add=(c,h)=>{const d=document.createElement('div');d.className='am '+c;d.innerHTML=h;log.append(d);log.scrollTop=log.scrollHeight;return d};
-q.addEventListener('keydown',e=>{if(e.key==='Enter'&&!e.shiftKey&&!e.isComposing){e.preventDefault();f.requestSubmit()}});
-f.onsubmit=async e=>{e.preventDefault();const t=q.value.trim();if(!t||bt.disabled)return;q.value='';add('u',esc(t));const w=add('m ld','Đang trả lời…');bt.disabled=true;
- try{const r=await fetch('/api/hoi',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({q:t,h:H.slice(-4)})});const d=await r.json().catch(()=>({e:'Lỗi kết nối'}));
-  if(d.a){w.className='am m';w.innerHTML=md(d.a);H.push({r:'u',t},{r:'m',t:d.a.slice(0,800)});if(d.left!=null)$('#aiInfo').textContent=`Hôm nay còn ${d.left} câu hỏi.`}else{w.className='am e';w.textContent=d.e||'Có lỗi, thử lại sau.'}}
+q.addEventListener('keydown',e=>{e.stopPropagation();if(e.key==='Enter'&&!e.shiftKey&&!e.isComposing){e.preventDefault();$('#aiF').requestSubmit()}});
+q.addEventListener('input',()=>{q.style.height='auto';q.style.height=Math.min(110,q.scrollHeight)+'px'});
+$('#aiF').onsubmit=async e=>{e.preventDefault();const t=q.value.trim();if(!t||bt.disabled)return;q.value='';q.style.height='auto';const c=CTX;
+ add('u',(c?`<span class="cx">📎 ${esc(c.lab)}</span>`:'')+esc(t));const w=add('m ld','Đang trả lời…');bt.disabled=true;
+ try{const r=await fetch('/api/hoi',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({q:t,ctx:c?c.t:'',h:H.slice(-4)})});const d=await r.json().catch(()=>({e:'Lỗi kết nối'}));
+  if(d.a){w.className='am m';w.innerHTML=md(d.a);H.push({r:'u',t:(c?c.t+'\n':'')+t},{r:'m',t:d.a.slice(0,800)});if(d.left!=null)$('#aiInfo').textContent=`Hôm nay còn ${d.left} câu hỏi.`}else{w.className='am e';w.textContent=d.e||'Có lỗi, thử lại sau.'}}
  catch(_){w.className='am e';w.textContent='Không kết nối được. Kiểm tra mạng rồi thử lại.'}
  bt.disabled=false;q.focus()}})();
 /* ===== homework ===== */
