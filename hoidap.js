@@ -25,12 +25,32 @@ export async function hoi(req, env, user) {
   const body = { system_instruction: { parts: [{ text: SYS }] }, contents: [...h, { role: 'user', parts: [{ text: q }] }],
     generationConfig: { maxOutputTokens: 700, temperature: 0.4, thinkingConfig: { thinkingBudget: 0 } } };
   let a = '', err = '';
-  for (const m of [env.GEMINI_MODEL, 'gemini-flash-lite-latest', 'gemini-2.5-flash-lite'].filter(Boolean)) {
-    const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${m}:generateContent`, { method: 'POST', headers: { 'Content-Type': 'application/json', 'x-goog-api-key': env.GEMINI_KEY }, body: JSON.stringify(body) });
+  const call = async (m, cfg) => {
+    const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${m}:generateContent`, { method: 'POST', headers: { 'Content-Type': 'application/json', 'x-goog-api-key': env.GEMINI_KEY }, body: JSON.stringify({ ...body, generationConfig: cfg }) });
     const d = await r.json().catch(() => ({}));
-    if (r.ok) { a = (d.candidates?.[0]?.content?.parts || []).map(p => p.text || '').join('').trim(); break; }
-    err = d.error?.message || r.status;
-    if (r.status !== 404 && r.status !== 400) break;
+    return r.ok ? { a: (d.candidates?.[0]?.content?.parts || []).filter(p => !p.thought).map(p => p.text || '').join('').trim() } : { e: d.error?.message || String(r.status) };
+  };
+  const tryModel = async m => {
+    let x = await call(m, body.generationConfig);
+    if (x.e && /thinking/i.test(x.e)) x = await call(m, { maxOutputTokens: 700, temperature: 0.4 });
+    return x;
+  };
+  // model đã chọn được lần trước (lưu 1 ngày) → model khai báo → tự dò danh sách model của khoá
+  const mk = new Request(`${origin}/__hoi_model`);
+  const saved = await (await cache.match(mk))?.text();
+  const tried = new Set();
+  for (const m of [saved, env.GEMINI_MODEL, 'gemini-flash-lite-latest'].filter(Boolean)) {
+    if (tried.has(m)) continue; tried.add(m);
+    const x = await tryModel(m); if (x.a) { a = x.a; if (m !== saved) await cache.put(mk, new Response(m, { headers: { 'Cache-Control': 'max-age=86400' } })); break; } err = x.e;
+  }
+  if (!a) {
+    const r = await fetch('https://generativelanguage.googleapis.com/v1beta/models?pageSize=200', { headers: { 'x-goog-api-key': env.GEMINI_KEY } });
+    const L = ((await r.json().catch(() => ({}))).models || []).filter(x => (x.supportedGenerationMethods || []).includes('generateContent')).map(x => x.name.replace('models/', ''));
+    const score = n => (/flash-lite/.test(n) ? 0 : /flash/.test(n) ? 100 : 1000) + (/preview|exp|tts|image|audio|live|embed/.test(n) ? 50 : 0) - (parseFloat((n.match(/gemini-(\d+(?:\.\d+)?)/) || [0, 0])[1]) || 0);
+    for (const m of L.filter(n => /^gemini/.test(n) && !/tts|image|audio|live|embed/.test(n)).sort((x, y) => score(x) - score(y)).slice(0, 4)) {
+      if (tried.has(m)) continue; tried.add(m);
+      const x = await tryModel(m); if (x.a) { a = x.a; await cache.put(mk, new Response(m, { headers: { 'Cache-Control': 'max-age=86400' } })); break; } err = x.e;
+    }
   }
   if (!a) return J({ e: 'AI đang bận, bạn thử lại sau nhé.' + (err ? ` (${String(err).slice(0, 120)})` : '') }, 502);
   await cache.put(rk, new Response(String(used + 1), { headers: { 'Cache-Control': 'max-age=90000' } }));
