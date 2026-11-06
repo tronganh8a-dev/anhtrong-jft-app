@@ -2,6 +2,7 @@
 // Riêng tên miền bản dùng thử (jft-dungthu.*): không đăng nhập, chỉ phục vụ thư mục public/_demo
 // (bản khoá, tạo bởi src/build_demo.py) – không bao giờ trả nội dung bản đầy đủ.
 import { handle, currentUser } from './auth.js';
+export { Phien } from './auth.js';
 import { hoi } from './hoidap.js';
 import { isPublic, kiemtraPublic, ketqua } from './kiemtra.js';
 export { KiemTra } from './kiemtra.js';

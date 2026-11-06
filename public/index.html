@@ -1598,6 +1598,9 @@ document.addEventListener('fullscreenchange',host);document.addEventListener('we
 addEventListener('resize',size);addEventListener('scroll',()=>{if(ed&&!fs()){ed.style.top=(edO.y-oy())+'px'}req()},{passive:true});
 size();ui();penSync(($('.screen.on')||{}).id);
 })();
+/* 1 tài khoản = 1 thiết bị: định kỳ hỏi máy chủ; bị máy khác đăng nhập thay thì về trang đăng nhập */
+(function(){let t=0;async function ck(){if(Date.now()-t<15000)return;t=Date.now();try{const r=await fetch('/api/phien',{cache:'no-store',credentials:'same-origin'});if(r.status===401){const d=await r.json().catch(()=>({}));if(d&&d.kick)location.replace('/login?kick=1')}}catch(e){}}
+setInterval(ck,60000);document.addEventListener('visibilitychange',()=>{if(!document.hidden)ck()});setTimeout(ck,3000)})();
 </script>
 </body>
 </html>

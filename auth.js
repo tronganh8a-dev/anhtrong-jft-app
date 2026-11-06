@@ -32,15 +32,47 @@ function getCookie(req, name) {
   return m ? decodeURIComponent(m[1]) : null;
 }
 
-export async function currentUser(req, env) {
+// Cookie: ten|hethan|phien|chuky — "phien" đổi mỗi lần đăng nhập (1 tài khoản = 1 thiết bị)
+async function session(req, env) {
   const v = getCookie(req, COOKIE);
   if (!v) return null;
-  const [u, exp, sig] = v.split('|');
-  if (!u || !exp || !sig || Date.now() > Number(exp)) return null;
+  const [u, exp, sid, sig] = v.split('|');
+  if (!u || !exp || !sid || !sig || Date.now() > Number(exp)) return null;
   const pass = accounts(env).get(u);
   if (!pass) return null; // tài khoản đã bị xoá → mất quyền ngay
-  return (await sign(env, `${u}|${exp}|${pass}`)) === sig ? u : null;
+  return (await sign(env, `${u}|${exp}|${sid}|${pass}`)) === sig ? { u, sid } : null;
 }
+
+export async function currentUser(req, env) {
+  const s = await session(req, env);
+  return s ? s.u : null;
+}
+
+// ---- Giới hạn 1 thiết bị: mỗi tài khoản 1 Durable Object nhỏ giữ mã phiên mới nhất ----
+// Đăng nhập máy mới → mã phiên đổi → máy cũ bị đẩy ra. Tài khoản trong biến NHIEUMAY (vd "anhtrong,giaovien") được dùng nhiều máy.
+export class Phien {
+  constructor(ctx) { this.ctx = ctx; }
+  async fetch(req) {
+    const u = new URL(req.url);
+    if (req.method === 'PUT') { await this.ctx.storage.put('sid', u.searchParams.get('sid')); return new Response('ok'); }
+    return new Response((await this.ctx.storage.get('sid')) || '');
+  }
+}
+const nhieuMay = (env, u) => String(env.NHIEUMAY || '').toLowerCase().split(/[\s,;]+/).includes(u);
+const phien = (env, u) => env.PHIEN.get(env.PHIEN.idFromName(u));
+async function sidHienTai(env, u) {
+  try { return await (await phien(env, u).fetch('https://p/')).text(); } catch { return null; }
+}
+async function datSid(env, u, sid) {
+  try { await phien(env, u).fetch('https://p/?sid=' + encodeURIComponent(sid), { method: 'PUT' }); } catch {}
+}
+// true = phiên này đã bị thiết bị khác thay thế
+async function biDay(env, s) {
+  if (!env.PHIEN || nhieuMay(env, s.u)) return false;
+  const cur = await sidHienTai(env, s.u);
+  return cur !== null && cur !== '' && cur !== s.sid;
+}
+const KICK = 'Tài khoản này vừa được đăng nhập trên thiết bị khác. Mỗi tài khoản chỉ dùng được trên 1 thiết bị cùng lúc.';
 
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
@@ -131,7 +163,9 @@ export async function handle(req, env, next) {
     const pass = accounts(env).get(u);
     if (!pass || pass !== p) return loginPage('Sai tài khoản hoặc mật khẩu.', u, dest, url.origin);
     const exp = Date.now() + DAYS * 864e5;
-    const val = `${u}|${exp}|${await sign(env, `${u}|${exp}|${pass}`)}`;
+    const sid = crypto.randomUUID().replace(/-/g, '').slice(0, 16);
+    if (env.PHIEN && !nhieuMay(env, u)) await datSid(env, u, sid);
+    const val = `${u}|${exp}|${sid}|${await sign(env, `${u}|${exp}|${sid}|${pass}`)}`;
     const h = new Headers({ Location: dest, 'Cache-Control': 'no-store' });
     h.append('Set-Cookie', `${COOKIE}=${encodeURIComponent(val)}; Path=/; Max-Age=${DAYS * 86400}; HttpOnly; Secure; SameSite=Lax`);
     h.append('Set-Cookie', `jft_user=${encodeURIComponent(u)}; Path=/; Max-Age=${DAYS * 86400}; Secure; SameSite=Lax`);
@@ -152,9 +186,11 @@ export async function handle(req, env, next) {
 
   if ((url.pathname.startsWith('/app/media/cover/') || url.pathname.startsWith('/app/media/brand/') || url.pathname === '/favicon.ico') && req.method === 'GET') return next();
   if (url.pathname === '/login' && req.method === 'GET') {
-    return loginPage('', '', safeNext(url.searchParams.get('next')), url.origin);
+    const lp = loginPage(url.searchParams.get('kick') ? KICK : '', '', safeNext(url.searchParams.get('next')), url.origin);
+    return url.searchParams.get('kick') ? new Response(lp.body, { status: 200, headers: lp.headers }) : lp;
   }
-  const user = await currentUser(req, env);
+  const ses = await session(req, env);
+  const user = ses && ses.u;
   if (!user) {
     const accept = req.headers.get('Accept') || '';
     if (req.method === 'GET' && accept.includes('text/html') && req.headers.get('Sec-Fetch-Dest') !== 'iframe') {
@@ -162,9 +198,17 @@ export async function handle(req, env, next) {
     }
     return new Response('Cần đăng nhập', { status: 401, headers: { 'Cache-Control': 'no-store' } });
   }
-  // Mở / tải lại trang chính của app: bắt buộc đăng nhập lại mỗi lần
   const dest = req.headers.get('Sec-Fetch-Dest');
   const isDoc = req.method === 'GET' && (dest === 'document' || (!dest && (req.headers.get('Accept') || '').includes('text/html')));
+  // 1 tài khoản = 1 thiết bị: kiểm tra khi mở trang, tải dữ liệu, gọi API và nhịp kiểm tra định kỳ /api/phien
+  if (isDoc || url.pathname.startsWith('/app/data/') || url.pathname.startsWith('/api/') || url.pathname.startsWith('/kiemtra/ketqua')) {
+    if (await biDay(env, ses)) {
+      if (isDoc) return new Response(null, { status: 302, headers: { Location: '/login?kick=1', 'Cache-Control': 'no-store' } });
+      return new Response(JSON.stringify({ kick: 1, e: KICK }), { status: 401, headers: { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store' } });
+    }
+  }
+  if (url.pathname === '/api/phien') return new Response('{"ok":1}', { headers: { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' } });
+  // Mở / tải lại trang chính của app: bắt buộc đăng nhập lại mỗi lần
   if (isDoc && (url.pathname === '/' || url.pathname === '/index.html')) {
     if (!getCookie(req, 'jft_once')) {
       return new Response(null, { status: 302, headers: { Location: '/login', 'Cache-Control': 'no-store' } });
