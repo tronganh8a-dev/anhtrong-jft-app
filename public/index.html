@@ -300,7 +300,7 @@ body.gjp .gp .jpx{display:block}
 @container (max-width:520px){.vthumb .t,.vthumb .tg,.vthumb .br{display:none}.vthumb .tx{top:14cqw;width:50cqw}.vthumb .k{font-size:5cqw;letter-spacing:.08em}.vthumb .n{font-size:12.5cqw;margin-top:2.5cqw;white-space:nowrap}.vthumb .bk{width:58cqw;right:-4cqw}.vthumb .bk img{width:22cqw;bottom:-9cqw}.vthumb .bk img:nth-child(2){left:12cqw}.vthumb .bk img:nth-child(3){left:24cqw}.vthumb .bk img:nth-child(4){left:36cqw}.vthumb::after{height:2.4cqw}}
 @container (max-width:220px){.vthumb .k{display:none}.vthumb .tx{top:24cqw}.vthumb .n{font-size:16cqw;margin:0}.vthumb .bk{width:56cqw;right:-2cqw}.vthumb .bk img{width:20cqw;bottom:-13cqw}.vthumb .bk img:nth-child(2){left:11cqw;bottom:-11cqw}.vthumb .bk img:nth-child(3){left:22cqw;bottom:-11cqw}.vthumb .bk img:nth-child(4){left:33cqw}}
 .vposter .pb{z-index:2}
-.vstage{width:min(100%,calc((100vh - 250px) * 16 / 9));min-width:min(100%,640px);margin:0 auto}
+.vstage{width:min(100%,calc((100vh - 170px) * 16 / 9));min-width:min(100%,640px);margin:0 auto}
 .vbox{background:#0b1117;border-radius:18px;overflow:hidden;box-shadow:0 18px 40px -12px rgba(10,40,70,.35),0 0 0 1px rgba(23,34,44,.08)}
 .vplayer{position:relative;aspect-ratio:16/9;background:#000;overflow:hidden}
 /* khung YouTube cao hơn khung hiển thị 90px mỗi đầu: video vẫn hiện đủ, thanh tiêu đề/kênh của YouTube nằm ngoài vùng nhìn thấy */
@@ -393,6 +393,30 @@ body.gjp .gp .jpx{display:block}
 body.cine .vcine{display:block}
 body.cine .vbox{position:fixed;z-index:56;left:50%;top:calc(50% + 14px);transform:translate(-50%,-50%);width:min(96vw,calc((100vh - 130px) * 16 / 9));border-radius:12px}
 body.cine{overflow:hidden}
+/* lớp phủ ảnh bìa: ghim khi chưa phát / tạm dừng → không lộ logo, gợi ý video của YouTube */
+.vshield{position:absolute;inset:0;z-index:1;cursor:pointer}
+.vposter.vcover{z-index:2}.vcover.off{display:none}
+.vcover.wait .pb::after{border:0;margin:0;width:30px;height:30px;border-radius:50%;border:4px solid rgba(196,47,102,.25);border-top-color:var(--pink);animation:vspin .8s linear infinite}
+@keyframes vspin{to{transform:rotate(360deg)}}
+/* màn hình lớn + tab lý thuyết bên cạnh */
+.vstab{display:none;position:fixed;right:0;top:50%;transform:translateY(-50%);z-index:57;writing-mode:vertical-rl;background:var(--pink);color:#fff;border:0;border-radius:14px 0 0 14px;padding:18px 11px;font-weight:800;font-size:15px;letter-spacing:.05em;cursor:pointer;box-shadow:-6px 0 22px rgba(0,0,0,.35)}
+.vstab:hover{padding-right:15px}
+body.cine.hasdoc:not(.side) .vstab{display:block}
+.vside{display:none;position:fixed;top:0;right:0;bottom:0;width:var(--sw,42vw);background:#eef3f7;z-index:57;flex-direction:column;box-shadow:-12px 0 34px rgba(0,0,0,.4)}
+body.cine.side .vside{display:flex}
+body.cine.side .vbox{left:calc((100vw - var(--sw,42vw)) / 2);width:min(calc(100vw - var(--sw,42vw) - 36px),calc((100vh - 130px) * 16 / 9))}
+body.cine.side #vCineX{right:auto;left:18px}
+.vside .sh{display:flex;align-items:center;gap:6px;padding:10px 10px 10px 16px;background:#fff;border-bottom:1px solid #dbe5ee}
+.vside .sh b{flex:1;font-size:15px;color:var(--ink,#0d2b40);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.vside .sh b small{font-weight:600;color:#6b8296;margin-left:6px;font-size:12.5px}
+.vside .sh a,.vside .sh button{border:1px solid #cfdbe6;background:#fff;border-radius:9px;height:34px;min-width:34px;padding:0 10px;font-weight:700;font-size:13px;color:#33536e;display:grid;place-items:center;text-decoration:none;cursor:pointer}
+.vside .sh a:hover,.vside .sh button:hover{background:#f1f6fa}
+.vside .stabs{display:flex;gap:6px;padding:8px 10px;overflow-x:auto;background:#fff;border-bottom:1px solid #dbe5ee;scrollbar-width:thin}
+.vside .stabs button{flex:none;max-width:260px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border:1px solid #cfdbe6;background:#fff;border-radius:99px;padding:6px 13px;font-weight:700;font-size:13px;color:#33536e;cursor:pointer}
+.vside .stabs button.on{background:var(--blue);color:#fff;border-color:var(--blue)}
+.vside iframe{flex:1;width:100%;border:0;background:#fff}
+.vbox .vdocb{display:none}.hasdoc .vbox .vdocb{display:grid}
+body.cine #aiFab,body.cine #promoAi{display:none!important}
 @media (max-width:760px){
   .vstage{width:auto;min-width:0}
   .vbox{border-radius:0;box-shadow:none;margin:0 -14px}
@@ -847,6 +871,8 @@ body.nlock{overflow:hidden}
   <footer>© 2026 Anh Trọng Dạy JFT · Video do Anh Trọng Dạy JFT biên soạn và giảng dạy. Vui lòng không chia sẻ video, tài liệu ra ngoài khoá học.</footer>
 </section>
 <div class="vcine" id="vCine" aria-hidden="true"><button type="button" id="vCineX">✕ Thu nhỏ <small>Esc</small></button></div>
+<button class="vstab" id="vStab" type="button" title="Mở lý thuyết buổi học bên cạnh video">📖 Lý thuyết buổi học</button>
+<aside class="vside" id="vSide" aria-label="Lý thuyết buổi học"><div class="sh"><b id="vSideT">Lý thuyết</b><button type="button" id="vSideW" title="Đổi độ rộng khung lý thuyết">⇔</button><a id="vSideO" href="#" target="_blank" rel="noopener" title="Mở tab riêng">↗</a><button type="button" id="vSideX" title="Đóng khung lý thuyết">✕</button></div><div class="stabs" id="vSideTabs"></div><iframe id="vSideF" title="Lý thuyết buổi học" allow="fullscreen"></iframe></aside>
 
 <!-- HOMEWORK -->
 <section class="screen" id="hw">
@@ -1231,6 +1257,7 @@ const VIC={play:'<svg viewBox="0 0 24 24"><path d="M8 5.2v13.6L19 12z" fill="cur
  f10:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M19 12.5a7.5 7.5 0 1 1-2.2-5.3"/><path d="M16.6 3.2v4h-4"/><text x="11.4" y="15.6" font-size="7.2" font-weight="700" text-anchor="middle" fill="currentColor" stroke="none" font-family="system-ui,sans-serif">10</text></svg>',
  vol:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z" fill="currentColor"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/></svg>',
  mute:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z" fill="currentColor"/><path d="M16 9.5l5 5M21 9.5l-5 5"/></svg>',
+ book:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 6.5C10 5 7 4.5 3.5 5v13c3.5-.5 6.5 0 8.5 1.5 2-1.5 5-2 8.5-1.5V5C17 4.5 14 5 12 6.5zM12 6.5v13"/></svg>',
  cine:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2.5" y="5.5" width="19" height="13" rx="2"/></svg>',
  fs:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>',
  fsx:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5"/></svg>'};
@@ -1243,15 +1270,32 @@ function ytApi(){return new Promise(res=>{if(window.YT&&YT.Player)return res();c
 const vOk=()=>YTP&&typeof YTP.getCurrentTime==='function';
 function vSavePos(){if(!vOk()||!vCur)return;const t=YTP.getCurrentTime(),d=YTP.getDuration();if(t>5)store.set(vPosKey(vCur),d&&t>d-20?'0':String(Math.floor(t)))}
 function vDestroy(){clearInterval(vTick);if(YTP){vSavePos();try{YTP.destroy()}catch(e){}}YTP=null}
-function vidPause(){if(vOk())try{YTP.pauseVideo()}catch(e){}vSavePos();document.body.classList.remove('cine')}
+function vidPause(){if(vOk())try{YTP.pauseVideo()}catch(e){}vSavePos();vBig(false)}
 async function vidPlay(){const v=VID.find(x=>x.id===vCur);if(!v||!v.yt)return;vDestroy();
- $('#vPlayer').innerHTML='<div id="vYT"></div>';await ytApi();
+ $('#vPlayer').innerHTML=`<div id="vYT"></div><div class="vshield" id="vShield"></div><button class="vposter vcover wait" id="vCover" type="button" aria-label="Phát video">${vThumb(v)}<span class="pb"></span><span class="vres" hidden></span></button>`;vPlayed=false;
+ $('#vShield').onclick=()=>{if(vOk())YTP.pauseVideo()};$('#vCover').onclick=()=>{if(vOk())YTP.playVideo()};
+ if(innerWidth>760)vBig(true);await ytApi();
  const st=+(store.get(vPosKey(v.id))||0),pv={autoplay:1,controls:0,rel:0,modestbranding:1,playsinline:1,iv_load_policy:3,disablekb:1,fs:0,cc_load_policy:0};
  if(st>10)pv.start=st-3;if(/^https?:/.test(location.origin))pv.origin=location.origin;
  YTP=new YT.Player('vYT',{host:'https://www.youtube-nocookie.com',videoId:v.yt,playerVars:pv,
   events:{onReady:e=>{try{e.target.setPlaybackRate(vRate);e.target.playVideo()}catch(_){}vSync()},
-   onStateChange:e=>{vSync();if(e.data===0){store.set(vPosKey(vCur),'0');vDestroy();vPoster();vSync(true)}}}});
+   onStateChange:e=>{vSync();vCoverSync(e.data);if(e.data===0){store.set(vPosKey(vCur),'0');vDestroy();vPoster();vSync(true)}}}});
  vTick=setInterval(vSync,400)}
+let vPlayed=false;
+/* ảnh bìa ghim: chỉ ẩn khi video đang chạy (1) – hoặc đang tải lại giữa chừng (3) sau khi đã chạy */
+function vCoverSync(st){const c=$('#vCover');if(!c)return;if(st===1)vPlayed=true;
+ const show=!(st===1||(st===3&&vPlayed));c.classList.toggle('off',!show);c.classList.toggle('wait',st===3||(st===-1&&!vPlayed));
+ const r=c.querySelector('.vres');if(st===2&&vOk()){r.hidden=false;r.textContent='▶ Tiếp tục từ '+vfmt(YTP.getCurrentTime())}else r.hidden=true}
+/* màn hình lớn + khung lý thuyết */
+function vDocs(v){if(!v||!v.yt)return[];const n=parseInt(String(v.no||'').replace(/\D/g,''),10)||0,B=(typeof BUOI!=='undefined')&&BUOI.find(b=>b.n===n),seen=new Set(),out=[];
+ [...(v.slides||[]).map(x=>({f:x.u,jp:x.t,vi:x.sub||'',k:x.k||'slide'})),...(B?B.it:[])].forEach(x=>{if(!x.f||seen.has(x.f))return;seen.add(x.f);out.push(x)});return out}
+let vSideI=0;
+function vSideShow(i){const v=VID.find(x=>x.id===vCur),D=vDocs(v);if(!D.length)return;vSideI=Math.min(i,D.length-1);const x=D[vSideI],src=encodeURI(x.f);
+ $('#vSideT').innerHTML=`📖 Lý thuyết<small>${esc(v.no||'')}</small>`;$('#vSideO').href=src;
+ $('#vSideTabs').innerHTML=D.map((d,j)=>`<button type="button" data-si="${j}" class="${j===vSideI?'on':''}" title="${esc(d.vi||'')}">${esc(d.jp)}</button>`).join('');
+ const F=$('#vSideF');if(F.getAttribute('src')!==src)F.setAttribute('src',src)}
+function vBig(on){document.body.classList.toggle('cine',on);if(!on)document.body.classList.remove('side')}
+function vSideOpen(on){if(on){vBig(true);vSideShow(vSideI)}document.body.classList.toggle('side',on);store.set('jftVSide',on?'1':'0')}
 function vPoster(){const v=VID.find(x=>x.id===vCur);if(!v.yt){$('#vPlayer').innerHTML=`<div class="vposter vsoon">${vThumb(v)}<span class="soon"><b>⏳ Video sắp có</b><small>Xem trước slide buổi học bên dưới</small></span></div>`;return}const pos=+(store.get(vPosKey(v.id))||0);
  $('#vPlayer').innerHTML=`<button class="vposter" id="vPoster" type="button" aria-label="Phát video">${vThumb(v)}<span class="pb"></span>${pos>10?`<span class="vres">▶ Xem tiếp từ ${vfmt(pos)}</span>`:''}</button>`;
  $('#vPoster').onclick=vidPlay}
@@ -1278,7 +1322,8 @@ function vBindCtl(){
  $('#vVol').oninput=e=>{if(!vOk())return;YTP.setVolume(+e.target.value);if(+e.target.value>0)YTP.unMute();else YTP.mute()};
  $('#vSpd').onclick=e=>{e.stopPropagation();$('#vMenu').classList.toggle('on')};
  $('#vMenu').onclick=e=>{const b=e.target.closest('[data-r]');if(!b)return;vRate=+b.dataset.r;if(vOk())YTP.setPlaybackRate(vRate);$('#vSpd').textContent=vRate+'x';$$('#vMenu button').forEach(x=>x.classList.toggle('on',x===b));$('#vMenu').classList.remove('on')};
- $('#vCineB').onclick=()=>{if(!vOk())vidPlay();document.body.classList.toggle('cine')};
+ $('#vCineB').onclick=()=>{if(!vOk())vidPlay();vBig(!document.body.classList.contains('cine'))};
+ $('#vDocB').onclick=()=>{if(innerWidth<=760){const v=VID.find(x=>x.id===vCur),D=vDocs(v);if(D.length){vidPause();openDocView(D[0],v.no||'')}return}vSideOpen(!(document.body.classList.contains('cine')&&document.body.classList.contains('side')))};
  $('#vFS').onclick=vFs;
  const sk=$('#vSeek'),frac=e=>{const r=sk.getBoundingClientRect();return Math.min(1,Math.max(0,(e.clientX-r.left)/r.width))};
  const tip=e=>{const d=vOk()?YTP.getDuration():0,f=frac(e),tp=sk.querySelector('.tip');tp.style.left=f*100+'%';tp.textContent=d?vfmt(f*d):''};
@@ -1289,7 +1334,7 @@ document.addEventListener('click',e=>{const m=$('#vMenu');if(m&&!e.target.closes
 document.addEventListener('visibilitychange',vSavePos);window.addEventListener('pagehide',vSavePos);
 function renderVideo(autoplay){const A=$('#vidArea');vDestroy();if(!VID.length){A.innerHTML='<div class="card vempty">Video bài giảng đang được cập nhật.</div>';return}
  if(!VID.find(x=>x.id===vCur))vCur=(VID.find(x=>x.id===store.get('jftVid'))||[...VID].reverse().find(x=>x.yt)||VID[VID.length-1]).id;
- const v=VID.find(x=>x.id===vCur);
+ const v=VID.find(x=>x.id===vCur);vSideI=0;document.body.classList.toggle('hasdoc',vDocs(v).length>0);$('#vSideF').removeAttribute('src');
  const mats=[...(v.docs||[]).map(d=>`<a class="vm" href="${esc(d.u)}" target="_blank" rel="noopener"><span class="ic dr">${DRIVE_IC}</span><span class="t"><b>${esc(d.t)}</b><small>Google Drive ↗</small></span></a>`),
   ...(v.slides||[]).map((x,i)=>`<button class="vm" type="button" data-vs="${i}"><span class="ic sl">▶</span><span class="t"><b>${esc(x.t)}</b><small>${esc(x.sub||'Slide')}</small></span></button>`),
   ...(v.learn||[]).map((l,i)=>`<button class="vm" type="button" data-vl="${i}"><span class="ic jp">${({kanji:'漢',vocab:'語',gram:'文'})[l.tab]||'教'}</span><span class="t"><b>${esc(l.t)}</b><small>Học lại trong app</small></span></button>`)];
@@ -1299,14 +1344,18 @@ function renderVideo(autoplay){const A=$('#vidArea');vDestroy();if(!VID.length){
    <div class="vseek" id="vSeek" aria-label="Thanh tua"><div class="tr"><div class="bf"></div><div class="pl"></div></div><div class="kn"></div><div class="tip"></div></div>
    <span class="vvolw"><button id="vMute" type="button" title="Tắt / bật tiếng" aria-label="Tắt / bật tiếng">${VIC.vol}</button><input type="range" class="vvol" id="vVol" min="0" max="100" value="100" aria-label="Âm lượng"></span>
    <span class="vspdw"><button class="vspd" id="vSpd" type="button" title="Tốc độ phát">${vRate}x</button><div class="vmenu" id="vMenu">${[0.75,1,1.25,1.5,2].map(r=>`<button type="button" data-r="${r}"${r===vRate?' class="on"':''}>${r}x</button>`).join('')}</div></span>
-   <button id="vCineB" type="button" title="Màn hình lớn" aria-label="Màn hình lớn">${VIC.cine}</button><button id="vFS" type="button" title="Toàn màn hình" aria-label="Toàn màn hình">${VIC.fs}</button></div></div>
+   <button class="vdocb" id="vDocB" type="button" title="Lý thuyết buổi học (màn hình lớn)" aria-label="Lý thuyết buổi học">${VIC.book}</button><button id="vCineB" type="button" title="Màn hình lớn" aria-label="Màn hình lớn">${VIC.cine}</button><button id="vFS" type="button" title="Toàn màn hình" aria-label="Toàn màn hình">${VIC.fs}</button></div></div>
   <div class="vinfo"><div class="tx"><div class="ser"><span class="no">${esc(v.no||'')}</span><span>${esc(v.series)}</span>${v.series_jp?`<span class="jp">· ${esc(v.series_jp)}</span>`:''}${(v.tags||[]).map(t=>`<span class="tag jp">${esc(t)}</span>`).join('')}</div><h2>${esc(v.title)}</h2>${v.desc?`<p class="vdesc">${esc(v.desc)}</p>`:''}</div>
   </div>${mats.length?`<div class="vmat"><div class="vmh">Tài liệu buổi học<span>${mats.length}</span></div><div class="vmg">${mats.join('')}</div></div>`:''}</div>
   <div class="vlist">${groups.map(g=>`<div class="vgh">${esc(g.s)}${g.j?`<span class="jp">${esc(g.j)}</span>`:''}<span class="n">${g.a.length} video</span></div><div class="vgrid">${g.a.map(x=>`<button class="vit${x.id===vCur?' on':''}${x.yt?'':' soon'}" data-vid="${x.id}" type="button"><span class="th">${vThumb(x)}${x.id===vCur?'<span class="now">Đang xem</span>':''}${x.yt?'':'<span class="now soonb">Sắp có video</span>'}</span><span class="bd"><small>${esc(x.no||'')}${x.docs&&x.docs.length?' · có tài liệu':''}</small><b>${esc(x.title)}</b><span class="tg">${(x.tags||[]).map(t=>`<span class="tag gray jp">${esc(t)}</span>`).join('')}</span></span></button>`).join('')}</div>`).join('')}</div>`;
  vPoster();vBindCtl();if(autoplay)vidPlay()}
 $('#vidArea').addEventListener('click',e=>{const sb=e.target.closest('[data-vs]');if(sb){const v=VID.find(x=>x.id===vCur),x=v.slides[+sb.dataset.vs];vidPause();openDocView({f:x.u,jp:x.t,vi:x.sub||'',k:x.k||'slide'},v.no||'');return}const lb=e.target.closest('[data-vl]');if(lb){const v=VID.find(x=>x.id===vCur),l=v.learn[+lb.dataset.vl];vidPause();dTab=l.tab;store.set('dTab',dTab);dLv[l.tab]=l.lv;dGrp[l.tab+l.lv]=l.g;go('learn');renderDocs();return}const b=e.target.closest('[data-vid]');if(!b)return;vCur=b.dataset.vid;store.set('jftVid',vCur);renderVideo(true);$('#video').scrollIntoView({behavior:'smooth'})});
-$('#vCineX').onclick=()=>document.body.classList.remove('cine');$('#vCine').onclick=e=>{if(e.target.id==='vCine')document.body.classList.remove('cine')};
-document.addEventListener('keydown',e=>{if(e.key==='Escape')document.body.classList.remove('cine');
+$('#vCineX').onclick=()=>vBig(false);$('#vCine').onclick=e=>{if(e.target.id==='vCine')vBig(false)};
+$('#vStab').onclick=()=>vSideOpen(true);$('#vSideX').onclick=()=>vSideOpen(false);
+$('#vSideTabs').onclick=e=>{const b=e.target.closest('[data-si]');if(b)vSideShow(+b.dataset.si)};
+const VSW=['34vw','42vw','52vw'];let vSw=+(store.get('jftVSw')||1)%3;document.documentElement.style.setProperty('--sw',VSW[vSw]);
+$('#vSideW').onclick=()=>{vSw=(vSw+1)%3;store.set('jftVSw',vSw);document.documentElement.style.setProperty('--sw',VSW[vSw])};
+document.addEventListener('keydown',e=>{if(e.key==='Escape')vBig(false);
  if(!$('#video').classList.contains('on')||!vOk()||/INPUT|TEXTAREA|SELECT/.test((e.target.tagName||'')))return;
  if(e.key===' '||e.key==='k'){e.preventDefault();$('#vPP').click()}else if(e.key==='ArrowLeft'){e.preventDefault();$('#vB10').click()}else if(e.key==='ArrowRight'){e.preventDefault();$('#vF10').click()}else if(e.key==='f')vFs()});
 
