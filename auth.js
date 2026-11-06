@@ -58,6 +58,8 @@ export class Phien {
     return new Response((await this.ctx.storage.get('sid')) || '');
   }
 }
+// TẠM TẮT (06/11 theo yêu cầu anh): chỉ bật khi đặt biến môi trường MOTMAY=1
+const batMotMay = env => String(env.MOTMAY || '').trim() === '1';
 const nhieuMay = (env, u) => String(env.NHIEUMAY || '').toLowerCase().split(/[\s,;]+/).includes(u);
 const phien = (env, u) => env.PHIEN.get(env.PHIEN.idFromName(u));
 async function sidHienTai(env, u) {
@@ -68,7 +70,7 @@ async function datSid(env, u, sid) {
 }
 // true = phiên này đã bị thiết bị khác thay thế
 async function biDay(env, s) {
-  if (!env.PHIEN || nhieuMay(env, s.u)) return false;
+  if (!batMotMay(env) || !env.PHIEN || nhieuMay(env, s.u)) return false;
   const cur = await sidHienTai(env, s.u);
   return cur !== null && cur !== '' && cur !== s.sid;
 }
@@ -164,7 +166,7 @@ export async function handle(req, env, next) {
     if (!pass || pass !== p) return loginPage('Sai tài khoản hoặc mật khẩu.', u, dest, url.origin);
     const exp = Date.now() + DAYS * 864e5;
     const sid = crypto.randomUUID().replace(/-/g, '').slice(0, 16);
-    if (env.PHIEN && !nhieuMay(env, u)) await datSid(env, u, sid);
+    if (batMotMay(env) && env.PHIEN && !nhieuMay(env, u)) await datSid(env, u, sid);
     const val = `${u}|${exp}|${sid}|${await sign(env, `${u}|${exp}|${sid}|${pass}`)}`;
     const h = new Headers({ Location: dest, 'Cache-Control': 'no-store' });
     h.append('Set-Cookie', `${COOKIE}=${encodeURIComponent(val)}; Path=/; Max-Age=${DAYS * 86400}; HttpOnly; Secure; SameSite=Lax`);

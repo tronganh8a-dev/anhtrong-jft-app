@@ -71,7 +71,7 @@ Quy trình sau khi sửa: `python3 src/build_data.py` (nếu đổi dữ liệu)
 ## 4. Đăng nhập (auth.js)
 - Tài khoản học viên: biến môi trường `ACCOUNTS` trên Cloudflare dạng `ten:matkhau, ten2:matkhau2`; khoá ký cookie: `SECRET`. **Không nằm trong repo.** Đổi ở Cloudflare → app → Settings → Variables and Secrets → Deploy.
 - Cookie `jft_s` (ký HMAC, 30 ngày) + `jft_user`. Cookie dùng 1 lần `jft_once` (120s) đặt khi đăng nhập: mỗi lần mở/tải lại `/` hoặc `/index.html` đều bắt đăng nhập lại (theo yêu cầu của anh).
-- **1 tài khoản = 1 thiết bị** (06/11): cookie `jft_s` = `ten|hethan|phien|chuky`; mỗi lần đăng nhập tạo mã phiên mới, lưu ở Durable Object `Phien` (binding `PHIEN`, migration v2, 1 object/tài khoản). Máy cũ bị đẩy ra khi mở trang, tải `/app/data/*`, gọi `/api/*`, hoặc nhịp `/api/phien` mỗi 60s → `/login?kick=1`. Biến `NHIEUMAY=ten1,ten2` = tài khoản được dùng nhiều máy (vd giáo viên).
+- **1 tài khoản = 1 thiết bị** (06/11) — **ĐANG TẮT** theo yêu cầu anh; bật lại bằng biến môi trường `MOTMAY=1` trên Cloudflare (code vẫn giữ): cookie `jft_s` = `ten|hethan|phien|chuky`; mỗi lần đăng nhập tạo mã phiên mới, lưu ở Durable Object `Phien` (binding `PHIEN`, migration v2, 1 object/tài khoản). Máy cũ bị đẩy ra khi mở trang, tải `/app/data/*`, gọi `/api/*`, hoặc nhịp `/api/phien` mỗi 60s → `/login?kick=1`. Biến `NHIEUMAY=ten1,ten2` = tài khoản được dùng nhiều máy (vd giáo viên).
 - `/app/media/cover/*` công khai (ảnh bìa ở trang đăng nhập). Trang đăng nhập dùng font M PLUS Rounded 1c, có bìa sách + nút Facebook/TikTok.
 
 ## Bài kiểm tra theo buổi (26/10)
