@@ -1,0 +1,38 @@
+1|V|0|Văn phòng.|Tranh là nơi mọi người làm việc văn phòng: máy tính, máy photo, tủ hồ sơ → じむしつ (事務室). かいぎしつ là phòng họp, しょくどう là nhà ăn.
+2|V|1|Móc chìa khoá.|Tranh là móc treo chìa khoá: キーホルダー. ハンカチ là khăn tay, ティーカップ là tách trà.
+3|V|1|Rưới (nước sốt).|Rưới nước sốt lên miếng korokke → ソースをかけます. いれます là cho vào trong, まぜます là trộn.
+4|V|2|Khi đau răng thì ăn đồ mềm.|はがいたいとき → ăn đồ mềm: やわらかいもの. よわい là yếu, みじかい là ngắn.
+5|V|0|Không đi được buổi hoà nhạc của ca sĩ yêu thích, tiếc quá.|Không đi được thì tiếc: ざんねん (残念). たいせつ là quan trọng, しんぱい là lo lắng.
+6|V|2|Quần áo cỡ nhỏ ở tầng 6.|小さい (TIỂU) đọc là ちいさい. ちさい thiếu い; しさい là cách đọc sai.
+7|V|1|Tôi hay xem phim truyền hình nước ngoài.|外国 (NGOẠI QUỐC) đọc là がいこく. がいごく, かいごく sai âm đục.
+8|V|1|Ứng dụng này phù hợp với người muốn phát âm tiếng Nhật giỏi lên.|上手 (THƯỢNG THỦ) đọc là じょうず (âm dài じょう). じょず thiếu trường âm; じょす sai âm đục.
+9|V|2|Tôi biết chút ít tiếng Anh.|N が できます: biết, làm được (ngoại ngữ, thể thao). えいごがすこしできます.
+10|V|2|Hãy nói tên ở lối vào hội trường.|なまえをいう: nói tên → 言って (NGÔN). 会って là gặp, 行って là đi; thể て của 行く và 言う đều đọc gần giống いって.
+11|V|2|Ở công viên có nhiều hoa đang nở.|さく (nở) đi với hoa: 花がさいています. 犬 là chó, 雪 là tuyết.
+12|V|0|Tôi đã chọn chiếc túi đỏ làm quà sinh nhật cho vợ.|プレゼントにバッグを選ぶ: chọn túi làm quà (選 TUYỂN). 開きました là mở, 伝えました là truyền đạt.
+13|K|2|Ari: Tan, uống gì không? Tan: Cho mình nước. Ari: Vâng, nước nhé.|Hỏi người khác muốn uống gì: なにをのみますか. Tan trả lời おみず nên là hỏi đồ uống.
+14|K|0|Ayumi: Nhìn đôi giày kia kìa. Tan: Ồ, đôi giày dễ thương nhỉ. Ayumi: Thích quá, muốn có quá.|Tính từ い bổ nghĩa cho danh từ: かわいいくつ. かわいいです không đứng trước danh từ.
+15|K|2|Bin: Xin lỗi, cho tôi hỏi chút được không? Okada: Vâng, có gì ạ? Bin: Anh giải thích giúp tôi cách viết giấy tờ này với. Okada: Vâng, được ạ.|Nhờ người khác làm: Vてください. せつめいしてください.
+16|K|0|Hara: Wan có hay dùng tiếng Nhật không? Wan: Không, không dùng mấy. Hara: Dùng hằng ngày thì sẽ giỏi lên đấy. Wan: Vậy à. Vậy mỗi ngày em sẽ thử viết nhật ký bằng tiếng Nhật. Hara: À, hay đấy.|Vてみます: sẽ thử làm V. にっきをかいてみます.
+17|K|1|Mei: Su ơi, bản copy hộ chiếu hạn đến ngày mai nhỉ. Đã nộp chưa? Su: Chưa. Cậu có biết nộp cho ai không? Mei: Cho anh Takeda bên văn phòng.|Câu hỏi lồng trong câu: từ để hỏi + thể thường + か + 知っていますか. だれにだすか知っていますか.
+18|K|1|Gana: Cho tôi cái này. Morita: Cảm ơn quý khách. Quý khách có thẻ tích điểm không ạ? Gana: À, tôi lỡ quên mất rồi. Morita: Vậy lần sau quý khách mang theo nhé.|Vてしまいました: lỡ làm (đáng tiếc). わすれてしまいました: lỡ quên.
+19|K|0|(Chia tay trước ga) A: Vậy hẹn gặp lại. B: Tạm biệt.|Chào tạm biệt bạn, sẽ còn gặp lại: じゃ、また. では、げんきで dùng khi chia tay lâu dài; どういたしまして là đáp lời cảm ơn.
+20|K|1|A: Ogawa, chúc mừng sinh nhật. B: Cảm ơn anh.|たんじょうび、おめでとう: chúc mừng sinh nhật.
+21|K|2|A: Cái bánh này ngon quá. B: Nếu thích thì ăn thêm một cái nữa không? A: Vậy tôi xin.|Mời ai làm gì: Vませんか. よかったら、もうひとつ、たべませんか.
+22|K|0|A: Xin lỗi, bưu điện ở đâu ạ? B: Rẽ phải ở đèn tín hiệu kia, đi thẳng thì sẽ thấy. A: Cảm ơn.|Vる + と: hễ làm V thì (kết quả tất yếu). まっすぐ行くと、見えますよ.
+23|K|2|A: Món này ăn thế nào? B: Chấm sốt cay thì ngon đấy. A: À, tôi hơi kém đồ cay… B: Vậy à. Đừng cố quá nhé.|Khuyên người khác đừng gắng sức: 無理しないでください.
+24|K|1|A: Xin lỗi. B: Vâng, có chuyện gì ạ? A: Từ tối qua không có nước nóng, tôi phải làm sao ạ? B: Vậy tôi sẽ liên lạc với công ty ga. Anh đợi chút nhé.|Hỏi xin lời khuyên, cách giải quyết: どうしたらいいですか.
+25|R|1|Điều nào đúng với tờ giấy?|いやなにおいがして、こまっています → có mùi khó chịu. Đồ ăn không hết mà là có nhiều đồ ăn cũ.
+26|R|0|Về cách dùng tủ lạnh, tờ giấy viết gì?|Ghi tên và ngày cho vào lên đồ ăn, đồ uống; đồ để quá 1 tháng sẽ bị người trực dọn dẹp vứt đi. Không phải "mọi người cùng vứt".
+27|R|0|Mei phải làm gì?|Giấy nhắn: 11時にかいぎしつにきてください → đến phòng họp (tranh người đi vào phòng).
+28|R|1|Mấy giờ Mei phải đến phòng họp?|11時にかいぎしつに → 11 giờ. 10:00 là giờ viết giấy nhắn.
+29|R|1|Natto bị làm sao?|今日午後からずっとねつがあります → bị sốt (tranh cặp nhiệt độ).
+30|R|2|Ngày mai Natto sẽ làm gì?|明日は病院に行きたいと思います → đi bệnh viện. Buổi xem phim ngày mai xin dời sang tuần sau.
+31|R|1|Văn phòng (事務室) ở đâu?|Trên sơ đồ tầng 1, 事務室 nằm ngay phía dưới, đối diện 会議室1 → bên kia phòng họp.
+32|R|0|Nhà vệ sinh ở đâu?|Tầng 1: トイレ nằm cạnh 料理室 → bên cạnh phòng nấu ăn.
+33|R|1|Lớp tiếng Nhật mỗi buổi mấy tiếng?|時間：午後1:00〜3:00 → 2 tiếng.
+34|R|0|Buổi học "để đi làm" (働くために) là khi nào?|Buổi 4: 11月22日（土） nội dung 働くために.
+35|R|1|Đăng ký bằng cách nào?|申し込み：大山市国際交流センター（担当：新井）091-533-XXXX → gọi điện cho người phụ trách. Học phí miễn phí.
+36|R|1|Phải vào chùa Isshinji trước mấy giờ?|拝観時間 8:00〜17:30（受付は17:00まで）→ phải vào trước 17:00.
+37|R|2|Phí vào cửa Yayoi Furusato-kan là bao nhiêu?|①やよいふるさと館: 入館料 500円. 300円 là phí vào chùa.
+38|R|2|Ăn uống ở đâu?|②やよい通り: すし、うどん、そばなど (có các quán ăn) → phố Yayoi.

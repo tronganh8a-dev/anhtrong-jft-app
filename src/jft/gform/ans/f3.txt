@@ -1,0 +1,34 @@
+0|V|1|Xé (sách).|Trang sách bị xé rách làm đôi → やぶります (破ります). よごれます là bị bẩn, きります là cắt bằng kéo/dao.
+1|V|1|Chìa khoá.|かぎ (鍵) là chìa khoá. かき là quả hồng; かいぎ là cuộc họp. Ba từ chỉ khác nhau một âm.
+2|V|1|Kết hôn.|Cô dâu chú rể trong lễ cưới → けっこんします (結婚). りこんします là ly hôn, いのります là cầu nguyện.
+3|V|2|Trượt (ngã).|Cậu bé giẫm lên vỏ trơn, chân trượt đi → すべります (滑ります). のぼります là leo lên, ジャンプします là nhảy.
+4|V|0|Lau (bàn).|Người phụ nữ cầm khăn lau bàn cho sáng bóng → ふきます (拭きます). しらべます là tra cứu.
+5|V|2|Điện thoại di động.|携帯電話 đọc là けいたいでんわ. Hai phương án kia viết sai: thiếu い (けたい) hoặc dùng は thay cho わ.
+6|K|0|A: Có chuyện gì vậy? B: Tôi thấy hơi mệt… A: Vậy à. Giữ gìn sức khoẻ nhé.|Hỏi han khi thấy người khác có vẻ không khoẻ: どうしたんですか. なんですか chỉ hỏi "cái gì", なんだようね không đúng ngữ pháp.
+7|K|2|A: Từ hôm nay tôi chuyển nhà. B: Vậy à. Đi cẩn thận nhé. A: Cảm ơn anh đã giúp đỡ tôi thời gian qua.|Chia tay khi chuyển đi: お世話になりました (cảm ơn đã giúp đỡ trong thời gian qua). 失礼します là chào khi rời đi bình thường, おじゃまします là khi vào nhà người khác.
+8|K|0|A: Tôi xin phép về trước. B: Anh vất vả rồi.|Ở chỗ làm, người về trước nói お先に失礼します, người ở lại đáp お疲れさまでした. おじゃまします là vào nhà người khác.
+9|V|0|Lúc đi du lịch, tôi đã ở nhà trọ kiểu Nhật.|旅館 (LỮ QUÁN) đọc là りょかん. りょうかん, りゅうかん là cách đọc sai.
+10|V|0|Anh/chị gọi món xong chưa ạ?|注文 (CHÚ VĂN) đọc là ちゅうもん. ちょもん, ちょうもん đọc sai âm đầu.
+11|V|1|Anh đã quen với phong tục Nhật chưa?|習慣 (TẬP QUÁN) đọc là しゅうかん. しょうかん, ちゅうかん là cách đọc sai.
+12|V|2|Bệnh đã khỏi rồi, đừng lo nhé.|心配 (TÂM PHỐI) đọc là しんぱい. かんぱい là cạn ly; しんはい thiếu âm ぱ.
+13|V|2|Hôm kia tôi thấy trong người không khoẻ.|悪かった (ÁC) đọc là わるかった. わかった là đã hiểu, つかった là đã dùng.
+14|V|2|A: Anh có uống gì không? B: Trà được không ạ? A: Vâng, được ạ.|B trả lời お茶 → hỏi về đồ uống: のみもの. たべもの là đồ ăn, のりもの là phương tiện đi lại.
+15|V|0|Món mì ramen này không ngon lắm đâu.|Thứ để ăn và nói ngon/không ngon → ラーメン. テーブル (cái bàn), テープ (băng dính) không ăn được.
+16|V|2|Hôm nay tôi đọc tạp chí được 10 trang.|Đọc tạp chí thì đếm bằng trang: ページ. キロ (km/kg), メートル (mét) không dùng cho đọc sách.
+17|V|2|Phòng đang ở cũng tốt, nhưng năm sau tôi muốn ở phòng gần ga hơn.|Bổ nghĩa cho danh từ へや dùng tính từ nguyên dạng: 近いへや. 近くて là thể nối câu; 近く là danh từ/trạng từ ("chỗ gần").
+18|K|0|Mỗi ngày tôi đi qua trước nhà ga để đến trường.|Đi qua một nơi dùng を: 駅の前をとおります. に là điểm đến, の không đứng trước động từ.
+19|K|0|Tôi hay đi du lịch nhưng anh trai tôi không hay đi.|あまり + thể phủ định: không … lắm. ときどき, たくさん không đi với しません để chỉ "ít".
+20|K|1|A: Để tôi cầm hành lý giúp nhé? B: Cảm ơn anh. Nhờ anh.|Vましょうか: đề nghị làm giúp người khác. B đáp お願いします → A đề nghị: もちましょうか. もちたいですか là hỏi mong muốn, もちませんか là rủ cùng làm.
+21|K|0|Khi tôi đến trường đại học thì giờ học đã bắt đầu rồi.|Vた とき: khi đã đến nơi (hành động hoàn thành trước). ついたとき, giờ học đã bắt đầu. つくとき là trước khi đến.
+34|R|1|Người đàn ông dẫn theo con vật mà "tôi" nghĩ là con chó như thế nào?|Đoạn văn: 4本の足は細くて長く、頭がとても小さかったので、見たことがない犬だと思いました → chân mảnh, là con chó lạ. Con vật chỉ cao bằng nửa người đàn ông, chân dài chứ không ngắn.
+35|R|0|Vì sao "tôi" hét lên "Kyaa!"?|犬の顔を見て、私はびっくりして… 本当は大きなサルだったのです → vì đó không phải chó mà là khỉ.
+36|R|0|Ai (con gì) ghét đi bộ?|歩くのがきらいなブタなので、しかたなく抱いて散歩しているそうです → con lợn ghét đi bộ.
+37|R|1|Người phụ nữ nghĩ gì khi đi dạo với con lợn?|Cô ấy nói với con lợn 降りて歩いてくれない?もう疲れた! (xuống tự đi đi, mệt rồi) → muốn con lợn tự đi.
+38|R|1|Biết được điều gì từ tờ lưu ý này?|歌を歌ったり、ギターなどの楽器をひいたりする場合は、音楽室をご利用ください → phòng này không được hát. Muốn dùng điều hoà ngoài các ngày quy định mới phải báo lễ tân, nên C sai.
+39|R|2|Điều nào được viết về "Mona Lisa"?|でも、だれをかいたのか、わかりません… 本当のことはだれにもわかりません → không biết đó là ai. Vợ người giàu hay chính Leonardo chỉ là giả thuyết.
+40|R|1|Khi đang phát biểu, "tôi" cảm thấy thế nào?|スピーチをしながら、ほんとうに幸せな気持ちになりました → rất hạnh phúc. Người bạn khóc là vì cảm động; "trải nghiệm tốt" là cảm nghĩ sau đó.
+41|R|2|Ngày trước lễ cưới đã có chuyện gì?|結婚式の前の晩は、緊張しすぎて、おなかがいたくなりました → căng thẳng đến đau bụng. Được nhờ phát biểu, viết sửa nhiều lần là chuyện trước đó.
+42|R|2|Gọi suất cá nướng, cơm cỡ lớn và cà phê nóng thì hết bao nhiêu?|焼き魚定食 650円 + ごはん大盛り 50円 + 食後のお飲み物 150円 = 850円.
+43|R|0|Muốn xin thêm canh miso thì nên đi thứ mấy?|みそ汁おかわり自由（平日のみ）: chỉ ngày thường mới được thêm miễn phí → thứ sáu. Thứ bảy, chủ nhật là ngày nghỉ.
+44|R|2|Để không bị cúm nên làm gì?|Tờ áp phích: 外出先から帰宅したときなどは、しっかりうがいを… và rửa tay kỹ → về nhà thì rửa tay, súc miệng. Rửa tay phải dùng xà phòng; khẩu trang không phải "chỉ khi" ho.
+45|R|0|Bị cúm thì sẽ thế nào?|どんな症状?: 38度以上の発熱 → sốt cao. Triệu chứng là đau họng (không phải ngứa) và mệt toàn thân.

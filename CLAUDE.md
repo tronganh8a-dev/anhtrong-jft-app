@@ -85,6 +85,7 @@ Quy trình sau khi sửa: `python3 src/build_data.py` (nếu đổi dữ liệu)
 - Mảng `NEWS` trong `src/index_tpl.html` (id, d=YYYY-MM-DD, tag, t, s, n=số ảnh). Ảnh ở `public/app/media/news/<id>/01.webp…` (khổ 1080×1350, webp q86). Bài < 7 ngày có nhãn MỚI.
 - Bấm thẻ → popup xem ảnh (lướt, phím ←/→, Esc, chấm tròn). Markup popup chèn bằng JS (`#nmodal`).
 
+- **Đề 14–24** (08/11/2026): 11 Google Form của anh (không có phần nghe, 375 câu) → id `jft-g14..g24`, ảnh `public/app/media/jft/img/g<form>_<md5>.jpg`. Nguồn + đáp án/giải thích + sửa lỗi ở `src/jft/gform/` (`ans/f*.txt`: `chỉ số|V/K/R|đáp án|dịch|giải thích`, `ans/fixes.py`); chạy lại: `python3 src/jft/gform/merge_app.py` (cần /tmp/gf/img — ảnh gốc tải từ form) rồi build_data.
 - **Đề thi**: 22/10 anh yêu cầu **xoá toàn bộ bộ đề cũ** (đã xoá `src/raw/lt_exams.json`, tab Làm đề hiện "Bộ đề mới đang được cập nhật"). Anh sẽ gửi **đề mới** → nhập vào app, **bắt buộc có đáp án + giải thích**: làm xong được chấm và xem đáp án đúng kèm giải thích từng câu (trường `ex` của câu hỏi; màn kết quả cần hiện đáp án + giải thích). `HIDE_EXAMS` trong `src/build_data.py` để ẩn tạm đề theo số.
 - **Luyện kỹ năng** (517 câu): mỗi câu có `lab` (nhãn HTML có ruby), `labvi`, `au`, `imgs`, `o[]` (t có thể là HTML, img), `a[]`. Đã sửa 21/10 vì trước đó bị lẫn nhãn/tranh/lựa chọn.
 - **Từ vựng** (3.817 từ): trọng âm `a` (Kanjium, ~2.589 từ), ví dụ `x` → `VOCAB.ex` (~2.117 từ, trích いろどり), audio `au` → `app/media/vau/<md5>.mp3` (VOICEVOX 青山龍星 ノーマル). Không có tiếng Anh.

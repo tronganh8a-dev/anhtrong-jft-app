@@ -1,0 +1,26 @@
+0|V|0|Cái kéo.|Tranh là hai chiếc kéo: はさみ. カップ là cái cốc, かみ là giấy (hoặc tóc).
+1|V|2|Nặng.|Người đàn ông bê chồng thùng, mặt nhăn lại vì nặng → おもい (重い). かるい là nhẹ, ngược nghĩa; くらい là tối.
+2|V|0|Lạc đường, phân vân.|Đứng ở ngã ba, hai biển chỉ hai hướng, tay chống cằm suy nghĩ → まよいます (迷います: lạc, phân vân). わたります là băng qua.
+3|V|2|Tôi đã mua chiếc khăn tay đẹp.|Thứ có thể mua và "đẹp" → ハンカチ. プール là bể bơi, スピーチ là bài phát biểu, không mua được.
+4|V|0|Đi thẳng rồi qua cầu.|はしをわたる: đi qua cầu (橋を渡る). わかります là hiểu, ならびます là xếp hàng. わたります và わかります chỉ khác một chữ.
+5|V|0|Hãy dán tem lên phong bì.|きってをはる: dán tem (切手を貼る). とって là lấy, きって là cắt.
+6|V|2|Tốt nghiệp đại học xong, tôi định đi du học Nhật. Tôi muốn tiếp tục học tiếng Nhật.|卒業 (TỐT NGHIỆP) đọc là そつぎょう (âm dài ぎょう). そつぎょ thiếu trường âm, そつぎょお viết sai.
+7|V|0|Tôi đang nghĩ học gì thì có ích cho công việc sau này.|役に立つ (DỊCH, LẬP) đọc là やくにたつ: có ích. やくにもつ, じゃくにたつ là đọc sai.
+8|V|1|Người đang uống cà phê ở quán.|飲んでいる (ẨM) đọc là のんでいる. こんでいる là đông đúc (込む).
+9|V|2|Nhân viên của tiệm này tốt bụng.|Người thì mới しんせつ → 店員 (ĐIẾM VIÊN: nhân viên cửa hàng). 開店 là khai trương, 店内 là bên trong tiệm.
+10|V|0|Cái máy tính này giá tốt, nhưng hơi nặng.|おもい viết là 重い (TRỌNG). 動 (ĐỘNG) và 働 (ĐỘNG: làm việc) có phần 重 nhìn giống nhưng là chữ khác.
+11|V|1|Chúng tôi xin thông báo đến quý khách về việc thay đổi giờ mở cửa.|ごあんないいたします: thông báo, hướng dẫn. あんない viết là 案内 (ÁN NỘI). 安内, 案肉 là chữ viết sai.
+12|K|1|Yokota: Đây là anh Watanabe. Anh ấy làm ở công ty lâu nhất. Anh ấy biết mọi thứ nên việc gì của công ty thì cứ hỏi anh Watanabe. Watanabe: Tôi là Watanabe. Nếu được thì cứ hỏi tôi bất cứ lúc nào.|Lời khuyên, nhờ người nghe làm gì: Vてください → 聞いてください.
+13|K|0|Masuda: Sai biết ca sĩ Nhật nào không? Sai: Tôi thích Amuro Namie. Masuda: Ồ, nhưng cô ấy giải nghệ rồi nhỉ. Sai: Vâng, nhưng bây giờ tôi vẫn thích. Cô ấy ngầu, hát cũng giỏi, nhảy cũng giỏi.|N1もN2も: cả N1 và N2 đều… 歌もダンスも上手だし.
+14|K|0|Masuda: Xin lỗi, anh Eguchi là người nào? Sai: Người tóc ngắn, để râu đằng kia. Masuda: À, tôi hiểu rồi.|Nối hai đặc điểm: tính từ い bỏ い + くて → 髪が短くて、ひげをはやしてる人.
+15|K|0|Masuda: Ngày mai hãy tập trung ở quảng trường Sakura lúc 9 giờ sáng. Sai: 9 giờ sáng ở quảng trường Sakura nhé. Tôi hiểu rồi.|Sai trả lời わかりました → Masuda đang yêu cầu: 集まってください.
+16|K|2|Masuda: Bạn có biết buổi hoà nhạc J-pop mấy giờ bắt đầu không? Sai: (Không biết.) Mình thử hỏi ở quầy lễ tân xem.|Vてみる: thử làm V → 聞いてみましょう.
+17|K|1|Masuda: Bạn là fan của ai? Sai: Đạo diễn Kurosawa Akira. Từ hồi đại học xem phim lần đầu, tôi là fan suốt.|Vてから: từ sau khi làm V. はじめてえいがを見てから、ずっとファンです.
+18|K|1|A: Người phụ nữ này là ai? B: Chị tôi. A: Chị anh trông hiền nhỉ. B: Trông hiền vậy, nhưng thực ra thì nghiêm lắm.|〜けど、ほんとうは〜: trông có vẻ … nhưng thực ra thì… ほんとう đứng trước は làm chủ đề.
+19|K|0|Nhân viên: Xin chào quý khách. Quý khách có đặt trước không ạ? Khách: Không. Nhân viên: Quý khách đi mấy người ạ? Khách: 3 người.|Nhân viên dùng kính ngữ: ご予約ですか. 予約しましたか là văn thường, 予約したの là văn nói thân mật, không dùng với khách.
+20|K|0|A: Sukiyaki xong rồi. Ăn nhiều vào nhé. B: Vâng, tôi xin. Nóng quá. A: Chấm trứng ăn thì không nóng đâu.|Trước khi ăn: いただきます. ごちそうさまでした nói sau khi ăn xong.
+21|K|0|A: Tôi muốn thử lặn ở Okinawa, (đi) lúc nào thì tốt ạ? B: Quanh năm đều được, nhưng tôi thích tháng 10. Tháng 10 nước trong, ít người.|B trả lời về thời điểm (10月) → câu hỏi là いつがいいですか.
+22|K|2|A: Anh Yoshida đi từ khách sạn ra biển bằng cách nào? B: Tôi đi xe đạp. Mệt nhưng vui.|Hỏi phương tiện, cách đi: どうやって行きましたか. B trả lời 自転車で.
+23|K|2|A: Nataria, xin lỗi. B: Vâng, có gì ạ? A: Tôi đang tìm người làm lễ tân ở lễ hội Nhật Bản. Bạn làm giúp được không? B: Lễ tân ạ? Tôi không nói tiếng Nhật giỏi lắm. A: Không sao. Có 2 người mà.|Nhờ ai đó làm việc gì: お願いできませんか (nhờ bạn được không?). お願いします dùng khi người kia đã đề nghị giúp.
+34|R|0|Viên con nhộng mỗi ngày uống mấy viên?|Hàng ■■カプセル: 朝・昼・夕 mỗi bữa 1 viên (1回1カプセル 毎食後) → 3 viên/ngày.
+35|R|2|Niềm vui của "tôi" là gì?|暖かい部屋でいいアイスクリームを食べるのが、私の楽しみ → mùa đông ăn kem đắt tiền trong phòng ấm. Mùa đông chỉ thỉnh thoảng ăn, không phải mỗi ngày.

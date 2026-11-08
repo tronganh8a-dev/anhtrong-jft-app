@@ -1,0 +1,39 @@
+2|V|0|Giá, kệ.|Tranh là cái kệ (giá sách) → たな. 本 chỉ là sách đặt trên kệ, 机 là cái bàn.
+3|V|2|Ngồi.|Hai người đang ngồi trên ghế dài → すわります (座ります). たてます là dựng lên, まちます là chờ.
+4|V|2|Ngủ.|Người đang gục đầu ngủ trên bàn → 寝ます (TẨM). 眠い là tính từ "buồn ngủ"; 起きます là thức dậy, ngược nghĩa.
+5|V|1|Nhà ga.|Tranh là sân ga có đường ray, biển số sân ga → えき (駅). えび là tôm, てき là kẻ thù; ba từ chỉ khác một âm.
+6|V|2|Nhảy múa.|Đoàn người nhảy múa trong lễ hội → おどります (踊ります). あけます là mở, しめます là đóng.
+7|V|0|Kẹo, bánh kẹo.|Tranh là nhiều viên kẹo nhiều màu → おかし. めがね là kính, ほんだな là giá sách.
+9|V|0|Tôi gặp bạn ở sân bay.|友達に会う: gặp bạn (trợ từ に). たべます, します không đi với 友達に.
+10|V|2|Tôi chưa học nên lo cho kỳ thi ngày mai.|Chưa học bài → lo lắng: しんぱい. あんしん là yên tâm, ngược nghĩa; ドキドキ là hồi hộp, tim đập (không nói rõ lý do lo).
+11|K|0|Chủ nhật tôi chơi tennis với bạn. Rất vui.|Việc đã xảy ra → quá khứ của tính từ い: 楽しかったです. 楽しいでした là sai ngữ pháp.
+12|K|1|Ở đây là một nơi rất náo nhiệt nhỉ.|Tính từ な bổ nghĩa cho danh từ cần な: にぎやかな所.
+13|K|1|Hồi nhỏ, tôi đã học piano.|子どもの時 (hồi nhỏ) → quá khứ: 習いました.
+14|V|2|Ở quán này có thực đơn tiếng Anh.|英語 (ANH NGỮ) đọc là えいご. えいが là phim; えいこ sai âm đục.
+15|V|1|Mẹ hơi mệt nhưng nghỉ ngơi thong thả nên giờ khoẻ rồi.|元気 (NGUYÊN KHÍ) đọc là げんき. げきん, もとげ là cách đọc sai.
+16|V|0|Nghe nói bạn bị cảm, tôi lo lắm. Giữ gìn sức khoẻ nhé.|お大事に đọc là おだいじに. おおだいじに thừa お; おたいじに sai âm đục.
+17|V|0|Ngoài trời rất lạnh nên tôi mặc áo khoác ấm rồi ra ngoài.|温かい (ÔN) đọc là あたたかい. あたかい thiếu một た; おんかい là đọc theo âm Hán sai.
+18|V|1|Mua quà sinh nhật xong tôi đến nhà bạn.|買って (MÃI) đọc là かって. こうって, かいって là cách chia sai.
+19|V|2|Anh Tanaka đã mua chiếc khăn tay màu trắng.|白い (BẠCH) đọc là しろい. くろい là đen, あかい là đỏ.
+20|K|1|Cái đĩa rơi xuống sàn và bị vỡ mất.|Đĩa tự vỡ → tự động từ われる: われてしまいました. わって là tha động từ (làm vỡ).
+21|K|1|A: Hôm qua ai bị ngã xe đạp vậy? B: Em trai tôi.|B trả lời người (弟です) → hỏi だれ.
+22|K|1|Cái thùng to này dùng để vứt rác.|Vる + のに使います: dùng để làm V. ごみを捨てるのに使います.
+23|K|0|Học xong thì đi chơi công viên nhé.|Vたら: sau khi V xong thì… 学校が終わったら、公園へ行きましょう.
+24|K|1|Buổi sáng gặp thầy giáo thì nói gì?|Chào buổi sáng: おはようございます.
+25|K|0|A: Công việc quen chưa? B: Nhờ trời, tôi quen khá nhiều rồi.|Được hỏi thăm về tình hình của mình, trả lời tích cực: おかげさまで.
+26|K|1|A: Chỗ này (ngồi) được không ạ? B: Xin mời.|Cho phép người khác: どうぞ.
+27|K|0|A: Trông đắt nhỉ. B: Không, không đắt đến thế đâu.|Aい bỏ い + そう: trông có vẻ. 高そうですね.
+28|K|0|A: Nên đi nha sĩ sớm đi. B: Vâng, nhưng tôi không biết chỗ nào tốt.|でも + phủ định: không biết chỗ nào tốt → わかりません.
+29|K|0|A: Chủ nhật này cùng đi không? B: Hay đấy. Đi thôi.|Rủ người khác: Vませんか → 行きませんか.
+30|K|0|A: Tôi muốn có quần áo mới. B: Vậy mai cùng đi mua nhé.|Tính từ い bổ nghĩa cho danh từ: あたらしいふく.
+31|K|0|A: Rất vui được gặp, tôi là Lan. Rất mong được giúp đỡ. B: Tôi cũng vậy, rất mong được giúp đỡ.|Chào lần đầu: どうぞよろしく(おねがいします). B đáp こちらこそ.
+32|K|0|A: Hành lý trông nặng nhỉ. Anh ổn chứ? B: Tôi ổn. Cảm ơn.|B trả lời だいじょうぶです → câu hỏi là だいじょうぶですか.
+33|V|1|A: Bây giờ mấy giờ? B: 9 giờ.|9時 đọc là くじ. きゅうじ, ここのじ là cách đọc sai.
+43|R|2|Đọc tờ ghi chú, thầy Takada phải báo cho anh Hayashi điều gì?|見学の日と時間が決まったら、電話がほしい… 行く人の数も教えてもらいたい → báo ngày, giờ và số người đi.
+44|R|2|Người muốn lấy đồ bỏ quên trong 3 ngày thi phải làm gì?|12月5日〜7日は試験中… 先生たちの部屋には入れません。教室でクラスの先生に言ってください → nói với giáo viên lớp mình.
+45|R|0|Điều nào đúng?|Nanae viết 私の姉の店で、私も毎日アルバイトをしています → Nanae làm thêm ở tiệm giày. Tiệm cách ga 10 phút đi bộ, nhỏ và dễ thương.
+47|R|2|Karina giỏi gì?|英語が得意です → giỏi tiếng Anh.
+48|R|1|Phiếu này để làm gì?|買い物を安くしたいならば、これを使ってください → mua hàng rẻ hơn.
+49|R|2|Dùng được khi nào?|3000円以上の買い物がある場合に利用いただけます → khi mua từ 3.000 yên.
+50|R|2|Thuốc này để chữa gì?|この赤い薬はせきのためのものです → chữa ho. Khi sổ mũi thì không uống.
+51|R|0|Phải uống khi nào?|食事の前に飲んでください → trước bữa ăn.

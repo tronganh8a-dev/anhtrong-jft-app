@@ -1,0 +1,38 @@
+0|V|0|Hoa quả.|Tranh là nhiều loại trái cây: フルーツ (= くだもの). ジャングル là rừng rậm, ナッツ là các loại hạt.
+1|V|0|Tiết kiệm (giấy).|Chồng giấy dày giảm xuống còn ít: dùng ít đi để không lãng phí → せつやく (節約 TIẾT ƯỚC). せつめい là giải thích, せかい là thế giới, せいかい là đáp án đúng.
+2|V|2|Hướng dẫn, dẫn đường.|Người phụ nữ chỉ tay, dẫn đường cho người đang cầm bản đồ → あんないする (案内 ÁN NỘI). うんどう là vận động, さんか là tham gia.
+3|V|0|Chua.|Em bé nhăn mặt bên cạnh quả chanh → すっぱい. しょっぱい là mặn, あまい là ngọt.
+4|V|2|Tiết kiệm nước.|Số xô nước giảm từ 6 xuống 3 → せっすい (節水 TIẾT THUỶ). せわ là chăm sóc, せんたく là giặt giũ, ぜんぜん là hoàn toàn (không).
+5|V|1|Cô đơn, buồn.|Cô bé ngồi một mình trên xích đu, vẻ mặt buồn → さびしい (寂しい). すずしい là mát mẻ; きびしい là nghiêm khắc.
+6|V|1|Chuyển (xe), đổi tàu.|Từ xe buýt sang tàu điện → のりかえる (乗り換える). はこぶ là vận chuyển, すごす là trải qua (thời gian).
+7|V|1|Khi khó ngủ thì nên ngâm mình thong thả trong bồn nước ấm.|ぬるい(nước ấm) + 入る → おふろに入る (tắm bồn). おしいれ là tủ âm tường, へや là căn phòng.
+8|V|2|Khi máy tính không chạy, hãy thử khởi động lại.|コンピューターが動かない → さいきどう (再起動 TÁI KHỞI ĐỘNG) してみてください. ちゅうい là chú ý, れんらく là liên lạc.
+9|V|0|Nghe nói bạn đã đỗ kỳ thi. Chúc mừng.|しけんにごうかくする: đỗ kỳ thi (合格). おいわい là quà mừng, たいせつに là trân trọng.
+10|V|0|Hôm qua tôi đã cắt tóc ở tiệm cắt tóc. Đắt lắm.|Cắt tóc ở りはつてん (理髪店 LÍ PHÁT ĐIẾM, tiệm cắt tóc nam). ちゅうこしゃてん là cửa hàng ô tô cũ, クリーニングてん là tiệm giặt là.
+11|V|1|Khi vứt rác nhất định phải phân loại.|ごみをぶんべつする (分別 PHÂN BIỆT): phân loại rác. しゅうり là sửa chữa, せつでん là tiết kiệm điện.
+12|V|1|Xin lỗi, tôi không mang bút chì, cho tôi mượn được không?|借りて (TÁ) đọc là かりて. おりて (xuống xe), たりて (đủ) nhìn giống nhưng khác từ.
+13|V|0|Thị trấn tôi sống có nhiều hồ đẹp.|湖 (HỒ) đọc là みずうみ. みずみ, みいずうみ là cách đọc sai.
+14|V|2|Từ nhà đến biển rất xa, đi xe buýt mất 5 tiếng.|遠くて (VIỄN) đọc là とおくて. すくなくて là ít, みじかくて là ngắn.
+15|V|0|Từ này có ý nghĩa thế nào?|どういう意味ですか: nghĩa là gì? 天気 là thời tiết, 週末 là cuối tuần.
+16|V|1|Cảm ơn mọi người. Tôi sẽ giữ gìn món quà nhận được.|大切にします: trân trọng, giữ gìn. 無料 là miễn phí, 順番 là thứ tự.
+17|K|0|Buổi nướng thịt tuần sau, tôi sẽ làm bánh sô-cô-la mang đi.|Vて行きます: làm V rồi mang đi. ケーキをつくって行きます. Thể từ điển, thể ます bỏ ます không ghép với 行きます theo nghĩa này.
+18|K|0|Học xong thì tôi chơi game yêu thích với bạn.|Vたから: sau khi làm xong (lý do). 勉強がおわったから. おわる chưa xong, おわって không đi với から.
+19|K|1|A: Tuần sau tôi đi Hokkaido. B: Hokkaido lạnh lắm, nên mang theo áo ấm thì hơn. A: Vậy à, tôi hiểu rồi.|Vたほうがいい: nên làm V (lời khuyên). 持っていったほうがいい → いった.
+20|K|1|Món này giống món gà rán ở nước tôi.|N に似ています: giống N. Trợ từ đi với 似る là に.
+21|K|2|Uống rượu thì không được lái xe đâu. Nguy hiểm lắm.|Vちゃだめ = Vてはだめ (văn nói): không được làm V. しちゃだめ.
+22|K|1|A: Natto, ăn thử không? B: Vâng, tôi xin.|Vてみる: thử làm V. 食べてみる? là rủ thử. Câu trả lời いただきます cho thấy A đang mời ăn.
+23|K|0|Người Nhật khi ăn cơm xong thì nói "gochisousama deshita".|ごちそうさまでした nói sau khi ăn xong → Vたとき: 食べたとき. 食べるとき là trước khi ăn (nói いただきます).
+24|K|1|A: Cơm anh lấy suất lớn không? B: Suất thường là được rồi.|Nで大丈夫です: N là được. ふつうで大丈夫です.
+25|K|1|Senpai: Bạn học tiếng Nhật bao lâu rồi? Kouhai: Khoảng 5 tháng.|Hỏi どれぐらい (bao lâu) → trả lời khoảng thời gian: 5かげつぐらい. 5がつ là tháng 5, 5がつの前 là trước tháng 5.
+26|K|1|Nia: Vậy mua gì mang đi nhé? Lala: … Nia: Vậy đi mua gà rán nhé.|Vます bỏ ます + に行く: đi để làm V. からあげを買いに行きましょう.
+27|K|1|(Ở nhà hàng) A: Quý khách gọi món chưa ạ? B: Cho tôi gà rán và cà phê nóng. A: Gà rán và cà phê nóng. Như vậy là đủ chưa ạ? B: Vâng.|Nhân viên xác nhận order xong hỏi いじょうでよろしいですか (vậy là đủ chưa ạ?). おもちかえりですか hỏi mang về, nhưng B trả lời はい mà không cần chuẩn bị gì thêm.
+28|K|0|A: Anh thích hoa quả gì? B: Ừm, nho hay táo chẳng hạn. A: Chuối thì sao? B: Chuối tôi không thích lắm.|N1とかN2とか: liệt kê ví dụ (văn nói). Hai chỗ trống cùng điền とか.
+29|K|2|A: Vừa nãy có điện thoại của anh Yoshimura đấy. B: Vậy à. Anh ấy có nói gì không?|Hỏi lại nội dung đã nói lúc trước: 何かいっていましたか. いう, いった không đúng thì.
+30|K|1|Nhân viên: Cắt tóc và cạo râu là 2.000 yên. Khách: Vậy tôi gửi 5.000 yên. Nhân viên: Tôi nhận 5.000 yên. Trả lại anh 3.000 yên.|Nhân viên nhận tiền nói 〜円からおあずかりします. Đây là câu cố định ở quầy tính tiền.
+31|K|3|A: Không được, không được. Khi lên tàu phải xếp hàng đàng hoàng. B: Ồ, vậy à? Ở nước tôi không mấy khi xếp hàng.|Vなきゃ (= Vなければ): phải làm V. ならばなきゃ.
+32|K|1|A: Chúc mừng năm mới. B: Chúc mừng năm mới. A: Nghỉ Tết của anh thế nào?|Hỏi về お正月 → lời chúc năm mới あけましておめでとうございます.
+33|R|0|Sáng mai từ 10 giờ 30 đến 12 giờ ở Sakura Garden, không thể làm gì?|Thông báo: エレベーターは動きません → không đi thang máy được. Cửa ra vào được mở sẵn nên vẫn ra vào được; điện trong phòng không bị cắt.
+34|R|1|Điều nào đúng với đoạn văn?|ビールやジュースなどの飲み物… もあります → tiệm sushi có bán bia. Một đĩa 100 yên (không phải 1.000); sushi đĩa xuất hiện cuối năm 1990.
+35|R|2|Tham gia khoá học sức khoẻ thì trả bao nhiêu?|受講料：無料 → miễn phí (ただ). Bữa trưa 500 yên là tự trả riêng.
+36|R|3|Riko muốn tham gia lớp Zoom. Khi nào tham gia được?|Lớp はじめてのZoom体験 là 6/21 (水). Chú ý thứ: 6/21 là thứ tư.
+37|R|2|Pháo hoa gặp trời mưa thì sao?|雨天時：8月27日 → mưa thì chuyển sang ngày hôm sau (27/8).

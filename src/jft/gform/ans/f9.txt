@@ -1,0 +1,34 @@
+1|V|2|Con cua.|Tranh là con cua: カニ. カキ là hàu (hoặc quả hồng), エビ là tôm.
+2|V|0|Bóc (vỏ chuối).|Bóc vỏ trái cây: 剥く (むく). 塗る (ぬる) là bôi, quét; 切る (きる) là cắt.
+3|V|1|Điện thoại thông minh.|Tranh là điện thoại màn hình cảm ứng: スマホ. イヤホン là tai nghe; でんわ là điện thoại nói chung, không đúng với tranh bằng スマホ.
+4|V|2|Chúc mừng bạn sinh em bé.|ご出産おめでとうございます: lời chúc khi sinh con (出産 XUẤT SẢN). ご家族, ご国 không đi với おめでとう.
+5|V|0|Anh Kato đang đeo kính.|Đeo kính: めがねをかける. しています dùng cho cà vạt, đồng hồ; きています dùng cho áo.
+6|V|2|Bây giờ đang có đợt giảm giá khai trương, chắc mua được rẻ đấy.|開店セール: giảm giá khai trương. セーリ là viết sai; ルール là quy tắc.
+7|V|0|Mỗi sáng bạn ăn gì?|朝 (TRIỀU) đọc là あさ. かさ là cái ô; あざ là vết bầm.
+8|V|1|Sông lặng thì nước sâu.|静か (TĨNH) đọc là しずか. いなか là nông thôn; いすか là cách đọc sai.
+9|V|1|Con voi đó là con vật lớn nhất trong sở thú.|動物園 (ĐỘNG VẬT VIÊN) đọc là どうぶつえん. どぶつえん thiếu trường âm, とうぶつえん sai âm đầu.
+10|V|2|Ngày mai là ngày 15/9/2024.|Năm viết là 年 (NIÊN). 午 (NGỌ: buổi trưa) và 牛 (NGƯU: con bò) nhìn rất giống.
+11|K|0|A: Sách tiếng Nhật giá bao nhiêu ạ? B: Bạn thử hỏi thầy giáo xem.|Hỏi người: 先生に聞く. 練習, 高校 không phải người để hỏi.
+12|V|1|Tôi đã mua chiếc váy liền mới. Màu trắng, rất dễ thương.|は白です → nói về màu: 色. 服 không hợp vì đã nói ワンピース.
+13|K|1|Ở khách sạn này có thể tắm bồn lộ thiên.|Vること が できます: có thể làm V. 入ることができます.
+14|K|1|Hôm qua bị sốt nên tôi nghỉ làm.|Thể て chỉ nguyên nhân: 熱があって、会社を休みました.
+16|K|2|Đồ giặt ở tiệm, tôi muốn nhận càng sớm càng tốt.|Bổ nghĩa cho động từ 受け取る dùng phó từ: 早い → 早く. できるだけ早く: càng sớm càng tốt.
+17|K|0|Tôi xuống tàu ở ga Sakura.|Nơi xảy ra hành động dùng で (さくら駅で); xuống khỏi phương tiện dùng を (電車をおります).
+18|K|1|Hộp sữa chua này cũ rồi, không được ăn đâu.|Vちゃだめ = Vてはだめ: không được làm V. 食べちゃだめ. Hai phương án còn lại chia sai.
+19|K|0|A: Đi sự kiện, bắt đầu sở thích mới, nói chuyện với người ngoài công việc cũng quan trọng đấy. B: Đúng vậy. Cảm ơn anh. Tôi sẽ suy nghĩ thêm.|Nhận lời khuyên: いろいろ考えてみます. 別にかまいません là "không sao cả" (thờ ơ), よろしくお伝えください là nhờ gửi lời hỏi thăm.
+20|K|1|A: Bạn có thích thịt không? B: Thịt thì… (không thích lắm).|ちょっと… dùng để từ chối, nói tránh một cách nhẹ nhàng. えーと, あのう chỉ là từ đệm khi đang nghĩ.
+21|K|0|A: Lát nữa bạn làm gì? B: Tôi đói rồi. Đi ăn gì đó không?|Câu sau rủ đi ăn → nêu lý do: お腹がすきました (đói bụng).
+22|K|1|A: Thị trấn này nhiều cây xanh, yên tĩnh, tốt nhỉ. B: À, đúng thật.|確かに: đúng thật, quả thật (đồng ý). なんとか là "bằng cách nào đó".
+23|K|2|A: Lượng cơm anh muốn thế nào ạ? B: Cho tôi suất lớn.|Nhân viên hỏi khách bằng kính ngữ: どうなさいますか (anh/chị muốn thế nào ạ?).
+24|K|2|A: Cuối tuần tôi đi thuỷ cung. Vui lắm. B: Vậy thì tốt quá.|Nghe tin vui của người khác: それはよかったですね. ざんねんです dùng khi nghe tin buồn.
+37|R|2|Điều nào đúng?|Buổi tập từ 9 giờ 20, kéo dài 1 tiếng (đến 10 giờ 20). Takagi đến muộn 30 phút → 9 giờ 50. Takagi chỉ tập 30 phút, không phải 1 tiếng.
+38|R|0|Người này đã đọc bao nhiêu trang?|Sách 250 trang, còn khoảng 100 trang → đã đọc khoảng 150 trang.
+39|R|2|Bây giờ còn mấy cái bánh?|Mua 10 cái, hai chị em mỗi người ăn 2 cái (= 4 cái) → còn 6 cái.
+41|R|0|Mỗi tháng trả bao nhiêu?|費用：無料 → không mất tiền (0 yên). Lớp học một buổi là xong, không phải trả hằng tháng.
+42|R|2|Vì sao đến muộn?|Tin nhắn: すみません。時間をまちがえました。30分おくれます → nhầm giờ.
+43|R|2|Mua được với giá bao nhiêu?|9,500円（税別）: 9.500 yên chưa gồm thuế → 9.500 yên + thuế. 12.600 yên là giá niêm yết của hãng.
+44|R|1|Giá này mua được đến khi nào?|今週限りの特別価格 → giá đặc biệt chỉ trong tuần này.
+45|R|1|Khi tham gia sự kiện, tiền thì sao?|入場料無料 → vào cửa miễn phí, không cần trả tiền.
+46|R|1|Sự kiện diễn ra khi nào?|11月3日（土）〜4日（日） → hai ngày cuối tuần.
+47|R|2|Muốn vứt pin thì vứt ngày nào?|乾電池 (pin khô) thuộc 不燃ごみ, ngày vứt là 水曜日 → thứ tư.
+48|R|1|Muốn vứt xe đạp cũ thì làm thế nào?|Xe đạp là 粗大ごみ (rác cỡ lớn): 申し込み制 → phải liên hệ trung tâm tiếp nhận rác cỡ lớn để đăng ký. Không vứt vào thứ tư như rác không cháy.

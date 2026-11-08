@@ -1,0 +1,29 @@
+0|V|2|Mẹ (người được mũi tên chỉ).|Mũi tên chỉ người phụ nữ đang bế em bé, đó là mẹ: おかあさん. おばあさん là bà; おかさん viết thiếu chữ あ, không có từ này.
+1|V|2|Trả tiền.|Người khách đang lấy tiền trong ví đưa cho nhân viên ở quầy tính tiền → はらいます (払います: trả tiền). あげます là cho/tặng; えがおします không phải từ đúng.
+2|V|2|Mặc chiếc quần mới.|Quần, váy, giày, tất (mặc từ dưới chân lên) dùng はきます. きます dùng cho áo; つけます dùng cho phụ kiện như đồng hồ, khẩu trang.
+3|V|1|Bây giờ tôi đang học tiếng Nhật.|今 (bây giờ) đi với thể đang diễn ra 〜ています → べんきょうしています. ならいました là quá khứ; まなびますか là câu hỏi, không hợp.
+4|V|0|Ngày mai chắc trời sẽ nắng.|明日 (ngày mai) là tương lai → はれるでしょう (chắc sẽ nắng). はれました là quá khứ, はれています là đang nắng.
+5|V|1|Lối ra ở đằng kia.|出口 (XUẤT KHẨU) đọc là でぐち. しゅっぱつ là 出発 (xuất phát); でるぐち là cách đọc sai.
+6|V|0|Máy tính phát ra tiếng lạ.|音 (ÂM) đọc là おと: âm thanh của đồ vật. こえ (声) là giọng người/con vật; あと là "sau".
+7|V|2|Uống thuốc này sẽ buồn ngủ.|くすり viết là 薬 (DƯỢC). 音 là âm thanh, 楽 là vui/nhạc, nhìn hơi giống nhưng khác nghĩa.
+8|V|0|Trước khi mua sắm, mình đi quán cà phê nhé.|N の前に: trước N. 買い物の前に = trước khi mua sắm. 時 cần の時 (khi), không hợp với "đi trước"; 左 là bên trái.
+9|V|2|Đau bụng nên tôi đã đi bệnh viện.|お腹が痛い: đau bụng → 痛くて (thể て chỉ lý do). 眠い là buồn ngủ, 甘い là ngọt.
+10|V|0|Tối qua nóng nhỉ.|ゆうべ (tối qua) là quá khứ của tính từ → 暑かった. 辛かった là cay; 教えかた (cách dạy) không hợp nghĩa.
+11|K|2|A: Chúc mừng sinh nhật. B: Cảm ơn bạn.|誕生日おめでとうございます là câu chúc mừng sinh nhật cố định, B đáp ありがとうございます. Trong đề gốc chữ này viết sai thành おめでどう, em đã sửa lại.
+12|K|3|A: Karina, đơn đăng ký du học đã nộp chưa? B: Chưa, mình không biết cách viết giấy tờ nên… (giải thích giúp mình được không?)|B không biết cách viết → nhờ người khác giải thích: せつめいしてもらえませんか (anh/chị giải thích cho tôi được không). Các câu còn lại không phải lời nhờ.
+13|K|2|A: Hãy dùng tiếng Nhật nhiều để giỏi lên nhé. B: Mỗi ngày tôi sẽ thử viết nhật ký bằng tiếng Nhật.|日記を書く (viết nhật ký), thể て của 書く là 書いて → かいてみます (thử viết). かきてみます chia sai; きいてみます là thử nghe/hỏi.
+14|K|1|A: Vì đau răng nên chỉ ăn được đồ mềm. B: Vất vả nhỉ.|Đau răng thì chỉ ăn được đồ mềm: やわらかいもの. やらわかい là viết sai thứ tự chữ; かたいもの là đồ cứng, ngược nghĩa.
+15|K|2|A: Tôi đã chọn cái túi màu nâu làm quà cho vợ. B: Cái đó hay đấy.|Chọn quà → えらびます (選びます). ならびます là xếp hàng; たります là đủ.
+16|K|1|A: Món này chấm nước sốt thì ngon lắm. B: Tôi không ăn được đồ cay. A: Vậy đừng chấm gì, ăn nguyên như thế đi.|なにもつけないで、そのまま食べる: không chấm gì, cứ để nguyên mà ăn. そんなに là "đến mức đó", できるだけ là "cố gắng hết mức".
+26|R|0|Tanaka gặp chuyện gì?|Tin nhắn: 今朝急に熱が出て、今は病院へ行くところです (sáng nay đột nhiên bị sốt, giờ đang đi bệnh viện) → tranh nhiệt kế. Tranh rạp phim là việc bị huỷ; tranh xe cứu thương không có trong tin nhắn.
+27|R|1|Khi nào Tanaka xem phim?|Tanaka viết 今日は映画を見る予定なのに… 来週だったらどう? (hôm nay định xem phim nhưng… tuần sau thì sao?) → 来週.
+28|R|2|Tờ giấy này nói về điều gì?|Tiêu đề: 冷蔵庫を使用する方へ おねがい (gửi người dùng tủ lạnh: lời nhờ). Đây là lời nhờ về cách dùng tủ lạnh → れいぞうこのおねがい.
+29|R|1|Phải làm gì (khi dùng tủ lạnh)?|Điều đầu tiên trong tờ giấy: 冷蔵庫に入れるものには、かならず名前を書いてください (đồ cho vào tủ lạnh nhất định phải ghi tên) → ものに名前を書く. Câu hỏi gốc ghi "においしないように" hơi lệch nội dung, em giữ đáp án theo tờ giấy.
+30|R|2|Nhà vệ sinh ở đâu?|Biểu tượng nhà vệ sinh nam/nữ (男子トイレ・女子トイレ) chỉ có ở sơ đồ tầng 1 (1F), tầng 2 không có → 1階.
+31|R|2|Thứ sáu (phòng khám mở) đến mấy giờ?|Cột 金 có dấu ● ở cả hai khung 9:00〜12:00 và 15:00〜19:00 → mở đến 19:00.
+32|R|1|Lớp tiếng Nhật học mấy tiếng?|Tờ rơi ghi どようび 10:00〜12:00 → mỗi buổi 2 tiếng.
+33|R|0|Hạn đăng ký là khi nào?|もうしこみ：QRコード… 5月28日まで → hạn đăng ký là ngày 28/5. 6/5〜7/10 là thời gian học.
+34|R|1|Người phụ nữ (Wini) sẽ làm gì?|Giấy nhắn: 11時に会議室に来てください。1時間ぐらいミーティングをします → đến phòng họp họp → tranh phòng họp. Người tiếp khách lúc 10 giờ là Fariz, bữa trưa là ăn ngoài cùng người khác.
+35|R|1|Mấy giờ (Wini phải đến phòng họp)?|11時に会議室に来てください → 11 giờ. 10 giờ là lúc Fariz có buổi phỏng vấn.
+36|R|1|Thứ bảy tháng 10 ở đâu?|Lịch trình: 10/24 (土) 12:00 広島に到着 → Hiroshima.
+37|R|0|Sáng ngày 25/7 đi đâu?|7/25 (土) 10:00 朝から海へ! → đi biển.

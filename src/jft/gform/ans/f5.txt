@@ -1,0 +1,45 @@
+2|V|1|Mũ.|Tranh là chiếc mũ: ぼうし (帽子). めがね là kính, かぎ là chìa khoá.
+3|V|0|Tốt bụng.|Cậu bé nhường chỗ ngồi trên tàu cho bà cụ chống gậy → しんせつです (親切: tốt bụng). きびしい là nghiêm khắc, ひどい là tệ, quá đáng.
+4|V|2|Cảnh sát.|Người mặc đồng phục, đội mũ, giơ tay ra hiệu dừng lại → けいさつかん (警察官). べんごし là luật sư, どろぼう là kẻ trộm.
+5|V|0|Đèn tín hiệu.|Tranh là đèn cho người đi bộ: しんごう (信号). ちかてつ là tàu điện ngầm, こうさてん là ngã tư.
+6|V|0|Hành lý đi du lịch đã chuẩn bị xong chưa?|にもつをよういする (用意: chuẩn bị). せわ là chăm sóc, やくそく là hẹn.
+7|V|1|Tôi có 2 cái máy tính.|Máy móc, xe cộ đếm bằng 〜だい (台). 〜まい dùng cho vật mỏng như giấy, áo; 〜さい là tuổi.
+8|V|0|Hãy đổi tàu ở ga tiếp theo.|でんしゃをのりかえる: đổi tàu. のぼる là leo lên, ひっこす là chuyển nhà.
+9|V|1|Năm ngoái tôi hay đi karaoke, nhưng gần đây ít đi.|Đối lập với きょねん (năm ngoái) là さいきん (最近: gần đây). さいご là cuối cùng, さいしょ là đầu tiên.
+10|V|0|Hôm nay gió mạnh.|強い (CƯỜNG) đọc là つよい. よわい (弱い) là yếu, ngược nghĩa; きょうい là cách đọc sai.
+11|V|0|Tôi đã mua chiếc áo len màu đỏ.|赤い (XÍCH) đọc là あかい. あおい là màu xanh, あまい là ngọt.
+12|V|2|Lần tới tôi muốn leo núi Phú Sĩ.|今度 (KIM ĐỘ) đọc là こんど. こんや là tối nay (今夜); こんたび là cách đọc sai.
+13|V|0|Tôi không hiểu ý nghĩa của từ này.|意味 (Ý VỊ) đọc là いみ. いま là bây giờ; いめ là cách đọc sai.
+14|V|2|Hãy viết tên vào đây.|なまえをかく: viết tên → 書いて (THƯ). 読んで là đọc, 見て là xem.
+15|V|1|Lin là người vui vẻ, thú vị.|明るい (MINH): vui vẻ, tươi sáng, hợp với おもしろい. 暗い là u ám, trái nghĩa; 長い là dài.
+16|V|1|Ông tôi 95 tuổi nhưng rất khoẻ mạnh.|とても元気です: rất khoẻ (元気 NGUYÊN KHÍ). 食事 là bữa ăn, 便利 là tiện lợi.
+17|K|1|Hoa: Anh Wan có làm gì vì sức khoẻ không? Wan: Mỗi ngày tôi cố gắng không đi xe buýt mà đi bộ đến ga.|Vる + ようにしています: cố gắng duy trì làm V. 歩くようにしています.
+18|K|3|Chin: Sở thích của anh Hayashi là gì? Hayashi: Là đọc sách.|Vる + こと: biến động từ thành danh từ. 本を読むことです.
+19|K|1|Sato: Sukiyaki trông ngon quá. Mình ăn thôi. Tun: Vâng, mời mọi người. Cho cơm vào nồi luôn được không ạ? Hayashi: Không, không được cho cơm vào nồi.|Vちゃいけません = Vてはいけません: không được làm V. 入れちゃいけません.
+20|K|0|Keito: Xin lỗi, gần cửa hàng có toà nhà ABC Hills không ạ? Người bán: Có đấy. Keito: Xin lỗi, anh chỉ đường cho tôi được không?|Vてもらえませんか: nhờ người khác làm cho mình một cách lịch sự. 教えてもらえませんか.
+21|K|0|Aki: Ước mơ tương lai của anh Mun là gì? Mun: Tôi muốn lập công ty riêng. … Tôi định lập công ty máy tính.|V (thể ý chí) + と思っています: định làm V. つくろうと思っています.
+22|K|2|Chan: Yoshida, có chuyện gì vậy? Yoshida: Cuối tuần tôi định đi du lịch, nhưng có thể sẽ bị huỷ. Theo dự báo thời tiết, cuối tuần có bão lớn.|ちゅうしになるかもしれません: có lẽ sẽ bị huỷ (chưa chắc chắn, dựa vào dự báo).
+23|K|0|Mark: Kimura, có chuyện gì vậy? Kimura: Gần đây tôi hơi đau lưng. Mark: Có bài tập hay lắm. Anh đứng dậy đi. Từ giờ hãy làm theo đúng như tôi làm nhé.|Vる/Vた + とおりに: làm theo đúng như … 私がするとおりにしてください. Thể ます, thể ý chí không đứng trước とおり.
+24|K|3|Randi: Trông anh vui thế. Có chuyện gì tốt à? Takahashi: Vâng. Tôi được Amy rủ đi hẹn hò.|Thể bị động: N に さそわれました (được N rủ). Takahashi là người được rủ nên dùng さそわれました.
+25|K|0|(Ở phòng khám) Bác sĩ: Cảm rồi. Nghỉ ngơi thong thả nhé. Bệnh nhân: Vâng. Bác sĩ: Giữ gìn sức khoẻ nhé.|Lời chào người bị ốm: おだいじに (giữ gìn sức khoẻ).
+26|K|2|Cà phê thì sao ạ? — Vâng, mời. — Cảm ơn. Tôi xin.|Mời đồ ăn, thức uống một cách lịch sự: 〜はいかがですか. いくらですか hỏi giá, いただきますか dùng sai kính ngữ.
+27|K|1|A: Tôi viết bài phát biểu cho cuộc thi, thầy xem giúp có lỗi không được không ạ? Thầy: Được. Đến khi nào thì xem? A: Sáng mai em định luyện tập nên… Thầy: Vậy trong hôm nay thầy sẽ xem.|Hỏi hạn chót: いつまでに. いつでも là lúc nào cũng được, いつから là từ khi nào.
+28|K|2|A: Cảm ơn thầy đã giúp đỡ em nhiều. Thầy: Không, chính thầy mới phải cảm ơn. Về nước cũng cố gắng nhé.|Chia tay khi về nước: いろいろおせわになりました (cảm ơn đã giúp đỡ nhiều).
+29|K|2|A: Anh đã đi lễ hội của Nhật chưa? B: Chưa. A: Vui lắm đấy. B: Vậy à. Tôi nhất định muốn đi thử.|〜ですよ: báo cho người nghe điều họ chưa biết. B chưa đi lễ hội nên A dùng よ.
+30|K|0|A: Alô, OUR Company xin nghe. B: Tôi là John, anh Ono có ở đó không ạ? A: Ono hiện đang ra ngoài. B: Vậy à. Tôi sẽ gọi lại sau.|Khiêm nhường ngữ của いう: もうします. ジョンともうしますが: tôi tên là John. まいります là đi/đến, うかがいます là hỏi/thăm.
+31|K|2|A: Tôi muốn mượn sách thư viện. B: Anh có thẻ thư viện không? A: Thẻ ạ? Không có. B: Sách thư viện chỉ người có thẻ mới mượn được. Anh làm thẻ nhé?|N しか + phủ định: chỉ N mới… カードを持っている人しかかりられない. だけ đi với khẳng định (人だけかりられる).
+47|R|1|Người này đi công viên khi nào?|Bài đăng ngày 2019年12月9日 viết: きのう、うちの近くのこうえんに行きました → hôm qua là 12/8.
+48|R|1|Giờ hẹn đổi thành mấy giờ?|Bạn nhờ lùi 30 phút, người kia đáp わかった!じゃ、2時30分で → 2 giờ 30.
+49|R|1|Đọc tin nhắn xong, việc đầu tiên Lee làm là gì?|この メッセージを 読んだら、まず 返しんを ください → trước tiên nhắn trả lời Tou.
+50|R|1|Ota sẽ làm gì tiếp theo?|Giấy nhắn: 電車が 動いたら、また 電話を くれるそうです → Yamada sẽ gọi lại, Ota chờ điện thoại.
+51|R|1|Thuốc này nên uống khi nào?|食後 30分以内に 飲んで ください → sau bữa ăn. Không uống cùng rượu, uống xong không lái xe.
+52|R|2|Sở thích của người này là gì?|ぼくは おいしいものを 作るのが 大好きです → nấu ăn. Ảnh cà ri là món tự nấu.
+53|R|2|Hoa gửi email này khi nào?|Tiêu đề あけましておめでとうございます (chúc mừng năm mới), có nhắc chuyến đi tháng 11 năm ngoái (昨年) → gửi vào tháng 1.
+54|R|2|Điều nào đúng?|大学の勉強はどうですか → Hai là sinh viên đại học. Hoa ngày mai mới đi Hokkaido; hai người đã cùng đi Osaka tháng 11.
+55|R|1|Dùng phiếu này ngày 20/1 mua rượu vang 600 yên và nước ép 100 yên. Tổng bao nhiêu?|全品2割引 nhưng 酒類 không được giảm. Rượu 600 + nước ép 100 giảm 20% còn 80 → 680 yên.
+56|R|1|Muốn vứt sách cũ thì vứt khi nào?|Sách, tạp chí (ざっし) thuộc 燃えるごみ, vứt 毎週 月・金 → thứ hai hoặc thứ sáu. 本だな (giá sách) mới là rác cỡ lớn.
+57|R|2|Người tham gia tiệc phải làm gì trước khi đi?|参加される方は500円ぐらいのプレゼントを準備してください → mua quà. Phí tham gia miễn phí, không cần đặt chỗ.
+58|R|2|Lin khám sức khoẻ nhóm B. Mấy giờ phải đến phòng họp?|Nhóm B khám buổi sáng (午前), tập trung 9:00, lưu ý はじまる10分前に会議室に → 8 giờ 50.
+59|R|0|Điều nào đúng?|Nhóm D: thứ tự ①⇒②⇒④⇒③, mục ① là 身長・体重 → đầu tiên đo chiều cao. Nhóm A khám buổi sáng; nhóm C không đến phòng họp sau cùng.
+60|R|2|Mua 1 chiếc áo len này trả bao nhiêu?|Giá đặc biệt 2.500 yên (送料別) + phí ship 500 yên (đơn dưới 4.000 yên) = 3.000 yên.
+61|R|0|Mua 4 chiếc trả bao nhiêu?|4 × 2.500 = 10.000 yên → được miễn ship và giảm 10% (từ 10.000 yên) → 9.000 yên.

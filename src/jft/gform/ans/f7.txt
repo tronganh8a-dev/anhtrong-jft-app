@@ -1,0 +1,27 @@
+0|V|2|Giúp (đỡ, cứu).|Một người kéo tay người bị rơi xuống hố lên → たすけます (助けます: giúp, cứu). たすかります là "được cứu", chủ thể là người được giúp.
+1|V|3|Lạc đường.|Cô gái đứng trước biển chỉ đường nhiều hướng, đầu có dấu hỏi → まよいます (迷います).
+2|V|0|Mắng.|Mẹ chỉ tay mắng đứa trẻ làm đổ đồ → しかります (叱ります). しばります là trói buộc; しぱります là chữ viết sai; なぐさめます là an ủi.
+3|V|3|Hướng dẫn.|Hướng dẫn viên cầm cờ dẫn đoàn → あんないします (案内). おこないます là tổ chức, tiến hành.
+4|V|1|Bầu trời phía đông đã đỏ lên.|ひがし viết là 東 (ĐÔNG). 南 là nam, 西 là tây; 来 nhìn giống 東 nhưng là "đến".
+5|V|1|Tối nay tôi ăn món Nhật với anh Yamada.|たべます viết là 食べます (THỰC). 飲 (uống), 飼 (nuôi) có bộ 食 bên trái; 良 nhìn giống nửa trên nhưng khác chữ.
+6|V|2|Sinh nhật, Taro tặng một chiếc cốc màu trắng.|かっぷ viết bằng katakana là カップ. カソプ nhầm ッ với ソ; 片ップ, カンプ là viết sai.
+7|V|0|Tôi thích tóc dài.|長い (TRƯỜNG) đọc là ながい. なかい sai âm; みじかい là ngắn, ngược nghĩa.
+8|V|1|Hôm qua tôi đã làm bánh chuối.|作りました (TÁC) đọc là つくりました. きりました là cắt, かりました là mượn.
+9|V|2|Bạn đang lo lắng điều gì?|心配 (TÂM PHỐI) đọc là しんぱい. しんばい sai âm ぱ; こころ chỉ là cách đọc riêng chữ 心.
+10|V|2|Tôi vào bồn tắm.|入ります (NHẬP) trong お風呂に入ります đọc là はいります. いります là "cần"; おります là xuống xe.
+11|V|3|Sắc mặt bạn không tốt.|悪い (ÁC) đọc là わるい. わかい (trẻ) chỉ khác một âm.
+12|K|0|A: Đây là sách của bạn à? B: Vâng, đúng vậy.|Trả lời câu hỏi "có phải…?" khẳng định: はい、そうです. そうですか là "vậy à", わかりました là "đã hiểu".
+13|K|3|A: Xin lỗi, tôi đau đầu nên về trước. B: Vậy à. Anh giữ gìn sức khoẻ nhé.|Nói với người đang ốm: おだいじに. お元気で là chào khi chia tay lâu dài.
+14|K|2|Hãy trả cuốn sách này trước ngày kia.|までに: hạn chót (trước thời điểm). まで là liên tục đến thời điểm, không đi với hành động một lần như かえす.
+15|K|3|Về nước rồi, tôi định lập công ty.|Vる + つもりです: định làm V.
+16|K|1|Tôi cũng muốn sống trong ngôi nhà như thế kia.|Đứng trước danh từ để chỉ "như thế kia": あんな + N. あそこ, あれ không đứng trực tiếp trước danh từ.
+17|K|0|Đắt lắm nên đừng mua thì hơn.|Vない + ほうがいい: không nên làm V. かわないほうがいい.
+18|K|1|Sáng nay tôi không ăn gì đã đến trường.|何も + phủ định: không … gì cả. 何も食べないで.
+19|K|3|Tắt đèn làm cho phòng tối đi.|Aく + します: làm cho trở nên A (chủ động). へやをくらくします. なります là tự trở nên, đi với が.
+23|K|1|A: Để tôi cầm hành lý giúp nhé? B: Cảm ơn anh. Nhờ anh.|Vましょうか: đề nghị giúp. B đáp お願いします → もちましょうか.
+24|K|2|Món ăn mẹ nấu thì ngon.|Trong mệnh đề bổ nghĩa cho danh từ, chủ ngữ dùng が (hoặc の): 母が作るりょうり. は không dùng trong mệnh đề này.
+39|R|3|Điều nào đúng?|天気のいい日だけは遠くまで歩いてバスに乗る → chỉ ngày đẹp trời mới đi bộ ra bến xe buýt, ngày mưa thì đi tàu điện ngầm (ga gần).
+40|R|3|Vì sao người này không đi mẫu giáo?|みんなで同じことをするのにきょうみがなかったので、幼稚園にはいかないと自分で決めた → vì không thích làm giống mọi người.
+41|R|1|Làm thế nào để tìm ngay được đồ muốn dùng?|何かを使ったら、忙しくても必ず初めにあった場所に置きましょう → dùng xong đặt lại đúng chỗ quy định.
+42|R|2|Biết được điều gì về công viên từ thông báo này?|公園の中で…ボールを使って遊ぶこと (không được chơi bóng) → không được tập bóng đá. Công viên đóng lúc 9 giờ tối; xe máy để ở lối vào; không được hút thuốc.
+43|R|1|Yamashita rủ Sheena làm gì ở chợ đồ cũ?|シーナさんが作った人形を、私の店で売るのはどうですか → bán búp bê Sheena làm.

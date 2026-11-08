@@ -1,0 +1,30 @@
+0|V|2|Cọ rửa bồn tắm.|Cô gái đang cọ bồn tắm → おふろをそうじします. かぶります (đội mũ), はきます (mặc quần, đi giày) không dùng với bồn tắm.
+1|V|1|Hút bụi.|Dùng máy hút bụi: 掃除機をかけます. はきます trong 掃く là quét (bằng chổi); します không đi với 掃除機.
+2|V|1|Dụng cụ dọn dẹp.|Tranh gồm bình xịt, găng tay, xô, giẻ, miếng bọt biển → そうじようぐ (掃除用具). せんざい chỉ là chất tẩy rửa; ちょうみりょう là gia vị.
+3|V|2|Ai không hiểu thì hãy hỏi tôi.|わからない人は → hỏi: しつもんしてください. こたえて là trả lời, かえって là về nhà.
+5|K|0|A: Để tôi dọn dẹp nhé? B: Vâng, nhờ anh.|Đáp lại lời đề nghị giúp: ええ、おねがいします. いただきます nói trước khi ăn; しつれいいたします là xin phép.
+6|V|2|Đã xuân rồi nhỉ. Từ giờ trời sẽ ấm dần lên.|だんだん + 〜くなる: dần dần trở nên. いちいち là từng cái một, いろいろ là nhiều loại.
+7|V|1|Còn thời gian mà, không cần vội thế đâu.|じかんがあるから: vì còn thời gian. とき là lúc, じゆう là tự do. (Câu gốc viết いそがしくても, em đã sửa thành いそがなくても cho đúng nghĩa.)
+9|V|0|Buổi tối tôi tắm vòi sen.|シャワーをあびる: tắm vòi sen (浴びる). とります, なきます không đi với シャワー.
+10|K|1|Bạn có thể chơi đàn ghi-ta không?|Chơi đàn: ギターをひく (弾く). Vること が できますか: có thể làm V không.
+11|V|1|Sinh viên ăn trưa ở nhà ăn.|Nơi ăn cơm của sinh viên: がくせいしょくどう (食堂). としょかん là thư viện, きょうしつ là lớp học.
+12|V|2|Hôm nay tôi gặp bạn lúc 4 giờ chiều.|Động từ 会います ở thể không quá khứ → hôm nay (きょう). きのう, せんしゅう là quá khứ, phải dùng 会いました.
+13|V|0|Phía nam nhà ga có con sông lớn.|駅 (DỊCH) đọc là えき. あき là mùa thu, ゆき là tuyết.
+14|V|1|Trời đẹp, sau giờ học mình ra ngoài chơi tennis nhé.|天気 (THIÊN KHÍ) đọc là てんき. てんけん là kiểm tra, ていき là định kỳ.
+15|K|1|A: Bánh kẹo ngon lắm. B: Vậy thì tốt quá.|Nghe người khác khen món mình tặng: それは、よかった(です). ごちそさま viết sai; わかった không hợp.
+16|K|2|A: Để tôi giúp nhé? B: Xin lỗi (làm phiền anh). Vậy nhờ anh cái này.|すみません ở đây là lời cảm ơn kèm áy náy khi nhận giúp đỡ. おかげさまで dùng khi được hỏi thăm sức khoẻ, công việc.
+17|K|0|A: Siêu thị kia rẻ nhất nhỉ. B: Đúng vậy.|Đồng ý với nhận định của người khác: たしかに. こちらこそ là đáp lại lời cảm ơn, xin lỗi.
+18|K|0|A: Ngày mai đi mua sắm không? B: Đi thôi.|Đồng ý lời rủ: そうしましょう. よかったです, わかりました không phải câu nhận lời rủ.
+19|K|2|A: Anh có ăn được sashimi không? B: Vâng, không sao (ăn được).|Trả lời "ăn được, không vấn đề gì": だいじょうぶです.
+20|K|0|A: Thứ bảy cùng đi ăn không? B: Xin lỗi, tôi có hẹn rồi.|Từ chối lời mời: ごめんなさい、予定があるんです. いいですよ là nhận lời, mâu thuẫn với vế sau.
+21|K|0|A: Đã đi trung tâm mua sắm mới chưa? B: Chưa.|もう〜ましたか → chưa thì trả lời いいえ、まだです.
+22|K|1|A: Xin lỗi, cho tôi mượn cây bút được không? B: Vâng, xin mời.|Đưa đồ cho người khác: どうぞ. ちょっと… là từ chối, mâu thuẫn với はい.
+23|K|0|Ngoại ngữ Anna học từ hồi tiểu học đến giờ là tiếng Nhật.|Từ hồi tiểu học (しょうがくせいのときから) vẫn tiếp tục đến nay → べんきょうしている.
+24|K|2|Môn thể thao Noda thích hồi cấp hai là kiếm đạo.|Hồi cấp hai (quá khứ) → 好きだった + danh từ. すきな là hiện tại. (Đề gốc viết けんとう, em đã sửa thành けんどう: kiếm đạo.)
+39|R|0|Điều nào đúng?|へやはひろいですが、駅からきょりがあります → phòng rộng nhưng xa ga. Phòng gần ga mới đắt; phòng hiện tại không tiện.
+40|R|0|"Tôi" đến Nhật khi nào?|私はきょねんの4月に日本へきました → năm ngoái.
+41|R|2|Phòng hiện tại thế nào?|駅からきょりがありますので、べんりじゃありません → bất tiện (ふべん). Phòng rộng chứ không hẹp.
+42|R|2|Điều nào đúng?|Ngoc nói 明日の夜電話しますから → Ngoc sẽ gọi điện cho An. Người nghỉ học là Ngoc; người chỉ bài tập là An.
+43|R|2|Điều nào đúng?|ゴック：昨日カバンを買いました → Ngoc mua túi hôm qua. An chỉ khen túi đẹp. (Đề gốc viết どこに買いましたか, em sửa thành どこで.)
+45|R|1|Ai đã nghỉ?|森さんと佐藤さんは来ませんでした → người nghỉ là Mori (và Sato). Yamada chỉ đến muộn 30 phút.
+47|R|2|Điều nào đúng?|昨日、としょかんで本をかりました → mượn sách ở thư viện, không phải mua.

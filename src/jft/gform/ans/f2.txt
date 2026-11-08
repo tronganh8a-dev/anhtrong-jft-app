@@ -1,0 +1,35 @@
+1|V|2|Lối vào nhà (chỗ để giày).|Tranh là khu vực ngay sau cửa ra vào, có giày và tủ giày: げんかん (玄関 HUYỀN QUAN). うけつけ là quầy lễ tân, ろうか là hành lang.
+2|V|2|Máy sấy tóc.|ドライヤー là máy sấy tóc. ドライブ là lái xe đi chơi, ドライバー là tài xế (hoặc tua vít). Ba từ chỉ khác nhau phần đuôi.
+3|V|0|Máy giặt.|Tranh là máy giặt cửa trước: せんたくき (洗濯機). そうじき là máy hút bụi, せんぷうき là quạt máy.
+4|K|1|A: Lần tới tôi mang tờ rơi lớp tiếng Nhật đến cho chị nhé? B: Cảm ơn anh.|〜てきましょうか: đề nghị làm giúp. Mang tờ rơi đến: もってきましょうか (持って来る). あってきましょうか không có nghĩa; とってきましょうか là đi lấy về, không hợp với "lần tới".
+6|V|1|Tempura thì chấm vào nước tsuyu rồi ăn nhé.|N に つける: chấm vào N. つゆにつけて食べる = chấm nước tsuyu mà ăn. あげる là chiên (hoặc cho), 取る là lấy.
+7|V|2|Dự định đi du lịch là khi nào?|予定 (DỰ ĐỊNH) đọc là よてい. ようてい, じょてい là cách đọc sai.
+8|V|1|Tôi rất vui vì đã đỗ kỳ thi.|合格 (HỢP CÁCH) đọc là ごうかく (âm dài ごう). ごかく thiếu trường âm, こうがく là từ khác.
+9|V|0|Anh trai đang làm gì?|お兄さん (HUYNH) đọc là おにいさん. おねえさん là chị gái, おとうさん là bố (đáp án viết おとおさん là sai chính tả).
+10|V|0|Bạn có thích trà không?|すき viết là 好き (HẢO). 奸, 奴 có bộ 女 nhìn giống nhưng là chữ khác.
+11|V|1|Tôi đi mua sắm với bạn.|ともだち viết là 友だち (HỮU). 右 (phải) và 左 (trái) nhìn giống chữ 友 nhưng khác nghĩa.
+12|V|0|Khi gặp khó khăn trong công việc, tôi xin ý kiến đàn anh.|こまる viết là 困る (KHỐN): chữ 木 trong khung. 因 (NHÂN) có chữ 大, 固 (CỐ) có chữ 古, nhìn giống nhưng là chữ khác.
+13|K|2|A: Đây là phòng họp. Ở đây (chúng ta) họp. B: Xin lỗi, anh Nagai ở đâu ạ? — Có lẽ anh ấy đang ở phòng họp.|Nơi diễn ra hành động (họp) dùng で: ここで打ち合わせをします. Nơi tồn tại của người dùng に: 会議室にいます → で・に.
+14|K|0|Ở khu phố mua sắm này có thể mua được nhiều loại quà lưu niệm.|Vること が できます: có thể làm V. 買うことができます. Hai phương án còn lại không đi với ことが.
+15|K|0|Ở sự kiện, có thể uống được rượu ngon của địa phương đấy.|N が + thể khả năng: お酒が飲めます (uống được rượu). 飲まれます là bị động/tôn kính, 飲みます cần を.
+16|K|0|A: Buổi trình diễn thời trang đã bắt đầu chưa? B: Chưa, vẫn chưa bắt đầu.|もう〜ましたか: đã … chưa? Trả lời いいえ、まだ〜ていません. あと là "còn (bao lâu)", まだ không dùng trong câu hỏi này.
+17|K|1|Ở các cơ sở của thành phố có chuẩn bị sẵn tờ hướng dẫn bằng tiếng nước ngoài.|N を Vてあります: (ai đó) đã làm sẵn. パンフレットを用意してあります. 用意されています phải đi với が; 用意してみます (thử chuẩn bị) không hợp.
+18|K|1|Tôi đã mang bánh đến. Mọi người cùng ăn nhé.|Mang đến chỗ người nghe đang ở: 持ってきました. 持っていきました là mang đi chỗ khác; phương án C viết sai.
+19|K|0|A: A lô. B: A lô, Iruma, bây giờ về đến nhà chưa? A: Lần sau lại đi xem phim nhé.|家に着きました: về đến nhà. 来ました, 行きました không dùng cho việc về đến nhà mình.
+20|K|2|A: Công việc thế nào? B: Vất vả. Nhưng học hỏi được nhiều.|勉強になります: học được nhiều điều (bổ ích). お疲れさまです là lời chào đồng nghiệp, お世話になります là cảm ơn sự giúp đỡ, không hợp sau "nhưng".
+21|K|2|A: Cơm có thể lấy suất lớn miễn phí… B: Không, suất thường là được rồi.|普通でだいじょうぶです: (cỡ) bình thường là được. けっこうです tự nó đã là lời từ chối, không đi với だいじょうぶです; よくて không hợp.
+22|K|0|(Nhận quà là cốc) Chiếc cốc đẹp quá! Cảm ơn mọi người. Tôi sẽ giữ gìn cẩn thận.|Nhận quà xong nói 大切にします (tôi sẽ trân trọng nó). いつまでもお幸せに là lời chúc đám cưới, ごめんください là câu gọi cửa.
+23|K|0|A: Đi Hokkaido ăn cua không? B: Xin lỗi… Tôi không ăn được cua.|Từ chối lời mời một cách lịch sự: ごめんなさい… (xin lỗi). 失礼しました dùng khi đã làm phiền; ごめんください là gọi cửa.
+24|K|1|A: Xe đạp mất rồi à? B: Vâng. Có khi đã bị lấy trộm.|もしかしたら〜かもしれません: có lẽ, không chừng. Hai từ này luôn đi cặp. できれば là "nếu được", よろしければ là "nếu anh/chị không phiền".
+37|R|0|Hôm nay "tôi" đã làm gì?|今日は…いつもの道をとおらないで、公園をさんぽしながら学校に行きました → đi qua công viên rồi đến trường. B sai vì vẫn đi học; C sai vì không đi đường thường ngày.
+38|R|1|Lúc nhỏ người này hay làm gì?|よく学校から帰るとき、ともだちと野原を走ったり、川で泳いだりしました → chơi ở cánh đồng và sông với bạn. (Phương án gốc viết nhầm 浴びました, em đã sửa thành 遊びました.)
+39|R|2|Vì sao mẹ giận?|家におそく帰ってくるので、母はおこりました → vì về nhà muộn.
+40|R|1|Về nước định làm gì?|Đoạn văn: 将来は、タイで、自分の会社を作ろうと思います → lập công ty riêng. Tiết kiệm (貯金) là việc làm bây giờ để chuẩn bị. (Phương án A gốc bị lặp lại câu hỏi, em sửa thành một phương án nhiễu.)
+41|R|2|Muốn tắt điều hoà đang chạy thì bấm nút nào?|Nút 停止 (ĐÌNH CHỈ: dừng) là nút c. 冷房 là chế độ làm mát (a), 暖房 là sưởi ấm (b).
+42|R|1|Muốn mua tạ tay thì đi tầng mấy?|Tạ tay (ダンベル) là đồ thể thao: スポーツ用品 nằm ở 3F (メンズファッションとスポーツのフロア) → 3階.
+43|R|1|Đồ bị đánh rơi là gì?|Thông báo: 3階男性用トイレに、かぎの落とし物がございました → chìa khoá.
+44|R|2|Người đánh rơi chìa khoá đi đâu?|お心当たりの方は、2階インフォメーションカウンターまでお越しください → đến quầy thông tin tầng 2.
+45|R|1|Người muốn tham gia phải làm gì trước?|参加を希望の方は、7月31日までに下記までメールでお申し込みください → gửi email đăng ký trước 31/7. 8/7 là ngày diễn ra.
+46|R|2|Ai được tham gia?|参加条件: 13才以上 → người từ 13 tuổi trở lên.
+47|R|2|Vì sao bán nồi cơm điện này?|新しい炊飯器を購入したので、出品します → vì đã mua cái mới. Có vết xước là đặc điểm, không phải lý do bán. (Đáp án gốc viết 買いましたか, em sửa thành から.)
+48|R|0|Bán với giá bao nhiêu?|Giá ghi cuối: ¥5,000. 3 vạn yên là giá lúc mua năm 2018.
