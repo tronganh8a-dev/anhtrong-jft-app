@@ -1263,7 +1263,7 @@ $('#aiF').onsubmit=async e=>{e.preventDefault();const t=q.value.trim();if(!t||bt
  bt.disabled=false;q.focus()}})();
 
 /* ===== popup giới thiệu Hỏi đáp AI (hiện khi vào app, đến khi bấm "Không hiện lại"/"Thử ngay") ===== */
-(()=>{const K='promo-ai-v1';let seen=false;try{seen=!!localStorage.getItem(K)}catch(_){}if(seen)return;
+(()=>{return; /* 10/11: anh yêu cầu bỏ popup quảng cáo AI */const K='promo-ai-v1';let seen=false;try{seen=!!localStorage.getItem(K)}catch(_){}if(seen)return;
 const m=document.createElement('div');m.id='promoAi';m.innerHTML=`<div class="pb" role="dialog" aria-modal="true"><div class="ph"><button class="x" type="button" aria-label="Đóng">✕</button><span class="tag">✨ CHỨC NĂNG MỚI</span>
 <h3>Hỏi đáp cùng <span>trợ giảng AI</span></h3><ul><li>Đang làm đề, bí câu nào? Bấm nút 💬 góc màn hình → <b>"Vì sao đáp án đúng?"</b></li><li>AI đọc đúng câu bạn đang làm, giải thích đáp án, dịch, từ vựng kèm <b>Hán Việt</b></li><li>Hỏi được ở mọi trang: từ vựng, ngữ pháp, chữ Hán… (100 câu/ngày)</li></ul></div>
 <img src="app/media/promo/ai_demo2.webp" alt="Ví dụ hỏi AI khi làm đề">
