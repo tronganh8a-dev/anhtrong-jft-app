@@ -228,7 +228,7 @@ r('（2）正しいものはどれですか。', ['貝は少し加熱すれば�
   '「料理の前とトイレのあとは、せっけんでよく手をあらいましょう」 → 4. Sai: 貝は「中までよく」加熱; 具合が悪いときは料理をしない; トイレのあとも せっけん.')
 
 ex = dict(id='jft-y1', group='Đề thi thử JFT-Basic', title='Đề 25',
-          sub='Có phần nghe · いろどり 初級1 第1回', short='Đề 25', time=60, qs=qs)
+          sub='Có phần nghe · いろどり 初級1', short='Đề 25', time=60, qs=qs)
 E = json.load(open(REPO + 'src/raw/jft_exams.json'))
 E = [e for e in E if e['id'] != 'jft-y1']
 pos = max(i for i, e in enumerate(E) if e['id'].startswith('jft-g')) + 1

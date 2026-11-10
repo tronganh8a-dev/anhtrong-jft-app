@@ -723,6 +723,28 @@ body:has(.cbt.on) #penFab{bottom:80px!important;right:18px!important}body:has(.c
 .npost .tt{display:block;font-weight:700;font-size:13px;line-height:1.35;margin:5px 0 3px}
 .npost .dt{font-size:12px;color:var(--muted)}
 .nnew{position:absolute;left:6px;top:6px;background:#e0282e;color:#fff;font-size:10px;font-weight:800;border-radius:6px;padding:3px 8px;letter-spacing:.05em}
+.exb.isnew{border:2px solid var(--pink);box-shadow:0 10px 26px rgba(196,47,102,.18)}
+.exb.isnew::before{background:linear-gradient(90deg,var(--pink),#f0a03c)!important}
+.exb .ntag{display:inline-block;margin:-4px 0 2px;font-size:11px;font-weight:800;letter-spacing:.02em;color:#fff;background:linear-gradient(135deg,var(--pink),#e8743c);padding:4px 9px;border-radius:99px;box-shadow:0 4px 10px rgba(196,47,102,.3)}
+#newx{position:fixed;inset:0;z-index:9500;display:none;align-items:center;justify-content:center;padding:18px;background:rgba(6,18,28,.6);backdrop-filter:blur(6px)}
+#newx.on{display:flex;animation:nxf .25s ease}
+@keyframes nxf{from{opacity:0}to{opacity:1}}
+#newx .bx{position:relative;width:min(440px,100%);background:#fff;border-radius:22px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.35);animation:nxu .35s cubic-bezier(.2,.8,.2,1)}
+@keyframes nxu{from{transform:translateY(24px) scale(.95)}to{transform:none}}
+#newx .hd{padding:22px 24px 18px;color:#fff;background:linear-gradient(135deg,var(--blue),var(--pink))}
+#newx .hd small{display:inline-block;font-size:11.5px;font-weight:800;letter-spacing:.08em;background:rgba(255,255,255,.2);padding:4px 10px;border-radius:99px}
+#newx .hd h3{margin:10px 0 4px;font-size:23px;line-height:1.25}
+#newx .hd p{margin:0;font-size:14px;opacity:.92}
+#newx .ls{padding:16px 18px 6px;display:grid;gap:10px}
+#newx .it{display:flex;align-items:center;gap:12px;width:100%;padding:12px 14px;border:1.5px solid var(--line);border-radius:14px;background:#fff;cursor:pointer;text-align:left;color:var(--ink);font:inherit;transition:border-color .15s,transform .15s}
+#newx .it:hover{border-color:var(--pink);transform:translateY(-1px)}
+#newx .it .n{font-size:26px;font-weight:800;color:var(--pink);min-width:58px;white-space:nowrap;line-height:1}
+#newx .it .n small{font-size:13px;color:var(--muted);margin-right:2px}
+#newx .it .d{flex:1;min-width:0;font-size:13px;color:var(--muted);line-height:1.45}#newx .it .d b{display:block;white-space:nowrap;color:var(--ink);font-size:14px}
+#newx .it .go{font-weight:800;color:#fff;background:var(--pink);border-radius:99px;padding:7px 12px;font-size:13px;white-space:nowrap}
+#newx .ft{display:flex;justify-content:center;padding:6px 18px 16px}
+#newx .later{border:0;background:none;color:var(--muted);font:inherit;font-size:13.5px;cursor:pointer;padding:8px}
+#newx .x{position:absolute;top:10px;right:12px;border:0;background:rgba(255,255,255,.2);color:#fff;width:32px;height:32px;border-radius:50%;font-size:20px;cursor:pointer}
 #nmodal{position:fixed;inset:0;z-index:9000;display:none;align-items:center;justify-content:center;padding:18px;background:rgba(6,18,28,.72);backdrop-filter:blur(8px);opacity:0;transition:opacity .22s}
 #nmodal.on{display:flex}#nmodal.show{opacity:1}
 .nbox{position:relative;width:min(560px,100%);max-height:100%;display:flex;flex-direction:column;background:#0b2233;border-radius:22px;box-shadow:0 40px 90px rgba(0,0,0,.5);overflow:hidden;transform:translateY(18px) scale(.96);transition:transform .28s cubic-bezier(.2,.8,.2,1)}
@@ -933,7 +955,7 @@ body.nlock{overflow:hidden}
 </div>
 
 <script src="app/data/lessons.js?v=3cff6f60"></script>
-<script src="app/data/exams.js?v=03611445"></script>
+<script src="app/data/exams.js?v=751b24ed"></script>
 <script src="app/data/skills.js?v=d1153b37"></script>
 <script src="app/data/vocab.js?v=4314c895"></script>
 <script src="app/data/grammar.js?v=7e915ad4"></script>
@@ -947,7 +969,21 @@ document.addEventListener('DOMContentLoaded',()=>{const c=document.getElementByI
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const store={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}},del(k){try{localStorage.removeItem(k)}catch(e){}}};
 function fnv(s){let h=0x811c9dc5;for(const c of new TextEncoder().encode(s)){h^=c;h=Math.imul(h,0x01000193)>>>0}return h.toString(16)}
-function unlock(){document.body.classList.remove('locked');$('#login').style.display='none'}
+
+/* ===== popup khoe đề mới (sửa NEWX để đổi) ===== */
+const NEWX={until:'2026-11-30',ids:['jft-y1','jft-y2']};
+function newxWill(){try{return new Date()<=new Date(NEWX.until+'T23:59:59')&&typeof EXAMS!=='undefined'&&EXAMS.some(e=>NEWX.ids.includes(e.id))}catch(_){return false}}
+function newxShow(){try{if(document.getElementById('newx')||!newxWill())return;
+ const L=NEWX.ids.map(id=>[EXAMS.findIndex(e=>e.id===id),id]).filter(x=>x[0]>=0);if(!L.length)return;
+ const d=document.createElement('div');d.id='newx';d.setAttribute('role','dialog');d.setAttribute('aria-modal','true');
+ d.innerHTML=`<div class="bx"><button class="x" type="button" aria-label="Đóng">×</button><div class="hd"><small>MỚI CẬP NHẬT</small><h3>Có ${L.length} đề thi thử mới chuẩn JFT!</h3><p>Đủ 4 phần, có cả phần nghe. Làm xong xem ngay đáp án và giải thích từng câu.</p></div><div class="ls">`+L.map(([i])=>{const e=EXAMS[i];const no=(e.title.match(/\d+/)||[''])[0];return `<button class="it" type="button" data-nx="${i}"><span class="n"><small>Đề</small>${no}</span><span class="d"><b>${e.qs.length} câu · ${e.time} phút</b>Có phần nghe</span><span class="go">Luyện ngay →</span></button>`}).join('')+`</div><div class="ft"><button class="later" type="button">Để sau</button></div></div>`;
+ document.body.appendChild(d);requestAnimationFrame(()=>d.classList.add('on'));
+ const close=(go2)=>{d.remove();const f=window.afterNewx;window.afterNewx=null;if(!go2&&f)setTimeout(f,400)};
+ d.addEventListener('click',ev=>{const b=ev.target.closest('[data-nx]');if(b){close(1);go('exam');const x=document.querySelector(`#examList [data-ex="${b.dataset.nx}"]`);if(x){x.scrollIntoView({block:'center'});x.click()}return}
+  if(ev.target===d||ev.target.closest('.x')||ev.target.closest('.later'))close()});
+ document.addEventListener('keydown',function k(ev){if(ev.key==='Escape'){close();document.removeEventListener('keydown',k)}});
+}catch(err){}}
+function unlock(){document.body.classList.remove('locked');$('#login').style.display='none';setTimeout(newxShow,700)}
 unlock();
 $('#loginForm').onsubmit=e=>{e.preventDefault();const h=fnv($('#lu').value.trim().toLowerCase()+':'+$('#lp').value);if(h===ACCOUNT.hash){store.set('atjft_ok',h);unlock()}else $('#lerr').textContent='Sai tài khoản hoặc mật khẩu.'};
 $('#logout').onclick=()=>{location.href='/logout'};
@@ -978,7 +1014,7 @@ $('#lgrid').addEventListener('click',e=>{const vb=e.target.closest('[data-view]'
 /* ===== exam list ===== */
 function renderExams(){if(!EXAMS.length){$('#examList').innerHTML='<div class="card" style="padding:28px;text-align:center"><b style="font-size:1.15rem">Bộ đề mới đang được cập nhật</b><p class="muted" style="margin-top:6px">Đề thi thử mới (có đáp án và giải thích) sẽ sớm có mặt tại đây.</p></div>';return}const g={};EXAMS.forEach((e,i)=>{(g[e.group]=g[e.group]||[]).push([e,i])});
  $('#examList').innerHTML=Object.entries(g).map(([gn,arr])=>`<div class="h2 exgh">${esc(gn)}</div><div class="exg">`+arr.map(([e,i])=>{const no=e.short||(e.title.match(/\d+/)||[i+1])[0];
-  return `<button class="exb${e.short?' rv':''}" data-ex="${i}" type="button" aria-label="${esc(e.title)}"><span class="k">${e.short?'Ôn tập':'Đề thi thử'} · ${e.nq||e.qs.length} câu</span><span class="num">${e.short?`<span class="jp">${esc(no)}</span>`:`<small>Đề</small>${no}`}</span>${e.sub?`<span class="sub">${esc(e.sub)}</span>`:''}<span class="go">Bắt đầu làm bài <i>→</i></span></button>`}).join('')+'</div>').join('')+`<p class="muted" style="margin-top:18px;font-size:13px">Mỗi câu đều có đáp án và giải thích song ngữ Nhật – Việt. Chọn <b>Luyện tập</b> để xem ngay sau từng câu, hoặc <b>Thi thử</b> rồi xem lại sau khi nộp bài.</p>`}
+  return `<button class="exb${e.short?' rv':''}${e.tag?' isnew':''}" data-ex="${i}" type="button" aria-label="${esc(e.title)}">${e.tag?`<span class="ntag">${esc(e.tag)}</span>`:''}<span class="k">${e.short?'Ôn tập':'Đề thi thử'} · ${e.nq||e.qs.length} câu</span><span class="num">${e.short?`<span class="jp">${esc(no)}</span>`:`<small>Đề</small>${no}`}</span>${e.sub?`<span class="sub">${esc(e.sub)}</span>`:''}<span class="go">Bắt đầu làm bài <i>→</i></span></button>`}).join('')+'</div>').join('')+`<p class="muted" style="margin-top:18px;font-size:13px">Mỗi câu đều có đáp án và giải thích song ngữ Nhật – Việt. Chọn <b>Luyện tập</b> để xem ngay sau từng câu, hoặc <b>Thi thử</b> rồi xem lại sau khi nộp bài.</p>`}
 let exPick=null;
 $('#examList').addEventListener('click',e=>{const b=e.target.closest('[data-ex]');if(!b)return;exPick=+b.dataset.ex;const x=EXAMS[exPick];$('#exmT').textContent=x.title;$('#exmN').textContent=`${x.qs.length} câu · ${x.time} phút`;$('#exMode').classList.add('on')});
 $('#exMode').addEventListener('click',e=>{const m=e.target.closest('[data-mode]');if(m){$('#exMode').classList.remove('on');startExam(exPick,m.dataset.mode)}else if(e.target.id==='exMode'||e.target.closest('.x'))$('#exMode').classList.remove('on')});
@@ -1235,7 +1271,7 @@ const m=document.createElement('div');m.id='promoAi';m.innerHTML=`<div class="pb
 document.body.append(m);const close=(keep)=>{m.classList.remove('on');if(keep||$('#promoNo').checked){try{localStorage.setItem(K,'1')}catch(_){}}};
 m.querySelector('.x').onclick=()=>close();m.querySelector('.lt').onclick=()=>close();m.onclick=e=>{if(e.target===m)close()};
 m.querySelector('.go').onclick=()=>{close(true);go('exam');setTimeout(()=>{const f=$('#aiFab');f&&f.click()},300)};
-setTimeout(()=>m.classList.add('on'),700)})();
+setTimeout(()=>{if(window.newxWill&&newxWill())window.afterNewx=()=>m.classList.add('on');else m.classList.add('on')},700)})();
 /* ===== homework ===== */
 function hwDone(no){try{const v=JSON.parse(localStorage.getItem('btvn-'+no)||'{}');return !!v.done}catch(e){return false}}
 function renderHw(){if(!window.HW){$('#hwList').innerHTML='<p class="muted">Chưa có bài tập.</p>';return}

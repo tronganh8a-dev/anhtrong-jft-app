@@ -15099,7 +15099,6 @@
   "group": "Đề thi thử JFT-Basic",
   "title": "Đề 14",
   "sub": "Không có phần nghe",
-  "short": "Đề 14",
   "time": 35,
   "qs": [
    {
@@ -15918,7 +15917,6 @@
   "group": "Đề thi thử JFT-Basic",
   "title": "Đề 15",
   "sub": "Không có phần nghe",
-  "short": "Đề 15",
   "time": 42,
   "qs": [
    {
@@ -16868,7 +16866,6 @@
   "group": "Đề thi thử JFT-Basic",
   "title": "Đề 16",
   "sub": "Không có phần nghe",
-  "short": "Đề 16",
   "time": 41,
   "qs": [
    {
@@ -17784,7 +17781,6 @@
   "group": "Đề thi thử JFT-Basic",
   "title": "Đề 17",
   "sub": "Không có phần nghe",
-  "short": "Đề 17",
   "time": 46,
   "qs": [
    {
@@ -18859,7 +18855,6 @@
   "group": "Đề thi thử JFT-Basic",
   "title": "Đề 18",
   "sub": "Không có phần nghe",
-  "short": "Đề 18",
   "time": 54,
   "qs": [
    {
@@ -20131,7 +20126,6 @@
   "group": "Đề thi thử JFT-Basic",
   "title": "Đề 19",
   "sub": "Không có phần nghe",
-  "short": "Đề 19",
   "time": 31,
   "qs": [
    {
@@ -20839,7 +20833,6 @@
   "group": "Đề thi thử JFT-Basic",
   "title": "Đề 20",
   "sub": "Không có phần nghe",
-  "short": "Đề 20",
   "time": 32,
   "qs": [
    {
@@ -21637,7 +21630,6 @@
   "group": "Đề thi thử JFT-Basic",
   "title": "Đề 21",
   "sub": "Không có phần nghe",
-  "short": "Đề 21",
   "time": 41,
   "qs": [
    {
@@ -22565,7 +22557,6 @@
   "group": "Đề thi thử JFT-Basic",
   "title": "Đề 22",
   "sub": "Không có phần nghe",
-  "short": "Đề 22",
   "time": 46,
   "qs": [
    {
@@ -23618,7 +23609,6 @@
   "group": "Đề thi thử JFT-Basic",
   "title": "Đề 23",
   "sub": "Không có phần nghe",
-  "short": "Đề 23",
   "time": 36,
   "qs": [
    {
@@ -24414,7 +24404,6 @@
   "group": "Đề thi thử JFT-Basic",
   "title": "Đề 24",
   "sub": "Không có phần nghe",
-  "short": "Đề 24",
   "time": 47,
   "qs": [
    {
@@ -25457,8 +25446,7 @@
   "id": "jft-y1",
   "group": "Đề thi thử JFT-Basic",
   "title": "Đề 25",
-  "sub": "Có phần nghe · いろどり 初級1 第1回",
-  "short": "Đề 25",
+  "sub": "Có phần nghe · いろどり 初級1",
   "time": 60,
   "qs": [
    {
@@ -26886,6 +26874,1439 @@
      3
     ],
     "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>料理<rt>りょうり</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>にせっけんで<ruby>手<rt>て</rt></ruby>をあらう</span></div><span class=\"lb\">DỊCH</span><div>(Xem bản dịch câu trước.)</div><span class=\"lb\">GIẢI THÍCH</span><div>「<ruby>料理<rt>りょうり</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>とトイレのあとは、せっけんでよく<ruby>手<rt>て</rt></ruby>をあらいましょう」 → 4. Sai: <ruby>貝<rt>かい</rt></ruby>は「<ruby>中<rt>なか</rt></ruby>までよく」<ruby>加熱<rt>かねつ</rt></ruby>; <ruby>具合<rt>ぐあい</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>いときは<ruby>料理<rt>りょうり</rt></ruby>をしない; トイレのあとも せっけん.</div>"
+   }
+  ],
+  "tag": "Đề mới chuẩn"
+ },
+ {
+  "id": "jft-y2",
+  "group": "Đề thi thử JFT-Basic",
+  "title": "Đề 26",
+  "sub": "Có phần nghe · いろどり 初級1",
+  "time": 60,
+  "tag": "Đề mới chuẩn",
+  "qs": [
+   {
+    "s": "文字と語彙",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<ruby>絵<rt>え</rt></ruby>を<ruby>見<rt>み</rt></ruby>て、<ruby>正<rt>ただ</rt></ruby>しいことばを<ruby>選<rt>えら</rt></ruby>んでください。",
+    "imgs": [
+     "app/media/jft/img/y2_v1.jpg"
+    ],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "目が　かゆい"
+     },
+     {
+      "t": "お腹が　痛い"
+     },
+     {
+      "t": "せきが　出る"
+     },
+     {
+      "t": "吐き気が　する"
+     }
+    ],
+    "a": [
+     2
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">せきが　出る</span></div><span class=\"lb\">DỊCH</span><div>Tranh: người đàn ông đưa tay lên miệng, ho ra hơi → bị ho.</div><span class=\"lb\">GIẢI THÍCH</span><div>せきが　<ruby>出<rt>で</rt></ruby>る = bị ho. Cùng nhóm triệu chứng: <ruby>目<rt>め</rt></ruby>がかゆい (MỤC) = ngứa mắt, お<ruby>腹<rt>なか</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>い (PHÚC – THỐNG) = đau bụng, <ruby>吐<rt>は</rt></ruby>き<ruby>気<rt>け</rt></ruby>がする (THỔ KHÍ) = buồn nôn. いろどり <ruby>初級<rt>しょきゅう</rt></ruby>1 <ruby>第<rt>だい</rt></ruby>15<ruby>課<rt>か</rt></ruby>.</div>"
+   },
+   {
+    "s": "文字と語彙",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<ruby>絵<rt>え</rt></ruby>を<ruby>見<rt>み</rt></ruby>て、<ruby>正<rt>ただ</rt></ruby>しいことばを<ruby>選<rt>えら</rt></ruby>んでください。",
+    "imgs": [
+     "app/media/jft/img/y2_v2.jpg"
+    ],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "暖かい"
+     },
+     {
+      "t": "寒い"
+     },
+     {
+      "t": "すずしい"
+     },
+     {
+      "t": "じめじめする"
+     }
+    ],
+    "a": [
+     3
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">じめじめする</span></div><span class=\"lb\">DỊCH</span><div>Tranh: ngoài trời mưa, người đổ mồ hôi, cầm quạt → trời ẩm, oi bức.</div><span class=\"lb\">GIẢI THÍCH</span><div>じめじめする = ẩm ướt, oi (như <ruby>蒸<rt>む</rt></ruby>し<ruby>暑<rt>あつ</rt></ruby>い – nóng ẩm). <ruby>暖<rt>あたた</rt></ruby>かい (NOÃN) = ấm áp, <ruby>寒<rt>さむ</rt></ruby>い (HÀN) = lạnh, すずしい = mát. Mưa + mồ hôi là dấu hiệu của じめじめ. いろどり <ruby>初級<rt>しょきゅう</rt></ruby>1 <ruby>第<rt>だい</rt></ruby>3<ruby>課<rt>か</rt></ruby>.</div>"
+   },
+   {
+    "s": "文字と語彙",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<ruby>絵<rt>え</rt></ruby>を<ruby>見<rt>み</rt></ruby>て、<ruby>正<rt>ただ</rt></ruby>しいことばを<ruby>選<rt>えら</rt></ruby>んでください。",
+    "imgs": [
+     "app/media/jft/img/y2_v3.jpg"
+    ],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "にぎやか（な）"
+     },
+     {
+      "t": "不便（な）"
+     },
+     {
+      "t": "便利（な）"
+     },
+     {
+      "t": "都会"
+     }
+    ],
+    "a": [
+     1
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">不便（な）</span></div><span class=\"lb\">DỊCH</span><div>Tranh: vùng quê, trạm xe buýt với bảng giờ rất thưa → bất tiện.</div><span class=\"lb\">GIẢI THÍCH</span><div><ruby>不便（な）<rt>ふべん</rt></ruby>(BẤT TIỆN) = bất tiện; bảng giờ xe buýt chỉ có vài chuyến (バスが<ruby>少<rt>すく</rt></ruby>ない). Trái nghĩa <ruby>便利（な）<rt>べんり</rt></ruby>. にぎやか = náo nhiệt, <ruby>都会<rt>とかい</rt></ruby> (ĐÔ HỘI) = thành phố lớn. いろどり <ruby>初級<rt>しょきゅう</rt></ruby>1 <ruby>第<rt>だい</rt></ruby>5<ruby>課<rt>か</rt></ruby>.</div>"
+   },
+   {
+    "s": "文字と語彙",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "つぎのしんごうを<ruby>右<rt>みぎ</rt></ruby>に（　　）ください。",
+    "imgs": [],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "わたって"
+     },
+     {
+      "t": "まよって"
+     },
+     {
+      "t": "まがって"
+     },
+     {
+      "t": "おりて"
+     }
+    ],
+    "a": [
+     2
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">まがって</span></div><span class=\"lb\">DỊCH</span><div>Hãy rẽ phải ở đèn giao thông tiếp theo.</div><span class=\"lb\">GIẢI THÍCH</span><div><ruby>右<rt>みぎ</rt></ruby>に　まがる = rẽ phải (đi với trợ từ に chỉ hướng). しんごうを　わたる = băng qua đèn giao thông (trợ từ を), <ruby>道<rt>みち</rt></ruby>に　まよう = lạc đường, おりる = xuống xe. Câu chỉ đường – いろどり <ruby>初級<rt>しょきゅう</rt></ruby>1 <ruby>第<rt>だい</rt></ruby>6<ruby>課<rt>か</rt></ruby>.</div>"
+   },
+   {
+    "s": "文字と語彙",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "えきがちかくて、この<ruby>町<rt>まち</rt></ruby>はとても（　　）です。",
+    "imgs": [],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "ふべん"
+     },
+     {
+      "t": "しずか"
+     },
+     {
+      "t": "ひま"
+     },
+     {
+      "t": "べんり"
+     }
+    ],
+    "a": [
+     3
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">べんり</span></div><span class=\"lb\">DỊCH</span><div>Ga gần nên thị trấn này rất tiện lợi.</div><span class=\"lb\">GIẢI THÍCH</span><div>Vế trước えきがちかくて (ga gần) là lý do → べんり (<ruby>便利<rt>べんり</rt></ruby> – TIỆN LỢI). ふべん là nghĩa ngược lại. しずか = yên tĩnh, ひま = rảnh – không liên quan đến &quot;ga gần&quot;. いろどり <ruby>初級<rt>しょきゅう</rt></ruby>1 <ruby>第<rt>だい</rt></ruby>5<ruby>課<rt>か</rt></ruby>.</div>"
+   },
+   {
+    "s": "文字と語彙",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "レモンはとても（　　）です。",
+    "imgs": [],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "あまい"
+     },
+     {
+      "t": "からい"
+     },
+     {
+      "t": "すっぱい"
+     },
+     {
+      "t": "にがい"
+     }
+    ],
+    "a": [
+     2
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">すっぱい</span></div><span class=\"lb\">DỊCH</span><div>Chanh rất chua.</div><span class=\"lb\">GIẢI THÍCH</span><div>Bốn vị cơ bản: あまい (<ruby>甘<rt>あま</rt></ruby>い – ngọt), からい (<ruby>辛<rt>から</rt></ruby>い – cay), すっぱい (chua), にがい (<ruby>苦<rt>にが</rt></ruby>い – đắng). Chanh → すっぱい. いろどり <ruby>初級<rt>しょきゅう</rt></ruby>1 <ruby>第<rt>だい</rt></ruby>12<ruby>課<rt>か</rt></ruby>.</div>"
+   },
+   {
+    "s": "文字と語彙",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "日本で介護の<u>仕事</u>をしています。",
+    "imgs": [],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "じごと"
+     },
+     {
+      "t": "しごと"
+     },
+     {
+      "t": "しごど"
+     },
+     {
+      "t": "しこと"
+     }
+    ],
+    "a": [
+     1
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">しごと</span></div><span class=\"lb\">DỊCH</span><div>Tôi đang làm công việc chăm sóc (điều dưỡng) ở Nhật.</div><span class=\"lb\">GIẢI THÍCH</span><div><ruby>仕事<rt>しごと</rt></ruby> (SĨ SỰ) đọc là しごと = công việc. Các phương án sai lệch ở âm đục: じごと (し→じ), しごど (と→ど), しこと (ご→こ). <ruby>介護<rt>かいご</rt></ruby> (GIỚI HỘ) = điều dưỡng, chăm sóc.</div>"
+   },
+   {
+    "s": "文字と語彙",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "つぎの<u>信号</u>をわたってください。",
+    "imgs": [],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "じんごう"
+     },
+     {
+      "t": "しんご"
+     },
+     {
+      "t": "しんごう"
+     },
+     {
+      "t": "しんこう"
+     }
+    ],
+    "a": [
+     2
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">しんごう</span></div><span class=\"lb\">DỊCH</span><div>Hãy băng qua đèn giao thông tiếp theo.</div><span class=\"lb\">GIẢI THÍCH</span><div><ruby>信号<rt>しんごう</rt></ruby> (TÍN HIỆU) đọc là しんごう = đèn giao thông. <ruby>号<rt>ごう</rt></ruby> đọc ごう (trường âm). しんご thiếu う, しんこう sai âm đục, じんごう sai âm đầu.</div>"
+   },
+   {
+    "s": "文字と語彙",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "この卵焼きは<u>甘い</u>ですね。",
+    "imgs": [],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "うまい"
+     },
+     {
+      "t": "にがい"
+     },
+     {
+      "t": "からい"
+     },
+     {
+      "t": "あまい"
+     }
+    ],
+    "a": [
+     3
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">あまい</span></div><span class=\"lb\">DỊCH</span><div>Món trứng cuộn này ngọt nhỉ.</div><span class=\"lb\">GIẢI THÍCH</span><div><ruby>甘<rt>あま</rt></ruby>い (CAM) đọc là あまい = ngọt. Phân biệt chữ Hán các vị: <ruby>苦<rt>にが</rt></ruby>い (KHỔ) にがい = đắng, <ruby>辛<rt>から</rt></ruby>い (TÂN) からい = cay. うまい = ngon (khẩu ngữ).</div>"
+   },
+   {
+    "s": "文字と語彙",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "あしたは<u>やす</u>みをとります。",
+    "imgs": [],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "体"
+     },
+     {
+      "t": "休"
+     },
+     {
+      "t": "林"
+     },
+     {
+      "t": "本"
+     }
+    ],
+    "a": [
+     1
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">休</span></div><span class=\"lb\">DỊCH</span><div>Ngày mai tôi sẽ xin nghỉ.</div><span class=\"lb\">GIẢI THÍCH</span><div>やすみ = <ruby>休<rt>やす</rt></ruby>み (HƯU) – người <ruby>亻<rt>にんべん</rt></ruby> dựa vào cây <ruby>木<rt>き</rt></ruby> để nghỉ. Các chữ trông giống: <ruby>体<rt>からだ</rt></ruby> (THỂ – からだ), <ruby>林<rt>はやし</rt></ruby> (LÂM – はやし), <ruby>本<rt>ほん</rt></ruby> (BẢN – ほん). <ruby>休<rt>やす</rt></ruby>みをとる = xin nghỉ.</div>"
+   },
+   {
+    "s": "文字と語彙",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "この町は<u>ひと</u>がやさしいです。",
+    "imgs": [],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "人"
+     },
+     {
+      "t": "入"
+     },
+     {
+      "t": "大"
+     },
+     {
+      "t": "八"
+     }
+    ],
+    "a": [
+     0
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">人</span></div><span class=\"lb\">DỊCH</span><div>Người dân thị trấn này hiền hoà.</div><span class=\"lb\">GIẢI THÍCH</span><div>ひと = <ruby>人<rt>ひと</rt></ruby> (NHÂN). Dễ nhầm: <ruby>入<rt>いり</rt></ruby> (NHẬP – はいる, nét phải đè lên), <ruby>大<rt>おお</rt></ruby> (ĐẠI – おおきい), <ruby>八<rt>はち</rt></ruby> (BÁT – やっつ, hai nét tách rời).</div>"
+   },
+   {
+    "s": "文字と語彙",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "すきな<u>たべもの</u>は何ですか。",
+    "imgs": [],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "良べ物"
+     },
+     {
+      "t": "食べ物"
+     },
+     {
+      "t": "飯べ物"
+     },
+     {
+      "t": "食べ持"
+     }
+    ],
+    "a": [
+     1
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">食べ物</span></div><span class=\"lb\">DỊCH</span><div>Món ăn bạn thích là gì?</div><span class=\"lb\">GIẢI THÍCH</span><div>たべもの = <ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby> (THỰC VẬT). <ruby>良<rt>りょう</rt></ruby> (LƯƠNG) thiếu phần mái trên của <ruby>食<rt>しょく</rt></ruby>; <ruby>飯<rt>めし</rt></ruby> (PHẠN – ごはん) có bộ <ruby>食<rt>しょく</rt></ruby> bên trái; <ruby>持<rt>もち</rt></ruby> (TRÌ – もつ) giống <ruby>物<rt>もの</rt></ruby> nhưng bộ thủ 扌 khác bộ <ruby>牛<rt>うし</rt></ruby>.</div>"
+   },
+   {
+    "s": "会話と表現",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<ruby>山田<rt>やまだ</rt></ruby>：<ruby>日本<rt>にほん</rt></ruby>に<ruby>来<rt>き</rt></ruby>て、どのぐらいになりますか。<br>ロン：（　　）。<br><ruby>山田<rt>やまだ</rt></ruby>：そうですか。",
+    "imgs": [],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "1<ruby>年<rt>ねん</rt></ruby>にしました"
+     },
+     {
+      "t": "1<ruby>年<rt>ねん</rt></ruby>ぐらい<ruby>行<rt>い</rt></ruby>きます"
+     },
+     {
+      "t": "1<ruby>年<rt>ねん</rt></ruby>になります"
+     },
+     {
+      "t": "1<ruby>年<rt>ねん</rt></ruby><ruby>前<rt>まえ</rt></ruby>に<ruby>来<rt>き</rt></ruby>ます"
+     }
+    ],
+    "a": [
+     2
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">1<ruby>年<rt>ねん</rt></ruby>になります</span></div><span class=\"lb\">DỊCH</span><div>Yamada: Anh đến Nhật được bao lâu rồi? / Long: Được 1 năm rồi. / Yamada: Vậy à.</div><span class=\"lb\">GIẢI THÍCH</span><div>Hỏi bằng 〜になりますか thì đáp bằng 〜になります (khoảng thời gian đã trôi qua). 1<ruby>年<rt>ねん</rt></ruby><ruby>前<rt>まえ</rt></ruby>に<ruby>来<rt>き</rt></ruby>ます sai thì (đã đến phải là <ruby>来<rt>き</rt></ruby>ました). いろどり <ruby>初級<rt>しょきゅう</rt></ruby>1 <ruby>第<rt>だい</rt></ruby>1<ruby>課<rt>か</rt></ruby>.</div>"
+   },
+   {
+    "s": "会話と表現",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<ruby>木村<rt>きむら</rt></ruby>：<ruby>週末<rt>しゅうまつ</rt></ruby>、<ruby>何<rt>なに</rt></ruby>をしましたか。<br>ニン：<ruby>友<rt>とも</rt></ruby>だちとカラオケに（　　）。",
+    "imgs": [],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "<ruby>行<rt>い</rt></ruby>きました"
+     },
+     {
+      "t": "<ruby>行<rt>い</rt></ruby>きましょう"
+     },
+     {
+      "t": "<ruby>行<rt>い</rt></ruby>きたいです"
+     },
+     {
+      "t": "<ruby>行<rt>い</rt></ruby>きます"
+     }
+    ],
+    "a": [
+     0
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>行<rt>い</rt></ruby>きました</span></div><span class=\"lb\">DỊCH</span><div>Kimura: Cuối tuần bạn đã làm gì? / Ninh: Tôi đã đi karaoke với bạn.</div><span class=\"lb\">GIẢI THÍCH</span><div>Câu hỏi 〜しましたか (quá khứ) → trả lời bằng quá khứ <ruby>行<rt>い</rt></ruby>きました. <ruby>行<rt>い</rt></ruby>きましょう là rủ rê, <ruby>行<rt>い</rt></ruby>きたいです là mong muốn, <ruby>行<rt>い</rt></ruby>きます là tương lai. いろどり <ruby>初級<rt>しょきゅう</rt></ruby>1 <ruby>第<rt>だい</rt></ruby>2<ruby>課<rt>か</rt></ruby>.</div>"
+   },
+   {
+    "s": "会話と表現",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<ruby>山本<rt>やまもと</rt></ruby>：<ruby>明日<rt>あした</rt></ruby>の<ruby>天気<rt>てんき</rt></ruby>はどうですか。<br>リン：<ruby>天気予報<rt>てんきよほう</rt></ruby>によると、<ruby>晴<rt>は</rt></ruby>れる（　　）。",
+    "imgs": [],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "でしょう"
+     },
+     {
+      "t": "ましょう"
+     },
+     {
+      "t": "たいです"
+     },
+     {
+      "t": "ません"
+     }
+    ],
+    "a": [
+     0
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">でしょう</span></div><span class=\"lb\">DỊCH</span><div>Yamamoto: Thời tiết ngày mai thế nào? / Rin: Theo dự báo thời tiết thì trời sẽ nắng.</div><span class=\"lb\">GIẢI THÍCH</span><div>Dự đoán thời tiết: thể thường + でしょう. <ruby>天気予報<rt>てんきよほう</rt></ruby>によると (theo dự báo) báo hiệu câu phỏng đoán. ましょう, たいです, ません phải đi với thể ます (<ruby>晴<rt>は</rt></ruby>れ〜), không gắn vào <ruby>晴<rt>は</rt></ruby>れる. いろどり <ruby>初級<rt>しょきゅう</rt></ruby>1 <ruby>第<rt>だい</rt></ruby>4<ruby>課<rt>か</rt></ruby>.</div>"
+   },
+   {
+    "s": "会話と表現",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<ruby>通行人<rt>つうこうにん</rt></ruby>：2つ<ruby>目<rt>め</rt></ruby>の<ruby>信号<rt>しんごう</rt></ruby>を<ruby>左<rt>ひだり</rt></ruby>に（　　）。<br>ミン：2つ<ruby>目<rt>め</rt></ruby>の<ruby>信号<rt>しんごう</rt></ruby>を<ruby>左<rt>ひだり</rt></ruby>ですね。",
+    "imgs": [],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "<ruby>曲<rt>ま</rt></ruby>がりたいです"
+     },
+     {
+      "t": "<ruby>曲<rt>ま</rt></ruby>がりました"
+     },
+     {
+      "t": "<ruby>曲<rt>ま</rt></ruby>がるでしょう"
+     },
+     {
+      "t": "<ruby>曲<rt>ま</rt></ruby>がってください"
+     }
+    ],
+    "a": [
+     3
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>曲<rt>ま</rt></ruby>がってください</span></div><span class=\"lb\">DỊCH</span><div>Người qua đường: Anh rẽ trái ở đèn giao thông thứ hai. / Minh: Đèn thứ hai rẽ trái nhỉ.</div><span class=\"lb\">GIẢI THÍCH</span><div>Chỉ đường dùng Vて　ください. Minh nhắc lại để xác nhận → người kia vừa chỉ dẫn. <ruby>曲<rt>ま</rt></ruby>がる (KHÚC) = rẽ. いろどり <ruby>初級<rt>しょきゅう</rt></ruby>1 <ruby>第<rt>だい</rt></ruby>6<ruby>課<rt>か</rt></ruby>.</div>"
+   },
+   {
+    "s": "会話と表現",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<ruby>鈴木<rt>すずき</rt></ruby>：<ruby>今度<rt>こんど</rt></ruby>、いっしょに<ruby>動物園<rt>どうぶつえん</rt></ruby>に（　　）。<br>アナ：いいですね。ぜひ。",
+    "imgs": [],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "<ruby>行<rt>い</rt></ruby>かないでください"
+     },
+     {
+      "t": "<ruby>行<rt>い</rt></ruby>きましたか"
+     },
+     {
+      "t": "<ruby>行<rt>い</rt></ruby>っていますか"
+     },
+     {
+      "t": "<ruby>行<rt>い</rt></ruby>きませんか"
+     }
+    ],
+    "a": [
+     3
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>行<rt>い</rt></ruby>きませんか</span></div><span class=\"lb\">DỊCH</span><div>Suzuki: Lần tới cùng đi sở thú không? / Ana: Hay đấy. Nhất định rồi.</div><span class=\"lb\">GIẢI THÍCH</span><div>Rủ rê: Vませんか. <ruby>今度<rt>こんど</rt></ruby> (lần tới) + いっしょに là dấu hiệu lời mời; đáp いいですね。ぜひ = nhận lời. いろどり <ruby>初級<rt>しょきゅう</rt></ruby>1 <ruby>第<rt>だい</rt></ruby>8<ruby>課<rt>か</rt></ruby>.</div>"
+   },
+   {
+    "s": "会話と表現",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "アリ：それ、<ruby>新<rt>あたら</rt></ruby>しい<ruby>教科書<rt>きょうかしょ</rt></ruby>ですか。ちょっと（　　）。<br><ruby>西村<rt>にしむら</rt></ruby>：どうぞ。",
+    "imgs": [],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "<ruby>見<rt>み</rt></ruby>せてもらえませんか"
+     },
+     {
+      "t": "<ruby>見<rt>み</rt></ruby>えますか"
+     },
+     {
+      "t": "<ruby>見<rt>み</rt></ruby>てあげませんか"
+     },
+     {
+      "t": "<ruby>見<rt>み</rt></ruby>せましたか"
+     }
+    ],
+    "a": [
+     0
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>見<rt>み</rt></ruby>せてもらえませんか</span></div><span class=\"lb\">DỊCH</span><div>Ali: Đó là sách giáo khoa mới à? Cho tôi xem một chút được không? / Nishimura: Mời anh.</div><span class=\"lb\">GIẢI THÍCH</span><div>Nhờ người khác cho mình xem: <ruby>見<rt>み</rt></ruby>せて　もらえませんか (<ruby>見<rt>み</rt></ruby>せる = cho xem). Đáp どうぞ = đưa cho. <ruby>見<rt>み</rt></ruby>える = nhìn thấy được – khác nghĩa. いろどり <ruby>初級<rt>しょきゅう</rt></ruby>1 <ruby>第<rt>だい</rt></ruby>9<ruby>課<rt>か</rt></ruby>.</div>"
+   },
+   {
+    "s": "会話と表現",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "マルコ：<ruby>重<rt>じゅう</rt></ruby>そうですね。（　　）。<br><ruby>楊<rt>よう</rt></ruby>：だいじょうぶです。ありがとうございます。",
+    "imgs": [],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "<ruby>手伝<rt>てつだ</rt></ruby>ってください"
+     },
+     {
+      "t": "<ruby>手伝<rt>てつだ</rt></ruby>いましたか"
+     },
+     {
+      "t": "<ruby>手伝<rt>てつだ</rt></ruby>わないで"
+     },
+     {
+      "t": "<ruby>手伝<rt>てつだ</rt></ruby>いましょうか"
+     }
+    ],
+    "a": [
+     3
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>手伝<rt>てつだ</rt></ruby>いましょうか</span></div><span class=\"lb\">DỊCH</span><div>Marco: Trông nặng nhỉ. Để tôi giúp nhé? / Dương: Không sao đâu. Cảm ơn anh.</div><span class=\"lb\">GIẢI THÍCH</span><div>Đề nghị giúp đỡ: Vましょうか. Thấy người khác mang đồ nặng (<ruby>重<rt>じゅう</rt></ruby>そう) → <ruby>手伝<rt>てつだ</rt></ruby>いましょうか. Đáp だいじょうぶです = từ chối lịch sự. <ruby>手伝<rt>てつだ</rt></ruby>ってください là nhờ người khác giúp mình. いろどり <ruby>初級<rt>しょきゅう</rt></ruby>1 <ruby>第<rt>だい</rt></ruby>11<ruby>課<rt>か</rt></ruby>.</div>"
+   },
+   {
+    "s": "会話と表現",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<ruby>田村<rt>たむら</rt></ruby>：すき<ruby>焼<rt>や</rt></ruby>き、おいしいですね。<br>フエン：よかった。（　　）<ruby>食<rt>た</rt></ruby>べてください。",
+    "imgs": [],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "だんだん"
+     },
+     {
+      "t": "なかなか"
+     },
+     {
+      "t": "そろそろ"
+     },
+     {
+      "t": "どんどん"
+     }
+    ],
+    "a": [
+     3
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">どんどん</span></div><span class=\"lb\">DỊCH</span><div>Tamura: Sukiyaki ngon quá nhỉ. / Huyền: May quá. Anh cứ ăn nhiều vào nhé.</div><span class=\"lb\">GIẢI THÍCH</span><div>どんどん = cứ thoải mái, liên tục (mời ăn nhiều). だんだん = dần dần, なかなか = mãi mà (không), khá là, そろそろ = sắp đến lúc. いろどり <ruby>初級<rt>しょきゅう</rt></ruby>1 <ruby>第<rt>だい</rt></ruby>12<ruby>課<rt>か</rt></ruby>.</div>"
+   },
+   {
+    "s": "会話と表現",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "アリ：<ruby>会議<rt>かいぎ</rt></ruby>の<ruby>準備<rt>じゅんび</rt></ruby>は、どうしますか。<br><ruby>上司<rt>じょうし</rt></ruby>：アリさんは<ruby>机<rt>つくえ</rt></ruby>をコの<ruby>字<rt>じ</rt></ruby>に（　　）。",
+    "imgs": [],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "<ruby>並<rt>なら</rt></ruby>べたいです"
+     },
+     {
+      "t": "<ruby>並<rt>なら</rt></ruby>べてください"
+     },
+     {
+      "t": "<ruby>並<rt>なら</rt></ruby>びましょう"
+     },
+     {
+      "t": "<ruby>並<rt>なら</rt></ruby>んでいました"
+     }
+    ],
+    "a": [
+     1
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>並<rt>なら</rt></ruby>べてください</span></div><span class=\"lb\">DỊCH</span><div>Ali: Chuẩn bị cuộc họp thì làm thế nào ạ? / Cấp trên: Anh Ali hãy xếp bàn thành hình chữ コ.</div><span class=\"lb\">GIẢI THÍCH</span><div>Cấp trên giao việc → Vて　ください. <ruby>並<rt>なら</rt></ruby>べる (tha động từ – xếp cái gì) đi với <ruby>机<rt>つくえ</rt></ruby>を; <ruby>並<rt>なら</rt></ruby>ぶ (tự động từ – xếp hàng) không đi với を. コの<ruby>字<rt>じ</rt></ruby> = hình chữ U. いろどり <ruby>初級<rt>しょきゅう</rt></ruby>1 <ruby>第<rt>だい</rt></ruby>13<ruby>課<rt>か</rt></ruby>.</div>"
+   },
+   {
+    "s": "会話と表現",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<ruby>医者<rt>いしゃ</rt></ruby>：ご<ruby>飯<rt>はん</rt></ruby>は<ruby>食<rt>た</rt></ruby>べていますか。<br><ruby>郭<rt>かく</rt></ruby>：いえ、<ruby>食欲<rt>しょくよく</rt></ruby>が（　　）……。",
+    "imgs": [],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "ないと"
+     },
+     {
+      "t": "なくて"
+     },
+     {
+      "t": "あって"
+     },
+     {
+      "t": "なくても"
+     }
+    ],
+    "a": [
+     1
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">なくて</span></div><span class=\"lb\">DỊCH</span><div>Bác sĩ: Anh có ăn cơm không? / Quách: Không, tôi không thấy thèm ăn nên…</div><span class=\"lb\">GIẢI THÍCH</span><div>Nêu lý do bằng thể て: <ruby>食欲<rt>しょくよく</rt></ruby>がなくて (vì không có cảm giác thèm ăn). Câu bỏ lửng …… là cách nói tự nhiên. <ruby>食欲<rt>しょくよく</rt></ruby> (THỰC DỤC) = cảm giác thèm ăn. いろどり <ruby>初級<rt>しょきゅう</rt></ruby>1 <ruby>第<rt>だい</rt></ruby>15<ruby>課<rt>か</rt></ruby>.</div>"
+   },
+   {
+    "s": "会話と表現",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<ruby>西田<rt>にしだ</rt></ruby>：<ruby>最近<rt>さいきん</rt></ruby>、<ruby>胃<rt>い</rt></ruby>の<ruby>調子<rt>ちょうし</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>いんです。<br><ruby>佐藤<rt>さとう</rt></ruby>：お<ruby>腹<rt>なか</rt></ruby>を（　　）いいですよ。",
+    "imgs": [],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "<ruby>温<rt>あたた</rt></ruby>めたらだめ"
+     },
+     {
+      "t": "<ruby>温<rt>あたた</rt></ruby>めると"
+     },
+     {
+      "t": "<ruby>温<rt>あたた</rt></ruby>めても"
+     },
+     {
+      "t": "<ruby>冷<rt>ひ</rt></ruby>やすと"
+     }
+    ],
+    "a": [
+     1
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>温<rt>あたた</rt></ruby>めると</span></div><span class=\"lb\">DỊCH</span><div>Nishida: Gần đây dạ dày tôi không ổn. / Sato: Chườm ấm bụng thì tốt đấy.</div><span class=\"lb\">GIẢI THÍCH</span><div>Khuyên: Vると　いいですよ. <ruby>温<rt>あたた</rt></ruby>める (ÔN) = làm ấm; <ruby>冷<rt>ひ</rt></ruby>やす (LÃNH) = làm lạnh – không tốt cho dạ dày. <ruby>温<rt>あたた</rt></ruby>めても là &quot;dù có làm ấm&quot;. いろどり <ruby>初級<rt>しょきゅう</rt></ruby>1 <ruby>第<rt>だい</rt></ruby>16<ruby>課<rt>か</rt></ruby>.</div>"
+   },
+   {
+    "s": "会話と表現",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "ミン：すみません。<ruby>科学<rt>かがく</rt></ruby><ruby>博物館<rt>はくぶつかん</rt></ruby>はどこですか。<br><ruby>通行人<rt>つうこうにん</rt></ruby>：<ruby>橋<rt>はし</rt></ruby>を<ruby>渡<rt>わた</rt></ruby>って、すぐ<ruby>右<rt>みぎ</rt></ruby>に<ruby>曲<rt>ま</rt></ruby>がった（　　）にありますよ。",
+    "imgs": [],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "ところ"
+     },
+     {
+      "t": "もの"
+     },
+     {
+      "t": "とき"
+     },
+     {
+      "t": "こと"
+     }
+    ],
+    "a": [
+     0
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">ところ</span></div><span class=\"lb\">DỊCH</span><div>Minh: Xin lỗi, bảo tàng khoa học ở đâu ạ? / Người qua đường: Qua cầu, rẽ phải ngay là đến chỗ đó.</div><span class=\"lb\">GIẢI THÍCH</span><div>Chỉ vị trí: Vた　ところに　あります = ở chỗ sau khi làm V. ところ chỉ nơi chốn; もの = đồ vật, とき = lúc, こと = việc. いろどり <ruby>初級<rt>しょきゅう</rt></ruby>1 <ruby>第<rt>だい</rt></ruby>6<ruby>課<rt>か</rt></ruby>.</div>"
+   },
+   {
+    "s": "聴解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<span class=\"jp\">この<ruby>人<rt>ひと</rt></ruby>はいつ<ruby>日本<rt>にほん</rt></ruby>に<ruby>来<rt>き</rt></ruby>ましたか。</span><br><span class=\"vi-q\">Người này đến Nhật khi nào?</span>",
+    "imgs": [],
+    "img": null,
+    "au": "app/media/jft/au/y2_L01.mp3",
+    "o": [
+     {
+      "t": "<ruby>今年<rt>ことし</rt></ruby>の9<ruby>月<rt>がつ</rt></ruby>"
+     },
+     {
+      "t": "<ruby>去年<rt>きょねん</rt></ruby>の9<ruby>月<rt>がつ</rt></ruby>"
+     },
+     {
+      "t": "<ruby>半年<rt>はんとし</rt></ruby><ruby>前<rt>まえ</rt></ruby>"
+     },
+     {
+      "t": "<ruby>先月<rt>せんげつ</rt></ruby>"
+     }
+    ],
+    "a": [
+     1
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>去年<rt>きょねん</rt></ruby>の9<ruby>月<rt>がつ</rt></ruby></span></div><span class=\"lb\">SCRIPT</span><div class=\"jp\">A：<ruby>日本<rt>にほん</rt></ruby>に<ruby>来<rt>き</rt></ruby>て、どのぐらいですか？<br>B：<ruby>去年<rt>きょねん</rt></ruby>の9<ruby>月<rt>がつ</rt></ruby>に<ruby>来<rt>き</rt></ruby>ました。<br>A：そうですか。もう<ruby>慣<rt>な</rt></ruby>れましたか？<br>B：はい、おかげさまで。</div><span class=\"lb\">DỊCH</span><div>A: Anh đến Nhật được bao lâu rồi? / B: Tôi đến vào tháng 9 năm ngoái. / A: Vậy à. Đã quen chưa? / B: Rồi, nhờ trời.</div><span class=\"lb\">GIẢI THÍCH</span><div><ruby>去年<rt>きょねん</rt></ruby> (KHỨ NIÊN) = năm ngoái, <ruby>今年<rt>ことし</rt></ruby> = năm nay, <ruby>先月<rt>せんげつ</rt></ruby> = tháng trước, <ruby>半年<rt>はんとし</rt></ruby><ruby>前<rt>まえ</rt></ruby> = nửa năm trước. B trả lời rõ <ruby>去年<rt>きょねん</rt></ruby>の9<ruby>月<rt>がつ</rt></ruby>.</div>"
+   },
+   {
+    "s": "聴解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<span class=\"jp\">タムさんの<ruby>国<rt>くに</rt></ruby>の<ruby>雨季<rt>うき</rt></ruby>はどうですか。</span><br><span class=\"vi-q\">Mùa mưa ở nước của Tâm thế nào?</span>",
+    "imgs": [],
+    "img": null,
+    "au": "app/media/jft/au/y2_L02.mp3",
+    "o": [
+     {
+      "t": "とても<ruby>暑<rt>あつ</rt></ruby>くなる"
+     },
+     {
+      "t": "とても<ruby>寒<rt>さむ</rt></ruby>くなる"
+     },
+     {
+      "t": "<ruby>雪<rt>ゆき</rt></ruby>がふる"
+     },
+     {
+      "t": "<ruby>少<rt>すこ</rt></ruby>しすずしくなって、<ruby>雨<rt>あめ</rt></ruby>がたくさんふる"
+     }
+    ],
+    "a": [
+     3
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>少<rt>すこ</rt></ruby>しすずしくなって、<ruby>雨<rt>あめ</rt></ruby>がたくさんふる</span></div><span class=\"lb\">SCRIPT</span><div class=\"jp\">A：タムさんの<ruby>国<rt>くに</rt></ruby>には、どんな<ruby>季節<rt>きせつ</rt></ruby>がありますか？<br>B：<ruby>雨季<rt>うき</rt></ruby>と<ruby>乾季<rt>かんき</rt></ruby>があります。<br>A：そうですか。<br>B：<ruby>乾季<rt>かんき</rt></ruby>はとても<ruby>暑<rt>あつ</rt></ruby>いです。<br>A：へー。<br>B：でも、<ruby>雨季<rt>うき</rt></ruby>は<ruby>少<rt>すこ</rt></ruby>しすずしくなります。<ruby>雨<rt>あめ</rt></ruby>がたくさん<ruby>降<rt>ふ</rt></ruby>ります。</div><span class=\"lb\">DỊCH</span><div>A: Ở nước anh Tâm có những mùa nào? / B: Có mùa mưa và mùa khô. / A: Vậy à. / B: Mùa khô rất nóng. / A: Ồ. / B: Nhưng mùa mưa thì mát hơn một chút. Mưa rất nhiều.</div><span class=\"lb\">GIẢI THÍCH</span><div>Câu hỏi về <ruby>雨季<rt>うき</rt></ruby> (VŨ QUÝ – mùa mưa), không phải <ruby>乾季<rt>かんき</rt></ruby> (CAN QUÝ – mùa khô). とても<ruby>暑<rt>あつ</rt></ruby>い là nói về <ruby>乾季<rt>かんき</rt></ruby>. Sau でも: <ruby>雨季<rt>うき</rt></ruby>は<ruby>少<rt>すこ</rt></ruby>しすずしくなります.</div>"
+   },
+   {
+    "s": "聴解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<span class=\"jp\">「<ruby>南<rt>みなみ</rt></ruby>スポーツセンター」はどんなところですか。</span><br><span class=\"vi-q\">&quot;Trung tâm thể thao Minami&quot; là nơi như thế nào?</span>",
+    "imgs": [],
+    "img": null,
+    "au": "app/media/jft/au/y2_L03.mp3",
+    "o": [
+     {
+      "t": "<ruby>高<rt>たか</rt></ruby>いけど、<ruby>広<rt>ひろ</rt></ruby>い"
+     },
+     {
+      "t": "<ruby>遠<rt>とお</rt></ruby>いけど、<ruby>静<rt>しず</rt></ruby>か"
+     },
+     {
+      "t": "<ruby>建物<rt>たてもの</rt></ruby>は<ruby>古<rt>ふる</rt></ruby>いけど、<ruby>安<rt>やす</rt></ruby>い"
+     },
+     {
+      "t": "<ruby>新<rt>あたら</rt></ruby>しくて、きれい"
+     }
+    ],
+    "a": [
+     2
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>建物<rt>たてもの</rt></ruby>は<ruby>古<rt>ふる</rt></ruby>いけど、<ruby>安<rt>やす</rt></ruby>い</span></div><span class=\"lb\">SCRIPT</span><div class=\"jp\">A：<ruby>休<rt>やす</rt></ruby>みの<ruby>日<rt>ひ</rt></ruby>にどこか<ruby>行<rt>い</rt></ruby>きたいんですが、いいところがありますか？<br>B：そうね……。スポーツは<ruby>好<rt>す</rt></ruby>き？<br>A：はい。<br>B：じゃあ、「<ruby>南<rt>みなみ</rt></ruby>スポーツセンター」とかはどう？<br>A：スポーツセンター？<br>B：<ruby>建物<rt>たてもの</rt></ruby>は<ruby>古<rt>ふる</rt></ruby>いけど、<ruby>安<rt>やす</rt></ruby>くていいわよ。<br>A：そうですか。</div><span class=\"lb\">DỊCH</span><div>A: Ngày nghỉ tôi muốn đi đâu đó, có chỗ nào hay không ạ? / B: Để xem… Em thích thể thao không? / A: Có. / B: Vậy &quot;Trung tâm thể thao Minami&quot; thì sao? / A: Trung tâm thể thao ạ? / B: Toà nhà thì cũ, nhưng rẻ nên tốt lắm. / A: Vậy ạ.</div><span class=\"lb\">GIẢI THÍCH</span><div>Câu <ruby>建物<rt>たてもの</rt></ruby>は<ruby>古<rt>ふる</rt></ruby>いけど、<ruby>安<rt>やす</rt></ruby>くていいわよ khớp với đáp án 3. 〜けど = nhưng (nối điểm xấu và điểm tốt). <ruby>古<rt>ふる</rt></ruby>い (CỔ) = cũ, <ruby>安<rt>やす</rt></ruby>い (AN) = rẻ.</div>"
+   },
+   {
+    "s": "聴解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<span class=\"jp\"><ruby>金曜日<rt>きんようび</rt></ruby>の10<ruby>時<rt>じ</rt></ruby>に、まずどこに<ruby>行<rt>い</rt></ruby>きますか。</span><br><span class=\"vi-q\">10 giờ thứ Sáu, trước tiên đi đến đâu?</span>",
+    "imgs": [],
+    "img": null,
+    "au": "app/media/jft/au/y2_L04.mp3",
+    "o": [
+     {
+      "t": "<ruby>部屋<rt>へや</rt></ruby>"
+     },
+     {
+      "t": "<ruby>門<rt>もん</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>"
+     },
+     {
+      "t": "<ruby>受付<rt>うけつけ</rt></ruby>"
+     },
+     {
+      "t": "<ruby>駅<rt>えき</rt></ruby>"
+     }
+    ],
+    "a": [
+     2
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>受付<rt>うけつけ</rt></ruby></span></div><span class=\"lb\">SCRIPT</span><div class=\"jp\">A：では、<ruby>金曜日<rt>きんようび</rt></ruby>の10<ruby>時<rt>じ</rt></ruby>に<ruby>来<rt>き</rt></ruby>てください。<br>B：<ruby>金曜日<rt>きんようび</rt></ruby>の10<ruby>時<rt>じ</rt></ruby>ですね。えーと、<ruby>場所<rt>ばしょ</rt></ruby>はどこですか？<br>A：<ruby>受付<rt>うけつけ</rt></ruby>に<ruby>来<rt>き</rt></ruby>てください。そのあと、<ruby>部屋<rt>へや</rt></ruby>に<ruby>案内<rt>あんない</rt></ruby>します。<br>B：わかりました。</div><span class=\"lb\">DỊCH</span><div>A: Vậy anh đến lúc 10 giờ thứ Sáu nhé. / B: 10 giờ thứ Sáu ạ. À, địa điểm ở đâu ạ? / A: Anh đến quầy lễ tân. Sau đó tôi sẽ dẫn anh vào phòng. / B: Tôi hiểu rồi.</div><span class=\"lb\">GIẢI THÍCH</span><div>まず = trước tiên. <ruby>受付<rt>うけつけ</rt></ruby>に<ruby>来<rt>き</rt></ruby>てください → sau đó (そのあと) mới đến <ruby>部屋<rt>へや</rt></ruby>. <ruby>受付<rt>うけつけ</rt></ruby> (THỤ PHÓ) = quầy lễ tân, <ruby>案内<rt>あんない</rt></ruby> (ÁN NỘI) = hướng dẫn, dẫn đường.</div>"
+   },
+   {
+    "s": "聴解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<span class=\"jp\"><ruby>展覧会<rt>てんらんかい</rt></ruby>はどうでしたか。</span><br><span class=\"vi-q\">Buổi triển lãm thế nào?</span>",
+    "imgs": [],
+    "img": null,
+    "au": "app/media/jft/au/y2_L05.mp3",
+    "o": [
+     {
+      "t": "<ruby>人<rt>ひと</rt></ruby>が<ruby>多<rt>おお</rt></ruby>かった"
+     },
+     {
+      "t": "かんどうした"
+     },
+     {
+      "t": "とてもおもしろかった"
+     },
+     {
+      "t": "<ruby>難<rt>むずか</rt></ruby>しくて、よくわからなかった"
+     }
+    ],
+    "a": [
+     3
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>難<rt>むずか</rt></ruby>しくて、よくわからなかった</span></div><span class=\"lb\">SCRIPT</span><div class=\"jp\">A：<ruby>今日<rt>きょう</rt></ruby>の<ruby>展覧会<rt>てんらんかい</rt></ruby>、どうでしたか？<br>B：うーん。ちょっと<ruby>難<rt>むずか</rt></ruby>しかったです。<br>A：あー、<ruby>現代<rt>げんだい</rt></ruby>の<ruby>作品<rt>さくひん</rt></ruby>はねえ。<br>B：よくわかりませんでした。</div><span class=\"lb\">DỊCH</span><div>A: Triển lãm hôm nay thế nào? / B: Ừm, hơi khó. / A: À, tác phẩm hiện đại mà. / B: Tôi không hiểu lắm.</div><span class=\"lb\">GIẢI THÍCH</span><div>うーん + ちょっと<ruby>難<rt>むずか</rt></ruby>しかった là cảm nhận không tích cực; câu cuối よくわかりませんでした. <ruby>展覧会<rt>てんらんかい</rt></ruby> (TRIỂN LÃM HỘI) = triển lãm, <ruby>作品<rt>さくひん</rt></ruby> (TÁC PHẨM) = tác phẩm.</div>"
+   },
+   {
+    "s": "聴解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<span class=\"jp\">この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をお<ruby>願<rt>ねが</rt></ruby>いしましたか。</span><br><span class=\"vi-q\">Người này đã nhờ việc gì?</span>",
+    "imgs": [],
+    "img": null,
+    "au": "app/media/jft/au/y2_L06.mp3",
+    "o": [
+     {
+      "t": "<ruby>漢字<rt>かんじ</rt></ruby>の<ruby>読<rt>よ</rt></ruby>み<ruby>方<rt>かた</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えてほしい"
+     },
+     {
+      "t": "<ruby>教科書<rt>きょうかしょ</rt></ruby>を<ruby>貸<rt>か</rt></ruby>してほしい"
+     },
+     {
+      "t": "メールを<ruby>送<rt>おく</rt></ruby>ってほしい"
+     },
+     {
+      "t": "メールの<ruby>日本語<rt>にほんご</rt></ruby>をチェックしてほしい"
+     }
+    ],
+    "a": [
+     3
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">メールの<ruby>日本語<rt>にほんご</rt></ruby>をチェックしてほしい</span></div><span class=\"lb\">SCRIPT</span><div class=\"jp\">A：あのう、すみません。<br>B：はい。<br>A：<ruby>私<rt>わたし</rt></ruby>のメール、<ruby>日本語<rt>にほんご</rt></ruby>をチェックしてもらえませんか？ちょっと<ruby>自信<rt>じしん</rt></ruby>がありません。<br>B：いいですよ。えーと……。</div><span class=\"lb\">DỊCH</span><div>A: À, xin lỗi. / B: Vâng. / A: Anh xem giúp tiếng Nhật trong email của tôi được không? Tôi hơi không tự tin. / B: Được thôi. Để xem…</div><span class=\"lb\">GIẢI THÍCH</span><div>Câu nhờ: 〜をチェックしてもらえませんか. Không nhờ gửi (<ruby>送<rt>おく</rt></ruby>る) email mà nhờ kiểm tra tiếng Nhật. <ruby>自信<rt>じしん</rt></ruby> (TỰ TÍN) = sự tự tin.</div>"
+   },
+   {
+    "s": "聴解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<span class=\"jp\">ノイさんは<ruby>何<rt>なに</rt></ruby>を<ruby>持<rt>も</rt></ruby>って<ruby>行<rt>い</rt></ruby>きますか。</span><br><span class=\"vi-q\">Noi sẽ mang gì đến?</span>",
+    "imgs": [],
+    "img": null,
+    "au": "app/media/jft/au/y2_L07.mp3",
+    "o": [
+     {
+      "t": "おにぎり"
+     },
+     {
+      "t": "お<ruby>茶<rt>ちゃ</rt></ruby>"
+     },
+     {
+      "t": "ケーキ"
+     },
+     {
+      "t": "バナナ"
+     }
+    ],
+    "a": [
+     3
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">バナナ</span></div><span class=\"lb\">SCRIPT</span><div class=\"jp\">ノイ：<ruby>私<rt>わたし</rt></ruby>は、<ruby>何<rt>なに</rt></ruby>を<ruby>持<rt>も</rt></ruby>って<ruby>行<rt>い</rt></ruby>きましょうか？<br><ruby>長谷川<rt>はせがわ</rt></ruby>：じゃあ、ノイさん、デザートはどうですか？<br>ノイ：そうですねえ、じゃあ、バナナを<ruby>持<rt>も</rt></ruby>って<ruby>行<rt>い</rt></ruby>きます。<ruby>焼<rt>や</rt></ruby>いて<ruby>食<rt>た</rt></ruby>べましょう。<br><ruby>長谷川<rt>はせがわ</rt></ruby>：え、バナナ？<ruby>焼<rt>や</rt></ruby>くんですか？<br>ノイ：はい。おいしいですよ。</div><span class=\"lb\">DỊCH</span><div>Noi: Tôi nên mang gì đến ạ? / Hasegawa: Vậy chị Noi mang món tráng miệng nhé? / Noi: Để xem, vậy tôi mang chuối. Nướng lên ăn nhé. / Hasegawa: Hả, chuối á? Nướng sao? / Noi: Vâng. Ngon lắm đấy.</div><span class=\"lb\">GIẢI THÍCH</span><div>Noi nói rõ バナナを<ruby>持<rt>も</rt></ruby>って<ruby>行<rt>い</rt></ruby>きます. デザート là gợi ý của Hasegawa; ケーキ không xuất hiện. <ruby>焼<rt>や</rt></ruby>く = nướng.</div>"
+   },
+   {
+    "s": "聴解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<span class=\"jp\">この<ruby>人<rt>ひと</rt></ruby>はもう<ruby>少<rt>すこ</rt></ruby>し<ruby>食<rt>た</rt></ruby>べますか。</span><br><span class=\"vi-q\">Người này có ăn thêm không?</span>",
+    "imgs": [],
+    "img": null,
+    "au": "app/media/jft/au/y2_L08.mp3",
+    "o": [
+     {
+      "t": "<ruby>食<rt>た</rt></ruby>べる。おなかがすいている"
+     },
+     {
+      "t": "<ruby>食<rt>た</rt></ruby>べない。おいしくない"
+     },
+     {
+      "t": "<ruby>食<rt>た</rt></ruby>べない。おなかがいっぱい"
+     },
+     {
+      "t": "<ruby>食<rt>た</rt></ruby>べる。とてもおいしい"
+     }
+    ],
+    "a": [
+     2
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>食<rt>た</rt></ruby>べない。おなかがいっぱい</span></div><span class=\"lb\">SCRIPT</span><div class=\"jp\">A：お<ruby>好<rt>この</rt></ruby>み<ruby>焼<rt>や</rt></ruby>き、どう？おいしい？<br>B：はい、おいしいです。<ruby>私<rt>わたし</rt></ruby>の<ruby>国<rt>くに</rt></ruby>のバインセオに<ruby>似<rt>に</rt></ruby>ています。<br>A：もう<ruby>少<rt>すこ</rt></ruby>し<ruby>食<rt>た</rt></ruby>べる？<br>B：あ、だいじょうぶです。もうお<ruby>腹<rt>なか</rt></ruby>がいっぱいです。</div><span class=\"lb\">DỊCH</span><div>A: Okonomiyaki thế nào? Ngon không? / B: Vâng, ngon ạ. Giống bánh xèo ở nước tôi. / A: Ăn thêm chút nữa không? / B: À, không sao đâu ạ. Tôi no rồi.</div><span class=\"lb\">GIẢI THÍCH</span><div>だいじょうぶです ở đây là lời từ chối lịch sự (= không cần), lý do もうお<ruby>腹<rt>なか</rt></ruby>がいっぱいです (no rồi). Món ăn vẫn ngon nên 2 sai. 〜に<ruby>似<rt>に</rt></ruby>ています = giống với ~.</div>"
+   },
+   {
+    "s": "聴解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<span class=\"jp\">アリさんの<ruby>仕事<rt>しごと</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。</span><br><span class=\"vi-q\">Việc của Ali là gì?</span>",
+    "imgs": [],
+    "img": null,
+    "au": "app/media/jft/au/y2_L09.mp3",
+    "o": [
+     {
+      "t": "<ruby>机<rt>つくえ</rt></ruby>をコの<ruby>字<rt>じ</rt></ruby>に<ruby>並<rt>なら</rt></ruby>べて、パソコンとプロジェクタを<ruby>準備<rt>じゅんび</rt></ruby>する"
+     },
+     {
+      "t": "<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>を<ruby>用意<rt>ようい</rt></ruby>する"
+     },
+     {
+      "t": "<ruby>外<rt>そと</rt></ruby>のお<ruby>店<rt>みせ</rt></ruby>に<ruby>電話<rt>でんわ</rt></ruby>する"
+     },
+     {
+      "t": "<ruby>資料<rt>しりょう</rt></ruby>を<ruby>人数分<rt>にんずうぶん</rt></ruby>コピーする"
+     }
+    ],
+    "a": [
+     0
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>机<rt>つくえ</rt></ruby>をコの<ruby>字<rt>じ</rt></ruby>に<ruby>並<rt>なら</rt></ruby>べて、パソコンとプロジェクタを<ruby>準備<rt>じゅんび</rt></ruby>する</span></div><span class=\"lb\">SCRIPT</span><div class=\"jp\">アリ：<ruby>会議<rt>かいぎ</rt></ruby>の<ruby>準備<rt>じゅんび</rt></ruby>は、どうしますか？<br><ruby>上司<rt>じょうし</rt></ruby>：アリさんは、<ruby>部屋<rt>へや</rt></ruby>のセッティング、<ruby>西村<rt>にしむら</rt></ruby>さんは、<ruby>資料<rt>しりょう</rt></ruby>の<ruby>準備<rt>じゅんび</rt></ruby>をお<ruby>願<rt>ねが</rt></ruby>いします。アリさんは、<ruby>部屋<rt>へや</rt></ruby>の<ruby>机<rt>つくえ</rt></ruby>をコの<ruby>字<rt>じ</rt></ruby>に<ruby>並<rt>なら</rt></ruby>べて、それからパソコンとプロジェクタを<ruby>準備<rt>じゅんび</rt></ruby>してください。<ruby>西村<rt>にしむら</rt></ruby>さんは、<ruby>資料<rt>しりょう</rt></ruby>を<ruby>人数分<rt>にんずうぶん</rt></ruby>コピーして、<ruby>机<rt>つくえ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に1<ruby>部<rt>ぶ</rt></ruby>ずつ<ruby>並<rt>なら</rt></ruby>べてください。<br><ruby>西村<rt>にしむら</rt></ruby>：<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>は<ruby>用意<rt>ようい</rt></ruby>しますか？<br><ruby>上司<rt>じょうし</rt></ruby>：それは、<ruby>外<rt>そと</rt></ruby>のお<ruby>店<rt>みせ</rt></ruby>に<ruby>頼<rt>たの</rt></ruby>んだから、いいです。</div><span class=\"lb\">DỊCH</span><div>Ali: Chuẩn bị họp thì làm thế nào ạ? / Cấp trên: Anh Ali sắp xếp phòng, chị Nishimura chuẩn bị tài liệu. Anh Ali xếp bàn thành hình chữ U, sau đó chuẩn bị máy tính và máy chiếu. Chị Nishimura photo tài liệu đủ số người, đặt mỗi bàn 1 bản. / Nishimura: Có chuẩn bị đồ uống không ạ? / Cấp trên: Cái đó đã nhờ cửa hàng bên ngoài rồi nên không cần.</div><span class=\"lb\">GIẢI THÍCH</span><div>Hội thoại giao việc cho 2 người – phải nghe đúng tên. <ruby>資料<rt>しりょう</rt></ruby>をコピー là việc của <ruby>西村<rt>にしむら</rt></ruby>さん; <ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby> đã nhờ <ruby>外<rt>そと</rt></ruby>のお<ruby>店<rt>みせ</rt></ruby>. <ruby>準備<rt>じゅんび</rt></ruby> (CHUẨN BỊ), <ruby>資料<rt>しりょう</rt></ruby> (TƯ LIỆU), <ruby>人数分<rt>にんずうぶん</rt></ruby> = đủ số người.</div>"
+   },
+   {
+    "s": "聴解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<span class=\"jp\">この<ruby>人<rt>ひと</rt></ruby>の<ruby>症状<rt>しょうじょう</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。</span><br><span class=\"vi-q\">Triệu chứng của người này là gì?</span>",
+    "imgs": [],
+    "img": null,
+    "au": "app/media/jft/au/y2_L10.mp3",
+    "o": [
+     {
+      "t": "<ruby>熱<rt>ねつ</rt></ruby>があって、のどが<ruby>痛<rt>いた</rt></ruby>い"
+     },
+     {
+      "t": "お<ruby>腹<rt>なか</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>くて、<ruby>吐<rt>は</rt></ruby>き<ruby>気<rt>け</rt></ruby>がする"
+     },
+     {
+      "t": "<ruby>目<rt>め</rt></ruby>がかゆくて、<ruby>鼻水<rt>はなみず</rt></ruby>が<ruby>出<rt>で</rt></ruby>る"
+     },
+     {
+      "t": "<ruby>足<rt>あし</rt></ruby>をくじいた"
+     }
+    ],
+    "a": [
+     0
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>熱<rt>ねつ</rt></ruby>があって、のどが<ruby>痛<rt>いた</rt></ruby>い</span></div><span class=\"lb\">SCRIPT</span><div class=\"jp\">A：<ruby>今日<rt>きょう</rt></ruby>はどうしましたか？<br>B：<ruby>昨日<rt>きのう</rt></ruby>から38<ruby>度<rt>ど</rt></ruby>の<ruby>熱<rt>ねつ</rt></ruby>があって、のどがすごく<ruby>痛<rt>いた</rt></ruby>いんです。<br>A：そうですか。ご<ruby>飯<rt>はん</rt></ruby>は<ruby>食<rt>た</rt></ruby>べてますか？<br>B：いえ、<ruby>食欲<rt>しょくよく</rt></ruby>がなくて……。</div><span class=\"lb\">DỊCH</span><div>A: Hôm nay anh bị sao? / B: Từ hôm qua tôi sốt 38 độ, họng đau lắm. / A: Vậy à. Anh có ăn cơm không? / B: Không, tôi không thấy thèm ăn…</div><span class=\"lb\">GIẢI THÍCH</span><div><ruby>熱<rt>ねつ</rt></ruby>がある = sốt, のどが<ruby>痛<rt>いた</rt></ruby>い = đau họng → 1. <ruby>食欲<rt>しょくよく</rt></ruby>がない là phụ, không phải lựa chọn. <ruby>足<rt>あし</rt></ruby>をくじく = trẹo chân. <ruby>症状<rt>しょうじょう</rt></ruby> (CHỨNG TRẠNG) = triệu chứng.</div>"
+   },
+   {
+    "s": "聴解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<span class=\"jp\"><ruby>胃<rt>い</rt></ruby>の<ruby>調子<rt>ちょうし</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>いときは、どうするといいですか。</span><br><span class=\"vi-q\">Khi dạ dày không ổn thì nên làm gì?</span>",
+    "imgs": [],
+    "img": null,
+    "au": "app/media/jft/au/y2_L11.mp3",
+    "o": [
+     {
+      "t": "<ruby>冷<rt>つめ</rt></ruby>たいものを<ruby>飲<rt>の</rt></ruby>む"
+     },
+     {
+      "t": "お<ruby>腹<rt>なか</rt></ruby>を<ruby>温<rt>あたた</rt></ruby>めて、マッサージする"
+     },
+     {
+      "t": "<ruby>運動<rt>うんどう</rt></ruby>する"
+     },
+     {
+      "t": "たくさん<ruby>食<rt>た</rt></ruby>べる"
+     }
+    ],
+    "a": [
+     1
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">お<ruby>腹<rt>なか</rt></ruby>を<ruby>温<rt>あたた</rt></ruby>めて、マッサージする</span></div><span class=\"lb\">SCRIPT</span><div class=\"jp\">A：<ruby>西田<rt>にしだ</rt></ruby>さん、どうしたんですか？だいじょうぶですか？<br>B：うん、<ruby>最近<rt>さいきん</rt></ruby>、<ruby>胃<rt>い</rt></ruby>の<ruby>調子<rt>ちょうし</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>いんですよ。<br>A：ああ、<ruby>大変<rt>たいへん</rt></ruby>ですね……。お<ruby>腹<rt>なか</rt></ruby>を<ruby>温<rt>あたた</rt></ruby>めるといいですよ。あと、マッサージも。<br>B：そうなんですか。やってみます。</div><span class=\"lb\">DỊCH</span><div>A: Anh Nishida sao vậy? Có ổn không? / B: Ừ, gần đây dạ dày tôi không tốt. / A: Ôi, vất vả quá… Chườm ấm bụng thì tốt đấy. Thêm nữa là xoa bóp. / B: Vậy à. Tôi sẽ thử.</div><span class=\"lb\">GIẢI THÍCH</span><div>Lời khuyên 〜といいですよ: お<ruby>腹<rt>なか</rt></ruby>を<ruby>温<rt>あたた</rt></ruby>める + マッサージ (あと = thêm nữa). <ruby>胃<rt>い</rt></ruby> (VỊ) = dạ dày, <ruby>調子<rt>ちょうし</rt></ruby> (ĐIỀU TỬ) = tình trạng.</div>"
+   },
+   {
+    "s": "聴解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<span class=\"jp\">マグカップはどうしましたか。</span><br><span class=\"vi-q\">Chiếc cốc (mug) có được như thế nào?</span>",
+    "imgs": [],
+    "img": null,
+    "au": "app/media/jft/au/y2_L12.mp3",
+    "o": [
+     {
+      "t": "<ruby>誕生日<rt>たんじょうび</rt></ruby>に<ruby>友<rt>とも</rt></ruby>だちにもらった"
+     },
+     {
+      "t": "<ruby>母<rt>はは</rt></ruby>がくれた"
+     },
+     {
+      "t": "<ruby>日本<rt>にほん</rt></ruby>で<ruby>買<rt>か</rt></ruby>った"
+     },
+     {
+      "t": "<ruby>自分<rt>じぶん</rt></ruby>で<ruby>作<rt>つく</rt></ruby>った"
+     }
+    ],
+    "a": [
+     0
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>誕生日<rt>たんじょうび</rt></ruby>に<ruby>友<rt>とも</rt></ruby>だちにもらった</span></div><span class=\"lb\">SCRIPT</span><div class=\"jp\">A：そのパンダのマグカップ、かわいいですね。<br>B：あ、ありがとうございます。<br>A：<ruby>中国<rt>ちゅうごく</rt></ruby>から<ruby>持<rt>も</rt></ruby>って<ruby>来<rt>き</rt></ruby>たんですか？<br>B：はい。<ruby>誕生日<rt>たんじょうび</rt></ruby>に、<ruby>友<rt>とも</rt></ruby>だちにもらったんです。<br>A：そうですか。</div><span class=\"lb\">DỊCH</span><div>A: Cái cốc hình gấu trúc đó dễ thương nhỉ. / B: À, cảm ơn chị. / A: Mang từ Trung Quốc sang à? / B: Vâng. Bạn tặng tôi vào ngày sinh nhật.</div><span class=\"lb\">GIẢI THÍCH</span><div>〜にもらう = nhận từ ~ (<ruby>友<rt>とも</rt></ruby>だちにもらった = được bạn tặng). <ruby>母<rt>はは</rt></ruby>がくれた cũng là &quot;được tặng&quot; nhưng người tặng sai. <ruby>誕生日<rt>たんじょうび</rt></ruby> (ĐẢN SINH NHẬT) = sinh nhật.</div>"
+   },
+   {
+    "s": "読解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "（1）アナさんは<ruby>今<rt>いま</rt></ruby>、どこで<ruby>働<rt>はたら</rt></ruby>いていますか。",
+    "imgs": [
+     "app/media/jft/img/y2_r1.jpg"
+    ],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "<ruby>大阪<rt>おおさか</rt></ruby>のホテル"
+     },
+     {
+      "t": "<ruby>東京<rt>とうきょう</rt></ruby>の<ruby>工場<rt>こうじょう</rt></ruby>"
+     },
+     {
+      "t": "<ruby>大阪<rt>おおさか</rt></ruby>の<ruby>工場<rt>こうじょう</rt></ruby>"
+     },
+     {
+      "t": "<ruby>東京<rt>とうきょう</rt></ruby>のホテル"
+     }
+    ],
+    "a": [
+     0
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>大阪<rt>おおさか</rt></ruby>のホテル</span></div><span class=\"lb\">DỊCH</span><div>Ana: Rin ơi, lâu quá không gặp! Bạn khoẻ không? / Ana: Mình làm ở khách sạn ở Osaka từ tháng trước. Công việc bận nhưng vui. / Rin: Ana! Lâu quá không gặp. Mình khoẻ. Mình vẫn làm ở nhà máy ở Tokyo. / Ana: Tháng sau mình lên Tokyo. Cùng đi ăn nhé?</div><span class=\"lb\">GIẢI THÍCH</span><div>Tin nhắn của アナ: 「<ruby>先月<rt>せんげつ</rt></ruby>から<ruby>大阪<rt>おおさか</rt></ruby>のホテルで<ruby>働<rt>はたら</rt></ruby>いています」. <ruby>東京<rt>とうきょう</rt></ruby>の<ruby>工場<rt>こうじょう</rt></ruby> là chỗ làm của リン (người nhận).</div>"
+   },
+   {
+    "s": "読解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "（2）アナさんは<ruby>来月<rt>らいげつ</rt></ruby><ruby>何<rt>なに</rt></ruby>をしますか。",
+    "imgs": [
+     "app/media/jft/img/y2_r1.jpg"
+    ],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "<ruby>仕事<rt>しごと</rt></ruby>をやめる"
+     },
+     {
+      "t": "<ruby>東京<rt>とうきょう</rt></ruby>に<ruby>行<rt>い</rt></ruby>く"
+     },
+     {
+      "t": "<ruby>工場<rt>こうじょう</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>く"
+     },
+     {
+      "t": "<ruby>大阪<rt>おおさか</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>る"
+     }
+    ],
+    "a": [
+     1
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>東京<rt>とうきょう</rt></ruby>に<ruby>行<rt>い</rt></ruby>く</span></div><span class=\"lb\">DỊCH</span><div>(Xem bản dịch câu trước.)</div><span class=\"lb\">GIẢI THÍCH</span><div>「<ruby>来月<rt>らいげつ</rt></ruby>、<ruby>東京<rt>とうきょう</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます」. <ruby>来月<rt>らいげつ</rt></ruby> (LAI NGUYỆT) = tháng sau, <ruby>先月<rt>せんげつ</rt></ruby> (TIÊN NGUYỆT) = tháng trước – chú ý không nhầm hai mốc này.</div>"
+   },
+   {
+    "s": "読解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "（1）あした、どうしますか。",
+    "imgs": [
+     "app/media/jft/img/y2_r3.jpg"
+    ],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "<ruby>朝<rt>あさ</rt></ruby><ruby>早<rt>はや</rt></ruby>く<ruby>会社<rt>かいしゃ</rt></ruby>に<ruby>行<rt>い</rt></ruby>く"
+     },
+     {
+      "t": "かさを<ruby>持<rt>も</rt></ruby>って<ruby>会社<rt>かいしゃ</rt></ruby>に<ruby>行<rt>い</rt></ruby>く"
+     },
+     {
+      "t": "<ruby>会社<rt>かいしゃ</rt></ruby>を<ruby>休<rt>やす</rt></ruby>んで、<ruby>家<rt>いえ</rt></ruby>にいる"
+     },
+     {
+      "t": "<ruby>夜<rt>よる</rt></ruby>7<ruby>時<rt>じ</rt></ruby>に<ruby>会社<rt>かいしゃ</rt></ruby>に<ruby>行<rt>い</rt></ruby>く"
+     }
+    ],
+    "a": [
+     2
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>会社<rt>かいしゃ</rt></ruby>を<ruby>休<rt>やす</rt></ruby>んで、<ruby>家<rt>いえ</rt></ruby>にいる</span></div><span class=\"lb\">DỊCH</span><div>Người gửi: Bộ phận tổng vụ | Tiêu đề: Về cơn bão. Mọi người, ngày mai bão đến. Từ sáng mưa và gió sẽ rất mạnh. Ngày mai công ty cho nghỉ. Hãy ở nhà, đừng ra ngoài. Ngày kia có đi làm hay không, tối mai 7 giờ sẽ báo qua email.</div><span class=\"lb\">GIẢI THÍCH</span><div>「あしたは<ruby>会社<rt>かいしゃ</rt></ruby>を<ruby>休<rt>やす</rt></ruby>みにします。<ruby>家<rt>いえ</rt></ruby>から<ruby>出<rt>で</rt></ruby>ないでください」 → nghỉ và ở nhà. 7<ruby>時<rt>じ</rt></ruby> là giờ gửi email, không phải giờ đến công ty.</div>"
+   },
+   {
+    "s": "読解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "（2）あさってのことはいつわかりますか。",
+    "imgs": [
+     "app/media/jft/img/y2_r3.jpg"
+    ],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "<ruby>今日<rt>きょう</rt></ruby>の<ruby>夜<rt>よる</rt></ruby>7<ruby>時<rt>じ</rt></ruby>"
+     },
+     {
+      "t": "あしたの<ruby>夜<rt>よる</rt></ruby>7<ruby>時<rt>じ</rt></ruby>"
+     },
+     {
+      "t": "あしたの<ruby>朝<rt>あさ</rt></ruby>"
+     },
+     {
+      "t": "あさっての<ruby>朝<rt>あさ</rt></ruby>"
+     }
+    ],
+    "a": [
+     1
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">あしたの<ruby>夜<rt>よる</rt></ruby>7<ruby>時<rt>じ</rt></ruby></span></div><span class=\"lb\">DỊCH</span><div>(Xem bản dịch câu trước.)</div><span class=\"lb\">GIẢI THÍCH</span><div>「あさって<ruby>会社<rt>かいしゃ</rt></ruby>があるかどうかは、あしたの<ruby>夜<rt>よる</rt></ruby>7<ruby>時<rt>じ</rt></ruby>にメールで<ruby>連絡<rt>れんらく</rt></ruby>します」. 〜かどうか = có ~ hay không. あした (ngày mai) ≠ あさって (ngày kia).</div>"
+   },
+   {
+    "s": "読解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "（1）あしたは<ruby>何時<rt>なんじ</rt></ruby>にどこに<ruby>集<rt>あつ</rt></ruby>まりますか。",
+    "imgs": [
+     "app/media/jft/img/y2_r5.jpg"
+    ],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "8<ruby>時<rt>じ</rt></ruby>に<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>門<rt>もん</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>"
+     },
+     {
+      "t": "8<ruby>時<rt>じ</rt></ruby>に<ruby>工場<rt>こうじょう</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>"
+     },
+     {
+      "t": "4<ruby>時<rt>じ</rt></ruby>に<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>門<rt>もん</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>"
+     },
+     {
+      "t": "8<ruby>時<rt>じ</rt></ruby>に<ruby>食堂<rt>しょくどう</rt></ruby>"
+     }
+    ],
+    "a": [
+     0
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">8<ruby>時<rt>じ</rt></ruby>に<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>門<rt>もん</rt></ruby>の<ruby>前<rt>まえ</rt></ruby></span></div><span class=\"lb\">DỊCH</span><div>Người gửi: Tanaka | Tiêu đề: Tham quan nhà máy ngày mai. Mọi người, ngày mai đi tham quan nhà máy. Tập trung trước cổng công ty lúc 8 giờ sáng. Đi bằng xe buýt. Trong nhà máy không được chụp ảnh. Bữa trưa ăn ở nhà ăn của nhà máy nên không cần mang cơm hộp. Khoảng 4 giờ sẽ về lại công ty.</div><span class=\"lb\">GIẢI THÍCH</span><div>「<ruby>朝<rt>あさ</rt></ruby>8<ruby>時<rt>じ</rt></ruby>に<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>門<rt>もん</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>に<ruby>集<rt>あつ</rt></ruby>まってください」. 4<ruby>時<rt>じ</rt></ruby> là giờ về công ty; <ruby>食堂<rt>しょくどう</rt></ruby> là nơi ăn trưa. <ruby>集<rt>あつ</rt></ruby>まる (TẬP) = tập trung.</div>"
+   },
+   {
+    "s": "読解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "（2）<ruby>工場見学<rt>こうじょうけんがく</rt></ruby>でしてはいけないことは<ruby>何<rt>なん</rt></ruby>ですか。",
+    "imgs": [
+     "app/media/jft/img/y2_r5.jpg"
+    ],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "<ruby>写真<rt>しゃしん</rt></ruby>をとる"
+     },
+     {
+      "t": "4<ruby>時<rt>じ</rt></ruby>にもどる"
+     },
+     {
+      "t": "<ruby>食堂<rt>しょくどう</rt></ruby>で<ruby>食<rt>た</rt></ruby>べる"
+     },
+     {
+      "t": "バスに<ruby>乗<rt>の</rt></ruby>る"
+     }
+    ],
+    "a": [
+     0
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>写真<rt>しゃしん</rt></ruby>をとる</span></div><span class=\"lb\">DỊCH</span><div>(Xem bản dịch câu trước.)</div><span class=\"lb\">GIẢI THÍCH</span><div>Vては　いけない = không được làm V ↔ trong bài là Vないでください: 「<ruby>写真<rt>しゃしん</rt></ruby>をとらないでください」. Các phương án còn lại đều là việc sẽ làm.</div>"
+   },
+   {
+    "s": "読解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "（1）どうやって<ruby>申<rt>もう</rt></ruby>し<ruby>込<rt>こ</rt></ruby>みますか。",
+    "imgs": [
+     "app/media/jft/img/y2_r7.jpg"
+    ],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "<ruby>当日<rt>とうじつ</rt></ruby><ruby>行<rt>い</rt></ruby>く"
+     },
+     {
+      "t": "<ruby>電話<rt>でんわ</rt></ruby>をする"
+     },
+     {
+      "t": "メールを<ruby>送<rt>おく</rt></ruby>る"
+     },
+     {
+      "t": "<ruby>公民館<rt>こうみんかん</rt></ruby>の<ruby>受付<rt>うけつけ</rt></ruby>で<ruby>書<rt>か</rt></ruby>く"
+     }
+    ],
+    "a": [
+     3
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>公民館<rt>こうみんかん</rt></ruby>の<ruby>受付<rt>うけつけ</rt></ruby>で<ruby>書<rt>か</rt></ruby>く</span></div><span class=\"lb\">DỊCH</span><div>Lớp trải nghiệm trà đạo. Bạn có muốn trải nghiệm trà Nhật không? Thời gian: 8/6 (CN) ① 10:00–11:00 ② 14:00–15:00. Số người: mỗi buổi 10 người. Phí: miễn phí (có kèm bánh). Đăng ký: trước ngày 1/6, viết tên và số điện thoại tại quầy lễ tân nhà văn hoá. Không nhận đăng ký qua điện thoại. ※ Hãy mang tất khi đến.</div><span class=\"lb\">GIẢI THÍCH</span><div>「<ruby>公民館<rt>こうみんかん</rt></ruby>の<ruby>受付<rt>うけつけ</rt></ruby>で<ruby>名前<rt>なまえ</rt></ruby>と<ruby>電話番号<rt>でんわばんごう</rt></ruby>を<ruby>書<rt>か</rt></ruby>いてください。<ruby>電話<rt>でんわ</rt></ruby>では<ruby>申<rt>もう</rt></ruby>し<ruby>込<rt>こ</rt></ruby>めません」. <ruby>申<rt>もう</rt></ruby>し<ruby>込<rt>こ</rt></ruby>む (THÂN VÀO) = đăng ký, <ruby>当日<rt>とうじつ</rt></ruby> (ĐƯƠNG NHẬT) = ngay hôm đó.</div>"
+   },
+   {
+    "s": "読解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "（2）<ruby>体験<rt>たいけん</rt></ruby><ruby>教室<rt>きょうしつ</rt></ruby>について<ruby>正<rt>ただ</rt></ruby>しいものはどれですか。",
+    "imgs": [
+     "app/media/jft/img/y2_r7.jpg"
+    ],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "1日1<ruby>回<rt>かい</rt></ruby>だけある"
+     },
+     {
+      "t": "20人まで<ruby>参加<rt>さんか</rt></ruby>できる"
+     },
+     {
+      "t": "お<ruby>金<rt>かね</rt></ruby>はいらない"
+     },
+     {
+      "t": "お<ruby>菓子<rt>かし</rt></ruby>は<ruby>自分<rt>じぶん</rt></ruby>で<ruby>持<rt>も</rt></ruby>って<ruby>行<rt>い</rt></ruby>く"
+     }
+    ],
+    "a": [
+     2
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">お<ruby>金<rt>かね</rt></ruby>はいらない</span></div><span class=\"lb\">DỊCH</span><div>(Xem bản dịch câu trước.)</div><span class=\"lb\">GIẢI THÍCH</span><div>「お<ruby>金<rt>かね</rt></ruby>：<ruby>無料<rt>むりょう</rt></ruby>」 → không mất tiền. Có 2 buổi (①②) nên 1 sai; <ruby>定員<rt>ていいん</rt></ruby>はそれぞれ10人 = mỗi buổi tối đa 10 người; お<ruby>菓子<rt>かし</rt></ruby>がつきます = có kèm bánh, không phải tự mang. <ruby>無料<rt>むりょう</rt></ruby> (VÔ LIỆU) = miễn phí.</div>"
+   },
+   {
+    "s": "読解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "（1）アリさんは<ruby>何<rt>なに</rt></ruby>をしますか。",
+    "imgs": [
+     "app/media/jft/img/y2_r9.jpg"
+    ],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "ドラッグストアに<ruby>電話<rt>でんわ</rt></ruby>する"
+     },
+     {
+      "t": "お<ruby>金<rt>かね</rt></ruby>を<ruby>返<rt>かえ</rt></ruby>す"
+     },
+     {
+      "t": "<ruby>倉庫<rt>そうこ</rt></ruby>をそうじする"
+     },
+     {
+      "t": "トイレットペーパーを<ruby>買<rt>か</rt></ruby>いに<ruby>行<rt>い</rt></ruby>く"
+     }
+    ],
+    "a": [
+     3
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">トイレットペーパーを<ruby>買<rt>か</rt></ruby>いに<ruby>行<rt>い</rt></ruby>く</span></div><span class=\"lb\">DỊCH</span><div>Cấp trên: Anh Ali, xin lỗi. Giấy vệ sinh trong kho hết rồi. / Cấp trên: Trước 3 giờ, anh mua giúp ở hiệu thuốc trước ga được không? Nhờ anh 10 cuộn. / Cấp trên: Tiền thì tôi trả lại sau. Nhớ lấy hoá đơn về nhé. / Ali: Tôi hiểu rồi.</div><span class=\"lb\">GIẢI THÍCH</span><div>「<ruby>駅前<rt>えきまえ</rt></ruby>のドラッグストアで<ruby>買<rt>か</rt></ruby>って<ruby>来<rt>き</rt></ruby>てくれる？」 → đi mua giấy vệ sinh. Vてくれる？ = nhờ (thân mật). お<ruby>金<rt>かね</rt></ruby>を<ruby>返<rt>かえ</rt></ruby>す là việc của cấp trên.</div>"
+   },
+   {
+    "s": "読解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "（2）アリさんがもらって<ruby>来<rt>こ</rt></ruby>なければならないものは<ruby>何<rt>なん</rt></ruby>ですか。",
+    "imgs": [
+     "app/media/jft/img/y2_r9.jpg"
+    ],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "トイレットペーパー1こ"
+     },
+     {
+      "t": "お<ruby>金<rt>かね</rt></ruby>"
+     },
+     {
+      "t": "レシート"
+     },
+     {
+      "t": "ふくろ"
+     }
+    ],
+    "a": [
+     2
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">レシート</span></div><span class=\"lb\">DỊCH</span><div>(Xem bản dịch câu trước.)</div><span class=\"lb\">GIẢI THÍCH</span><div>「レシートをもらって<ruby>来<rt>き</rt></ruby>てね」. Vなければならない = phải làm V. Số lượng là 10こ chứ không phải 1こ; tiền sẽ được trả lại sau.</div>"
+   },
+   {
+    "s": "読解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "（1）<ruby>寝<rt>ね</rt></ruby>る<ruby>前<rt>まえ</rt></ruby>にいいことはどれですか。",
+    "imgs": [
+     "app/media/jft/img/y2_r11.jpg"
+    ],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "スマホを<ruby>見<rt>み</rt></ruby>る"
+     },
+     {
+      "t": "たくさん<ruby>食<rt>た</rt></ruby>べる"
+     },
+     {
+      "t": "ぬるいお<ruby>風呂<rt>ふろ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>る"
+     },
+     {
+      "t": "コーヒーを<ruby>飲<rt>の</rt></ruby>む"
+     }
+    ],
+    "a": [
+     2
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">ぬるいお<ruby>風呂<rt>ふろ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>る</span></div><span class=\"lb\">DỊCH</span><div>5 điểm để ngủ ngon: ① Mỗi ngày thức dậy cùng một giờ. ② 3 tiếng trước khi ngủ không ăn quá nhiều. ③ Trước khi ngủ tắm bồn nước ấm (38–40 độ). ④ Trước khi ngủ không xem điện thoại. ⑤ Sau chiều tối không uống cà phê.</div><span class=\"lb\">GIẢI THÍCH</span><div>Mục ③: 「<ruby>寝<rt>ね</rt></ruby>る<ruby>前<rt>まえ</rt></ruby>にぬるいお<ruby>風呂<rt>ふろ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>る」. Các phương án khác đều là việc poster khuyên KHÔNG làm. ぬるい = âm ấm.</div>"
+   },
+   {
+    "s": "読解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "（2）このポスターで<ruby>言<rt>い</rt></ruby>っていないことはどれですか。",
+    "imgs": [
+     "app/media/jft/img/y2_r11.jpg"
+    ],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "<ruby>夕方<rt>ゆうがた</rt></ruby>からコーヒーを<ruby>飲<rt>の</rt></ruby>まない"
+     },
+     {
+      "t": "<ruby>毎日<rt>まいにち</rt></ruby><ruby>運動<rt>うんどう</rt></ruby>する"
+     },
+     {
+      "t": "<ruby>毎日<rt>まいにち</rt></ruby><ruby>同<rt>おな</rt></ruby>じ<ruby>時間<rt>じかん</rt></ruby>に<ruby>起<rt>お</rt></ruby>きる"
+     },
+     {
+      "t": "<ruby>寝<rt>ね</rt></ruby>る<ruby>前<rt>まえ</rt></ruby>にスマホを<ruby>見<rt>み</rt></ruby>ない"
+     }
+    ],
+    "a": [
+     1
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>毎日<rt>まいにち</rt></ruby><ruby>運動<rt>うんどう</rt></ruby>する</span></div><span class=\"lb\">DỊCH</span><div>(Xem bản dịch câu trước.)</div><span class=\"lb\">GIẢI THÍCH</span><div>Câu hỏi tìm điều KHÔNG có trong poster (<ruby>言<rt>い</rt></ruby>っていない). <ruby>運動<rt>うんどう</rt></ruby> (VẬN ĐỘNG) không được nhắc đến. 1 = mục ⑤, 3 = mục ①, 4 = mục ④.</div>"
    }
   ]
  },
