@@ -58,8 +58,8 @@ export class Phien {
     return new Response((await this.ctx.storage.get('sid')) || '');
   }
 }
-// TẠM TẮT (06/11 theo yêu cầu anh): chỉ bật khi đặt biến môi trường MOTMAY=1
-const batMotMay = env => String(env.MOTMAY || '').trim() === '1';
+// BẬT mặc định (11/11 theo yêu cầu anh): đăng nhập máy mới → máy cũ bị đẩy ra. Tắt bằng biến môi trường MOTMAY=0
+const batMotMay = env => String(env.MOTMAY || '').trim() !== '0';
 const nhieuMay = (env, u) => String(env.NHIEUMAY || '').toLowerCase().split(/[\s,;]+/).includes(u);
 const phien = (env, u) => env.PHIEN.get(env.PHIEN.idFromName(u));
 async function sidHienTai(env, u) {
@@ -75,6 +75,13 @@ async function biDay(env, s) {
   return cur !== null && cur !== '' && cur !== s.sid;
 }
 const KICK = 'Tài khoản này vừa được đăng nhập trên thiết bị khác. Mỗi tài khoản chỉ dùng được trên 1 thiết bị cùng lúc.';
+
+// Watermark tên tài khoản + chống sao chép: chèn /app/bv.js vào mọi trang HTML của người đã đăng nhập
+function bv(res, u) {
+  if (!/text\/html/i.test(res.headers.get('Content-Type') || '')) return res;
+  const tag = `<script>window.__WM=${JSON.stringify(u).replace(/</g, '\\u003c')}</script><script src="/app/bv.js?v=2"></script>`;
+  return new HTMLRewriter().on('head', { element(e) { e.prepend(tag, { html: true }); } }).transform(res);
+}
 
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
@@ -219,7 +226,7 @@ export async function handle(req, env, next) {
     const o = new Response(r.body, r);
     o.headers.set('Cache-Control', 'no-store');
     o.headers.append('Set-Cookie', `jft_once=; Path=/; Max-Age=0; HttpOnly; Secure; SameSite=Lax`);
-    return o;
+    return bv(o, user);
   }
 
   const res = await next();
@@ -228,5 +235,5 @@ export async function handle(req, env, next) {
   const fresh = url.pathname === '/' || url.pathname.endsWith('.html') || url.pathname.startsWith('/app/data/');
   out.headers.set('Cache-Control', fresh ? 'private, no-cache' : 'private, max-age=3600');
   out.headers.set('X-Robots-Tag', 'noindex');
-  return out;
+  return bv(out, user);
 }
