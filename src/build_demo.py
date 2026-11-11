@@ -88,9 +88,8 @@ let busy=false,q=false;
 function apply(){q=false;busy=true;try{
  document.querySelectorAll('#lgrid .lc').forEach((c,i)=>L(c,!(lvL==='s1'&&i===0)));
  document.querySelectorAll('#dDoc .bgrp .lc').forEach((c,i)=>L(c,i!==0));
- if(window.DOCS&&['vocab','kanji','gram'].includes(dTab)&&document.querySelector('#dGrps .chip')){
-  if(dTab==='gram'&&dGrp['gram入門']===undefined){dGrp['gram入門']=Math.min(...DOCS.gram['入門'].map(p=>p.bai));busy=false;renderDocs();return}
-  const lv=dLv[dTab],open=dTab==='gram'?1:0,ch=[...document.querySelectorAll('#dGrps .chip')];
+ if(window.DOCS&&['vocab','kanji'].includes(dTab)&&document.querySelector('#dGrps .chip')){
+  const lv=dLv[dTab],open=0,ch=[...document.querySelectorAll('#dGrps .chip')];
   ch.forEach((c,i)=>L(c,!(lv==='入門'&&i===open)));
   if(!(lv==='入門'&&ch[open]&&ch[open].classList.contains('on')))panel(document.getElementById('dBody'))}
  document.querySelectorAll('#examList [data-ex]').forEach(b=>L(b,b.dataset.ex!=='0'));

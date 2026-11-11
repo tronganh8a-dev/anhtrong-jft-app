@@ -37,8 +37,8 @@ a{color:var(--blue)}
 .logo{width:36px;height:36px;border-radius:9px;background:var(--pink);color:#fff;display:grid;place-items:center;font-weight:700;font-size:14px;flex:none}
 .brand b{display:block;font-size:15px;line-height:1.2}
 .brand small{color:var(--muted);font-size:12px}
-.nav{white-space:nowrap;display:flex;align-items:center;gap:12px;padding:10px 12px;border-radius:10px;border:0;background:none;text-align:left;font-weight:600;color:var(--muted);width:100%}
-.nav .ic{width:22px;height:22px;flex:none}
+.nav{white-space:nowrap;display:flex;align-items:center;gap:14px;padding:14px 14px;border-radius:12px;border:0;background:none;text-align:left;font-weight:700;font-size:16.5px;color:var(--muted);width:100%}
+.nav .ic{width:25px;height:25px;flex:none}
 .nav:hover{background:var(--bg)}
 .nav.on{background:var(--blue-soft);color:var(--blue)}
 .nav .jp{font-size:12px;font-weight:400;margin-left:auto;opacity:.75}
@@ -440,11 +440,12 @@ body.cine #aiFab,body.cine #promoAi{display:none!important}
 }
 /* slide buổi học */
 /* tài liệu */
-.dtabs{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:0 0 20px}
-.dtab{display:flex;align-items:center;gap:12px;border:1.5px solid var(--line);background:var(--paper);border-radius:14px;padding:12px 14px;text-align:left;cursor:pointer;color:var(--ink);transition:border-color .15s,box-shadow .15s,transform .15s}
+.dtabs{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin:0 0 22px}
+.gtool{display:flex;justify-content:flex-end;margin:-6px 0 10px}.dfoot{margin-top:28px}
+.dtab{display:flex;align-items:center;gap:12px;border:1.5px solid var(--line);background:var(--paper);border-radius:16px;padding:16px 16px;text-align:left;cursor:pointer;color:var(--ink);transition:border-color .15s,box-shadow .15s,transform .15s}
 .dtab:hover{transform:translateY(-1px);box-shadow:var(--sh)}
-.dtab .di{width:40px;height:40px;border-radius:11px;display:grid;place-items:center;font-family:var(--jp);font-weight:600;font-size:19px;flex:none;color:#fff}
-.dtab b{display:block;font-size:15px;line-height:1.2}.dtab small{color:var(--muted);font-size:12px;font-weight:600}
+.dtab .di{width:48px;height:48px;border-radius:13px;display:grid;place-items:center;font-family:var(--jp);font-weight:600;font-size:23px;flex:none;color:#fff}
+.dtab b{display:block;font-size:16.5px;line-height:1.25}.dtab small{color:var(--muted);font-size:13px;font-weight:600}
 .dtab.on{border-color:var(--blue);box-shadow:0 0 0 3px var(--blue-soft)}.dtab.on b{color:var(--blue)}
 .dsub{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:0 0 14px}
 .dsub .lab{font-size:13px;font-weight:700;color:var(--muted);margin-right:2px}
@@ -497,7 +498,7 @@ body.cine #aiFab,body.cine #promoAi{display:none!important}
 .gb .gq{align-self:flex-start}
 .dnote{color:var(--muted);font-size:13px;margin:-6px 0 14px}
 .dsoon{border:1px dashed var(--line);border-radius:12px;padding:10px 12px;color:var(--muted);font-size:13.5px}
-@media (max-width:1100px){.dtabs{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:1640px){.dtabs{grid-template-columns:repeat(3,1fr)}}
 @media (max-width:900px){.dtabs{grid-template-columns:1fr 1fr}}
 .bgrp{margin:0 0 22px}.bgrp h3{font-size:17px;margin:0 0 10px;color:var(--ink)}.bgrp h3 small{color:var(--muted);font-weight:600;font-size:13px;margin-left:6px}
 @media (max-width:760px){
@@ -663,7 +664,7 @@ body.locked .app{filter:blur(6px);pointer-events:none}
   .app{grid-template-columns:1fr;background:var(--bg)}
   .side{position:fixed;bottom:0;left:0;right:0;top:auto;height:auto;flex-direction:row;padding:6px 6px calc(6px + env(safe-area-inset-bottom));border-right:0;border-top:1px solid var(--line);z-index:40;gap:2px}
   .side .brand,.side .grow,.side .out,.nav .jp{display:none}
-  .nav{flex-direction:column;gap:2px;font-size:9.5px;padding:6px 1px;align-items:center;text-align:center;flex:1;min-width:0;white-space:normal;line-height:1.15}
+  .nav{flex-direction:column;gap:2px;font-size:11px;padding:7px 1px;align-items:center;text-align:center;flex:1;min-width:0;white-space:normal;line-height:1.15}
   main{padding:18px 14px 96px}
   .hero{grid-template-columns:1fr}
   .tiles,.tips{grid-template-columns:1fr 1fr}
@@ -808,10 +809,8 @@ body.nlock{overflow:hidden}
   <button class="nav on" data-go="home" type="button"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>Trang chủ<span class="jp">ホーム</span></button>
   <button class="nav" data-go="learn" type="button"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4.5A1.5 1.5 0 0 1 5.5 3H11v17H5.5A1.5 1.5 0 0 1 4 18.5z"/><path d="M20 4.5A1.5 1.5 0 0 0 18.5 3H13v17h5.5a1.5 1.5 0 0 0 1.5-1.5z"/><path d="M7 7h1.5M7 10h1.5M15.5 7H17M15.5 10H17"/></svg>Tài liệu<span class="jp">教材</span></button>
   <button class="nav" data-go="exam" type="button"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h3"/></svg>Làm đề<span class="jp">模擬試験</span></button>
-  <button class="nav" data-go="gram" type="button"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19V5a2 2 0 0 1 2-2h12v18H6a2 2 0 0 1-2-2z"/><path d="M8 7h7M8 11h7M8 15h4"/></svg>Ngữ pháp<span class="jp">文法</span></button>
   <button class="nav" data-go="video" type="button"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="6" width="14" height="12" rx="2.5"/><path d="M16 10.5l5.2-3v9l-5.2-3z"/></svg>Video<span class="jp">動画</span></button>
   <button class="nav" data-go="vocab" type="button"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="6" width="13" height="15" rx="2"/><path d="M8 3h11a2 2 0 0 1 2 2v12"/></svg>Từ vựng<span class="jp">語彙</span></button>
-  <button class="nav" data-go="hw" type="button"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4V3h6v1M9 11l2 2 4-4M9 17h6"/></svg>Bài tập về nhà<span class="jp">宿題</span></button>
   <div class="grow"></div>
   <button class="out" id="logout" type="button">Đăng xuất</button>
 </aside>
@@ -869,10 +868,22 @@ body.nlock{overflow:hidden}
 
 <!-- LEARN -->
 <section class="screen" id="learn">
-  <div class="topbar"><h1>Tài liệu<span class="jp">教材 · スライド・語彙・漢字・文法</span></h1></div>
+  <div class="topbar"><h1>Tài liệu<span class="jp">教材 · スライド・語彙・漢字・文法・宿題</span></h1></div>
   <div class="dtabs" id="dTabs" role="tablist"></div>
   <div id="dSlide"><div class="levels" id="lvLearn"></div><div class="lgrid" id="lgrid"></div></div>
   <div id="dDoc" hidden></div>
+  <div id="dGram" hidden>
+  <div class="gtool"><button class="pill" id="gJp" type="button">Hiện giải thích tiếng Nhật</button></div>
+  <div class="levels" id="lvGram"></div>
+  <div class="chips" id="baiGram"></div>
+  <div id="gArea" style="margin-top:16px"></div>
+  <footer class="dfoot">© 2026 Anh Trọng Dạy JFT · 出典：国際交流基金『いろどり 生活の日本語』文法ノート・文法ワークシート（解答・音声）。Bản dịch tiếng Việt và câu trắc nghiệm nhanh do Anh Trọng Dạy JFT biên soạn.</footer>
+</div>
+  <div id="dHw" hidden>
+  <p class="muted" style="margin:-8px 0 6px">Làm sau mỗi buổi học theo lộ trình 25 buổi. Bấm <b>Làm bài</b> để làm ngay trên máy (nộp bài là chấm điểm), hoặc <b>PDF</b> để tải bản in có đáp án ở trang cuối.</p>
+  <div id="hwList"></div>
+  <footer class="dfoot">© 2026 Anh Trọng Dạy JFT · 出典：国際交流基金『いろどり 生活の日本語』（ことば・漢字のことば・文法ワークシート・聴解スクリプト）。Câu trắc nghiệm kiểu JFT, câu nhiễu và giải thích tiếng Việt do Anh Trọng Dạy JFT soạn.</footer>
+</div>
   <footer id="dFoot">© 2026 Anh Trọng Dạy JFT · 出典：国際交流基金『いろどり 生活の日本語』</footer>
 </section>
 
@@ -894,14 +905,6 @@ body.nlock{overflow:hidden}
  <button class="opt" data-mode="exam" type="button"><b>Thi thử như thật</b><span>Giống máy thi Prometric: đếm giờ từng phần, nộp bài mới chấm điểm. Xem lại đáp án và giải thích sau khi nộp.</span></button>
  <button class="opt" data-mode="practice" type="button"><b>Luyện tập</b><span>Không giới hạn giờ. Chọn xong là biết đúng sai, kèm giải thích song ngữ Nhật – Việt.</span></button></div></div>
 
-<!-- GRAMMAR -->
-<section class="screen" id="gram">
-  <div class="topbar"><h1>Ngữ pháp<span class="jp">文法ノート · 文法ワークシート · いろどり</span></h1><span class="sp" style="flex:1"></span><button class="pill" id="gJp" type="button">Hiện giải thích tiếng Nhật</button></div>
-  <div class="levels" id="lvGram"></div>
-  <div class="chips" id="baiGram"></div>
-  <div id="gArea" style="margin-top:16px"></div>
-  <footer>© 2026 Anh Trọng Dạy JFT · 出典：国際交流基金『いろどり 生活の日本語』文法ノート・文法ワークシート（解答・音声）。Bản dịch tiếng Việt và câu trắc nghiệm nhanh do Anh Trọng Dạy JFT biên soạn.</footer>
-</section>
 
 <!-- VIDEO -->
 <section class="screen" id="video">
@@ -913,13 +916,7 @@ body.nlock{overflow:hidden}
 <button class="vstab" id="vStab" type="button" title="Mở lý thuyết buổi học bên cạnh video">📖 Lý thuyết buổi học</button>
 <aside class="vside" id="vSide" aria-label="Lý thuyết buổi học"><div class="sh"><b id="vSideT">Lý thuyết</b><button type="button" id="vSideW" title="Đổi độ rộng khung lý thuyết">⇔</button><a id="vSideO" href="#" target="_blank" rel="noopener" title="Mở tab riêng">↗</a><button type="button" id="vSideX" title="Đóng khung lý thuyết">✕</button></div><div class="stabs" id="vSideTabs"></div><iframe id="vSideF" title="Lý thuyết buổi học" allow="fullscreen"></iframe></aside>
 
-<!-- HOMEWORK -->
-<section class="screen" id="hw">
-  <div class="topbar"><h1>Bài tập về nhà<span class="jp">宿題 · 25 buổi</span></h1></div>
-  <p class="muted" style="margin:-8px 0 6px">Làm sau mỗi buổi học theo lộ trình 25 buổi. Bấm <b>Làm bài</b> để làm ngay trên máy (nộp bài là chấm điểm), hoặc <b>PDF</b> để tải bản in có đáp án ở trang cuối.</p>
-  <div id="hwList"></div>
-  <footer>© 2026 Anh Trọng Dạy JFT · 出典：国際交流基金『いろどり 生活の日本語』（ことば・漢字のことば・文法ワークシート・聴解スクリプト）。Câu trắc nghiệm kiểu JFT, câu nhiễu và giải thích tiếng Việt do Anh Trọng Dạy JFT soạn.</footer>
-</section>
+<!-- HOMEWORK (xem bài) -->
 <section class="screen" id="hwv">
   <div class="vtop2"><button class="btn sm ghost" id="hwBack" type="button">← Danh sách bài tập</button><div class="vttl"><b class="jp" id="hwTitle"></b><small id="hwSub"></small></div>
    <span style="flex:1"></span><a class="btn sm ghost" id="hwPdf" download>⬇ PDF</a><a class="btn sm ghost" id="hwOpen" target="_blank" rel="noopener">↗ Mở tab mới</a></div>
@@ -1006,7 +1003,7 @@ $('#loginForm').onsubmit=e=>{e.preventDefault();const h=fnv($('#lu').value.trim(
 $('#logout').style.display='none';
 
 /* ===== nav ===== */
-function go(id){if(id!=='video'&&window.vidPause)vidPause();$$('.screen').forEach(s=>s.classList.toggle('on',s.id===id));const nid={hwv:'hw',viewer:'learn'}[id]||id;$$('.nav').forEach(n=>n.classList.toggle('on',n.dataset.go===nid));window.scrollTo(0,0)}
+function go(id){if(id!=='video'&&window.vidPause)vidPause();$$('.screen').forEach(s=>s.classList.toggle('on',s.id===id));const nid={hwv:'learn',viewer:'learn'}[id]||id;$$('.nav').forEach(n=>n.classList.toggle('on',n.dataset.go===nid));window.scrollTo(0,0)}
 document.addEventListener('click',e=>{const b=e.target.closest('[data-go]');if(b)go(b.dataset.go)});
 const LV={s1:'初級1 (A2)',s2:'初級2 (A2)',sc:'初中級 (A2/B1)'};
 const CV={s1:'s1',s2:'s2',sc:'sc','入門':'nyumon','初級1':'s1','初級2':'s2','初中級':'sc'};
@@ -1297,8 +1294,7 @@ function renderHw(){if(!window.HW){$('#hwList').innerHTML='<p class="muted">Chư
 $('#hwList').addEventListener('click',e=>{const b=e.target.closest('[data-hw]');if(!b)return;const x=HW.find(h=>h.no==b.dataset.hw);
  $('#hwTitle').textContent=`Buổi ${String(x.no).padStart(2,'0')} · ${x.tj}`;$('#hwSub').textContent=`${x.tv} · ${x.lvj} · ${x.bai}`;
  $('#hwPdf').href=x.pdf;$('#hwOpen').href=x.html;$('#hwFrame').src=x.html;go('hwv')});
-$('#hwBack').onclick=()=>{$('#hwFrame').removeAttribute('src');renderHw();go('hw')};
-document.addEventListener('click',e=>{const b=e.target.closest('[data-go="hw"]');if(b)renderHw()});
+$('#hwBack').onclick=()=>{$('#hwFrame').removeAttribute('src');dTab='hw';store.set('dTab',dTab);go('learn');renderDocs()};
 
 /* ===== video bài giảng (YouTube nhúng, tắt thanh điều khiển YouTube, dùng thanh riêng của app) ===== */
 const VID=window.VIDEOS||[];let vCur=null,YTP=null,vTick=null,vRate=1,vDrag=false;
@@ -1402,7 +1398,7 @@ function renderVideo(autoplay){const A=$('#vidArea');vDestroy();if(!VID.length){
   </div>${mats.length?`<div class="vmat"><div class="vmh">Tài liệu buổi học<span>${mats.length}</span></div><div class="vmg">${mats.join('')}</div></div>`:''}</div>
   <div class="vlist">${groups.map(g=>`<div class="vgh">${esc(g.s)}${g.j?`<span class="jp">${esc(g.j)}</span>`:''}<span class="n">${g.a.length} video</span></div><div class="vgrid">${g.a.map(x=>`<button class="vit${x.id===vCur?' on':''}${x.yt?'':' soon'}" data-vid="${x.id}" type="button"><span class="th">${vThumb(x)}${x.id===vCur?'<span class="now">Đang xem</span>':''}${x.yt?'':'<span class="now soonb">Sắp có video</span>'}</span><span class="bd"><small>${esc(x.no||'')}${x.docs&&x.docs.length?' · có tài liệu':''}</small><b>${esc(x.title)}</b><span class="tg">${(x.tags||[]).map(t=>`<span class="tag gray jp">${esc(t)}</span>`).join('')}</span></span></button>`).join('')}</div>`).join('')}</div>`;
  vPoster();vBindCtl();if(autoplay)vidPlay()}
-$('#vidArea').addEventListener('click',e=>{const sb=e.target.closest('[data-vs]');if(sb){const v=VID.find(x=>x.id===vCur),x=v.slides[+sb.dataset.vs];vidPause();openDocView({f:x.u,jp:x.t,vi:x.sub||'',k:x.k||'slide'},v.no||'');return}const lb=e.target.closest('[data-vl]');if(lb){const v=VID.find(x=>x.id===vCur),l=v.learn[+lb.dataset.vl];vidPause();dTab=l.tab;store.set('dTab',dTab);dLv[l.tab]=l.lv;dGrp[l.tab+l.lv]=l.g;go('learn');renderDocs();return}const b=e.target.closest('[data-vid]');if(!b)return;vCur=b.dataset.vid;store.set('jftVid',vCur);renderVideo(true);$('#video').scrollIntoView({behavior:'smooth'})});
+$('#vidArea').addEventListener('click',e=>{const sb=e.target.closest('[data-vs]');if(sb){const v=VID.find(x=>x.id===vCur),x=v.slides[+sb.dataset.vs];vidPause();openDocView({f:x.u,jp:x.t,vi:x.sub||'',k:x.k||'slide'},v.no||'');return}const lb=e.target.closest('[data-vl]');if(lb){const v=VID.find(x=>x.id===vCur),l=v.learn[+lb.dataset.vl];vidPause();dTab=l.tab;store.set('dTab',dTab);if(l.tab==='gram'){gLv=l.lv;gBai=+l.g}else{dLv[l.tab]=l.lv;dGrp[l.tab+l.lv]=l.g}go('learn');renderDocs();return}const b=e.target.closest('[data-vid]');if(!b)return;vCur=b.dataset.vid;store.set('jftVid',vCur);renderVideo(true);$('#video').scrollIntoView({behavior:'smooth'})});
 $('#vCineX').onclick=()=>vBig(false);$('#vCine').onclick=e=>{if(e.target.id==='vCine')vBig(false)};
 $('#vStab').onclick=()=>vSideOpen(true);$('#vSideX').onclick=()=>vSideOpen(false);
 $('#vSideTabs').onclick=e=>{const b=e.target.closest('[data-si]');if(b)vSideShow(+b.dataset.si)};
@@ -1413,7 +1409,7 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape')vBig(false);
  if(e.key===' '||e.key==='k'){e.preventDefault();$('#vPP').click()}else if(e.key==='ArrowLeft'){e.preventDefault();$('#vB10').click()}else if(e.key==='ArrowRight'){e.preventDefault();$('#vF10').click()}else if(e.key==='f')vFs()});
 
 /* ===== tài liệu: slide + từ vựng / chữ Hán / ngữ pháp (tài liệu lớp cô Quỳnh) ===== */
-const DT=[['buoi','授業','Theo buổi học','#7b3fa0','回'],['slide','スライド','Slide bài giảng','#0d5a8c','授'],['vocab','語彙','Từ vựng','#c42f66','語'],['kanji','漢字','Chữ Hán','#e08a1e','漢'],['gram','文法','Ngữ pháp','#5d8f1f','文']];
+const DT=[['buoi','授業','Theo buổi học','#7b3fa0','回'],['slide','スライド','Slide bài giảng','#0d5a8c','授'],['vocab','語彙','Từ vựng','#c42f66','語'],['kanji','漢字','Chữ Hán','#e08a1e','漢'],['gram','文法','Ngữ pháp','#5d8f1f','文'],['hw','宿題','Bài tập về nhà','#2a8c7e','宿']];
 const DLV=['入門','初級1','初級2'],DLVVI={'入門':'Nhập môn','初級1':'Sơ cấp 1','初級2':'Sơ cấp 2'};
 let dTab=store.get('dTab')||'slide',dLv={vocab:'入門',kanji:'入門',gram:'入門'},dGrp={};
 function loadDocs(){return window.DOCS?Promise.resolve():new Promise((ok,ng)=>{const sc=document.createElement('script');sc.src='app/data/docs.js?v=81a415a8';sc.onload=ok;sc.onerror=ng;document.head.appendChild(sc)})}
@@ -1423,10 +1419,12 @@ function mcqD(ansT,ds,extra){const all=shuf([ansT,...ds]);return Object.assign({
 function mcq(ans,pool,key,show,extra){const ds=picks(pool,ans,3,key);const all=shuf([ans,...ds]);return Object.assign({o:all.map(x=>({t:show(x)})),a:[all.indexOf(ans)]},extra)}
 function renderDocs(){
  $('#dTabs').innerHTML=DT.map(([k,j,vi,c,ic])=>`<button class="dtab${k===dTab?' on':''}" data-dt="${k}" type="button" role="tab" aria-selected="${k===dTab}"><span class="di" style="background:${c}">${ic}</span><span><b>${vi}</b><small class="jp">${j}</small></span></button>`).join('');
- $('#dSlide').hidden=dTab!=='slide';$('#dDoc').hidden=dTab==='slide';
+ $('#dSlide').hidden=dTab!=='slide';$('#dDoc').hidden=['slide','gram','hw'].includes(dTab);$('#dGram').hidden=dTab!=='gram';$('#dHw').hidden=dTab!=='hw';$('#dFoot').hidden=['gram','hw'].includes(dTab);
  $('#dFoot').innerHTML=dTab==='buoi'?'© 2026 Anh Trọng Dạy JFT · Tài liệu từng buổi do Anh Trọng Dạy JFT biên soạn · 出典：国際交流基金『いろどり 生活の日本語』':dTab==='slide'?'© 2026 Anh Trọng Dạy JFT · 出典：国際交流基金『いろどり 生活の日本語』':'© 2026 Anh Trọng Dạy JFT · Nguồn: tài liệu tổng hợp Từ vựng – Hán tự – Ngữ pháp của lớp luyện thi JFT A2 cô Quỳnh (Anh Trọng Dạy JFT), theo giáo trình 『いろどり 生活の日本語』(国際交流基金). Giải thích, âm Hán Việt, ví dụ ghi "tự soạn" và bài luyện tập do Anh Trọng Dạy JFT biên soạn.';
  if(dTab==='slide'){renderLearn();return}
  if(dTab==='buoi'){renderBuoi();return}
+ if(dTab==='gram'){renderGram();return}
+ if(dTab==='hw'){renderHw();return}
  const A=$('#dDoc');if(!window.DOCS){A.innerHTML='<div class="card muted">Đang tải tài liệu…</div>';loadDocs().then(renderDocs).catch(()=>{A.innerHTML='<div class="card muted">Không tải được tài liệu. Kiểm tra mạng rồi thử lại.</div>'});return}
  const lv=dLv[dTab],D=DOCS[dTab];
  const unit={vocab:'từ',kanji:'từ',gram:'mẫu'}[dTab];
@@ -1676,9 +1674,8 @@ let busy=false,q=false;
 function apply(){q=false;busy=true;try{
  document.querySelectorAll('#lgrid .lc').forEach((c,i)=>L(c,!(lvL==='s1'&&i===0)));
  document.querySelectorAll('#dDoc .bgrp .lc').forEach((c,i)=>L(c,i!==0));
- if(window.DOCS&&['vocab','kanji','gram'].includes(dTab)&&document.querySelector('#dGrps .chip')){
-  if(dTab==='gram'&&dGrp['gram入門']===undefined){dGrp['gram入門']=Math.min(...DOCS.gram['入門'].map(p=>p.bai));busy=false;renderDocs();return}
-  const lv=dLv[dTab],open=dTab==='gram'?1:0,ch=[...document.querySelectorAll('#dGrps .chip')];
+ if(window.DOCS&&['vocab','kanji'].includes(dTab)&&document.querySelector('#dGrps .chip')){
+  const lv=dLv[dTab],open=0,ch=[...document.querySelectorAll('#dGrps .chip')];
   ch.forEach((c,i)=>L(c,!(lv==='入門'&&i===open)));
   if(!(lv==='入門'&&ch[open]&&ch[open].classList.contains('on')))panel(document.getElementById('dBody'))}
  document.querySelectorAll('#examList [data-ex]').forEach(b=>L(b,b.dataset.ex!=='0'));
