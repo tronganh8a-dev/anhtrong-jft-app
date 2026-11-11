@@ -7,11 +7,11 @@
   function pad(n) { return (n < 10 ? '0' : '') + n; }
   function stamp() { var d = new Date(); return pad(d.getDate()) + '/' + pad(d.getMonth() + 1) + '/' + d.getFullYear() + ' ' + pad(d.getHours()) + ':' + pad(d.getMinutes()); }
   function svg() {
-    var t1 = U + ' · Anh Trọng Dạy JFT', t2 = stamp();
     var esc = function (s) { return s.replace(/&/g, '&amp;').replace(/</g, '&lt;'); };
-    var s = '<svg xmlns="http://www.w3.org/2000/svg" width="360" height="220"><g transform="rotate(-24 180 110)" font-family="Arial,sans-serif" text-anchor="middle">' +
-      '<text x="180" y="104" font-size="19" font-weight="700" fill="rgba(13,43,64,.16)">' + esc(t1) + '</text>' +
-      '<text x="180" y="130" font-size="14" fill="rgba(196,47,102,.16)">' + esc(t2) + '</text></g></svg>';
+    var s = '<svg xmlns="http://www.w3.org/2000/svg" width="520" height="340"><g transform="rotate(-24 260 170)" font-family="Arial,sans-serif" text-anchor="middle">' +
+      '<text x="260" y="150" font-size="22" font-weight="700" fill="rgba(13,43,64,.10)">' + esc(U) + '</text>' +
+      '<text x="260" y="176" font-size="15" font-weight="700" fill="rgba(13,90,140,.10)">Anh Trọng Dạy JFT</text>' +
+      '<text x="260" y="198" font-size="13" fill="rgba(196,47,102,.10)">' + esc(stamp()) + '</text></g></svg>';
     return 'url("data:image/svg+xml;charset=utf-8,' + encodeURIComponent(s) + '")';
   }
   var css = '#bv-wm{position:fixed!important;inset:0!important;z-index:2147483646!important;pointer-events:none!important;background-repeat:repeat!important;opacity:1!important;display:block!important;visibility:visible!important;mix-blend-mode:multiply}' +

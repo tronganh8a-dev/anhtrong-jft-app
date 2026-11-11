@@ -79,7 +79,7 @@ const KICK = 'Tài khoản này vừa được đăng nhập trên thiết bị 
 // Watermark tên tài khoản + chống sao chép: chèn /app/bv.js vào mọi trang HTML của người đã đăng nhập
 function bv(res, u) {
   if (!/text\/html/i.test(res.headers.get('Content-Type') || '')) return res;
-  const tag = `<script>window.__WM=${JSON.stringify(u).replace(/</g, '\\u003c')}</script><script src="/app/bv.js?v=2"></script>`;
+  const tag = `<script>window.__WM=${JSON.stringify(u).replace(/</g, '\\u003c')}</script><script src="/app/bv.js?v=3"></script>`;
   return new HTMLRewriter().on('head', { element(e) { e.prepend(tag, { html: true }); } }).transform(res);
 }
 
