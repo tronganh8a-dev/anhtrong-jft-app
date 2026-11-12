@@ -7,6 +7,8 @@ OUT=H+'../../public/n3/'
 os.makedirs(OUT+'data',exist_ok=True); os.makedirs(OUT+'img',exist_ok=True)
 NAMES=['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','16b','17','18','19','20','21','22','23','25','26']
 KEYS=json.load(open(H+'raw/keys_raw.json'))
+# PDF có 26 bộ nhưng N3-2 trùng hệt N3-1, N3-16b trùng N3-16 → 24 đề. ORDER[k-1] = chỉ số bộ trong PDF (1–26) của Đề k.
+ORDER=[1,3,4,5,6,7,8,9,10,11,12,13,14,15,16,18,19,20,21,22,23,24,25,26]
 SEC={('A',1):('文字・語彙','漢字読み','<u>＿＿</u>の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。'),
      ('A',2):('文字・語彙','表記','<u>＿＿</u>の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。'),
      ('A',3):('文字・語彙','文脈規定','（　　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。'),
@@ -91,8 +93,9 @@ def build(i, pdf=None):
             if an['d']: ex+=f'<span class="lb">DỊCH</span><div>{html.escape(an["d"])}</div>'
             if an['g']: ex+=f'<span class="lb">GIẢI THÍCH</span><div>{html.escape(an["g"])}</div>'
         qs.append(dict(k=k,s=s[0] if s else '?',m=s[1] if s else '',ins=s[2] if s else '',g=q['grp'],t=q['stem'],o=[fixopt(o) for o in q['opts']],a=(a-1) if a else None,ex=ex))
-    E=dict(id=f'n3-{i:02d}',src=f'N3-{NAMES[i-1]}',title=f'Đề {i}',qs=qs,groups=groups)
-    json.dump(E,open(OUT+f'data/de{i:02d}.json','w'),ensure_ascii=False,separators=(',',':'))
+    k=ORDER.index(i)+1
+    E=dict(id=f'n3-{k:02d}',src=f'N3-{NAMES[i-1]}',title=f'Đề {k}',qs=qs,groups=groups)
+    json.dump(E,open(OUT+f'data/de{k:02d}.json','w'),ensure_ascii=False,separators=(',',':'))
     return E,diff
 if __name__=='__main__':
     pdf=os.environ.get('N3PDF')
@@ -103,6 +106,7 @@ if __name__=='__main__':
         E,diff=build(i,pdf)
         n=len(E['qs']); na=sum(1 for q in E['qs'] if q['ex'])
         print(E['title'],n,'câu,',na,'có giải thích; khác đáp án gốc:',diff)
-        if na==n and n: idx[f'de{i:02d}.json']=dict(f=f'de{i:02d}.json',id=E['id'],title=E['title'],n=n)
+        k=ORDER.index(i)+1
+        if na==n and n: idx[f'de{k:02d}.json']=dict(f=f'de{k:02d}.json',id=E['id'],title=E['title'],n=n)
     L=sorted(idx.values(),key=lambda e:e['f'])
     json.dump(L,open(OUT+'data/index.json','w'),ensure_ascii=False)
