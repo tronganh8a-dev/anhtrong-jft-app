@@ -19,7 +19,7 @@ for s, L in PICK.items():
         q['src'] = f"{ex['jft-'+e]['title']} · câu {n}"
         q['t'] = (q.get('t') or '').replace('泊まりした', '泊まりました')  # sửa lỗi gõ ở câu gốc
         qs.append(q)
-new = {'id': 'jft-t1', 'group': 'Đề thi thử JFT-Basic', 'title': 'Đề 28',
+new = {'id': 'jft-t1', 'group': 'Đề thi thử JFT-Basic', 'title': 'Đề Thảo Linh', 'name': 'Thảo Linh',
        'sub': 'Sát đề thi thật tháng 11 · có phần nghe', 'time': 60, 'tag': 'Sát đề thật', 'qs': qs}
 d = [e for e in d if e['id'] != 'jft-t1']
 i = next(k for k, e in enumerate(d) if e['id'] == 'jft-y3')
