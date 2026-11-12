@@ -46,17 +46,17 @@ L(4, '京都はどんなところですか。', 'Kyoto là nơi như thế nào?
   ['お寺や神社が多い古い町', '人が多い', '遊園地がある'], 1,
   'A：北村さん、京都はどんなところですか？一度行ってみたいんです。\nB：そうだなあ、古い町で、お寺とか神社がたくさん見られるよ。\nA：そうですか。\nB：あと、いろいろな日本のお土産が買えるし、海外からの観光客にもすごく人気があるよね。\nA：そうですよね。',
   'A: Anh Kitamura, Kyoto là nơi thế nào? Tôi muốn đi thử một lần. / B: Là thành phố cổ, có thể tham quan rất nhiều chùa và đền. Ngoài ra mua được nhiều quà Nhật, rất được khách nước ngoài yêu thích.',
-  '「古い町で、お寺とか神社がたくさん」 → tranh A (phố cổ, có tháp chùa). Tranh B (đông người) là câu trả lời cho Tokyo ở Đề nghe 1 câu 13.')
+  '「古い町で、お寺とか神社がたくさん」 → tranh A (phố cổ, có tháp chùa). Tranh B (đông người) là câu trả lời cho Tokyo ở Đề nghe 1 câu 14.')
 L(5, 'さいたま新都心に行くには、どのホームへ行けばいいですか。', 'Để đi đến Saitama-Shintoshin, nên đến sân ga số mấy?',
   ['3・4番線（上野東京ライン）', '5・6番線（湘南新宿ライン）', '7・8番線（埼京線）'], 3,
   '乗客：すみません、さいたま新都心に行きたいんですけど、京浜東北線、動かないんですか？\n駅員：ええ、申し訳ありません。さいたま新都心なら、埼京線の北与野駅から歩けますよ。\n乗客：すみません、何線ですか？\n駅員：埼京線です。8番線から乗ってください。\n乗客：8番線ですね？\n駅員：はい。埼京線で北与野駅まで行ってください。',
   'Khách: Tôi muốn đến Saitama-Shintoshin, tuyến Keihin-Tohoku không chạy à? / Nhân viên: Vâng, xin lỗi. Đến Saitama-Shintoshin thì đi bộ từ ga Kita-Yono của tuyến Saikyo được. / Khách: Tuyến nào ạ? / Nhân viên: Tuyến Saikyo. Hãy lên tàu ở sân ga 8. / Khách: Sân ga 8 nhỉ? / Nhân viên: Vâng, đi tuyến Saikyo đến ga Kita-Yono.',
-  '「埼京線です。8番線から乗ってください」 → biển 7・8 埼京線 (C). Cùng thông báo với Đề nghe 2 câu 9 (lý do tàu dừng: 人身事故). Câu hỏi 〜ばいいですか = nên làm thế nào.', part=True)
+  '「埼京線です。8番線から乗ってください」 → biển 7・8 埼京線 (C). Cùng thông báo với Đề nghe 2 câu 10 (lý do tàu dừng: 人身事故). Câu hỏi 〜ばいいですか = nên làm thế nào.', part=True)
 L(6, 'エドさんは、これから何を食べたいですか。', 'Từ bây giờ Ed muốn ăn gì?',
   ['ゆば', 'そば', 'すし'], 1,
   '坂本：おいしいものは、何か食べましたか？\nエド：はい、そばを食べました。ゆばも食べてみたいです。\n坂本：ああ、日光の名物ですからね。',
   'Sakamoto: Đã ăn món gì ngon chưa? / Ed: Rồi, tôi ăn soba. Tôi cũng muốn ăn thử yuba. / Sakamoto: À, đó là đặc sản Nikko mà.',
-  'Câu thứ ba về cùng hội thoại Ed ở Nikko (Đề nghe 1 câu 18–19, Đề nghe 2 câu 10–11). そば là món đã ăn (食べました), muốn ăn là 「ゆばも食べてみたいです」 → tranh A. ゆば = váng đậu, đặc sản Nikko. Vてみたい = muốn thử làm V.', part=True)
+  'Câu thứ ba về cùng hội thoại Ed ở Nikko (Đề nghe 1 câu 19–20, Đề nghe 2 câu 11–12). そば là món đã ăn (食べました), muốn ăn là 「ゆばも食べてみたいです」 → tranh A. ゆば = váng đậu, đặc sản Nikko. Vてみたい = muốn thử làm V.', part=True)
 L(7, 'Bさんは週末、何をしましたか。', 'B đã làm gì vào cuối tuần?',
   ['ケーブルカーに乗った', '花を見た', '浄土ヶ浜で船に乗った'], 3,
   'A：週末は何をしたの？\nB：友だちと浄土ヶ浜に行って来ました。\nA：浄土ヶ浜か、いいね。どうだった？\nB：海も空もすごくきれいでした。海で泳げたし、船に乗れたし、楽しかったです。\nA：よかったね。\nB：船では、鳥にパンをあげられるんですよ。\nA：ああ、ウミネコね。楽しかった？\nB：ウミネコが近くに来たとき、ちょっとこわかったです。でも、おもしろかったです。',
@@ -76,12 +76,12 @@ L(10, 'ジムをはじめて利用するとき、何を受けますか。', 'Khi
   ['30分のオリエンテーション', '3時間のトレーニング', 'シューズのレンタル'], 1,
   'B：料金は1日560円で3時間までです。3時間以上のご利用は、延長料金が30分につき150円かかります。\nB：それでは、そこの階段を下りたところに更衣室がありますので、そこで着替えてください。それから、ジムでは、室内用のシューズをはいてください。お持ちですか？\nA：はい、あります。\nB：それから、はじめて利用するときは、マシンの使い方など、トレーナーから30分ほどのオリエンテーションを受けていただきます。',
   'B: Phí là 560 yên/ngày, tối đa 3 tiếng. Quá 3 tiếng thì phụ thu 150 yên mỗi 30 phút. Phòng thay đồ ở chỗ xuống cầu thang kia. Trong phòng tập hãy đi giày trong nhà – bạn có mang không? / A: Có. / B: Ngoài ra, lần đầu sử dụng sẽ được huấn luyện viên hướng dẫn khoảng 30 phút về cách dùng máy…',
-  '「はじめて利用するときは…30分ほどのオリエンテーションを受けていただきます」 → tranh A. Bẫy: 3時間 là giờ dùng tối đa với phí 560 yên (tranh B); giày thì A đã có (tranh C).', part=True)
+  '「はじめて利用するときは…30分ほどのオリエンテーションを受けていただきます」 → tranh A. Chú ý: 3時間 là giờ dùng tối đa với phí 560 yên (tranh B); giày thì A đã có (tranh C).', part=True)
 L(11, '茶碗蒸しは、どんな料理ですか。', 'Chawanmushi là món ăn như thế nào?',
   ['鶏肉の料理', '鶏肉やエビ、きのこが入った卵の料理', '甘いプリン'], 2,
   'ラン：これは何ですか？\n森：茶碗蒸し。卵の料理です。プリンに似てますけど、甘くなくて、おいしいですよ。だしを使います。\nラン：だし？\n森：えーと、まあ、日本のスープかな。\nラン：へー。中に何が入ってますか？\n森：鶏肉とか、エビとか、きのことかが入ってます。ときどき、銀杏も入れますよ。',
   'Lan: Đây là món gì? / Mori: Chawanmushi, món làm từ trứng. Giống pudding nhưng không ngọt, ngon lắm. Dùng nước dashi. / Lan: Dashi? / Mori: Kiểu súp của Nhật. / Lan: Bên trong có gì? / Mori: Có thịt gà, tôm, nấm… Thỉnh thoảng cho cả hạt ngân hạnh.',
-  '「卵の料理」「鶏肉とか、エビとか、きのことか」 → tranh B (chén trứng hấp có tôm, nấm). Bẫy: 「プリンに似てますけど、甘くなくて」 – giống pudding nhưng KHÔNG ngọt, nên không phải tranh C.', part=True)
+  '「卵の料理」「鶏肉とか、エビとか、きのことか」 → tranh B (chén trứng hấp có tôm, nấm). Chú ý: 「プリンに似てますけど、甘くなくて」 – giống pudding nhưng KHÔNG ngọt, nên không phải tranh C.', part=True)
 L(12, 'この薬は、1日に何回飲みますか。', 'Một ngày uống thuốc này mấy lần?',
   ['一回', '二回', '三回'], 3,
   '薬剤師：こちらは咳を抑える薬です。1日3回、食後に飲んでください。\n患者：食後？\n薬剤師：ご飯を食べた後です。\n患者：はい、わかりました。\n薬剤師：飲むと眠くなります。飲んだ後、運転しないでくださいね。\n患者：わかりました。',
@@ -101,12 +101,12 @@ L(15, 'どうやって山に登りましたか。', 'Người này lên núi b�
   ['バス', '歩いて', 'ケーブルカー'], 2,
   'A：週末に高尾山に行ったんです。\nB：へえ。どうでしたか。\nA：ケーブルカーがすごく混んでいて大変でした。\nB：ああ、この時期は混みますよね。\nA：ええ。だからケーブルカーは諦めて歩いて登りました。\nB：大変でしたね。\nA：疲れたけど景色が綺麗で気持ちよかったです。',
   'A: Cuối tuần tôi đi núi Takao. / B: Thế nào? / A: Cáp treo rất đông, vất vả lắm. / B: Mùa này hay đông nhỉ. / A: Vâng. Vì vậy tôi bỏ ý định đi cáp treo và đi bộ lên núi. / B: Vất vả nhỉ. / A: Mệt nhưng phong cảnh đẹp, dễ chịu.',
-  'Bẫy: có nhắc ケーブルカー nhưng 「ケーブルカーは諦めて歩いて登りました」 → đi bộ (tranh B). 諦める (ĐẾ) = từ bỏ. Nghe kỹ động từ sau 「だから」.', part=True)
+  'Chú ý: có nhắc ケーブルカー nhưng 「ケーブルカーは諦めて歩いて登りました」 → đi bộ (tranh B). 諦める (ĐẾ) = từ bỏ. Nghe kỹ động từ sau 「だから」.', part=True)
 L(16, '何についてのお知らせですか。', 'Đây là thông báo về việc gì?',
   ['地震', '大雪', '津波'], 1,
   '緊急地震速報です。強い揺れに警戒してください。緊急地震速報が出ました。京都、大阪、滋賀、兵庫、福井、三重、奈良、和歌山、香川に緊急地震速報が出ました。けがをしないように、身を守ってください。倒れやすい家具などからは離れてください。テーブルや机の下に隠れてください。\n……えー、先ほど午前11時41分ごろ、近畿地方で強い揺れを感じました。震源が海底ですと、津波のおそれがあります。海岸から離れてください。',
   'Cảnh báo động đất khẩn cấp. Hãy đề phòng rung lắc mạnh. Đã có cảnh báo động đất khẩn cấp cho Kyoto, Osaka, Shiga, Hyogo, Fukui, Mie, Nara, Wakayama, Kagawa. Hãy bảo vệ bản thân để không bị thương. Tránh xa đồ đạc dễ đổ. Hãy nấp dưới bàn. … Khoảng 11 giờ 41 sáng vừa rồi, vùng Kinki có rung lắc mạnh. Nếu tâm chấn ở đáy biển thì có nguy cơ sóng thần. Hãy tránh xa bờ biển.',
-  '「緊急地震速報」 = cảnh báo động đất khẩn → tranh A. Bẫy: cuối bài có 「津波のおそれ」 (có nguy cơ sóng thần) – đó chỉ là khả năng, chủ đề chính vẫn là động đất. 速報 (TỐC BÁO) = tin nhanh.')
+  '「緊急地震速報」 = cảnh báo động đất khẩn → tranh A. Chú ý: cuối bài có 「津波のおそれ」 (có nguy cơ sóng thần) – đó chỉ là khả năng, chủ đề chính vẫn là động đất. 速報 (TỐC BÁO) = tin nhanh.')
 L(17, 'アナウンスを聞いて、何をしますか。', 'Sau khi nghe thông báo, sẽ làm gì?',
   ['本棚を押さえる', '机の下に隠れる', '海へ行く'], 2,
   '倒れやすい家具などからは離れてください。テーブルや机の下に隠れてください。……震源が海底ですと、津波のおそれがあります。海岸から離れてください。',
@@ -126,7 +126,7 @@ L(20, 'どうして会社では、エアコンの温度を28度に設定する�
   ['リモコンがないから', '節電のため', 'エアコンが苦手な人がいるから'], 2,
   'A：今日、暑いですね。エアコンつけてますか？\nB：ついてますよ。でも、うちの会社、エアコンの温度は、28度に設定するようにしてますから。\nA：え、どうしてですか？\nB：節電のためですよ。設定温度を下げると、電気をたくさん使いますからね。\nA：そうなんですか。でも、暑いんですが、下げちゃだめですか？\nB：まあ、少しなら下げてもいいですよ。でも、エアコンが苦手な人もいるから、ほかの人にも聞いてみてください。',
   'A: Hôm nay nóng nhỉ. Có bật điều hòa không? / B: Có. Nhưng công ty tôi quy định cài điều hòa ở 28 độ. / A: Ơ, tại sao? / B: Để tiết kiệm điện. Hạ nhiệt độ thì tốn nhiều điện. / A: Nhưng nóng quá, không hạ được à? / B: Hạ một chút thì được. Nhưng có người không chịu được điều hòa, nên hãy hỏi cả người khác.',
-  '「節電のためですよ」 → tranh B. 節電 (TIẾT ĐIỆN) = tiết kiệm điện. 〜ため = để/vì ~. Bẫy: 「エアコンが苦手な人もいる」 là lý do phải hỏi người khác trước khi hạ nhiệt, không phải lý do đặt 28 độ.')
+  '「節電のためですよ」 → tranh B. 節電 (TIẾT ĐIỆN) = tiết kiệm điện. 〜ため = để/vì ~. Chú ý: 「エアコンが苦手な人もいる」 là lý do phải hỏi người khác trước khi hạ nhiệt, không phải lý do đặt 28 độ.')
 
 new = {'id': 'jft-ln3', 'group': 'Luyện nghe JFT', 'title': 'Đề nghe 3', 'name': 'Nghe 3',
        'sub': 'Tuyển tập 20 câu nghe hiểu · いろどり', 'time': 30, 'tag': 'Luyện nghe', 'qs': qs}

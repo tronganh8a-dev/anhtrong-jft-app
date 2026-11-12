@@ -45,7 +45,7 @@ L(4, '仕事は何時から何時までですか。', 'Công việc từ mấy g
   ['6時～3時半', '9時～6時', '12時～1時'], 2,
   '1日のスケジュールを説明します。仕事は、毎朝9時からです。はじめに、朝礼があります。午前の仕事は、12時までです。12時から1時まで、昼休みです。1時から、午後の仕事です。3時から3時半まで、休み時間です。仕事は、6時までです。ときどき、残業があります。',
   'Tôi giải thích lịch một ngày. Công việc bắt đầu từ 9 giờ sáng. Đầu tiên có họp đầu giờ. Buổi sáng làm đến 12 giờ. 12–1 giờ nghỉ trưa. Từ 1 giờ làm buổi chiều. 3–3 rưỡi nghỉ giải lao. Công việc đến 6 giờ. Thỉnh thoảng làm thêm.',
-  'Bài có nhiều mốc giờ – ghi nhanh giờ bắt đầu 「毎朝9時から」 và giờ kết thúc 「6時までです」. 12時～1時 là nghỉ trưa (昼休み), 3時～3時半 là giờ nghỉ (休み時間) – đều là bẫy.', pics=False)
+  'Bài có nhiều mốc giờ – ghi nhanh giờ bắt đầu 「毎朝9時から」 và giờ kết thúc 「6時までです」. 12時～1時 là nghỉ trưa (昼休み), 3時～3時半 là giờ nghỉ (休み時間) – không phải giờ làm việc.', pics=False)
 L(5, 'タワットさんは日本で何をしたいですか。', 'Tawatt muốn làm gì ở Nhật?',
   ['山に登る', 'お寺を見る', '神社に行く'], 3,
   'タワットさんは？\n私は新宿の須賀神社に行きたいです。\nえ？須賀神社？どこ？\nあ、アニメの「君の名は。」の神社ですか？\nはい。\nへえ。あと、どら焼きが食べたいです。\nどら焼き？どうして？またアニメですか？\nはい、ドラえもんです。',
@@ -85,7 +85,7 @@ L(11, '皆はアナさんに何をあげますか。', 'Mọi người sẽ tặ
   ['花', 'デジタルフォトフレーム', 'カメラ'], 2,
   'エレノア：あと、アナさんに何かプレゼントをあげませんか？\n周：そうですね。何がいいでしょうか？エレノアさんの国では、どんなものをあげますか？\nエレノア：花とか？\n周：うーん、もっと、思い出に残るものがいいと思います。予算は？\nエレノア：参加者は10人ぐらいだと思いますから、5,000円ぐらいのものですね。\n周：それなら、デジタルフォトフレームはどうですか？\nエレノア：あ、いいですね。',
   'Eleanor: Mình tặng Anna món quà gì không? / Chu: Tặng gì thì hay? Ở nước chị người ta tặng gì? / Eleanor: Hoa chẳng hạn? / Chu: Tôi nghĩ nên tặng thứ để lại kỷ niệm. Ngân sách bao nhiêu? / Eleanor: Khoảng 10 người, nên món khoảng 5.000 yên. / Chu: Vậy khung ảnh kỹ thuật số thì sao? / Eleanor: Hay đấy.',
-  'Hoa (花) bị gạt đi: 「もっと、思い出に残るものがいい」. Chốt 「デジタルフォトフレームはどうですか」「いいですね」 → tranh B. Cùng hội thoại với Đề nghe 1 câu 11 (đó hỏi món ăn).', part=True,
+  'Hoa (花) bị gạt đi: 「もっと、思い出に残るものがいい」. Chốt 「デジタルフォトフレームはどうですか」「いいですね」 → tranh B. Cùng hội thoại với câu trước (hỏi món ăn).', part=True,
   au='ln1_L11', im='ln2_05')
 L(12, 'シハーさんが苦手なのはどれですか。', 'Shihā không ăn được món nào?',
   ['刺身定食', '牛丼', 'ミックスフライ定食'], 1,
@@ -116,7 +116,7 @@ L(17, '岡山で乗り換えるとき、新幹線こだま729号は何番線で�
   ['20番線', '21番線', '22番線'], 2,
   'ご乗車ありがとうございました。あと3分ほどで岡山です。お出口は左側、22番線に着きます。乗り換えのご案内をいたします。新幹線、各駅に止まりますこだま729号、博多行き、9時50分、着きました同じホーム、向かい側、21番線です。山陽線普通岡山行き、9時57分、2番線。',
   'Cảm ơn quý khách. Khoảng 3 phút nữa đến Okayama. Cửa ra bên trái, tàu đến sân ga 22. Thông tin đổi tàu: Shinkansen Kodama 729 đi Hakata, 9 giờ 50, ở cùng sân ga, phía đối diện – sân ga 21. Tàu thường tuyến Sanyo 9 giờ 57, sân ga 2.',
-  'Bẫy: 「22番線に着きます」 là sân ga tàu mình đang đi sẽ dừng. Kodama 729 ở 「同じホーム、向かい側、21番線」 → 21. Nghe số đi kèm đúng tên tàu được hỏi.', pics=False, part=True)
+  'Chú ý: 「22番線に着きます」 là sân ga tàu mình đang đi sẽ dừng. Kodama 729 ở 「同じホーム、向かい側、21番線」 → 21. Nghe số đi kèm đúng tên tàu được hỏi.', pics=False, part=True)
 L(18, 'エドさんは、今日どこに行きましたか。', 'Hôm nay Ed đã đi đâu?',
   ['東照宮', '中禅寺湖', '温泉'], 1,
   '坂本：エドさんは、どちらからですか？\nエド：フィリピンです。でも、今は日本に住んでいます。\n坂本：そうですか。日光に旅行ですか？\nエド：はい、1泊です。\n坂本：今日は、どこに行きましたか？\nエド：今日は、東照宮に行きました。明日は、中禅寺湖に行くつもりです。',
@@ -126,7 +126,7 @@ L(18, 'エドさんは、これから何をしたいですか。', 'Từ bây gi
   ['東照宮に行く', '中禅寺湖に行く', '温泉に入る'], 3,
   '坂本：今日は、どこに行きましたか？\nエド：今日は、東照宮に行きました。明日は、中禅寺湖に行くつもりです。\n坂本：おいしいものは、何か食べましたか？\nエド：はい、そばを食べました。ゆばも食べてみたいです。\nエド：あと、温泉に入りたいんですけど、どこで入ったらいいですか？\n坂本：温泉ですか。中禅寺湖のホテルに、日帰りでお風呂に入れるところがあると思いますよ。',
   'Sakamoto: Hôm nay anh đi đâu? / Ed: Hôm nay đi Toshogu. Mai định đi hồ Chuzenji. / Sakamoto: Đã ăn món gì ngon chưa? / Ed: Ăn soba rồi. Muốn thử yuba nữa. Ngoài ra tôi muốn tắm suối nước nóng, nên tắm ở đâu? / Sakamoto: Khách sạn ở hồ Chuzenji có chỗ cho tắm trong ngày.',
-  'Cùng bài với Đề nghe 1 câu 18, nhưng câu hỏi khác: 「これから何をしたいですか」 → 「温泉に入りたいんですけど」 → tranh C. 東照宮 là việc đã làm hôm nay (行きました), 中禅寺湖 là dự định (つもり).', part=True,
+  'Cùng bài với câu trước, nhưng câu hỏi khác: 「これから何をしたいですか」 → 「温泉に入りたいんですけど」 → tranh C. 東照宮 là việc đã làm hôm nay (行きました), 中禅寺湖 là dự định (つもり).', part=True,
   au='ln1_L18', im='ln2_10')
 L(19, '盆踊りの前に、何をしますか。', 'Trước khi múa Bon-odori, sẽ làm gì?',
   ['浴衣を着る', 'お酒を飲む', '居酒屋に行く'], 1,
