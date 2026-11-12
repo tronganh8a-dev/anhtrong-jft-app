@@ -1,0 +1,75 @@
+# Đề 14 (PDF bộ 15). Mỗi câu: MÃ | đáp án (1-4) | dịch | giải thích (¶ = xuống dòng)
+A1|1|Món quà được gói bằng giấy đẹp.|包む（つつむ）· BAO = gói, bọc.¶Kết hợp: 紙で包む · プレゼントを包む · 包装（ほうそう）= bao bì.¶Ngữ pháp: Vてある = (ai đó) đã ~ sẵn.
+A2|4|Anh ấy nhảy giỏi.|得意（とくい）· ĐẮC Ý = giỏi, sở trường.¶Cách đọc: 得 とく, 意 い.¶Kết hợp: 〜が得意だ · 得意科目.¶Trái nghĩa: 苦手.
+A3|1|Một ngôi sao mới đã được phát hiện.|発見（はっけん）· PHÁT KIẾN = phát hiện.¶Cách đọc: はつ＋けん → はっけん.¶Phân biệt: 発明 = phát minh.
+A4|3|Biểu đồ này thể hiện sự thay đổi dân số.|表す（あらわす）· BIỂU = thể hiện, biểu thị.¶Kết hợp: 気持ちを表す · グラフで表す · 言葉で表す.¶Phân biệt: 示す（しめす）= chỉ ra (cùng nghĩa nhưng chữ khác).
+A5|1|Bây giờ tôi sẽ giải thích về kỳ thi.|試験（しけん）· THÍ NGHIỆM = kỳ thi.¶Phân biệt: 事件（じけん）= vụ án · 実験（じっけん）= thí nghiệm.¶Kết hợp: 試験を受ける · 試験に合格する.
+A6|2|Năm nay nhiều bão hơn năm ngoái.|今年（ことし）= năm nay (cách đọc đặc biệt).¶Bảng: 去年 · 今年 · 来年.
+A7|4|Hôm nay tôi đi ngắm hoa ở công viên gần nhà.|公園（こうえん）· CÔNG VIÊN.¶Cách đọc: 公 こう, 園 えん.¶Kết hợp: 公園で遊ぶ · 国立公園.
+A8|3|Ngày nào tôi cũng chăm sóc chim trên sân thượng toà nhà.|建物（たてもの）· KIẾN VẬT = toà nhà.¶Cách đọc: âm Nhật 建て＋物.¶Kết hợp: 高い建物 · 古い建物.
+A9|4|Con chó dùng chân mở cửa.|開ける（あける）· KHAI = mở.¶Chữ Hán: 開 (bộ môn 門 + 开). 閉 (BẾ – đóng), 関 (QUAN), 閑 (NHÀN) cùng bộ môn nhưng sai.
+A10|3|Tôi được chị cho mượn chiếc ô đỏ.|姉（あね）· TỶ = chị gái.¶Bảng: 兄 (anh) · 姉 (chị) · 弟 (em trai) · 妹 (em gái) · 娘 (con gái).
+A11|2|Chị đã viết tên những đồ cần thiết lên giấy cho tôi.|紙（かみ）· CHỈ = giấy.¶Kết hợp: 紙に書く · 紙で包む · 手紙 (thư).
+A12|1|Tôi được bác sĩ cho thuốc.|薬（くすり）· DƯỢC = thuốc.¶Kết hợp: 薬を飲む · 薬が効く · 薬局.¶Chữ Hán: bộ thảo 艹 + 楽.
+A13|4|Cửa hàng có cánh cửa màu xanh kia đang bán hoa.|青い（あおい）· THANH = xanh.¶Màu: 白い · 赤い · 黄色い · 青い · 黒い.¶Lưu ý: vàng là 黄色い (không phải 黄い).
+A14|4|Buổi hoà nhạc bắt đầu lúc 7 giờ.|始まる（はじまる）· THỦY = bắt đầu (tự động từ).¶Phân biệt: 始め (bắt đầu) · 初め (lần đầu, ban đầu).
+A15|1|Từ 3 giờ chiều phải dự họp.|出席（しゅっせき）= có mặt, dự.¶Kết hợp: 会議に出席する.¶Các đáp án khác: 出発 = xuất phát · 拝見 = xem (khiêm nhường) · 反対 = phản đối.
+A16|4|Cuối tuần tôi đã hẹn cùng học.|約束（やくそく）= hẹn, hứa.¶Kết hợp: 約束をする · 約束を守る.¶Các đáp án khác: 説明 · 道具 · 予約 (đặt trước).
+A17|2|Để gầy thì nên vận động.|運動（うんどう）= vận động.¶Kết hợp: 運動する · 運動不足.¶Các đáp án khác: 運転 = lái xe · 旅行 · 旅館.
+A18|4|Núi này nếu trời đẹp thì phong cảnh rất đẹp.|景色（けしき）= phong cảnh.¶Các đáp án khác: 階段 = cầu thang · 木綿 = vải bông · 花見 = ngắm hoa.
+A19|3|Tôi mua rèm cùng màu với phòng.|カーテン = rèm cửa.¶Kết hợp: カーテンを開ける／閉める.
+A20|4|Bạn đến thăm tôi ốm, tôi rất vui.|うれしい = vui.¶Từ trong câu: お見舞い = đi thăm người ốm.
+A21|4|Hãy tô chỗ này màu đỏ bằng bút.|塗る（ぬる）= tô, sơn, bôi.¶Kết hợp: 色を塗る · ペンキを塗る · 薬を塗る.¶Phân biệt: 濡れる（ぬれる）= bị ướt.
+A22|4|Hồi nhỏ tôi hay chơi đến khuya và hay bị bố mẹ mắng.|しかる → しかられる = bị mắng.¶Các đáp án khác: あやまる = xin lỗi · かざる = trang trí.
+A23|1|Thị trấn này so với ngày xưa đã thay đổi nhiều nhỉ.|ずいぶん = khá nhiều, đáng kể.¶Các đáp án khác: ちょっとも (sai, đúng là ちっとも) · ちょっと = một chút · もうすぐ = sắp.
+A24|3|Trước tiên hãy cho thịt bò vào đây. Sau đó cho rau vào.|まず = trước hết.¶Cấu trúc: まず〜。そして〜.
+A25|3|Đột nhiên nghe tiếng động lớn nên tôi giật mình.|驚く（おどろく）= giật mình.
+A26|2|Anh ấy vẫn đang luyện piano.|続ける ≈ 毎日している = tiếp tục, làm đều đặn.
+A27|3|Cô ấy học hành chăm chỉ.|熱心に ≈ 一生懸命 = nhiệt tình, chăm chỉ.¶Các đáp án khác: 適当に = qua loa · 割合に = tương đối.
+A28|1|Hãy cố gắng không xem từ điển.|できるだけ ≈ なるべく = cố gắng hết mức.
+A29|4|Đại sứ quán Chủ nhật không mở cửa.|開いていない ≈ 休み = nghỉ.¶Các đáp án khác: 真ん中 = chính giữa · 留守 = vắng nhà · 承知 = biết.
+A30|2|Bài này rất dễ.|やさしい ≈ 簡単 = dễ.¶Lưu ý: やさしい còn nghĩa "hiền" (優しい).
+A31|2|Cân bột mì và bơ cẩn thận rồi làm bánh.|はかる（量る）= cân, đo.¶Phân biệt chữ: 量る (khối lượng) · 測る (chiều dài) · 計る (thời gian).¶Các câu sai: 1 phải là 数える · 3 phải là 思う · 4 phải là 計算する.
+A32|2|Anh Kimura có khiếu hài hước, ở cùng rất vui.|ユーモア = sự hài hước. ユーモアがある.¶Các câu sai: 1, 3, 4 ユーモア là danh từ, không dùng như tính từ／động từ.
+A33|2|Khách đến bất ngờ nên tôi dọn phòng qua loa.|ざっと = qua loa, sơ qua.¶Kết hợp: ざっと読む · ざっと掃除する · ざっと見積もる.
+A34|3|Ngã tư thành phố ồn ào.|騒々しい（そうぞうしい）= ồn ào.¶Gần nghĩa: うるさい · にぎやか.
+A35|3|Hãy ăn uống có tính đến cân bằng dinh dưỡng.|バランス = cân bằng. 栄養のバランス.
+B1|2|Từ khi mua điện thoại, việc trao đổi qua email tăng lên.|Cấu trúc: Vて＋以来 = kể từ khi ~.
+B2|4|Hình như hơi sốt. Hay là bị cảm?|Cấu trúc: N＋っぽい = có vẻ ~. 熱っぽい = hâm hấp sốt.¶Phân biệt: 気味（ぎみ）cũng là "hơi có vẻ" nhưng đi thẳng: 風邪気味だ; trước 気がする thì dùng tính từ 熱っぽい. みたいな cần の (熱があるみたいな気がする).
+B3|3|Căn hộ này cũ nhưng ngoài rộng ra, tôi còn thích vì tiền thuê rẻ.|Cấu trúc: Nに加え(て) = thêm vào N.
+B4|3|Đĩa CD này có các bài hát thịnh hành từ thập niên 70 đến 80.|Cấu trúc: AからBにかけて = từ A đến B.
+B5|4|Con mèo về nhà người đầy vết thương. Chắc đã đánh nhau.|Cấu trúc: N＋だらけ = đầy N.
+B6|3|Nhìn thiệp chúc Tết của bạn, tôi bỗng nhớ về thời cấp 3.|Cấu trúc: 思い出される = (tự nhiên) nhớ lại (bị động tự phát).¶Kết hợp: なつかしく思い出される.
+B7|2|Mỗi lần khám sức khoẻ là bị bác sĩ nhắc thiếu vận động.|Cấu trúc: Vる＋たびに = mỗi lần ~.
+B8|3|Để con thích đọc sách thì trước hết bố mẹ phải thích sách.|Cấu trúc: Vる＋には = để ~ (thì cần).
+B9|1|Nếu mua máy tính thì Akihabara là tốt đấy.|Cấu trúc: 〜なら = nếu (định) ~ thì (lời khuyên).
+B10|2|Ngủ gật, suýt nữa thì đi quá ga.|Cấu trúc: もう少しで〜ところだった = suýt ~.
+B11|4|Dù là vì giao tiếp, đêm nào cũng uống rượu thế thì sẽ hỏng sức khoẻ đấy.|Cấu trúc: Vていては = nếu cứ ~ thì (kết quả xấu).
+B12|3|"Konbini" là cách nói tắt của convenience store.|Cấu trúc: Nというのは〜である = N là ~ (định nghĩa).
+B13|2|Đã trễ hạn nộp nên chỉ còn cách bỏ cuộc.|Cấu trúc: Vる＋しかない = chỉ còn cách ~.
+B14|4|Số tiền nhận được từ quý vị qua tổ chức phúc lợi sẽ được dùng cho trẻ em nghèo.|Thứ tự đúng: 福祉団体 を通じて いただいた お金 (1-3-4-2). ★ là いただいた.¶Cấu trúc: Nを通じて = thông qua N.¶Lưu ý: đáp án trong PDF ghi 1 là vị trí ô đầu; ★ ở ô thứ 3 nên đáp án là 4.
+B15|1|Đến muộn giờ hẹn thì cô ấy chắc chắn giận rồi còn gì.|Thứ tự đúng: 遅れて 行ったら 彼女が 怒るに (4-2-1-3). ★ là 彼女が.¶Cấu trúc: 〜に決まっている = chắc chắn.¶Lưu ý: đáp án trong PDF ghi 3 (ô thứ 4); ★ ở ô thứ 3 nên đáp án là 1.
+B16|3|Trước đây ai cũng nghĩ càng làm việc thì thu nhập càng tăng.|Thứ tự đúng: 働けば 働く ほど 収入が (4-1-3-2). ★ là ほど.¶Cấu trúc: Vば Vるほど = càng ~ càng.¶Lưu ý: đáp án trong PDF ghi 2 (ô thứ 4); đáp án đúng là 3.
+B17|2|Anh Kobayashi thích du lịch, điểm du lịch nổi tiếng thì đương nhiên, nghe nói đến cả Nam Cực và sa mạc cũng đã đi.|Thứ tự đúng: 有名な観光地 はもちろん 南極や砂漠 へも (1-4-2-3). ★ là 南極や砂漠.¶Cấu trúc: AはもちろんBも = A thì đương nhiên, cả B.¶Lưu ý: đáp án trong PDF ghi 1 (ô đầu); đáp án đúng là 2.
+B18|1|Hiện chương trình đang nhận ý kiến, mong muốn của quý khán giả về chương trình.|Thứ tự đúng: に対する 視聴者の 皆様がたの ご意見や (2-4-1-3). ★ là 皆様がたの.¶Cấu trúc: Nに対する＋N = N đối với ~.¶Lưu ý: đáp án trong PDF ghi 2 (ô đầu); đáp án đúng là 1.
+B19|2|Bạn đang học để thi gì à?|Cấu trúc: Vる＋ために = để ~ (mục đích). 試験を受けるために.¶Các đáp án khác: ように đi với động từ không ý chí · うけさせる = bắt người khác thi.¶Lưu ý: bảng đáp án PDF phần này (câu 19–23) bị lệch; em tự giải.
+B20|3|Từ nhỏ bố mẹ đã mua cho tôi nhiều sách nên tôi thích đọc.|Cấu trúc: Vて＋くれる = (người khác) làm cho mình. 買ってくれた.¶Các đáp án khác: いただいた (dùng với もらう – sai trợ từ が) · さしあげた, あげた ngược chiều.
+B21|2|Thú vị đến mức có khi quên cả giờ ăn.|Cấu trúc: Vて＋しまう = lỡ, mất (ngoài ý muốn). 忘れてしまうこともある.
+B22|2|Sách cũng khiến chúng ta suy nghĩ về nhiều điều nhỉ.|Cấu trúc: Vさせて＋くれる = khiến cho (mình) ~. 考えさせてくれる.
+B23|3|Từ giờ tôi cũng định sẽ đọc thật nhiều sách.|Cấu trúc: Vて＋いこう＋と思う = định sẽ tiếp tục ~ (từ nay về sau).
+B24|2|"Thay đổi nhận thức của bố mẹ" nghĩa là gì?|Căn cứ: 「過度の期待をやめ、束縛から解いてやると」 → không kỳ vọng quá mức, không trói buộc con.¶Từ vựng: 不登校 = không đến trường · 束縛 = trói buộc · 改革 = cải cách.¶Lưu ý: đáp án trong PDF ghi 4 là chưa đúng; đáp án đúng là 2.
+B25|4|"ごちそうさま" vốn là lời truyền tải cảm xúc gì?|Căn cứ: 「その労苦へのねぎらいと感謝から発せられる『あいさつ』のことば」 → cảm ơn người đã vất vả nấu nướng cho mình.¶Từ vựng: 馳走 = chạy ngược xuôi · ねぎらい = an ủi công sức.¶Lưu ý: đáp án trong PDF ghi 3 là chưa đúng; đáp án đúng là 4.
+B26|3|Bài muốn nói điều gì?|Căn cứ: 「エネルギー代謝をすみやかに進行させてやる役」「クエン酸は活力剤」.¶Lưu ý: ví dụ biên tập viên – hoạ sĩ truyện tranh chỉ là phép so sánh.¶Từ vựng: クエン酸 = axit citric · 代謝 = trao đổi chất.
+B27|3|Chị Suzuki gửi email cho anh Wada để làm gì?|Căn cứ: 「こちらに来ていただけませんでしょうか。ご都合のよい日をお知らせください」 → hỏi khi nào anh Wada có thể đến giới thiệu văn phòng phẩm.¶Các đáp án khác: 1, 2 catalog đã nhận và xem rồi · 4 người đến là Wada.
+B28|3|Kỷ niệm thời thơ ấu gắn với cửa hàng là gì?|Căn cứ: 「家族の誕生日や家にお客さんが来る時などには、母といっしょにこの店で花を買っていた」.¶Các đáp án khác: 1 cửa hàng mở trước khi vào tiểu học · 2 không mua cùng thầy.
+B29|4|Vì sao các em hồi hộp?|Căn cứ: tiền góp được ít mà muốn bó hoa thật to → nhờ một việc quá sức với số tiền.¶Cụm: どきどきする = hồi hộp · いやな顔をする = tỏ vẻ khó chịu.
+B30|3|John nghĩ gì về truyện tranh?|Căn cứ: 「まんがもえらんで読めばいいと思います」.¶Các đáp án khác: 1 không phải truyện nào cũng được · 2, 4 quá mức.
+B31|4|Câu thích hợp điền vào ( ).|Căn cứ: thư khuyên Takeshi "hãy bắt đầu từ điều mình thích" và hỏi cậu quan tâm gì → dùng tiếng Anh để làm điều mình thích thì học sẽ vui.
+B32|4|Từ điền vào ( ).|Cấu trúc: Vている (trạng thái): 冷蔵庫に野菜と肉が入っている = trong tủ lạnh có rau và thịt.¶Các đáp án khác: 入れておきます = sẽ để sẵn (tương lai) · 入ってみます sai.
+B33|3|Anh Kobayashi thích nhạc gì?|Căn cứ: 「小林さんはしずかな音楽が好きだと思います」.
+B34|4|"Nó" chỉ cái gì?|Căn cứ: câu trước nói về hội thoại trong tàu ồn → ghi âm cuộc hội thoại đó.
+B35|2|"Đàn gảy tai trâu" (馬耳東風) nghĩa là gì?|Căn cứ: 「必要がないと思えば、馬耳東風、聞けども聞こえずになる」 → nghe thấy nhưng không để tâm.¶Từ vựng: 馬耳東風（ばじとうふう）= nước đổ đầu vịt.
+B36|3|Thứ có "ý nghĩa quan trọng" là gì?|Căn cứ: 「病児のちょっとした変化でも重要な意味をもっていて」 → tiếng của đứa con ốm.
+B37|1|Điều nào KHÔNG đúng với bài?|Căn cứ: nói chuyện được trong tiếng ồn là vì tai người chọn lọc âm thanh cần, phần nghe không được thì tự bù → không phải vì tai người "chính xác". Tai người thực ra là "hiểu lầm" có chọn lọc.¶Các câu 2, 3, 4 đúng.
+B38|3|Điều nào KHÔNG đúng?|Căn cứ: 「有料のものは、申し込みから一週間以内に、市役所のリサイクル係に来てお金を払ってください」 → trả tiền tại phòng tái chế của toà thị chính, không phải khi đến lấy hàng ở chỗ chủ.¶Các câu 1, 2, 4 đúng (người đăng ký sớm nhất được nhận nên người cho không chọn được).
+B39|3|Maria không thể đem thứ nào ra góc tái chế?|Căn cứ: 「次のものは出すことができません：…大人用の服」 → áo len của Maria là quần áo người lớn → không được.¶Các đáp án khác: bàn, máy giặt, đàn guitar đều được.¶Lưu ý: đáp án trong PDF ghi 4 (guitar) là chưa đúng; đáp án đúng là 3.
