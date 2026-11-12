@@ -1,0 +1,75 @@
+# Đề 17 (PDF bộ 19). Mỗi câu: MÃ | đáp án (1-4) | dịch | giải thích (¶ = xuống dòng)
+A1|1|Thị trấn tôi sống gần biển và ngành công nghiệp ô tô phát triển mạnh.|工業（こうぎょう）· CÔNG NGHIỆP.¶Cách đọc: 工 こう + 業 ぎょう (業 luôn đọc ぎょう: 授業, 残業, 卒業).¶Kết hợp: 自動車工業 · 工業が盛んだ · 工業地帯.¶Phân biệt: 工場（こうじょう）= nhà máy.
+A2|4|Hòn đảo này không có điện cũng không có nước máy, cuộc sống rất bất tiện.|不便（ふべん）· BẤT TIỆN.¶Cách đọc: 不 ふ, 便 べん (như 便利 べんり).¶Trái nghĩa: 便利.¶Kết hợp: 交通が不便だ · 不便な場所.
+A3|3|Sáng mai 6 giờ hãy tập trung ở quảng trường.|集まる（あつまる）· TẬP = tập trung, tụ tập (tự động từ).¶Cặp: 集める（あつめる）= thu thập (tha động từ).¶Kết hợp: 広場に集まる · 人が集まる · 切手を集める.¶Các đáp án khác: 高まる = tăng cao · まとまる = được gom lại · 深まる = sâu thêm.
+A4|2|Anh Yamada nói tuần trước đã mua đồng hồ ở bách hoá.|時計（とけい）= đồng hồ (cách đọc đặc biệt, không đọc じけい).¶Kết hợp: 腕時計 = đồng hồ đeo tay · 目覚まし時計 = đồng hồ báo thức · 時計が止まる.
+A5|3|Chúng tôi đã hát bài hát nổi tiếng của Nhật trong lớp.|有名（ゆうめい）· HỮU DANH = nổi tiếng.¶Cách đọc: 有 ゆう, 名 めい (như 氏名).¶Kết hợp: 〜で有名だ · 有名な人.
+A6|4|Hãy suy nghĩ kỹ rồi trả lời câu hỏi.|答える（こたえる）· ĐÁP = trả lời.¶Kết hợp: 質問に答える · 答え = câu trả lời · 正しい答え.¶Các đáp án khác: 考える = suy nghĩ · 教える = dạy · 数える = đếm.
+A7|1|Tôi đã bắt đầu làm thêm nhân viên bán hàng ở hiệu sách.|店員（てんいん）· ĐIẾM VIÊN = nhân viên cửa hàng.¶Cách đọc: 店 âm On てん (như 書店, 売店), không đọc みせ trong từ ghép Hán.¶Kết hợp: 会社員 · 銀行員 · 駅員.
+A8|1|Vì không đủ thời gian nên tôi đã không đi nhà ăn.|足りる（たりる）· TÚC = đủ.¶Kết hợp: 時間が足りない · お金が足りる · 〜で足りる.¶Phân biệt: 足（あし）= chân · 不足（ふそく）= thiếu.
+A9|3|Ở cửa hàng có cửa xanh kia đang bán hoa.|売る（うる）· MẠI = bán.¶Trái nghĩa: 買う（かう）= mua — dễ nhầm vì đều đọc với âm う.¶Kết hợp: 売り場 · 売り切れ = bán hết.
+A10|2|Em trai đã chuẩn bị món cá ngon cho bữa tối.|用意（ようい）· DỤNG Ý = chuẩn bị.¶Kết hợp: 食事を用意する · 用意ができる · 用意周到.¶Phân biệt: 用事（ようじ）= việc bận · 準備 = chuẩn bị (gần nghĩa).
+A11|3|Hãy dán tem 80 yên lên phong bì rồi gửi đi.|貼る（はる）· THIẾP = dán.¶Kết hợp: 切手を貼る · ポスターを貼る · 貼り紙.¶Các đáp án khác: 返る = trở lại · 止まる = dừng · 笑う = cười.
+A12|4|Nhiếp ảnh gia nổi tiếng đó đã chụp nhiều loài chim, thú trên thế giới.|世界（せかい）· THẾ GIỚI.¶Phân biệt chữ 世: 世間（せけん）= xã hội, thiên hạ · 世紀（せいき）= thế kỷ · 世話（せわ）= chăm sóc.
+A13|1|Hỏi đường anh Kobayashi thì anh ấy vẽ bản đồ cho tôi.|地図（ちず）· ĐỊA ĐỒ = bản đồ.¶Chữ 図 đọc ず (図書館 としょかん đọc と).¶Các đáp án khác: 地位 = địa vị · 地域 = khu vực · 地面 = mặt đất.
+A14|2|Dân số tăng đột ngột thì có thể sẽ thiếu đồ ăn và quần áo.|急に（きゅうに）· CẤP = đột nhiên, đột ngột.¶Kết hợp: 急に増える · 急に雨が降る · 急ぐ = vội.¶Các đáp án khác: 強 cường · 弱 nhược · 争 tranh.
+A15|3|Ở thị trấn này nghề làm búp bê rất thịnh.|さかん（盛ん）= thịnh hành, phát triển mạnh.¶Kết hợp: 人形づくりが盛ん · 盛んに行われる.¶Các đáp án khác: ゆたか = giàu có · にぎやか = náo nhiệt (người, nơi chốn) · しずか = yên tĩnh.
+A16|2|Năm nay giá rau và hoa quả đắt.|値段（ねだん）= giá của một món hàng cụ thể.¶Phân biệt: 物価（ぶっか）= vật giá chung · 料金 = phí dịch vụ (điện, nước, taxi) · 代金 = tiền thanh toán cho hàng đã mua.
+A17|3|Giá xăng đã giảm.|下がる（さがる）= hạ xuống (tự động từ).¶Cặp: 下げる = hạ (tha động từ, cần を) → 値段を下げる.¶Kết hợp: 値段が下がる · 熱が下がる · 気温が下がる.
+A18|1|Tôi sẽ dẫn đi tham quan nhà máy.|案内（あんない）= hướng dẫn, dẫn đường.¶Kết hợp: 工場を案内する · 案内所 · ご案内します.¶Các đáp án khác: 安定 = ổn định · 安心 = yên tâm · 挨拶 = chào hỏi.
+A19|4|Ngoài tiếng Nhật ra thì tôi không hiểu.|N以外（いがい）= ngoài ~ ra.¶Kết hợp: 日本語以外 · 関係者以外立入禁止.¶Phân biệt: ほか cần の (日本語のほかは) · 以下 = dưới, trở xuống.
+A20|3|Tôi đã trồng cây trong vườn.|植える（うえる）= trồng (cây).¶Kết hợp: 木を植える · 花を植える · 植物.¶Các đáp án khác: 建てる = xây (nhà) · 入れる = cho vào · つける = gắn.
+A21|1|Được người mình thích tặng quà. Tôi đã rất vui.|うれしい = vui mừng (cảm xúc khi có chuyện tốt đến với mình).¶Phân biệt: たのしい = vui (khi đang làm hoạt động thú vị: 旅行が楽しい).
+A22|1|Đi dạo 1 tiếng nên khát nước.|のどが渇く（かわく）= khát.¶Kết hợp: のどが渇く · 洗濯物が乾く (khô, chữ khác).¶Phân biệt: お腹がすく = đói · お腹がへる = đói.
+A23|3|Đợi 1 tiếng mà mãi chẳng thấy ai đến.|なかなか〜ない = mãi mà không ~.¶Kết hợp: なかなか来ない · なかなか治らない.¶Các đáp án khác: だんだん = dần dần · なるべく = cố gắng · ようやく = mãi mới (đi với khẳng định).
+A24|2|Một tháng tôi đổ xăng cho xe 2 lần.|ガソリン = xăng.¶Kết hợp: ガソリンを入れる · ガソリンスタンド = trạm xăng.¶Các đáp án khác: ガラス = kính · カーテン = rèm · エスカレーター = thang cuốn.
+A25|4|Tôi có hứng thú với bài hát Nhật.|興味（きょうみ）= hứng thú.¶Kết hợp: 〜に興味がある · 興味を持つ · 興味深い.¶Các đáp án khác: すき dùng 〜が好き · しゅみ dùng 〜が趣味だ · きもち = cảm xúc.
+A26|4|Trò chơi mới được làm ra liên tiếp.|次々（つぎつぎ）に = lần lượt, liên tiếp ≈ どんどん.¶Kết hợp: 次々に現れる · 次々と.¶Phân biệt: だんだん = dần dần (thay đổi chậm).
+A27|2|Hãy kiểm tra lại đặt chỗ máy bay ngày mai.|確認（かくにん）· XÁC NHẬN = kiểm tra lại cho chắc ≈ 調べる.¶Kết hợp: 予約を確認する · 確認のため.
+A28|4|Động đất xảy ra, tôi đã giật mình.|驚く（おどろく）= ngạc nhiên, giật mình ≈ びっくりする.¶Kết hợp: ニュースに驚く · 驚いたことに.¶Các đáp án khác: がっかり = thất vọng.
+A29|1|Mang hành lý lên tầng 2 của toà nhà này.|運ぶ（はこぶ）= vận chuyển, khiêng ≈ 持っていく.¶Phân biệt: 送る = gửi đi · 輸出する = xuất khẩu · 渡す = trao tay.
+A30|1|Dạo này hay có bão.|このごろ = dạo này ≈ 最近（さいきん）.¶Kết hợp: このごろの若者 · このごろよく〜.¶Phân biệt: これから・いまから = từ bây giờ (tương lai).
+A31|4|Tuyệt đối đừng nói với ai nhé.|けっして〜ない = tuyệt đối không ~.¶Luôn đi với phủ định hoặc cấm đoán: けっして忘れない · けっして〜しないでください.¶Câu 1, 2, 3 đi với khẳng định → sai.
+A32|2|Cảm mãi không khỏi.|なかなか〜ない = mãi không ~; なかなか + khẳng định = khá là.¶Câu sai: 1 "私はは" sai và nghĩa kỳ · 3 phải là だんだん暖かくなる · 4 phải là なかなかの先生だ / なかなかいい先生だ.
+A33|4|Nhờ mọi người tìm giúp nên đã tìm thấy.|〜おかげで = nhờ ~ (kết quả tốt, cảm ơn).¶Kết hợp: Nのおかげで · Vたおかげで.¶Câu sai: 2 và 3 là kết quả xấu → phải dùng せいで · 1 おかげで thường nói về kết quả đã xảy ra (上手になった).¶Lưu ý: phương án 2 trong PDF (元気になった) cũng đúng nên đã sửa để chỉ còn một đáp án.
+A34|3|Bữa trưa thì, ví dụ như sushi có được không?|たとえば = ví dụ như (đưa ra một ví dụ cụ thể).¶Kết hợp: たとえば〜はどうですか · たとえば〜など.¶Câu sai: 1, 2, 4 không có gì để "ví dụ".
+A35|3|Con trai đang ôm một nỗi lo lớn.|抱える（かかえる）= ôm (trong tay); mang (gánh nặng, vấn đề).¶Kết hợp: 悩みを抱える · 問題を抱える · 荷物を抱える.¶Câu sai: 2 夢を抱く／持つ · 4 家族を抱えている (gánh gia đình) · 1 涙を浮かべて.
+B1|3|Dù bị người khác nói gì thì cũng đừng để tâm.|Thể bị động 言われる + ても = dù bị nói ~.¶Kết hợp: 何を言われても · 叱られても.¶〜ことだ = nên ~ (lời khuyên).¶Các đáp án khác: 言わされる = bị bắt nói · 言わられる sai hình thức.
+B2|4|Tôi nhận ra trong ví chỉ có 1000 yên.|Nしか〜ない = chỉ ~ (ít hơn mong đợi).¶Kết hợp: 1000円しかない · 一人しかいない.¶Các đáp án khác: でも = ngay cả · までに = trước · から = từ.
+B3|3|Xin lỗi, xin hãy viết tên vào đây.|お＋Vます(bỏ ます)＋ください = xin hãy ~ (kính ngữ yêu cầu).¶Kết hợp: お書きください · お待ちください · ご記入ください.¶Các đáp án khác sai hình thức kính ngữ.
+B4|1|Việc này tôi rất muốn nhờ anh ấy làm.|Vてもらいたい = muốn được ai làm cho.¶ぜひ đi với mong muốn: ぜひ〜たい／てほしい／てもらいたい.¶Các đáp án khác: くれるだろう là dự đoán · もらった quá khứ · やりたい = mình muốn làm.
+B5|1|Khi đèn chuyển xanh thì được qua đường.|Vたら = khi (điều kiện xảy ra xong) → vế sau có thể là cho phép, ý chí.¶Phân biệt: と (vế sau không dùng cho phép, mệnh lệnh) · ても = dù · たり = liệt kê.
+B6|3|Em trai không cao bằng anh.|A は B ほど〜ない = A không ~ bằng B.¶Kết hợp: 兄ほど高くない · 去年ほど寒くない.¶Các đáp án khác: ぐらい ít dùng với phủ định so sánh · まで = đến cả.
+B7|1|Cứ thế này thì có nguy cơ không xong trước ngày mai.|Vる／Vない＋おそれがある = có nguy cơ ~ (điều xấu).¶Kết hợp: 台風が来るおそれがある · 間に合わないおそれがある.¶Các đáp án khác: かねる = khó mà · おかげ = nhờ · ついで = nhân tiện.
+B8|4|Hỏi cô giáo thì nghe nói bạn Lin nghỉ học.|Vたところ = sau khi ~ thì (biết được kết quả).¶Kết hợp: 聞いたところ · 調べたところ.¶Các đáp án khác: としても = dù cho · にとって = đối với · により = do.
+B9|1|Hồi nhỏ tôi hay bị bắt mặc quần áo chị gái không mặc vừa nữa.|Thể sai khiến bị động 着させられる = bị bắt mặc.¶Kết hợp: 食べさせられる · 待たされる.¶Các đáp án khác: 着せていた = mặc cho người khác · 着させていた = cho/bắt người khác mặc.
+B10|3|Tôi định gửi hành lý cho mẹ trước thứ Sáu tuần này.|Vる＋つもりだ = định ~.¶Kết hợp: 行くつもりだ · 買わないつもりだ.¶Các đáp án khác: らしい = có vẻ · ばかり = vừa mới (cần Vた) · ように không đi với だ ở đây.
+B11|4|Đến muộn mà còn nói những điều tuỳ tiện, đừng có thế.|〜くせに = vậy mà còn ~ (chê trách).¶Kết hợp: 知っているくせに · 子どものくせに.¶Các đáp án khác: うちに = trong khi · せいに cần する · ばかりに = chỉ vì.
+B12|2|Không ai nói ý kiến nên bầu không khí rất khó nói chuyện.|Vます(bỏ ます)＋にくい = khó ~.¶Kết hợp: 話しにくい · 読みにくい · 使いにくい.¶Trái nghĩa: 〜やすい.¶Các đáp án khác: ぐるしい (見苦しい) · がる · かねない không đi với 話し như vậy.
+B13|4|Anh Morita sai nên tôi nghĩ anh ấy nên xin lỗi đàng hoàng.|Vる＋べきだ = nên ~ (lẽ phải).¶Kết hợp: 謝るべきだ · 行くべきではない.¶Các đáp án khác: はず = lẽ ra (dự đoán) · べし dạng cổ, không đi với だ.
+B14|4|Giá mà có đủ thời gian và tiền thì đi du lịch được rồi.|Thứ tự: 金(3) さえ(1) あれば(4) 旅行に(2) → 時間と金さえあれば旅行に行けるのに.¶〜さえ〜ば = chỉ cần ~ là · 〜のに = giá mà.
+B15|4|Hoa của Nhật thì nói gì thì nói, cũng là hoa anh đào nhỉ.|Thứ tự: 花(2) と言えば(3) 何と言っても(4) さくら(1).¶Nと言えば = nói đến ~ thì · 何と言っても = dù nói gì đi nữa (nhấn mạnh nhất).
+B16|1|Đúng là quán được yêu thích có khác, đặt chỗ kín đến 3 tháng sau.|Thứ tự: 人気のある(3) 店(2) だけあって(1) 予約は(4).¶さすが〜だけあって = quả đúng là ~ có khác.
+B17|2|Anh Inoue là người đi đến nước nào cũng sống được.|Thứ tự: どんな(4) 国に(1) 行っても(2) 生きて(3) いける.¶どんな〜ても = dù ~ thế nào · Vていける = có thể tiếp tục ~ (sống được).
+B18|3|Trong số này có ai nhờ được làm thủ quỹ không?|Thứ tự: だれか(4) 会計の(1) 係りを(3) 頼める(2) 人.¶会計の係り = người phụ trách thu chi · 頼める = khả năng của 頼む.
+B19|3|Đến sinh nhật mẹ chủ nhà, tôi đã quyết định tặng chậu hoa.|Vることにする = quyết định ~ (bản thân quyết).¶Ngữ cảnh: "tôi" là người tặng, chưa tặng → loại いただく・もらう (nhận) và やる (cho người dưới).
+B20|4|Không những không được khen "đẹp quá" mà còn bị bảo "đừng gói bằng báo".|〜どころか = không những không ~ mà ngược lại.¶Kết hợp: ほめられるどころか叱られた · 安いどころか高い.¶Các đáp án khác: とおりに = đúng như · といっても = tuy nói là · とともに = cùng với.
+B21|2|…tôi đã bị cười mất.|Vてしまった = lỡ, mất rồi (kết quả ngoài ý muốn, tiếc).¶Kết hợp: 笑われてしまった · 忘れてしまった.¶Các đáp án khác: てみた = thử · てたまらない = không chịu nổi · てもいい = được phép.
+B22|1|Đối với họ là người Úc, báo tiếng Anh chẳng có gì sành điệu.|Nにとっては = đối với ~ thì (đánh giá từ lập trường của ai).¶Kết hợp: 私にとって · 子どもにとっては.¶Phân biệt: にとっても = đối với ~ cũng (không có đối tượng nào khác để "cũng").
+B23|1|Người Nhật không thấy cái đó sành điệu.|Câu nói về sự thật chung, thời hiện tại phủ định → 感じません.¶Ngữ cảnh: hoa cúc gói giấy báo để viếng mộ, người Nhật không thấy "おしゃれ" → giống người Úc với báo tiếng Anh.
+B24|2|Người đang đợi là ai?|Tin nhắn: 先に行って、喫茶店で待っています。ヤンさんより → người đợi là Yan.¶Kato và Suzuki là người nhận tin.¶Từ: 伝言板 = bảng nhắn tin · 〜より = từ (người gửi).¶Lưu ý: đáp án trong PDF ghi 3 là chưa đúng; đáp án đúng là 2. Phương án 4 trong PDF trùng phương án 1 nên đã sửa.
+B25|2|Điều cần báo qua điện thoại là gì?|道具はお貸しします。必要な方は申し込みの際に言ってください → khi đăng ký cần nói có mượn dụng cụ không.¶Bữa trưa: 各自でご用意ください = mỗi người tự chuẩn bị.¶Từ: 〜の際に = khi ~ · 各自 = mỗi người.
+B26|1|Bài văn nói gì về cà ri?|家庭料理となり、日本人の食生活になくてはならないものになった → trở thành món hay nấu trong gia đình Nhật.¶Câu 2: dùng nguyên liệu gần gũi là cà ri kiểu Nhật · Câu 3: nhiều gia vị là cà ri Ấn Độ.¶Từ: なくてはならない = không thể thiếu.
+B27|4|Người viết nghĩ gì về các quy định?|集団生活でみんなが快適に暮らすためには決まりは必要だろう → 4.¶不便だと思わないこともない = không phải không thấy bất tiện (thừa nhận một chút) nhưng vẫn cho là cần thiết.¶Từ: 独身寮 = ký túc xá cho người độc thân · 快適 = dễ chịu.
+B28|2|Thư của Yan đến vào ngày nào?|９月１０日のお手紙、今日着きました và thư này ký ngày ９月１２日 → thư đến ngày 12/9 (10/9 là ngày Yan viết thư).¶Lưu ý: đáp án trong PDF ghi 3 là chưa đúng; đáp án đúng là 2.
+B29|1|Vì sao thư của Yan đến muộn?|お手紙を読んで本当にびっくりしました。事故の後、すぐに病院で… → Yan bị tai nạn.¶Học bận, ốm là phỏng đoán ban đầu của bà Yamada · đi Tokyo là bà Yamada.
+B30|4|Đọc thư này xong, Yan sẽ làm gì?|その日の都合はどうか、電話で知らせてください。夜ならいつでも家にいます → Yan gọi điện cho bà Yamada.¶Từ: 都合 = sự thuận tiện (lịch) · 知らせる = báo cho biết.
+B31|2|Lý do lớn nhất bóng đá được yêu thích là gì?|一番の理由は、ボールさえあればどこでも楽しめることだ → 2.¶Mẹo: tìm cụm 一番の理由 trong bài.¶Từ: 盛り上がり = sự sôi động · 整備 = trang bị đầy đủ.
+B32|4|"これ" chỉ điều gì?|Câu ngay trước: サッカーはルールが分かりやすい。これは見る側にとっても大切な要素だ → これ = luật dễ hiểu.¶Từ: 要素（ようそ）= yếu tố · 見る側 = phía người xem.
+B33|1|Vì sao "suốt trận không thể rời mắt"?|常にボールが動いていて、ボールの動きにつれて選手も動く → bóng và cầu thủ luôn di chuyển.¶Từ: 目が離せない = không thể rời mắt · 〜につれて = cùng với, theo.
+B34|3|"おかあさん" là ai?|Y nói với bà cụ — bà là 母親 của Y → mẹ của Y.¶Người Nhật gọi mẹ mình là おかあさん khi nói chuyện trực tiếp.
+B35|3|Vì sao Y lỡ mắng bà cụ?|Bà quên lời Y dặn, lại vào bếp làm cháy nồi; ngày nào cũng lặp lại → 3.¶Từ: つい〜てしまう = lỡ ~ (không kìm được) · 繰り返し = lặp đi lặp lại · 焦がす = làm cháy.
+B36|4|Vì sao không được mắng?|叱られた理由は忘れてしまうが、叱られたということはずっと覚えているので、人間関係が悪化 → 4.¶Từ: 悪化（あっか）= trở nên xấu đi.
+B37|2|Vì sao "tôi" nói "rủ Y đi chơi"?|私たちにできることはYさんが気分転換するのを手伝うことぐらいだ → muốn giúp Y thay đổi không khí.¶Từ: 気分転換（きぶんてんかん）= thay đổi tâm trạng, xả stress · 誘う = rủ.
+B38|3|Nhóm Kim có thể tham gia hoạt động nào?|Điều kiện: 4 người bạn (không phải gia đình), thứ Bảy, hôm nay 20/11.¶① 11/12 thứ Bảy nhưng hạn đăng ký 11–15/11 đã qua · ② chỉ học sinh tiểu học và gia đình · ④ thứ Sáu–CN, chỉ gia đình · ⑥ CN · ⑦ chỉ gia đình.¶Còn ③ (12/2, nhóm ≤8 người) và ⑤ (5/3, nhóm ≤4 người) → ③か⑤.
+B39|2|Khi đăng ký bằng bưu thiếp, phải viết gì?|①活動名、②参加者氏名（全員）、③代表者の名前・住所・電話番号 → 2.¶1 tấm bưu thiếp chỉ đăng ký 1 hoạt động nên không có nguyện vọng 1, 2.¶Từ: 代表者 = người đại diện · 先着順 = theo thứ tự đến trước.
