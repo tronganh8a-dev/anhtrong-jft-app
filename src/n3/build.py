@@ -59,11 +59,21 @@ def load_ans(i):
         k,a,dv,ex=(line.rstrip('\n').split('|',3)+['','',''])[:4]
         A[k.strip()]=dict(a=int(a),d=dv.strip(),g=ex.strip())
     return A
+def gline(x):
+    x=html.escape(x.strip()); m=re.match(r'^([^:：]{1,28})[:：]\s',x)
+    if m and not re.search(r'[ぁ-んァ-ン一-龯]',m.group(1)): x=f'<b>{m.group(1)}:</b>'+x[m.end()-1:]
+    return f'<p class="gl">{x}</p>'
 def build(i, pdf=None):
     R=json.load(open(H+f'raw/e{i:02d}.json'))
     fx=H+f'fix/e{i:02d}.json'
     if os.path.exists(fx):
         F=json.load(open(fx))
+        for qi,v in F.get('qi',{}).items(): R['qs'][int(qi)].update(v)
+        for a,b in F.get('rep',[]):
+            for q in R['qs']:
+                q['stem']=q['stem'].replace(a,b); q['opts']=[o.replace(a,b) for o in q['opts']]
+            for g in R['groups']:
+                g['lines']=[l[:4]+[l[4].replace(a,b)] for l in g['lines']]
         for q in R['qs']:
             k=f"{q['part']}{q['n']}"
             if k in F.get('q',{}): q.update(F['q'][k])
@@ -91,7 +101,7 @@ def build(i, pdf=None):
         if an:
             ex=f'<div class="ans">Đáp án đúng: <b>{a}</b></div>'
             if an['d']: ex+=f'<span class="lb">DỊCH</span><div>{html.escape(an["d"])}</div>'
-            if an['g']: ex+=f'<span class="lb">GIẢI THÍCH</span><div>{html.escape(an["g"])}</div>'
+            if an['g']: ex+='<span class="lb">GIẢI THÍCH</span>'+''.join(gline(x) for x in an['g'].split('¶') if x.strip())
         qs.append(dict(k=k,s=s[0] if s else '?',m=s[1] if s else '',ins=s[2] if s else '',g=q['grp'],t=q['stem'],o=[fixopt(o) for o in q['opts']],a=(a-1) if a else None,ex=ex))
     k=ORDER.index(i)+1
     E=dict(id=f'n3-{k:02d}',src=f'N3-{NAMES[i-1]}',title=f'Đề {k}',qs=qs,groups=groups)
