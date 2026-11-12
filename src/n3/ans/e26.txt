@@ -1,0 +1,75 @@
+# Đề 24 (PDF bộ 26). Mỗi câu: MÃ | đáp án (1-4) | dịch | giải thích (¶ = xuống dòng)
+A1|1|Trong cái túi đó có gì vậy?|袋（ふくろ）· ĐẠI = túi.¶Kết hợp: 紙袋 · ビニール袋 · レジ袋.¶Phân biệt: 箱（はこ）= hộp · かご = giỏ · かばん = cặp.
+A2|2|Pháo hoa phát nổ, 5 người bị thương, trong đó có trẻ em.|含む（ふくむ）· HÀM = bao gồm, chứa.¶Kết hợp: 子供を含む5人 · 税を含む · 〜を含めて.¶Phân biệt: 囲む = bao quanh · 包む = gói · たたむ = gấp.
+A3|4|Bây giờ tôi sẽ chuẩn bị bữa ăn.|用意（ようい）· DỤNG Ý = chuẩn bị.¶Kết hợp: 食事の用意 · 用意ができる.¶Phân biệt: 用事（ようじ）= việc bận.
+A4|3|Tôi đã đính kèm file vào mail rồi gửi.|添付（てんぷ）· THIÊM PHÓ = đính kèm.¶Biến âm: 付 đọc ぷ sau ん (てん＋ふ → てんぷ).¶Kết hợp: ファイルを添付する.
+A5|1|Thành tích kinh doanh đang tăng mạnh.|大幅（おおはば）= (thay đổi) lớn, mạnh.¶Đọc theo âm Kun: 大 おお + 幅 はば.¶Kết hợp: 大幅に上がる／下がる · 大幅な値上げ.¶業績 = thành tích kinh doanh · 上向く = đi lên.
+A6|4|Ông cụ đi xe đạp kia là ông tôi.|老人（ろうじん）· LÃO NHÂN = người già.¶Cách đọc: ろう (trường âm) + じん.¶Kết hợp: 老人ホーム · 高齢者 (từ lịch sự hơn).
+A7|3|Cơn bão vừa mạnh lên vừa tiếp tục tiến về phía bắc.|発達（はったつ）· PHÁT ĐẠT = phát triển (bão mạnh lên; trẻ phát triển).¶Biến âm: はつ＋たつ → はったつ.¶Kết hợp: 台風が発達する · 子供の発達.
+A8|1|Thuốc này hãy chú ý tác dụng phụ.|副作用（ふくさよう）· PHÓ TÁC DỤNG = tác dụng phụ.¶Kết hợp: 副作用がある · 副作用に気をつける.¶Lưu ý: PDF in trùng phương án 3 và 4; đã đổi phương án 4.
+A9|2|Ở trường tiểu học đã diễn tập sơ tán khi động đất.|避難（ひなん）· TỴ NẠN = sơ tán, lánh nạn.¶Kết hợp: 避難訓練 · 避難所.¶Đồng âm: 非難 = chỉ trích.
+A10|2|Sở thích của tôi là đọc truyện tranh.|漫画（まんが）· MẠN HOẠ = truyện tranh.¶Chữ 漫 (bộ thuỷ 氵) khác 慢 (bộ tâm 忄).
+A11|4|Sáng dậy tôi đi dạo công viên.|散歩（さんぽ）· TÁN BỘ = đi dạo.¶Biến âm: さん＋ほ → さんぽ.¶Kết hợp: 公園を散歩する · 犬の散歩.
+A12|3|Thị trấn tôi sống yên tĩnh.|住む（すむ）· TRÚ = sống, cư trú.¶Chữ 住 = 亻+ 主; khác 柱 (cột), 注 (rót), 往 (đi).
+A13|4|Tôi cố gắng mỗi ngày học chữ Hán 1 tiếng.|努める（つとめる）· NỖ = nỗ lực, cố gắng.¶Đồng âm つとめる: 勤める = làm việc (会社に勤める) · 務める = đảm nhiệm (役を務める).¶Kết hợp: 〜ように努める.
+A14|2|Bạn có nghĩ vũ trụ tồn tại mãi mãi không?|続く（つづく）· TỤC = tiếp diễn.¶Chữ 続 bộ 糸 (sợi) — giống 絡, 結, 経 nhưng chỉ 続 đọc つづ.
+A15|3|Phóng viên đã phỏng vấn nhà văn nhận giải văn học năm nay rồi viết bài.|インタビュー = phỏng vấn.¶Kết hợp: 〜にインタビューする.¶Phân biệt: ステージ = sân khấu · コンクール = cuộc thi · レクリエーション = giải trí.
+A16|4|Lâu lắm mới được nghỉ phép nên cả ngày tôi thong thả không làm gì.|休暇（きゅうか）= kỳ nghỉ phép.¶Kết hợp: 休暇をとる · 夏季休暇.¶Phân biệt: 休業 = (cửa hàng) nghỉ · 休講 = nghỉ giảng · 休息 = nghỉ ngơi (giải lao).
+A17|1|Súp bị nguội nên tôi hâm lại.|冷める（さめる）= nguội.¶Kết hợp: スープが冷める · 熱が冷める.¶Phân biệt: 冷える = lạnh đi (từ bình thường → lạnh) · うすめる = pha loãng.
+A18|2|Dù nhập viện, bệnh vẫn chẳng khá lên chút nào.|一向に（いっこうに）〜ない = mãi chẳng ~.¶Kết hợp: 一向に良くならない · 一向に来ない.¶Phân biệt: さらに・ますます = càng hơn · いよいよ = cuối cùng.
+A19|4|A có năng khiếu trời phú nên mới 10 mấy tuổi đã thành nhạc sĩ nổi tiếng.|Nに恵まれる（めぐまれる）= được ban cho, may mắn có.¶Kết hợp: 才能に恵まれる · 天気に恵まれる.¶Phân biệt: 豊かだ dùng 才能が豊かだ.
+A20|3|Giám đốc nóng tính nên nhân viên làm xong việc sớm để khỏi bị mắng.|気が短い = nóng tính.¶Trái nghĩa: 気が長い = kiên nhẫn.¶Phân biệt: 気が小さい = nhút nhát · 気が強い = cứng cỏi.
+A21|2|Hơi nóng từ bát udon làm kính bị mờ.|湯気（ゆげ）= hơi nước nóng.¶Kết hợp: 湯気が立つ · めがねがくもる.¶Phân biệt: きり（霧）= sương mù · けむり（煙）= khói.
+A22|1|Biết ngoại ngữ thì có lợi khi xin việc.|有利（ゆうり）= có lợi.¶Kết hợp: 就職に有利だ · 有利な条件.¶Phân biệt: 有効 = có hiệu lực · 得意 = giỏi.
+A23|3|Trưởng phòng chịu trách nhiệm cho thất bại của cấp dưới và nghỉ việc.|責任を取る（せきにんをとる）= chịu trách nhiệm.¶Kết hợp: 責任がある · 責任者.¶Phân biệt: 信頼 = tin cậy · 損害 = thiệt hại.
+A24|1|Cắm trại hoãn sang tuần sau vì mưa.|延期（えんき）= hoãn lại.¶Kết hợp: 〜に延期になる · 試合が延期される.¶Phân biệt: 延長 = kéo dài · 再開 = mở lại.
+A25|3|Đi dự đám cưới mà đi đôi giày cũ thế thì trông kỳ lắm.|みっともない = khó coi, mất mặt.¶Kết hợp: みっともない格好 · みっともないからやめなさい.¶Lưu ý: đáp án trong PDF ghi 4 (珍しい = hiếm) là chưa đúng; đáp án đúng là 3.
+A26|4|Từ tháng trước khách chẳng đến nữa.|さっぱり〜ない = hoàn toàn không ≈ ぜんぜん.¶Kết hợp: さっぱり分からない · さっぱり来ない.
+A27|2|Lần đầu lái xe tôi đã hồi hộp.|緊張（きんちょう）する = căng thẳng, hồi hộp ≈ どきどきする.¶Phân biệt: にこにこ = tươi cười · ぺらぺら = trôi chảy.
+A28|4|Phía công ty đã chấp nhận yêu cầu của công đoàn.|要求を飲む = chấp nhận yêu cầu ≈ 受け入れる.¶Nghĩa bóng của 飲む: nuốt, chấp nhận.¶Kết hợp: 条件を飲む.
+A29|3|Nghe cô ấy kể, tôi thấy cũng là lẽ đương nhiên.|もっとも（尤も）= hợp lý, đương nhiên ≈ 当然.¶Kết hợp: ごもっともです = anh nói rất đúng.¶Lưu ý: đáp án trong PDF ghi 1 (いいかげん = cẩu thả) là chưa đúng; đáp án đúng là 3.
+A30|2|Tôi đã in nội dung mail ra bằng máy tính.|プリントアウト = in ra ≈ 印刷（いんさつ）.¶Phân biệt: 複写 = sao chụp · 転送 = chuyển tiếp.
+A31|3|Giám đốc là người đại diện công ty nên trách nhiệm cũng hệ trọng.|重大（じゅうだい）= hệ trọng, nghiêm trọng (về ý nghĩa, hậu quả).¶Kết hợp: 重大な責任 · 重大なミス · 重大事件.¶Câu sai: 1 重い · 2 重傷 · 4 大きな.
+A32|3|Nếu không thích thì nên từ chối rõ ràng.|はっきり = rõ ràng (phó từ; tính từ là はっきりした).¶Kết hợp: はっきり断る · はっきり言う.¶Câu sai: 1 明らか · 2 はっきりした · 4 明らかになった.
+A33|3|Làm mấy lần cũng không được, tức không chịu nổi.|くやしい = tức, cay cú (vì thua, thất bại).¶Kết hợp: 負けてくやしい · くやしくてたまらない.¶Câu sai: 1 さびしい · 2 悲しい · 4 苦しい.
+A34|1|Công việc bận nên tích tụ nhiều căng thẳng.|たまる = tích tụ, dồn lại.¶Kết hợp: ストレスがたまる · お金がたまる · 仕事がたまる.¶Câu sai: 2 残っている · 3 増えている · 4 集まった.
+A35|4|Trên đường cao tốc đã xảy ra vụ tai nạn lớn.|発生（はっせい）= phát sinh, xảy ra (sự cố, thiên tai).¶Kết hợp: 事故が発生する · 火災が発生.¶Câu sai: 1 出ている · 2 浮かんだ · 3 展開した.
+B1|4|Con khỉ này mắt to, trông như đeo kính nên được gọi là khỉ đeo kính.|〜ことから = từ việc ~ mà (nguồn gốc tên gọi, căn cứ).¶Kết hợp: 〜ことから、〜と呼ばれている.¶Phân biệt: ものなら = nếu mà có thể.
+B2|2|Tỷ lệ bỏ phiếu được dự đoán sẽ vượt lần trước.|〜ものと予想される／思われる = được dự đoán là ~ (văn báo chí).¶Kết hợp: 上回るものと見られる.
+B3|2|Vì tin lời A mà tôi bị thiệt hại nặng.|〜せいで = tại vì (kết quả xấu).¶Kết hợp: 信じたせいで · 雨のせいで.¶Phân biệt: からには = một khi đã.
+B4|3|Nghe nói gần đây cô ấy lo con thi cử quá đến mức đêm không ngủ được.|Vる／Nの＋あまり = vì quá ~ (dẫn đến kết quả bất thường).¶Kết hợp: 心配するあまり · 緊張のあまり.¶Phân biệt: 最中に = đang lúc · わりに = so với… thì.
+B5|2|Miệng thì nói không sao nhưng trong lòng đầy lo âu.|Vた＋ものの = tuy ~ nhưng.¶Kết hợp: 言ったものの · 買ったものの使っていない.¶Phân biệt: つつも cần Vます(bỏ ます): 言いつつも.
+B6|4|Lễ hội được tổ chức suốt một tuần từ ngày mai.|Nにわたって = suốt (khoảng thời gian, phạm vi).¶Kết hợp: 一週間にわたって · 全国にわたって.¶Phân biệt: にかけて cần から〜にかけて.
+B7|3|Bây giờ có hối hận thì cũng chẳng ích gì.|〜ても始まらない = có ~ cũng chẳng giải quyết được gì.¶Kết hợp: 後悔しても始まらない · 泣いても始まらない.¶〜たって = 〜ても (văn nói).
+B8|3|Nói với B thì có khi tin đồn lan ra, nên im lặng thì hơn.|Vます(bỏ ます)＋かねない = có thể ~ (khả năng xấu).¶Kết hợp: 広まりかねない · 事故になりかねない.¶Phân biệt: かねる = khó mà làm.
+B9|4|Ăn thử một chút thì thấy rất ngon.|Vてみたら = thử ~ thì (phát hiện).¶Kết hợp: 食べてみたら · 行ってみたら.
+B10|2|Không được nói chuyện khi trong miệng còn đồ ăn.|Vた＋まま = để nguyên trạng thái ~.¶Kết hợp: 入れたまま · 靴をはいたまま.
+B11|1|Tôi đã nhìn thấy mặt trời mọc tuyệt đẹp trên biển.|Vる＋のを見る = thấy (cảnh) ~ (dùng の với động từ tri giác).¶Kết hợp: 〜のを見た · 〜のが聞こえる.¶Không dùng こと với 見る／聞こえる.
+B12|4|Yamamoto: "Anh vẽ đẹp quá." Honda: "Không, không đến mức đó đâu."|それほど〜ない = không ~ đến mức đó.¶Kết hợp: それほど上手ではない · それほど高くない.¶Đáp lời khen một cách khiêm tốn.
+B13|1|Sau bao năm nghiên cứu, cuối cùng đã phát triển thành công.|Vた＋すえに = sau khi ~ mãi (cuối cùng).¶Kết hợp: 考えたすえに · 悩んだすえに.¶Phân biệt: うえに = hơn nữa · とたんに = vừa ~ thì.
+B14|1|Nguyên nhân tai nạn là người đi bộ đang vội đã vội vàng lao ra ngã tư khi đèn còn chưa kịp chuyển.|Thứ tự: 変わるか(4) 変わらないか(2) のうちに(1) あわてて(3).¶Vるか Vないかのうちに = vừa mới ~ (gần như đồng thời).
+B15|3|Tôi cứ tưởng đã trả cuốn sách mượn bạn từ lâu, nhưng bị bảo là vẫn chưa nhận được nên rất ngạc nhiên.|Thứ tự: 返した(1) つもりでいたが(4) まだ(3) 返して(2) もらっていない.¶Vたつもり = cứ tưởng đã ~.
+B16|3|Tôi không thể không nghĩ rằng chuyện đó mà không hiểu thì không thể gọi là sinh viên đại học.|Thứ tự: ようでは(1) 大学生とは(4) 言えないと(3) 思わずには(2) いられなかった.¶〜ようでは = nếu như ~ thì · Vずにはいられない = không thể không ~.
+B17|2|Tôi đã bỏ cuộc một lần, nhưng cứ có cảm giác vẫn còn khả năng nên quyết định thử lại.|Thứ tự: ある(1) ような(4) 気がして(2) ならなかった(3).¶〜ような気がしてならない = cứ có cảm giác như ~ (không dứt).
+B18|2|Tôi đã nhiều lần được xem khuôn mặt ngài trên tivi, nhưng gặp trực tiếp thì đây là lần đầu.|Thứ tự: 拝見して(1) ぞんじあげては(4) おりましたが(2) お目にかかる(3).¶拝見する = xem (khiêm nhường) · 存じ上げる = biết (khiêm nhường) · お目にかかる = gặp (khiêm nhường).
+B19|4|Tôi cũng không ít lần đọc sách cần cho công việc, nhưng…|少なくありません = không ít (khá nhiều).¶Vế sau が = nhưng: dù đọc vì công việc, sách nào đọc chăm chú cũng thú vị.
+B20|3|Đọc sách giống như được xem đầu óc, trái tim của ai đó.|Vてもらう = được (người khác) làm cho → 見せてもらう = được cho xem.¶Người đọc nhận "được xem" từ tác giả.
+B21|3|Có lẽ vì thế mà mỗi khi gặp được một cuốn sách hay, tôi lại thấy như có thêm một người bạn thân.|そのためでしょうか = có lẽ vì thế chăng (lý do phỏng đoán).¶Câu trước: niềm vui chạm vào tính cách, suy nghĩ tác giả → câu sau: sách như bạn thân.
+B22|1|Càng có nhiều cuốn sách như bạn thân, tôi càng thấy…|Vる＋につれて = càng ~ càng.¶Kết hợp: 増えるにつれて · 年をとるにつれて.¶Phân biệt: に際して = nhân dịp · 反面 = mặt khác.
+B23|2|Để viết văn thì nhất định cần sự chân thành.|Vる＋には = để ~ thì (cần).¶Kết hợp: 書くには誠実さが必要 · 合格するには努力が要る.
+B24|3|Người viết thư muốn nói điều gì?|Than phiền: món ăn hỏng, bếp trưởng không ăn thử, không nghe khách → 期待を裏切らない対応と品質管理をお願いしたい → mong đối xử với khách bằng thành ý.¶Từ: 閉口 = bó tay, khó chịu · 誠意 = thành ý · 裏切る = phụ (kỳ vọng).
+B25|4|Tác giả không thể khám cho đối tượng nào?|お手上げなのは乳児だ。これは恐くて手がだせない → trẻ sơ sinh.¶Từ: お手上げ = bó tay · 乳児 = trẻ sơ sinh · 高学年 = lớp lớn.
+B26|4|Theo bài, năng lực đọc hiểu thật sự là gì?|本当の読解能力はこの知らないことを学ぶ読書で試される → hiểu được cả chủ đề chưa biết.¶Từ: 試される = được thử thách · 逆に = ngược lại.
+B27|1|"Niềm vui" tác giả nói đến từ đâu?|Khi tác giả nói 「おかわり」, mẹ chủ nhà thêm cơm → tiếng Nhật mình nói được hiểu trong thực tế.¶その瞬間、「おかわり」は僕の日本語になった.¶Từ: 聞き取る = nghe ra · 通じる = được hiểu.
+B28|1|"そういうこと" là điều gì?|Ngay trước: それがベストの方法かどうか、あるいはほかにもっと能率的に出来る方法があるかもしれない → có thể có cách tốt hơn.¶Từ: 能率的 = hiệu quả.
+B29|4|"Cách làm theo lối cũ dễ nhất" là cách nào?|従来どおり = như từ trước đến nay → cách làm giống như trước.¶Từ: 従来（じゅうらい）= từ trước đến nay · ひたすら = một mực.
+B30|3|Tác giả nói nên làm việc thế nào?|今のやり方でいいのか、時代に合っているか…常に考えて行かなければならない → luôn xem lại cách cũ, nếu không tốt thì nghĩ cách mới.¶Câu 4 sai: không phải lúc nào cũng thử cách mới.¶Từ: 動脈硬化 = xơ cứng (nghĩa bóng: trì trệ).
+B31|4|"それ" chỉ điều gì?|理解できるというのは他人から詳しい説明をうけ、それを論理的に分かること → それ = lời giải thích chi tiết của người khác.
+B32|2|"Thứ như mắt xích bị thiếu" biểu thị điều gì?|Có đủ kiến thức nhưng chưa giải thích được chủ đề; nhờ một gợi ý mà hiểu trọn → mắt xích còn thiếu = gợi ý giúp kiến thức sẵn có trở nên hiểu hoàn toàn.¶Từ: 解釈 = giải thích, lý giải · ヒント = gợi ý.
+B33|2|"Lý giải được" và "hiểu ra" khác nhau thế nào?|理解できる = 論理的に分かること (theo lời giải thích của người khác, từng bước logic) · 分かった = nhờ một gợi ý mà bỗng thông suốt, không đi theo chuỗi lập luận người khác đưa ra → 2.¶Từ: 整合的 = nhất quán · 本質的 = về bản chất.
+B34|2|"Không gian như thế" là không gian thế nào?|Câu trước: 書斎のイメージは大きな机と大量の本でしょう。もちろん部屋が要ります → phòng đặt được bàn lớn và nhiều sách.¶Từ: 高価 = đắt · 住居費 = tiền nhà.
+B35|3|Thư phòng theo tác giả là gì?|知的活動は色々な場で行います… 通勤電車や新幹線の座席も喫茶店の片隅も書斎 → mọi nơi diễn ra hoạt động trí tuệ.¶Câu 2, 4 chỉ là ví dụ.¶Từ: スタティック = tĩnh · ダイナミック = động.
+B36|4|Từ thích hợp cho (③)?|Trước: kể các nơi làm việc trí óc (tàu điện, quán cà phê). Sau: vậy tàu điện, quán cà phê cũng là thư phòng → tóm lại, nói cách khác → つまり.¶Phân biệt: ところで = nhân tiện · ところが = thế nhưng.
+B37|4|"Nếu đã hiểu như vậy" — ai hiểu?|Tác giả nói với người đọc (それでもあなたは書斎にこだわりますか？) → người cần "納得" là あなた (người đọc).¶Từ: 納得する = thông suốt, chấp nhận · こだわる = câu nệ.
+B38|3|Để đặt phòng họp cần những gì?|予約状況を電話で確認した後、利用申し込み書に必要事項を記入し、会議に関する資料と共にご提出 → đơn đăng ký + tài liệu cuộc họp.¶Giấy phép sử dụng (承認書) do trung tâm cấp sau, nộp vào ngày sử dụng.
+B39|4|Điều nào KHÔNG được phép ở cơ sở này?|申込方法：FAXまたはE-MAILにて受け付けます → gửi đơn qua bưu điện không được nhận.¶Câu 1: nhận đơn từ 3 tháng trước → 3 tuần trước được · Câu 2: được vào từ 8:30 · Câu 3: có LAN, mang máy tính đến được.
