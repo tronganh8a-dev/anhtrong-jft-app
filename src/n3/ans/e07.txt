@@ -1,0 +1,75 @@
+# Đề 6 (PDF bộ 7). Mỗi câu: MÃ | đáp án (1-4) | dịch | giải thích (¶ = xuống dòng)
+A1|4|Đâu đó có tiếng khách cười.|笑う（わらう）· TIẾU = cười.¶Kết hợp: 声を出して笑う (cười thành tiếng) · にっこり笑う (mỉm cười) · 笑い声 · 大笑い · 人を笑わせる (làm người khác cười).¶Các đáp án khác: さそう = rủ · ならう = học · ねがう = mong ước.
+A2|4|Mùa thu trù phú trên đảo qua đi thì mùa đông lạnh giá đến.|豊か（ゆたか）· PHONG = phong phú, dồi dào, giàu có.¶Kết hợp: 豊かな自然 · 豊かな生活 · 心が豊か · 経験が豊か · 豊作（ほうさく）= được mùa.¶Các đáp án khác: 静か = yên tĩnh · 確か = chắc chắn · にわか = đột ngột (にわか雨 – mưa rào).
+A3|2|Tôi muốn tuyển người có thể trình bày rõ ràng suy nghĩ của mình.|述べる（のべる）· THUẬT = trình bày, phát biểu (văn trang trọng).¶Kết hợp: 意見を述べる · 感想を述べる · 理由を述べる · 前に述べたように (như đã nêu ở trên).¶Từ trong câu: 雇う（やとう）= thuê, tuyển người.
+A4|1|Ngôi sao khuất sau đám mây.|雲（くも）· VÂN = mây.¶Kết hợp: 雲がかかる (mây che) · 雲が出る · 雲一つない空 (trời không gợn mây) · 入道雲 (mây vũ tích).¶Các đáp án khác: あめ = mưa · ゆき = tuyết · しも = sương giá.¶Từ trong câu: 隠れる = khuất, ẩn.
+A5|2|Băng nổi trên nước.|氷（こおり）· BĂNG = nước đá, băng.¶Kết hợp: 氷が溶ける (băng tan) · 氷が張る (đóng băng) · 氷を入れる · かき氷 (đá bào).¶Lưu ý: 水 (THUỶ) thêm một chấm thành 氷.¶Các đáp án khác: あぶら = dầu · こな = bột · こめ = gạo.
+A6|1|Ở ngã tư đang hạn chế xe cộ lưu thông.|規制（きせい）· QUY CHẾ = hạn chế, quy định (bằng luật lệ).¶Kết hợp: 交通規制 · 規制を緩和する (nới lỏng quy định) · 規制を強める.¶Phân biệt: 規則（きそく）= quy tắc.
+A7|2|Hãy giải quyết bằng cách xử lý đơn giản hơn.|処理（しょり）· XỬ LÝ.¶Kết hợp: データを処理する · ゴミ処理 · 事務処理 · 処理が早い.¶Cách đọc: 処 しょ (ngắn).¶Phân biệt: 処置（しょち）= xử trí (cấp cứu, biện pháp).
+A8|1|Thuốc có tác dụng nên hết đau.|痛み（いたみ）· THỐNG = cơn đau.¶Kết hợp: 痛みがある · 痛みが止まる · 痛みを感じる · 痛み止め (thuốc giảm đau).¶Động từ: 痛む · Tính từ: 痛い.¶Các đáp án khác: 悩み = phiền muộn · 休み = nghỉ · 親しみ = sự thân thiết.
+A9|3|Số tiền dưới 1.000 yên thì làm tròn được không?|金額（きんがく）· KIM NGẠCH = số tiền.¶Chữ Hán: 額 (NGẠCH – trán, khoản tiền, có bộ hiệt 頁). 須, 頭, 顔 cùng có 頁 nhưng sai nghĩa.¶Kết hợp: 金額を確認する · 合計金額 · 大きな金額.¶Từ trong câu: 未満（みまん）= chưa đến · 四捨五入 = làm tròn.
+A10|2|Tôi được phép hướng dẫn trượt tuyết cho trẻ em.|指導（しどう）· CHỈ ĐẠO = hướng dẫn, chỉ dạy.¶Chữ Hán: 導 (ĐẠO – dẫn dắt) = 道 + 寸. 師 (SƯ) sai.¶Kết hợp: 指導する · 指導を受ける · 生活指導 · 指導者.¶Từ trong câu: 児童（じどう）= nhi đồng · 許可を得る = được cho phép.
+A11|1|Đọc cuốn sách này tôi hiểu rõ cấu trúc và phương pháp bảo tồn ngôi chùa.|保存（ほぞん）· BẢO TỒN = bảo quản, lưu giữ.¶Chữ Hán: 存 (TỒN – tồn tại). 在 (TẠI) trông giống nhưng sai.¶Kết hợp: 保存する · 文化財の保存 · データを保存する · 冷凍保存.
+A12|4|Tôi mua 3 con cá vàng ở lễ hội làng bên.|村（むら）· THÔN = làng.¶Kết hợp: 村の祭り · 村人 · 漁村 (làng chài) · 市町村 (thành phố, thị trấn, làng – đơn vị hành chính).¶Các đáp án khác: 郡 (QUẬN – huyện, đọc ぐん) · 屯, 邑 ít dùng.
+A13|3|Dạo này xương lưng và hông tôi bị đau.|骨（ほね）· CỐT = xương.¶Kết hợp: 骨が折れる (gãy xương; vất vả) · 骨を折る · 魚の骨 · 骨折（こっせつ）.¶Các đáp án khác: 肩（かた）= vai · 胃（い）= dạ dày · 腎 = thận.
+A14|1|Nơi đây là môi trường tốt nhất để giáo dục và huấn luyện phi công.|訓練（くんれん）· HUẤN LUYỆN.¶Chữ Hán: 訓 (HUẤN – dạy bảo, bộ ngôn 言) + 練 (LUYỆN – rèn).¶Kết hợp: 訓練する · 避難訓練 (diễn tập sơ tán) · 訓練を受ける · 厳しい訓練.¶Phân biệt: 練習 = luyện tập (kỹ năng) · 訓練 = huấn luyện (có hệ thống).
+A15|4|Mẹ tôi là con gái thứ ba, nhưng cả hai người chị đều đã mất.|三女（さんじょ）= con gái thứ ba.¶Thứ tự con: 長男・次男・三男 (con trai cả, thứ, ba) · 長女・次女・三女.¶Căn cứ: "hai người chị" → mẹ có 2 chị gái → là con gái thứ 3.¶Các đáp án khác: 一人っ子 = con một · 一人娘 = con gái một · 長女 = con gái cả.
+A16|3|Có tuổi thì tóc dần dần rụng.|髪の毛が抜ける（ぬける）= tóc rụng.¶Kết hợp: 歯が抜ける · 力が抜ける · 抜け毛 (tóc rụng).¶Các đáp án khác: 枯れる = (cây) héo · 散る = (hoa) rụng · 腐る = thối.
+A17|1|"Tôi sẽ về ngay thôi, xin đừng bận tâm."|おかまいなく = xin đừng bận tâm (khách nói khi chủ nhà định mời nước).¶Kết hợp: どうぞおかまいなく · 何のおかまいもできませんで (chủ nhà nói khiêm tốn).¶Các đáp án khác: ご遠慮なく = xin cứ tự nhiên (chủ nhà nói) · お気の毒に = thật đáng thương · お大事に = mau khoẻ nhé.
+A18|2|Hồi nhỏ con trai tôi là đứa trẻ dễ thương, ngoan ngoãn nghe lời bố mẹ.|素直（すなお）· TỐ TRỰC = ngoan ngoãn, thẳng thắn, dễ bảo.¶Kết hợp: 素直に聞く · 素直な子 · 素直に謝る · 素直になれない.¶Các đáp án khác: スマート = thon thả, thông minh · いいかげん = qua loa · 正直 = thật thà.
+A19|4|Làm đổ nước nóng nên tôi bị bỏng chân.|やけど（火傷）= bỏng.¶Kết hợp: やけどをする · 手にやけどする · 軽いやけど.¶Các đáp án khác: うがい = súc miệng · けが = bị thương (va chạm) · くせ = tật.
+A20|2|Ăn nhiều quá nên đau dạ dày.|胃（い）· VỊ = dạ dày.¶Kết hợp: 胃が痛い · 胃の調子が悪い · 胃薬 · 胃がもたれる (đầy bụng).¶Các đáp án khác: 腰（こし）= hông · 頭 · 肩.
+A21|1|Con trai học cấp 2 của tôi đã bắt đầu mọc râu.|ひげが生える（はえる）= mọc râu. Vて＋くる = bắt đầu ~.¶Kết hợp: 毛が生える · 歯が生える · かびが生える.¶Các đáp án khác: はげる = hói · ぬける = rụng · たまる = tích lại.
+A22|1|Anh ta keo kiệt, chưa từng khao một lần nào.|けち = keo kiệt.¶Kết hợp: けちな人 · けちけちする · けちをつける (bới móc).¶Các đáp án khác: しつこい = dai dẳng · だらしない = luộm thuộm · 苦しい = khổ sở.¶Từ trong câu: おごる = khao.
+A23|4|Xem ảnh xưa, tôi nhớ lại tâm hồn trong sáng thời thơ ấu.|純粋（じゅんすい）· THUẦN TUÝ = trong sáng, thuần khiết.¶Kết hợp: 純粋な気持ち · 純粋な心 · 純粋な子供.¶Các đáp án khác: ハンサム = đẹp trai · 落ち着く = điềm tĩnh (động từ) · かしこい = thông minh.
+A24|1|Anh làm việc đến tận khuya, vất vả quá.|ご苦労様です = anh vất vả rồi (câu cảm ơn công sức, người trên nói với người dưới).¶Phân biệt: お疲れ様です dùng với đồng nghiệp, cấp trên.¶Các đáp án khác: とんでもないです = không có gì đâu · お先に失礼します = tôi về trước · お邪魔します = xin phép (vào nhà).
+A25|2|Máy tính gần đây cứ 3 tháng lại có sản phẩm mới.|新製品（しんせいひん）= sản phẩm mới.¶Kết hợp: 新製品が出る · 新製品を発売する.¶Các đáp án khác: 新品 = đồ mới (chưa dùng) · 中古（ちゅうこ）= đồ cũ · 品物 = hàng hoá.¶Ngữ pháp: 〜ごとに = cứ mỗi ~.
+A26|1|"Bạn có nấu ăn không?" "Có, thỉnh thoảng."|ときどき ≈ たまに (thỉnh thoảng).¶Các đáp án khác: たいてい = thường thường · けっこう = khá là · ちゃんと = đàng hoàng.
+A27|2|Con gái đỗ đại học nên tôi yên tâm.|安心する ≈ ほっとする (thở phào, nhẹ nhõm).¶Kết hợp: ほっと一息つく · ほっとした顔.¶Các đáp án khác: そっと = khẽ · のんびり = thong thả · ぼんやり = lơ đãng.
+A28|4|Tôi bị căng thẳng khi phỏng vấn nên không trả lời tốt.|緊張する ≈ あがる (run, khớp khi đứng trước người khác).¶Kết hợp: 人前であがる · あがり症 (dễ run).¶Các đáp án khác: 言い直す = nói lại · 落ち着く = bình tĩnh (ngược nghĩa) · 急ぐ = vội.
+A29|4|Hãy đánh dấu vào những câu làm sai.|印をつける（しるしをつける）= đánh dấu.¶Kết hợp: 丸をつける · ○印をつける · 目印.¶Lưu ý: đề bài dùng 書いて nhưng cụm tự nhiên là 印をつける.
+A30|1|Ngày mai tôi xuất phát từ sáng sớm.|出発する ≈ 発つ（たつ）= khởi hành.¶Kết hợp: 東京を発つ · 旅に発つ.¶Lưu ý: 発つ cùng âm với 立つ (đứng), 経つ (trôi qua).
+A31|2|Em gái bạn học khoa Văn đúng không? Chuyên ngành là gì?|専攻（せんこう）· CHUYÊN CÔNG = chuyên ngành.¶Kết hợp: 〜を専攻する · 専攻は経済です · 専攻科目.¶Các câu sai: 1 学部を専攻 không tự nhiên (phải 理工学部で〜を専攻) · 3 phải là 授業 · 4 phải là 提出した.
+A32|1|Tôi giỏi bơi.|得意（とくい）= giỏi, sở trường.¶Kết hợp: 〜が得意だ · 得意科目 · 得意げ (đắc ý).¶Các câu sai: 2 phải là スポーツが盛んな · 3 phải là 得（とく）だ = có lợi · 4 phải là 自慢した.
+A33|2|Làm xong việc này rồi ăn cơm thôi.|済ませる（すませる）= làm xong, giải quyết xong.¶Kết hợp: 食事を済ませる · 用事を済ませる · 手続きを済ませる.¶Các câu sai: 1 phải là 提出して · 3 phải là 書いてから · 4 phải là 卒業してから.
+A34|3|Với anh ấy, hằng năm tôi chỉ trao đổi thiệp chúc Tết.|やり取り = trao đổi qua lại (thư từ, lời nói).¶Kết hợp: 手紙のやり取り · メールのやり取り.¶Các câu sai: 1 phải là 使って · 2 phải là 復習した · 4 phải là 稼いで.
+A35|4|Sản phẩm mới bán chạy nên cửa hàng lãi to.|もうかる = có lời, lãi.¶Kết hợp: 商売がもうかる · もうけ (tiền lời) · もうける (kiếm lời).¶Các câu sai: 1 lãi nhiều thì không cần tiết kiệm · 2 khách ít thì không lãi · 3 phải là 足りなくなった.
+B1|2|Cho tôi đỗ xe ở đây chỉ 30 phút được không?|Cấu trúc: Vさせてもらえませんか = cho phép tôi ~ được không (xin phép lịch sự).¶止める (tha động từ) → 止めさせて.¶Các đáp án khác: 止められて (bị động) · 止まらせて (止まる là tự động từ, không hợp).
+B2|3|Sao không cố sửa chỗ sai đi?|Cấu trúc: Vよう＋とする = cố gắng ~ / định ~. 直す → 直そう.¶Phân biệt: 直る (tự động từ) → 直ろう sai ngữ cảnh.
+B3|4|Định nói thêm thì điện thoại bị ngắt mất.|Cấu trúc: Vて＋しまう → văn nói 〜ちゃう. 切れる → 切れちゃった (bị ngắt mất).¶Ngữ pháp: Vようとしたら = vừa định ~ thì.
+B4|2|Như có thể thấy qua biểu đồ này, dân số đang giảm.|Cấu trúc: 〜ように = như (đã nói, như thấy). グラフからも分かるように.¶Các đáp án khác: ために = để / vì · らしく = ra vẻ · みたい (không đi trực tiếp).
+B5|4|Tôi tiết kiệm để có thể mua được xe mới.|Cấu trúc: V (khả năng)＋ように = để có thể ~. 買える＋ように.¶Lưu ý: trước ように dùng động từ không ý chí (khả năng, tự động từ).
+B6|1|Làm cho tôi kiểu tóc giống như ảnh này.|Cấu trúc: Nみたいな＋N = N giống như (văn nói của のような).¶Phân biệt: みたいに＋động từ/tính từ.
+B7|4|Không chăm sóc cẩn thận thì cá vàng sẽ chết đấy.|Cấu trúc: Vでしまう → văn nói 〜じゃう. 死んでしまう → 死んじゃう.¶Lưu ý: động từ có て là で (死んで, 読んで) thì thành じゃう.
+B8|1|Không kịp mất đấy. Phải chuẩn bị nhanh lên!|Cấu trúc: Vないと = phải ~ (văn nói, bỏ いけない).¶Các đáp án khác: させて = cho tôi làm · ごらん = thử ~ xem · ちゃって = lỡ ~.
+B9|3|Ở nước các bạn, người Nhật nào được biết đến nhiều?|Cấu trúc: よく知られている = được biết đến rộng rãi (bị động của 知る).¶Các đáp án khác: 知らせる = thông báo (知らされる = được thông báo).
+B10|2|Tôi định tắm vòi sen thì nước không chảy.|Cấu trúc: Vよう＋とした = định ~ (thì việc khác xảy ra). 浴びる → 浴びよう.¶Kết hợp: シャワーを浴びる.
+B11|4|Gấp giấy origami như hình vẽ.|Cấu trúc: Nのように＋V = làm như N (theo mẫu).¶Các đáp án khác: っぽく = có vẻ · みたいな (đi với danh từ) · らしく = ra dáng.
+B12|4|Tiếng Nhật đã học thì hãy cố gắng dùng ngay.|Cấu trúc: Vる＋ようにする = cố gắng làm ~ (thành thói quen).¶Ví dụ cách dùng: 毎日運動するようにしている.
+B13|1|Sữa này hơi nhạt, cứ như nước.|Cấu trúc: N＋っぽい = có vẻ như N, có tính chất N (thường hơi chê). 水っぽい = loãng như nước.¶Phân biệt: らしい = đúng chất (男らしい).
+B14|1|Xe sản xuất ở đây được xuất khẩu sang nhiều nước.|Thứ tự đúng: 作られた 車は 多くの国に 輸出 (4-2-1-3). ★ là 多くの国に.¶Cấu trúc: bị động 輸出されている = được xuất khẩu.
+B15|3|Học sinh đó từ khi hiểu được tiếng Nhật hình như vui vẻ hẳn lên.|Thứ tự đúng: わかる ように なってから 明るくなった (4-2-3-1). ★ là なってから.¶Cấu trúc: Vるようになる = trở nên có thể ~ · Vてから = sau khi.
+B16|1|Sợ quên nên tôi đã ghi lại, vậy mà làm mất tờ ghi chú đó.|Thứ tự đúng: いけないから メモしといた のに そのメモを (3-2-1-4). ★ là のに.¶Cấu trúc: 〜といけないから = vì sợ ~ · しといた = しておいた · のに = vậy mà.
+B17|3|Đứa trẻ này nói năng như người lớn, chẳng ra dáng trẻ con.|Thứ tự đúng: 大人 みたいな 話し方をして 子ども (1-4-3-2). ★ là 話し方をして.¶Cấu trúc: Nらしくない = không ra dáng N.
+B18|4|Trong đợt giảm giá, chiếc áo tôi định mua đã bị người khác mua mất.|Thứ tự đúng: 思っていた シャツを ほかの人に 買われて (3-1-4-2). ★ là ほかの人に.¶Cấu trúc: bị động gây phiền: 〜に買われてしまう = bị (ai) mua mất.
+B19|2|Đối với tôi, chú như là anh trai.|Cấu trúc: Nにとって = đối với N (đánh giá, cảm nhận).¶Các đáp án khác: にして = với tư cách · にたいして = đối với (hướng hành động) · によって = tuỳ theo.
+B20|1|Hè và đông năm nào tôi cũng được ở nhờ nhà chú.|Cấu trúc: Vて＋もらう = được ai làm cho. 泊めてもらう = được cho ở nhờ.¶Các đáp án khác: くれて (người khác làm cho mình – chủ ngữ là chú) · いただいて quá trang trọng với người nhà · あげて ngược chiều.
+B21|3|Hồi tiểu học tôi cũng đã từng trượt tuyết một lần.|Cấu trúc: Vた＋ことがある = đã từng ~.¶Căn cứ: 一度だけ (chỉ một lần) → kinh nghiệm quá khứ.
+B22|4|Chú nói sẽ cho tôi học trượt ván tuyết.|Cấu trúc: Vさせて＋くれる = cho phép / tạo điều kiện cho mình ~. 習わせてくれる = cho tôi đi học.
+B23|3|Theo tin tức, mùa đông năm nay nhiều tuyết.|Cấu trúc: Nによると〜ということだ = theo N thì nghe nói ~.¶Các đáp án khác: について, に関して = về · にしたがうと không dùng.
+B24|2|Nội dung nào đúng với bài?|Căn cứ: 「このところ消費量が減り続けている」 → lượng tiêu thụ gạo đang tiếp tục giảm.¶Các đáp án khác: 1 bài nói cơm là thứ không thể thiếu · 3 không có · 4 60kg là hiện nay, 40 năm trước gấp đôi.¶Cấu trúc: 〜に過ぎない = chỉ là.
+B25|2|Nội dung nào đúng với thông báo?|Căn cứ: 「お年寄りからお子様までどなたでも参加できます」 → hội viên nào cũng tham gia được.¶Các đáp án khác: 1 sự kiện vừa chào mừng hội viên mới vừa giao lưu chung · 3 mưa thì huỷ · 4 không nói nộp tiền khi đăng ký.¶Cấu trúc: AとBを兼ね = kết hợp cả A và B.
+B26|1|Nội dung nào đúng với bài?|Căn cứ: 「これまでは、インクは色が変わらないのがいいとされ」 → trước nay mực đổi màu được coi là không tốt.¶Các đáp án khác: 2 bút xoá được đã bán ra · 3 nghiên cứu sôi nổi là để mực KHÔNG đổi màu · 4 bài không nói.¶Lưu ý: đáp án trong PDF ghi 3 là chưa đúng; đáp án đúng là 1.
+B27|4|Nội dung nào đúng với bài?|Căn cứ: 「冷房の設定温度は気温との差が5～6℃まで」 → nhiệt độ điều hoà nên thay đổi theo nhiệt độ ngoài trời.¶Từ vựng: 快適（かいてき）= dễ chịu · 体調を崩す = sinh bệnh · 望ましい = mong muốn, nên.
+B28|2|Vì sao lời "ngốc" lại được hiểu là nói với tình cảm, thiện ý?|Căn cứ: 「にこやかに笑いながらであれば」 → nói kèm nét mặt tươi cười → nét mặt, giọng nói truyền tải được cảm xúc.¶Từ vựng: けなす = chê bai · 好意 = thiện cảm · 愛情を込める = gửi gắm tình cảm.
+B29|1|Vì sao văn viết đáng sợ?|Căn cứ: 「話し言葉のニュアンスは、書き言葉ではよほどうまく表現しないかぎり伝わらない」 → bầu không khí, sắc thái khó truyền tải, dễ bị hiểu lầm.¶Cấu trúc: よほど〜ない限り = trừ khi ~ rất (khéo).
+B30|3|Nội dung nào đúng về nói và viết?|Căn cứ: sắc thái không có trong lời (nét mặt, giọng) truyền qua lời nói dễ hơn văn viết.¶Các đáp án khác: 1 "nói gì cũng được" sai · 2 ngược ý · 4 bài không nói.
+B31|2|"Giới trẻ gần đây không biết hội thoại" nghĩa là gì?|Căn cứ: 「相手にきちんと自分の意思を伝え、いい関係を作る能力が低下している」 → không truyền đạt tốt ý của mình.¶Từ vựng: 意思（いし）= ý định, ý muốn · 低下 = giảm sút.
+B32|2|Điều nào giải thích đúng đặc điểm siêu thị và cửa hàng nhỏ?|Căn cứ: vào cửa hàng nhỏ phải chào 「ごめんください」 thì bà chủ mới 「はーい」 đi ra → không chào thì người bán không ra.¶Các đáp án khác: 1 điều đó nói về cửa hàng nhỏ · 4 người bán vừa là nhân viên vừa là hàng xóm.
+B33|4|Điều nào KHÔNG có trong "những điều này"?|これら = chào khi vào, nói to cho nghe thấy, nói rõ món và số lượng với nụ cười. Bài không nói phải nhờ người bán lấy hàng → 4.
+B34|3|"Đến giờ rồi!" là giờ gì?|Căn cứ: mọi người đến khách sạn để ngắm mặt trời lặn; ngồi bên cửa sổ hồi hộp chờ 「ホラ、沈むわよ」 → giờ mặt trời lặn.¶Cụm: 固唾をのむ = nín thở chờ đợi.
+B35|1|Ai là người tò mò ở đây?|Căn cứ: người kể chuyện "tôi" là người mẹ (ママ) đang nghe con gái kể qua điện thoại, sốt ruột hỏi 「あら、何て言ったのよ」 → 好奇心剥き出し (tò mò ra mặt) là người mẹ.¶Lưu ý: đáp án trong PDF ghi 2 (Tetsuko) là chưa đúng; người tò mò là người nghe – người mẹ.
+B36|4|"Điều đó" chỉ cái gì?|Căn cứ: Tetsuko đề nghị 「明日の朝、また太陽が出るのを見ない？」 → người mẹ không thấy gì lạ ở việc hôm sau ngắm mặt trời mọc ở cùng chỗ.¶Từ vựng: 雑魚寝（ざこね）= ngủ chen chúc · 引っくり返る = ngã ngửa.
+B37|2|Câu thích hợp nhất điền vào ( ④ ).|Căn cứ: câu cuối 「太陽は東から昇って西に沈むんだものね」 → ở nơi ngắm mặt trời lặn (hướng Tây) thì chờ mặt trời mọc cũng vô ích.¶Cụm: 納得する = hiểu ra, thấy hợp lý.
+B38|2|Điều nào đúng với thông báo?|Tính: người lớn 1 + trẻ 8 tuổi; giảm giá trẻ em chỉ áp dụng cho trẻ từ 6 tuổi trở xuống → 4.000 × 2 = 8.000 yên.¶Các đáp án khác: 1 cuối tuần cùng giá · 3 không nhận phòng trước 18h · 4 ở 1 mình giá 7.000 yên.
+B39|3|Cách đặt nào đúng?|Điều kiện: 2 đêm từ 4/2 → trả phòng 6/2. Tàu đến Tokyo 18:10, ăn tối gần ga rồi mới đến khách sạn → nhận phòng khoảng 20 giờ (quá giờ hẹn có thể bị coi là huỷ nên phải ghi đúng giờ dự kiến).
