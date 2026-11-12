@@ -1005,7 +1005,7 @@ body.nlock{overflow:hidden}
 </div>
 
 <script src="app/data/lessons.js?v=3cff6f60"></script>
-<script src="app/data/exams.js?v=93a5d668"></script>
+<script src="app/data/exams.js?v=dc2b0183"></script>
 <script src="app/data/skills.js?v=d1153b37"></script>
 <script src="app/data/vocab.js?v=4314c895"></script>
 <script src="app/data/grammar.js?v=7e915ad4"></script>
@@ -1022,7 +1022,7 @@ const store={get(k){try{return localStorage.getItem(k)}catch(e){return null}},se
 function fnv(s){let h=0x811c9dc5;for(const c of new TextEncoder().encode(s)){h^=c;h=Math.imul(h,0x01000193)>>>0}return h.toString(16)}
 
 /* ===== popup khoe đề mới (sửa NEWX để đổi) ===== */
-const NEWX={until:'2026-11-30',ids:['jft-t1','jft-y1','jft-y2','jft-y3']};
+const NEWX={until:'2026-11-30',ids:['jft-ln1','jft-t1','jft-y1','jft-y2','jft-y3']};
 function newxWill(){try{return new Date()<=new Date(NEWX.until+'T23:59:59')&&typeof EXAMS!=='undefined'&&EXAMS.some(e=>NEWX.ids.includes(e.id))}catch(_){return false}}
 function newxShow(){try{if(document.getElementById('newx')||!newxWill())return;
  const L=NEWX.ids.map(id=>[EXAMS.findIndex(e=>e.id===id),id]).filter(x=>x[0]>=0);if(!L.length)return;
