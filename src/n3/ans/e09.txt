@@ -1,0 +1,75 @@
+# Đề 8 (PDF bộ 9). Mỗi câu: MÃ | đáp án (1-4) | dịch | giải thích (¶ = xuống dòng)
+A1|4|Sinh nhật tôi là ngày 20 tháng 3.|二十日（はつか）= ngày 20; 20 ngày.¶Cách đọc đặc biệt của ngày: 1日 ついたち · 2日 ふつか · 3日 みっか · 4日 よっか · 5日 いつか · 6日 むいか · 7日 なのか · 8日 ようか · 9日 ここのか · 10日 とおか · 14日 じゅうよっか · 20日 はつか · 24日 にじゅうよっか.
+A2|3|Tôi đã thấy loài cá lạ ở Indonesia.|珍しい（めずらしい）· TRÂN = hiếm, lạ.¶Kết hợp: 珍しい動物 · 珍しく早起きした (hiếm khi dậy sớm) · 〜は珍しくない (không hiếm).¶Các đáp án khác: うつくしい = đẹp · おそろしい = đáng sợ · すばらしい = tuyệt vời.
+A3|2|Đồ mua ở Nhật, tôi mang hết về Mỹ.|全て（すべて）· TOÀN = tất cả.¶Kết hợp: 全ての人 · 全てを話す · 全て終わった.¶Gần nghĩa: 全部 · みんな.¶Lưu ý: 全 còn đọc ぜん (全部), まったく (全く).
+A4|1|Tôi đã bị bệnh vì ăn kiêng quá sức.|無理（むり）· VÔ LÝ = quá sức, gượng ép.¶Kết hợp: 無理なダイエット · 無理をする · 無理しないで · 無理に〜する.¶Các đáp án khác: むだ = lãng phí · だめ = không được.
+A5|4|Ngày mai có thể có bão, hãy chú ý.|台風（たいふう）· ĐÀI PHONG = bão.¶Cách đọc: 台 đọc たい (không phải だい như 台所), 風 ふう.¶Kết hợp: 台風が来る · 台風が上陸する (bão đổ bộ) · 台風の影響 · 台風○号.
+A6|4|Mì udon nóng quá nên mãi không ăn được.|熱い（あつい）· NHIỆT = nóng (vật, đồ ăn, chạm vào).¶Phân biệt: 熱い = nóng (vật) · 暑い = nóng (thời tiết) · 厚い = dày.¶Kết hợp: 熱いお茶 · 熱いお風呂.
+A7|2|Cuối tuần tôi thường vận động.|運動（うんどう）· VẬN ĐỘNG = vận động, thể thao.¶Kết hợp: 運動する · 運動不足 · 運動会 (hội thao) · 適度な運動.¶Phân biệt: 運転（うんてん）= lái xe.
+A8|3|Tôi nấu ăn dở nên hay mua cơm hộp ở siêu thị.|弁当（べんとう）· BIỆN ĐƯƠNG = cơm hộp.¶Cách đọc: 弁 べん, 当 とう (trường âm).¶Kết hợp: お弁当を作る · 弁当箱 · 駅弁 (cơm hộp bán ở ga) · 手作り弁当.
+A9|4|Tôi đã lập kế hoạch học thế nào cho tới kỳ thi.|計画（けいかく）· KẾ HOẠCH.¶Chữ Hán: 計 (KẾ – tính, bộ ngôn 言 + 十). 評 (BÌNH), 訂 (ĐÍNH), 許 (HỨA) cùng bộ ngôn nhưng sai.¶Kết hợp: 計画を立てる · 計画通り · 計画的.
+A10|1|Tôi đã thuyết trình về núi Phú Sĩ trong lớp.|発表（はっぴょう）· PHÁT BIỂU = công bố, thuyết trình.¶Chữ Hán: 発 (PHÁT). 登 (ĐĂNG), 癸 trông giống nhưng sai.¶Kết hợp: 発表する · 研究発表 · 合格発表.
+A11|2|Mùa hè lại muốn uống bia lạnh.|冷たい（つめたい）· LÃNH = lạnh (khi chạm, đồ uống); lạnh lùng.¶Phân biệt: 冷たい = lạnh (vật) · 寒い = lạnh (thời tiết).¶Kết hợp: 冷たい水 · 冷たい人 (người lạnh lùng).
+A12|3|Ở đây cấm chụp ảnh.|禁止（きんし）· CẤM CHỈ = cấm.¶Kết hợp: 〜は禁止されている · 立入禁止 · 駐車禁止 · 撮影禁止.¶Các đáp án khác: 停止 = dừng · 防止 = phòng chống · 中止 = huỷ bỏ.
+A13|1|Công việc chưa xong nên phải làm thêm giờ.|残業（ざんぎょう）· TÀN NGHIỆP = làm thêm giờ.¶Kết hợp: 残業する · 残業代 · 残業が多い.¶Các đáp án khác: 残光, 残形, 残響 không phải từ thông dụng với nghĩa này.
+A14|3|Trong giờ thi hãy giữ yên lặng.|静か（しずか）· TĨNH = yên tĩnh.¶Kết hợp: 静かにする · 静かな町 · 静かに話す.¶Trái nghĩa: にぎやか（賑やか）· うるさい.
+A15|3|Tôi chạy thì kém nhưng bơi thì giỏi.|苦手（にがて）= kém, không giỏi.¶Cấu trúc: AはNですが、Bは得意です (đối lập 苦手 ↔ 得意).¶Các đáp án khác: 欠点 = khuyết điểm · 短所 = điểm yếu (tính cách) · 上手 = giỏi.
+A16|1|Cả ngày không gặp ai thì quả thật thấy cô đơn nhỉ.|やはり = quả thật, đúng như nghĩ.¶Cấu trúc: 〜ものですね = (cảm thán về lẽ thường) thật là ~.¶Các đáp án khác: それに = hơn nữa · すっかり = hoàn toàn · しかも = lại còn.
+A17|1|Hát trước nhiều người làm tôi hồi hộp.|どきどき = hồi hộp, tim đập thình thịch.¶Kết hợp: どきどきする · 胸がどきどきする.¶Các đáp án khác: ときどき = thỉnh thoảng · とんとん = cộc cộc (gõ) · どんどん = ào ào.
+A18|2|Tôi làm việc hằng ngày và nhận lương.|給料（きゅうりょう）= tiền lương.¶Kết hợp: 給料をもらう · 給料日 · 給料が上がる.¶Các đáp án khác: 頭金 = tiền trả trước · 家賃 = tiền nhà · 手数料 = phí dịch vụ.
+A19|1|Đã muộn thế này rồi. Vậy tôi xin phép về.|そろそろ = sắp, đã đến lúc.¶Kết hợp: そろそろ失礼します (câu xin về) · そろそろ始めましょう.¶Các đáp án khác: もしもし (điện thoại) · ようやく = mãi mới · ゆっくり = thong thả.
+A20|4|"Hôm qua cậu nghỉ, có chuyện gì vậy?" "Thật ra mẹ tớ bị ốm, tớ đưa mẹ đi viện."|実は（じつは）= thật ra là (mở đầu khi giải thích, thổ lộ).¶Các đáp án khác: 実際 = thực tế · 実質 = thực chất · 事実 = sự thật.
+A21|4|Nhiều người gật đầu tán thành ý kiến của anh ấy.|うなずく（頷く）= gật đầu.¶Kết hợp: 黙ってうなずく · 大きくうなずく.¶Các đáp án khác: うなる = rên · うやまう = kính trọng · うらやむ = ghen tị.
+A22|1|Đang thi công để dù bão đến nước sông cũng không tràn bờ.|あふれる = tràn ra.¶Kết hợp: 川があふれる · 涙があふれる · 人であふれる (đông nghịt).¶Các đáp án khác: あわてる = hoảng · あばれる = quậy phá · あれる = hoang tàn, (biển) động.
+A23|3|Thủ tướng xuất hiện là mọi người đồng loạt đứng dậy.|一斉に（いっせいに）= đồng loạt.¶Kết hợp: 一斉に立ち上がる · 一斉に走り出す.¶Các đáp án khác: いまにも = sắp · いちじ = tạm thời.
+A24|1|Đã đặt khách sạn, không biết huỷ được đến khi nào nhỉ.|取り消す（とりけす）= huỷ bỏ (đặt chỗ, lời nói).¶Kết hợp: 予約を取り消す · 発言を取り消す.¶Gần nghĩa: キャンセルする.¶Các đáp án khác: どける = dẹp ra · なくす = làm mất · なげる = ném.
+A25|2|"Công việc thế nào?" "Vẫn bận như mọi khi."|相変わらず（あいかわらず）= vẫn như mọi khi.¶Kết hợp: 相変わらず元気だ · 相変わらず忙しい.¶Các đáp án khác: あいにく = thật không may · あくまで = đến cùng · あたりまえ = đương nhiên.
+A26|3|Tôi nghĩ tàu sắp đến rồi đấy.|まもなく ≈ もうすぐ = sắp, chẳng mấy chốc.¶Kết hợp: まもなく電車が参ります (thông báo ở ga).¶Các đáp án khác: いまにも = sắp đến nơi (thường đi với そうだ) · やっと = mãi mới · ほとんど = hầu như.
+A27|4|Sản phẩm ở đây đều là hàng nhập khẩu.|すべて ≈ ぜんぶ = toàn bộ.¶Các đáp án khác: ほとんど = hầu hết · まるで = cứ như · たいてい = thường thì.
+A28|1|Anh Ono ngày nào cũng tập luyện chăm chỉ.|トレーニング ≈ 練習 = luyện tập.¶Kết hợp: トレーニングする · 筋力トレーニング.¶Gần nghĩa: 訓練.
+A29|2|Lần đầu đến đây nhưng tôi đã thích nơi này hẳn rồi.|気に入る ≈ 好きになる = thích, ưng ý.¶Kết hợp: すっかり気に入る · お気に入り.¶Các đáp án khác: くわしくなる = rành · いやになる = chán ghét · こわくなる = sợ.
+A30|4|Bố tôi thường xuyên đến thăm ngôi trường cũ.|たびたび ≈ しばしば = thường xuyên, nhiều lần.¶Các đáp án khác: そろそろ = sắp · つぎつぎ = lần lượt · たまたま = tình cờ.
+A31|2|Anh Yamamoto quê ở Kyushu nhưng lớn lên ở Osaka.|出身（しゅっしん）= quê quán, xuất thân.¶Kết hợp: 〜の出身だ · 〜出身 · 出身地 · 出身校.¶Các câu sai: 1 phải là 九州に住んでいる · 3 出身 không đi với 高い (có thể ý là 家賃が高い) · 4 phải là 出発して／卒業して.
+A32|3|Thú cưng nhỏ có thể nuôi dễ dàng đang được ưa chuộng.|手軽（てがる）= dễ dàng, đơn giản, không tốn công.¶Kết hợp: 手軽に作れる料理 · 手軽な値段 (giá phải chăng – dùng được nhưng câu 1 kém tự nhiên hơn câu 3) · 手軽に楽しめる.¶Các câu sai: 2 phải là 気さくな (dễ gần) · 4 phải là 親切に.
+A33|2|Bệnh cúm thoạt nhìn dễ nhầm với cảm thường.|一見（いっけん）= thoạt nhìn.¶Kết hợp: 一見〜だが (thoạt nhìn thì ~ nhưng) · 一見簡単そうだ.¶Các câu sai: 1, 3 phải là ご覧ください／見てもいいですか · 4 phải là 一度見る.
+A34|1|Người kia chắc chắn là anh Yamada.|確かに（たしかに）= chắc chắn, đúng là.¶Kết hợp: 確かに受け取りました (tôi đã nhận được rồi) · 確かにそうだ.¶Các câu sai: 2 phải là 確かめました · 3 phải là 予定通り · 4 mâu thuẫn với かもしれない.
+A35|2|Tưởng là đã cẩn thận rồi mà vẫn bị cảm.|Vた＋つもり = cứ tưởng là đã ~ (thực tế không như vậy).¶Kết hợp: 〜たつもりだったが · 〜するつもりだ (định ~).¶Các câu sai: 1 phải là 予定がある · 3 phải là 結婚するつもり · 4 (khen thật) phải là 上手に描けて.
+B1|2|Nếu đỗ đại học thì vui biết bao.|Cấu trúc: どんなに〜ことか = ~ biết bao nhiêu (cảm thán).¶Ví dụ cách dùng: どんなに心配したことか.
+B2|1|Ở Nhật từ tháng 6 đến tháng 7 kéo dài những ngày mưa nhiều.|Cấu trúc: AからBにかけて = từ A đến B (khoảng thời gian, không gian không rõ mốc).¶Lưu ý: các lựa chọn 2–4 trong PDF bị in nhầm từ câu khác, em thay bằng lựa chọn hợp lệ; đáp án vẫn là 1.
+B3|4|Tôi nghĩ một lúc nào đó sẽ làm việc ở nước ngoài.|Cấu trúc: Vよう（ý chí）＋と思っている = định ~. する → しよう.
+B4|3|"Mai 9 giờ xuất phát nên đừng đến muộn nhé." "Vâng."|Cấu trúc: Vない＋ように = hãy ~ (nhắc nhở, bỏ lửng ください／してください).
+B5|1|Biết cả tiếng Anh, Trung, Tây Ban Nha thì thật tuyệt.|Cấu trúc: 普通形＋なんて = (ngạc nhiên, cảm thán) việc ~ thì thật là.¶Các đáp án khác: なんと = thật là (đầu câu) · など = vân vân · なんか = mấy cái như.
+B6|2|Học đúng như thầy nói thì sẽ đạt điểm tốt.|Cấu trúc: Vる／Vた＋とおりに = đúng như ~.¶Các đáp án khác: うちに = trong lúc · ことに = thật là · うえに = hơn nữa.
+B7|4|Bây giờ có cố học thì cũng không kịp bài kiểm tra nữa.|Cấu trúc: Vた＋ても = dù ~ thì cũng (勉強したって／しても).¶Các đáp án khác: っけ = nhỉ (hỏi lại) · のに = vậy mà · って = nghe nói.
+B8|4|Đã bật công tắc mà không chạy. Có vẻ hỏng rồi.|Cấu trúc: 普通形＋みたいだ = có vẻ như (phán đoán, văn nói).¶Các đáp án khác: のようだ phải là 壊れているようだ (không có の) · だっけ = nhỉ · べきだ = nên.
+B9|4|"Ơ, trên lưng anh dính rác kìa." "A, xin lỗi."|Cấu trúc: Vている = trạng thái (tự động từ): ごみがついている = có rác dính.¶Phân biệt: つける là tha động từ; ついておく sai.
+B10|3|A, sắp sinh nhật anh ấy. Phải đi mua quà thôi.|Cấu trúc: Vなきゃ = Vなければ（ならない）(văn nói: phải ~).¶Các đáp án khác: っけ = nhỉ · ちゃ = ては · っきゃ = chỉ còn cách (しかない) – không hợp.
+B11|1|Bữa tối tôi thường ăn ở nhà, nhưng thỉnh thoảng cũng có khi ăn nhà hàng.|Cấu trúc: Vる＋こともある = cũng có khi ~.
+B12|3|Nhờ anh Kimura giúp mà công việc xong sớm.|Cấu trúc: Vた＋おかげで = nhờ ~ (kết quả tốt).¶Phân biệt: せいで = tại (kết quả xấu).
+B13|1|Nghỉ việc rồi ngày nào cũng rảnh chán không chịu nổi.|Cấu trúc: 〜てしょうがない／〜でしょうがない = ~ không chịu nổi (cảm xúc mạnh). ひまでしょうがない.¶Các đáp án khác: べきではない = không nên · はずがない = không thể nào · わけじゃない = không hẳn.
+B14|4|Bạn có biết đó là bức tranh do Picasso vẽ không?|Thứ tự đúng: かいた 絵だ という こと (3-1-4-2). ★ là という.¶Cấu trúc: 〜ということを知っている = biết rằng ~.
+B15|3|Không phải cứ thích bóng đá là đá bóng giỏi.|Thứ tự đúng: といって サッカーが 上手な わけ (4-2-3-1). ★ là 上手な.¶Cấu trúc: 〜からといって〜わけじゃない = không phải cứ ~ là ~.
+B16|4|Anh Kawada sống trong ngôi nhà to như thế thì chắc chắn là giàu.|Thứ tự đúng: 大きい家に 住んでいる のだから お金持ち (2-1-4-3). ★ là のだから.¶Cấu trúc: 〜のだから〜に違いない = vì ~ nên chắc chắn ~.
+B17|3|Tôi đến muộn buổi hẹn là vì ngủ quên.|Thứ tự đúng: 遅れた のは 寝坊した から (2-4-3-1). ★ là 寝坊した.¶Cấu trúc: 〜のは〜からだ = sở dĩ ~ là vì ~.
+B18|1|Tối nay có nguy cơ bão đến, xin hãy cẩn thận.|Thứ tự đúng: 台風が 来る おそれが ある (4-2-1-3). ★ là おそれが.¶Cấu trúc: Vる＋おそれがある = có nguy cơ ~ (việc xấu, văn trang trọng).
+B19|3|Tự nhiên thấy thèm kem nên đi cửa hàng tiện lợi.|Cấu trúc: Vたく＋なる = trở nên muốn ~. 食べたくなった = thấy thèm ăn.¶Các đáp án khác: たがった dùng cho người khác · ようになった = đã trở nên (thói quen) · ことになった = được quyết định.
+B20|1|Định trả tiền thì không thấy ví.|Cấu trúc: Vよう＋としたら = vừa định ~ thì (có chuyện bất ngờ).¶Các đáp án khác: 4 最中に = đúng lúc đang (chưa bắt đầu trả).
+B21|4|"Lạ thật, chắc chắn mình đã bỏ ví vào túi quần rồi mà."|Cấu trúc: Vた＋はずなのに = chắc chắn là đã ~ vậy mà. 入れたはずなのに.¶Các đáp án khác: ことがある = đã từng · に過ぎない = chỉ là · べき = nên.
+B22|3|Bị người xếp hàng sau nhìn chằm chằm, rồi bị nhân viên thu ngân hỏi "Quý khách tính sao ạ?", tôi rất xấu hổ.|Cấu trúc: bị động 言われる (bị nói) + し liệt kê lý do, song song với 見られてしまったし.¶Lưu ý: trong PDF lựa chọn 3 in thiếu し ("言われた"), đáp án ghi 1 (言ってくれた – được nói giúp, mang nghĩa biết ơn) không hợp với cảm giác xấu hổ; em sửa thành 言われたし và chọn 3.
+B23|1|Về nhà tìm ví thì ví nằm trong cặp!|Cấu trúc: Vた＋ところ = sau khi ~ thì (phát hiện ra).¶Các đáp án khác: のに = vậy mà · ないうちに = trước khi · せいで = tại.
+B24|3|Nội dung nào đúng với bài?|Căn cứ: người phụ nữ nói 「ストレスがあると食べすぎちゃって太る」 → căng thẳng vẫn ăn nhiều.¶Các đáp án khác: 1, 2 người đàn ông không ốm · 4 sút cân là kết quả của stress.¶Cụm: ストレスを解消する = giải toả căng thẳng.
+B25|1|Điều người viết muốn nói là gì?|Tính: nam 79 tuổi − 25 năm = 54 tuổi; nữ 86 − 35 = 51 tuổi; chồng nói 「50過ぎてから」 → cả hai đều ngoài 50.¶Các đáp án khác: 2 vợ trẻ hơn · 3 bài không nói · 4 vợ muốn tự đi học.¶Lưu ý: đáp án trong PDF ghi 3 là chưa đúng; đáp án đúng là 1.
+B26|4|Nội dung nào đúng với bài?|Căn cứ: Ken nói 「離婚しちゃえばいいんだよ」 → Ken nghĩ bố mẹ ly hôn cũng được.¶Các đáp án khác: 1 người bận là bố của Ken · 2 mẹ nói 「そういうわけにはいかない」 · 3 Ken bất mãn với bố.
+B27|2|Nội dung nào đúng với bài?|Căn cứ: Yamada nói với Nakamura 「遅刻しないで済んだのはおれのおかげだからな」 → Nakamura cũng nhờ đi nhờ xe Yamada mà không bị muộn.¶Các đáp án khác: 1 cả hai đi nhờ xe Yamada · 3 ngược lại, Nakamura bị bắt trả tiền · 4 người khao ở nhà hàng là Tanaka.
+B28|2|Nội dung nào đúng với bài?|Căn cứ: 「人が懸命に走る姿を見るとき…心を動かされる」 → hình ảnh người chạy làm người khác cảm động.¶Các đáp án khác: 1 bài nói không cần dạy · 3 không có · 4 bài nói từ chạy ngắn đến marathon đều được ưa chuộng.
+B29|4|Từ có thể thay cho "ただし" là gì?|ただし = có điều, tuy nhiên (bổ sung điều kiện, ngoại lệ) → gần với しかし.¶Ý câu: đi và chạy thì tự nhiên ai cũng làm được; nhưng chạy nhanh thì chênh lệch giữa người với người rất lớn.
+B30|3|"Bản thân" ở đây là ai?|Căn cứ: 「それを見守る人たちの心にも大きな感動を与え、自分も何かをなしとげるため努力しようという意欲をかきたてる」 → người đang xem người khác chạy.¶Từ vựng: なしとげる = hoàn thành · 意欲 = động lực · かきたてる = khơi dậy.
+B31|3|Mở cửa nhà vệ sinh thì điều gì xảy ra?|Căn cứ: 「トイレのドアを開けたら、自動的に便器のふたが開き」.¶Các đáp án khác: 1 bệ ấm khi chạm vào · 2 nước ấm khi bấm nút · 4 nắp đóng khi đứng dậy.
+B32|2|Vì sao bắt đầu phát triển bồn cầu?|Căn cứ: hai lý do: hệ thống cống được xây dựng, bồn cầu xả nước phổ biến; và bồn cầu kiểu Tây phổ biến.¶Từ vựng: 下水道 = cống thoát nước · 整備 = xây dựng hoàn chỉnh · 洋式トイレ = bồn cầu kiểu Tây.
+B33|3|Tiêu đề phù hợp nhất là gì?|Căn cứ: bài nói về bồn cầu hiện đại với nhiều chức năng, và quá trình phát triển trong 30 năm → "Bồn cầu ngày càng tiến hoá".¶Các đáp án khác: 1 rộng quá · 2, 4 không phải ý chính.
+B34|2|"Việc này" chỉ cái gì?|Căn cứ: câu trước 「タタミを乾燥させるために、家の中からタタミを外に出す」 → đem tatami ra ngoài phơi.¶Từ vựng: 乾燥（かんそう）= làm khô · 光景 = cảnh tượng.
+B35|4|"Tatami dần dần không còn thấy nữa" nghĩa là gì?|Ý câu: lối sống ngồi, ăn, ngủ trên tatami không còn → tatami ít được dùng.
+B36|3|Tatami ngày xưa là thứ thế nào?|Căn cứ: 「床に敷く布や毛布のようなものをタタミと呼んでいた…使わない時はたたんでしまっていた」 → lúc không dùng thì gấp lại cất đi (nên gọi là タタミ từ たたむ).
+B37|2|Ý chính đoạn 4 là gì?|Căn cứ: đoạn 4 (bài thơ cổ về người đi xa) kết luận 「昔は、タタミはひとりひとりが自分だけで使うものだったのである」 → mỗi người có tatami riêng.¶Các đáp án khác: 3 là ý của đoạn cuối, không phải đoạn 4.¶Lưu ý: đáp án trong PDF ghi 3 là chưa đúng với câu hỏi về đoạn 4; đáp án đúng là 2.
+B38|4|Kamakura là nơi thế nào?|Căn cứ: 「古い料亭や和菓子などがあり、おいしい食べ物に出会えます」「多くのお寺があります」.¶Các đáp án khác: 1 có Mạc phủ, lịch sử lâu đời · 2 còn nhiều thiên nhiên · 3 lá đỏ là mùa thu.
+B39|3|Giải thích đúng về chi phí tour là gì?|Căn cứ: 「費用 3,300円（電車賃、昼ご飯代）」 → gồm tiền tàu và tiền ăn trưa.

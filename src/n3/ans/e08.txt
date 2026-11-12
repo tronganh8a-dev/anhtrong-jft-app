@@ -72,4 +72,4 @@ B35|3|"目くじらを立てる" nghĩa là gì?|目くじらを立てる = như
 B36|4|Người "hẹp hòi" là người thế nào?|心が狭い = hẹp hòi, không bao dung → người không thể tha thứ.¶Trái nghĩa: 心が広い = rộng lượng.
 B37|3|Nội dung nào đúng với bài?|Căn cứ: 「10分後に行く人から午後7時ちょうどに行く人まで答えも様々ですが、その理由も様々」 → có người cho 7h10 là lịch sự, có người cho là thất lễ.¶Các đáp án khác: 1 bài nói cảm nhận về thời gian khác nhau theo văn hoá, không phải "nước nào cũng vậy" · 4 không phải mọi nước.¶Lưu ý: đáp án trong PDF ghi 1 là chưa đúng; đáp án đúng là 3.
 B38|3|Thi công gas dự kiến khi nào?|Căn cứ: 「9月17日（木）に工事をする予定」「予定時間 9：00から17：00まで」.¶Lưu ý: 16–19/9 là khoảng thời gian có thể thi công (nếu mưa sẽ đổi ngày); 9:00–18:00 là giờ văn phòng tiếp nhận hỏi đáp.
-B39|4|Ngày thi công, xe cộ đi lại thế nào?|Căn cứ: mục 車の通行について: 「道路の片側だけ車が通れます」.¶Các đáp án khác: 3 là thông tin cho người đi bộ.
+B39|4|Ngày thi công, xe cộ đi lại thế nào?|Căn cứ: mục 車の通行について: 「道路の片側だけ車が通れます」.¶Các đáp án khác: 3 là thông tin cho người đi bộ (歩行者の通路).¶Lưu ý: đáp án trong PDF ghi 3 là chưa đúng vì câu hỏi về xe cộ; đáp án đúng là 4.
