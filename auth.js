@@ -84,6 +84,30 @@ export class Phien {
       }
       return new Response(JSON.stringify(cur));
     }
+    // (12/11) dùng cùng lúc 2 thiết bị → đá cả hai, khoá tài khoản 5 phút (giống app Gino)
+    const S = this.ctx.storage, now = Date.now();
+    if (u.pathname === '/claim') {   // đăng nhập: máy KHÁC (mã thiết bị did khác) còn mở app trong ACTIVE ms → khoá; còn lại máy mới thay máy cũ
+      const sid = u.searchParams.get('sid'), dev = u.searchParams.get('dev') || '', did = u.searchParams.get('did') || '';
+      const lk = (await S.get('lock')) || 0;
+      if (lk > now) return Response.json({ lock: lk });
+      const c = await S.get('cur');
+      if (c && c.sid && c.did && c.did !== did && now - (c.seen || c.at) < ACTIVE) {
+        await S.delete('cur'); await S.put('sid', 'khoa'); await S.put('lock', now + LOCK);
+        return Response.json({ lock: now + LOCK });
+      }
+      await S.put('cur', { sid, dev, did, at: now, seen: now }); await S.put('sid', sid);
+      return Response.json({ ok: 1 });
+    }
+    if (u.pathname === '/st') return Response.json({ sid: (await S.get('sid')) || '', lock: (await S.get('lock')) || 0 });
+    if (u.pathname === '/touch') {   // máy đang mở app báo "còn hoạt động" (ghi tối đa 1 lần / 45 giây)
+      const c = await S.get('cur'), sid = u.searchParams.get('sid');
+      if (c && c.sid === sid && now - (c.seen || 0) > 45e3) { c.seen = now; await S.put('cur', c); }
+      return new Response('ok');
+    }
+    if (u.pathname === '/drop') {    // đăng xuất
+      const c = await S.get('cur'); if (c && c.sid === u.searchParams.get('sid')) { await S.delete('cur'); await S.put('sid', ''); }
+      return new Response('ok');
+    }
     if (req.method === 'PUT') { await this.ctx.storage.put('sid', u.searchParams.get('sid')); return new Response('ok'); }
     return new Response((await this.ctx.storage.get('sid')) || '');
   }
@@ -92,19 +116,35 @@ export class Phien {
 const batMotMay = env => String(env.MOTMAY || '').trim() !== '0';
 const nhieuMay = (env, u) => String(env.NHIEUMAY || '').toLowerCase().split(/[\s,;]+/).includes(u);
 const phien = (env, u) => env.PHIEN.get(env.PHIEN.idFromName(u));
+const ACTIVE = 150e3, LOCK = 5 * 60e3;   // máy coi là "đang dùng" nếu mở app trong 2,5 phút gần nhất; khoá 5 phút
+async function trangThai(env, u) { try { return await (await phien(env, u).fetch('https://p/st')).json(); } catch { return null; } }
+async function giuPhien(env, u, sid, dev, did) {   // → { ok } | { lock }
+  try { return await (await phien(env, u).fetch('https://p/claim?' + new URLSearchParams({ sid, dev, did }), { method: 'POST' })).json(); } catch { return { ok: 1 }; }
+}
+async function baoHoatDong(env, s) { try { await phien(env, s.u).fetch('https://p/touch?sid=' + encodeURIComponent(s.sid), { method: 'POST' }); } catch {} }
+async function boPhien(env, s) { try { await phien(env, s.u).fetch('https://p/drop?sid=' + encodeURIComponent(s.sid), { method: 'POST' }); } catch {} }
+function tenMay(req) {
+  const ua = req.headers.get('User-Agent') || '';
+  const os = /iPhone/.test(ua) ? 'iPhone' : /iPad/.test(ua) ? 'iPad' : /Android/.test(ua) ? 'Android' : /Windows/.test(ua) ? 'Windows' : /Mac OS X|Macintosh/.test(ua) ? 'Mac' : /Linux/.test(ua) ? 'Linux' : 'Thiết bị khác';
+  const br = /Edg\//.test(ua) ? 'Edge' : /CriOS|Chrome\//.test(ua) ? 'Chrome' : /FxiOS|Firefox\//.test(ua) ? 'Firefox' : /Safari\//.test(ua) ? 'Safari' : '';
+  return br ? `${os} · ${br}` : os;
+}
 async function sidHienTai(env, u) {
   try { return await (await phien(env, u).fetch('https://p/')).text(); } catch { return null; }
 }
 async function datSid(env, u, sid) {
   try { await phien(env, u).fetch('https://p/?sid=' + encodeURIComponent(sid), { method: 'PUT' }); } catch {}
 }
-// true = phiên này đã bị thiết bị khác thay thế
+// false = còn hiệu lực; { lock } = phiên này đã bị thiết bị khác thay thế (lock > 0: tài khoản đang bị khoá tạm)
 async function biDay(env, s) {
   if (!batMotMay(env) || !env.PHIEN || nhieuMay(env, s.u)) return false;
-  const cur = await sidHienTai(env, s.u);
-  return cur !== null && cur !== '' && cur !== s.sid;
+  const t = await trangThai(env, s.u);
+  if (!t || t.sid === '' || t.sid === s.sid) return false;
+  return { lock: t.lock > Date.now() ? t.lock : 0 };
 }
 const KICK = 'Tài khoản này vừa được đăng nhập trên thiết bị khác. Mỗi tài khoản chỉ dùng được trên 1 thiết bị cùng lúc.';
+const LOCKMSG = m => `Tài khoản đang được dùng cùng lúc trên 2 thiết bị nên cả hai đã bị đăng xuất. Tài khoản bị khoá tạm, vui lòng đợi ${m} phút rồi đăng nhập lại. Mỗi tài khoản chỉ dùng trên 1 thiết bị.`;
+const mins = until => Math.max(1, Math.ceil((until - Date.now()) / 60e3));
 
 // Watermark tên tài khoản + chống sao chép: chèn /app/bv.js vào mọi trang HTML của người đã đăng nhập
 function bv(res, u) {
@@ -203,9 +243,16 @@ export async function handle(req, env, next) {
     if (!pass || pass !== p) return loginPage('Sai tài khoản hoặc mật khẩu.', u, dest, url.origin);
     const exp = Date.now() + DAYS * 864e5;
     const sid = crypto.randomUUID().replace(/-/g, '').slice(0, 16);
-    if (batMotMay(env) && env.PHIEN && !nhieuMay(env, u)) await datSid(env, u, sid);
+    const did = /^[0-9a-f]{32}$/.test(getCookie(req, 'jft_dev') || '') ? getCookie(req, 'jft_dev') : crypto.randomUUID().replace(/-/g, '');   // mã thiết bị
+    const devCookie = `jft_dev=${did}; Path=/; Max-Age=31536000; HttpOnly; Secure; SameSite=Lax`;
+    if (batMotMay(env) && env.PHIEN && !nhieuMay(env, u)) {
+      // máy khác đang mở app bằng tài khoản này → đá cả hai ra, khoá 5 phút; máy cũ đã tắt app / cùng máy → máy mới thay máy cũ
+      const r = await giuPhien(env, u, sid, tenMay(req), did);
+      if (r.lock) { const lp = loginPage(LOCKMSG(mins(r.lock)), u, dest, url.origin); lp.headers.append('Set-Cookie', devCookie); return lp; }
+    }
     const val = `${u}|${exp}|${sid}|${await sign(env, `${u}|${exp}|${sid}|${pass}`)}`;
     const h = new Headers({ Location: dest, 'Cache-Control': 'no-store' });
+    h.append('Set-Cookie', devCookie);
     h.append('Set-Cookie', `${COOKIE}=${encodeURIComponent(val)}; Path=/; Max-Age=${DAYS * 86400}; HttpOnly; Secure; SameSite=Lax`);
     h.append('Set-Cookie', `jft_user=${encodeURIComponent(u)}; Path=/; Max-Age=${DAYS * 86400}; Secure; SameSite=Lax`);
     // vé dùng 1 lần: mở app ngay sau khi đăng nhập; tải lại trang = phải đăng nhập lại
@@ -216,6 +263,8 @@ export async function handle(req, env, next) {
   }
 
   if (url.pathname === '/logout') {
+    const s0 = await session(req, env);
+    if (s0 && env.PHIEN && batMotMay(env) && !nhieuMay(env, s0.u)) await boPhien(env, s0);
     const h = new Headers({ Location: '/login', 'Cache-Control': 'no-store' });
     h.append('Set-Cookie', `${COOKIE}=; Path=/; Max-Age=0; HttpOnly; Secure; SameSite=Lax`);
     h.append('Set-Cookie', `jft_user=; Path=/; Max-Age=0; Secure; SameSite=Lax`);
@@ -225,7 +274,15 @@ export async function handle(req, env, next) {
 
   if ((url.pathname.startsWith('/app/media/cover/') || url.pathname.startsWith('/app/media/brand/') || url.pathname === '/favicon.ico') && req.method === 'GET') return next();
   if (url.pathname === '/login' && req.method === 'GET') {
-    const lp = loginPage(url.searchParams.get('kick') ? KICK : '', '', safeNext(url.searchParams.get('next')), url.origin);
+    let msg = '';
+    if (url.searchParams.get('kick')) {   // bị đẩy ra: nếu tài khoản đang bị khoá tạm thì báo số phút còn lại
+      msg = KICK;
+      const s0 = await session(req, env), lk = Number(url.searchParams.get('l') || 0);
+      const t = s0 && env.PHIEN ? await trangThai(env, s0.u) : null;
+      const until = Math.max(lk, t && t.lock || 0);
+      if (until > Date.now()) msg = LOCKMSG(mins(until));
+    }
+    const lp = loginPage(msg, '', safeNext(url.searchParams.get('next')), url.origin);
     return url.searchParams.get('kick') ? new Response(lp.body, { status: 200, headers: lp.headers }) : lp;
   }
   const ses = await session(req, env);
@@ -241,10 +298,14 @@ export async function handle(req, env, next) {
   const isDoc = req.method === 'GET' && (dest === 'document' || (!dest && (req.headers.get('Accept') || '').includes('text/html')));
   // 1 tài khoản = 1 thiết bị: kiểm tra khi mở trang, tải dữ liệu, gọi API và nhịp kiểm tra định kỳ /api/phien
   if (isDoc || url.pathname.startsWith('/app/data/') || url.pathname.startsWith('/api/') || url.pathname.startsWith('/kiemtra/ketqua')) {
-    if (await biDay(env, ses)) {
-      if (isDoc) return new Response(null, { status: 302, headers: { Location: '/login?kick=1', 'Cache-Control': 'no-store' } });
-      return new Response(JSON.stringify({ kick: 1, e: KICK }), { status: 401, headers: { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store' } });
+    const k = await biDay(env, ses);
+    if (k) {
+      const q = k.lock ? `kick=2&l=${k.lock}` : 'kick=1';
+      if (isDoc) return new Response(null, { status: 302, headers: { Location: '/login?' + q, 'Cache-Control': 'no-store' } });
+      return new Response(JSON.stringify({ kick: 1, lock: k.lock, e: k.lock ? LOCKMSG(mins(k.lock)) : KICK }), { status: 401, headers: { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store' } });
     }
+    // máy này còn đang mở app (nhịp /api/phien mỗi 60 giây + mỗi lần mở trang)
+    if ((isDoc || url.pathname === '/api/phien') && batMotMay(env) && env.PHIEN && !nhieuMay(env, ses.u)) await baoHoatDong(env, ses);
   }
   if ((url.pathname === '/api/tiendo' || url.pathname === '/api/so') && env.PHIEN) {
     const r = await phien(env, user).fetch(url.pathname === '/api/so' ? 'https://p/so' : 'https://p/td', req.method === 'POST' ? { method: 'POST', body: await req.text() } : {});
