@@ -76,6 +76,11 @@ Quy trình sau khi sửa: `python3 src/build_data.py` (nếu đổi dữ liệu)
 - **Bảo vệ nội dung** (11/11): auth.js (hàm `bv`) chèn `window.__WM=<tên tài khoản>` + `/app/bv.js` vào MỌI trang HTML đã đăng nhập (app, tailieu, lessons, btvn, iframe) → watermark "tên · Anh Trọng Dạy JFT · ngày giờ" phủ kín màn hình (tự gắn lại nếu bị xoá, theo cả toàn màn hình); chặn chuột phải, bôi đen, copy, kéo ảnh, Ctrl+S/U/P, F12/Ctrl+Shift+I/J/C; In bị chặn (trừ BTVN: in được, watermark in kèm); PrintScreen → màn đen 1,5s. Đổi bv.js thì tăng `?v=` trong auth.js. Bản demo không có.
 - `/app/media/cover/*` công khai (ảnh bìa ở trang đăng nhập). Trang đăng nhập dùng font M PLUS Rounded 1c, có bìa sách + nút Facebook/TikTok.
 
+## Tiến độ học theo tài khoản (12/11)
+- Lưu: đề đã mở, đề đã làm (số lần, điểm cao nhất/lần cuối), video đã xem (% xa nhất, ✓ khi ≥90% hoặc xem hết). Biến `TD={ex:{id:{o,lo,n,b,l,t}},vid:{id:{p,d,t}}}` trong index_tpl (khối "tiến độ học theo tài khoản"); bộ nhớ đệm localStorage `jftTD_<user>`.
+- Máy chủ: `GET/POST /api/tiendo` (auth.js) → Durable Object `Phien` của tài khoản, khoá `td`; hàm `gopTD` gộp kiểu lấy số lớn nhất nên không bao giờ mất tiến độ. Không cần tạo D1.
+- Hiển thị: thẻ "Tiến độ học của em" trên trang chủ (`#tdCard`: % tổng = (đề đã làm + video đã xem)/(tổng đề + tổng video có yt), 3 ô Đề đã làm / Đề đã mở / Video đã xem, đề làm gần đây); nhãn trên thẻ đề và thẻ video. Chưa có trang giáo viên xem tiến độ.
+
 ## Bài kiểm tra theo buổi (26/10)
 - Link làm bài **công khai, không cần đăng nhập**: `/kiemtra/<id>` (vd `/kiemtra/buoi04`) – file `public/kiemtra/<id>.html` (KHÔNG chứa đáp án).
 - Nộp: `POST /api/kiemtra/nop` → `kiemtra.js` chấm theo `kiemtra/<id>.json` (đáp án + giải thích, ngoài public/, import qua `kiemtra/tests.js`) → lưu vào Durable Object `KiemTra` (SQLite, binding `KT`, khai báo trong wrangler.jsonc, migration v1).
@@ -104,7 +109,7 @@ Quy trình sau khi sửa: `python3 src/build_data.py` (nếu đổi dữ liệu)
 
 ## 7. Việc đang chờ
 - **Đề thi mới**: chờ anh gửi đề; nhập vào app kèm đáp án + giải thích (xem mục 5). Không dùng vnjpclub/Minna.
-- **Cá nhân hoá (lưu tiến độ, bài làm theo tài khoản)**: dự định dùng Cloudflare D1 — chờ anh tạo D1 Database ID + tên tài khoản giáo viên.
+- **Cá nhân hoá**: đã lưu tiến độ (12/11, xem mục Tiến độ). Còn có thể làm: trang giáo viên xem tiến độ từng học viên.
 - Tuỳ chọn: áp font M PLUS Rounded 1c cho toàn app (đã đề xuất, chưa chốt).
 - Video quảng bá/thumbnail còn nhắc "20 đề thi thử" — bộ đề cũ đã xoá.
 

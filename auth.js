@@ -50,10 +50,29 @@ export async function currentUser(req, env) {
 
 // ---- Giới hạn 1 thiết bị: mỗi tài khoản 1 Durable Object nhỏ giữ mã phiên mới nhất ----
 // Đăng nhập máy mới → mã phiên đổi → máy cũ bị đẩy ra. Tài khoản trong biến NHIEUMAY (vd "anhtrong,giaovien") được dùng nhiều máy.
+// gộp tiến độ: số lấy lớn nhất, object gộp đệ quy (không bao giờ làm mất tiến độ cũ)
+function gopTD(a, b) {
+  if (typeof a === 'number' && typeof b === 'number') return Math.max(a, b);
+  if (a && b && typeof a === 'object' && typeof b === 'object' && !Array.isArray(a) && !Array.isArray(b)) {
+    const o = { ...a }; for (const k of Object.keys(b)) o[k] = k in a ? gopTD(a[k], b[k]) : b[k]; return o;
+  }
+  return b === undefined ? a : b;
+}
 export class Phien {
   constructor(ctx) { this.ctx = ctx; }
   async fetch(req) {
     const u = new URL(req.url);
+    if (u.pathname === '/td') { // tiến độ học của tài khoản (12/11)
+      const cur = (await this.ctx.storage.get('td')) || {};
+      if (req.method === 'POST') {
+        const body = await req.text();
+        if (body.length > 200000) return new Response('too big', { status: 413 });
+        let inc = {}; try { inc = JSON.parse(body) || {}; } catch {}
+        const m = gopTD(cur, inc); await this.ctx.storage.put('td', m);
+        return new Response(JSON.stringify(m));
+      }
+      return new Response(JSON.stringify(cur));
+    }
     if (req.method === 'PUT') { await this.ctx.storage.put('sid', u.searchParams.get('sid')); return new Response('ok'); }
     return new Response((await this.ctx.storage.get('sid')) || '');
   }
@@ -215,6 +234,10 @@ export async function handle(req, env, next) {
       if (isDoc) return new Response(null, { status: 302, headers: { Location: '/login?kick=1', 'Cache-Control': 'no-store' } });
       return new Response(JSON.stringify({ kick: 1, e: KICK }), { status: 401, headers: { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store' } });
     }
+  }
+  if (url.pathname === '/api/tiendo' && env.PHIEN) {
+    const r = await phien(env, user).fetch('https://p/td', req.method === 'POST' ? { method: 'POST', body: await req.text() } : {});
+    return new Response(r.body, { status: r.status, headers: { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store' } });
   }
   if (url.pathname === '/api/phien') return new Response('{"ok":1}', { headers: { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' } });
   // Mở / tải lại trang chính của app: bắt buộc đăng nhập lại mỗi lần
