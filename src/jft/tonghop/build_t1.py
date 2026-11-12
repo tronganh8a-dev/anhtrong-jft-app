@@ -67,7 +67,7 @@ for s, L in PICK.items():
             q['ex'] = q['ex'].replace('</div>', f'</div><div style="margin:4px 0 8px;color:#0d5a8c;font-size:13px">{note}</div>', 1)
         q['t'] = (q.get('t') or '').replace('泊まりした', '泊まりました')  # sửa lỗi gõ ở câu gốc
         qs.append(q)
-new = {'id': 'jft-t1', 'group': 'Đề thi thử JFT-Basic', 'title': 'Đề Thảo Linh', 'name': 'Thảo Linh',
+new = {'id': 'jft-t1', 'group': 'Đề thi thử JFT-Basic', 'title': 'Đề 28',
        'sub': 'Sát đề thi thật tháng 11 · có phần nghe', 'time': 60, 'tag': 'Sát đề thật', 'qs': qs}
 d = [e for e in d if e['id'] != 'jft-t1']
 i = next(k for k, e in enumerate(d) if e['id'] == 'jft-y3')
