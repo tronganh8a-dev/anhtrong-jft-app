@@ -18,13 +18,13 @@ def EX(ans, script, dich, gt, part=False):
     s += f'<span class="lb">DỊCH</span><div>{html.escape(dich).replace(chr(10), "<br>")}</div><span class="lb">GIẢI THÍCH</span><div>{J(gt)}</div>'
     return s
 qs = []
-def L(n, q, vi, opts, a, script, dich, gt, pics=True, part=False):
+def L(n, q, vi, opts, a, script, dich, gt, pics=True, part=False, au=None, im=None):
     t = f'<span class="jp">{J(q)}</span><br><span class="vi-q">{html.escape(vi)}</span>'
     o = [{'t': ('ABC'[i] + '. ' if pics else '') + J(x)} for i, x in enumerate(opts)]
     if pics:
-        for i, d in enumerate(o): d['img'] = IMG + f'ln1_{n:02d}{"abc"[i]}.jpg'
+        for i, d in enumerate(o): d['img'] = IMG + (im or f'ln1_{n:02d}') + 'abc'[i] + '.jpg'
     qs.append(dict(s='聴解', ins='', gset=None, gimg=None, gau=None, t=t, imgs=[], img=None,
-                   au=AU + f'ln1_L{n:02d}.mp3', o=o, a=[a - 1], ex=EX(opts[a - 1], script, dich, gt, part)))
+                   au=AU + (au or f'ln1_L{n:02d}') + '.mp3', o=o, a=[a - 1], ex=EX(opts[a - 1], script, dich, gt, part)))
 
 L(1, '公園内で、何をしてはいけませんか。', 'Trong công viên, không được làm gì?',
   ['写真をとる', '食べたり飲んだりする', 'たばこを吸う'], 3,
@@ -80,7 +80,13 @@ L(11, '皆は何を食べますか。', 'Mọi người sẽ ăn gì?',
   ['焼き鳥', '焼肉', 'シーフード'], 1,
   'エレノア：アナさんの予定を聞いて、私がみんなに連絡します。\n周：場所はどこがいいでしょうか？\nエレノア：そうですね……アナさん、前に、焼き鳥が大好きだと言ってました。駅前の「たなべ」はどうですか？\n周：じゃあ、あとで予約しますね。',
   'Eleanor: Tôi sẽ hỏi lịch của Anna rồi báo mọi người. / Chu: Địa điểm ở đâu thì được? / Eleanor: Trước đây Anna nói rất thích yakitori. Quán "Tanabe" trước ga thì sao? / Chu: Vậy lát tôi đặt chỗ.',
-  'Tiệc chia tay Anna. 「アナさん、前に、焼き鳥が大好きだと言ってました」 → chọn quán yakitori → tranh A. Phần sau bài nói về quà (khung ảnh kỹ thuật số) – không liên quan câu hỏi.', part=True)
+  'Tiệc chia tay Anna. 「アナさん、前に、焼き鳥が大好きだと言ってました」 → chọn quán yakitori → tranh A. Phần sau của bài nói về quà – xem câu tiếp theo.', part=True)
+L(11, '皆はアナさんに何をあげますか。', 'Mọi người sẽ tặng gì cho Anna?',
+  ['花', 'デジタルフォトフレーム', 'カメラ'], 2,
+  'エレノア：あと、アナさんに何かプレゼントをあげませんか？\n周：そうですね。何がいいでしょうか？エレノアさんの国では、どんなものをあげますか？\nエレノア：花とか？\n周：うーん、もっと、思い出に残るものがいいと思います。予算は？\nエレノア：参加者は10人ぐらいだと思いますから、5,000円ぐらいのものですね。\n周：それなら、デジタルフォトフレームはどうですか？\nエレノア：あ、いいですね。',
+  'Eleanor: Mình tặng Anna món quà gì không? / Chu: Tặng gì thì hay? Ở nước chị người ta tặng gì? / Eleanor: Hoa chẳng hạn? / Chu: Tôi nghĩ nên tặng thứ để lại kỷ niệm. Ngân sách bao nhiêu? / Eleanor: Khoảng 10 người, nên món khoảng 5.000 yên. / Chu: Vậy khung ảnh kỹ thuật số thì sao? / Eleanor: Hay đấy.',
+  'Hoa (花) bị gạt đi: 「もっと、思い出に残るものがいい」. Chốt 「デジタルフォトフレームはどうですか」「いいですね」 → tranh B. Cùng hội thoại với Đề nghe 1 câu 11 (đó hỏi món ăn).', part=True,
+  au='ln1_L11', im='ln2_05')
 L(12, 'シハーさんが苦手なのはどれですか。', 'Shihā không ăn được món nào?',
   ['刺身定食', '牛丼', 'ミックスフライ定食'], 1,
   '店員：人気があるのは、お刺身定食です。\n石井：じゃあ、それにします。\nシハー：私は生の魚が苦手なんですが……ほかに何かありますか？\n店員：そうですねえ、フライなどはいかがですか？ミックスフライ定食がおすすめです。\nシハー：じゃあ、それで。',
@@ -116,6 +122,12 @@ L(18, 'エドさんは、今日どこに行きましたか。', 'Hôm nay Ed đ�
   '坂本：エドさんは、どちらからですか？\nエド：フィリピンです。でも、今は日本に住んでいます。\n坂本：そうですか。日光に旅行ですか？\nエド：はい、1泊です。\n坂本：今日は、どこに行きましたか？\nエド：今日は、東照宮に行きました。明日は、中禅寺湖に行くつもりです。',
   'Sakamoto: Anh Ed từ đâu đến? / Ed: Philippines, nhưng giờ sống ở Nhật. / Sakamoto: Anh du lịch Nikko à? / Ed: Vâng, ở 1 đêm. / Sakamoto: Hôm nay anh đi đâu? / Ed: Hôm nay tôi đi Toshogu. Mai định đi hồ Chuzenji.',
   '「今日は、東照宮に行きました」 → tranh A. 中禅寺湖 là ngày mai (明日〜つもりです), 温泉 là việc muốn làm sau đó – nghe kỹ thời gian 今日 / 明日.', part=True)
+L(18, 'エドさんは、これから何をしたいですか。', 'Từ bây giờ Ed muốn làm gì?',
+  ['東照宮に行く', '中禅寺湖に行く', '温泉に入る'], 3,
+  '坂本：今日は、どこに行きましたか？\nエド：今日は、東照宮に行きました。明日は、中禅寺湖に行くつもりです。\n坂本：おいしいものは、何か食べましたか？\nエド：はい、そばを食べました。ゆばも食べてみたいです。\nエド：あと、温泉に入りたいんですけど、どこで入ったらいいですか？\n坂本：温泉ですか。中禅寺湖のホテルに、日帰りでお風呂に入れるところがあると思いますよ。',
+  'Sakamoto: Hôm nay anh đi đâu? / Ed: Hôm nay đi Toshogu. Mai định đi hồ Chuzenji. / Sakamoto: Đã ăn món gì ngon chưa? / Ed: Ăn soba rồi. Muốn thử yuba nữa. Ngoài ra tôi muốn tắm suối nước nóng, nên tắm ở đâu? / Sakamoto: Khách sạn ở hồ Chuzenji có chỗ cho tắm trong ngày.',
+  'Cùng bài với Đề nghe 1 câu 18, nhưng câu hỏi khác: 「これから何をしたいですか」 → 「温泉に入りたいんですけど」 → tranh C. 東照宮 là việc đã làm hôm nay (行きました), 中禅寺湖 là dự định (つもり).', part=True,
+  au='ln1_L18', im='ln2_10')
 L(19, '盆踊りの前に、何をしますか。', 'Trước khi múa Bon-odori, sẽ làm gì?',
   ['浴衣を着る', 'お酒を飲む', '居酒屋に行く'], 1,
   '杉村：何を着てもいいですよ。あ、でも、娘たちの浴衣があるから、貸しましょうか？\nラウラ：うれしい！\nジーナ：でも、1人で着られますか？\n杉村：私が手伝うから、だいじょうぶ。盆踊りの前に、うちで浴衣を着てから行きましょう。\n杉村：じゃあ、盆踊りが終わったら、いっしょに居酒屋に行きましょう。',

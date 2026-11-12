@@ -765,6 +765,9 @@ body:has(.cbt.on) #penFab{bottom:80px!important;right:18px!important}body:has(.c
 .exb .tdb{display:inline-block;align-self:flex-start;width:fit-content;position:relative;z-index:1;font-size:11.5px;font-weight:800;padding:3px 9px;border-radius:99px;margin-top:6px}.exb .tdb.ok{background:#e3f4e8;color:#1d7a3a}.exb .tdb.op{background:#fff1d6;color:#9a6200}
 .vit .bd .tdv{display:inline-block;align-self:flex-start;width:fit-content;font-size:11px;font-weight:800;padding:2px 8px;border-radius:99px;margin-bottom:3px}.vit .bd .tdv.ok{background:#e3f4e8;color:#1d7a3a}.vit .bd .tdv.part{background:#e6f0f8;color:var(--blue)}
 .exb .num .nm,#newx .n .nm{font-style:normal;font-size:.62em;line-height:1.1}#newx .n .nm{font-size:.7em;white-space:nowrap}
+.qgno{display:inline-block;font-weight:800;font-size:13px;color:#fff;background:#5a8f29;border-radius:6px;padding:3px 10px;margin:6px 0 4px}.qgno.cur{background:#2f6a12}
+.qgi{border-top:2px dashed #cfdcc0;padding-top:14px;margin-top:18px}.ql>.qgi:first-child,.ply+.qgi,#qArea>.qgi:first-of-type{border-top:0;margin-top:10px;padding-top:0}
+@media (min-width:1100px){.qsplit{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px;align-items:start}.qsplit .qr{position:sticky;top:0;max-height:calc(100vh - 190px);overflow:auto}.qsplit .qr .exp{margin-top:6px}.qsplit .alist{margin-left:0!important}.qsplit .alist.pic{flex-wrap:nowrap}.qsplit .alist.pic label{flex:1 1 0;min-width:0;width:auto}.qsplit .alist.pic label img{width:100%;height:auto}}
 .exb .ntag{display:inline-block;margin:-4px 0 2px;font-size:11px;font-weight:800;letter-spacing:.02em;color:#fff;background:linear-gradient(135deg,var(--pink),#e8743c);padding:4px 9px;border-radius:99px;box-shadow:0 4px 10px rgba(196,47,102,.3)}
 #newx{position:fixed;inset:0;z-index:9500;display:none;align-items:center;justify-content:center;padding:18px;background:rgba(6,18,28,.6);backdrop-filter:blur(6px)}
 #newx.on{display:flex;animation:nxf .25s ease}
@@ -1005,7 +1008,7 @@ body.nlock{overflow:hidden}
 </div>
 
 <script src="app/data/lessons.js?v=3cff6f60"></script>
-<script src="app/data/exams.js?v=10919e75"></script>
+<script src="app/data/exams.js?v=d450d4e8"></script>
 <script src="app/data/skills.js?v=d1153b37"></script>
 <script src="app/data/vocab.js?v=4314c895"></script>
 <script src="app/data/grammar.js?v=7e915ad4"></script>
@@ -1121,29 +1124,37 @@ function render(){stopAudio();if(S&&S.i!==window._pqi){window._pqi=S.i;window.pe
  h+=ctx;
  if(S.mode==='skill'&&q.set)h+=`<div class="cbt-set">${q.set}</div>`;
  if(S.mode==='exam'){if(q.gset)h+=`<div class="cbt-set">${q.gset}</div>`;if(q.gimg)h+=`<img class="cbt-img" src="${q.gimg}" alt="Hình" loading="lazy">`;if(q.gau)h+=player(q.gau)}
- if(S.mode==='exam'&&q.t)h+=`<div class="cbt-q">${q.t}</div>`;
- if(q.lab)h+=`<div class="cbt-q">${q.lab}</div>`;
- if(q.au)h+=player(q.au);
- if(q.yt)h+=`<div class="yt"><iframe src="https://www.youtube-nocookie.com/embed/${q.yt}?rel=0" title="Video nghe" allow="encrypted-media" allowfullscreen loading="lazy"></iframe></div>`;
- if(q.img)h+=`<img class="cbt-img" src="${q.img}" alt="Hình câu hỏi" loading="lazy">`;
- if(q.imgs&&q.imgs.length)h+=`<div class="cbt-imgs">${q.imgs.map(s=>`<img src="${s}" alt="Hình" loading="lazy">`).join('')}</div>`;
- if(multi)h+=`<p class="vi-t" style="margin:10px 0 0 46px">Chọn tất cả đáp án đúng.</p>`;
- h+=`<div class="alist${pic?' pic':''}" role="${multi?'group':'radiogroup'}">`+q.o.map((o,k)=>{let c='';if(sel.includes(k))c=' sel';if(chk&&q.a){if(q.a.includes(k))c=' right';else if(sel.includes(k))c=' wrong'}
-  return `<label class="${c.trim()}"><input type="${multi?'checkbox':'radio'}" name="ans" value="${k}"${sel.includes(k)?' checked':''}>${o.img?`<img src="${o.img}" alt="Lựa chọn ${k+1}" loading="lazy">`:''}${o.t||''}${o.vi?`<span class="vi-t">${esc(o.vi)}</span>`:''}</label>`}).join('')+`</div>`;
- if(S.instant){if(multi&&!chk)h+=`<button class="chkb" id="chkBtn" type="button">Kiểm tra</button>`;
-  if(chk){const ok=q.a&&same(sel,q.a);h+=`<div class="fb ${q.a?(ok?'ok':'ng'):'na'}">${q.a?(ok?'Đúng rồi!':'Chưa đúng — đáp án đúng được tô xanh.'):'Câu này chưa có đáp án.'}</div>`}}
- if(chk&&q.ex)h+=`<div class="exp">${q.ex}</div>`;
- if(q.src)h+=`<p class="vi-t" style="margin:18px 0 0 46px">Nguồn: ${esc(q.src)}</p>`;
+ /* 12/11: các câu liền nhau dùng chung 1 audio → gộp 1 màn hình; máy tính: giải thích (script) đặt song song bên phải */
+ const G=qGroup(S.i),one=G.length===1;let L='',R='';
+ if(!one&&q.au)L+=player(q.au);
+ G.forEach(m=>{const Q=it[m],sl=S.ans[m]||[],ck=S.instant&&S.checked[m],pc=Q.o.some(o=>o.img),mu=isMulti(Q);let x='';
+  if(!one)x+=`<div class="qgno${m===S.i?' cur':''}">Câu ${sec.idx.indexOf(m)+1}</div>`;
+  if(S.mode==='exam'&&Q.t)x+=`<div class="cbt-q">${Q.t}</div>`;
+  if(Q.lab)x+=`<div class="cbt-q">${Q.lab}</div>`;
+  if(Q.au&&one)x+=player(Q.au);
+  if(Q.yt)x+=`<div class="yt"><iframe src="https://www.youtube-nocookie.com/embed/${Q.yt}?rel=0" title="Video nghe" allow="encrypted-media" allowfullscreen loading="lazy"></iframe></div>`;
+  if(Q.img)x+=`<img class="cbt-img" src="${Q.img}" alt="Hình câu hỏi" loading="lazy">`;
+  if(Q.imgs&&Q.imgs.length)x+=`<div class="cbt-imgs">${Q.imgs.map(s=>`<img src="${s}" alt="Hình" loading="lazy">`).join('')}</div>`;
+  if(mu)x+=`<p class="vi-t" style="margin:10px 0 0 46px">Chọn tất cả đáp án đúng.</p>`;
+  x+=`<div class="alist${pc?' pic':''}" role="${mu?'group':'radiogroup'}">`+Q.o.map((o,k)=>{let c='';if(sl.includes(k))c=' sel';if(ck&&Q.a){if(Q.a.includes(k))c=' right';else if(sl.includes(k))c=' wrong'}
+   return `<label class="${c.trim()}"><input type="${mu?'checkbox':'radio'}" name="ans${m}" data-qi="${m}" value="${k}"${sl.includes(k)?' checked':''}>${o.img?`<img src="${o.img}" alt="Lựa chọn ${k+1}" loading="lazy">`:''}${o.t||''}${o.vi?`<span class="vi-t">${esc(o.vi)}</span>`:''}</label>`}).join('')+`</div>`;
+  if(S.instant){if(mu&&!ck)x+=`<button class="chkb" data-chk="${m}" type="button">Kiểm tra</button>`;
+   if(ck){const ok=Q.a&&same(sl,Q.a);x+=`<div class="fb ${Q.a?(ok?'ok':'ng'):'na'}">${Q.a?(ok?'Đúng rồi!':'Chưa đúng — đáp án đúng được tô xanh.'):'Câu này chưa có đáp án.'}</div>`}}
+  if(Q.src)x+=`<p class="vi-t" style="margin:18px 0 0 46px">Nguồn: ${esc(Q.src)}</p>`;
+  L+=one?x:`<div class="qgi" data-qg="${m}">${x}</div>`;
+  if(ck&&Q.ex)R+=`<div class="exp">${one?'':`<div class="qgno">Câu ${sec.idx.indexOf(m)+1}</div>`}${Q.ex}</div>`});
+ h+=R?`<div class="qsplit"><div class="ql">${L}</div><div class="qr">${R}</div></div>`:L;
  $('#qArea').innerHTML=h;$('#cbtBody').scrollTop=0;wirePlayers();
  if(free)$$('[data-sk]').forEach(b=>b.onclick=()=>{const k=+b.dataset.sk;if(k===S.sec)return;S.sec=k;const L=S.secs[k].idx;S.i=L.find(x=>!(S.ans[x]&&S.ans[x].length))??L[0];render()});
  const lb=$('#langBtn');if(lb)lb.onclick=()=>$('#langBox').classList.toggle('on');
- $$('#qArea .alist input').forEach(inp=>inp.onchange=()=>{if(chk)return;const k=+inp.value;let a=S.ans[S.i]||[];if(multi){a=inp.checked?[...a,k]:a.filter(x=>x!==k)}else a=[k];S.ans[S.i]=a;if(S.instant&&!multi)S.checked[S.i]=true;render()});
- const cb=$('#chkBtn');if(cb)cb.onclick=()=>{S.checked[S.i]=true;render()};
+ $$('#qArea .alist input').forEach(inp=>inp.onchange=()=>{const m=+inp.dataset.qi,Q=S.items[m],mu=isMulti(Q);if(S.instant&&S.checked[m])return;const k=+inp.value;let a=S.ans[m]||[];if(mu){a=inp.checked?[...a,k]:a.filter(x=>x!==k)}else a=[k];S.ans[m]=a;S.i=m;if(S.instant&&!mu)S.checked[m]=true;const y=$('#cbtBody').scrollTop;render();$('#cbtBody').scrollTop=y});
+ $$('#qArea [data-chk]').forEach(cb=>cb.onclick=()=>{const m=+cb.dataset.chk;S.checked[m]=true;S.i=m;const y=$('#cbtBody').scrollTop;render();$('#cbtBody').scrollTop=y});
  $('#qnav').innerHTML=sec.idx.map((k,n)=>{let c='';if(k===S.i)c+=' cur';if(!(S.ans[k]&&S.ans[k].length))c+=' una';if(S.flags[k])c+=' flag';if(S.instant&&S.checked[k]&&S.items[k].a)c=c.replace(' una','')+(same(S.ans[k]||[],S.items[k].a)?' r':' w');return `<button class="${c.trim()}" data-q="${k}" type="button" aria-label="Câu ${n+1}">${n+1}</button>`}).join('');
  $$('#qnav button').forEach(b=>b.onclick=()=>{S.i=+b.dataset.q;render()});
  const cur=$('#qnav .cur');if(cur)cur.scrollIntoView({block:'nearest',inline:'nearest'});
  $('#prevQ').classList.toggle('en',pos>0);$('#flagBtn').classList.toggle('on',!!S.flags[S.i])}
-function step(d){const L=curSec().idx;const p=L.indexOf(S.i)+d;if(p>=0&&p<L.length){S.i=L[p];render()}else if((S.practice||S.done)&&d>0&&S.sec<S.secs.length-1){S.sec++;S.i=curSec().idx[0];render()}else if((S.practice||S.done)&&d<0&&S.sec>0){S.sec--;const M=curSec().idx;S.i=M[M.length-1];render()}else if(d>0){$('#finBtn').animate([{transform:'scale(1)'},{transform:'scale(1.08)'},{transform:'scale(1)'}],{duration:500})}}
+function qGroup(i){const it=S.items,q=it[i],L=curSec().idx;if(S.mode!=='exam'||!q||!q.au)return [i];let a=L.indexOf(i),b=a;while(a>0&&it[L[a-1]].au===q.au)a--;while(b<L.length-1&&it[L[b+1]].au===q.au)b++;return L.slice(a,b+1)}
+function step(d){const L=curSec().idx,G=qGroup(S.i);const p=L.indexOf(d>0?G[G.length-1]:G[0])+d;if(p>=0&&p<L.length){S.i=L[p];render()}else if((S.practice||S.done)&&d>0&&S.sec<S.secs.length-1){S.sec++;S.i=curSec().idx[0];render()}else if((S.practice||S.done)&&d<0&&S.sec>0){S.sec--;const M=curSec().idx;S.i=M[M.length-1];render()}else if(d>0){$('#finBtn').animate([{transform:'scale(1)'},{transform:'scale(1.08)'},{transform:'scale(1)'}],{duration:500})}}
 $('#prevQ').onclick=()=>step(-1);$('#nextQ').onclick=()=>step(1);$('#flagBtn').onclick=()=>{S.flags[S.i]=!S.flags[S.i];render()};
 $('#gridBtn').onclick=()=>{if(!S||S.done)return;const sec=curSec();$('#gTitle').textContent=secName(sec.name);$('#gq').innerHTML=sec.idx.map((k,n)=>`<button class="${S.ans[k]&&S.ans[k].length?'a':''}${S.flags[k]?' f':''}" data-q="${k}" type="button">${n+1}</button>`).join('');$('#gridOv').classList.add('on')};
 $('#gq').onclick=e=>{const b=e.target.closest('[data-q]');if(b){S.i=+b.dataset.q;$('#gridOv').classList.remove('on');render()}};

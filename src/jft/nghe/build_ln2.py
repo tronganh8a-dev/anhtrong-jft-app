@@ -18,13 +18,13 @@ def EX(ans, script, dich, gt, part=False):
     s += f'<span class="lb">DỊCH</span><div>{html.escape(dich).replace(chr(10), "<br>")}</div><span class="lb">GIẢI THÍCH</span><div>{J(gt)}</div>'
     return s
 qs = []
-def L(n, q, vi, opts, a, script, dich, gt, pics=True, part=False):
+def L(n, q, vi, opts, a, script, dich, gt, pics=True, part=False, au=None, im=None):
     t = f'<span class="jp">{J(q)}</span><br><span class="vi-q">{html.escape(vi)}</span>'
     o = [{'t': ('ABC'[i] + '. ' if pics else '') + J(x)} for i, x in enumerate(opts)]
     if pics:
-        for i, d in enumerate(o): d['img'] = IMG + f'ln2_{n:02d}{"abc"[i]}.jpg'
+        for i, d in enumerate(o): d['img'] = IMG + (im or f'ln2_{n:02d}') + 'abc'[i] + '.jpg'
     qs.append(dict(s='聴解', ins='', gset=None, gimg=None, gau=None, t=t, imgs=[], img=None,
-                   au=AU + f'ln2_L{n:02d}.mp3', o=o, a=[a - 1], ex=EX(opts[a - 1], script, dich, gt, part)))
+                   au=AU + (au or f'ln2_L{n:02d}') + '.mp3', o=o, a=[a - 1], ex=EX(opts[a - 1], script, dich, gt, part)))
 
 #DATA
 L(1, '二人はいつ、映画を見に行きますか。', 'Hai người sẽ đi xem phim khi nào?',
@@ -47,6 +47,12 @@ L(4, '何のお祝いですか。', 'Mừng dịp gì vậy?',
   'A：ご結婚おめでとうございます。\nB：え、あ、ありがとう。\nC：これ、私たちからのプレゼントです。\nB：えー、ありがとう。うれしい。\nA：相手は、どんな人ですか？\nB：うーんと、まあ、普通の人。\nA：かっこいいですか？\nB：うーん、ぜんぜん。でも、すごくおもしろい人。\nC：いいなあ。お幸せに。',
   'A: Chúc mừng chị kết hôn. / B: À, cảm ơn. / C: Đây là quà của chúng tôi. / A: Người kia là người thế nào? / B: Ừm, bình thường thôi. / A: Có đẹp trai không? / B: Hoàn toàn không. Nhưng rất hài hước. / C: Ghen tị quá. Chúc hạnh phúc.',
   'Câu đầu 「ご結婚おめでとうございます」 → tranh B. 相手 (あいて) = người bạn đời. 「お幸せに」 = chúc hạnh phúc, chỉ dùng khi chúc cưới.')
+L(5, '皆は何を食べますか。', 'Mọi người sẽ ăn gì?',
+  ['焼き鳥', '焼肉', 'シーフード'], 1,
+  'エレノア：アナさんの予定を聞いて、私がみんなに連絡します。\n周：場所はどこがいいでしょうか？\nエレノア：そうですね……アナさん、前に、焼き鳥が大好きだと言ってました。駅前の「たなべ」はどうですか？\n周：じゃあ、あとで予約しますね。',
+  'Eleanor: Tôi sẽ hỏi lịch của Anna rồi báo mọi người. / Chu: Địa điểm ở đâu thì được? / Eleanor: Trước đây Anna nói rất thích yakitori. Quán "Tanabe" trước ga thì sao? / Chu: Vậy lát tôi đặt chỗ.',
+  'Tiệc chia tay Anna. 「アナさん、前に、焼き鳥が大好きだと言ってました」 → chọn quán yakitori → tranh A. Phần sau của bài nói về quà – xem câu tiếp theo.', part=True,
+  au='ln2_L05', im='ln1_11')
 L(5, '皆はアナさんに何をあげますか。', 'Mọi người sẽ tặng gì cho Anna?',
   ['花', 'デジタルフォトフレーム', 'カメラ'], 2,
   'エレノア：あと、アナさんに何かプレゼントをあげませんか？\n周：そうですね。何がいいでしょうか？エレノアさんの国では、どんなものをあげますか？\nエレノア：花とか？\n周：うーん、もっと、思い出に残るものがいいと思います。予算は？\nエレノア：参加者は10人ぐらいだと思いますから、5,000円ぐらいのものですね。\n周：それなら、デジタルフォトフレームはどうですか？\nエレノア：あ、いいですね。',
@@ -72,6 +78,12 @@ L(9, '電車はどうして運転を見合わせていますか。', 'Tại sao 
   'アナウンス：お客様にご案内いたします。浦和駅と赤羽駅の間で発生した人身事故の影響で、京浜東北線、高崎線、宇都宮線、上野東京ライン、湘南新宿ラインは、全線で運転を見合わせています。大宮方面へお越しのお客様は、埼京線をご利用ください。\n乗客：すみません、さいたま新都心に行きたいんですけど、京浜東北線、動かないんですか？\n駅員：ええ、申し訳ありません。さいたま新都心なら、埼京線の北与野駅から歩けますよ。',
   'Thông báo: Do ảnh hưởng của tai nạn có người xảy ra giữa ga Urawa và ga Akabane, các tuyến Keihin-Tohoku, Takasaki… đang tạm dừng toàn tuyến. Quý khách đi hướng Omiya xin dùng tuyến Saikyo. / Khách: Tôi muốn đến Saitama-Shintoshin, tuyến Keihin-Tohoku không chạy à? / Nhân viên: Vâng, xin lỗi. Đến Saitama-Shintoshin thì đi bộ từ ga Kita-Yono của tuyến Saikyo được.',
   '「人身事故の影響で」 = do tai nạn có người (người bị tàu đâm) → tranh B (va chạm ở chỗ chắn tàu). 見合わせる = tạm dừng (chạy tàu). 〜の影響で = do ảnh hưởng của ~.', part=True)
+L(10, 'エドさんは、今日どこに行きましたか。', 'Hôm nay Ed đã đi đâu?',
+  ['東照宮', '中禅寺湖', '温泉'], 1,
+  '坂本：エドさんは、どちらからですか？\nエド：フィリピンです。でも、今は日本に住んでいます。\n坂本：そうですか。日光に旅行ですか？\nエド：はい、1泊です。\n坂本：今日は、どこに行きましたか？\nエド：今日は、東照宮に行きました。明日は、中禅寺湖に行くつもりです。',
+  'Sakamoto: Anh Ed từ đâu đến? / Ed: Philippines, nhưng giờ sống ở Nhật. / Sakamoto: Anh du lịch Nikko à? / Ed: Vâng, ở 1 đêm. / Sakamoto: Hôm nay anh đi đâu? / Ed: Hôm nay tôi đi Toshogu. Mai định đi hồ Chuzenji.',
+  '「今日は、東照宮に行きました」 → tranh A. 中禅寺湖 là ngày mai (明日〜つもりです), 温泉 là việc muốn làm sau đó – nghe kỹ thời gian 今日 / 明日.', part=True,
+  au='ln2_L10', im='ln1_18')
 L(10, 'エドさんは、これから何をしたいですか。', 'Từ bây giờ Ed muốn làm gì?',
   ['東照宮に行く', '中禅寺湖に行く', '温泉に入る'], 3,
   '坂本：今日は、どこに行きましたか？\nエド：今日は、東照宮に行きました。明日は、中禅寺湖に行くつもりです。\n坂本：おいしいものは、何か食べましたか？\nエド：はい、そばを食べました。ゆばも食べてみたいです。\nエド：あと、温泉に入りたいんですけど、どこで入ったらいいですか？\n坂本：温泉ですか。中禅寺湖のホテルに、日帰りでお風呂に入れるところがあると思いますよ。',
