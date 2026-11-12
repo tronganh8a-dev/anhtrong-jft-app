@@ -109,6 +109,7 @@ def build(i, pdf=None):
     return E,diff
 if __name__=='__main__':
     pdf=os.environ.get('N3PDF')
+    if not pdf: print('CẢNH BÁO: chưa đặt N3PDF — bài đọc dạng ảnh chưa cắt sẽ bị trống')
     ids=[int(x) for x in sys.argv[1:]] or [int(re.search(r'\d+',os.path.basename(f)).group()) for f in sorted(glob.glob(H+'ans/e*.txt'))]
     idx=json.load(open(OUT+'data/index.json')) if os.path.exists(OUT+'data/index.json') else []
     idx={e['f']:e for e in idx}

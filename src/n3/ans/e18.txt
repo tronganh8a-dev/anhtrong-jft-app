@@ -1,0 +1,75 @@
+# Đề 16 (PDF bộ 18). Mỗi câu: MÃ | đáp án (1-4) | dịch | giải thích (¶ = xuống dòng)
+A1|3|Tôi không biết nhiều về lịch sử thế giới nên muốn học thêm.|世界（せかい）· THẾ GIỚI.¶Cách đọc: 世 đọc せ (không phải せい như 世紀 せいき).¶Kết hợp: 世界中 = khắp thế giới · 世界一 = nhất thế giới · 世界的な.
+A2|4|Tôi bị bác sĩ dặn: "Hãy chú ý đừng làm việc quá sức."|注意（ちゅうい）· CHÚ Ý = chú ý, cẩn thận; nhắc nhở.¶Cách đọc: 注 ちゅう (trường âm), 意 い.¶Kết hợp: 〜に注意する · 注意を受ける = bị nhắc nhở · 注意深い.¶Ngữ pháp: Vすぎないように = sao cho không ~ quá.
+A3|1|Tôi đã được bác sĩ đó chăm sóc đặc biệt nhiều.|特に（とくに）· ĐẶC = đặc biệt là.¶Kết hợp: 特にない = không có gì đặc biệt · 特別 · 特急.¶Phân biệt: べつに〜ない = không ~ lắm · ほかに = ngoài ra.¶Thành ngữ: 〜にお世話になる = được ~ giúp đỡ.
+A4|2|Tôi đã cho bạn mượn cuộn băng nhạc Nhật.|貸す（かす）· THẢI = cho mượn.¶Phân biệt: 借りる（かりる）= mượn · 返す = trả lại.¶Các đáp án khác: 押す (ấn), 消す (tắt), 指す/差す (chỉ / che ô).
+A5|2|Anh trai của anh Tanaka đang đứng ở lối ra của toà nhà kia.|出口（でぐち）· XUẤT KHẨU = lối ra.¶Biến âm: くち → ぐち trong từ ghép (入口 いりぐち · 出口 でぐち · 改札口).¶Lưu ý: 輸出（ゆしゅつ）mới là "xuất khẩu" hàng hoá.
+A6|1|Tôi đã thuyết trình về núi Phú Sĩ trong lớp.|発表（はっぴょう）· PHÁT BIỂU = công bố, thuyết trình.¶Biến âm: はつ＋ひょう → はっぴょう (つ nhỏ + ぴ).¶Kết hợp: 発表する · 結果を発表する · 研究発表.
+A7|3|Ở đây cấm chụp ảnh.|禁止（きんし）· CẤM CHỈ = cấm.¶Kết hợp: 〜は禁止されている · 駐車禁止 · 立入禁止.¶Các đáp án khác: 停止 = dừng · 防止 = phòng ngừa · 用紙 = giấy mẫu.
+A8|4|Công việc chưa xong nên phải làm thêm giờ.|残業（ざんぎょう）· TÀN NGHIỆP = làm thêm giờ.¶Cách đọc: 残 ざん (hữu thanh) + 業 ぎょう (như 授業 じゅぎょう).¶Kết hợp: 残業する · 残業代 = tiền làm thêm.¶Ngữ pháp: Vなくてはならない = phải ~.
+A9|4|Tôi đã lập kế hoạch học như thế nào cho đến kỳ thi.|計画（けいかく）· KẾ HOẠCH.¶Kết hợp: 計画を立てる · 計画どおり.¶Chữ 計 (KẾ = đo, tính) có bộ 言 + 十; các chữ 評 訂 許 trông giống nhưng khác nghĩa.
+A10|3|Trong giờ kiểm tra hãy giữ im lặng.|静か（しずか）· TĨNH = yên tĩnh.¶Kết hợp: 静かにする · 静かな町.¶Các đáp án khác: 黙る（だまる）= im lặng · 厳か（おごそか）= trang nghiêm · 騒ぐ（さわぐ）= làm ồn (ngược nghĩa).
+A11|1|Mùa hè lại thèm uống bia lạnh.|冷たい（つめたい）· LÃNH = lạnh (khi chạm vào, đồ uống); lạnh lùng.¶Phân biệt: 寒い = lạnh (thời tiết, cảm giác cơ thể).¶Kết hợp: 冷たい水 · 冷たい人 · 冷蔵庫.
+A12|4|Tôi đã nhìn thấy loài cá hiếm ở Indonesia.|珍しい（めずらしい）· TRÂN = hiếm, lạ.¶Các đáp án khác: 寂しい（さびしい）= buồn, cô đơn · 美しい（うつくしい）= đẹp.
+A13|2|Vì ăn kiêng quá sức mà tôi đã bị ốm.|無理（むり）· VÔ LÝ = quá sức, không thể.¶Kết hợp: 無理な〜 · 無理をする · 無理だ = không thể được.¶Các đáp án khác: 無駄（むだ）= lãng phí · 駄目（だめ）= không được · 無声 = không tiếng.
+A14|3|Món udon nóng quá nên mãi không ăn được.|熱い（あつい）· NHIỆT = nóng (vật, đồ ăn uống).¶Phân biệt đồng âm あつい: 暑い = nóng (thời tiết) · 厚い = dày · 辛い（からい）= cay.¶Kết hợp: 熱いお茶 · 熱いお風呂.
+A15|4|Tôi nấu ăn dở nên hay mua cơm hộp ở siêu thị.|へた（下手）= dở, kém.¶Kết hợp: 料理がへただ · 〜が下手.¶Trái nghĩa: じょうず（上手）.¶Lý do "nên mua cơm hộp" → chỉ hợp với へた (hoặc きらい nhưng ngữ cảnh kỹ năng nấu dùng へた tự nhiên nhất).
+A16|1|Hát trước nhiều người thì hồi hộp.|どきどき = (tim) đập thình thịch, hồi hộp.¶Kết hợp: 胸がどきどきする · どきどきしながら待つ.¶Các đáp án khác: ときどき = thỉnh thoảng · とんとん = cộc cộc (tiếng gõ) · どんどん = ngày càng, liên tục.
+A17|1|Cả ngày không gặp ai thì quả là buồn nhỉ.|やはり = quả thật là (đúng như mọi người vẫn nghĩ).¶Kết hợp: やはり〜ものだ · やっぱり (văn nói).¶Các đáp án khác: それに = thêm vào đó · すっかり = hoàn toàn · しかも = hơn nữa.
+A18|2|Bài này khó hơn tôi tưởng.|むずかしい（難しい）= khó.¶Kết hợp: 思ったより難しい · 難しい問題.¶Các đáp án khác: きびしい = nghiêm khắc · おそろしい = đáng sợ · めずらしい = hiếm.
+A19|3|Từ giờ tôi muốn trau dồi kỹ thuật hơn nữa.|磨く（みがく）= đánh bóng; mài giũa, trau dồi.¶Kết hợp: 技術を磨く · 腕を磨く · 歯を磨く = đánh răng.¶Lưu ý: phương án 3 trong PDF in nhầm thành はがいて; đã sửa thành みがいて.
+A20|2|Theo dự báo thời tiết thì tối nay có mưa.|予報（よほう）· DỰ BÁO.¶Kết hợp: 天気予報 · 予報では〜ということだ.¶Phân biệt: 予想 = dự đoán (chung) · 予測 = dự đoán (dựa số liệu) · 予感 = linh cảm.
+A21|1|Trời đẹp nên phơi chăn và gối thôi.|まくら（枕）= cái gối.¶Kết hợp: ふとんとまくら · まくらカバー.¶Các đáp án khác: いた = tấm ván · たんす = tủ quần áo · たたみ = chiếu tatami.¶干す（ほす）= phơi.
+A22|4|Chuyện bệnh tình của anh ấy vẫn chưa được công bố.|公表（こうひょう）· CÔNG BIỂU = công bố ra công chúng.¶Kết hợp: 公表する · 結果を公表する.¶Phân biệt: 公開 = công khai (cho xem: 映画を公開) · 診断 = chẩn đoán · 判断 = phán đoán.
+A23|2|Vì trận mưa lớn đêm qua, đường đi rất nguy hiểm.|あぶない（危ない）= nguy hiểm.¶Các đáp án khác: すてき = tuyệt · きたない = bẩn (cũng có thể nhưng không do mưa làm "rất bẩn" một cách tự nhiên bằng nguy hiểm) · はげしい = dữ dội (dùng cho mưa gió, không cho đường).
+A24|1|Hãy nộp báo cáo sớm nhất có thể.|できるだけ = trong khả năng có thể, càng ~ càng tốt.¶Kết hợp: できるだけ早く · できるだけ多く.¶Phân biệt: できれば = nếu được thì.
+A25|4|Trong giờ kiểm tra, hãy giữ im lặng.|テスト = bài kiểm tra.¶Kết hợp: テスト中 · テストを受ける.¶Các đáp án khác: テキスト = giáo trình · データ = dữ liệu · デート = hẹn hò.
+A26|2|Tôi nghĩ tàu sắp đến rồi đấy.|まもなく = chẳng bao lâu nữa, sắp ≈ もうすぐ.¶Kết hợp: まもなく電車が参ります (thông báo ga).¶Phân biệt: いまにも = sắp ~ đến nơi (〜そうだ) · やっと = cuối cùng.
+A27|4|Bố tôi thường xuyên đến thăm trường cũ.|たびたび = nhiều lần, thường xuyên ≈ しばしば.¶Các đáp án khác: そろそろ = sắp · つぎつぎ = lần lượt · たまたま = tình cờ.
+A28|4|Sản phẩm ở đây tất cả đều là hàng nhập khẩu.|すべて = tất cả ≈ ぜんぶ.¶Kết hợp: すべての人 · すべて終わった.¶Phân biệt: ほとんど = hầu hết · たいてい = thường.
+A29|1|Anh Ōno ngày nào cũng tập luyện chăm chỉ.|トレーニング (training) = 練習（れんしゅう）, tập luyện.¶Kết hợp: トレーニングする · 筋力トレーニング.
+A30|2|Lần đầu đến nơi này nhưng tôi đã hoàn toàn thích nó.|気に入る（きにいる）= vừa ý, thích ≈ 好きになる.¶Kết hợp: 気に入った服 · 〜が気に入る.¶Phân biệt: 気にする = để tâm, lo lắng.
+A31|2|Tôi tưởng đã cẩn thận rồi mà vẫn bị cảm.|つもり: Vた／Vている＋つもり = cứ tưởng là đã ~ (thực tế không như vậy).¶Vる＋つもり = định ~.¶Câu sai: 1 旅行の予定がある · 3 結婚するつもりがない (thiếu する) · 4 tưởng vẽ đẹp mà lại được khen là mâu thuẫn.¶Lưu ý: PDF ghi đề là "つまり"; từ đúng là "つもり".
+A32|2|Cúm thoạt nhìn dễ bị nhầm với cảm thông thường.|一見（いっけん）= thoạt nhìn.¶Kết hợp: 一見〜だが、実は… · 一見簡単そうだ.¶Câu sai: 1 ご覧ください · 3 見てもいいですか · 4 一度見るだけ.
+A33|2|Anh Yamada quê ở Kyushu nhưng lớn lên ở Osaka.|出身（しゅっしん）= xuất thân, quê quán, tốt nghiệp từ.¶Kết hợp: 〜の出身だ · 出身地 · 東大出身.¶Câu sai: 1 住む đi với nơi ở, không đi với 出身 · 3 背が高い · 4 出身 không phải động từ.
+A34|4|Anh Yamada tốt nghiệp đại học với thành tích đứng đầu.|トップ = đứng đầu, vị trí số một.¶Kết hợp: トップの成績 · トップになる · 会社のトップ.¶Câu sai: 1 先に／早く · 2 前／玄関 · 3 最初から.
+A35|1|Xe buýt dừng gấp.|急（きゅう）= gấp, đột ngột; dốc.¶Kết hợp: 急停車 = dừng gấp · 急に = đột nhiên · 急な坂 = dốc đứng.¶Câu sai: 2 段階 (giai đoạn) không "dốc" được — phải là 階段 (cầu thang) · 3 phải là 急に鳴り響いた · 4 phải là 急速に.
+B1|3|Có buổi họp lớp tiểu học, sau 20 năm tôi mới gặp lại thầy và bạn cùng lớp.|N(thời gian)ぶりに = sau (khoảng thời gian) mới lại ~.¶Kết hợp: 3年ぶりに · 久しぶりに.¶Phân biệt: おきに = cách ~ một lần.
+B2|4|Trong lớp thảo luận, nếu không nói ý kiến thì không được tính là đã tham gia.|Vたことにはならない = không được coi là đã ~.¶Kết hợp: 読んだことにはならない · 見ただけでは分かったことにはならない.¶Các đáp án khác: ことにする = quyết định · ことになる = được quyết định · ことがない = chưa từng.
+B3|2|Đang giữa lúc tính toán thì đừng bắt chuyện với tôi.|Vている／Nの＋最中に = đang giữa lúc ~.¶Kết hợp: 食事の最中に · 会議の最中に.¶Các đáp án khác: ところ cần に/を · 中心に = lấy làm trung tâm · 以来 = kể từ.
+B4|2|Táo bố mẹ ở quê trồng bằng cả tấm lòng năm nay cũng đã tới.|心をこめて = với cả tấm lòng.¶Kết hợp: 心をこめて作る · 感謝の気持ちをこめて.¶Các đáp án khác: ついでに = nhân tiện · くわえて = thêm vào · つうじて = thông qua.
+B5|1|Nghe nói bố anh đã ra viện. Tốt quá nhỉ.|〜とか = nghe nói (truyền đạt điều nghe không chắc chắn lắm).¶Kết hợp: 退院なさったとか · 雨だとか.¶Các đáp án khác: ものか = đời nào · ことか = biết bao.
+B6|4|Hôm trước kỳ thi căng thẳng đến mức nửa đêm tỉnh giấc mấy lần.|〜ほどだった = đến mức ~ (nêu mức độ).¶Kết hợp: 泣きたいほどだった · 眠れないほど.¶Các đáp án khác: おそれがある = có nguy cơ · ばかりだった = toàn là.
+B7|3|Tuần này tôi dọn dẹp thay, tuần sau bạn làm nhé.|Vる＋かわりに = thay vào việc ~ / đổi lại.¶Kết hợp: 手伝うかわりに · 今日休むかわりに明日働く.¶Các đáp án khác: わりに = so với… thì · ついでに = nhân tiện · 反面 = mặt khác.
+B8|3|"Gần đây tôi hay phải nghỉ tập, không chạy được như ý thật là khổ," tuyển thủ Suzuki bị chấn thương nói.|Vます(bỏ ます)／N＋がち = hay, dễ bị (lặp lại, thường điều không tốt).¶Kết hợp: 休みがち · 忘れがち · 病気がち · 曇りがち.¶Phân biệt: ぎみ = hơi có vẻ (風邪ぎみ) · っぽい = có vẻ (子どもっぽい) · むき = phù hợp.¶Lưu ý: câu trong PDF bị thiếu chữ trước chỗ trống (「（ ）のに走れない…」 không ghép được với phương án nào), nên đã bổ sung thành 練習を休み（ ）で.
+B9|1|Bây giờ thì người sống độc thân cả đời không còn hiếm, nhưng cách đây không lâu thì không như vậy.|Nでこそ = chính (thời điểm) ~ thì mới; 今でこそ〜が = bây giờ thì ~ chứ (trước đây không như vậy).¶Kết hợp: 今でこそ有名だが、昔は… .¶Các đáp án khác: でさえ = ngay cả · など = như là · だけは = chỉ có.
+B10|4|Tôi định nghĩ đối sách dựa trên dữ liệu 3 năm qua.|Nをもとに = dựa trên, lấy ~ làm cơ sở.¶Kết hợp: データをもとに · 事実をもとにした映画.¶Các đáp án khác: に関して = về · はもちろん = tất nhiên · をきっかけに = nhân dịp.
+B11|3|Đến mức chữ Hán cỡ này cũng không đọc được thì vào lớp trung cấp là không thể đâu.|〜ようでは = nếu (tình trạng) như thế thì (kết quả xấu).¶Kết hợp: こんなこともできないようでは · 遅刻するようでは.¶Các đáp án khác: わけでは = không hẳn · かわりに = thay vào · ばかりでなく = không chỉ.
+B12|2|Nếu công việc xong sớm thì hôm đó tôi cũng không phải là không dự được buổi giao lưu.|Vないこともない = không phải là không ~ (khẳng định yếu).¶Kết hợp: 行けないこともない · 分からないこともない.¶Các đáp án khác: わけにはいかない = không thể (vì lý do) · ところだった = suýt nữa · はずがない = không lẽ nào.
+B13|3|Đây là phim hoạt hình dành cho trẻ em nhưng người lớn xem cũng đủ vui.|N向け（むけ）の = dành cho đối tượng ~ (làm ra cho ai).¶Kết hợp: 子ども向けの本 · 外国人向けのガイド.¶Phân biệt: 向き = phù hợp với (không nhất thiết làm ra cho) · っぽい = có vẻ như (trẻ con).¶Lưu ý: đáp án trong PDF ghi 1 là chưa đúng; đáp án đúng là 3 (子どもっぽい mang nghĩa chê "trẻ con", không hợp với vế "người lớn xem cũng vui").
+B14|4|Nếu đi nước ngoài thì ít nhất nên học thuộc câu chào hỏi rồi hãy đi.|Thứ tự: なら(2) あいさつのことば(1) ぐらい(4) 覚えて(3) → 外国へ行くならあいさつのことばぐらい覚えて行ったほうがいい.¶Nぐらい = ít nhất là ~ (mức tối thiểu).
+B15|4|Nếu không nắm vững nền tảng trước thì khó học được nội dung nâng cao.|Thứ tự: 身に(3) つけて(1) から(4) でないと(2) → 基礎をしっかり身につけてからでないと.¶Vてからでないと〜ない = nếu chưa ~ thì không thể.¶身につける = tiếp thu, nắm vững.
+B16|1|Ở nhà hàng đó, con trai đang nấu ăn thay cho người bố bị yếu tay.|Thứ tự: 手が(4) 不自由になった(3) 父親に(1) かわって(2).¶Nにかわって = thay cho ~.¶手が不自由 = tay bị tật, cử động khó khăn.
+B17|1|Bản báo cáo mất tới 5 tiếng để viết mà suýt nữa thì quên.|Thứ tự: もう少しで(2) 忘れる(4) ところ(1) だった(3).¶もう少しでVるところだった = suýt nữa thì ~.
+B18|1|Nếu không nói chuyện đó thì đã không làm anh ấy giận rồi.|Thứ tự: 言わなければ(4) かれを(2) おこらせる(1) ことはなかった(3) のに.¶〜ば…のに = giá mà ~ (tiếc nuối).¶おこらせる = thể sai khiến của 怒る = làm cho giận.
+B19|1|Hằng năm, học sinh các trường cấp 3 ở Nhật tổ chức giải bóng chày.|Nにおける＋N = ở, trong (phạm vi).¶日本における高等学校 = các trường THPT ở Nhật.¶Các đáp án khác: よる = do · おけて không tồn tại · より = hơn/từ.
+B20|3|Dự đoán của nhiều người trước trận đấu là trường A vô địch năm ngoái năm nay cũng sẽ thắng.|Dự đoán về tương lai: 勝つだろう.¶Các đáp án khác: 勝てただろう, 負けただろう là đoán chuyện quá khứ; 負けるだろう ngược ý (đội vô địch năm ngoái).
+B21|1|Thế nhưng khi trận đấu bắt đầu…|しかし = tuy nhiên (kết quả trái với dự đoán ở câu trước).¶Các đáp án khác: だから・それで = vì vậy · それとも = hay là (câu hỏi lựa chọn).
+B22|2|…trái với dự đoán, trường A không ghi được điểm nào.|Nに反して = trái với ~.¶Kết hợp: 予想に反して · 期待に反して.¶Phân biệt: 通りに = đúng như · に合わせて = cho khớp với · に比べて = so với.
+B23|3|Trước điều đó, không chỉ các cầu thủ mà cả huấn luyện viên cũng bị sốc nặng.|それに(も) = trước việc đó (chỉ kết quả vừa nêu); も nhấn mạnh "cả trước chuyện đó".¶Các đáp án khác: そんなに・あんなに = đến như thế (phó từ mức độ, không làm chủ ngữ cho "bị sốc") · あれ chỉ việc xa, không dùng cho điều vừa nói trong văn.
+B24|3|Ai đã nói "Để anh ra" với ai?|Người viết nghe chuông cửa, thấy 妻も台所で何かやっている (vợ "cũng" đang bận, tức còn người khác trong nhà cũng bận) nên nói 「出るよ」 với vợ và con gái rồi mới ra mở cửa.¶Người đưa thư đứng sau cánh cửa, chưa gặp nên không thể là 1.¶出る = ra (mở cửa, nghe điện thoại).¶Lưu ý: đáp án trong PDF ghi 1 là chưa đúng; đáp án đúng là 3.
+B25|4|"そのころ" là khoảng thời gian nào?|Câu trước: 明治時代になってから…いろいろな種類の野菜が入ってきた。それでも、そのころ… → そのころ = thời Minh Trị.¶そ〜 chỉ điều vừa nói ngay trước.
+B26|4|Lá thư này có lẽ gửi cho ai?|先日は大変お世話になりまして… あれから京都、奈良をまわり → người viết được nhà đó giúp đỡ, sau đó mới đi tiếp Kyoto, Nara → gửi cho nhà đã đến thăm trong chuyến đi.¶お世話になる = được giúp đỡ, chăm sóc · 帰宅 = về nhà.
+B27|2|Cuối cùng đứng như thế nào?|Đặt mũi chân phải lên mu bàn chân trái → đứng bằng chân trái. Cuối cùng hạ cả hai tay xuống, 顔はまっすぐ前を向いています → nhìn thẳng phía trước.¶Từ: 甲（こう）= mu bàn chân · 姿勢 = tư thế · 呼吸 = hít thở.
+B28|3|Điều nào SAI khi nói về Halloween?|Trẻ em mặc yukata đi hát là phong tục 七夕 ở Hakodate, không phải Halloween.¶Halloween: đèn bí ngô, nói "trick or treat", tiệc hoá trang (仮装パーティー).
+B29|2|Điều nào SAI khi nói về Tanabata?|"Trick or treat" là câu nói của Halloween.¶Tanabata: treo giấy ước nguyện (短冊) lên cành tre, Ngưu Lang Chức Nữ (彦星・織姫) gặp nhau; ở Hakodate trẻ mặc yukata đi từng nhà.
+B30|2|Điểm chung của Tanabata ở Hakodate và Halloween là gì?|特別な言葉を言ってお菓子をもらうところは、ハロウィンにそっくり → trẻ đi từng nhà xin kẹo.¶Từ: そっくり = giống hệt · 家々を回る = đi qua từng nhà.
+B31|1|Tác giả đánh giá chim bồ câu "phân biệt được" khi nó làm gì?|Huấn luyện: mổ màn hình khi hiện tranh được thưởng mồi, không mổ với tranh không có mồi. Phân biệt được = khi thấy tranh có mồi thì mổ màn hình.¶Từ: つつく = mổ · 餌（えさ）= mồi · 訓練 = huấn luyện.
+B32|2|Từ nào điền vào (②)?|Trước: có thể chim chỉ học thuộc 20 bức tranh. Sau: chim vẫn phân biệt được cả tranh chưa từng thấy → ý ngược lại → しかし.¶Các đáp án khác: それから = sau đó · もちろん = tất nhiên · 一方 = mặt khác (so sánh hai đối tượng).¶Lưu ý: đáp án trong PDF ghi 3 là chưa đúng; đáp án đúng là 2.
+B33|4|"Nhớ được sự khác biệt về phong cách vẽ" nghĩa là gì?|Chim không thuộc lòng từng bức mà phân biệt được đặc trưng tranh Picasso và đặc trưng tranh Monet.¶Từ: 作風（さくふう）= phong cách sáng tác · 丸暗記 = học thuộc lòng nguyên xi · 特徴 = đặc trưng.
+B34|2|"それ" chỉ điều gì?|１０分と言う時間はそんなに長い時間でもないし、それは誤差のうち → それ = 10 phút (đến muộn).¶Từ: 誤差（ごさ）= sai số → 誤差のうち = nằm trong sai số, không đáng kể.
+B35|3|"目くじらを立てる" nghĩa là gì?|目くじらを立てる = nhướng mắt giận dữ, bắt bẻ chuyện nhỏ nhặt.¶目くじら = đuôi mắt (không phải cá voi くじら).¶Kết hợp: 小さなことに目くじらを立てる.
+B36|4|Người "心が狭い" là người thế nào?|心が狭い = hẹp hòi, không biết bỏ qua cho người khác.¶Trái nghĩa: 心が広い = rộng lượng.¶Trong bài: giận bạn vì trễ 10–20 phút là hẹp hòi.
+B37|3|Điều nào khớp với nội dung bài?|Bài: 文化によって答えは様々 → có người cho rằng đến 7h10 là lịch sự, có người cho là thất lễ.¶Câu 1, 2 là cách nghĩ của nhiều người Nhật, không phải "nước nào cũng vậy" · Câu 4 sai vì mỗi văn hoá khác nhau.¶Từ: 礼儀（れいぎ）= phép lịch sự.
+B38|3|Tấm áp phích này dán ở đâu?|Người ký cuối tờ là 駅長（えきちょう）= trưởng ga → dán ở nhà ga.¶Từ: 喫煙所 = khu hút thuốc · 禁煙 = cấm hút thuốc.
+B39|4|Nội dung áp phích có nghĩa là gì?|Bình thường chỉ được hút ở 喫煙所; riêng ngày thường (平日) 7:30–9:30 thì ngay ở 喫煙所 cũng không được hút → thứ Tư (ngày thường) khung giờ đó không được hút ở bất cứ đâu.¶Câu 1: Chủ nhật không phải 平日 · Câu 2, 3 ngược nội dung.¶Từ: ご遠慮ください = xin vui lòng không ~ · 平日 = ngày thường (thứ Hai–thứ Sáu).
