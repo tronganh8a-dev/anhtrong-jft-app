@@ -118,3 +118,11 @@ Quy trình sau khi sửa: `python3 src/build_data.py` (nếu đổi dữ liệu)
 - Màu: xanh #0d5a8c · hồng #c42f66 · chữ #0d2b40 (trùng --blue / --pink của app).
 - `/app/media/brand/` và `/favicon.ico` mở công khai (auth.js) để trang đăng nhập, trang kiểm tra dùng được.
 - Đang dùng ở: sidebar + form đăng nhập + hero (index_tpl), trang /login (auth.js, kèm og:image), trang kiểm tra (kiemtra/tpl.html, kiemtra.js), BTVN (btvn/render.py), header slide trong tailieu (class `logo lgimg`, nền là icon.svg).
+
+## JLPT N3 (12/11/2026) — tab dùng chung cho 4 app
+- Trang độc lập `public/n3/` (index.html + n3.js + n3.css + data/ + img/), app JFT nhúng bằng iframe (nav `n3`, màn `#n3`, nạp khi mở; bản dùng thử thay bằng khung khoá trong build_demo.py). Cùng thư mục được chép sang app Khách sạn, Vệ sinh toà nhà, Chế biến thực phẩm: `bash src/n3/sync.sh "nội dung commit"` (chép + commit + push 3 repo).
+- **Luyện đề**: 26 đề (thứ tự trong PDF "26 đề thi N3": N3-1…N3-16, 16b, 17…23, 25, 26 → Đề 1–26). Mỗi đề: 文字・語彙 (35 câu) + 文法・読解 (39 câu), không có nghe. Chế độ Thi thử (100 phút) / Luyện tập (chấm ngay). Điểm cao nhất lưu localStorage `n3best_<id>`.
+  - Trích tự động từ PDF: `src/n3/tools/ext.py` (2 cột/trang, furigana → ruby, gạch chân → `<u>`, ô ★ → ＿＿), `tools/parse.py <chỉ số 0–25>` → `src/n3/raw/eXX.json`; bảng đáp án PDF → `raw/keys_raw.json` (`tools/keys.py`). Cần biến `N3PDF=<đường dẫn PDF>` (PDF không đưa lên repo).
+  - Đáp án đã kiểm + dịch + giải thích: `src/n3/ans/eXX.txt` (dòng `A5|3|dịch|giải thích`; A = 文字語彙, B = 文法読解). Sửa phần trích: `src/n3/fix/eXX.json` (`q`: {"B31": {...}}, `g`, `drop`). Dựng: `python3 src/n3/build.py [số đề…]` → `public/n3/data/deXX.json` + `index.json` (chỉ đề đủ giải thích mới hiện). Bài đọc 情報検索 (Ⅶ) là ảnh cắt `public/n3/img/n3eXXgN_k.jpg`.
+  - Đáp án PDF sai thì em tự giải và sửa (anh dặn 12/11), build.py in ra danh sách câu khác đáp án gốc.
+- **Từ vựng Mimikara N3**: 880 từ chép từ bảng "Tổng hợp 880 từ vựng Mimikara N3" (Minato Dorimu, PDF ảnh) → `src/n3/vocab/mimikara.tsv` (số · từ · Hán Việt · cách đọc · nghĩa; sửa vài lỗi rõ ràng của bảng) → `public/n3/data/vocab.json`. Chia phần 40 từ; Bảng từ / Thẻ ghi nhớ / Kiểm tra. Icon = bìa sách `img/mimikara.jpg` (anh gửi).
