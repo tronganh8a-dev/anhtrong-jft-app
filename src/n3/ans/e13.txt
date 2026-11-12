@@ -1,0 +1,75 @@
+# Đề 12 (PDF bộ 13). Mỗi câu: MÃ | đáp án (1-4) | dịch | giải thích (¶ = xuống dòng)
+A1|2|Sau khi chia tay anh Sato, tôi đi nghe nhạc một mình.|別れる（わかれる）· BIỆT = chia tay, chia ly.¶Kết hợp: 友達と別れる · 駅で別れる · 恋人と別れる (chia tay người yêu).¶Phân biệt: 分かれる = được chia ra (道が分かれる).¶Các đáp án khác: 割れる（われる）= vỡ · 壊れる = hỏng.
+A2|3|Chuyến du lịch năm ngoái thật sự rất tuyệt.|旅行（りょこう）· LỮ HÀNH = du lịch.¶Cách đọc: 旅 りょ (ngắn), 行 こう (dài).¶Kết hợp: 旅行する · 旅行に行く · 海外旅行 · 旅行会社.
+A3|4|Tôi đã hỏi anh ấy cái máy này chạy như thế nào.|動く（うごく）· ĐỘNG = chuyển động, chạy (máy).¶Kết hợp: 機械が動く · 動かないで · 心が動く.¶Các đáp án khác: 働く = làm việc · 驚く = ngạc nhiên.
+A4|1|Cặp nặng nên đi bộ tới ga vất vả.|歩く（あるく）· BỘ = đi bộ.¶Kết hợp: 駅まで歩く · 歩いて行く · 散歩 (đi dạo).¶Các đáp án khác: 続く = tiếp tục · 行く = đi · 着く = đến.
+A5|2|Hãy trả sớm cuốn sách tiếng Anh kia.|早く（はやく）· TẢO = sớm.¶Phân biệt: 早い = sớm (thời gian) · 速い = nhanh (tốc độ).¶Kết hợp: 早く起きる · 早く帰る.
+A6|3|Mùa xuân mà có ngày nóng.|春（はる）· XUÂN.¶Bốn mùa: 春（はる）· 夏（なつ）· 秋（あき）· 冬（ふゆ）.¶Ngữ pháp: 〜なのに = vậy mà.
+A7|2|Những ai tham dự bữa tiệc hãy viết tên vào cuốn sổ này.|出席（しゅっせき）= có mặt, tham dự.¶Kết hợp: 会議に出席する · 出席を取る · 出席者.¶Trái nghĩa: 欠席.
+A8|4|Bạn có biết cuốn sách có đăng nhiều thông tin về nhà hàng không?|情報（じょうほう）= thông tin.¶Cách đọc: cả 情 và 報 đều có trường âm.¶Kết hợp: 情報を集める · 情報が載る.
+A9|1|Tôi nghĩ nghiên cứu này rất hay.|研究（けんきゅう）· NGHIÊN CỨU.¶Chữ Hán: 究 (CỨU – tìm đến cùng, bộ huyệt 穴). 級 (CẤP), 求 (CẦU), 教 (GIÁO) sai.¶Kết hợp: 研究する · 研究者 · 研究室.
+A10|2|Họ đã chờ buổi hoà nhạc bắt đầu.|待つ（まつ）· ĐÃI = chờ.¶Chữ Hán: 待 (bộ xích 彳 – bước đi) vs 持 (TRÌ – cầm, bộ thủ 扌), 特 (ĐẶC), 侍 (THỊ).¶Kết hợp: 人を待つ · お待ちください · 待ち合わせ.
+A11|2|Ai biết tên con chim nhỏ kia thì trả lời nhé.|小鳥（ことり）= chim nhỏ.¶Chữ Hán: 鳥 (ĐIỂU – chim) ≠ 島 (ĐẢO – đảo). 子 (TỬ – con) sai.
+A12|4|Xong việc đó thì đến bếp nhé.|用事（ようじ）· DỤNG SỰ = việc (cần làm).¶Kết hợp: 用事がある · 用事を済ませる · 急な用事.¶Các đáp án khác: 予 (DỰ), 時 (THỜI) sai.
+A13|2|Không có tiền đang khốn đốn thì chị gái cho tôi mượn.|貸す（かす）· THẢI = cho mượn.¶Chữ Hán: 貸 (bộ bối 貝 – tiền). 貨 (HOÁ – hàng hoá), 借 (TÁ – mượn, かりる) dễ nhầm.¶Đối: 貸す (cho mượn) ↔ 借りる (mượn).
+A14|1|Đây là dụng cụ dùng để xây nhà.|建てる（たてる）· KIẾN = xây.¶Phân biệt: 建てる = xây (nhà, toà nhà) · 立てる = dựng (cột, kế hoạch).¶Kết hợp: 家を建てる · ビルを建てる.
+A15|4|Mọi người thi xem ai làm xong trước nhất không?|競争（きょうそう）= cạnh tranh, thi đua.¶Kết hợp: 競争する · 競争が激しい · 競争相手.¶Các đáp án khác: 急行 = tàu nhanh · 招待 = mời · 習慣 = thói quen.
+A16|3|Xe của tôi là xe sản xuất ở Nhật.|〜製（せい）= sản xuất tại / làm bằng.¶Kết hợp: 日本製 · 外国製 · プラスチック製 · 木製.
+A17|1|Rau thì hãy thái nhỏ.|細かい（こまかい）= nhỏ, vụn.¶Kết hợp: 細かく切る · 細かいお金 · 細かいこと.¶Các đáp án khác: ぬるい = âm ấm · 狭い = hẹp · 厳しい = nghiêm khắc.
+A18|4|Xe buýt chầm chậm leo lên dốc.|坂（さか）= dốc.¶Kết hợp: 坂を上る／下る · 坂道 · 急な坂.¶Các đáp án khác: かべ = tường · いし = đá · えだ = cành.
+A19|2|Kỳ nghỉ vui vẻ cuối cùng cũng kết thúc vào ngày mai.|とうとう = cuối cùng (sau thời gian dài).¶Các đáp án khác: だんだん = dần dần · どんどん = ào ào · いろいろ = nhiều thứ.
+A20|3|Người ta nói ngôn ngữ có quan hệ sâu sắc với văn hoá.|関係（かんけい）= quan hệ.¶Kết hợp: 深い関係 · 関係がある · 人間関係.¶Các đáp án khác: 拝観 = chiêm bái · 経験 = kinh nghiệm · 尊敬 = kính trọng.
+A21|2|Con gái tôi thích chơi game một mình hơn là chơi ngoài trời.|ゲーム = trò chơi (điện tử).¶Các đáp án khác: プール = bể bơi · スーツ = com-lê · ルール = luật.
+A22|1|Lễ hội hôm nay huỷ vì bão.|中止（ちゅうし）= huỷ bỏ, ngừng.¶Kết hợp: 中止になる · 雨天中止 (mưa thì huỷ).¶Các đáp án khác: 紹介 = giới thiệu · 注射 = tiêm · 承知 = biết, đồng ý.
+A23|4|Đã trồng cây trên núi.|植える（うえる）= trồng.¶Kết hợp: 木を植える · 花を植える · 田植え (cấy lúa).
+A24|3|Ở Nhật hầu như cả ngày đều có phát sóng truyền hình.|放送（ほうそう）= phát sóng.¶Kết hợp: テレビ放送 · 生放送 · 放送局.¶Các đáp án khác: 季節 = mùa · 法律 = pháp luật · 規則 = quy tắc.
+A25|3|Con tôi đã làm hỏng đồ chơi.|おもちゃ = đồ chơi.¶Kết hợp: おもちゃを壊す · おもちゃ屋.
+A26|1|Công việc lần này rất vất vả.|きつい ≈ 大変だ = vất vả.¶Các đáp án khác: 簡単だ · つまらない = chán · おもしろい.
+A27|2|Hôm nay mệt rã rời.|くたびれる ≈ 疲れる = mệt.¶Kết hợp: 歩きくたびれる · くたびれた服 (áo sờn cũ).
+A28|3|Quán này lúc nào cũng đông.|混雑する ≈ 客がたくさんいる = đông khách.
+A29|2|Luật của môn thể thao này đơn giản.|単純（たんじゅん）≈ わかりやすい = đơn giản, dễ hiểu.¶Trái nghĩa: 複雑（ふくざつ）.
+A30|2|Để rút tiền ở quầy cần con dấu.|引き出す ≈ おろす = rút tiền.
+A31|3|Tôi bị mắng "Hãy làm nghiêm túc hơn".|しかる（叱る）= mắng, rầy la.¶Kết hợp: 子供をしかる · 先生にしかられる.¶Các câu sai: 1, 2, 4 là lời hỏi han, khen, rủ – không phải mắng.
+A32|1|Làm sai câu dễ, xấu hổ quá.|恥ずかしい（はずかしい）= xấu hổ.¶Các câu sai: 2 phải là さびしい · 3 phải là うれしい · 4 phải là つまらない.
+A33|4|Nếu có dịp đến gần thì nhất định ghé chơi nhé.|機会（きかい）= cơ hội, dịp.¶Kết hợp: 機会がある · いい機会 · 〜する機会.¶Các câu sai: 1 phải là 予定 · 2 phải là 興味 · 3 phải là 経験.
+A34|1|Chủ nhật tôi thường chơi thể thao.|たいてい = thường, hầu hết.¶Các câu sai: 2 phải là 一日中 · 3 phải là あまり · 4 phải là ずいぶん.
+A35|2|Được tặng quà nên tôi đã nói lời cảm ơn.|お礼（おれい）= lời cảm ơn, quà cảm ơn.¶Kết hợp: お礼を言う · お礼をする.¶Các câu sai: 1 phải là お見舞い · 3 phải là ごちそう · 4 phải là お祝い.
+B1|2|Tôi sẽ cố hết sức để có thể thắng trận tới.|Cấu trúc: V khả năng＋ように = để có thể ~. 勝てるように.¶Phân biệt: ために đi với động từ ý chí (勝つために).
+B2|2|Với lương thấp của tôi bây giờ, làm bao nhiêu năm cũng không có vẻ mua nổi nhà.|Cấu trúc: Vます＋そうもない = có vẻ không thể ~. 買える → 買えそうもない.
+B3|4|"Dạo này anh Yamada không vui nhỉ." "Ừ, hình như đang phiền muộn về chuyện tương lai."|Cấu trúc: Nのことで悩む = phiền muộn vì chuyện N.¶Các đáp án khác: ほうに · 場合に · ほかに không hợp.
+B4|3|"Này, anh Tanaka là người thế nào?"|Cấu trúc: Nって = Nというのは (văn nói, hỏi về người/vật).
+B5|4|"Tôi cũng muốn một lần nào đó đi thử."|いつか = một lúc nào đó (tương lai).¶Các đáp án khác: いつのまにか = không biết từ lúc nào · いつでも = bất cứ lúc nào.
+B6|1|"Vậy thì cái này thì sao? Tôi nghĩ rất hợp với anh Yamada."|Cấu trúc: Nなんか(どう) = N chẳng hạn (gợi ý nhẹ nhàng).
+B7|2|"Không phải, là đứa đang khóc đòi bánh ở kia kìa."|Cấu trúc: 〜がる = (ngôi thứ 3) tỏ ra muốn. 欲しがっている = đang đòi.¶Lưu ý: 欲しい dùng cho mình; người khác dùng 欲しがる.
+B8|3|"Thưa thầy, sau giờ học em đến phòng thầy có được không ạ?"|うかがう = đến, thăm (khiêm nhường ngữ của 行く／訪ねる).¶Các đáp án khác: 来られる, いらっしゃる, 行かれる là tôn kính (dùng cho người trên).
+B9|1|Nhờ cô mà em giỏi tiếng Nhật lên. Em cảm ơn cô.|Cấu trúc: Nのおかげで = nhờ N (kết quả tốt).
+B10|1|Tôi đã được anh Tanaka giúp đỡ rất nhiều, từ việc này đến việc khác.|Cụm cố định: 何から何まで = từ A đến Z.
+B11|2|"Anh Yamada đang họp, nhưng chắc cuộc họp sẽ xong trước 11 rưỡi."|Cấu trúc: 時間＋までに = trước (mốc thời gian, việc xảy ra 1 lần).¶Phân biệt: まで = cho đến (kéo dài).
+B12|3|"Nếu có vẻ quá 9 giờ thì gọi điện, anh sẽ đi đón."|Cấu trúc: Vる＋ようなら = nếu có vẻ ~ thì.
+B13|1|"Vậy giờ có vẻ không nên bắt chuyện thì hơn nhỉ."|Cấu trúc: Vないほうがいい＋そうだ（様態）→ ないほうがよさそうだ = có vẻ không nên ~.¶Phân biệt: いいそうだ = nghe nói là tốt (truyền văn).
+B14|2|Tuần sau thi đấu mà chẳng chịu đến tập, cậu đã làm gì vậy?|Thứ tự đúng: なのに ちっとも 練習に来ないで 何をやっていたんですか (3-4-2-1). ★ là 練習に来ないで.¶Cấu trúc: Nなのに = vậy mà · ちっとも〜ない = chẳng chút nào.¶Lưu ý: PDF in "ちょっとも", đúng là ちっとも.
+B15|4|Bảo tàng đó giờ đóng cửa khác nhau tuỳ ngày nên hỏi ở quầy thì hơn.|Thứ tự đúng: によって 閉まる時間 が 違うから (3-1-4-2). ★ là が.¶Cấu trúc: Nによって違う = khác nhau tuỳ N.
+B16|2|Tự trồng rau mới hiểu trồng rau ngon vất vả biết bao.|Thứ tự đúng: ことが どんなに 大変な ことか (1-4-2-3). ★ là 大変な.¶Cấu trúc: どんなに〜ことか = ~ biết bao.
+B17|1|"Bài này tôi thích nhưng hơi khó, nên muốn đổi bài khác."|Thứ tự đúng: から ほか の に (4-2-1-3). ★ là の.¶Cấu trúc: ほかのにする = chọn cái khác.
+B18|3|Tôi nghĩ việc con muốn làm thì tôi muốn để con làm.|Thứ tự đúng: したい と思うことは やらせて やりたい (1-4-3-2). ★ là やらせて.¶Cấu trúc: Vさせてやる = cho (người dưới) làm ~ · Vたいと思う = muốn.
+B19|3|Ở nước tôi không có núi nào cao như vậy.|Căn cứ: câu trước nói Phú Sĩ cao 3.776 m → "núi cao như thế" (こんなに高い山).¶Các đáp án khác: 1, 4 "núi cao nhất này" chỉ Phú Sĩ – không thể có ở nước khác · 2 "Phú Sĩ như thế" cũng vậy.
+B20|4|Giữa đường leo, tôi đã nghĩ "muốn về rồi".|Căn cứ: vì lạnh, đường khó đi, đau chân → muốn bỏ về: もう帰りたい.
+B21|2|Nhưng lên đến đỉnh ngắm mặt trời mọc thì mệt mỏi tan biến.|しかし = nhưng (đối lập với vất vả trước đó).
+B22|1|Mặt trời đã hiện ra từ giữa tuyết trải rộng trước mắt.|〜のです = giải thích, nhấn mạnh sự việc đã xảy ra. 現れたのです.¶Các đáp án khác: はずです = chắc là (suy đoán) · でしょう = có lẽ.
+B23|3|Đó đã trở thành một kỷ niệm tuyệt vời.|思い出になる = trở thành kỷ niệm.¶Các đáp án khác: 作りたい / ほしい là mong muốn (chưa xảy ra).
+B24|4|Điều nào đúng về nội dung thư?|Căn cứ: ABC株式会社 viết cho さくら株式会社: 「最新のバッグのカタログと価格表を今月中に送っていただけないでしょうか」 → ABC nhờ Sakura gửi catalog và bảng giá.¶Các đáp án khác: 1, 3 người xuất khẩu là ABC · 2 người cân nhắc là ABC.
+B25|3|"Xã hội như thế" là xã hội thế nào?|Căn cứ: 「女性の地位が向上すれば、家族内で子どもを産むかどうかということについて女性の発言権が拡大し、そのような社会」 → xã hội mà ý kiến người vợ được tôn trọng.¶Từ vựng: 地位 = địa vị · 発言権 = quyền phát biểu · 差別 = phân biệt đối xử.
+B26|4|"急がば回れ" có ý khuyên khi vội nên làm gì?|Căn cứ: 「実際に回り道をしろと言っているのではなく、あわてて事故を起こしたりしないように、それだけの余裕を持てということ」.¶Cụm: 急がば回れ = dục tốc bất đạt · 余裕 = sự thong thả, dư dả.
+B27|1|Từ thích hợp điền vào ( ).|もっとも = tuy nhiên (bổ sung điều trái với câu trước): đọc sách nhiều, có điều nghe nói cũng nhiều cuốn chưa đọc.¶Các đáp án khác: つまり／すなわち = tức là · たとえば = ví dụ.
+B28|1|Điểm hay của "tour trọn gói có hướng dẫn" là gì?|Căn cứ: 「往復の交通や宿泊、観光などがパッケージになっている…すべてが決められているので、大変便利」 → không phải tự lo phương tiện, chỗ ở, lịch trình.
+B29|3|Điểm hay của "tour tự do" là gì?|Căn cứ: 「それ以外は自由＝フリーだ。目的地での行動を自由に決めて」 → không bị bó buộc thời gian, tự do đi nơi mình muốn.
+B30|1|Cần chú ý điều gì với "tour tự do"?|Căn cứ: 「一度ツアー料金を払ってしまったら、往復の飛行機やホテルは変えられない」.¶Các đáp án khác: 2 vé tàu xe có thể đăng ký cùng · 4 chỗ ở đã được định.
+B31|4|Điểm bất tiện của siêu thị là gì?|Căn cứ: 「ビニールなどに包まれているために、品物を直接見ることもできない」 → chỉ nhìn được gián tiếp.¶Các đáp án khác: 1 bài nói không mua được đúng lượng cần · 3 siêu thị rẻ hơn.
+B32|1|Từ thích hợp điền vào ( ).|このように = như vậy (tổng kết những điều vừa nói: tiện lợi và bất tiện).
+B33|3|Tác giả nghĩ gì về siêu thị?|Căn cứ: 「もう私たちの生活に欠かせないものとなっている」 → không thể thiếu.
+B34|4|Vì sao khi thái hành lại chảy nước mắt?|Căn cứ: 「呼吸したりするときに体の中に入ってきて、涙を出させる」 → hít vào thì allicin trong không khí vào cơ thể và làm chảy nước mắt.
+B35|2|Kiểu "ngăn allicin trong không khí vào cơ thể" là cách nào?|Căn cứ: A bật quạt hút (thổi allicin đi) và B nhét giấy vào mũi → ngăn allicin vào người. C, D, E, F là cách ngăn allicin bay ra (lợi dụng tính chất tan trong nước, lạnh, nóng).
+B36|1|Điều nào giải thích đúng cách hâm bằng lò vi sóng?|Căn cứ: allicin dễ bị nhiệt phá huỷ → ít chảy nước mắt; nhưng allicin tốt cho cơ thể lại bị phá → có nhược điểm.¶Các đáp án khác: 2 bài không khuyên đừng làm · 3 tan trong nước là cách ngâm nước · 4 bài không nói tốt nhất.
+B37|4|Ý tác giả khi nói "hãy chọn cách mình thấy tốt nhất" là gì?|Căn cứ: các cách đều có ưu nhược điểm (hiệu quả ngắn, làm mất allicin) → hãy tìm cách hợp với mình.
+B38|3|Lớp nào Yurina có thể học và hợp nhất với mong muốn?|Điều kiện: làm 8h–17h, nghỉ thứ Tư và Chủ nhật, muốn học cả chữ Hán, 2 buổi/tuần; học lớp Hán tự thì phải học kèm lớp tiếng Nhật.¶Tiếng Nhật A: thứ Năm buổi tối → được. Hán tự B: Chủ nhật buổi sáng → được. (Tiếng Nhật B sáng thứ Sáu và Hán tự A chiều thứ Bảy trùng giờ làm.) → (3) và (6).
+B39|1|Yurina phải đăng ký trước ngày nào?|Căn cứ: 「申込方法…3月1日から4月5日までの間に、申込書に必要なことを書いて市民センターに出してください」.¶Các mốc khác: 8/4 buổi giới thiệu · 10/4 bắt đầu học · 14/9 kết thúc.
