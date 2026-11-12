@@ -41,6 +41,16 @@ TSQ = {
           'A: Chủ nhật đi xem bóng chày cùng không? / B: À, chủ nhật thì hơi…… / A: Vậy à. Thế để lần sau nhé.',
           f'「〜は ちょっと……」 là cách từ chối nhẹ nhàng của người Nhật, không nói thẳng 「{R("行","い")}けません」. Nghe thấy 「ちょっと……」 ngập ngừng + người kia đáp 「また{R("今度","こんど")}」 (để lần sau) → B không đi được. Nhận lời thì nói 「いいですね」「ぜひ」.'),
 }
+# 12/11: anh yêu cầu các câu nghe động đất / sơ tán đổi phương án từ tranh sang chữ
+K = lambda t: t  # chữ Nhật dễ, có furigana bên dưới
+TXT = {
+ ('f3', 34): (['f3_489017677_0.jpg'], {'C': f'{R("机","つくえ")}の{R("下","した")}に{R("隠","かく")}れる', 'B': f'{R("揺","ゆ")}れているときに、{R("急","いそ")}いで{R("火","ひ")}を{R("消","け")}しに{R("行","い")}く', 'A': f'{R("部屋","へや")}のドアを{R("開","あ")}ける'},
+              'Phương án (trước là tranh): A = mở cửa phòng · B = vội đi tắt bếp lúc đang rung · C = nấp dưới gầm bàn.'),
+ ('f13', 33): ([], {'1': f'{R("大","おお")}きい{R("声","こえ")}で「{R("火事","かじ")}だ！」と{R("知","し")}らせる', '2': f'すぐに{R("逃","に")}げる', '3': f'{R("水","みず")}をかけて{R("火","ひ")}を{R("消","け")}す'},
+              'Phương án (trước là tranh): 1 = hô to báo mọi người · 2 = chạy ngay · 3 = dội nước dập lửa.'),
+ ('f13', 34): ([], {'1': f'{R("会社","かいしゃ")}の{R("建物","たてもの")}の{R("前","まえ")}', '2': f'{R("公園","こうえん")}', '3': f'{R("会社","かいしゃ")}の{R("前","まえ")}の{R("駐車場","ちゅうしゃじょう")}'},
+              'Phương án (trước là tranh): 1 = trước tòa nhà công ty · 2 = công viên (chỗ đất trống) · 3 = bãi đỗ xe trước công ty.'),
+}
 qs = []
 for s, L in PICK.items():
     for it in L:
@@ -49,6 +59,12 @@ for s, L in PICK.items():
         e, n = it
         q = copy.deepcopy(ex['jft-' + e]['qs'][n - 1]); assert q['s'] == s, (e, n)
         q['src'] = f"{ex['jft-'+e]['title']} · câu {n}"
+        if (e, n) in TXT:
+            keep, mp, note = TXT[(e, n)]
+            q['imgs'] = [x for x in q['imgs'] if x.split('/')[-1] in keep]
+            for o in q['o']:
+                k = o['t'].strip(); o['t'] = f'{k}. {mp[k]}' if k in mp else o['t']
+            q['ex'] = q['ex'].replace('</div>', f'</div><div style="margin:4px 0 8px;color:#0d5a8c;font-size:13px">{note}</div>', 1)
         q['t'] = (q.get('t') or '').replace('泊まりした', '泊まりました')  # sửa lỗi gõ ở câu gốc
         qs.append(q)
 new = {'id': 'jft-t1', 'group': 'Đề thi thử JFT-Basic', 'title': 'Đề Thảo Linh', 'name': 'Thảo Linh',
