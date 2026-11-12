@@ -44,9 +44,9 @@ def crop(pdf, lines, name):
     seg={}
     for l in lines: seg.setdefault((l[0],l[1]),[]).append(l[3])
     for k,(key,ys) in enumerate(sorted(seg.items())):
-        pn,col=key; p=d[pn-1]; W=p.rect.width; mid=W/2
+        pn,col=key; p=d[pn-1]; W=p.rect.width; mid=W/2 if W>700 else W-14
         x0,x1=(14,mid) if col==0 else (mid,W-14)
-        r=fitz.Rect(x0,max(0,min(ys)-16),x1,min(p.rect.height,max(ys)+20))
+        r=fitz.Rect(x0,max(0,min(ys)-26),x1,min(p.rect.height,max(ys)+24))
         pix=p.get_pixmap(clip=r,matrix=fitz.Matrix(2.4,2.4))
         f=f'{name}_{k}.jpg'; pix.save(OUT+'img/'+f,jpg_quality=82); files.append('img/'+f)
     return files

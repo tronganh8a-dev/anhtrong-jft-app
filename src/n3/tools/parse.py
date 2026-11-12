@@ -20,6 +20,8 @@ def lines_of(a,b):
             t=x['t']; p=strip(t).strip()
             if x['y']>670 and re.fullmatch(r'\d{1,3}',p): continue
             if re.fullmatch(r'N3\s*-?\s*\d+b?',p) or p in ('N3',): continue
+            if re.fullmatch(r'[-‐－]?\s*\d{1,2}\s*[-‐－]?\s*(N3\s*[-‐－]\s*\d+)?\s*(【読解】)?',p) or p=='【読解】': continue
+            if re.match(r'^[＊*]*\s*問題\s*\d+\s*[（(]\s*\d+\s*[)）]\s*$',p): continue
             if re.match(r'^(団体名|企業名|名前)',p): continue
             if re.search(r'言語知識|語彙知識|配点',p) and len(p)<40 and not QRE.match(p): 
                 L.append(dict(kind='hdr',t=t,p=p,pn=pn,col=x['col'],y=x['y'],x=x['x']));continue
@@ -34,7 +36,7 @@ def split_opts(t):
     return [re.sub(r'^\s+|\s+$','',o).strip('　 ') for o in out], parts[0]
 def parse(ix):
     a,b=RANGES[ix]; L=lines_of(a,b)
-    part='A'; sec=None; qs=[]; groups=[]; buf=[]; ins={}; cur=None; maxn=0
+    lastopt=False; part='A'; sec=None; qs=[]; groups=[]; buf=[]; ins={}; cur=None; maxn=0
     for ln in L:
         p=ln['p']; t=ln['t']
         if ln['kind']=='hdr':
@@ -68,7 +70,10 @@ def parse(ix):
                 o,pre=split_opts(rest); cur['stem']=pre.strip(); cur['opts']=o
             qs.append(cur); continue
         if ORE.match(p) and cur is not None and len(cur['opts'])<4:
-            o,_=split_opts(t); cur['opts']+=o; continue
+            o,_=split_opts(t); cur['opts']+=o; lastopt=True; continue
+        if lastopt and cur is not None and len(cur['opts'])==4 and len(p)<=12 and not re.search(r'[【】]|^[-‐－]\s*\d|問題',p):
+            cur['opts'][-1]+=t; lastopt=False; continue
+        lastopt=False
         if cur is not None and len(cur['opts'])==0:
             cur['stem']+=('<br>' if cur['stem'] else '')+t; continue
         if cur is not None and 0<len(cur['opts'])<4 and not ORE.match(p):

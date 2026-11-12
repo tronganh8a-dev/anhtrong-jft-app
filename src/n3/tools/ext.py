@@ -2,7 +2,7 @@
 import pymupdf as fitz, re, json, sys, html
 KAN=re.compile(r'[㐀-鿿々〆ヶ]')
 def page_lines(p):
-    W=p.rect.width; mid=W/2
+    W=p.rect.width; mid=W/2 if W>700 else W*2   # trang dọc (A4 đứng) = 1 cột
     D=p.get_text('rawdict')
     chars=[]
     for b in D['blocks']:
