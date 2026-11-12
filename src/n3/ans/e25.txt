@@ -1,0 +1,75 @@
+# Đề 23 (PDF bộ 25). Mỗi câu: MÃ | đáp án (1-4) | dịch | giải thích (¶ = xuống dòng)
+A1|3|Anh Yamada được chọn làm đại diện lớp.|代表（だいひょう）· ĐẠI BIỂU = đại diện.¶Cách đọc: だい (hữu thanh) + ひょう (trường âm).¶Kết hợp: クラスの代表 · 代表的な.
+A2|3|Tôi muốn bảo vệ những dòng sông đẹp của Hokkaido.|守る（まもる）· THỦ = bảo vệ; giữ (lời hứa, luật).¶Kết hợp: 自然を守る · 約束を守る · ルールを守る.¶Phân biệt: 回る = quay · 帰る = về · 変わる = thay đổi.
+A3|1|Không có việc làm nên cuộc sống khổ cực.|苦しい（くるしい）· KHỔ = khổ sở, khó khăn.¶Kết hợp: 生活が苦しい · 息が苦しい.¶Phân biệt: さびしい = cô đơn · かなしい = buồn · くやしい = tức, tiếc.
+A4|4|Ở Nhật, ngày 3/11 là ngày lễ "Ngày Văn hoá".|祝日（しゅくじつ）· CHÚC NHẬT = ngày lễ.¶Cách đọc: 日 đọc じつ (như 休日, 平日).¶Kết hợp: 国民の祝日 · 祝日は休み.¶Lưu ý: PDF ghi "11月13日"; Ngày Văn hoá là 3/11 nên đã sửa.
+A5|3|Ở đây cấm đỗ xe.|駐車（ちゅうしゃ）· TRÚ XA = đỗ xe.¶Kết hợp: 駐車禁止 · 駐車場.¶Phân biệt: 注射（ちゅうしゃ）= tiêm (đồng âm) · 乗車（じょうしゃ）= lên xe.
+A6|2|Kẹo cao su thì gói vào giấy rồi vứt.|包む（つつむ）· BAO = gói.¶Kết hợp: 紙に包む · プレゼントを包む.¶Phân biệt: はさむ = kẹp · たたむ = gấp · 進む = tiến lên.
+A7|4|Nhà ăn vẫn đang chuẩn bị.|準備（じゅんび）· CHUẨN BỊ.¶Kết hợp: 準備中 · 準備ができる · 準備運動.¶Phân biệt: 営業中 = đang mở cửa · 休業 = nghỉ kinh doanh · 整備 = bảo dưỡng.
+A8|2|Tôi làm công việc liên quan đến y tế.|医療（いりょう）· Y LIỆU = y tế, chữa bệnh.¶Kết hợp: 医療関係 · 医療費 · 医療機関.¶Phân biệt: 治療（ちりょう）= điều trị · 診療 = khám chữa.
+A9|1|Khi gặp khó khăn, tôi đã được thầy giúp đỡ.|助ける（たすける）· TRỢ = giúp.¶Ngữ pháp: Vていただく = được (người trên) làm cho.
+A10|4|Thang máy này sức chứa 9 người.|定員（ていいん）· ĐỊNH VIÊN = số người tối đa.¶Kết hợp: 定員9名 · 定員オーバー.¶Phân biệt: 係員 = nhân viên phụ trách · 乗員 = phi hành đoàn · 店員 = nhân viên cửa hàng.
+A11|1|Lá thư này xin gửi chuyển phát nhanh.|速達（そくたつ）· TỐC ĐẠT = chuyển phát nhanh.¶Kết hợp: 速達で送る.¶Phân biệt: 配達 = giao hàng · 発達 = phát triển · 友達 = bạn.
+A12|1|Tôi đi đến sân bay bằng xe buýt limousine.|空港（くうこう）· KHÔNG CẢNG = sân bay.¶Phân biệt: 航空（こうくう）= hàng không (航空会社).
+A13|2|Có thể đổi giúp tờ 10.000 yên được không?|札（さつ）· TRÁT = tiền giấy.¶Kết hợp: 一万円札 · お札.¶Phân biệt: 枚 = tờ (đếm) · 杯 = chén.¶Ngữ pháp: 両替 = đổi tiền.
+A14|3|Cũng có thể thanh toán bằng máy.|機械（きかい）· CƠ GIỚI = máy móc.¶Đồng âm: 機会（きかい）= cơ hội.¶Kết hợp: 機械で精算 · 機械を使う.
+A15|2|Ngủ say nên thấy dễ chịu.|ぐっすり = (ngủ) say.¶Kết hợp: ぐっすり寝る／眠る.¶Phân biệt: すっかり = hoàn toàn · はっきり = rõ ràng · ぴったり = vừa khít.
+A16|1|Tàu điện chạy ngay sau nhà tôi.|真後ろ（まうしろ）= ngay phía sau.¶真＋vị trí = ngay ~: 真ん中 · 真上 · 真下.¶Các đáp án khác: この付近／この辺り = quanh đây (không đi với 私の家の).
+A17|2|Rác đó là tài nguyên tái chế nên đừng bỏ vào rác cháy được.|資源（しげん）= tài nguyên.¶Kết hợp: リサイクルの資源 · 資源ゴミ · 資源を大切にする.¶Phân biệt: 可燃ゴミ = rác cháy được · 不燃ゴミ = rác không cháy.
+A18|2|Khi báo tin học sinh nhập viện đã mất, cả lớp lặng đi.|しいんと = im phăng phắc.¶Kết hợp: しいんとなる · 教室がしいんとする.¶Phân biệt: しみじみ = thấm thía · がっかり = thất vọng.
+A19|2|Lúc xảy ra vụ việc, anh ấy ở cùng tôi. Vì vậy anh ấy tuyệt đối không phải thủ phạm.|したがって = do đó (kết luận logic, văn viết).¶Các đáp án khác: だが = nhưng · やはり = quả nhiên · それでは = vậy thì.
+A20|3|Tôi bị người bên cạnh nói là tiếng tập đàn piano ồn ào.|やかましい = ồn ào, om sòm (khó chịu).¶Kết hợp: やかましい音 · 口やかましい = hay cằn nhằn.¶Phân biệt: うらやましい = ghen tị.
+A21|2|Nghe nói trong judo, người to con chưa chắc đã có lợi.|有利（ゆうり）= có lợi, lợi thế.¶Trái nghĩa: 不利.¶Mẫu: 〜とは限らない = chưa chắc.¶Phân biệt: 便利 = tiện lợi · 見事 = tuyệt vời.
+A22|4|Em gái tôi đạt giải nhì cuộc thi violin tổ chức ở Ý.|コンクール = cuộc thi (âm nhạc, nghệ thuật).¶Phân biệt: コンサート = buổi hoà nhạc · コンセント = ổ cắm · コンクリート = bê tông.
+A23|2|Anh ấy thích rượu mà lại mê cả đồ ngọt.|目がない = cực kỳ thích, mê (không cưỡng lại được).¶Kết hợp: 甘いものに目がない.¶Phân biệt: 目が高い = có mắt nhìn hàng · 目がこえている = sành.
+A24|3|Anh ta toàn nói này nói nọ để trốn việc.|怠ける（なまける）= lười biếng.¶Vます(bỏ ます)＋たがる = (người khác) muốn ~.¶〜ては = cứ ~ là (lặp lại).¶Phân biệt: くたびれる = mệt nhoài.
+A25|2|Hôm nay có 8 vụ tai nạn giao thông nhưng không có người chết.|〜件（けん）= vụ, trường hợp (đếm sự việc).¶Kết hợp: 事故が8件 · 相談件数.¶Phân biệt: 個 = cái · 軒 = căn nhà · 度 = lần.
+A26|4|Trò chơi mới được làm ra liên tiếp.|次々（つぎつぎ）に = liên tiếp ≈ どんどん.¶Phân biệt: だんだん = dần dần.
+A27|2|Tết năm nay tôi thong thả ở nhà.|のんびり = thong thả, thảnh thơi ≈ ゆっくり.¶Kết hợp: のんびり過ごす · のんびりした性格.¶Phân biệt: 騒ぐ = làm ồn · ぜいたく = xa xỉ.
+A28|2|Giấy photo sắp hết rồi, mua sẵn thôi.|なくなる = hết ≈ 切れる（きれる）.¶Kết hợp: 紙が切れる · 電池が切れる · 期限が切れる.¶Phân biệt: ずれる = lệch · こなす = xử lý xong.
+A29|4|Tôi đã trải qua chuyện rất đáng sợ.|恐ろしい（おそろしい）= đáng sợ ≈ こわい.
+A30|1|Tôi cùng vợ đi làm.|通勤（つうきん）= đi làm ≈ 仕事に行く.¶Phân biệt: 通学 = đi học.
+A31|2|Giờ này chắc ở Tokyo hoa anh đào đang nở.|今ごろ = giờ này (phỏng đoán tình hình nơi khác) / giờ mới (muộn).¶Kết hợp: 今ごろ〜ているでしょう · 今ごろ言っても遅い.¶Câu sai: 1 これから · 3 最近 · 4 今にも.
+A32|2|Hãy đính kèm ảnh vào mail rồi gửi.|添付（てんぷ）= đính kèm.¶Kết hợp: メールに添付する · 添付ファイル.¶Câu sai: 1 移動した · 3 削除した · 4 なくなった.
+A33|4|Buổi họp bàn kéo dài nên tôi bị trễ cuộc hẹn tiếp theo.|長引く（ながびく）= kéo dài (hơn dự định).¶Kết hợp: 会議が長引く · 風邪が長引く.¶Câu sai: 1 遅れて · 2 長くて · 3 かかって.
+A34|4|Xin mời dùng khi còn nóng.|召し上がる = ăn, uống (tôn kính).¶Kết hợp: どうぞお召し上がりください.¶Câu sai: 1 お出しします／お持ちします · 2 お入りください · 3 お越しくださいました.
+A35|3|Đây là chút quà mọn, nếu được xin nhận cho.|つまらないものですが = chút quà mọn (câu khiêm tốn khi tặng quà).¶Câu sai: 1, 2 không có quà · 4 là người nhận nói (người nhận không nói câu này).
+B1|2|Bố nóng tính, ngược lại mẹ lại kiên nhẫn.|〜のに対して = trái lại, ngược với (so sánh hai đối tượng).¶Kết hợp: 兄が背が高いのに対して、弟は低い.¶Phân biệt: において = tại · について = về · によって = tuỳ theo.
+B2|4|Đang đọc sách thì lúc nào không hay đã trôi qua 5 tiếng.|いつのまにか = lúc nào không hay.¶Phân biệt: そろそろ = sắp · ようやく = mãi mới.
+B3|2|Hôm nay tôi hẹn gặp bạn lúc 7 giờ ở ga Tokyo nên 6 rưỡi rời công ty.|Vる＋ことになっている = đã định sẵn.¶Kết hợp: 会うことになっている.
+B4|1|Tôi được bác sĩ bảo bỏ thuốc lá mà mãi không bỏ được.|Vる＋ように言われる = bị bảo hãy ~.¶Phân biệt: Vないように言われる = bị bảo đừng ~.
+B5|4|Trời trông như sắp mưa đến nơi.|今にも〜そうだ = sắp ~ đến nơi.¶Kết hợp: 今にも雨が降りそうだ.¶Các đáp án khác: なかなか, ちっとも đi với phủ định · もし = nếu.
+B6|4|Đúng là Đại học Kyoto có thể không được, nhưng nếu vậy thì nên làm thế nào?|それなら = nếu vậy thì (đưa ra đề xuất/câu hỏi dựa trên điều vừa nói).¶Các đáp án khác: それとも = hay là · それも = cái đó cũng.
+B7|1|Dù có bận đi nữa, chỉ cần có gia đình thì không thấy khổ.|たとえ〜ても = dù cho ~.¶Kết hợp: たとえ忙しくても · たとえ雨でも.
+B8|1|Thông qua Internet có thể biết ngay thông tin thế giới.|Nを通じて = thông qua.¶Kết hợp: インターネットを通じて · 一年を通じて = suốt cả năm.¶Phân biệt: をもとに = dựa trên · を問わず = không kể.
+B9|2|Anh ấy nói sẽ đến ngay vậy mà mãi không đến, tôi phải đợi tận 1 tiếng.|〜のに = vậy mà (kết quả trái mong đợi).¶Kết hợp: 言ったのに · 約束したのに.
+B10|2|Đừng nằm mãi, làm gì đi chứ? Thỉnh thoảng dọn dẹp chẳng hạn.|〜とか = ~ chẳng hạn (gợi ý nhẹ, văn nói).¶Kết hợp: 掃除するとか · 散歩するとか.
+B11|1|Thầy: "Tanaka, báo cáo tuần sau xong chưa?" Tanaka: "Em đang làm ạ, còn Yamada nghe nói xong rồi."|Vている＋ところです = đang ~ (đúng lúc này).¶Nói về mình → không dùng らしい／ようです (phỏng đoán).
+B12|1|Không uống nước mà sống được cả tuần thì không thể nào.|〜はずがない = không lẽ nào, không thể.¶Kết hợp: 生きられるはずがない · 彼が知らないはずがない.¶Phân biệt: べきだ = nên.
+B13|3|Đối với cha mẹ, sức khoẻ của con là điều quan trọng nhất.|Nにとって = đối với N (đánh giá từ lập trường).¶Kết hợp: 親にとって · 私にとって大切な人.
+B14|2|Có nhà hàng vừa khai trương tuần trước, đi thử không?|Thứ tự: オープンした(3) ばかりの(1) レストランが(2) ある(4) から.¶Vたばかりの＋N = N vừa mới ~.
+B15|4|Anh ấy tốt nghiệp với thành tích cao nhất từ khi trường này thành lập.|Thứ tự: 始まって(3) 以来(1) 最高の(4) 成績で(2).¶Vて以来 = kể từ khi ~.
+B16|3|Cô ấy thích hoa hơn tất cả, nói rằng chỉ cần được chăm hoa thì không cần gì khác.|Thứ tự: 花の(1) 世話さえ(4) していれば(3) 他には(2).¶Nさえ〜ば = chỉ cần ~ là.
+B17|2|Thấy anh ấy cuối tuần cũng đi làm thì có vẻ bận đến mức không nói gì tới chuyện du lịch, nên đừng rủ.|Thứ tự: ところを(3) 見ると(4) 忙しくて(2) 旅行どころ(1).¶〜ところを見ると = xét việc ~ thì (căn cứ) · Nどころではない = không phải lúc để ~.
+B18|2|Cuốn tiểu thuyết thế kỷ 17 này quý giá không chỉ với việc tìm hiểu giới quý tộc mà cả đời sống thường dân thời đó.|Thứ tự: 貴族社会(3) ばかりでなく(4) 庶民の生活を知る(2) 上でも(1).¶Nばかりでなく = không chỉ · Vる上で = trong việc ~.
+B19|2|Nước tôi không có núi cao như vậy. Vì thế tôi đã muốn nếu đi du học thì nhất định phải leo thử.|それで = vì thế (lý do → kết quả).¶Phân biệt: そこで = vì thế (dùng khi có hành động giải quyết vấn đề) · それから = sau đó.
+B20|3|Đi xe buýt đến lưng chừng núi, từ khoảng 10 giờ tối thì bắt đầu leo.|Vます(bỏ ます)＋始める = bắt đầu ~.¶Văn kể chuyện quá khứ → 始めました.
+B21|4|Để ngắm bình minh trên đỉnh, tôi phải đi bộ cả lúc nửa đêm.|Vる＋ために = để (mục đích có ý chí).¶Phân biệt: のため phải là Nのため · つもりで = với ý định.
+B22|3|Thế nhưng, khi lên đến đỉnh và thấy bình minh thì mệt mỏi tan biến.|しかし = nhưng (đảo chiều: muốn về ↔ hết mệt).¶Phân biệt: ただ = chỉ có điều (bổ sung hạn chế).
+B23|1|Đột nhiên mặt trời mọc lên giữa biển mây trước mắt.|〜のです = giải thích, nhấn mạnh sự việc đã xảy ra (kể lại cảnh thấy).¶Các đáp án khác là phỏng đoán (でしょう, はず), không hợp với điều chính mình thấy.
+B24|4|Điều nào đúng về các công ty trong thư?|ABC 株式会社 (người gửi) xin さくら株式会社: 最新のバッグのカタログと価格表を今月中に送っていただけないでしょうか → 4.¶ABC là bên xuất khẩu hơn 10 năm.¶Từ: 御中 = kính gửi (tổ chức) · 輸出 = xuất khẩu · 検討 = xem xét.
+B25|2|Người dự thi phải làm gì?|テーマは「平和」と「環境」の二つ。どちらかを選んで応募 → chọn một trong hai chủ đề.¶Câu 3, 4 sai: giấy đúng cỡ quy định, vẽ bằng gì cũng được.
+B26|4|Bài nói điều quan trọng khi chọn bệnh viện là gì?|いい病院を選ぶための物差しを、自分の中にしっかり持っていること → tự mình thấy chắc chắn là tốt.¶Từ: 物差し = thước đo, tiêu chuẩn.
+B27|2|Điều nào đúng về quy định này?|Cấm: ① vứt rác ngoài chỗ quy định · ② vừa đi vừa hút thuốc · ③ đỗ xe ngoài chỗ quy định → 2.¶Câu 3 sai: cấm đỗ chứ không phải cấm chạy · Câu 4: お金を払わされることもある = có khi bị phạt, không phải tất cả.
+B28|4|Vì sao ông cụ nói "cảm ơn"?|Tác giả vượt lên đứng trước cửa tự động → cửa mở → ông cụ nghĩ tác giả mở cửa giúp mình.¶Từ: 追い越す = vượt qua · 振り返る = ngoảnh lại · 電動三輪車 = xe ba bánh điện.
+B29|2|Vì sao tác giả thấy rất áy náy với ông cụ?|結果として親切な行動となったが、それは偶然のことで、親切な気持ちではなかった → không phải tốt bụng mà vẫn được cảm ơn.¶Từ: 申し訳ない = áy náy · 偶然 = tình cờ.
+B30|2|Tác giả định từ nay sẽ làm gì?|今度こんな状況に出会ったら、すぐに気が付くようにしたい…気持ちからの行動にしたい → nghĩ cho người khác, chủ động giúp đỡ.¶Từ: 実感する = cảm nhận rõ · 立場 = vị trí, hoàn cảnh.
+B31|4|Gia đình Mỹ là gia đình thế nào?|家族全員が家のことを手伝うのが当たり前 → mọi người đều làm việc nhà.¶Từ: 当たり前 = đương nhiên · 家事 = việc nhà.
+B32|2|Điều nào đúng?|Tác giả làm việc nhà từ nhỏ; ở Mỹ 自立 cần cả kinh tế và 生活面の自立 → 2.¶Câu 1, 3, 4 trái với bài.¶Từ: 自立 = tự lập · 育児 = nuôi con.
+B33|1|Điều nào khớp với nội dung?|日本の男性の場合は残業が多いので、大変 → đàn ông Nhật làm thêm giờ nhiều hơn.¶Câu 3 sai: ở Mỹ cả hai đều làm việc và cả nhà làm việc nhà.
+B34|1|Điều nào đúng về thân nhiệt?|体温は寝ている間に下がる。朝ごはんを食べると体温が上がって → ngủ thì giảm, ăn thì tăng.
+B35|3|Không ăn sáng thì sẽ thế nào?|Ăn sáng → thân nhiệt tăng → cơ thể, đầu óc sẵn sàng. Không ăn → thân nhiệt không tăng → không sẵn sàng, khó tập trung.¶Từ: 集中 = tập trung.
+B36|3|Giáo viên này đã điều tra điều gì?|ある教師が、小学6年生90人の朝ごはんとせいせきについて調べた → quan hệ giữa ăn sáng và thành tích.¶Phần thân nhiệt là giải thích nguyên nhân.
+B37|3|Điều nào đúng?|Ăn sáng đầy đủ: 65 em, điểm trung bình 78. Không ăn: 25 em, 72 điểm → 3.¶Mẹo: 90 = tổng số học sinh.
+B38|2|Theo thông báo, người tham gia nhất định phải mang gì?|参加費：当日お支払い下さい + 昼ご飯はご持参下さい → lệ phí và bữa trưa.¶Máy ảnh: có thì mang, không có thì được mượn · Bưu thiếp: nơi tổ chức chuẩn bị (miễn phí).¶Từ: 持参 = mang theo.
+B39|1|Kobayashi Ichiro học lớp 6 muốn tham gia, không có máy ảnh nên định mượn. Cách viết đơn đúng là gì?|Yêu cầu: ① địa chỉ ② họ tên (học sinh tiểu học ghi lớp; đăng ký cả gia đình thì ghi tên mọi người) ③ số điện thoại ④ ghi nếu muốn mượn máy ảnh. Học sinh tiểu học phải có người lớn trong gia đình đi cùng.¶→ ghi tên người lớn (Hanako) và Ichiro (lớp 6), có dòng "mượn máy ảnh" → 1.¶Câu 2 thiếu mượn máy · Câu 3 không ghi tên, lớp của con · Câu 4 không có người lớn đi cùng.
