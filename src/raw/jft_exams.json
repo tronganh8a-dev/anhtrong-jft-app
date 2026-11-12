@@ -29761,26 +29761,113 @@
     "gset": null,
     "gimg": null,
     "gau": null,
-    "t": "旅行のとき、旅館に泊まりました。",
+    "t": "",
+    "imgs": [
+     "app/media/jft/img/vocab_1334761526_0.jpg"
+    ],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "a. モール"
+     },
+     {
+      "t": "b. ファミリーマート"
+     },
+     {
+      "t": "c. アパート"
+     }
+    ],
+    "a": [
+     2
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">c. アパート</span></div><span class=\"lb\">DỊCH</span><div>Đây là nhà trọ/căn hộ (アパート).</div><span class=\"lb\">GIẢI THÍCH</span><div>Tranh là tòa nhà 2 tầng có nhiều cửa phòng và cầu thang bên ngoài, đó là 「アパート」 (nhà trọ, căn hộ cho thuê thấp tầng). 「モール」 là trung tâm thương mại, 「ファミリーマート」 là tên chuỗi cửa hàng tiện lợi.</div><div class=\"jp\" style=\"margin-top:6px;color:#5a4a1a\">2階<ruby>建<rt>だ</rt></ruby>てで<ruby>部屋<rt>へや</rt></ruby>がたくさんある<ruby>建物<rt>たてもの</rt></ruby>はアパートです。モールは<ruby>大<rt>おお</rt></ruby>きい<ruby>店<rt>みせ</rt></ruby>が<ruby>集<rt>あつ</rt></ruby>まる<ruby>所<rt>ところ</rt></ruby>、ファミリーマートはコンビニです。</div><span class=\"lb\">TỪ VỰNG</span><ul><li><span class=\"jp\">アパート</span> – nhà trọ, căn hộ cho thuê</li><li><span class=\"jp\">モール</span> – trung tâm thương mại</li></ul>",
+    "src": "Ôn tập từ vựng & Hán tự · câu 3"
+   },
+   {
+    "s": "文字と語彙",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "",
+    "imgs": [
+     "app/media/jft/img/vocab_887313884_0.jpg"
+    ],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "a. 母"
+     },
+     {
+      "t": "c. 妹"
+     },
+     {
+      "t": "b. 父"
+     }
+    ],
+    "a": [
+     2
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">b. <ruby>父<rt>ちち</rt></ruby></span></div><span class=\"lb\">DỊCH</span><div>Đây là bố (<ruby>父<rt>ちち</rt></ruby>).</div><span class=\"lb\">GIẢI THÍCH</span><div>Tranh là người đàn ông đeo kính đang đọc báo cùng con trai, đây là bố, tiếng Nhật là 「父（ちち）」. 「母（はは）」 là mẹ, 「妹（いもうと）」 là em gái.</div><div class=\"jp\" style=\"margin-top:6px;color:#5a4a1a\"><ruby>絵<rt>え</rt></ruby>の<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>はお<ruby>父<rt>とう</rt></ruby>さんです。<ruby>母<rt>はは</rt></ruby>はお<ruby>母<rt>かあ</rt></ruby>さん、<ruby>妹<rt>いもうと</rt></ruby>は<ruby>年下<rt>としした</rt></ruby>の<ruby>女<rt>おんな</rt></ruby>のきょうだいです。</div><span class=\"lb\">TỪ VỰNG</span><ul><li><span class=\"jp\"><ruby>父<rt>ちち</rt></ruby></span> <b>PHỤ</b> – bố (của mình)</li><li><span class=\"jp\"><ruby>母<rt>はは</rt></ruby></span> <b>MẪU</b> – mẹ (của mình)</li><li><span class=\"jp\"><ruby>妹<rt>いもうと</rt></ruby></span> <b>MUỘI</b> – em gái</li></ul>",
+    "src": "Ôn tập từ vựng & Hán tự · câu 4"
+   },
+   {
+    "s": "文字と語彙",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "",
+    "imgs": [
+     "app/media/jft/img/vocab_1905896649_0.jpg"
+    ],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "b. クリスマス"
+     },
+     {
+      "t": "c. 七夕（たなばた）"
+     },
+     {
+      "t": "a. お正月"
+     }
+    ],
+    "a": [
+     2
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">a. お<ruby>正月<rt>しょうがつ</rt></ruby></span></div><span class=\"lb\">DỊCH</span><div>Đây là đồ trang trí ngày Tết (お<ruby>正月<rt>しょうがつ</rt></ruby>).</div><span class=\"lb\">GIẢI THÍCH</span><div>Tranh có bánh 「<ruby>鏡<rt>かがみ</rt></ruby>もち」, cây tre 「<ruby>門松<rt>かどまつ</rt></ruby>」, hoa mai, búp bê daruma, con quay… đều là đồ trang trí ngày Tết Nhật, tức 「お<ruby>正月<rt>しょうがつ</rt></ruby>（おしょうがつ）」. 「クリスマス」 là Giáng sinh, 「七夕（たなばた）」 là lễ Thất tịch tháng 7.</div><div class=\"jp\" style=\"margin-top:6px;color:#5a4a1a\">かがみもちや<ruby>門松<rt>かどまつ</rt></ruby>はお<ruby>正月<rt>しょうがつ</rt></ruby>のかざりです。クリスマスは12<ruby>月<rt>がつ</rt></ruby>、<ruby>七夕<rt>たなばた</rt></ruby>は7<ruby>月<rt>がつ</rt></ruby>のお<ruby>祭<rt>まつ</rt></ruby>りです。</div><span class=\"lb\">TỪ VỰNG</span><ul><li><span class=\"jp\">お<ruby>正月<rt>しょうがつ</rt></ruby></span> <b>CHÍNH NGUYỆT</b> – Tết, năm mới</li><li><span class=\"jp\"><ruby>七夕<rt>たなばた</rt></ruby></span> <b>THẤT TỊCH</b> – lễ Thất tịch (7/7)</li><li><span class=\"jp\"><ruby>門松<rt>かどまつ</rt></ruby></span> <b>MÔN TÙNG</b> – cây tre trang trí Tết trước cổng</li></ul>",
+    "src": "Ôn tập từ vựng & Hán tự · câu 6"
+   },
+   {
+    "s": "文字と語彙",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "旅館に泊まってみたいです。",
     "imgs": [],
     "img": null,
     "au": null,
     "o": [
      {
-      "t": "りょかん"
+      "t": "b. りょかん"
      },
      {
-      "t": "りょうかん"
+      "t": "a. りょうかん"
      },
      {
-      "t": "りゅうかん"
+      "t": "c. りょがん"
      }
     ],
     "a": [
      0
     ],
-    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">りょかん</span></div><span class=\"lb\">DỊCH</span><div>Lúc đi du lịch, tôi đã ở nhà trọ kiểu Nhật.</div><span class=\"lb\">GIẢI THÍCH</span><div><ruby>旅館<rt>りょかん</rt></ruby> (LỮ QUÁN) đọc là りょかん. りょうかん, りゅうかん là cách đọc sai.</div>",
-    "src": "Đề 16 · câu 7"
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">b. りょかん</span></div><span class=\"lb\">DỊCH</span><div>Tôi muốn thử trọ ở ryokan (nhà trọ kiểu Nhật).</div><span class=\"lb\">GIẢI THÍCH</span><div>「<ruby>旅館<rt>りょかん</rt></ruby>」 đọc là 「りょかん」 (nhà trọ kiểu Nhật). Chữ <ruby>旅<rt>たび</rt></ruby> đọc 「りょ」 (âm ngắn, không có う), chữ <ruby>館<rt>かん</rt></ruby> đọc 「かん」 (không phải がん). Hai lựa chọn còn lại sai trường âm hoặc âm đục.</div><div class=\"jp\" style=\"margin-top:6px;color:#5a4a1a\"><ruby>旅館<rt>りょかん</rt></ruby>は「りょかん」と<ruby>読<rt>よ</rt></ruby>みます。「りょう」とのばしません。</div><span class=\"lb\">TỪ VỰNG</span><ul><li><span class=\"jp\"><ruby>旅館<rt>りょかん</rt></ruby></span> <b>LỮ QUÁN</b> – nhà trọ kiểu Nhật</li><li><span class=\"jp\"><ruby>泊<rt>と</rt></ruby>まる</span> <b>BẠC</b> – trọ lại, ngủ lại</li></ul>",
+    "src": "Ôn tập từ vựng & Hán tự · câu 7"
    },
    {
     "s": "文字と語彙",
@@ -29788,26 +29875,86 @@
     "gset": null,
     "gimg": null,
     "gau": null,
-    "t": "去年、日本に来ました。",
-    "imgs": [],
+    "t": "",
+    "imgs": [
+     "app/media/jft/img/vocab_2105239391_0.jpg"
+    ],
     "img": null,
     "au": null,
     "o": [
      {
-      "t": "きょうねん"
+      "t": "a.  貼ります（はります）"
      },
      {
-      "t": "ことし"
+      "t": "b. 借ります（かります)"
      },
      {
-      "t": "きょねん"
+      "t": "c. 入ります（はいります）"
+     }
+    ],
+    "a": [
+     0
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">a.  <ruby>貼<rt>は</rt></ruby>ります（はります）</span></div><span class=\"lb\">DỊCH</span><div>(Anh ấy) dán tờ giấy lên tường.</div><span class=\"lb\">GIẢI THÍCH</span><div>Tranh là người đang dán tờ giấy lên tường bằng băng dính, động từ là 「<ruby>貼<rt>は</rt></ruby>ります（はります）」 = dán. 「<ruby>借<rt>か</rt></ruby>ります（かります）」 là mượn, 「<ruby>入<rt>はい</rt></ruby>ります（はいります）」 là đi vào.</div><div class=\"jp\" style=\"margin-top:6px;color:#5a4a1a\">かべに<ruby>紙<rt>かみ</rt></ruby>をはっています。<ruby>借<rt>か</rt></ruby>りますは<ruby>人<rt>ひと</rt></ruby>から<ruby>物<rt>もの</rt></ruby>を<ruby>使<rt>つか</rt></ruby>わせてもらうこと、<ruby>入<rt>はい</rt></ruby>りますは<ruby>中<rt>なか</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くことです。</div><span class=\"lb\">TỪ VỰNG</span><ul><li><span class=\"jp\"><ruby>貼<rt>は</rt></ruby>ります</span> <b>THIẾP</b> – dán</li><li><span class=\"jp\"><ruby>借<rt>か</rt></ruby>ります</span> <b>TÁ</b> – mượn</li><li><span class=\"jp\"><ruby>入<rt>はい</rt></ruby>ります</span> <b>NHẬP</b> – đi vào</li></ul>",
+    "src": "Ôn tập từ vựng & Hán tự · câu 19"
+   },
+   {
+    "s": "文字と語彙",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "",
+    "imgs": [
+     "app/media/jft/img/vocab_1905495132_0.jpg"
+    ],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "c. まっすぐ行きます"
+     },
+     {
+      "t": "a. 左にまがります"
+     },
+     {
+      "t": "b. 右にまがります"
+     }
+    ],
+    "a": [
+     1
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">a. <ruby>左<rt>ひだり</rt></ruby>にまがります</span></div><span class=\"lb\">DỊCH</span><div>Rẽ trái.</div><span class=\"lb\">GIẢI THÍCH</span><div>Mũi tên đi từ dưới lên tới ngã tư rồi rẽ sang trái, chiếc taxi đang chạy về bên trái, nên chọn 「<ruby>左<rt>ひだり</rt></ruby>にまがります」 = rẽ trái. 「<ruby>右<rt>みぎ</rt></ruby>にまがります」 là rẽ phải, 「まっすぐ<ruby>行<rt>い</rt></ruby>きます」 là đi thẳng.</div><div class=\"jp\" style=\"margin-top:6px;color:#5a4a1a\">やじるしは<ruby>交差点<rt>こうさてん</rt></ruby>で<ruby>左<rt>ひだり</rt></ruby>へまがっています。</div><span class=\"lb\">TỪ VỰNG</span><ul><li><span class=\"jp\"><ruby>左<rt>ひだり</rt></ruby></span> <b>TẢ</b> – bên trái</li><li><span class=\"jp\"><ruby>曲<rt>ま</rt></ruby>がる</span> <b>KHÚC</b> – rẽ, quẹo</li><li><span class=\"jp\">まっすぐ</span> – thẳng</li></ul>",
+    "src": "Ôn tập từ vựng & Hán tự · câu 58"
+   },
+   {
+    "s": "文字と語彙",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "",
+    "imgs": [
+     "app/media/jft/img/vocab_1077634877_0.jpg"
+    ],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "b. 揚げます（あげます）"
+     },
+     {
+      "t": "a. いためます"
+     },
+     {
+      "t": "c. 焼きます（やきます）"
      }
     ],
     "a": [
      2
     ],
-    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">きょねん</span></div><span class=\"lb\">DỊCH</span><div>Năm ngoái tôi đã đến Nhật.</div><span class=\"lb\">GIẢI THÍCH</span><div>「<ruby>去年<rt>きょねん</rt></ruby>」 đọc là 「きょねん」 (năm ngoái). Chú ý không có âm dài: きょねん, không phải きょうねん. 「ことし」 là <ruby>今年<rt>ことし</rt></ruby> (năm nay).</div><div class=\"jp\" style=\"margin-top:6px;color:#5a4a1a\">「<ruby>去年<rt>きょねん</rt></ruby>」は「きょねん」と<ruby>読<rt>よ</rt></ruby>みます。<ruby>前<rt>まえ</rt></ruby>の<ruby>年<rt>とし</rt></ruby>という<ruby>意味<rt>いみ</rt></ruby>です。</div><span class=\"lb\">TỪ VỰNG</span><ul><li><span class=\"jp\"><ruby>去年<rt>きょねん</rt></ruby></span> <b>KHỨ NIÊN</b> – năm ngoái</li><li><span class=\"jp\"><ruby>今年<rt>ことし</rt></ruby></span> <b>KIM NIÊN</b> – năm nay</li></ul>",
-    "src": "Đề 6 · câu 8"
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">c. <ruby>焼<rt>や</rt></ruby>きます（やきます）</span></div><span class=\"lb\">DỊCH</span><div>Nướng cá.</div><span class=\"lb\">GIẢI THÍCH</span><div>Tranh là cá thu đao (さんま) đang nướng trên vỉ than, động từ là 「<ruby>焼<rt>や</rt></ruby>きます（やきます）」 = nướng. 「<ruby>揚<rt>あ</rt></ruby>げます（あげます）」 là chiên ngập dầu, 「いためます」 là xào.</div><div class=\"jp\" style=\"margin-top:6px;color:#5a4a1a\"><ruby>魚<rt>さかな</rt></ruby>をあみの<ruby>上<rt>うえ</rt></ruby>で<ruby>焼<rt>や</rt></ruby>いています。<ruby>揚<rt>あ</rt></ruby>げますは<ruby>油<rt>あぶら</rt></ruby>の<ruby>中<rt>なか</rt></ruby>に<ruby>入<rt>い</rt></ruby>れること、いためますはフライパンで<ruby>混<rt>ま</rt></ruby>ぜながら<ruby>作<rt>つく</rt></ruby>ることです。</div><span class=\"lb\">TỪ VỰNG</span><ul><li><span class=\"jp\"><ruby>焼<rt>や</rt></ruby>きます</span> <b>THIÊU</b> – nướng</li><li><span class=\"jp\"><ruby>揚<rt>あ</rt></ruby>げます</span> <b>DƯƠNG</b> – chiên ngập dầu</li><li><span class=\"jp\"><ruby>炒<rt>いた</rt></ruby>めます</span> <b>SAO</b> – xào</li></ul>",
+    "src": "Ôn tập từ vựng & Hán tự · câu 60"
    },
    {
     "s": "文字と語彙",
@@ -29815,26 +29962,26 @@
     "gset": null,
     "gimg": null,
     "gau": null,
-    "t": "問診票に名前と住所を記入してください。",
+    "t": "年",
     "imgs": [],
     "img": null,
     "au": null,
     "o": [
      {
-      "t": "じゅうしょう"
+      "t": "b. ねん"
      },
      {
-      "t": "じゅしょう"
+      "t": "a. つき"
      },
      {
-      "t": "じゅうしょ"
+      "t": "c. ひ"
      }
     ],
     "a": [
-     2
+     0
     ],
-    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">じゅうしょ</span></div><span class=\"lb\">DỊCH</span><div>Hãy điền tên và địa chỉ vào phiếu khai bệnh.</div><span class=\"lb\">GIẢI THÍCH</span><div>「<ruby>住所<rt>じゅうしょ</rt></ruby>」 đọc là 「じゅうしょ」, nghĩa là địa chỉ: <ruby>住<rt>じゅう</rt></ruby> có trường âm (じゅう), <ruby>所<rt>ところ</rt></ruby> không có trường âm (しょ). 「じゅうしょう」 thừa âm う ở cuối, 「じゅしょう」 thiếu trường âm ở <ruby>住<rt>じゅう</rt></ruby>.</div><div class=\"jp\" style=\"margin-top:6px;color:#5a4a1a\">「<ruby>住所<rt>じゅうしょ</rt></ruby>」は「じゅうしょ」と<ruby>読<rt>よ</rt></ruby>みます。「じゅう」は<ruby>長<rt>なが</rt></ruby>い<ruby>音<rt>おと</rt></ruby>、「しょ」は<ruby>短<rt>みじか</rt></ruby>い<ruby>音<rt>おと</rt></ruby>です。</div><span class=\"lb\">TỪ VỰNG</span><ul><li><span class=\"jp\"><ruby>住所<rt>じゅうしょ</rt></ruby></span> <b>TRÚ SỞ</b> – địa chỉ</li><li><span class=\"jp\"><ruby>問診票<rt>もんしんひょう</rt></ruby></span> <b>VẤN CHẨN PHIẾU</b> – phiếu khai bệnh</li><li><span class=\"jp\"><ruby>記入<rt>きにゅう</rt></ruby></span> <b>KÝ NHẬP</b> – điền vào</li></ul>",
-    "src": "Đề 2 · câu 6"
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">b. ねん</span></div><span class=\"lb\">DỊCH</span><div>Năm.</div><span class=\"lb\">GIẢI THÍCH</span><div>「<ruby>年<rt>ねん</rt></ruby>」 đọc là 「ねん」 (năm) khi đi với số, ví dụ 2025<ruby>年<rt>ねん</rt></ruby>. 「つき」 là <ruby>月<rt>つき</rt></ruby> (tháng, mặt trăng), 「ひ」 là <ruby>日<rt>ひ</rt></ruby> (ngày, mặt trời).</div><div class=\"jp\" style=\"margin-top:6px;color:#5a4a1a\"><ruby>年<rt>ねん</rt></ruby>は「ねん」と<ruby>読<rt>よ</rt></ruby>みます。<ruby>月<rt>つき</rt></ruby>は「つき」、<ruby>日<rt>ひ</rt></ruby>は「ひ」です。</div><span class=\"lb\">TỪ VỰNG</span><ul><li><span class=\"jp\"><ruby>年<rt>ねん</rt></ruby></span> <b>NIÊN</b> – năm</li></ul>",
+    "src": "Ôn tập từ vựng & Hán tự · câu 61"
    },
    {
     "s": "文字と語彙",
@@ -29842,7 +29989,34 @@
     "gset": null,
     "gimg": null,
     "gau": null,
-    "t": "この漢字は ________ ですから。教えてもらえませんか？",
+    "t": "有名",
+    "imgs": [],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "b.  ゆめい"
+     },
+     {
+      "t": "a.  ゆうめ"
+     },
+     {
+      "t": "c. ゆうめい"
+     }
+    ],
+    "a": [
+     2
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">c. ゆうめい</span></div><span class=\"lb\">DỊCH</span><div>Nổi tiếng.</div><span class=\"lb\">GIẢI THÍCH</span><div>「<ruby>有名<rt>ゆうめい</rt></ruby>」 đọc là 「ゆうめい」 (nổi tiếng). Cả <ruby>有<rt>ゆう</rt></ruby> (ゆう) và <ruby>名<rt>な</rt></ruby> (めい) đều là trường âm, các lựa chọn khác bị thiếu.</div><div class=\"jp\" style=\"margin-top:6px;color:#5a4a1a\"><ruby>有名<rt>ゆうめい</rt></ruby>は「ゆうめい」と<ruby>読<rt>よ</rt></ruby>みます。</div><span class=\"lb\">TỪ VỰNG</span><ul><li><span class=\"jp\"><ruby>有名<rt>ゆうめい</rt></ruby></span> <b>HỮU DANH</b> – nổi tiếng</li></ul>",
+    "src": "Ôn tập từ vựng & Hán tự · câu 62"
+   },
+   {
+    "s": "文字と語彙",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "きかいのつかいかたが＿＿＿＿すぎて、よくわかりません。",
     "imgs": [],
     "img": null,
     "au": null,
@@ -29860,8 +30034,8 @@
     "a": [
      2
     ],
-    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">a. ふくざつ</span></div><span class=\"lb\">DỊCH</span><div>Chữ Hán này phức tạp quá, bạn chỉ cho tôi được không?</div><span class=\"lb\">GIẢI THÍCH</span><div>Vế sau là 「<ruby>教<rt>おし</rt></ruby>えてもらえませんか」 (chỉ cho tôi được không), nên chữ Hán này phải khó, phức tạp: 「ふくざつ」. 「やさしい」 (dễ) và 「かんたん」 (đơn giản) thì không cần nhờ người khác dạy.</div><div class=\"jp\" style=\"margin-top:6px;color:#5a4a1a\"><ruby>教<rt>おし</rt></ruby>えてほしいので、<ruby>漢字<rt>かんじ</rt></ruby>はむずかしいです。だから「ふくざつ」です。</div><span class=\"lb\">TỪ VỰNG</span><ul><li><span class=\"jp\"><ruby>複雑<rt>ふくざつ</rt></ruby></span> <b>PHỨC TẠP</b> – phức tạp</li><li><span class=\"jp\"><ruby>簡単<rt>かんたん</rt></ruby></span> <b>GIẢN ĐƠN</b> – đơn giản</li><li><span class=\"jp\"><ruby>漢字<rt>かんじ</rt></ruby></span> <b>HÁN TỰ</b> – chữ Hán</li></ul>",
-    "src": "Đề 8 · câu 9"
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">a. ふくざつ</span></div><span class=\"lb\">DỊCH</span><div>Cách dùng máy quá phức tạp nên tôi không hiểu rõ.</div><span class=\"lb\">GIẢI THÍCH</span><div>Vế sau là 「よくわかりません」 (không hiểu rõ), nên cách dùng máy phải phức tạp: 「ふくざつすぎて」 (quá phức tạp nên...). Mẫu: Tính từ bỏ な/い + すぎる = quá... 「やさしい」 (dễ) và 「かんたん」 (đơn giản) trái nghĩa với ý câu.</div><div class=\"jp\" style=\"margin-top:6px;color:#5a4a1a\">わからない<ruby>理由<rt>りゆう</rt></ruby>なので「ふくざつ」です。やさしい、かんたんだったらわかります。</div><span class=\"lb\">TỪ VỰNG</span><ul><li><span class=\"jp\"><ruby>複雑<rt>ふくざつ</rt></ruby></span> <b>PHỨC TẠP</b> – phức tạp</li><li><span class=\"jp\"><ruby>機械<rt>きかい</rt></ruby></span> <b>CƠ GIỚI</b> – máy móc</li><li><span class=\"jp\"><ruby>使<rt>つか</rt></ruby>い<ruby>方<rt>かた</rt></ruby></span> <b>SỬ PHƯƠNG</b> – cách dùng</li></ul>",
+    "src": "Ôn tập từ vựng & Hán tự · câu 64"
    },
    {
     "s": "文字と語彙",
@@ -29869,173 +30043,26 @@
     "gset": null,
     "gimg": null,
     "gau": null,
-    "t": "コーヒーにさとうを入れすぎて、(_______) なりました。",
+    "t": "テレビを＿＿＿＿",
     "imgs": [],
     "img": null,
     "au": null,
     "o": [
      {
-      "t": "a. からく"
+      "t": "c. 見ます"
      },
      {
-      "t": "b. あまく"
+      "t": "a. 診ます"
      },
      {
-      "t": "c. すっぱく"
-     }
-    ],
-    "a": [
-     1
-    ],
-    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">b. あまく</span></div><span class=\"lb\">DỊCH</span><div>Vì cho quá nhiều đường vào cà phê nên cà phê đã trở nên ngọt.</div><span class=\"lb\">GIẢI THÍCH</span><div>Cho quá nhiều đường (さとう) vào cà phê thì cà phê trở nên ngọt, nên chọn 「あまく」. Mẫu: tính từ đuôi い bỏ い thêm く + なる = trở nên. 「からく」 là cay, 「すっぱく」 là chua, không hợp với đường.</div><div class=\"jp\" style=\"margin-top:6px;color:#5a4a1a\">さとうをたくさん<ruby>入<rt>い</rt></ruby>れると、コーヒーはあまくなります。「い<ruby>形容詞<rt>けいようし</rt></ruby>＋くなる」で<ruby>変化<rt>へんか</rt></ruby>を<ruby>表<rt>あらわ</rt></ruby>します。</div><span class=\"lb\">TỪ VỰNG</span><ul><li><span class=\"jp\"><ruby>砂糖<rt>さとう</rt></ruby></span> <b>SA ĐƯỜNG</b> – đường</li><li><span class=\"jp\"><ruby>甘<rt>あま</rt></ruby>い</span> <b>CAM</b> – ngọt</li><li><span class=\"jp\"><ruby>入<rt>い</rt></ruby>れすぎる</span> <b>NHẬP</b> – cho vào quá nhiều</li></ul>",
-    "src": "Đề 9 · câu 4"
-   },
-   {
-    "s": "文字と語彙",
-    "ins": "",
-    "gset": null,
-    "gimg": null,
-    "gau": null,
-    "t": "<ruby>絵<rt>え</rt></ruby>を<ruby>見<rt>み</rt></ruby>て、<ruby>正<rt>ただ</rt></ruby>しいことばを<ruby>選<rt>えら</rt></ruby>んでください。",
-    "imgs": [
-     "app/media/jft/img/y2_v3.jpg"
-    ],
-    "img": null,
-    "au": null,
-    "o": [
-     {
-      "t": "にぎやか（な）"
-     },
-     {
-      "t": "不便（な）"
-     },
-     {
-      "t": "便利（な）"
-     },
-     {
-      "t": "都会"
-     }
-    ],
-    "a": [
-     1
-    ],
-    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">不便（な）</span></div><span class=\"lb\">DỊCH</span><div>Tranh: vùng quê, trạm xe buýt với bảng giờ rất thưa → bất tiện.</div><span class=\"lb\">GIẢI THÍCH</span><div><ruby>不便（な）<rt>ふべん</rt></ruby>(BẤT TIỆN) = bất tiện; bảng giờ xe buýt chỉ có vài chuyến (バスが<ruby>少<rt>すく</rt></ruby>ない). Trái nghĩa <ruby>便利（な）<rt>べんり</rt></ruby>. にぎやか = náo nhiệt, <ruby>都会<rt>とかい</rt></ruby> (ĐÔ HỘI) = thành phố lớn. いろどり <ruby>初級<rt>しょきゅう</rt></ruby>1 <ruby>第<rt>だい</rt></ruby>5<ruby>課<rt>か</rt></ruby>.</div>",
-    "src": "Đề 26 · câu 3"
-   },
-   {
-    "s": "文字と語彙",
-    "ins": "",
-    "gset": null,
-    "gimg": null,
-    "gau": null,
-    "t": "<ruby>絵<rt>え</rt></ruby>を<ruby>見<rt>み</rt></ruby>て、<ruby>正<rt>ただ</rt></ruby>しいことばを<ruby>選<rt>えら</rt></ruby>んでください。",
-    "imgs": [
-     "app/media/jft/img/y3_v3.jpg"
-    ],
-    "img": null,
-    "au": null,
-    "o": [
-     {
-      "t": "静か（な）"
-     },
-     {
-      "t": "にぎやか（な）"
-     },
-     {
-      "t": "緑が　多い"
-     },
-     {
-      "t": "不便（な）"
-     }
-    ],
-    "a": [
-     1
-    ],
-    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">にぎやか（な）</span></div><span class=\"lb\">DỊCH</span><div>Tranh: phố đông người, nhiều toà nhà, biển SALE → náo nhiệt.</div><span class=\"lb\">GIẢI THÍCH</span><div>にぎやか（な）= náo nhiệt, đông vui; trái nghĩa <ruby>静<rt>しず</rt></ruby>か（な）(TĨNH) = yên tĩnh. <ruby>緑<rt>みどり</rt></ruby>が<ruby>多<rt>おお</rt></ruby>い (LỤC) = nhiều cây xanh, <ruby>不便<rt>ふべん</rt></ruby> (BẤT TIỆN) = bất tiện. いろどり <ruby>初級<rt>しょきゅう</rt></ruby>1 <ruby>第<rt>だい</rt></ruby>5<ruby>課<rt>か</rt></ruby>.</div>",
-    "src": "Đề 27 · câu 3"
-   },
-   {
-    "s": "文字と語彙",
-    "ins": "",
-    "gset": null,
-    "gimg": null,
-    "gau": null,
-    "t": "空にくもりそうですね。",
-    "imgs": [],
-    "img": null,
-    "au": null,
-    "o": [
-     {
-      "t": "c. いえ"
-     },
-     {
-      "t": "a. そら"
-     },
-     {
-      "t": "b. かぜ"
-     }
-    ],
-    "a": [
-     1
-    ],
-    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">a. そら</span></div><span class=\"lb\">DỊCH</span><div>Bầu trời có vẻ sắp nhiều mây nhỉ.</div><span class=\"lb\">GIẢI THÍCH</span><div><ruby>空<rt>そら</rt></ruby> đọc là 「そら」, nghĩa là bầu trời. 「いえ」 là nhà (<ruby>家<rt>いえ</rt></ruby>), 「かぜ」 là gió (<ruby>風<rt>かぜ</rt></ruby>). Câu: trời có vẻ sắp nhiều mây.</div><div class=\"jp\" style=\"margin-top:6px;color:#5a4a1a\"><ruby>空<rt>そら</rt></ruby>は「そら」と<ruby>読<rt>よ</rt></ruby>みます。いえは<ruby>家<rt>いえ</rt></ruby>、かぜは<ruby>風<rt>かぜ</rt></ruby>です。</div><span class=\"lb\">TỪ VỰNG</span><ul><li><span class=\"jp\"><ruby>空<rt>そら</rt></ruby></span> <b>KHÔNG</b> – bầu trời</li><li><span class=\"jp\"><ruby>曇<rt>くも</rt></ruby>る</span> <b>ĐÀM</b> – có mây, trời âm u</li></ul>",
-    "src": "Đề 8 · câu 6"
-   },
-   {
-    "s": "文字と語彙",
-    "ins": "",
-    "gset": null,
-    "gimg": null,
-    "gau": null,
-    "t": "",
-    "imgs": [
-     "app/media/jft/img/f10_1319154715_0.jpg"
-    ],
-    "img": null,
-    "au": null,
-    "o": [
-     {
-      "t": "c. にぎやか"
-     },
-     {
-      "t": "a. くらい"
-     },
-     {
-      "t": "b. あかるい"
-     }
-    ],
-    "a": [
-     1
-    ],
-    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">a. くらい</span></div><span class=\"lb\">DỊCH</span><div>Tranh: căn phòng khách tối vào ban đêm.</div><span class=\"lb\">GIẢI THÍCH</span><div>Tranh là phòng khách vào ban đêm, chỉ có ánh đèn mờ, cả căn phòng tối nên đáp án là 「くらい」 (tối). 「あかるい」 là sáng, ngược nghĩa. 「にぎやか」 là náo nhiệt, đông vui, nhưng trong tranh không có người nào.</div><div class=\"jp\" style=\"margin-top:6px;color:#5a4a1a\"><ruby>夜<rt>よる</rt></ruby>の<ruby>部屋<rt>へや</rt></ruby>で、<ruby>電気<rt>でんき</rt></ruby>が<ruby>少<rt>すこ</rt></ruby>ししかついていません。<ruby>部屋<rt>へや</rt></ruby>は「くらい」です。</div><span class=\"lb\">TỪ VỰNG</span><ul><li><span class=\"jp\"><ruby>暗<rt>くら</rt></ruby>い</span> <b>ÁM</b> – tối</li><li><span class=\"jp\"><ruby>明<rt>あか</rt></ruby>るい</span> <b>MINH</b> – sáng</li><li><span class=\"jp\"><ruby>賑<rt>にぎ</rt></ruby>やか</span> – náo nhiệt, đông vui</li></ul>",
-    "src": "Đề 10 · câu 2"
-   },
-   {
-    "s": "文字と語彙",
-    "ins": "",
-    "gset": null,
-    "gimg": null,
-    "gau": null,
-    "t": "しけんに（　　）したそうですね。おめでと うございます。",
-    "imgs": [],
-    "img": null,
-    "au": null,
-    "o": [
-     {
-      "t": "1ごうかく"
-     },
-     {
-      "t": "おいわい"
-     },
-     {
-      "t": "たいせつに"
+      "t": "b. 寝ます"
      }
     ],
     "a": [
      0
     ],
-    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">1ごうかく</span></div><span class=\"lb\">DỊCH</span><div>Nghe nói bạn đã đỗ kỳ thi. Chúc mừng.</div><span class=\"lb\">GIẢI THÍCH</span><div>しけんにごうかくする: đỗ kỳ thi (<ruby>合格<rt>ごうかく</rt></ruby>). おいわい là quà mừng, たいせつに là trân trọng.</div>",
-    "src": "Đề 17 · câu 10"
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">c. <ruby>見<rt>み</rt></ruby>ます</span></div><span class=\"lb\">DỊCH</span><div>Xem tivi.</div><span class=\"lb\">GIẢI THÍCH</span><div>Xem tivi là 「テレビを<ruby>見<rt>み</rt></ruby>ます（みます）」. 「<ruby>診<rt>み</rt></ruby>ます（みます）」 cũng đọc là みます nhưng nghĩa là khám bệnh (bác sĩ khám), 「<ruby>寝<rt>ね</rt></ruby>ます」 là ngủ.</div><div class=\"jp\" style=\"margin-top:6px;color:#5a4a1a\">テレビは「<ruby>見<rt>み</rt></ruby>ます」。「<ruby>診<rt>み</rt></ruby>ます」は<ruby>医者<rt>いしゃ</rt></ruby>が<ruby>病人<rt>びょうにん</rt></ruby>をみるときに<ruby>使<rt>つか</rt></ruby>います。</div><span class=\"lb\">TỪ VỰNG</span><ul><li><span class=\"jp\"><ruby>見<rt>み</rt></ruby>ます</span> <b>KIẾN</b> – xem, nhìn</li><li><span class=\"jp\"><ruby>診<rt>み</rt></ruby>ます</span> <b>CHẨN</b> – khám bệnh</li><li><span class=\"jp\"><ruby>寝<rt>ね</rt></ruby>ます</span> <b>TẨM</b> – ngủ</li></ul>",
+    "src": "Ôn tập từ vựng & Hán tự · câu 65"
    },
    {
     "s": "文字と語彙",
@@ -30043,55 +30070,251 @@
     "gset": null,
     "gimg": null,
     "gau": null,
-    "t": "",
-    "imgs": [
-     "app/media/jft/img/f3_165145716_0.jpg"
-    ],
-    "img": null,
-    "au": null,
-    "o": [
-     {
-      "t": "考えたい"
-     },
-     {
-      "t": "続けたい"
-     },
-     {
-      "t": "建てたい"
-     }
-    ],
-    "a": [
-     1
-    ],
-    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>続<rt>つづ</rt></ruby>けたい</span></div><span class=\"lb\">DỊCH</span><div>この<ruby>仕事<rt>しごと</rt></ruby>をずっと<ruby>続<rt>つづ</rt></ruby>けたいと<ruby>思<rt>おも</rt></ruby>っています。: Tôi muốn tiếp tục làm công việc này mãi.</div><span class=\"lb\">GIẢI THÍCH</span><div>「ずっと」 (mãi, suốt) đi với 「<ruby>続<rt>つづ</rt></ruby>けたい」 (muốn tiếp tục) → muốn tiếp tục công việc này mãi. 「<ruby>考<rt>かんが</rt></ruby>えたい」 (muốn suy nghĩ) và 「<ruby>建<rt>た</rt></ruby>てたい」 (muốn xây) không hợp với 「<ruby>仕事<rt>しごと</rt></ruby>をずっと」. Mẫu: Vます bỏ ます + たい = muốn làm V.</div><div class=\"jp\" style=\"margin-top:6px;color:#5a4a1a\">「ずっと」と<ruby>合<rt>あ</rt></ruby>うのは「<ruby>続<rt>つづ</rt></ruby>けたい」です。この<ruby>仕事<rt>しごと</rt></ruby>を<ruby>長<rt>なが</rt></ruby>くやりたいという<ruby>意味<rt>いみ</rt></ruby>です。</div><span class=\"lb\">TỪ VỰNG</span><ul><li><span class=\"jp\"><ruby>続<rt>つづ</rt></ruby>ける</span> <b>TỤC</b> – tiếp tục</li><li><span class=\"jp\"><ruby>仕事<rt>しごと</rt></ruby></span> <b>SĨ SỰ</b> – công việc</li><li><span class=\"jp\"><ruby>建<rt>た</rt></ruby>てる</span> <b>KIẾN</b> – xây dựng</li></ul>",
-    "src": "Đề 3 · câu 9"
-   },
-   {
-    "s": "文字と語彙",
-    "ins": "",
-    "gset": null,
-    "gimg": null,
-    "gau": null,
-    "t": "<ruby>日本<rt>にほん</rt></ruby>には、どんな＿＿＿＿がありますか？",
+    "t": "<ruby>人<rt>ひと</rt></ruby>が＿＿＿＿",
     "imgs": [],
     "img": null,
     "au": null,
     "o": [
      {
-      "t": "季節"
+      "t": "a. 寒い"
      },
      {
-      "t": "去年"
+      "t": "b. 多い"
      },
      {
-      "t": "先週"
+      "t": "c. 熱い"
+     }
+    ],
+    "a": [
+     1
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">b. <ruby>多<rt>おお</rt></ruby>い</span></div><span class=\"lb\">DỊCH</span><div>Đông người.</div><span class=\"lb\">GIẢI THÍCH</span><div>「<ruby>人<rt>ひと</rt></ruby>が<ruby>多<rt>おお</rt></ruby>い」 = đông người. 「<ruby>寒<rt>さむ</rt></ruby>い」 là lạnh (thời tiết), 「<ruby>熱<rt>あつ</rt></ruby>い」 là nóng (đồ vật), không dùng để nói về người.</div><div class=\"jp\" style=\"margin-top:6px;color:#5a4a1a\"><ruby>人<rt>ひと</rt></ruby>の<ruby>数<rt>かず</rt></ruby>がたくさんあるときは「<ruby>多<rt>おお</rt></ruby>い」と<ruby>言<rt>い</rt></ruby>います。</div><span class=\"lb\">TỪ VỰNG</span><ul><li><span class=\"jp\"><ruby>多<rt>おお</rt></ruby>い</span> <b>ĐA</b> – nhiều, đông</li><li><span class=\"jp\"><ruby>寒<rt>さむ</rt></ruby>い</span> <b>HÀN</b> – lạnh</li><li><span class=\"jp\"><ruby>熱<rt>あつ</rt></ruby>い</span> <b>NHIỆT</b> – nóng (đồ vật)</li></ul>",
+    "src": "Ôn tập từ vựng & Hán tự · câu 66"
+   },
+   {
+    "s": "文字と語彙",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "このお寺は １６世紀に＿＿＿＿そうです。",
+    "imgs": [],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "b. たてられる"
+     },
+     {
+      "t": "a. たてた"
+     },
+     {
+      "t": "c. たてられた"
+     }
+    ],
+    "a": [
+     2
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">c. たてられた</span></div><span class=\"lb\">DỊCH</span><div>Nghe nói ngôi chùa này được xây vào thế kỷ 16.</div><span class=\"lb\">GIẢI THÍCH</span><div>Ngôi chùa 'được xây' nên dùng thể bị động 「<ruby>建<rt>た</rt></ruby>てられる」, và việc đã xảy ra vào thế kỷ 16 nên chia quá khứ 「<ruby>建<rt>た</rt></ruby>てられた」. Mẫu: Thể thường + そうです = nghe nói rằng. 「たてた」 là chủ động (đã xây), 「たてられる」 là hiện tại, đều sai.</div><div class=\"jp\" style=\"margin-top:6px;color:#5a4a1a\">お<ruby>寺<rt>てら</rt></ruby>は<ruby>人<rt>ひと</rt></ruby>に<ruby>建<rt>た</rt></ruby>てられたものです。16<ruby>世紀<rt>せいき</rt></ruby>は<ruby>過去<rt>かこ</rt></ruby>なので「たてられた」です。</div><span class=\"lb\">TỪ VỰNG</span><ul><li><span class=\"jp\"><ruby>建<rt>た</rt></ruby>てる</span> <b>KIẾN</b> – xây dựng</li><li><span class=\"jp\">お<ruby>寺<rt>てら</rt></ruby></span> <b>TỰ</b> – chùa</li><li><span class=\"jp\"><ruby>世紀<rt>せいき</rt></ruby></span> <b>THẾ KỶ</b> – thế kỷ</li></ul>",
+    "src": "Ôn tập từ vựng & Hán tự · câu 67"
+   },
+   {
+    "s": "文字と語彙",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "ご<ruby>飯<rt>はん</rt></ruby>を＿＿＿＿",
+    "imgs": [],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "c. 吸います"
+     },
+     {
+      "t": "b. 食べます"
+     },
+     {
+      "t": "a. 飲みます"
+     }
+    ],
+    "a": [
+     1
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">b. <ruby>食<rt>た</rt></ruby>べます</span></div><span class=\"lb\">DỊCH</span><div>Ăn cơm.</div><span class=\"lb\">GIẢI THÍCH</span><div>Ăn cơm là 「ご<ruby>飯<rt>はん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べます」. 「<ruby>飲<rt>の</rt></ruby>みます」 dùng cho đồ uống, 「<ruby>吸<rt>す</rt></ruby>います」 là hút (thuốc) hoặc hít (không khí).</div><div class=\"jp\" style=\"margin-top:6px;color:#5a4a1a\">ご<ruby>飯<rt>はん</rt></ruby>は「<ruby>食<rt>た</rt></ruby>べます」。<ruby>飲<rt>の</rt></ruby>みますは<ruby>水<rt>みず</rt></ruby>など、<ruby>吸<rt>す</rt></ruby>いますはたばこなどに<ruby>使<rt>つか</rt></ruby>います。</div><span class=\"lb\">TỪ VỰNG</span><ul><li><span class=\"jp\">ご<ruby>飯<rt>はん</rt></ruby></span> <b>PHẠN</b> – cơm, bữa ăn</li><li><span class=\"jp\"><ruby>食<rt>た</rt></ruby>べます</span> <b>THỰC</b> – ăn</li><li><span class=\"jp\"><ruby>吸<rt>す</rt></ruby>います</span> <b>HẤP</b> – hút, hít</li></ul>",
+    "src": "Ôn tập từ vựng & Hán tự · câu 68"
+   },
+   {
+    "s": "文字と語彙",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "バナナを＿＿＿＿",
+    "imgs": [],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "a. します"
+     },
+     {
+      "t": "b. してね"
+     },
+     {
+      "t": "c. ください"
+     }
+    ],
+    "a": [
+     2
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">c. ください</span></div><span class=\"lb\">DỊCH</span><div>Cho tôi chuối.</div><span class=\"lb\">GIẢI THÍCH</span><div>Mẫu 「N をください」 = cho tôi N, dùng khi mua hàng hoặc xin đồ. 「バナナをします」 và 「バナナをしてね」 không có nghĩa.</div><div class=\"jp\" style=\"margin-top:6px;color:#5a4a1a\"><ruby>物<rt>もの</rt></ruby>がほしいときは「〜をください」と<ruby>言<rt>い</rt></ruby>います。</div><span class=\"lb\">TỪ VỰNG</span><ul><li><span class=\"jp\">ください</span> – xin hãy cho tôi</li></ul>",
+    "src": "Ôn tập từ vựng & Hán tự · câu 69"
+   },
+   {
+    "s": "文字と語彙",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "空港が混んでいて、長く待たせたときは何と言いますか。",
+    "imgs": [],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "a. おへんじください"
+     },
+     {
+      "t": "b. おまちしております"
+     },
+     {
+      "t": "c. おまたせしました"
+     }
+    ],
+    "a": [
+     2
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">c. おまたせしました</span></div><span class=\"lb\">DỊCH</span><div>Sân bay đông, khi đã để ai đó chờ lâu thì nói gì? → Xin lỗi đã để anh/chị phải chờ.</div><span class=\"lb\">GIẢI THÍCH</span><div>Khi để người khác phải chờ lâu, ta nói 「お<ruby>待<rt>ま</rt></ruby>たせしました」 = xin lỗi đã để anh/chị chờ. 「お<ruby>待<rt>ま</rt></ruby>ちしております」 là 'chúng tôi đang chờ quý khách' (nói trước khi khách đến), 「お<ruby>返事<rt>へんじ</rt></ruby>ください」 là xin hãy trả lời.</div><div class=\"jp\" style=\"margin-top:6px;color:#5a4a1a\"><ruby>人<rt>ひと</rt></ruby>を<ruby>待<rt>ま</rt></ruby>たせたときは「おまたせしました」と<ruby>言<rt>い</rt></ruby>います。「おまちしております」はお<ruby>客<rt>きゃく</rt></ruby>さんが<ruby>来<rt>く</rt></ruby>る<ruby>前<rt>まえ</rt></ruby>に<ruby>言<rt>い</rt></ruby>います。</div><span class=\"lb\">TỪ VỰNG</span><ul><li><span class=\"jp\">お<ruby>待<rt>ま</rt></ruby>たせしました</span> <b>ĐÃI</b> – xin lỗi đã để chờ</li><li><span class=\"jp\"><ruby>空港<rt>くうこう</rt></ruby></span> <b>KHÔNG CẢNG</b> – sân bay</li><li><span class=\"jp\"><ruby>混<rt>こ</rt></ruby>む</span> <b>HỖN</b> – đông đúc</li></ul>",
+    "src": "Ôn tập từ vựng & Hán tự · câu 70"
+   },
+   {
+    "s": "文字と語彙",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "この<ruby>町<rt>まち</rt></ruby>は<ruby>人<rt>ひと</rt></ruby>が（　　）、<ruby>静<rt>しず</rt></ruby>かです。",
+    "imgs": [],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "<ruby>少<rt>すく</rt></ruby>なくて"
+     },
+     {
+      "t": "<ruby>高<rt>たか</rt></ruby>くて"
+     },
+     {
+      "t": "<ruby>汚<rt>きたな</rt></ruby>くて"
+     },
+     {
+      "t": "<ruby>寒<rt>さむ</rt></ruby>くて"
      }
     ],
     "a": [
      0
     ],
-    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>季節<rt>きせつ</rt></ruby></span></div><span class=\"lb\">DỊCH</span><div>Ở Nhật có những mùa như thế nào?</div><span class=\"lb\">GIẢI THÍCH</span><div>「<ruby>日本<rt>にほん</rt></ruby>には、どんな<ruby>季節<rt>きせつ</rt></ruby>がありますか」: Ở Nhật có những mùa nào? Chỉ 「<ruby>季節<rt>きせつ</rt></ruby>」 (mùa) hợp với 「どんな〜がありますか」. 「<ruby>去年<rt>きょねん</rt></ruby>」 là năm ngoái, 「<ruby>先週<rt>せんしゅう</rt></ruby>」 là tuần trước, đều là từ chỉ thời điểm, không dùng với 「どんな〜がありますか」.</div><div class=\"jp\" style=\"margin-top:6px;color:#5a4a1a\">「どんな〜がありますか」には、<ruby>種類<rt>しゅるい</rt></ruby>があるものが<ruby>入<rt>はい</rt></ruby>ります。<ruby>日本<rt>にほん</rt></ruby>には<ruby>春<rt>はる</rt></ruby>・<ruby>夏<rt>なつ</rt></ruby>・<ruby>秋<rt>あき</rt></ruby>・<ruby>冬<rt>ふゆ</rt></ruby>の「<ruby>季節<rt>きせつ</rt></ruby>」があります。</div><span class=\"lb\">TỪ VỰNG</span><ul><li><span class=\"jp\"><ruby>季節<rt>きせつ</rt></ruby></span> <b>QUÝ TIẾT</b> – mùa</li><li><span class=\"jp\"><ruby>去年<rt>きょねん</rt></ruby></span> <b>KHỨ NIÊN</b> – năm ngoái</li><li><span class=\"jp\"><ruby>先週<rt>せんしゅう</rt></ruby></span> <b>TIÊN CHU</b> – tuần trước</li></ul>",
-    "src": "Đề 1 · câu 7"
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>少<rt>すく</rt></ruby>なくて</span></div><span class=\"lb\">DỊCH</span><div>Thị trấn này ít người nên yên tĩnh.</div><span class=\"lb\">GIẢI THÍCH</span><div>Vế sau là 「<ruby>静<rt>しず</rt></ruby>かです」 (yên tĩnh) → lý do hợp lý là người ít: 「<ruby>人<rt>ひと</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ない」. Tính từ đuôi い nối câu: bỏ い + くて → <ruby>少<rt>すく</rt></ruby>なくて. Ngược nghĩa: <ruby>人<rt>ひと</rt></ruby>が<ruby>多<rt>おお</rt></ruby>い (đông người).</div><span class=\"lb\">TỪ VỰNG</span><ul><li><span class=\"jp\"><ruby>少<rt>すく</rt></ruby>ない</span> <b>THIỂU</b> – ít</li><li><span class=\"jp\"><ruby>静<rt>しず</rt></ruby>か</span> <b>TĨNH</b> – yên tĩnh</li></ul><div style=\"margin-top:6px;color:#8a6d1a;font-size:13px\">Câu tự soạn (Anh Trọng Dạy JFT) theo dạng câu học viên gặp khi đi thi.</div>",
+    "src": "Câu tự soạn"
+   },
+   {
+    "s": "文字と語彙",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "この<ruby>紙<rt>かみ</rt></ruby>に、<ruby>名前<rt>なまえ</rt></ruby>と<ruby>住所<rt>じゅうしょ</rt></ruby>を（　　）ください。",
+    "imgs": [],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "<ruby>記入<rt>きにゅう</rt></ruby>して"
+     },
+     {
+      "t": "<ruby>注文<rt>ちゅうもん</rt></ruby>して"
+     },
+     {
+      "t": "<ruby>説明<rt>せつめい</rt></ruby>して"
+     },
+     {
+      "t": "<ruby>予約<rt>よやく</rt></ruby>して"
+     }
+    ],
+    "a": [
+     0
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>記入<rt>きにゅう</rt></ruby>して</span></div><span class=\"lb\">DỊCH</span><div>Hãy điền tên và địa chỉ vào tờ giấy này.</div><span class=\"lb\">GIẢI THÍCH</span><div>Viết thông tin vào giấy/mẫu đơn = 「<ruby>記入<rt>きにゅう</rt></ruby>する」. <ruby>注文<rt>ちゅうもん</rt></ruby> = gọi món/đặt hàng, <ruby>説明<rt>せつめい</rt></ruby> = giải thích, <ruby>予約<rt>よやく</rt></ruby> = đặt trước.</div><span class=\"lb\">TỪ VỰNG</span><ul><li><span class=\"jp\"><ruby>記入<rt>きにゅう</rt></ruby></span> <b>KÝ NHẬP</b> – điền vào</li><li><span class=\"jp\"><ruby>住所<rt>じゅうしょ</rt></ruby></span> <b>TRÚ SỞ</b> – địa chỉ</li></ul><div style=\"margin-top:6px;color:#8a6d1a;font-size:13px\">Câu tự soạn (Anh Trọng Dạy JFT) theo dạng câu học viên gặp khi đi thi.</div>",
+    "src": "Câu tự soạn"
+   },
+   {
+    "s": "会話と表現",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "A：ここは どこですか。<br>B：さくら<ruby>通<rt>どお</rt></ruby>りです。この あたりは いろいろな <ruby>店<rt>みせ</rt></ruby>が あって、（　　）、<ruby>楽<rt>たの</rt></ruby>しいですよ。<br>A：いいですね。<ruby>行<rt>い</rt></ruby>って みます。",
+    "imgs": [],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "にぎやかで"
+     },
+     {
+      "t": "にぎやかに"
+     },
+     {
+      "t": "にぎやかが"
+     },
+     {
+      "t": "にぎやかと"
+     }
+    ],
+    "a": [
+     0
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">にぎやかで</span></div><span class=\"lb\">DỊCH</span><div>A: Đây là đâu vậy? / B: Phố Sakura. Khu này có nhiều cửa hàng, nhộn nhịp và vui lắm. / A: Hay quá. Tôi sẽ thử đi.</div><span class=\"lb\">GIẢI THÍCH</span><div>Nối 2 tính từ (nhộn nhịp + vui): tính từ đuôi な → bỏ な + で: 「にぎやかで、<ruby>楽<rt>たの</rt></ruby>しい」. 「にぎやかに」 đi với động từ (にぎやかになる), 「が」「と」 không nối tính từ.</div><div style=\"margin-top:6px;color:#8a6d1a;font-size:13px\">Câu tự soạn (Anh Trọng Dạy JFT) theo dạng câu học viên gặp khi đi thi.</div>",
+    "src": "Câu tự soạn"
+   },
+   {
+    "s": "会話と表現",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "A：<ruby>日曜日<rt>にちようび</rt></ruby>、いっしょに <ruby>野球<rt>やきゅう</rt></ruby>を <ruby>見<rt>み</rt></ruby>に <ruby>行<rt>い</rt></ruby>きませんか。<br>B：あ、<ruby>日曜日<rt>にちようび</rt></ruby>は ちょっと……。<br>A：そうですか。じゃあ、また<ruby>今度<rt>こんど</rt></ruby>。<br><br>B は どう <ruby>答<rt>こた</rt></ruby>えましたか。",
+    "imgs": [],
+    "img": null,
+    "au": null,
+    "o": [
+     {
+      "t": "<ruby>問題<rt>もんだい</rt></ruby>ない と<ruby>答<rt>こた</rt></ruby>えた"
+     },
+     {
+      "t": "いいですよ と{R(\"答\",\"こた\")}えた"
+     },
+     {
+      "t": "<ruby>日曜日<rt>にちようび</rt></ruby>は<ruby>行<rt>い</rt></ruby>けない と<ruby>答<rt>こた</rt></ruby>えた"
+     }
+    ],
+    "a": [
+     2
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>日曜日<rt>にちようび</rt></ruby>は<ruby>行<rt>い</rt></ruby>けない と<ruby>答<rt>こた</rt></ruby>えた</span></div><span class=\"lb\">DỊCH</span><div>A: Chủ nhật đi xem bóng chày cùng không? / B: À, chủ nhật thì hơi…… / A: Vậy à. Thế để lần sau nhé.</div><span class=\"lb\">GIẢI THÍCH</span><div>「〜は ちょっと……」 là cách từ chối nhẹ nhàng của người Nhật, không nói thẳng 「<ruby>行<rt>い</rt></ruby>けません」. Nghe thấy 「ちょっと……」 ngập ngừng + người kia đáp 「また<ruby>今度<rt>こんど</rt></ruby>」 (để lần sau) → B không đi được. Nhận lời thì nói 「いいですね」「ぜひ」.</div><div style=\"margin-top:6px;color:#8a6d1a;font-size:13px\">Câu tự soạn (Anh Trọng Dạy JFT) theo dạng câu học viên gặp khi đi thi.</div>",
+    "src": "Câu tự soạn"
    },
    {
     "s": "会話と表現",
