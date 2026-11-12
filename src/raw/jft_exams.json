@@ -31941,6 +31941,594 @@
   ]
  },
  {
+  "id": "jft-ln2",
+  "group": "Luyện nghe JFT",
+  "title": "Đề nghe 2",
+  "name": "Nghe 2",
+  "sub": "Tuyển tập 20 câu nghe hiểu · いろどり",
+  "time": 30,
+  "tag": "Luyện nghe",
+  "qs": [
+   {
+    "s": "聴解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<span class=\"jp\"><ruby>二人<rt>ふたり</rt></ruby>はいつ、<ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>に<ruby>行<rt>い</rt></ruby>きますか。</span><br><span class=\"vi-q\">Hai người sẽ đi xem phim khi nào?</span>",
+    "imgs": [],
+    "img": null,
+    "au": "app/media/jft/au/ln2_L01.mp3",
+    "o": [
+     {
+      "t": "<ruby>金曜日<rt>きんようび</rt></ruby>"
+     },
+     {
+      "t": "<ruby>土曜日<rt>どようび</rt></ruby>"
+     },
+     {
+      "t": "<ruby>日曜日<rt>にちようび</rt></ruby>"
+     }
+    ],
+    "a": [
+     0
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>金曜日<rt>きんようび</rt></ruby></span></div><span class=\"lb\">SCRIPT</span><div class=\"jp\">ヌン：ニアさん、<ruby>映画<rt>えいが</rt></ruby>、いつがいいですか？<br>ニア：<ruby>私<rt>わたし</rt></ruby>は、<ruby>土曜日<rt>どようび</rt></ruby>がいいです。ヌンさんは？<br>ヌン：すみません。<ruby>土曜日<rt>どようび</rt></ruby>はちょっと……。<br>ニア：<ruby>私<rt>わたし</rt></ruby>は、<ruby>日曜日<rt>にちようび</rt></ruby>がいいです。<br>ヌン：あー、<ruby>私<rt>わたし</rt></ruby>は、<ruby>日曜日<rt>にちようび</rt></ruby>はだめです。すみません。じゃあ、<ruby>金曜日<rt>きんようび</rt></ruby>の<ruby>夜<rt>よる</rt></ruby>は？<br>ニア：<ruby>金曜日<rt>きんようび</rt></ruby>……だいじょうぶです。<br>ヌン：じゃあ、<ruby>金曜日<rt>きんようび</rt></ruby>にしましょう。</div><span class=\"lb\">DỊCH</span><div>Nun: Nia, đi xem phim hôm nào được? / Nia: Tôi thì thứ Bảy. Còn Nun? / Nun: Xin lỗi, thứ Bảy thì hơi… / Nia: Vậy Chủ nhật. / Nun: Chủ nhật tôi không được. Vậy tối thứ Sáu thì sao? / Nia: Thứ Sáu… được. / Nun: Vậy chọn thứ Sáu nhé.</div><span class=\"lb\">GIẢI THÍCH</span><div>Hai ngày bị loại: 「<ruby>土曜日<rt>どようび</rt></ruby>はちょっと……」 (từ chối nhẹ), 「<ruby>日曜日<rt>にちようび</rt></ruby>はだめです」 (không được). Chốt bằng 「<ruby>金曜日<rt>きんようび</rt></ruby>にしましょう」. Câu hỏi &quot;khi nào&quot; → nghe câu cuối có 〜にしましょう.</div>"
+   },
+   {
+    "s": "聴解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<span class=\"jp\">ミラさんは<ruby>日本<rt>にほん</rt></ruby>で<ruby>何<rt>なに</rt></ruby>をしたいですか。</span><br><span class=\"vi-q\">Mira muốn làm gì ở Nhật?</span>",
+    "imgs": [],
+    "img": null,
+    "au": "app/media/jft/au/ln2_L02.mp3",
+    "o": [
+     {
+      "t": "A. <ruby>京都<rt>きょうと</rt></ruby>に<ruby>行<rt>い</rt></ruby>く",
+      "img": "app/media/jft/img/ln2_02a.jpg"
+     },
+     {
+      "t": "B. <ruby>雪<rt>ゆき</rt></ruby>を<ruby>見<rt>み</rt></ruby>る",
+      "img": "app/media/jft/img/ln2_02b.jpg"
+     },
+     {
+      "t": "C. ハンバーガーを<ruby>食<rt>た</rt></ruby>べる",
+      "img": "app/media/jft/img/ln2_02c.jpg"
+     }
+    ],
+    "a": [
+     1
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>雪<rt>ゆき</rt></ruby>を<ruby>見<rt>み</rt></ruby>る</span></div><span class=\"lb\">SCRIPT</span><div class=\"jp\">これ、ディズニーランドのお<ruby>土産<rt>みやげ</rt></ruby>。ミラさん、どうぞ。<br>わあ、<ruby>清水<rt>しみず</rt></ruby>さん、ありがとうございます。ディズニーランド<ruby>行<rt>い</rt></ruby>きたいです。<br><ruby>面白<rt>おもしろ</rt></ruby>いよ。ぜひ<ruby>行<rt>い</rt></ruby>って。ミラさんは、<ruby>他<rt>ほか</rt></ruby>に<ruby>日本<rt>にほん</rt></ruby>で<ruby>何<rt>なに</rt></ruby>がしたい？<br>そうですね。<ruby>雪<rt>ゆき</rt></ruby>が<ruby>見<rt>み</rt></ruby>たいです。あと、<ruby>温泉<rt>おんせん</rt></ruby>に<ruby>入<rt>はい</rt></ruby>りたいです。<br>へえ、いいね。</div><span class=\"lb\">DỊCH</span><div>Đây là quà Disneyland, tặng Mira. – Cảm ơn anh Shimizu. Tôi muốn đi Disneyland. – Vui lắm, nhất định đi nhé. Ở Nhật Mira còn muốn làm gì nữa? – Tôi muốn ngắm tuyết. Ngoài ra muốn tắm suối nước nóng.</div><span class=\"lb\">GIẢI THÍCH</span><div>「<ruby>雪<rt>ゆき</rt></ruby>が<ruby>見<rt>み</rt></ruby>たいです」 → tranh B (người đứng giữa tuyết rơi). Mẫu Nが<ruby>見<rt>み</rt></ruby>たい = muốn xem N. Các tranh còn lại (Kyoto, hamburger) không được nhắc đến.</div>"
+   },
+   {
+    "s": "聴解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<span class=\"jp\">タムさんの<ruby>国<rt>くに</rt></ruby>には、どんな<ruby>季節<rt>きせつ</rt></ruby>がありますか。</span><br><span class=\"vi-q\">Ở nước của Tam có những mùa nào?</span>",
+    "imgs": [],
+    "img": null,
+    "au": "app/media/jft/au/ln2_L03.mp3",
+    "o": [
+     {
+      "t": "A. <ruby>夏<rt>なつ</rt></ruby>はとても<ruby>暑<rt>あつ</rt></ruby>くて、<ruby>冬<rt>ふゆ</rt></ruby>はとても<ruby>寒<rt>さむ</rt></ruby>い",
+      "img": "app/media/jft/img/ln2_03a.jpg"
+     },
+     {
+      "t": "B. <ruby>一<rt>いち</rt></ruby><ruby>年<rt>ねん</rt></ruby><ruby>中<rt>じゅう</rt></ruby><ruby>暑<rt>あつ</rt></ruby>い",
+      "img": "app/media/jft/img/ln2_03b.jpg"
+     },
+     {
+      "t": "C. <ruby>雨季<rt>うき</rt></ruby>と<ruby>乾季<rt>かんき</rt></ruby>がある",
+      "img": "app/media/jft/img/ln2_03c.jpg"
+     }
+    ],
+    "a": [
+     2
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>雨季<rt>うき</rt></ruby>と<ruby>乾季<rt>かんき</rt></ruby>がある</span></div><span class=\"lb\">SCRIPT</span><div class=\"jp\">A：タムさんの<ruby>国<rt>くに</rt></ruby>には、どんな<ruby>季節<rt>きせつ</rt></ruby>がありますか？<br>B：<ruby>雨季<rt>うき</rt></ruby>と<ruby>乾季<rt>かんき</rt></ruby>があります。<br>A：そうですか。<br>B：<ruby>乾季<rt>かんき</rt></ruby>はとても<ruby>暑<rt>あつ</rt></ruby>いです。<br>A：へー。<br>B：でも、<ruby>雨季<rt>うき</rt></ruby>は<ruby>少<rt>すこ</rt></ruby>しすずしくなります。<ruby>雨<rt>あめ</rt></ruby>がたくさん<ruby>降<rt>ふ</rt></ruby>ります。</div><span class=\"lb\">DỊCH</span><div>A: Nước của Tam có những mùa nào? / B: Có mùa mưa và mùa khô. Mùa khô rất nóng. Nhưng mùa mưa thì mát hơn một chút. Mưa rất nhiều.</div><span class=\"lb\">GIẢI THÍCH</span><div>「<ruby>雨季<rt>うき</rt></ruby>と<ruby>乾季<rt>かんき</rt></ruby>があります」 → tranh C (nắng và mưa). <ruby>雨季<rt>うき</rt></ruby> (VŨ QUÝ, うき) = mùa mưa, <ruby>乾季<rt>かんき</rt></ruby> (CAN QUÝ, かんき) = mùa khô. So sánh Đề nghe 1 câu 9: <ruby>四季<rt>しき</rt></ruby> (bốn mùa) = tranh A.</div>"
+   },
+   {
+    "s": "聴解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<span class=\"jp\"><ruby>何<rt>なん</rt></ruby>のお<ruby>祝<rt>いわ</rt></ruby>いですか。</span><br><span class=\"vi-q\">Mừng dịp gì vậy?</span>",
+    "imgs": [],
+    "img": null,
+    "au": "app/media/jft/au/ln2_L04.mp3",
+    "o": [
+     {
+      "t": "A. <ruby>誕生日<rt>たんじょうび</rt></ruby>",
+      "img": "app/media/jft/img/ln2_04a.jpg"
+     },
+     {
+      "t": "B. <ruby>結婚<rt>けっこん</rt></ruby>",
+      "img": "app/media/jft/img/ln2_04b.jpg"
+     },
+     {
+      "t": "C. <ruby>子<rt>こ</rt></ruby>どもが<ruby>生<rt>う</rt></ruby>まれた",
+      "img": "app/media/jft/img/ln2_04c.jpg"
+     }
+    ],
+    "a": [
+     1
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>結婚<rt>けっこん</rt></ruby></span></div><span class=\"lb\">SCRIPT</span><div class=\"jp\">A：ご<ruby>結婚<rt>けっこん</rt></ruby>おめでとうございます。<br>B：え、あ、ありがとう。<br>C：これ、<ruby>私<rt>わたし</rt></ruby>たちからのプレゼントです。<br>B：えー、ありがとう。うれしい。<br>A：<ruby>相手<rt>あいて</rt></ruby>は、どんな<ruby>人<rt>ひと</rt></ruby>ですか？<br>B：うーんと、まあ、<ruby>普通<rt>ふつう</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>。<br>A：かっこいいですか？<br>B：うーん、ぜんぜん。でも、すごくおもしろい<ruby>人<rt>ひと</rt></ruby>。<br>C：いいなあ。お<ruby>幸<rt>しあわ</rt></ruby>せに。</div><span class=\"lb\">DỊCH</span><div>A: Chúc mừng chị kết hôn. / B: À, cảm ơn. / C: Đây là quà của chúng tôi. / A: Người kia là người thế nào? / B: Ừm, bình thường thôi. / A: Có đẹp trai không? / B: Hoàn toàn không. Nhưng rất hài hước. / C: Ghen tị quá. Chúc hạnh phúc.</div><span class=\"lb\">GIẢI THÍCH</span><div>Câu đầu 「ご<ruby>結婚<rt>けっこん</rt></ruby>おめでとうございます」 → tranh B. <ruby>相手<rt>あいて</rt></ruby> (あいて) = người bạn đời. 「お<ruby>幸<rt>しあわ</rt></ruby>せに」 = chúc hạnh phúc, chỉ dùng khi chúc cưới.</div>"
+   },
+   {
+    "s": "聴解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<span class=\"jp\"><ruby>皆<rt>みな</rt></ruby>はアナさんに<ruby>何<rt>なに</rt></ruby>をあげますか。</span><br><span class=\"vi-q\">Mọi người sẽ tặng gì cho Anna?</span>",
+    "imgs": [],
+    "img": null,
+    "au": "app/media/jft/au/ln2_L05.mp3",
+    "o": [
+     {
+      "t": "A. <ruby>花<rt>はな</rt></ruby>",
+      "img": "app/media/jft/img/ln2_05a.jpg"
+     },
+     {
+      "t": "B. デジタルフォトフレーム",
+      "img": "app/media/jft/img/ln2_05b.jpg"
+     },
+     {
+      "t": "C. カメラ",
+      "img": "app/media/jft/img/ln2_05c.jpg"
+     }
+    ],
+    "a": [
+     1
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">デジタルフォトフレーム</span></div><span class=\"lb\">SCRIPT (đoạn chính)</span><div class=\"jp\">エレノア：あと、アナさんに<ruby>何<rt>なに</rt></ruby>かプレゼントをあげませんか？<br><ruby>周<rt>しゅう</rt></ruby>：そうですね。<ruby>何<rt>なに</rt></ruby>がいいでしょうか？エレノアさんの<ruby>国<rt>くに</rt></ruby>では、どんなものをあげますか？<br>エレノア：<ruby>花<rt>はな</rt></ruby>とか？<br><ruby>周<rt>しゅう</rt></ruby>：うーん、もっと、<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>で</rt></ruby>に<ruby>残<rt>のこ</rt></ruby>るものがいいと<ruby>思<rt>おも</rt></ruby>います。<ruby>予算<rt>よさん</rt></ruby>は？<br>エレノア：<ruby>参加者<rt>さんかしゃ</rt></ruby>は10人ぐらいだと<ruby>思<rt>おも</rt></ruby>いますから、5,000<ruby>円<rt>えん</rt></ruby>ぐらいのものですね。<br><ruby>周<rt>しゅう</rt></ruby>：それなら、デジタルフォトフレームはどうですか？<br>エレノア：あ、いいですね。</div><span class=\"lb\">DỊCH</span><div>Eleanor: Mình tặng Anna món quà gì không? / Chu: Tặng gì thì hay? Ở nước chị người ta tặng gì? / Eleanor: Hoa chẳng hạn? / Chu: Tôi nghĩ nên tặng thứ để lại kỷ niệm. Ngân sách bao nhiêu? / Eleanor: Khoảng 10 người, nên món khoảng 5.000 yên. / Chu: Vậy khung ảnh kỹ thuật số thì sao? / Eleanor: Hay đấy.</div><span class=\"lb\">GIẢI THÍCH</span><div>Hoa (<ruby>花<rt>はな</rt></ruby>) bị gạt đi: 「もっと、<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>で</rt></ruby>に<ruby>残<rt>のこ</rt></ruby>るものがいい」. Chốt 「デジタルフォトフレームはどうですか」「いいですね」 → tranh B. Cùng hội thoại với Đề nghe 1 câu 11 (đó hỏi món ăn).</div>"
+   },
+   {
+    "s": "聴解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<span class=\"jp\"><ruby>渡<rt>わた</rt></ruby>した<ruby>物<rt>もの</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。</span><br><span class=\"vi-q\">Vật đã trao là gì?</span>",
+    "imgs": [],
+    "img": null,
+    "au": "app/media/jft/au/ln2_L06.mp3",
+    "o": [
+     {
+      "t": "A. <ruby>魚<rt>さかな</rt></ruby>のソース",
+      "img": "app/media/jft/img/ln2_06a.jpg"
+     },
+     {
+      "t": "B. <ruby>春巻<rt>はるま</rt></ruby>き",
+      "img": "app/media/jft/img/ln2_06b.jpg"
+     },
+     {
+      "t": "C. お<ruby>米<rt>こめ</rt></ruby>から<ruby>作<rt>つく</rt></ruby>ったお<ruby>酒<rt>さけ</rt></ruby>",
+      "img": "app/media/jft/img/ln2_06c.jpg"
+     }
+    ],
+    "a": [
+     2
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">お<ruby>米<rt>こめ</rt></ruby>から<ruby>作<rt>つく</rt></ruby>ったお<ruby>酒<rt>さけ</rt></ruby></span></div><span class=\"lb\">SCRIPT</span><div class=\"jp\">A：<ruby>先生<rt>せんせい</rt></ruby>、お<ruby>酒<rt>さけ</rt></ruby>、<ruby>好<rt>す</rt></ruby>きですよね？<br>B：うん、<ruby>大好<rt>だいす</rt></ruby>きだけど……。<br>A：これ、スラーソーです。カンボジアのお<ruby>酒<rt>さけ</rt></ruby>です。<ruby>先生<rt>せんせい</rt></ruby>にプレゼントです。<br>B：え、いいの？<br>A：お<ruby>米<rt>こめ</rt></ruby>から<ruby>作<rt>つく</rt></ruby>った<ruby>焼酎<rt>しょうちゅう</rt></ruby>です。<br>B：へー、<ruby>焼酎<rt>しょうちゅう</rt></ruby>、<ruby>大好<rt>だいす</rt></ruby>き。ありがとう。<br>A：ちょっと<ruby>強<rt>つよ</rt></ruby>いですから、<ruby>飲<rt>の</rt></ruby>みすぎないでくださいね。</div><span class=\"lb\">DỊCH</span><div>A: Thầy thích rượu phải không ạ? / B: Ừ, rất thích, nhưng mà… / A: Đây là Sraa Sor, rượu của Campuchia. Em tặng thầy. / B: Được à? / A: Là rượu shochu làm từ gạo. / B: Thích shochu lắm. Cảm ơn. / A: Rượu hơi mạnh, thầy đừng uống quá nhiều nhé.</div><span class=\"lb\">GIẢI THÍCH</span><div>Món quà là rượu Sraa Sor 「お<ruby>米<rt>こめ</rt></ruby>から<ruby>作<rt>つく</rt></ruby>った<ruby>焼酎<rt>しょうちゅう</rt></ruby>」 → tranh C (chai rượu trong, có hộp). Tranh A là chai nước mắm, tranh B là chả giò. <ruby>飲<rt>の</rt></ruby>みすぎないで = đừng uống quá nhiều (Vすぎる).</div>"
+   },
+   {
+    "s": "聴解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<span class=\"jp\"><ruby>沖縄<rt>おきなわ</rt></ruby>はどんなところですか。</span><br><span class=\"vi-q\">Okinawa là nơi như thế nào?</span>",
+    "imgs": [],
+    "img": null,
+    "au": "app/media/jft/au/ln2_L07.mp3",
+    "o": [
+     {
+      "t": "A. <ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>がおいしい",
+      "img": "app/media/jft/img/ln2_07a.jpg"
+     },
+     {
+      "t": "B. <ruby>暖<rt>あたた</rt></ruby>かい",
+      "img": "app/media/jft/img/ln2_07b.jpg"
+     },
+     {
+      "t": "C. <ruby>遊園地<rt>ゆうえんち</rt></ruby>がある",
+      "img": "app/media/jft/img/ln2_07c.jpg"
+     }
+    ],
+    "a": [
+     1
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>暖<rt>あたた</rt></ruby>かい</span></div><span class=\"lb\">SCRIPT</span><div class=\"jp\">A：いつか<ruby>沖縄<rt>おきなわ</rt></ruby>に<ruby>行<rt>い</rt></ruby>ってみたいんです。<ruby>海<rt>うみ</rt></ruby>がきれいですよね。<br>B：ええ、きれいですよ。それに<ruby>暖<rt>あたた</rt></ruby>かいから、<ruby>春<rt>はる</rt></ruby>から<ruby>秋<rt>あき</rt></ruby>まで<ruby>泳<rt>およ</rt></ruby>げますよ。シュノーケリングもできますし。<br>A：そうなんですか。<br>B：あと、<ruby>大<rt>おお</rt></ruby>きい<ruby>水族館<rt>すいぞくかん</rt></ruby>があって、きれいな<ruby>魚<rt>さかな</rt></ruby>が<ruby>見<rt>み</rt></ruby>られますよ。<br>A：<ruby>行<rt>い</rt></ruby>きたいですね。</div><span class=\"lb\">DỊCH</span><div>A: Một ngày nào đó tôi muốn thử đi Okinawa. Biển đẹp nhỉ. / B: Vâng, đẹp lắm. Hơn nữa vì ấm áp nên có thể bơi từ mùa xuân đến mùa thu. Còn lặn ống thở được nữa. Ngoài ra có thủy cung lớn, ngắm cá đẹp.</div><span class=\"lb\">GIẢI THÍCH</span><div>「<ruby>暖<rt>あたた</rt></ruby>かいから、<ruby>春<rt>はる</rt></ruby>から<ruby>秋<rt>あき</rt></ruby>まで<ruby>泳<rt>およ</rt></ruby>げます」 → tranh B (biểu đồ nhiệt độ cao quanh năm, người ở biển). Bài không nói về đồ ăn hay khu vui chơi.</div>"
+   },
+   {
+    "s": "聴解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<span class=\"jp\"><ruby>自由席<rt>じゆうせき</rt></ruby>は<ruby>何<rt>なん</rt></ruby><ruby>号<rt>ごう</rt></ruby><ruby>車<rt>しゃ</rt></ruby>ですか。</span><br><span class=\"vi-q\">Ghế tự do là toa số mấy?</span>",
+    "imgs": [],
+    "img": null,
+    "au": "app/media/jft/au/ln2_L08.mp3",
+    "o": [
+     {
+      "t": "A. 2・3・4・8・9<ruby>号<rt>ごう</rt></ruby><ruby>車<rt>しゃ</rt></ruby>",
+      "img": "app/media/jft/img/ln2_08a.jpg"
+     },
+     {
+      "t": "B. 5・6・7<ruby>号<rt>ごう</rt></ruby><ruby>車<rt>しゃ</rt></ruby>",
+      "img": "app/media/jft/img/ln2_08b.jpg"
+     },
+     {
+      "t": "C. 1<ruby>号<rt>ごう</rt></ruby><ruby>車<rt>しゃ</rt></ruby>",
+      "img": "app/media/jft/img/ln2_08c.jpg"
+     }
+    ],
+    "a": [
+     1
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">5・6・7<ruby>号<rt>ごう</rt></ruby><ruby>車<rt>しゃ</rt></ruby></span></div><span class=\"lb\">SCRIPT</span><div class=\"jp\">11<ruby>時<rt>じ</rt></ruby>42分<ruby>発<rt>はつ</rt></ruby><ruby>特急<rt>とっきゅう</rt></ruby>サンダーバード19<ruby>号<rt>ごう</rt></ruby><ruby>金沢<rt>かなざわ</rt></ruby><ruby>行<rt>い</rt></ruby>きは、11<ruby>番<rt>ばん</rt></ruby><ruby>乗<rt>の</rt></ruby>り<ruby>場<rt>ば</rt></ruby>から<ruby>発車<rt>はっしゃ</rt></ruby>します。<ruby>列車<rt>れっしゃ</rt></ruby>は9<ruby>両<rt>りょう</rt></ruby>で<ruby>到着<rt>とうちゃく</rt></ruby>します。<ruby>前<rt>まえ</rt></ruby>から9<ruby>号<rt>ごう</rt></ruby><ruby>車<rt>しゃ</rt></ruby>8<ruby>号<rt>ごう</rt></ruby><ruby>車<rt>しゃ</rt></ruby>の<ruby>順<rt>じゅん</rt></ruby>でいちばん<ruby>後<rt>うし</rt></ruby>ろが1<ruby>号<rt>ごう</rt></ruby><ruby>車<rt>しゃ</rt></ruby>です。<ruby>自由席<rt>じゆうせき</rt></ruby>は5<ruby>号<rt>ごう</rt></ruby><ruby>車<rt>しゃ</rt></ruby>、6<ruby>号<rt>ごう</rt></ruby><ruby>車<rt>しゃ</rt></ruby>、7<ruby>号<rt>ごう</rt></ruby><ruby>車<rt>しゃ</rt></ruby>、<ruby>指定席<rt>していせき</rt></ruby>は2<ruby>号<rt>ごう</rt></ruby><ruby>車<rt>しゃ</rt></ruby>、3<ruby>号<rt>ごう</rt></ruby><ruby>車<rt>しゃ</rt></ruby>、4<ruby>号<rt>ごう</rt></ruby><ruby>車<rt>しゃ</rt></ruby>、8<ruby>号<rt>ごう</rt></ruby><ruby>車<rt>しゃ</rt></ruby>、9<ruby>号<rt>ごう</rt></ruby><ruby>車<rt>しゃ</rt></ruby>、グリーン<ruby>席<rt>せき</rt></ruby>は1<ruby>号<rt>ごう</rt></ruby><ruby>車<rt>しゃ</rt></ruby>です。</div><span class=\"lb\">DỊCH</span><div>Tàu tốc hành Thunderbird số 19 đi Kanazawa, khởi hành 11 giờ 42, xuất phát từ sân ga 11. Tàu có 9 toa, từ phía trước là toa 9, 8… cuối cùng là toa 1. Ghế tự do là toa 5, 6, 7; ghế chỉ định là toa 2, 3, 4, 8, 9; ghế Green là toa 1.</div><span class=\"lb\">GIẢI THÍCH</span><div><ruby>自由席<rt>じゆうせき</rt></ruby> (TỰ DO TỊCH) = ghế không đặt trước → 5・6・7<ruby>号<rt>ごう</rt></ruby><ruby>車<rt>しゃ</rt></ruby> (tranh B). <ruby>指定席<rt>していせき</rt></ruby> (CHỈ ĐỊNH TỊCH) = ghế đặt trước (tranh A), グリーン<ruby>席<rt>せき</rt></ruby> = ghế hạng sang (tranh C). Bài có nhiều số – chỉ ghi số đi sau từ được hỏi.</div>"
+   },
+   {
+    "s": "聴解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<span class=\"jp\"><ruby>電車<rt>でんしゃ</rt></ruby>はどうして<ruby>運転<rt>うんてん</rt></ruby>を<ruby>見合<rt>みあ</rt></ruby>わせていますか。</span><br><span class=\"vi-q\">Tại sao tàu điện phải tạm dừng chạy?</span>",
+    "imgs": [],
+    "img": null,
+    "au": "app/media/jft/au/ln2_L09.mp3",
+    "o": [
+     {
+      "t": "A. <ruby>大雨<rt>おおあめ</rt></ruby>",
+      "img": "app/media/jft/img/ln2_09a.jpg"
+     },
+     {
+      "t": "B. <ruby>人身<rt>じんしん</rt></ruby><ruby>事故<rt>じこ</rt></ruby>",
+      "img": "app/media/jft/img/ln2_09b.jpg"
+     },
+     {
+      "t": "C. <ruby>大雪<rt>おおゆき</rt></ruby>",
+      "img": "app/media/jft/img/ln2_09c.jpg"
+     }
+    ],
+    "a": [
+     1
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>人身<rt>じんしん</rt></ruby><ruby>事故<rt>じこ</rt></ruby></span></div><span class=\"lb\">SCRIPT (đoạn chính)</span><div class=\"jp\">アナウンス：お<ruby>客様<rt>きゃくさま</rt></ruby>にご<ruby>案内<rt>あんない</rt></ruby>いたします。<ruby>浦和駅<rt>うらわえき</rt></ruby>と<ruby>赤羽駅<rt>あかばねえき</rt></ruby>の<ruby>間<rt>あいだ</rt></ruby>で<ruby>発生<rt>はっせい</rt></ruby>した<ruby>人身<rt>じんしん</rt></ruby><ruby>事故<rt>じこ</rt></ruby>の<ruby>影響<rt>えいきょう</rt></ruby>で、<ruby>京浜東北線<rt>けいひんとうほくせん</rt></ruby>、<ruby>高崎線<rt>たかさきせん</rt></ruby>、<ruby>宇都宮<rt>うつのみや</rt></ruby><ruby>線<rt>せん</rt></ruby>、<ruby>上野東京<rt>うえのとうきょう</rt></ruby>ライン、<ruby>湘南新宿<rt>しょうなんしんじゅく</rt></ruby>ラインは、<ruby>全線<rt>ぜんせん</rt></ruby>で<ruby>運転<rt>うんてん</rt></ruby>を<ruby>見合<rt>みあ</rt></ruby>わせています。<ruby>大宮<rt>おおみや</rt></ruby><ruby>方面<rt>ほうめん</rt></ruby>へお<ruby>越<rt>こ</rt></ruby>しのお<ruby>客様<rt>きゃくさま</rt></ruby>は、<ruby>埼京線<rt>さいきょうせん</rt></ruby>をご<ruby>利用<rt>りよう</rt></ruby>ください。<br><ruby>乗客<rt>じょうきゃく</rt></ruby>：すみません、さいたま<ruby>新都心<rt>しんとしん</rt></ruby>に<ruby>行<rt>い</rt></ruby>きたいんですけど、<ruby>京浜東北線<rt>けいひんとうほくせん</rt></ruby>、<ruby>動<rt>うご</rt></ruby>かないんですか？<br><ruby>駅員<rt>えきいん</rt></ruby>：ええ、<ruby>申<rt>もう</rt></ruby>し<ruby>訳<rt>わけ</rt></ruby>ありません。さいたま<ruby>新都心<rt>しんとしん</rt></ruby>なら、<ruby>埼京線<rt>さいきょうせん</rt></ruby>の<ruby>北与野駅<rt>きたよのえき</rt></ruby>から<ruby>歩<rt>ある</rt></ruby>けますよ。</div><span class=\"lb\">DỊCH</span><div>Thông báo: Do ảnh hưởng của tai nạn có người xảy ra giữa ga Urawa và ga Akabane, các tuyến Keihin-Tohoku, Takasaki… đang tạm dừng toàn tuyến. Quý khách đi hướng Omiya xin dùng tuyến Saikyo. / Khách: Tôi muốn đến Saitama-Shintoshin, tuyến Keihin-Tohoku không chạy à? / Nhân viên: Vâng, xin lỗi. Đến Saitama-Shintoshin thì đi bộ từ ga Kita-Yono của tuyến Saikyo được.</div><span class=\"lb\">GIẢI THÍCH</span><div>「<ruby>人身<rt>じんしん</rt></ruby><ruby>事故<rt>じこ</rt></ruby>の<ruby>影響<rt>えいきょう</rt></ruby>で」 = do tai nạn có người (người bị tàu đâm) → tranh B (va chạm ở chỗ chắn tàu). <ruby>見合<rt>みあ</rt></ruby>わせる = tạm dừng (chạy tàu). 〜の<ruby>影響<rt>えいきょう</rt></ruby>で = do ảnh hưởng của ~.</div>"
+   },
+   {
+    "s": "聴解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<span class=\"jp\">エドさんは、これから<ruby>何<rt>なに</rt></ruby>をしたいですか。</span><br><span class=\"vi-q\">Từ bây giờ Ed muốn làm gì?</span>",
+    "imgs": [],
+    "img": null,
+    "au": "app/media/jft/au/ln2_L10.mp3",
+    "o": [
+     {
+      "t": "A. <ruby>東照<rt>とうしょう</rt></ruby><ruby>宮<rt>ぐう</rt></ruby>に<ruby>行<rt>い</rt></ruby>く",
+      "img": "app/media/jft/img/ln2_10a.jpg"
+     },
+     {
+      "t": "B. <ruby>中禅寺<rt>ちゅうぜんじ</rt></ruby><ruby>湖<rt>こ</rt></ruby>に<ruby>行<rt>い</rt></ruby>く",
+      "img": "app/media/jft/img/ln2_10b.jpg"
+     },
+     {
+      "t": "C. <ruby>温泉<rt>おんせん</rt></ruby>に<ruby>入<rt>はい</rt></ruby>る",
+      "img": "app/media/jft/img/ln2_10c.jpg"
+     }
+    ],
+    "a": [
+     2
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>温泉<rt>おんせん</rt></ruby>に<ruby>入<rt>はい</rt></ruby>る</span></div><span class=\"lb\">SCRIPT (đoạn chính)</span><div class=\"jp\"><ruby>坂本<rt>さかもと</rt></ruby>：<ruby>今日<rt>きょう</rt></ruby>は、どこに<ruby>行<rt>い</rt></ruby>きましたか？<br>エド：<ruby>今日<rt>きょう</rt></ruby>は、<ruby>東照宮<rt>とうしょうぐう</rt></ruby>に<ruby>行<rt>い</rt></ruby>きました。<ruby>明日<rt>あした</rt></ruby>は、<ruby>中禅寺<rt>ちゅうぜんじ</rt></ruby><ruby>湖<rt>こ</rt></ruby>に<ruby>行<rt>い</rt></ruby>くつもりです。<br><ruby>坂本<rt>さかもと</rt></ruby>：おいしいものは、<ruby>何<rt>なに</rt></ruby>か<ruby>食<rt>た</rt></ruby>べましたか？<br>エド：はい、そばを<ruby>食<rt>た</rt></ruby>べました。ゆばも<ruby>食<rt>た</rt></ruby>べてみたいです。<br>エド：あと、<ruby>温泉<rt>おんせん</rt></ruby>に<ruby>入<rt>はい</rt></ruby>りたいんですけど、どこで<ruby>入<rt>はい</rt></ruby>ったらいいですか？<br><ruby>坂本<rt>さかもと</rt></ruby>：<ruby>温泉<rt>おんせん</rt></ruby>ですか。<ruby>中禅寺<rt>ちゅうぜんじ</rt></ruby><ruby>湖<rt>こ</rt></ruby>のホテルに、<ruby>日帰<rt>ひがえ</rt></ruby>りでお<ruby>風呂<rt>ふろ</rt></ruby>に<ruby>入<rt>い</rt></ruby>れるところがあると<ruby>思<rt>おも</rt></ruby>いますよ。</div><span class=\"lb\">DỊCH</span><div>Sakamoto: Hôm nay anh đi đâu? / Ed: Hôm nay đi Toshogu. Mai định đi hồ Chuzenji. / Sakamoto: Đã ăn món gì ngon chưa? / Ed: Ăn soba rồi. Muốn thử yuba nữa. Ngoài ra tôi muốn tắm suối nước nóng, nên tắm ở đâu? / Sakamoto: Khách sạn ở hồ Chuzenji có chỗ cho tắm trong ngày.</div><span class=\"lb\">GIẢI THÍCH</span><div>Cùng bài với Đề nghe 1 câu 18, nhưng câu hỏi khác: 「これから<ruby>何<rt>なに</rt></ruby>をしたいですか」 → 「<ruby>温泉<rt>おんせん</rt></ruby>に<ruby>入<rt>はい</rt></ruby>りたいんですけど」 → tranh C. <ruby>東照宮<rt>とうしょうぐう</rt></ruby> là việc đã làm hôm nay (<ruby>行<rt>い</rt></ruby>きました), <ruby>中禅寺<rt>ちゅうぜんじ</rt></ruby><ruby>湖<rt>こ</rt></ruby> là dự định (つもり).</div>"
+   },
+   {
+    "s": "聴解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<span class=\"jp\"><ruby>大阪<rt>おおさか</rt></ruby>で、<ruby>何<rt>なに</rt></ruby>をしましたか。</span><br><span class=\"vi-q\">Ở Osaka, người này đã làm gì?</span>",
+    "imgs": [],
+    "img": null,
+    "au": "app/media/jft/au/ln2_L11.mp3",
+    "o": [
+     {
+      "t": "A. <ruby>大阪<rt>おおさか</rt></ruby><ruby>城<rt>じょう</rt></ruby>と<ruby>通天閣<rt>つうてんかく</rt></ruby>に<ruby>行<rt>い</rt></ruby>った",
+      "img": "app/media/jft/img/ln2_11a.jpg"
+     },
+     {
+      "t": "B. <ruby>海<rt>うみ</rt></ruby>で<ruby>泳<rt>およ</rt></ruby>いだ",
+      "img": "app/media/jft/img/ln2_11b.jpg"
+     },
+     {
+      "t": "C. ケーブルカーに<ruby>乗<rt>の</rt></ruby>った",
+      "img": "app/media/jft/img/ln2_11c.jpg"
+     }
+    ],
+    "a": [
+     0
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>大阪<rt>おおさか</rt></ruby><ruby>城<rt>じょう</rt></ruby>と<ruby>通天閣<rt>つうてんかく</rt></ruby>に<ruby>行<rt>い</rt></ruby>った</span></div><span class=\"lb\">SCRIPT</span><div class=\"jp\">A：これ、お<ruby>菓子<rt>かし</rt></ruby>、どうぞ。<ruby>大阪<rt>おおさか</rt></ruby>のお<ruby>土産<rt>みやげ</rt></ruby>です。<br>B：ありがとうございます。<ruby>大阪<rt>おおさか</rt></ruby>に<ruby>行<rt>い</rt></ruby>ったんですね。どうでしたか？<br>A：<ruby>大阪<rt>おおさか</rt></ruby><ruby>城<rt>じょう</rt></ruby>とか<ruby>通天閣<rt>つうてんかく</rt></ruby>とか、いろいろなところに<ruby>行<rt>い</rt></ruby>けて、よかったです。<br>B：へー、<ruby>串<rt>くし</rt></ruby>カツも<ruby>食<rt>た</rt></ruby>べましたか？<br>A：いえ。でも、たこ<ruby>焼<rt>や</rt></ruby>きを<ruby>食<rt>た</rt></ruby>べました。おいしかったです。<br>A：あと、あべのハルカスに<ruby>登<rt>のぼ</rt></ruby>りました。すごく<ruby>高<rt>たか</rt></ruby>いビルですね。びっくりしました。</div><span class=\"lb\">DỊCH</span><div>A: Bánh kẹo đây, quà Osaka. / B: Cảm ơn. Anh đi Osaka à, thế nào? / A: Đi được nhiều nơi như lâu đài Osaka, tháp Tsutenkaku, vui lắm. / B: Có ăn kushikatsu không? / A: Không, nhưng ăn takoyaki, ngon lắm. Ngoài ra lên tòa Abeno Harukas, cao quá, ngạc nhiên luôn.</div><span class=\"lb\">GIẢI THÍCH</span><div>「<ruby>大阪<rt>おおさか</rt></ruby><ruby>城<rt>じょう</rt></ruby>とか<ruby>通天閣<rt>つうてんかく</rt></ruby>とか…<ruby>行<rt>い</rt></ruby>けて」 → tranh A (tháp + lâu đài). 〜とか〜とか = nào là ~ nào là ~ (liệt kê ví dụ).</div>"
+   },
+   {
+    "s": "聴解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<span class=\"jp\">どんなイベントのお<ruby>知<rt>し</rt></ruby>らせですか。</span><br><span class=\"vi-q\">Thông báo về sự kiện gì?</span>",
+    "imgs": [],
+    "img": null,
+    "au": "app/media/jft/au/ln2_L12.mp3",
+    "o": [
+     {
+      "t": "A. コンサート",
+      "img": "app/media/jft/img/ln2_12a.jpg"
+     },
+     {
+      "t": "B. <ruby>花火<rt>はなび</rt></ruby><ruby>大会<rt>たいかい</rt></ruby>",
+      "img": "app/media/jft/img/ln2_12b.jpg"
+     },
+     {
+      "t": "C. <ruby>野菜<rt>やさい</rt></ruby>の<ruby>販売<rt>はんばい</rt></ruby><ruby>会<rt>かい</rt></ruby>",
+      "img": "app/media/jft/img/ln2_12c.jpg"
+     }
+    ],
+    "a": [
+     2
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>野菜<rt>やさい</rt></ruby>の<ruby>販売<rt>はんばい</rt></ruby><ruby>会<rt>かい</rt></ruby></span></div><span class=\"lb\">SCRIPT</span><div class=\"jp\"><ruby>町役場<rt>まちやくば</rt></ruby>から、<ruby>野菜<rt>やさい</rt></ruby>の<ruby>販売<rt>はんばい</rt></ruby><ruby>会<rt>かい</rt></ruby>についてお<ruby>知<rt>し</rt></ruby>らせします。<ruby>明日<rt>あした</rt></ruby>、7<ruby>月<rt>がつ</rt></ruby>28日、<ruby>日曜日<rt>にちようび</rt></ruby>、<ruby>午前<rt>ごぜん</rt></ruby>8<ruby>時<rt>じ</rt></ruby>30分から、「あおぞら<ruby>広場<rt>ひろば</rt></ruby>」において、<ruby>地元<rt>じもと</rt></ruby>の<ruby>農家<rt>のうか</rt></ruby>が<ruby>生産<rt>せいさん</rt></ruby>した<ruby>新鮮<rt>しんせん</rt></ruby>な<ruby>夏野菜<rt>なつやさい</rt></ruby>の<ruby>販売<rt>はんばい</rt></ruby><ruby>会<rt>かい</rt></ruby>が<ruby>行<rt>おこな</rt></ruby>われます。<ruby>皆<rt>みな</rt></ruby><ruby>様<rt>さま</rt></ruby>のご<ruby>来場<rt>らいじょう</rt></ruby>をお<ruby>待<rt>ま</rt></ruby>ちしています。</div><span class=\"lb\">DỊCH</span><div>Ủy ban thị trấn xin thông báo về buổi bán rau. Ngày mai Chủ nhật 28/7, từ 8 giờ 30 sáng, tại quảng trường &quot;Aozora&quot; sẽ có buổi bán rau mùa hè tươi do nông dân địa phương sản xuất. Rất mong quý vị đến tham dự.</div><span class=\"lb\">GIẢI THÍCH</span><div>「<ruby>野菜<rt>やさい</rt></ruby>の<ruby>販売<rt>はんばい</rt></ruby><ruby>会<rt>かい</rt></ruby>」 = buổi bán rau → tranh C. <ruby>販売<rt>はんばい</rt></ruby> (PHIẾN MẠI) = bán. 〜において = tại ~ (cách nói trang trọng của 〜で).</div>"
+   },
+   {
+    "s": "聴解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<span class=\"jp\"><ruby>何<rt>なに</rt></ruby>について<ruby>話<rt>はな</rt></ruby>していますか。</span><br><span class=\"vi-q\">Họ đang nói về điều gì?</span>",
+    "imgs": [],
+    "img": null,
+    "au": "app/media/jft/au/ln2_L13.mp3",
+    "o": [
+     {
+      "t": "A. <ruby>魚<rt>さかな</rt></ruby>の<ruby>販売<rt>はんばい</rt></ruby>",
+      "img": "app/media/jft/img/ln2_13a.jpg"
+     },
+     {
+      "t": "B. フリーマーケット",
+      "img": "app/media/jft/img/ln2_13b.jpg"
+     },
+     {
+      "t": "C. <ruby>花火<rt>はなび</rt></ruby><ruby>大会<rt>たいかい</rt></ruby>",
+      "img": "app/media/jft/img/ln2_13c.jpg"
+     }
+    ],
+    "a": [
+     1
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">フリーマーケット</span></div><span class=\"lb\">SCRIPT</span><div class=\"jp\">A：あのう、<ruby>市役所<rt>しやくしょ</rt></ruby>でフリーマーケットがあるそうですね。<br>B：ええ。<ruby>毎月<rt>まいつき</rt></ruby>、<ruby>第<rt>だい</rt></ruby><ruby>二<rt>に</rt></ruby><ruby>土曜日<rt>どようび</rt></ruby>に、<ruby>市役所<rt>しやくしょ</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>の<ruby>広場<rt>ひろば</rt></ruby>でやってますよ。<br>A：<ruby>第<rt>だい</rt></ruby><ruby>二<rt>に</rt></ruby><ruby>土曜日<rt>どようび</rt></ruby>？<br>B：<ruby>月<rt>つき</rt></ruby>の2<ruby>回<rt>かい</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>土曜日<rt>どようび</rt></ruby>です。<ruby>今月<rt>こんげつ</rt></ruby>は14日でしたから、<ruby>次<rt>つぎ</rt></ruby>は<ruby>来月<rt>らいげつ</rt></ruby>ですね。<br>A：あのう、どんなものを<ruby>売<rt>う</rt></ruby>ってますか？<br>B：<ruby>服<rt>ふく</rt></ruby>が<ruby>多<rt>おお</rt></ruby>いけど、<ruby>食器<rt>しょっき</rt></ruby>とか、おもちゃとか、いろいろあると<ruby>思<rt>おも</rt></ruby>いますよ。<br>A：<ruby>天気<rt>てんき</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>かったら、どうなりますか？<br>B：<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>ったら、<ruby>中<rt>なか</rt></ruby>のホールでやります。</div><span class=\"lb\">DỊCH</span><div>A: Nghe nói ở tòa thị chính có chợ đồ cũ? / B: Vâng, mỗi tháng vào thứ Bảy thứ hai, ở quảng trường trước tòa thị chính. Tháng này là ngày 14 rồi, nên lần tới là tháng sau. / A: Bán những gì? / B: Nhiều quần áo, ngoài ra có bát đĩa, đồ chơi… / A: Trời xấu thì sao? / B: Mưa thì tổ chức trong hội trường.</div><span class=\"lb\">GIẢI THÍCH</span><div>「フリーマーケット」 = chợ đồ cũ → tranh B (bày quần áo, đồ chơi). <ruby>第<rt>だい</rt></ruby><ruby>二<rt>に</rt></ruby><ruby>土曜日<rt>どようび</rt></ruby> = thứ Bảy tuần thứ hai của tháng.</div>"
+   },
+   {
+    "s": "聴解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<span class=\"jp\">アルニさんはどんな<ruby>種類<rt>しゅるい</rt></ruby>の<ruby>家<rt>いえ</rt></ruby>に<ruby>住<rt>す</rt></ruby>んでいますか。</span><br><span class=\"vi-q\">Aruni đang sống trong loại nhà nào?</span>",
+    "imgs": [],
+    "img": null,
+    "au": "app/media/jft/au/ln2_L14.mp3",
+    "o": [
+     {
+      "t": "A. アパート",
+      "img": "app/media/jft/img/ln2_14a.jpg"
+     },
+     {
+      "t": "B. マンション",
+      "img": "app/media/jft/img/ln2_14b.jpg"
+     },
+     {
+      "t": "C. <ruby>古<rt>ふる</rt></ruby>い<ruby>日本<rt>にほん</rt></ruby>の<ruby>家<rt>いえ</rt></ruby>",
+      "img": "app/media/jft/img/ln2_14c.jpg"
+     }
+    ],
+    "a": [
+     0
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">アパート</span></div><span class=\"lb\">SCRIPT</span><div class=\"jp\"><ruby>前田<rt>まえだ</rt></ruby>：アルニさんは？<br>アルニ：<ruby>私<rt>わたし</rt></ruby>は、<ruby>北町<rt>きたまち</rt></ruby>のアパートに<ruby>住<rt>す</rt></ruby>んでいます。<br>ビサル：きれいですか？<br>アルニ：はい、きれいです。でも、ちょっと<ruby>古<rt>ふる</rt></ruby>いです。<br>ビサル：そうですか。<ruby>静<rt>しず</rt></ruby>かですか？<br>アルニ：いえ。<ruby>近<rt>ちか</rt></ruby>くに<ruby>学校<rt>がっこう</rt></ruby>があります。あまり<ruby>静<rt>しず</rt></ruby>かじゃないです。</div><span class=\"lb\">DỊCH</span><div>Maeda: Còn Aruni? / Aruni: Tôi sống ở căn hộ (apāto) ở Kitamachi. / Bisal: Có sạch đẹp không? / Aruni: Có, nhưng hơi cũ. / Bisal: Có yên tĩnh không? / Aruni: Không, gần đó có trường học. Không yên tĩnh lắm.</div><span class=\"lb\">GIẢI THÍCH</span><div>「アパートに<ruby>住<rt>す</rt></ruby>んでいます」 → tranh A (nhà 2 tầng nhiều phòng). アパート = nhà cho thuê thấp tầng, マンション = chung cư cao tầng kiên cố (tranh B). 「ちょっと<ruby>古<rt>ふる</rt></ruby>い」 không có nghĩa là nhà kiểu Nhật cũ (tranh C).</div>"
+   },
+   {
+    "s": "聴解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<span class=\"jp\"><ruby>国際<rt>こくさい</rt></ruby><ruby>交流<rt>こうりゅう</rt></ruby>フェスティバルのカラオケ<ruby>大会<rt>たいかい</rt></ruby>には、だれが<ruby>参加<rt>さんか</rt></ruby>できますか。</span><br><span class=\"vi-q\">Ai có thể tham gia cuộc thi karaoke của Lễ hội giao lưu quốc tế?</span>",
+    "imgs": [],
+    "img": null,
+    "au": "app/media/jft/au/ln2_L15.mp3",
+    "o": [
+     {
+      "t": "A. <ruby>中学生<rt>ちゅうがくせい</rt></ruby>だけ",
+      "img": "app/media/jft/img/ln2_15a.jpg"
+     },
+     {
+      "t": "B. <ruby>中学生<rt>ちゅうがくせい</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>ならだれでも（プロ<ruby>以外<rt>いがい</rt></ruby>）",
+      "img": "app/media/jft/img/ln2_15b.jpg"
+     },
+     {
+      "t": "C. プロの<ruby>歌手<rt>かしゅ</rt></ruby>",
+      "img": "app/media/jft/img/ln2_15c.jpg"
+     }
+    ],
+    "a": [
+     1
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>中学生<rt>ちゅうがくせい</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>ならだれでも（プロ<ruby>以外<rt>いがい</rt></ruby>）</span></div><span class=\"lb\">SCRIPT (đoạn chính)</span><div class=\"jp\">ヨス：すみません。<ruby>今度<rt>こんど</rt></ruby>、<ruby>国際<rt>こくさい</rt></ruby><ruby>交流<rt>こうりゅう</rt></ruby>フェスティバルで、カラオケ<ruby>大会<rt>たいかい</rt></ruby>があると<ruby>聞<rt>き</rt></ruby>きました。だれでも<ruby>参加<rt>さんか</rt></ruby>できますか？<br><ruby>係<rt>かかり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>：カラオケ<ruby>大会<rt>たいかい</rt></ruby>ですね。はい。<ruby>中学生<rt>ちゅうがくせい</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>でしたら、だれでも<ruby>参加<rt>さんか</rt></ruby>できます。でも、プロの<ruby>方<rt>ほう</rt></ruby>はご<ruby>遠慮<rt>えんりょ</rt></ruby>いただいています。<br>ヨス：えんりょ？<br><ruby>係<rt>かかり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>：プロの<ruby>人<rt>ひと</rt></ruby>は<ruby>出<rt>で</rt></ruby>られません。<br>ヨス：わかりました。<ruby>友<rt>とも</rt></ruby>だちと<ruby>2人<rt>ふたり</rt></ruby>で<ruby>出<rt>で</rt></ruby>てもいいですか？<br><ruby>係<rt>かかり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>：だいじょうぶですよ。</div><span class=\"lb\">DỊCH</span><div>Yosu: Tôi nghe nói lễ hội giao lưu quốc tế có thi karaoke. Ai cũng tham gia được không? / Nhân viên: Từ học sinh cấp 2 trở lên thì ai cũng tham gia được. Nhưng người chuyên nghiệp thì xin không tham gia. / Yosu: Enryo? / Nhân viên: Người chuyên nghiệp không được tham gia. / Yosu: Hát cùng bạn 2 người được không? / Nhân viên: Được.</div><span class=\"lb\">GIẢI THÍCH</span><div>「<ruby>中学生<rt>ちゅうがくせい</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>でしたら、だれでも<ruby>参加<rt>さんか</rt></ruby>できます」 = từ cấp 2 trở lên ai cũng được, 「プロの<ruby>方<rt>ほう</rt></ruby>はご<ruby>遠慮<rt>えんりょ</rt></ruby>いただいています」 = trừ người chuyên nghiệp → tranh B (nhiều lứa tuổi). <ruby>以上<rt>いじょう</rt></ruby> (DĨ THƯỢNG) = trở lên.</div>"
+   },
+   {
+    "s": "聴解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<span class=\"jp\">お<ruby>正月休<rt>しょうがつやす</rt></ruby>みに、ナンさんは<ruby>何<rt>なに</rt></ruby>をしましたか。</span><br><span class=\"vi-q\">Trong kỳ nghỉ năm mới, Nan đã làm gì?</span>",
+    "imgs": [],
+    "img": null,
+    "au": "app/media/jft/au/ln2_L16.mp3",
+    "o": [
+     {
+      "t": "A. <ruby>家<rt>いえ</rt></ruby>でテレビを<ruby>見<rt>み</rt></ruby>た",
+      "img": "app/media/jft/img/ln2_16a.jpg"
+     },
+     {
+      "t": "B. ディズニーランドに<ruby>行<rt>い</rt></ruby>った",
+      "img": "app/media/jft/img/ln2_16b.jpg"
+     },
+     {
+      "t": "C. <ruby>家族<rt>かぞく</rt></ruby>とお<ruby>正月<rt>しょうがつ</rt></ruby>を<ruby>過<rt>す</rt></ruby>ごした",
+      "img": "app/media/jft/img/ln2_16c.jpg"
+     }
+    ],
+    "a": [
+     1
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">ディズニーランドに<ruby>行<rt>い</rt></ruby>った</span></div><span class=\"lb\">SCRIPT (đoạn chính)</span><div class=\"jp\"><ruby>山口<rt>やまぐち</rt></ruby>：ナンさん、お<ruby>正月休<rt>しょうがつやす</rt></ruby>みは、どうでしたか？<br>ナン：<ruby>東京<rt>とうきょう</rt></ruby>に<ruby>住<rt>す</rt></ruby>んでいる<ruby>友<rt>とも</rt></ruby>だちのところに<ruby>行<rt>い</rt></ruby>きました。<br>ナン：いっしょに、すごく<ruby>混<rt>こ</rt></ruby>んでいて、びっくりしました。ディズニーランドに<ruby>行<rt>い</rt></ruby>きましたが、<ruby>待<rt>ま</rt></ruby>ち<ruby>時間<rt>じかん</rt></ruby>がとても<ruby>長<rt>なが</rt></ruby>くて、<ruby>乗<rt>の</rt></ruby>り<ruby>物<rt>もの</rt></ruby>に3つしか<ruby>乗<rt>の</rt></ruby>れませんでした。<br><ruby>山口<rt>やまぐち</rt></ruby>：ああ、それは<ruby>大変<rt>たいへん</rt></ruby>でしたね。<br>ナン：はい。でも、<ruby>友<rt>とも</rt></ruby>だちと<ruby>久<rt>ひさ</rt></ruby>しぶりに<ruby>会<rt>あ</rt></ruby>えて、よかったです。</div><span class=\"lb\">DỊCH</span><div>Yamaguchi: Kỳ nghỉ Tết của Nan thế nào? / Nan: Tôi đến chỗ bạn sống ở Tokyo. Cùng đi Disneyland nhưng đông quá, chờ lâu nên chỉ chơi được 3 trò. / Yamaguchi: Vất vả nhỉ. / Nan: Vâng, nhưng lâu rồi mới gặp bạn nên vui.</div><span class=\"lb\">GIẢI THÍCH</span><div>「ディズニーランドに<ruby>行<rt>い</rt></ruby>きました」 → tranh B. 〜しか〜ない = chỉ ~ (<ruby>乗<rt>の</rt></ruby>り<ruby>物<rt>もの</rt></ruby>に3つしか<ruby>乗<rt>の</rt></ruby>れませんでした = chỉ chơi được 3 trò).</div>"
+   },
+   {
+    "s": "聴解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<span class=\"jp\">ひな<ruby>祭<rt>まつ</rt></ruby>りに、<ruby>何<rt>なに</rt></ruby>を<ruby>食<rt>た</rt></ruby>べたり<ruby>飲<rt>の</rt></ruby>んだりしますか。</span><br><span class=\"vi-q\">Vào Lễ hội bé gái (Hina matsuri), người ta ăn và uống gì?</span>",
+    "imgs": [],
+    "img": null,
+    "au": "app/media/jft/au/ln2_L17.mp3",
+    "o": [
+     {
+      "t": "A. ちらしずしと<ruby>甘酒<rt>あまざけ</rt></ruby>",
+      "img": "app/media/jft/img/ln2_17a.jpg"
+     },
+     {
+      "t": "B. おにぎりとお<ruby>酒<rt>さけ</rt></ruby>",
+      "img": "app/media/jft/img/ln2_17b.jpg"
+     },
+     {
+      "t": "C. ちらしずしとお<ruby>茶<rt>ちゃ</rt></ruby>",
+      "img": "app/media/jft/img/ln2_17c.jpg"
+     }
+    ],
+    "a": [
+     0
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">ちらしずしと<ruby>甘酒<rt>あまざけ</rt></ruby></span></div><span class=\"lb\">SCRIPT (đoạn chính)</span><div class=\"jp\">A：みなさんも、どうぞ。<br>B：わあ、すごい。いただきます。これは<ruby>何<rt>なん</rt></ruby>の<ruby>料理<rt>りょうり</rt></ruby>ですか？<br>A：ちらしずしです。<ruby>今日<rt>きょう</rt></ruby>はひな<ruby>祭<rt>まつ</rt></ruby>りだから、<ruby>家<rt>いえ</rt></ruby>で<ruby>作<rt>つく</rt></ruby>って<ruby>来<rt>き</rt></ruby>たんです。<br>B：このおすしは、ひな<ruby>祭<rt>まつ</rt></ruby>りに<ruby>食<rt>た</rt></ruby>べるんですか？<br>A：そう。あと、ひな<ruby>祭<rt>まつ</rt></ruby>りには、<ruby>甘酒<rt>あまざけ</rt></ruby>を<ruby>飲<rt>の</rt></ruby>んだりもしますよ。<br>B：え、<ruby>甘酒<rt>あまざけ</rt></ruby>って、お<ruby>酒<rt>さけ</rt></ruby>ですよね？<br>A：<ruby>甘酒<rt>あまざけ</rt></ruby>は、お<ruby>酒<rt>さけ</rt></ruby>じゃなくて、お<ruby>米<rt>こめ</rt></ruby>から<ruby>作<rt>つく</rt></ruby>った<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>です。アルコールは<ruby>入<rt>はい</rt></ruby>っていないから、だいじょうぶですよ。</div><span class=\"lb\">DỊCH</span><div>A: Mọi người dùng đi. / B: Đây là món gì? / A: Là chirashizushi. Hôm nay là Hina matsuri nên tôi làm ở nhà mang đến. Ngày Hina matsuri còn uống amazake nữa. / B: Amazake là rượu à? / A: Amazake không phải rượu, là đồ uống làm từ gạo. Không có cồn nên không sao.</div><span class=\"lb\">GIẢI THÍCH</span><div>Ăn 「ちらしずし」 + uống 「<ruby>甘酒<rt>あまざけ</rt></ruby>」 → tranh A (cơm chirashi + chén đồ uống màu trắng). <ruby>甘酒<rt>あまざけ</rt></ruby> (CAM TỬU) tuy có chữ <ruby>酒<rt>さけ</rt></ruby> nhưng không có cồn – nên không phải tranh B (お<ruby>酒<rt>さけ</rt></ruby>).</div>"
+   },
+   {
+    "s": "聴解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<span class=\"jp\">なくしたのは、どのスマホですか。</span><br><span class=\"vi-q\">Chiếc điện thoại bị mất là chiếc nào?</span>",
+    "imgs": [],
+    "img": null,
+    "au": "app/media/jft/au/ln2_L18.mp3",
+    "o": [
+     {
+      "t": "A. <ruby>赤<rt>あか</rt></ruby>いカバー・<ruby>犬<rt>いぬ</rt></ruby>の<ruby>絵<rt>え</rt></ruby>",
+      "img": "app/media/jft/img/ln2_18a.jpg"
+     },
+     {
+      "t": "B. <ruby>黒<rt>くろ</rt></ruby>いカバー・<ruby>犬<rt>いぬ</rt></ruby>の<ruby>絵<rt>え</rt></ruby>",
+      "img": "app/media/jft/img/ln2_18b.jpg"
+     },
+     {
+      "t": "C. <ruby>赤<rt>あか</rt></ruby>いカバー・<ruby>猫<rt>ねこ</rt></ruby>の<ruby>絵<rt>え</rt></ruby>",
+      "img": "app/media/jft/img/ln2_18c.jpg"
+     }
+    ],
+    "a": [
+     0
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>赤<rt>あか</rt></ruby>いカバー・<ruby>犬<rt>いぬ</rt></ruby>の<ruby>絵<rt>え</rt></ruby></span></div><span class=\"lb\">SCRIPT (đoạn chính)</span><div class=\"jp\"><ruby>徐<rt>じょ</rt></ruby>：あのう、すみません。スマホをなくしてしまったんですけど、<ruby>届<rt>とど</rt></ruby>いてませんか？<br>スタッフ：スマートフォンですか。お<ruby>調<rt>しら</rt></ruby>べしますので、<ruby>特徴<rt>とくちょう</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えてください。<br><ruby>徐<rt>じょ</rt></ruby>：えっと……スマホの<ruby>色<rt>いろ</rt></ruby>は<ruby>黒<rt>くろ</rt></ruby>で、<ruby>犬<rt>いぬ</rt></ruby>の<ruby>絵<rt>え</rt></ruby>の<ruby>赤<rt>あか</rt></ruby>いカバーがついています。<br>スタッフ：そうですか。<ruby>機種<rt>きしゅ</rt></ruby>は？<br><ruby>徐<rt>じょ</rt></ruby>：iPhoneです。</div><span class=\"lb\">DỊCH</span><div>Xu: Xin lỗi, tôi làm mất điện thoại, có ai mang đến không? / Nhân viên: Điện thoại thông minh à. Tôi sẽ kiểm tra, anh cho biết đặc điểm. / Xu: Điện thoại màu đen, có ốp màu đỏ in hình con chó. / Nhân viên: Loại máy gì? / Xu: iPhone.</div><span class=\"lb\">GIẢI THÍCH</span><div>Nghe 2 đặc điểm: ốp 「<ruby>赤<rt>あか</rt></ruby>いカバー」 + hình 「<ruby>犬<rt>いぬ</rt></ruby>の<ruby>絵<rt>え</rt></ruby>」 → tranh A. Bẫy: 「スマホの<ruby>色<rt>いろ</rt></ruby>は<ruby>黒<rt>くろ</rt></ruby>」 là màu máy (bị ốp che), nên tranh B (ốp đen) sai; tranh C là hình mèo.</div>"
+   },
+   {
+    "s": "聴解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<span class=\"jp\">この<ruby>島<rt>しま</rt></ruby>の<ruby>習慣<rt>しゅうかん</rt></ruby>では、お<ruby>酒<rt>さけ</rt></ruby>はどのように<ruby>飲<rt>の</rt></ruby>みますか。</span><br><span class=\"vi-q\">Theo phong tục của hòn đảo này, người ta uống rượu như thế nào?</span>",
+    "imgs": [],
+    "img": null,
+    "au": "app/media/jft/au/ln2_L19.mp3",
+    "o": [
+     {
+      "t": "A. それぞれ<ruby>自分<rt>じぶん</rt></ruby>のコップで<ruby>飲<rt>の</rt></ruby>む",
+      "img": "app/media/jft/img/ln2_19a.jpg"
+     },
+     {
+      "t": "B. みんなで<ruby>乾杯<rt>かんぱい</rt></ruby>して<ruby>飲<rt>の</rt></ruby>む",
+      "img": "app/media/jft/img/ln2_19b.jpg"
+     },
+     {
+      "t": "C. <ruby>一<rt>ひと</rt></ruby>つの<ruby>小<rt>ちい</rt></ruby>さいコップで<ruby>順番<rt>じゅんばん</rt></ruby>に<ruby>飲<rt>の</rt></ruby>む",
+      "img": "app/media/jft/img/ln2_19c.jpg"
+     }
+    ],
+    "a": [
+     2
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\"><ruby>一<rt>ひと</rt></ruby>つの<ruby>小<rt>ちい</rt></ruby>さいコップで<ruby>順番<rt>じゅんばん</rt></ruby>に<ruby>飲<rt>の</rt></ruby>む</span></div><span class=\"lb\">SCRIPT (đoạn chính)</span><div class=\"jp\">B：あ、でも、この<ruby>島<rt>しま</rt></ruby>には、お<ruby>酒<rt>さけ</rt></ruby>を<ruby>飲<rt>の</rt></ruby>むとき、<ruby>特別<rt>とくべつ</rt></ruby>な<ruby>習慣<rt>しゅうかん</rt></ruby>があるんですよ。<br>A：<ruby>特別<rt>とくべつ</rt></ruby>な<ruby>習慣<rt>しゅうかん</rt></ruby>？<br>B：はい。「オトーリ」っていって、はじめにだれかがあいさつをしてから、<ruby>小<rt>ちい</rt></ruby>さいコップにお<ruby>酒<rt>さけ</rt></ruby>を<ruby>入<rt>い</rt></ruby>れて<ruby>飲<rt>の</rt></ruby>みます。そのあと、そのコップで、<ruby>順番<rt>じゅんばん</rt></ruby>に<ruby>全員<rt>ぜんいん</rt></ruby>がお<ruby>酒<rt>さけ</rt></ruby>を<ruby>飲<rt>の</rt></ruby>むんです。<ruby>全員<rt>ぜんいん</rt></ruby>が<ruby>飲<rt>の</rt></ruby>んだら、<ruby>次<rt>つぎ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>があいさつをして、またみんなで<ruby>順番<rt>じゅんばん</rt></ruby>にお<ruby>酒<rt>さけ</rt></ruby>を<ruby>飲<rt>の</rt></ruby>んで……てくり<ruby>返<rt>かえ</rt></ruby>すんです。<br>A：それは、たくさんお<ruby>酒<rt>さけ</rt></ruby>を<ruby>飲<rt>の</rt></ruby>まなければなりませんか？<br>B：いえ、「もう<ruby>飲<rt>の</rt></ruby>めません」って<ruby>言<rt>い</rt></ruby>えば、だいじょうぶです。</div><span class=\"lb\">DỊCH</span><div>B: Ở hòn đảo này có phong tục đặc biệt khi uống rượu. Gọi là &quot;Otori&quot;: đầu tiên một người chào mọi người, rót rượu vào chiếc cốc nhỏ và uống. Sau đó cả nhóm lần lượt uống bằng chính chiếc cốc đó. Khi mọi người uống xong, người tiếp theo chào, rồi lại lần lượt uống… cứ lặp lại như vậy. / A: Phải uống nhiều lắm à? / B: Không, nói &quot;tôi không uống thêm được nữa&quot; là được.</div><span class=\"lb\">GIẢI THÍCH</span><div>「<ruby>小<rt>ちい</rt></ruby>さいコップにお<ruby>酒<rt>さけ</rt></ruby>を<ruby>入<rt>い</rt></ruby>れて…そのコップで、<ruby>順番<rt>じゅんばん</rt></ruby>に<ruby>全員<rt>ぜんいん</rt></ruby>がお<ruby>酒<rt>さけ</rt></ruby>を<ruby>飲<rt>の</rt></ruby>む」 → một cốc nhỏ, uống lần lượt → tranh C. <ruby>順番<rt>じゅんばん</rt></ruby>に (THUẬN PHIÊN) = lần lượt.</div>"
+   },
+   {
+    "s": "聴解",
+    "ins": "",
+    "gset": null,
+    "gimg": null,
+    "gau": null,
+    "t": "<span class=\"jp\">ロイさんは、どうしてレジの<ruby>人<rt>ひと</rt></ruby>に<ruby>怒<rt>おこ</rt></ruby>られましたか。</span><br><span class=\"vi-q\">Tại sao Roy bị nhân viên thu ngân trách?</span>",
+    "imgs": [],
+    "img": null,
+    "au": "app/media/jft/au/ln2_L20.mp3",
+    "o": [
+     {
+      "t": "A. お<ruby>金<rt>かね</rt></ruby>を<ruby>払<rt>はら</rt></ruby>う<ruby>前<rt>まえ</rt></ruby>にジュースを<ruby>飲<rt>の</rt></ruby>んだから",
+      "img": "app/media/jft/img/ln2_20a.jpg"
+     },
+     {
+      "t": "B. ジュースを<ruby>持<rt>も</rt></ruby>って<ruby>店<rt>みせ</rt></ruby>を<ruby>出<rt>で</rt></ruby>たから",
+      "img": "app/media/jft/img/ln2_20b.jpg"
+     },
+     {
+      "t": "C. ジュースを<ruby>買<rt>か</rt></ruby>わなかったから",
+      "img": "app/media/jft/img/ln2_20c.jpg"
+     }
+    ],
+    "a": [
+     0
+    ],
+    "ex": "<div class=\"ans\">Đáp án đúng: <span class=\"jp\">お<ruby>金<rt>かね</rt></ruby>を<ruby>払<rt>はら</rt></ruby>う<ruby>前<rt>まえ</rt></ruby>にジュースを<ruby>飲<rt>の</rt></ruby>んだから</span></div><span class=\"lb\">SCRIPT (đoạn chính)</span><div class=\"jp\">ロイ：<ruby>昨日<rt>きのう</rt></ruby>、スーパーでレジに<ruby>並<rt>なら</rt></ruby>びました。すごく<ruby>混<rt>こ</rt></ruby>んでいました。<br>ロイ：のどが<ruby>渇<rt>かわ</rt></ruby>いたから、かごのジュースを<ruby>開<rt>あ</rt></ruby>けて<ruby>飲<rt>の</rt></ruby>みました。そのあと、レジでお<ruby>金<rt>かね</rt></ruby>を<ruby>払<rt>はら</rt></ruby>うとき「これも<ruby>飲<rt>の</rt></ruby>みましたから、お<ruby>願<rt>ねが</rt></ruby>いします」と<ruby>言<rt>い</rt></ruby>って、<ruby>空<rt>そら</rt></ruby>のボトルを<ruby>出<rt>だ</rt></ruby>しました。そうしたら、レジの<ruby>人<rt>ひと</rt></ruby>にすごく<ruby>怒<rt>おこ</rt></ruby>られました。<br><ruby>小林<rt>こばやし</rt></ruby>：え、お<ruby>金<rt>かね</rt></ruby>を<ruby>払<rt>はら</rt></ruby>わないで、ジュース<ruby>飲<rt>の</rt></ruby>んだの？<br>ロイ：はい。<br><ruby>小林<rt>こばやし</rt></ruby>：ああ、それはだめだよ。ちゃんとお<ruby>金<rt>かね</rt></ruby>を<ruby>払<rt>はら</rt></ruby>ってから<ruby>飲<rt>の</rt></ruby>まなきゃ。</div><span class=\"lb\">DỊCH</span><div>Roy: Hôm qua tôi xếp hàng ở quầy tính tiền siêu thị, đông lắm. Khát nước nên mở chai nước trái cây trong giỏ ra uống. Lúc trả tiền tôi nói &quot;Cái này tôi uống rồi, tính giúp&quot; rồi đưa chai rỗng. Thế là bị nhân viên mắng. / Kobayashi: Hả, chưa trả tiền mà uống à? Không được đâu. Phải trả tiền xong rồi mới uống.</div><span class=\"lb\">GIẢI THÍCH</span><div>「お<ruby>金<rt>かね</rt></ruby>を<ruby>払<rt>はら</rt></ruby>わないで、ジュース<ruby>飲<rt>の</rt></ruby>んだ」 → uống trước khi trả tiền → tranh A. <ruby>怒<rt>おこ</rt></ruby>られる = bị mắng (thể bị động của <ruby>怒<rt>おこ</rt></ruby>る). <ruby>払<rt>はら</rt></ruby>ってから<ruby>飲<rt>の</rt></ruby>まなきゃ = phải trả tiền rồi mới uống.</div>"
+   }
+  ]
+ },
+ {
   "id": "jft-vocab",
   "group": "Ôn tập trọng tâm",
   "title": "Ôn tập từ vựng & Hán tự",
