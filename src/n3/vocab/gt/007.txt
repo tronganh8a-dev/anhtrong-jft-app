@@ -1,0 +1,41 @@
+# Giải thích từ 241–280
+241|Cách dùng: lượt về, lúc về.¶Kết hợp: 帰りに寄る (ghé lúc về) · 帰りが遅い (về muộn) · 会社の帰り · お帰りなさい (chào người về nhà).¶Động từ: 帰る.
+242|Cách dùng: sự gấp gáp, khẩn.¶Kết hợp: 急ぎの用事 (việc gấp) · お急ぎの方 (người đang vội) · 大急ぎ.¶Động từ: 急ぐ.
+243|Cách dùng: sự chậm trễ.¶Kết hợp: 電車の遅れ · 30分の遅れ · 遅れを取り戻す (bù lại phần chậm) · 遅れが出る.¶Động từ: 遅れる.
+244|Cách dùng: món cho vay; ơn (mình đã giúp người).¶Kết hợp: 貸しがある (người ta đang nợ mình) · 貸し借り (vay mượn) · 貸し出し (cho mượn – thư viện).¶Đối: 借り.¶Động từ: 貸す.
+245|Cách dùng: khoản mượn, nợ; ơn (mình nợ người).¶Kết hợp: 借りがある (mình nợ ơn) · 借りを返す (trả nợ / trả ơn).¶Đối: 貸し.¶Động từ: 借りる.
+246|Cách dùng: sự thắng.¶Kết hợp: 勝ちになる · 勝ちを決める · 〜の勝ちだ (~ thắng).¶Trái nghĩa: 負け.¶Động từ: 勝つ.
+247|Cách dùng: sự thua.¶Kết hợp: 負けを認める (chịu thua) · 私の負けだ · 負けず嫌い (ghét thua, hiếu thắng).¶Trái nghĩa: 勝ち.¶Động từ: 負ける.
+248|Cách dùng: việc đi đón.¶Kết hợp: 迎えに行く／来る (đi/đến đón) · お迎え · 駅まで迎えに行く.¶Động từ: 迎える.¶Đối: 見送り (tiễn).
+249|Cách dùng: sự bắt đầu, khởi đầu.¶Kết hợp: 物語の始まり · 始まりの時間 · 新しい生活の始まり.¶Động từ: 始まる.¶Trái nghĩa: 終わり.
+250|Cách dùng: sự kết thúc, phần cuối.¶Kết hợp: 終わりにする (kết thúc) · 今月の終わり · 終わりまで見る · これで終わり.¶Động từ: 終わる.¶Trái nghĩa: 始まり.
+251|Cách dùng: sự quay về; chiều về.¶Kết hợp: 戻りが遅い · お戻りは何時ですか (mấy giờ anh ấy quay lại ạ – điện thoại công ty) · 行きと戻り.¶Động từ: 戻る.
+252|Cách dùng: sự chia tay, ly biệt.¶Kết hợp: 別れを告げる (từ biệt) · 別れがつらい · 別れ話 (chuyện chia tay).¶Động từ: 別れる.
+253|Cách dùng: niềm vui (sâu sắc).¶Kết hợp: 喜びを感じる · 大きな喜び · 喜びの声.¶Động từ: 喜ぶ.
+254|Cách dùng: niềm vui; sự mong chờ.¶Kết hợp: 〜を楽しみにしている (mong chờ ~) · 楽しみです · 老後の楽しみ · お楽しみに (hãy đón chờ).¶Lưu ý: cấu trúc 〜を楽しみにしている rất hay dùng.
+255|Cách dùng: tiếng cười, nụ cười.¶Kết hợp: 笑いが止まらない · 笑いを取る (gây cười) · 大笑い.¶Động từ: 笑う.
+256|Cách dùng: sự ngạc nhiên.¶Kết hợp: 驚きを隠せない (không giấu nổi ngạc nhiên) · 大きな驚き · 驚きの声.¶Động từ: 驚く.
+257|Cách dùng: cơn giận.¶Kết hợp: 怒りを感じる · 怒りを抑える (kìm cơn giận) · 怒りが爆発する.¶Động từ: 怒る（おこる・いかる）.
+258|Cách dùng: nỗi buồn.¶Kết hợp: 悲しみに暮れる (chìm trong đau buồn) · 深い悲しみ · 悲しみを乗り越える.¶Động từ: 悲しむ.
+259|Cách dùng: hạnh phúc (tính từ な / danh từ).¶Kết hợp: 幸せな家庭 · 幸せに暮らす · 幸せになる · 幸せを感じる · お幸せに (chúc hạnh phúc).¶Gần nghĩa: 幸福（こうふく）.
+260|Cách dùng: giỏi, sở trường; tự hào.¶Kết hợp: 〜が得意だ · 得意科目 · 得意な料理 · 得意そうな顔 (vẻ mặt đắc ý) · お得意様 (khách quen).¶Trái nghĩa: 苦手.¶Phân biệt: 上手 dùng khen người khác; 得意 nói về mình được.
+261|Cách dùng: kém, không giỏi; ngại, không ưa.¶Kết hợp: 〜が苦手だ · 数学が苦手 · 人前で話すのが苦手 · 苦手な人.¶Trái nghĩa: 得意.¶Phân biệt: 下手 = vụng (đánh giá kỹ năng) · 苦手 = kém và ngại.
+262|Cách dùng: nhiệt tình, hăng hái.¶Kết hợp: 熱心に勉強する · 熱心な先生 · 仕事に熱心だ · 教育熱心 (rất quan tâm giáo dục).¶Gần nghĩa: 一生懸命.
+263|Cách dùng: say mê, mải mê (quên cả xung quanh).¶Kết hợp: 〜に夢中になる · ゲームに夢中だ · 夢中で走る (chạy thục mạng).¶Lưu ý: trợ từ に.
+264|Cách dùng: chán, buồn tẻ.¶Kết hợp: 退屈な話 · 退屈な毎日 · 退屈する · 退屈しのぎ (giết thời gian).¶Gần nghĩa: つまらない.
+265|Cách dùng: khoẻ mạnh; sức khoẻ.¶Kết hợp: 健康な体 · 健康に気をつける · 健康診断 (khám sức khoẻ) · 健康のために.¶Gần nghĩa: 元気 · 丈夫.
+266|Cách dùng: khổ sở, đau đớn; khó khăn (kinh tế).¶Kết hợp: 息が苦しい (khó thở) · 生活が苦しい · 苦しい立場 · 苦しむ (đau khổ).¶Phân biệt: 苦しい = khổ (thể xác, tình cảnh) · つらい = khổ (tinh thần).
+267|Cách dùng: bình thản, không sao, không để tâm.¶Kết hợp: 平気だ · 平気な顔 · 寒さは平気 (không sợ lạnh) · 平気でうそをつく (nói dối tỉnh bơ).¶Gần nghĩa: 大丈夫.
+268|Cách dùng: cay cú, tức, tiếc (vì thua, thất bại).¶Kết hợp: 負けて悔しい · 悔しい思いをする · 悔し涙 (nước mắt tức tưởi).¶Phân biệt: 残念 = tiếc (nhẹ, khách quan) · 悔しい = tức tối vì mình thua.
+269|Cách dùng: ghen tị, thèm muốn.¶Kết hợp: 〜が羨ましい · 羨ましがる (tỏ ra ghen tị) · 羨ましいなあ.¶Lưu ý: nói về cảm xúc của ngôi thứ 3 dùng 羨ましがる.
+270|Cách dùng: ngứa.¶Kết hợp: 背中がかゆい · 蚊に刺されてかゆい (muỗi đốt ngứa) · かゆいところに手が届く (chu đáo đến từng chi tiết).
+271|Cách dùng: hiền, trầm, ít nói; ngoan.¶Kết hợp: おとなしい子 · おとなしい犬 · おとなしくする (ngồi yên, ngoan) · おとなしい色 (màu nhã).¶Trái nghĩa: 活発（かっぱつ）= hoạt bát.
+272|Cách dùng: giỏi chịu đựng, kiên nhẫn.¶Kết hợp: 我慢強い人 · 我慢強く待つ.¶Lưu ý: 〜強い = giỏi ~, ~ mạnh (辛抱強い, 粘り強い).
+273|Cách dùng: thật thà, trung thực.¶Kết hợp: 正直な人 · 正直に言う · 正直に答える · 正直言って (nói thật thì).¶Trái nghĩa: うそつき.
+274|Cách dùng: keo kiệt, bủn xỉn.¶Kết hợp: けちな人 · けちをつける (bới móc, chê bai) · けちけちする.¶Phân biệt: 節約 (tiết kiệm – tích cực) ≠ けち (keo kiệt – tiêu cực).
+275|Cách dùng: ích kỷ, tuỳ tiện, chỉ theo ý mình.¶Kết hợp: わがままを言う · わがままな子供 · わがままを聞く (chiều theo).¶Gần nghĩa: 自分勝手.
+276|Cách dùng: tích cực, chủ động.¶Kết hợp: 積極的に参加する · 積極的な人 · 積極的に発言する.¶Trái nghĩa: 消極的.
+277|Cách dùng: thụ động, thiếu chủ động.¶Kết hợp: 消極的な態度 · 消極的な性格.¶Trái nghĩa: 積極的.¶Lưu ý: nghĩa là "thụ động" chứ không hẳn là "bi quan" (bi quan = 悲観的).
+278|Cách dùng: hài lòng, thoả mãn.¶Kết hợp: 〜に満足する · 結果に満足している · 満足そうな顔 · 満足度 (mức độ hài lòng).¶Trái nghĩa: 不満.
+279|Cách dùng: bất mãn, không hài lòng.¶Kết hợp: 〜に不満がある · 不満を言う · 不満そうな顔.¶Trái nghĩa: 満足.
+280|Cách dùng: bất an, lo lắng (về tương lai, điều chưa rõ).¶Kết hợp: 〜が不安だ · 不安になる · 不安を感じる · 将来が不安 · 不安を取り除く.¶Trái nghĩa: 安心.¶Phân biệt: 心配 = lo cho việc cụ thể / người khác.
