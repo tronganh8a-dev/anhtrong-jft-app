@@ -40,7 +40,7 @@ B3|4|Tôi nghĩ một lúc nào đó sẽ làm việc ở nước ngoài.|Cấu 
 B4|3|"Mai 9 giờ xuất phát nên đừng đến muộn nhé." "Vâng."|Cấu trúc: Vない＋ように = hãy ~ (nhắc nhở, bỏ lửng ください／してください).
 B5|1|Biết cả tiếng Anh, Trung, Tây Ban Nha thì thật tuyệt.|Cấu trúc: 普通形＋なんて = (ngạc nhiên, cảm thán) việc ~ thì thật là.¶Các đáp án khác: なんと = thật là (đầu câu) · など = vân vân · なんか = mấy cái như.
 B6|2|Học đúng như thầy nói thì sẽ đạt điểm tốt.|Cấu trúc: Vる／Vた＋とおりに = đúng như ~.¶Các đáp án khác: うちに = trong lúc · ことに = thật là · うえに = hơn nữa.
-B7|4|Bây giờ có cố học thì cũng không kịp bài kiểm tra nữa.|Cấu trúc: Vた＋ても = dù ~ thì cũng (勉強したって／しても).¶Các đáp án khác: っけ = nhỉ (hỏi lại) · のに = vậy mà · って = nghe nói.
+B7|3|Bây giờ có cố học thì cũng không kịp bài kiểm tra nữa.|Cấu trúc: Vた＋って = Vても (dù ~ thì cũng – văn nói). 勉強したって = dù có học.¶Lưu ý: chỗ trống đứng ngay sau "勉強した" nên chỉ có って ghép được; "したても" là sai (phải là "しても").¶Các đáp án khác: っけ = nhỉ (hỏi lại điều quên) · のに = vậy mà.
 B8|4|Đã bật công tắc mà không chạy. Có vẻ hỏng rồi.|Cấu trúc: 普通形＋みたいだ = có vẻ như (phán đoán, văn nói).¶Các đáp án khác: のようだ phải là 壊れているようだ (không có の) · だっけ = nhỉ · べきだ = nên.
 B9|4|"Ơ, trên lưng anh dính rác kìa." "A, xin lỗi."|Cấu trúc: Vている = trạng thái (tự động từ): ごみがついている = có rác dính.¶Phân biệt: つける là tha động từ; ついておく sai.
 B10|3|A, sắp sinh nhật anh ấy. Phải đi mua quà thôi.|Cấu trúc: Vなきゃ = Vなければ（ならない）(văn nói: phải ~).¶Các đáp án khác: っけ = nhỉ · ちゃ = ては · っきゃ = chỉ còn cách (しかない) – không hợp.
@@ -66,7 +66,7 @@ B29|4|Từ có thể thay cho "ただし" là gì?|ただし = có điều, tuy 
 B30|3|"Bản thân" ở đây là ai?|Căn cứ: 「それを見守る人たちの心にも大きな感動を与え、自分も何かをなしとげるため努力しようという意欲をかきたてる」 → người đang xem người khác chạy.¶Từ vựng: なしとげる = hoàn thành · 意欲 = động lực · かきたてる = khơi dậy.
 B31|3|Mở cửa nhà vệ sinh thì điều gì xảy ra?|Căn cứ: 「トイレのドアを開けたら、自動的に便器のふたが開き」.¶Các đáp án khác: 1 bệ ấm khi chạm vào · 2 nước ấm khi bấm nút · 4 nắp đóng khi đứng dậy.
 B32|2|Vì sao bắt đầu phát triển bồn cầu?|Căn cứ: hai lý do: hệ thống cống được xây dựng, bồn cầu xả nước phổ biến; và bồn cầu kiểu Tây phổ biến.¶Từ vựng: 下水道 = cống thoát nước · 整備 = xây dựng hoàn chỉnh · 洋式トイレ = bồn cầu kiểu Tây.
-B33|3|Tiêu đề phù hợp nhất là gì?|Căn cứ: bài nói về bồn cầu hiện đại với nhiều chức năng, và quá trình phát triển trong 30 năm → "Bồn cầu ngày càng tiến hoá".¶Các đáp án khác: 1 rộng quá · 2, 4 không phải ý chính.
+B33|3|Tiêu đề phù hợp nhất là gì?|Căn cứ: bài nói về bồn cầu hiện đại với nhiều chức năng, và quá trình phát triển trong 30 năm → "Bồn cầu ngày càng tiến hoá".¶Các đáp án khác: 1 rộng quá · 2 chỉ là chi tiết · 4 bài không nói về vấn đề nào trong việc phát triển.¶Lưu ý: đáp án trong PDF ghi 4 nhưng bài không đề cập "vấn đề"; em chọn 3.
 B34|2|"Việc này" chỉ cái gì?|Căn cứ: câu trước 「タタミを乾燥させるために、家の中からタタミを外に出す」 → đem tatami ra ngoài phơi.¶Từ vựng: 乾燥（かんそう）= làm khô · 光景 = cảnh tượng.
 B35|4|"Tatami dần dần không còn thấy nữa" nghĩa là gì?|Ý câu: lối sống ngồi, ăn, ngủ trên tatami không còn → tatami ít được dùng.
 B36|3|Tatami ngày xưa là thứ thế nào?|Căn cứ: 「床に敷く布や毛布のようなものをタタミと呼んでいた…使わない時はたたんでしまっていた」 → lúc không dùng thì gấp lại cất đi (nên gọi là タタミ từ たたむ).
