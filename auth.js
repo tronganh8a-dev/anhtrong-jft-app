@@ -62,6 +62,17 @@ export class Phien {
   constructor(ctx) { this.ctx = ctx; }
   async fetch(req) {
     const u = new URL(req.url);
+    if (u.pathname === '/so') { // sổ tay ghi chú của tài khoản (12/11): {id:{t,b,w,c,u,del}} — gộp theo thời điểm sửa u mới hơn
+      const cur = (await this.ctx.storage.get('so')) || {};
+      if (req.method === 'POST') {
+        const body = await req.text();
+        if (body.length > 400000) return new Response('too big', { status: 413 });
+        let inc = {}; try { inc = JSON.parse(body) || {}; } catch {}
+        for (const [k, n] of Object.entries(inc)) if (n && typeof n === 'object' && (!cur[k] || (n.u || 0) >= (cur[k].u || 0))) cur[k] = n;
+        await this.ctx.storage.put('so', cur);
+      }
+      return new Response(JSON.stringify(cur));
+    }
     if (u.pathname === '/td') { // tiến độ học của tài khoản (12/11)
       const cur = (await this.ctx.storage.get('td')) || {};
       if (req.method === 'POST') {
@@ -235,8 +246,8 @@ export async function handle(req, env, next) {
       return new Response(JSON.stringify({ kick: 1, e: KICK }), { status: 401, headers: { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store' } });
     }
   }
-  if (url.pathname === '/api/tiendo' && env.PHIEN) {
-    const r = await phien(env, user).fetch('https://p/td', req.method === 'POST' ? { method: 'POST', body: await req.text() } : {});
+  if ((url.pathname === '/api/tiendo' || url.pathname === '/api/so') && env.PHIEN) {
+    const r = await phien(env, user).fetch(url.pathname === '/api/so' ? 'https://p/so' : 'https://p/td', req.method === 'POST' ? { method: 'POST', body: await req.text() } : {});
     return new Response(r.body, { status: r.status, headers: { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store' } });
   }
   if (url.pathname === '/api/phien') return new Response('{"ok":1}', { headers: { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' } });
