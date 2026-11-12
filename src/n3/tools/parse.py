@@ -9,7 +9,7 @@ RANGES=[];st=1
 for k in K: RANGES.append((st,k-1)); st=k+2
 RANGES[22]=(329,339)  # N3-22 (key N3-21 spans 326-328)
 ROM={'Ⅰ':1,'Ⅱ':2,'Ⅲ':3,'Ⅳ':4,'Ⅴ':5,'Ⅵ':6,'Ⅶ':7,'I':1,'II':2,'III':3,'IV':4,'V':5,'VI':6,'VII':7,'ⅤＩ':6,'ⅤＩＩ':7,'VＩ':6}
-QRE=re.compile(r'^[［\[「〔【]\s*(\d{1,2})\s*[］\]」〕】]\s*(.*)$')
+QRE=re.compile(r'^[［\[「〔【｢]\s*([\d０-９]{1,2})\s*[］\]」〕】｣]\s*(.*)$')
 ORE=re.compile(r'[①②③④]')
 SECRE=re.compile(r'^(?:[＊*]+\s*)?問題\s*([ⅠⅡⅢⅣⅤⅥⅦIV]+|ⅤＩＩ|ⅤＩ)\s*(?:[（(]\s*\d\s*[)）])?\s*[:：]?\s*(.*)$')
 def strip(t): return re.sub(r'<[^>]+>','',t)
@@ -22,7 +22,7 @@ def lines_of(a,b):
             if re.fullmatch(r'N3\s*-?\s*\d+b?',p) or p in ('N3',): continue
             if re.fullmatch(r'[-‐－]?\s*\d{1,2}\s*[-‐－]?\s*(N3\s*[-‐－]\s*\d+)?\s*(【読解】)?',p) or p=='【読解】': continue
             if re.match(r'^[＊*]*\s*問題\s*\d+\s*[（(]\s*\d+\s*[)）]\s*$',p): continue
-            if re.match(r'^(団体名|企業名|名前)',p): continue
+            if re.match(r'^(団体名|企業名|名前)\s*[:：]?\s*$',p) or re.match(r'^(団体名|企業名)',p): continue
             if re.search(r'言語知識|語彙知識|配点',p) and len(p)<40 and not QRE.match(p): 
                 L.append(dict(kind='hdr',t=t,p=p,pn=pn,col=x['col'],y=x['y'],x=x['x']));continue
             L.append(dict(kind='txt',t=t,p=p,pn=pn,col=x['col'],y=x['y'],x=x['x']))
@@ -56,7 +56,7 @@ def parse(ix):
             mq2=QRE.match(p)
             if mq2 and not p.startswith(('①','②','③','④')): mq=mq2
         if mq:
-            n=int(mq.group(1)); rest=t[t.find(re.search(r'[］\]」〕】]',t).group(0))+1:].strip() if re.search(r'[］\]」〕】]',t) else mq.group(2)
+            n=int(mq.group(1).translate(str.maketrans('０１２３４５６７８９','0123456789'))); rest=t[t.find(re.search(r'[］\]」〕】｣]',t).group(0))+1:].strip() if re.search(r'[］\]」〕】｣]',t) else mq.group(2)
             if part=='A' and maxn>=20 and n<=2: part='B'
             maxn=max(maxn,n) if part=='A' else maxn
             grp=None

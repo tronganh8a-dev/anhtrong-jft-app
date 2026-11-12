@@ -1,0 +1,75 @@
+# Đề 5 (PDF bộ 6). Mỗi câu: MÃ | đáp án (1-4) | dịch | giải thích (¶ = xuống dòng)
+A1|3|Dạo này có nhiều học sinh cấp 3 trang điểm nhỉ.|化粧（けしょう）· HOÁ TRANG = trang điểm.¶Cách đọc: 化 thường đọc か (変化 へんか, 文化 ぶんか) nhưng trong 化粧 đọc け; 粧 đọc しょう.¶Kết hợp: お化粧する · 化粧品 (mỹ phẩm) · 化粧を落とす (tẩy trang) · 化粧室 (phòng vệ sinh – lịch sự).
+A2|1|Tôi muốn sống đến tuổi thọ trung bình của người Nhật.|寿命（じゅみょう）· THỌ MỆNH = tuổi thọ.¶Cách đọc: 寿 じゅ (ngắn), 命 みょう (như 寿命; còn đọc めい trong 生命 せいめい, いのち).¶Kết hợp: 平均寿命 (tuổi thọ trung bình) · 寿命が延びる (tuổi thọ tăng) · 電池の寿命 (tuổi thọ pin).
+A3|2|(Tôi) nghĩ là ảnh hưởng tới trẻ em ít hơn tivi.|影響（えいきょう）· ẢNH HƯỞNG.¶Cách đọc: 影 えい, 響 きょう – cả hai đều có trường âm.¶Kết hợp: 〜に影響を与える (gây ảnh hưởng tới ~) · 〜から影響を受ける · 台風の影響で (do ảnh hưởng của bão) · 悪影響.
+A4|1|Nếu sáng ngủ dậy muộn thì có thể không kịp giờ học.|寝坊（ねぼう）· TẨM PHƯỜNG = ngủ quên, dậy muộn.¶Cách đọc: 寝 ね (寝る), 坊 ぼう (đọc theo âm Hán, có trường âm).¶Kết hợp: 朝寝坊する · 寝坊して遅刻する · 寝坊助（ねぼすけ）= người hay ngủ nướng.
+A5|3|Khi con gái tôi vẽ tranh ở nhà trẻ thì cháu thấy không khoẻ.|具合（ぐあい）· CỤ HỢP = tình trạng (sức khoẻ, máy móc).¶Cách đọc: 具 ぐ (đọc ngắn), 合 あい.¶Kết hợp: 具合が悪い (không khoẻ, trục trặc) · お具合はいかがですか (anh thấy trong người thế nào) · 機械の具合.¶Gần nghĩa: 調子.
+A6|1|Anh Sen đang đọc quảng cáo.|広告（こうこく）· QUẢNG CÁO.¶Cách đọc: 広 こう (広場 là ひろば – âm Nhật), 告 こく.¶Kết hợp: 広告を出す (đăng quảng cáo) · 新聞広告 · 広告会社.¶Gần nghĩa: 宣伝 (hoạt động quảng bá) · CM.
+A7|1|Nước có kim ngạch xuất khẩu lớn nhất từ Nhật là Trung Quốc.|輸出（ゆしゅつ）· THÂU XUẤT = xuất khẩu.¶Cách đọc: 輸 ゆ (ngắn, không phải ゆう), 出 しゅつ.¶Kết hợp: 輸出する · 輸出額 · 輸出品.¶Trái nghĩa: 輸入（ゆにゅう）= nhập khẩu.
+A8|1|Những người dân đã đi sơ tán yên tâm vì được ngủ ở nhà thể thao.|住民（じゅうみん）· TRÚ DÂN = cư dân.¶Cách đọc: 住 じゅう (住所 じゅうしょ), 民 みん.¶Kết hợp: 住民票 (giấy chứng nhận cư trú) · 住民税 · 地域の住民.¶Từ trong câu: 避難（ひなん）= sơ tán · 体育館 = nhà thể thao.
+A9|1|Hãy để salad trong tủ lạnh cho mát.|冷やす（ひやす）· LÃNH = làm lạnh.¶Chữ Hán: 冷 (LÃNH) bộ băng 冫. 比, 引, 退 không đọc ひ＋やす.¶Kết hợp: 冷蔵庫で冷やす · 頭を冷やす (bình tĩnh lại).¶Tự động từ: 冷える.
+A10|3|Vặn vòi nước này thì nước nóng chảy ra.|蛇口（じゃぐち）· XÀ KHẨU = vòi nước (hình đầu rắn).¶Chữ Hán: 蛇 (XÀ – con rắn, đọc じゃ／へび).¶Kết hợp: 蛇口をひねる (vặn vòi) · 蛇口を閉める (khoá vòi) · 蛇口から水が出る.
+A11|2|Hãy cân nguyên liệu bằng cái cân.|材料（ざいりょう）· TÀI LIỆU = nguyên liệu, vật liệu.¶Chữ Hán: 材 (TÀI – gỗ, vật liệu, bộ mộc 木). 資料（しりょう）= tài liệu (giấy tờ); 財 (TÀI – tiền của) sai.¶Kết hợp: 料理の材料 · 材料をそろえる · 材料費.¶Cụm trong câu: はかりで量る = cân bằng cái cân.
+A12|1|Hãy đun nước sôi.|お湯（おゆ）· THANG = nước nóng.¶Kết hợp: お湯を沸かす (đun nước) · お湯が沸く (nước sôi) · お湯を注ぐ · 湯船 (bồn tắm).¶Lưu ý: tiếng Nhật phân biệt 水 (nước lạnh) và お湯 (nước nóng).
+A13|4|Chị tôi đã viết tên những món đồ cần thiết vào giấy cho tôi.|品物（しなもの）· PHẨM VẬT = hàng hoá, đồ vật.¶Cách đọc: cả hai chữ đọc âm Nhật: 品 しな, 物 もの.¶Kết hợp: 品物を選ぶ · いい品物 · 品物を届ける.¶Các đáp án khác: 呂 và các chữ có bộ ngưu 牛 là chữ sai.
+A14|3|Giáo sư Suzuki đã đào tạo nhiều học giả trẻ.|育てる（そだてる）· DỤC = nuôi dạy, đào tạo.¶Kết hợp: 子供を育てる · 人材を育てる · 花を育てる.¶Tự động từ: 育つ.
+A15|3|Năm nào tôi cũng đi du lịch nước ngoài, nhưng năm nay không có tiền nên du lịch trong nước.|海外（かいがい）= nước ngoài.¶Kết hợp: 海外旅行 · 海外に住む · 海外留学.¶Trái nghĩa trong câu: 国内（こくない）= trong nước.¶Các đáp án khác: 外出 = ra ngoài · 外見 = vẻ bề ngoài · 外側 = phía ngoài.
+A16|4|Tháng sau của tháng sau là tháng sau nữa.|再来月（さらいげつ）= tháng sau nữa.¶Bảng thời gian: 先々月 (2 tháng trước) – 先月 – 今月 – 来月 – 再来月. Tương tự: 再来週, 再来年.
+A17|2|Tôi lúc nào cũng đặt ghế phía lối đi trên máy bay.|通路側（つうろがわ）= phía lối đi.¶Kết hợp: 窓側（まどがわ）= phía cửa sổ · 通路側の席.¶Các đáp án khác: 窓口 = quầy giao dịch (không phải cửa sổ máy bay) · 内側／外側 = phía trong/ngoài.
+A18|3|Tàu đã xuất phát khỏi ga Tokyo đúng theo giờ.|発車（はっしゃ）= (tàu, xe) xuất phát.¶Kết hợp: 〜を発車する · 発車時刻 · 発車ベル.¶Các đáp án khác: 乗車 = lên tàu · 下車 = xuống tàu · 停車 = dừng tàu.
+A19|4|Đầu tiên hãy thái nhỏ nguyên liệu.|最初（さいしょ）= đầu tiên. 最 (TỐI – nhất).¶Kết hợp: まず最初に · 最初の日 · 最後（さいご）.¶Các đáp án khác: 再 (TÁI – lại), 先, 際 không tạo thành từ đúng.
+A20|3|"Cẩn thận! Bị xe cán đấy!"|車にひかれる = bị xe cán (bị động của ひく).¶Kết hợp: 車にひかれる · 人をひく (xe cán người).¶Các đáp án khác: 踏まれる = bị giẫm · 超えられる = bị vượt · 横断される = bị băng qua.
+A21|3|Không có nồi cơm điện nên tôi nấu cơm bằng nồi.|ご飯を炊く（たく）= nấu cơm.¶Phân biệt cách nấu: 炊く (cơm) · 煮る (ninh, hầm) · 蒸す (hấp) · 揚げる (chiên) · 焼く (nướng) · 炒める (xào) · ゆでる (luộc).¶Từ trong câu: 炊飯器（すいはんき）= nồi cơm điện.
+A22|2|"Con chó này không cắn cũng không sủa đâu, sờ vào cũng không sao."|ほえる = sủa.¶Cấu trúc: 〜たり〜たりしない = không ~ cũng không ~.¶Các đáp án khác: なでる = vuốt ve (người làm) · たたく = đánh · ぶつ = đánh.
+A23|2|Trước khi ra ngoài hãy đánh giày cho sạch.|靴を磨く（みがく）= đánh giày.¶Kết hợp: 歯を磨く (đánh răng) · 靴を磨く · 腕を磨く (trau dồi tay nghề).¶Các đáp án khác: しぼる = vắt · はく = đi (giày) · 干す = phơi.
+A24|1|Không được cho trẻ con quá nhiều tiền.|与える（あたえる）= cho, trao.¶Kết hợp: 子供にお金を与える · 影響を与える · えさを与える (cho ăn).¶Cấu trúc: Vては＋いけない = không được ~.¶Các đáp án khác: そろえる = sắp đủ · 仕上げる = hoàn thiện · 保存する = bảo quản.
+A25|4|Hễ tôi khóc là mẹ lại dịu dàng xoa đầu tôi.|なでる = xoa, vuốt ve.¶Kết hợp: 頭をなでる · 犬をなでる · 胸をなでおろす (thở phào).¶Các đáp án khác: こする = chà xát · ぶつ = đánh · うなる = rên, gầm gừ.
+A26|2|Hình như anh Tanaka đang hẹn hò với chị Nakamura.|交際する（こうさい）= qua lại, hẹn hò ≈ 付き合う.¶Kết hợp: 交際相手 · 交際費 (chi phí giao tế).¶Các đáp án khác: 似合う = hợp · 仲直りする = làm lành · 結婚する.
+A27|2|Bỏ bớt lãng phí, cố gắng tiết kiệm tiền hết mức có thể.|むだを省く（はぶく）= cắt bỏ lãng phí ≈ 節約する.¶Kết hợp: 手間を省く (bớt công) · 説明を省く.¶Các đáp án khác: 貧乏 = nghèo · 借金 = vay nợ · 得をする = được lợi.
+A28|1|Người chưa kết hôn có 4 người.|まだ結婚していない ≈ 独身（どくしん）= độc thân.¶Kết hợp: 独身の人 · 独身生活 · 独身寮 (ký túc xá cho người độc thân).
+A29|3|Chiều cao của Lan là 168 cm.|身長 = chiều cao ≈ 背の高さ.¶Kết hợp: 背が高い／低い · 背が伸びる.
+A30|2|Dạo này tôi thấy không khoẻ, nghĩ là phải đi bệnh viện.|最近（さいきん）= gần đây ≈ このごろ.¶Kết hợp: 最近の若者 · 最近は〜.¶Các đáp án khác: 先週ごろ, 来週ごろ = khoảng tuần trước/sau.
+A31|4|Mua trên 1 vạn yên thì không mất phí vận chuyển.|送料（そうりょう）= phí gửi hàng, phí ship.¶Kết hợp: 送料無料 · 送料がかかる · 送料込み (đã gồm phí ship).¶Các câu sai: 1 phải là 手数料 (phí dịch vụ) · 2 phải là 預金 · 3 phải là 振込手数料.
+A32|1|Trả tiền hàng bằng tiền mặt.|支払う（しはらう）= thanh toán, chi trả.¶Kết hợp: 代金を支払う · カードで支払う · 支払い方法.¶Các câu sai: 2 phải là 預ける · 3 phải là 下ろす · 4 phải là 両替する.
+A33|2|Đi du lịch 3 đêm 4 ngày về phía Tokyo.|方面（ほうめん）= hướng, khu vực; lĩnh vực.¶Kết hợp: 東京方面 · 〜方面行きの電車 · 各方面 (các phía).¶Các câu sai: 1 lẫn lộn hướng đi · 3 phải là 方向／席の向き · 4 phải là 景色.
+A34|2|Tôi ngủ gật và đã đi quá ga cần xuống.|乗り過ごす（のりすごす）= đi quá ga (vì ngủ, mải nói chuyện).¶Kết hợp: 駅を乗り過ごす · 居眠りして乗り過ごす.¶Các câu sai: 1 phải là 終電に乗り遅れた · 3 phải là 通過した · 4 phải là 乗り換えた.
+A35|3|Suýt đâm vào nên tôi vội đạp phanh.|ブレーキ = phanh.¶Kết hợp: ブレーキを踏む (đạp phanh) · ブレーキをかける · 急ブレーキ.¶Các câu sai: 1 phải là ライト · 2 phải là ハンドルを握る · 4 phải là スピード.
+B1|4|Câu lạc bộ này chỉ người lớn mới vào được.|Cấu trúc: Nしか〜ない = chỉ ~ (đi với phủ định).¶Các đáp án khác: ばかり = toàn là (khẳng định) · によって = tuỳ theo · というか = hay nói đúng hơn là.
+B2|1|Ông tôi toàn gọi nhầm tên tôi.|Cấu trúc: Vて＋ばかりいる = chỉ toàn ~ (lặp lại, có ý chê).¶Các đáp án khác: さえ = ngay cả · こそ = chính là · だけ = chỉ (間違えてだけいる không tự nhiên).
+B3|3|Mọi thắc mắc liên quan đến sản phẩm xin liên hệ tại đây.|Cấu trúc: Nに関する＋N = N liên quan đến N (bổ nghĩa danh từ).¶Phân biệt: Nに関して／について＋V; Nに関する／についての＋N.¶Các đáp án khác: ついて phải là についての.
+B4|4|Tôi đã biết là lạnh, nhưng -40℃ thì thật bất ngờ.|Cấu trúc: 〜とは知っていたが = tuy đã biết là ~ nhưng.¶Câu sau nói -40℃ → biết là lạnh: 寒いとは.
+B5|3|Cô ấy đến pha trà cũng chưa từng, nên nấu ăn chắc chắn không làm được.|Cấu trúc: Nさえ〜ない = ngay cả N cũng không (việc đơn giản nhất cũng không).¶Các đáp án khác: しか = chỉ · ばかり = toàn · こそ = chính.
+B6|2|Tôi thích xem bóng chày và bóng đá.|Cấu trúc: Vる＋のが好きだ = thích làm ~. Danh từ hoá động từ bằng の, trợ từ が đi với 好き.¶Phân biệt: のを＋động từ (見るのを忘れた).
+B7|1|Tôi được bác sĩ bảo hãy nhai kỹ và ăn chậm.|Cấu trúc: Vる／Vない＋ように言われる = được bảo là hãy ~ (truyền đạt lời khuyên, yêu cầu).
+B8|3|Đừng im lặng, hãy thử nói điều muốn nói xem nào.|Cấu trúc: Vて＋ごらん = hãy thử ~ xem (người trên nói với người dưới).¶Các đáp án khác: ちゃって, させて, ないと không hợp.
+B9|1|Điểm hay của máy giặt này là sự yên tĩnh.|Cấu trúc: Tính từ＋さ = danh từ chỉ mức độ: 静かさ (độ êm), 高さ, 大きさ.¶Phân biệt: 〜み (重み, 深み) chỉ dùng với một số tính từ.
+B10|3|Bác quản lý ơi, hãy nhắc người tầng trên đừng làm ồn khuya.|Cấu trúc: Vない＋ように言う = bảo ai đừng ~ (truyền đạt yêu cầu). 〜ように言ってください = hãy nói (với họ) là đừng ~.
+B11|1|Tôi thích màu xanh. Nói là xanh nhưng là màu xanh có chiều sâu.|Cấu trúc: Nといっても = tuy nói là N nhưng (thực tế có khác).¶Các đáp án khác: というより = nói đúng hơn là · といえば／というと = nhắc đến ~ thì.
+B12|1|Theo giấy hướng dẫn, uống thuốc này hình như sẽ buồn ngủ.|Cấu trúc: Nによると〜らしい／そうだ = theo N thì nghe nói ~ (nguồn thông tin).¶Từ vựng: 注意書き = phần lưu ý.
+B13|3|Do ảnh hưởng của tai nạn này, các tuyến đều bị trễ.|Cấu trúc: Nによる＋N = N do ~ gây ra (bổ nghĩa danh từ). 事故による影響.¶Phân biệt: Nによって＋V (động từ phía sau).¶Lưu ý: đáp án trong PDF ghi 1 là chưa đúng vì phía sau là danh từ 影響; đáp án đúng là 3.
+B14|1|Trong các thầy cô, người nói được tiếng Pháp chỉ có một người.|Thứ tự đúng: 話せる 人は 一人 しか (4-3-1-2). ★ là 一人.¶Cấu trúc: 〜しかいない = chỉ có ~.
+B15|4|Chuyện anh ấy nói đã nhìn thấy UFO là nói dối.|Thứ tự đúng: 見た という の は (2-1-4-3). ★ là の.¶Cấu trúc: 〜というのは〜 = cái việc ~ thì (danh từ hoá câu).
+B16|4|Tôi quên dặn sinh viên mang từ điển.|Thứ tự đúng: 持ってくる ように 言う のを (3-2-4-1). ★ là 言う.¶Cấu trúc: Vるように言う = dặn ai làm ~ · Vるのを忘れる = quên làm ~.
+B17|2|Tôi bị nhắc là đừng xem tivi to tiếng vào ban đêm.|Thứ tự đúng: 音で テレビを 見ないで くれ (4-1-2-3). ★ là 見ないで.¶Cấu trúc: Vないでくれ = đừng ~ (mệnh lệnh, trích lời) · と注意される = bị nhắc nhở.
+B18|2|Không có lo ngại sóng thần do trận động đất này.|Thứ tự đúng: に よる つなみの 心配 (4-3-2-1). ★ là つなみの.¶Cấu trúc: Nによる＋N = N do ~ · 〜の心配はない = không có lo ngại ~.
+B19|3|Vì vậy, khi nhìn Chibi được gọi tên và lắc lư thân hình nặng nề chạy đến thì ai cũng bật cười.|ですから = vì vậy (câu trước là nguyên nhân: tên "nhỏ" nhưng người to → buồn cười).¶Các đáp án khác: なぜならば = bởi vì · そのうえ = hơn nữa · ですが = nhưng.
+B20|1|Thế nhưng, được nuôi cẩn thận, ăn nhiều ngủ kỹ nên nó đã béo lên.|ところが = thế nhưng (kết quả trái với mong đợi): đặt tên "nhỏ" vì lúc đầu nhỏ, nhưng rồi lại béo.¶Các đáp án khác: その結果, そのために, ですから đều là quan hệ thuận.
+B21|4|Bây giờ tên vẫn là "Chibi" nhưng nó ngày càng to ra.|だけど = nhưng (văn nói).¶Các đáp án khác: つまり = tức là · だから = vì thế · それに = hơn nữa.
+B22|2|"Cứ như con gấu ấy nhỉ."|まるで〜（のよう）だ = cứ như là ~.¶Các đáp án khác: たとえ = cho dù (đi với ても) · もちろん = đương nhiên · もしかすると = có lẽ.
+B23|4|À nhân tiện, tên tôi là Yukiko (tuyết) nhưng vì thích tennis nên bị cháy nắng đen nhẻm.|ところで = nhân tiện, à này (chuyển sang chủ đề khác).¶Cụm cuối bài: 名は体を表す = tên phản ánh bản chất (tục ngữ).
+B24|1|"Sống ở nơi sát mép, chênh vênh" nghĩa là gì?|Căn cứ: bài nói tự tử không phải điều đặc biệt, ở ngay trong tầm tay; con người có thể buông bỏ cuộc sống bất cứ lúc nào → sống trong hoàn cảnh mà tự tử cũng không có gì lạ.¶Từ vựng: すれすれ = sát nút · きわどい = nguy hiểm, mấp mé · 隣り合わせ = kề sát.
+B25|3|Nội dung nào đúng với bài?|Căn cứ: chồng quên sinh nhật vợ, bảo chuyến du lịch suối nước nóng này là quà; ăn ngon, mua được bộ chén ưng ý, vợ hài lòng → chuyến đi trở thành quà sinh nhật.¶Các đáp án khác: 1 chồng không lên kế hoạch vì sinh nhật · 2 cuối cùng vợ hài lòng · 4 bài không nói rẻ.¶Từ vựng: 納得（なっとく）する = chấp nhận, đồng ý.
+B26|1|"Chưa từng xuất hiện" nghĩa là gì?|Căn cứ: món 筑前煮 (món hầm gà rau củ) là món ruột của vợ; từ khi vợ mất 1 năm rưỡi, món này chưa từng có trên bàn ăn.¶Cụm: 姿を見せる = xuất hiện · 得意料理 = món sở trường.
+B27|3|"Chuyện như thế này" là chuyện gì?|Căn cứ: con gái học lớp 6 giấu nỗi buồn, đã học bà để nấu món bố thích nhân sinh nhật bố → nấu món 筑前煮 bố thích.¶Từ vựng: 気遣う = lo lắng, quan tâm · 胸が熱くなる = xúc động.
+B28|3|Theo tác giả, hiện nay điều ảnh hưởng lớn đến giáo dục trẻ em là gì?|Căn cứ: 「パソコン時代の今…ITの普及によって…子供の教育という点で見るとどうだろう。昔のような社会勉強はできなくなってしまった」 → sự phổ biến của IT.¶Các đáp án khác: 1, 2 là chuyện thời tivi trước đây.¶Lưu ý: đáp án trong PDF ghi 2 là chưa đúng với câu hỏi "hiện nay"; đáp án đúng là 3.
+B29|2|Tác giả nghĩ gì về sự phổ biến của IT?|Căn cứ: 「昔のような社会勉強はできなくなってしまった」「恐怖を感じる」 → lo lắng vì trẻ ở trong môi trường không học được kinh nghiệm xã hội.¶Từ vựng: 普及（ふきゅう）= phổ biến · 恐怖（きょうふ）= sợ hãi · 興味深い = rất đáng quan tâm.
+B30|4|"Cảm thấy bất an về dòng chảy thời đại" – tác giả nghĩ gì?|Căn cứ: thời tác giả, trang điểm là việc của học sinh hư; nay đến học sinh tiểu học cũng có đồ trang điểm; trang điểm quá sớm ảnh hưởng xấu → băn khoăn việc trẻ con trang điểm có phải là điều tốt không.
+B31|1|Điều tác giả muốn nói nhất là gì?|Căn cứ: đoạn cuối 「早すぎる化粧は子供の肌だけではなく、行動においても悪い影響を与えるのではないだろうか」 → trẻ trang điểm có thể dẫn đến hành vi xấu.¶Các đáp án khác: 2 tác giả nói đó không phải điều chính · 3, 4 chỉ là chi tiết.
+B32|1|Từ thích hợp điền vào ( ).|Căn cứ: cơ thể nóng lên để diệt virus; hạ sốt ép thì virus lại hoạt động mạnh → bệnh nặng thêm.¶Từ vựng: 退治する = tiêu diệt · 活発（かっぱつ）= hoạt bát, mạnh.
+B33|4|Tác giả muốn nói điều gì?|Căn cứ: 「つまり、風邪の薬はできるだけ、飲まないほうが良いのである」 → muốn khỏi cảm thì không nên uống thuốc.¶Cụm: つまり = tóm lại (dấu hiệu ý chính) · 逆効果 = phản tác dụng · 咳止め = thuốc ho.
+B34|1|"Nằm mơ" là lúc nào?|Căn cứ: 「夢を見るのはレム睡眠のときだけです」.¶Từ vựng: 睡眠（すいみん）= giấc ngủ · 段階 = giai đoạn.
+B35|3|Tổ hợp từ thích hợp điền vào ( ② ) và ( ③ ).|( ② ): lúc nào cũng mơ → レム睡眠 (vì chỉ mơ trong giấc REM). ( ③ ): càng dài thì thời gian mơ càng dài → cũng là レム睡眠 (câu sau: ngủ dài thì REM cũng dài).
+B36|4|Theo tác giả, người ít nằm mơ là người thế nào?|Căn cứ: 「夢をあまり見ない人というのは、楽天的で自我があまり強くない人」.¶Từ vựng: 楽天的（らくてんてき）= lạc quan.
+B37|4|Điều nào đúng về người bị căng thẳng nhiều?|Căn cứ: căng thẳng thì giấc REM dài hơn → thời gian mơ dài hơn; trước kỳ thi, khi thất tình... hay mơ → càng căng thẳng càng hay mơ.¶Cấu trúc: 〜ほど = càng ~ càng.
+B38|3|Cách đổ rác nào đúng ở khu vực này?|Căn cứ bảng: đồ chơi nhựa thuộc "nhựa không phải bao bì" → rác cháy được (燃やすごみ).¶Các đáp án khác: 1 chai PET bị loại khỏi nhóm bao bì nhựa · 2 cốc thuỷ tinh là rác không cháy (thứ Bảy) còn chai PET là thứ Năm · 4 tủ lạnh không thuộc rác cỡ lớn cũng không phải rác không cháy.
+B39|4|Ai là cư dân khu Yamashita?|Đối chiếu bảng: D – chai lọ, lon rửa sạch bỏ vào ngày "びん・缶"; hộp cơm, chai nước giặt bẩn bỏ vào rác cháy được → khớp.¶Không khớp: A – giấy cũ và lon đều thu thứ Năm, không thể hôm nay giấy, mai lon · B – nhựa bao bì chỉ thu 1 lần/tuần · C – ô hỏng, bình vỡ, bàn là là rác không cháy (thứ Bảy) còn túi da là rác cháy được (thứ Ba, Sáu) → không bỏ cùng một ngày.
