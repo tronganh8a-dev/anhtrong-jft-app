@@ -89,7 +89,7 @@ def build(i, pdf=None):
             if not f and pdf: f=crop(pdf,g['lines'],f'n3e{i:02d}g{gi}')
             else: f=['img/'+os.path.basename(x) for x in f]
             groups.append(dict(img=f))
-        else: groups.append(dict(h=para(g['lines'],g['sec'])))
+        else: groups.append(dict(h=para(g['lines'],g['sec'])+''.join(f'<img src="{x}" alt="">' for x in g.get('img_after',[]))))
     qs=[]; diff=[]
     for q in R['qs']:
         k=f"{q['part']}{q['n']}"; s=SEC.get((q['part'],q['sec']))
