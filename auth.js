@@ -6,7 +6,7 @@
 // Tuỳ chọn: biến SECRET (chuỗi bất kỳ, dài) để ký cookie.
 
 const COOKIE = 'jft_s';
-const DAYS = 30;
+const DAYS = 5; // lưu đăng nhập 5 ngày (12/11 theo yêu cầu anh)
 const enc = new TextEncoder();
 
 function accounts(env) {
@@ -37,7 +37,7 @@ async function session(req, env) {
   const v = getCookie(req, COOKIE);
   if (!v) return null;
   const [u, exp, sid, sig] = v.split('|');
-  if (!u || !exp || !sid || !sig || Date.now() > Number(exp)) return null;
+  if (!u || !exp || !sid || !sig || Date.now() > Number(exp) || Number(exp) > Date.now() + DAYS * 864e5 + 6e4) return null; // cookie cũ hạn dài hơn → đăng nhập lại
   const pass = accounts(env).get(u);
   if (!pass) return null; // tài khoản đã bị xoá → mất quyền ngay
   return (await sign(env, `${u}|${exp}|${sid}|${pass}`)) === sig ? { u, sid } : null;
@@ -251,11 +251,8 @@ export async function handle(req, env, next) {
     return new Response(r.body, { status: r.status, headers: { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store' } });
   }
   if (url.pathname === '/api/phien') return new Response('{"ok":1}', { headers: { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' } });
-  // Mở / tải lại trang chính của app: bắt buộc đăng nhập lại mỗi lần
+  // Trang chính của app: đã đăng nhập (cookie còn hạn 5 ngày) là vào thẳng
   if (isDoc && (url.pathname === '/' || url.pathname === '/index.html')) {
-    if (!getCookie(req, 'jft_once')) {
-      return new Response(null, { status: 302, headers: { Location: '/login', 'Cache-Control': 'no-store' } });
-    }
     const r = await next();
     const o = new Response(r.body, r);
     o.headers.set('Cache-Control', 'no-store');
