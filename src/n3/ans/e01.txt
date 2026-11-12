@@ -1,0 +1,75 @@
+# Đề 1. Mỗi câu: MÃ | đáp án (1-4) | dịch | giải thích
+A1|3|Hãy thử so sánh xem cái nào to hơn.|比べる（くらべる・TỶ）= so sánh. ならべる = xếp hàng, しらべる = tra cứu, うかべる = thả nổi / hiện lên.
+A2|2|Cô ấy là bạn thân thời cấp 3 của tôi.|親しい（したしい・THÂN）= thân thiết. うれしい = vui, かなしい = buồn, たのしい = vui vẻ.
+A3|4|Tôi muốn vào đại học quốc lập chứ không phải đại học tư.|国立（こくりつ・QUỐC LẬP）: 国 đọc こく, 立 đọc りつ (giống 私立 しりつ). くにたち chỉ là tên địa danh.
+A4|4|Tôi giỏi toán nhưng kém tiếng Anh.|苦手（にがて・KHỔ THỦ）= kém, không giỏi; trái nghĩa với 得意（とくい）. Đây là cách đọc đặc biệt (訓読み cả hai chữ).
+A5|2|Tôi đã truyền đạt (nói ra) cảm xúc của mình cho cô ấy.|伝える（つたえる・TRUYỀN）= truyền đạt. こたえる = trả lời, おしえる = dạy, おぼえる = nhớ.
+A6|4|Thất bại là mẹ thành công nên tôi được bảo hãy vui lên.|失敗（しっぱい・THẤT BẠI）: しつ + はい → biến âm thành しっぱい (っ + ぱ).
+A7|3|Con người ai cũng có khuyết điểm.|人間（にんげん・NHÂN GIAN）= con người. 人 đọc にん, 間 đọc げん (biến âm).
+A8|1|Hãy nhìn dòng thứ 5 của trang này.|行目（ぎょうめ）= dòng thứ…; 行 đọc ぎょう khi chỉ dòng chữ. 五行目 = dòng thứ năm.
+A9|2|Anh Tanaka đã nỗ lực hết mình và lấy được chứng chỉ chuyên viên dinh dưỡng.|努力（どりょく・NỖ LỰC）. 労力 = sức lao động (ろうりょく); 度力, 動力 (どうりょく = động lực máy móc) không hợp.
+A10|3|Bố dẫn em trai ra công viên.|連れる（つれる・LIÊN）= dẫn theo. 釣る = câu cá; 共れて, 同れて không phải từ có thật.
+A11|1|Hôm nay người phụ trách không có mặt nên mời bạn ngày mai đến.|係り（かかり・HỆ）= người phụ trách. 係り員 = nhân viên phụ trách.
+A12|2|Hôm nay kết quả thi đã được công bố.|結果（けっか・KẾT QUẢ）. Lưu ý câu gốc in 発明 (phát minh) là lỗi, ý đúng là 発表 (công bố).
+A13|3|Không ai nghi ngờ lời anh ấy.|疑う（うたがう・NGHI）= nghi ngờ. 問う = hỏi, 歌う = hát.
+A14|4|Tôi đã gọi cà phê ở quán giải khát.|注文（ちゅうもん・CHÚ VĂN）= gọi món, đặt hàng.
+A15|3|Cái đồng hồ này tuy cũ nhưng tôi rất thích.|気に入っている = thích, ưng ý (dùng cho đồ vật mình có). 好んでいる dùng cho sở thích chung; 似合っている = hợp (với ai); はやっている = đang thịnh hành.
+A16|1|Hôm nay lạnh nên mặc áo sơ mi dài tay thì hơn.|長そで（ながそで）= áo dài tay. しま = kẻ sọc, 柄（がら）= hoa văn, 無地（むじ）= trơn – không liên quan đến lạnh.
+A17|4|Tiền bữa ăn ở nhà hàng này để tôi trả.|代金（だいきん）= tiền phải trả cho hàng hoá/dịch vụ. 預金 = tiền gửi ngân hàng, 生活費 = sinh hoạt phí, 現金 = tiền mặt.
+A18|2|Buổi nhậu hôm nay mọi người chia đều tiền nhé.|割り勘（わりかん）= chia đều tiền. 割り算 = phép chia, おごり = khao, 費用 = chi phí.
+A19|3|"Râu mọc dài rồi. Phải cạo thôi."|ひげ = râu; そる = cạo. まぶた = mí mắt, ひたい = trán, ほほ = má.
+A20|1|Ồ, bạn đeo chiếc nhẫn đẹp thế.|Nhẫn đi với はめる (đeo vào ngón tay). はく = đi (giày, quần), しめる = thắt (cà vạt, dây lưng).
+A21|4|Nếu để nguyên chìa khoá cắm (trong xe) mà đỗ xe thì sẽ bị trộm đấy.|差し込む（さしこむ）= cắm vào. 〜たまま = để nguyên trạng thái. 突き当たる = đi đến cuối đường, 引き出す = rút ra, 差し出す = đưa ra.
+A22|1|Anh trai tôi gặp tai nạn giao thông và phải nhập viện.|事故にあう = gặp tai nạn (cố định: 事故/災害にあう).
+A23|2|Mở tài khoản ngân hàng thì họ đưa cho sổ ngân hàng và thẻ rút tiền.|通帳（つうちょう）= sổ tài khoản. 紙幣 = tiền giấy, 印鑑 = con dấu, 硬貨 = tiền xu.
+A24|4|Huỷ đặt chỗ du lịch vào ngày hôm trước nên không được trả lại đồng nào.|キャンセル = huỷ. 申し込み = đăng ký, 調整 = điều chỉnh, 変更 = thay đổi; chỉ huỷ mới mất hết tiền.
+A25|1|Chuyển (học phí đại học) vào tài khoản được chỉ định.|振り込む（ふりこむ）= chuyển khoản. 預金する = gửi tiết kiệm, 記入する = điền, 振り払う = gạt ra.
+A26|2|Hôm qua hiếm khi tàu vắng tanh.|がらがら = vắng tanh, trống trơn ≈ とても空いていた. Trái nghĩa: 込んでいた (đông).
+A27|2|Để rút tiền gửi ở quầy cần có con dấu.|引き出す（tiền）= rút tiền ≈ おろす. ためる = tích, あずける = gửi, 払う = trả.
+A28|1|Có việc gấp nên tôi đã đổi lịch trình chuyến đi.|変更する = thay đổi; ở đây là dời lịch ≈ ずらす (lùi, xê dịch). ひかえる = hạn chế, 取り消す = huỷ, 申し込む = đăng ký.
+A29|4|Tôi đã băng qua đường theo đường chéo.|横断する（おうだん）= băng ngang qua ≈ 渡る.
+A30|3|Hạn chế dùng điện thoại di động.|ひかえる = kiềm chế, hạn chế ≈ しないようにする.
+A31|4|Tôi trải nệm futon trên chiếu tatami để ngủ.|敷く（しく）= trải (nệm, thảm…) xuống sàn. Đĩa thì 並べる/置く, sofa thì 置く, vòi nước thì ひねる.
+A32|3|Hãy ăn uống có tính đến sự cân bằng dinh dưỡng.|栄養のバランス = cân bằng dinh dưỡng. Điều hoà thì エアコンが効いている; cân thì 重さ; バランスが高い là sai kết hợp.
+A33|2|Mùa mưa thức ăn dễ hỏng nên hãy bảo quản trong tủ lạnh.|保存する（ほぞん）= bảo quản. Quần áo thì 洗う/干す; thú nuôi thì 飼う; lò vi sóng thì 温める.
+A34|4|Tôi làm đổ nước ép và làm bẩn váy mất rồi.|汚す（よごす）= làm bẩn (tha động từ). Trạng thái bẩn dùng 汚れている (①); lau sàn thì ぞうきんを絞る/使う.
+A35|2|Không được nói đòi hỏi vô lý làm khổ mẹ.|わがまま = ích kỷ, đòi hỏi tuỳ tiện; わがままを言う = vòi vĩnh. Trẻ わがまま không được yêu chiều (①); chó vẫy đuôi với mọi người là 人なつっこい.
+B1|2|Núi càng leo cao thì nhiệt độ càng thấp.|〜ば〜ほど = càng… càng…: 登れば登るほど.
+B2|4|Vì ngủ dậy muộn nên tôi bị lỡ chuyến bay.|〜た為に（ために）= vì… (nguyên nhân, thường dẫn đến kết quả xấu).
+B3|3|Việc cặp vợ chồng đó ly hôn, đến giờ tôi vẫn không tin được.|〜なんて = (thể hiện ngạc nhiên) chuyện… thì thật là… Đáp án trong file ghi "5" là lỗi in; đáp án đúng là ③ なんて.
+B4|1|Nhờ cô mà em giỏi tiếng Nhật lên. Em cảm ơn cô.|〜のおかげで = nhờ (kết quả tốt). 〜のせいで = tại (kết quả xấu).
+B5|3|Cô ấy vui vì được vào làm đúng công ty mình mong muốn.|〜たとおりの + N = đúng như đã…: 希望したとおりの会社.
+B6|1|Tôi đã được anh Tanaka giúp đỡ rất nhiều, từ việc này đến việc khác.|何から何まで = từ A đến Z, mọi thứ.
+B7|3|Nhân tiện đi dạo, tôi ghé siêu thị mua đồ rồi về.|〜たついでに = nhân tiện làm việc chính thì làm luôn việc khác.
+B8|2|Ở khu phố này, rác không cháy được quy định là bỏ vào sáng thứ Ba.|Vる + ことになっている = theo quy định là….
+B9|4|Đúng lúc đang tắm thì điện thoại reo.|Vている + 最中に = đúng lúc đang…: 入っている最中に.
+B10|4|Tôi đã nói to để mọi người nghe rõ.|V(khả năng/không ý chí) + ように = để (mục đích): 聞こえるように.
+B11|1|Nếu định trao đổi với thầy thì nên gọi điện trước.|〜なら = nếu (định) làm… thì (lời khuyên cho việc sắp làm). 前もって = trước.
+B12|2|Dọn mãi dọn mãi mà việc chỉ tăng lên, chán quá.|〜ばかりで = chỉ toàn…, cứ… mãi (diễn biến xấu).
+B13|2|"Vâng, được. Tôi sẽ đi (cho phép tôi tham dự)."|Vさせてもらいます = xin phép được làm (khiêm tốn khi nói về hành động của mình): 行かせてもらいます. ③ 行ってもらいます = nhờ người khác đi – sai ngữ cảnh. Đáp án trong file ghi ③ là chưa đúng, em sửa thành ②.
+B14|2|Kinh tế khá hơn năm ngoái nhưng không thể nói là đã khá lên hẳn.|Câu đúng: 去年より ましな ことは ★ましですが すっかり よくなったとは言えません. (〜ことは〜が = thì có… nhưng…)
+B15|4|Có vẻ anh Sato vừa mới bắt đầu chơi golf nên thấy thú vị không chịu được.|Câu đúng: まだゴルフを はじめた ばかりで ★おもしろくて たまらない ようです. (Vたばかり = vừa mới; 〜てたまらない = … không chịu nổi)
+B16|1|Không phải cứ là người Nhật thì có thể dạy được tiếng Nhật.|Câu đúng: 日本人だから といって 日本語が ★教えられる という わけではない. (〜からといって〜わけではない = không phải cứ… là…)
+B17|1|Tôi đã nghĩ sẽ phải mổ, nhưng không phải mổ mà xong nên thở phào nhẹ nhõm.|Câu đúng: と思っていた けれど しなくて ★済んだ ので ほっと安心した. (〜なくて済む = không cần… cũng xong)
+B18|2|Vé buổi hoà nhạc đó dù có nói là đắt thì chắc cũng không đến 1 vạn yên.|Câu đúng: でも、いくら 高い ★といっても 1万円は しないと思います. (いくら〜といっても = dù nói là… đến đâu)
+B19|3|Bố trong ảnh khác hẳn bây giờ, gầy (19).|Đoạn đầu nói bố hiện béo, thấp, mặt tròn; "khác hẳn bây giờ" → ngày xưa gầy: やせていた.
+B20|1|(20) chỉ có khuôn mặt tròn là giống bây giờ.|ただ = có điều, chỉ có (bổ sung ngoại lệ). Mọi thứ khác đi, chỉ trừ mặt tròn.
+B21|4|Vì yêu bố bây giờ nên tôi coi như chưa thấy tấm ảnh hồi xưa.|〜なかったことにする = coi như chưa từng…: 見なかったことにしました.
+B22|3|Một người bố như thế (sáng nào cũng 7 giờ đã ra khỏi nhà) làm tôi thấy thương.|そんな = như thế (chỉ nội dung vừa nói ở câu trước). この/その không diễn tả được "bố như vậy".
+B23|3|Tôi muốn sớm tốt nghiệp, đi làm để có thể báo hiếu.|Nguyện vọng của bản thân → 〜ようになりたいと思っています.
+B24|1|Tiêu đề email.|Email nói năm nay lại muốn nhờ thầy diễn giảng (本年もまたお願いいたしたく) → 講演のお願い.
+B25|2|Nội dung phù hợp.|"昨年の講演の際には…" → năm ngoái thầy Nakamura đã diễn giảng ở thành phố Takara rồi.
+B26|4|Lá thư viết để báo điều gì?|Ý chính: đã sửa máy và gửi lại riêng (修理いたしまして別便でお送りさせていただきました). Quà xin lỗi chỉ là gửi kèm.
+B27|2|Điều biết được từ lá thư.|Nguyên nhân: đèn không hoạt động tốt (ライトがうまく作動していなかった) → máy của anh Takahashi bị lỗi đèn.
+B28|1|"人生50年" nghĩa là gì?|Xưa người ta nói "đời người 50 năm" = ngày xưa nhiều người chết vào khoảng 50 tuổi.
+B29|4|"そう考えれば" nghĩa là gì?|"Thế" = dù mất gấp đôi thời gian (10 năm) thì vẫn còn 20 năm → nghĩ rằng còn khoảng 30 năm và đặt mục tiêu dài hạn.
+B30|4|"ひとつの生き方" là cách sống thế nào?|Câu trước: không bỏ cuộc vì tuổi, liên tục thử thách điều mình muốn làm.
+B31|3|Tác giả bắt chuyện bằng tiếng Anh để làm gì?|Thấy người du lịch có vẻ lo lắng (不安そうな様子) nên hỏi "Bạn có gặp khó khăn gì không" → để giúp người du lịch.
+B32|4|Vì sao nói "Hãy đi theo tôi"?|Ngay trước đó: lo người khách bị lạc vì đông người (道に迷ってしまうかもしれない) → lo không biết họ có tới được sân ga số 8 không.
+B33|3|Vì sao tâm trạng vui khi về nhà?|"少しは私もいいことができたかな" → mình cũng đã giúp được người đang gặp khó khăn, giống bà cụ ở Ý từng giúp mình.
+B34|4|"Hai lần" là khi nào?|Lần 1: thấy lửa đỏ rực trong mắt nên giật mình; lần 2: thấy trong tủ toàn lửa (二度驚いて).
+B35|3|Ai, vì sao đập vào lửa?|Bà cụ dùng mảnh vải đen đập vào lửa trong tủ để dập lửa.
+B36|4|"それ" chỉ điều gì?|Câu ngay trước: おばあさんが一人で消そうとしているんだ → bà đang một mình cố dập lửa.
+B37|2|"Không nói ra được tiếng" cho thấy cậu bé thế nào?|Muốn nói "phòng cháy rồi" mà chỉ nói được "nguy rồi…" → cậu bé bị sốc.
+B38|3|Muốn làm thẻ tích điểm thì làm thế nào?|Thông báo: chỉ cần điền tên, liên lạc vào phiếu đăng ký, không cần con dấu hay giấy tờ; phiếu để ở quầy dịch vụ → nhận phiếu ở quầy dịch vụ và điền.
+B39|4|A làm thẻ ngày 25/1, mua 2.635 yên, có mang túi. Được bao nhiêu điểm?|2.635 ÷ 105 = 25 điểm mua hàng + 20 điểm thưởng làm thẻ mới (tặng ở lần mua đầu) + 2 điểm mang túi = 47 điểm.

@@ -106,7 +106,9 @@ reps = [("$('#logout').onclick=()=>{location.href='/logout'};", "$('#logout').st
         ('<main>', '<main><div style="background:#fff3b0;border:1px solid #f1c48b;color:#5a4300;border-radius:12px;padding:10px 14px;margin:0 0 14px;font-size:14px"><b>BẢN DÙNG THỬ</b> · Mỗi phần chỉ mở <b>mục đầu tiên</b>, các mục có 🔒 dành cho học viên. Liên hệ <b>Anh Trọng Dạy JFT</b> để vào lớp và mở toàn bộ: 42 bài, 11 đề có giải thích, video bài giảng, 3.800+ từ.</div>'),
         ('<title>', '<title>Dùng thử · '),
         ('</head>', LOCK_CSS + '</head>'),
-        ('</body>', LOCK_JS + '</body>')]
+        ('</body>', LOCK_JS + '</body>'),
+        # JLPT N3 (12/11): bản dùng thử chỉ hiện khung khoá, không nhúng trang n3/
+        ('<iframe id="n3Fr" title="JLPT N3" style="display:block;width:100%;height:calc(100vh - 8px);border:0;background:#f4f7fb" loading="lazy"></iframe>', '<div class="topbar"><h1>JLPT N3<span class="jp">日本語能力試験</span></h1></div>' + PANEL)]
 for a, b in reps:
     assert s.count(a) >= 1, a; s = s.replace(a, b, 1)
 # bỏ mục đăng nhập / đăng ký tài khoản (Prometric) ở trang chủ
