@@ -165,7 +165,7 @@ Q(4, 8, '', GT4, P3, 2,
   'どなた = ai (kính ngữ của だれ) → trả lời người đó là ai: 「田中さんの奥さんですよ」 → 2. 3 trả lời câu "người nào/ở đâu" (どの人). 着物 (TRƯỚC VẬT) = kimono; 奥さん (ÁO) = vợ (người khác).')
 
 new = {'id': 'jft-ln4', 'group': 'Luyện nghe JFT', 'title': 'Đề nghe 4', 'name': 'Nghe 4',
-       'sub': 'JLPT N4 · cấp độ tầm trung · 28 câu', 'time': 40, 'tag': 'JLPT tầm trung', 'qs': qs}
+       'sub': 'JLPT N4 · cấp độ tầm trung · 28 câu', 'time': 40, 'tag': 'JLPT tầm trung', 'doc': {'f': 'tailieu/DeNghe4_Script_GiaiThich.pdf', 't': 'Script & giải thích (PDF)'}, 'qs': qs}
 P = REPO + 'src/raw/jft_exams.json'
 d = json.load(open(P, encoding='utf-8'))
 d = [e for e in d if e['id'] != 'jft-ln4']

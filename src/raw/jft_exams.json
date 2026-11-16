@@ -33236,6 +33236,10 @@
   "sub": "JLPT N4 · cấp độ tầm trung · 28 câu",
   "time": 40,
   "tag": "JLPT tầm trung",
+  "doc": {
+   "f": "tailieu/DeNghe4_Script_GiaiThich.pdf",
+   "t": "Script & giải thích (PDF)"
+  },
   "qs": [
    {
     "s": "聴解",

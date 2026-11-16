@@ -1,0 +1,3 @@
+const {chromium}=require('playwright');(async()=>{const b=await chromium.launch();const p=await b.newPage();
+await p.goto('file:///tmp/ln4pdf/s.html');await p.evaluate(()=>document.fonts.ready);await p.waitForTimeout(500);
+await p.pdf({path:'/home/claude/anhtrong-jft-app/public/tailieu/DeNghe4_Script_GiaiThich.pdf',format:'A4',printBackground:true,displayHeaderFooter:true,headerTemplate:'<span></span>',footerTemplate:'<div style="font-size:8px;color:#8aa0b2;width:100%;text-align:center">Anh Trọng Dạy JFT · Đề nghe 4 · <span class="pageNumber"></span>/<span class="totalPages"></span></div>',margin:{top:'14mm',bottom:'16mm',left:'13mm',right:'13mm'}});await b.close()})();
