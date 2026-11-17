@@ -8,6 +8,7 @@ R = '/home/claude/anhtrong-jft-app/'
 _src = open(R + 'src/tailieu_src/tongon_nhapmon_build.py').read()
 exec(_src[:_src.index('# ---------------- BUỔI 1')])
 SL = json.load(open('/tmp/ga/slides.json'))
+exec(open(R + 'src/tailieu_src/giaoan_vocab_notes.py').read())  # VEXP
 VW = {}
 for w in VOC: VW.setdefault(w['w'], w)
 KK = {k['w']: k for k in KAN}
@@ -102,16 +103,21 @@ for s in SL:
     elif t == 'vocab':
         b = int(re.search(r'Bài (\d+)', s['h2']).group(1)); g = GB.get(b)
         head, notes = VNOTE.get(b, ('', []))
-        rows = ''
+        items = ''
         for w in s['w']:
             v = VW.get(w) or next((x for x in VOC if x['r'] == w or x['w'].replace(' ', '') == w.replace(' ', '')), None)
-            if not v: rows += f'<tr><td class="jw">{E(w)}</td><td colspan="3"></td></tr>'; continue
-            ex = v.get('ex'); exs = f'<div class="exj">{rb(ex[0])}</div><div class="exv">{E(ex[1])}</div>' if ex else ''
-            rows += f'<tr><td class="jw">{v["wr"]}</td><td>{E(v["r"])}</td><td><b>{E(v["vi"])}</b>{("<br><small>HV: " + E(v["hv"]) + "</small>") if v.get("hv") else ""}</td><td>{exs}</td></tr>'
+            key = v['w'] if v else w
+            ex = v.get('ex') if v else None
+            exs = f'<div class="wex"><b>Ví dụ (sách):</b> <span class="jp">{rb(ex[0])}</span> — {E(ex[1])}</div>' if ex else ''
+            # phân tích chữ Hán nếu có trong DOCS kanji
+            kc = ''
+            if v and v.get('hv'):
+                kc = f' · Hán Việt: <b class="hv">{E(v["hv"])}</b>'
+            items += (f'<div class="wi"><div class="wh"><span class="jw">{v["wr"] if v else E(w)}</span> <span class="rd">{E(v["r"]) if v else ""}</span> — <b>{E(v["vi"]) if v else ""}</b>{kc}</div>'
+                      f'<div class="we">{VEXP.get(key, VEXP.get(w, ""))}</div>{exs}</div>')
         blk(n, f'Từ vựng · Bài {b} {rb(g["title"]) if g else ""} <small>{E(g["title_vi"]) if g else ""}</small>',
-            '<p class="op">Thao tác: mở slide chỉ thấy tranh → học viên đoán → bấm lần 1 hiện tiếng Nhật (cả lớp đọc to 2 lần) → bấm lần 2 hiện nghĩa.</p>'
-            f'<div class="lg"><b>Chủ đề: {head}</b><ul>' + ''.join(f'<li>{x}</li>' for x in notes) + '</ul></div>'
-            f'<table class="vt"><tr><th>Từ</th><th>Cách đọc</th><th>Nghĩa</th><th>Ví dụ (sách)</th></tr>{rows}</table>')
+            '<p class="op">Thao tác: mở slide chỉ thấy tranh → học viên đoán → bấm lần 1 hiện tiếng Nhật (cả lớp đọc to 2 lần) → bấm lần 2 hiện nghĩa. Giảng từng từ theo thứ tự dưới đây.</p>'
+            f'<div class="lg"><b>Chủ đề: {head}</b><ul>' + ''.join(f'<li>{x}</li>' for x in notes) + f'</ul></div>{items}')
     elif t == 'kanji':
         k = KK.get(s['w']);
         if not k: continue
@@ -188,6 +194,7 @@ table.vt{width:100%;border-collapse:collapse;font-size:9.5pt;margin-top:6px}.vt 
 .exs ul{margin:3px 0 3px 18px;padding:0}.exs li{margin:2px 0}.exs small{color:#6b8296}
 .qq{margin:3px 0;font-weight:700}.op2{margin:3px 0 3px 18px;padding:0}.op2 li.ok{color:#2f9e5b;font-weight:800}
 .ls{font-size:9.5pt;background:#fafcff;border-radius:8px;padding:6px 10px}.ls .lb{display:block;font-weight:800;color:#c42f66;font-size:8.5pt;margin-top:4px}.ls p{margin:0}.ls .v{color:#6b8296}.ls rt{font-size:.5em}.ls .ans{font-weight:800;color:#2f9e5b}
+.wi{border-top:1px dashed #e3ebf2;padding:5px 0 4px;break-inside:avoid}.wh{font-size:10.5pt}.wh .jw{font-size:13pt}.wh .rd{color:#0d5a8c;font-weight:700}.we{margin:2px 0 2px 10px}.wex{margin-left:10px;font-size:9.5pt;color:#47647a}.wex .jp rt{font-size:.5em}
 .krel{display:grid;grid-template-columns:1fr 1fr;gap:2px 14px;font-size:9.5pt}.krel .jp{font-weight:700;font-size:11pt;margin-right:6px}.krel i{font-style:normal;color:#0d5a8c}.krel small{color:#6b8296;margin-left:4px}
 </style>'''
 FONT = '<link rel="stylesheet" href="file:///tmp/tk/node_modules/@fontsource/m-plus-rounded-1c/500.css"><link rel="stylesheet" href="file:///tmp/tk/node_modules/@fontsource/m-plus-rounded-1c/700.css"><link rel="stylesheet" href="file:///tmp/tk/node_modules/@fontsource/m-plus-rounded-1c/800.css">'
