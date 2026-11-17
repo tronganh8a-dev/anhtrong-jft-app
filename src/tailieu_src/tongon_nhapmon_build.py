@@ -37,7 +37,7 @@ CSS = KGCSS + '''
 .gpi .mv{font-size:29px;color:#0d5a8c;font-weight:700;margin-top:4px;line-height:1.35}
 .gpi .eg{font-size:40px;line-height:1.65}.gpi .eg .jpt rt{font-size:.45em}.gpi .eg .vi{font-size:28px;color:#47647a;line-height:1.35;margin-bottom:6px}
 .gpi .nt{font-size:25px;color:#8a5a00;background:#fff8e6;border-radius:10px;padding:6px 12px;margin-top:6px;line-height:1.4}
-.gp{margin-top:6px;min-height:690px;grid-auto-rows:1fr}.gp.n2{gap:28px}.gp.n2 .gpi{padding:34px 34px}.gp.n2 .gpi .pt{font-size:44px}.gp.n2 .gpi .eg{font-size:36px}
+.gp{margin-top:6px;min-height:640px;grid-auto-rows:1fr}.gp.n2{gap:28px}.gp.n2 .gpi{padding:34px 34px}.gp.n2 .gpi .pt{font-size:44px}.gp.n2 .gpi .eg{font-size:36px}
 /* bảng */
 .tb2{width:100%;border-collapse:separate;border-spacing:0;font-size:32px;background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 8px 24px #0d2b4012}
 .tb2 th{background:#0d5a8c;color:#fff;padding:16px 22px;font-size:28px;text-align:left}
@@ -83,6 +83,11 @@ CSS = KGCSS + '''
 .kdt .kk{font-family:"Klee One",serif;font-size:54px;line-height:1;color:#0d2b40}.kdt .hh{color:#c42f66;font-weight:800}.kdt .mm{color:#47647a}
 .kdn{margin-top:14px;background:#fff8e6;border-left:8px solid #f2a93b;border-radius:12px;padding:14px 20px;font-size:29px;line-height:1.5}.kdn b{color:#c47a00;margin-right:8px}
 .kde{margin-top:14px;background:#fff;border-radius:14px;padding:14px 20px;font-size:36px;line-height:1.8;box-shadow:0 6px 18px #0d2b4010}.kde rt{font-size:.5em}.kde small{display:block;font-size:26px;color:#47647a;line-height:1.4}
+.kdt{font-size:25px!important}.kdt td{padding:8px 12px!important}.kdt .kk{font-size:44px!important}.kdw{font-size:84px!important}.kdv{font-size:32px!important}.kdm{font-size:32px!important;margin:2px 0 10px!important}.kdh{margin-top:-8px}
+.kdn{font-size:23px!important;padding:8px 14px!important;margin-top:8px!important}.kde{font-size:28px!important;padding:6px 14px!important;margin-top:8px!important;line-height:1.55!important}.kde small{font-size:21px!important}
+.krel{margin-top:10px;background:#fff;border-radius:16px;padding:8px 12px;box-shadow:0 6px 18px #0d2b4010;width:100%;display:grid;grid-template-columns:1fr 1fr;gap:2px 12px}.krel b{grid-column:1/-1;color:#c42f66;font-size:19px}
+.krel div{line-height:1.25;padding:3px 0;border-top:1px dashed #e3ebf2}.krel .jp{font-family:"Klee One",serif;font-weight:600;font-size:28px;margin-right:6px}.krel i{font-style:normal;color:#0d5a8c;font-weight:700;font-size:18px}.krel small{display:block;color:#47647a;font-size:17px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ck{font-size:28px!important;line-height:1.6!important}
 .ck{list-style:none;font-size:31px;line-height:1.8}.ck li:before{content:"✓";color:#5a9e2f;font-weight:800;margin-right:14px}
 '''
 TAIL = open(R + 'src/tailieu_src/buoi15_tail.html').read()
@@ -100,7 +105,7 @@ KVGCSS = '''
 VSTEP = '''<script>(()=>{const _st=step;step=function(){const s=S[cur];if(s&&s.querySelector('.vg')){for(const k of ['g1','g2']){const xs=s.querySelectorAll('.st.'+k+':not(.sh)');if(xs.length){xs.forEach(x=>x.classList.add('sh'));return}}}_st()};
 document.querySelectorAll('.kv').forEach(c=>c.onclick=e=>{e.stopPropagation();const x=c.querySelector('.st:not(.sh)');x&&x.classList.add('sh')});})();</script>'''
 KVGJS = '''<div id="kvo"><div class="cap"></div><div class="bx"></div><div class="ct"><button class="p" data-a="re">▶ Viết lại</button><button data-a="sl">Chậm</button><button data-a="fa">Nhanh</button><button data-a="x">✕ Đóng</button></div><div class="src2">Nét viết: KanjiVG (CC BY-SA 3.0)</div></div>
-<script>window.kvDrawIn=(BX,W,sp,tm)=>{const NS='http://www.w3.org/2000/svg';tm.forEach(clearTimeout);tm.length=0;BX.innerHTML='';let t=250;const cs=[...W].filter(c=>KVG[c]);BX.style.setProperty('--cw',(cs.length>2?200:cs.length>1?305:420)+'px');
+<script>window.kvDrawIn=(BX,W,sp,tm)=>{const NS='http://www.w3.org/2000/svg';tm.forEach(clearTimeout);tm.length=0;BX.innerHTML='';let t=250;const cs=[...W].filter(c=>KVG[c]);BX.style.setProperty('--cw',(cs.length>2?190:cs.length>1?255:330)+'px');
  cs.forEach(c=>{const d=KVG[c],cell=document.createElement('div');cell.className='cell';const sv=document.createElementNS(NS,'svg');sv.setAttribute('viewBox','0 0 109 109');
   const g=document.createElementNS(NS,'g'),dd=document.createElementNS(NS,'g'),tx=document.createElementNS(NS,'g');g.setAttribute('class','g');dd.setAttribute('class','d');
   [g,dd].forEach(x=>{x.setAttribute('fill','none');x.setAttribute('stroke-width','4');x.setAttribute('stroke-linecap','round');x.setAttribute('stroke-linejoin','round')});
@@ -136,6 +141,20 @@ def js(f, var):
     return json.JSONDecoder().raw_decode(s[s.index('=') + 1:])[0]
 DOCS = js('docs.js', 'DOCS'); GRAM = js('grammar.js', 'GRAMMAR')
 EXAMS = {e['id']: e for e in js('exams.js', 'EXAMS')}
+_VW = js('vocab.js', 'VOCAB')['words']
+_LVO = {'入門': 0, '初級1': 1, '初級2': 2, '初中級': 3}
+def rel(word, n=4):
+    # Từ liên quan: từ trong いろどり có chung chữ Hán (ưu tiên cấp thấp, từ ngắn)
+    ks = [c for c in word if '\u4e00' <= c <= '\u9fff']; out = []; seen = {word}
+    for c in ks:
+        cand = [w for w in _VW if c in w['h'] and w['h'] not in seen and len(w['h']) <= 4 and w.get('y')]
+        cand.sort(key=lambda w: (min((_LVO.get(l[0], 9) for l in w.get('l') or []), default=9), len(w['h'])))
+        for w in cand[:2 if len(ks) > 1 else 4]:
+            seen.add(w['h']); out.append(w)
+    out = out[:n]
+    if not out: return ''
+    return '<div class="krel st"><b>Từ liên quan</b>' + ''.join(f'<div><span class="jp">{html.escape(w["h"])}</span><i>{html.escape(w["y"])}</i><small>{html.escape(w["v"].split(",")[0][:24])}</small></div>' for w in out) + '</div>'
+
 VOC = DOCS['vocab']['入門']; KAN = DOCS['kanji']['入門']
 GB = {g['bai']: g for g in GRAM if g['lv'] == '入門'}
 
@@ -222,6 +241,8 @@ def build(no, bais, title, sub, kanji, gsel, tables, quizzes_g, plan, ends, fnam
             ex = f'<div class="ex2 jp">{k["ex"]["jp"]}<small>{html.escape(k["ex"]["vi"])}</small></div>' if k.get('ex') and n <= 5 else ''
             kj = ''.join(c for c in k['w'] if c in KVG)
             kb = f'<button class="kw" data-w="{kj}" data-c="{html.escape(k["w"])} · {html.escape(k["hv"])}">✍ Nét</button>' if kj else ''
+            if '、' in k['w']:
+                return f'<div class="kc" style="--ks:64px">{kb}<div class="k">一〜十</div><div class="st"><div class="hv">NHẤT … THẬP</div><div class="rd jp">いち … じゅう</div><div class="mn">{html.escape(k["vi"])}</div></div></div>'
             return f'<div class="kc" style="--ks:{ksz}px">{kb}<div class="k"{" style=white-space:nowrap" if L <= 5 else ""}>{html.escape(k["w"])}</div><div class="st"><div class="hv">{html.escape(k["hv"])}</div><div class="rd jp">{html.escape(k["r"])}</div><div class="mn">{html.escape(k["vi"])}</div>{f"<div class=cs>{cs}</div>" if cs else ""}{ex}</div></div>'
         if n == 7 or any('、' in k['w'] for k in ks):
             sl(f'Chữ Hán <small>{gt}</small>', f'<div class="kg c{min(n, 5) if n != 7 else 7}">' + ''.join(kcard(k) for k in ks) + '</div>')
@@ -231,7 +252,7 @@ def build(no, bais, title, sub, kanji, gsel, tables, quizzes_g, plan, ends, fnam
             rows = ''.join(f'<tr><td class="kk">{html.escape(c["k"])}</td><td class="hh">{html.escape(c["hv"])}</td><td>{html.escape(c.get("on") or "–")}</td><td>{html.escape(c.get("kun") or "–")}</td><td class="mm">{html.escape(c.get("vi") or "")}</td></tr>' for c in k['chars'])
             tip = re.sub(r'^\s*(Mẹo nhớ|Mẹo|Ghi nhớ)\s*:\s*', '', k.get('tip') or '')
             ex = k.get('ex') or {}
-            body = (f'<div class="kd"><div class="kdl"><div class="kvi" data-w="{kj}"></div><button class="kvr" onclick="kvPlay(this.previousElementSibling,1)">▶ Viết lại</button><button class="kvr" onclick="kvPlay(this.parentNode.querySelector(&quot;.kvi&quot;),.45)">Chậm</button></div>'
+            body = (f'<div class="kd"><div class="kdl"><div class="kvi" data-w="{kj}"></div><button class="kvr" onclick="kvPlay(this.previousElementSibling,1)">▶ Viết lại</button><button class="kvr" onclick="kvPlay(this.parentNode.querySelector(&quot;.kvi&quot;),.45)">Chậm</button>{rel(k["w"])}</div>'
                     f'<div class="kdr"><div class="kdh"><span class="kdw">{html.escape(k["w"])}</span><span class="kdv">{html.escape(k["hv"])}</span></div>'
                     f'<div class="st kdm"><span class="jp">{html.escape(k["r"])}</span> · {html.escape(k["vi"])}</div>'
                     f'<table class="kdt st"><tr><th>Chữ</th><th>Hán Việt</th><th>Âm On</th><th>Âm Kun</th><th>Nghĩa</th></tr>{rows}</table>'

@@ -37,11 +37,12 @@ EXTRA = '''
 .tline .pt{position:absolute;top:56px;width:34px;height:34px;border-radius:50%;background:#c42f66;border:6px solid #fff;box-shadow:0 2px 8px #0003;transform:translateX(-50%)}
 .tline .tx{position:absolute;top:0;transform:translateX(-50%);font:800 26px Quicksand,"Klee One",sans-serif;white-space:nowrap;color:#0d2b40}.tline .bx{position:absolute;top:104px;transform:translateX(-50%);font:700 24px Quicksand,"Klee One",sans-serif;white-space:nowrap;color:#47647a}
 .tline .span{position:absolute;top:62px;height:22px;border-radius:11px;background:#ffd16699;border:3px solid #f2a93b}
-.tf{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-top:10px}.tf div{background:#fff;border-radius:16px;padding:12px;text-align:center;box-shadow:0 6px 18px #0d2b4010}
+.tf{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-top:10px}.tf>div{background:#fff;border-radius:16px;padding:8px 10px;text-align:center;box-shadow:0 6px 18px #0d2b4010}
 .tf .v{font-family:"Klee One",serif;font-weight:600;font-size:36px}.tf .a{font-family:"Klee One",serif;font-weight:600;font-size:36px;color:#c42f66}.tf rt{font-size:.45em}
 .fill{font-size:34px;line-height:2;background:#fff;border-radius:18px;padding:14px 26px;box-shadow:0 6px 18px #0d2b4010}.fill rt{font-size:.45em}.fill .bl{display:inline-block;min-width:150px;border-bottom:4px solid #c42f66;text-align:center}.fill .bl span{color:#c42f66}
 .dlg{font-size:34px;line-height:1.85;background:#fff;border-radius:20px;padding:18px 28px;box-shadow:0 6px 18px #0d2b4010}.dlg rt{font-size:.45em}.dlg b{display:inline-block;width:44px;color:#0d5a8c}.dlg .sw{background:#fff0f5;color:#c42f66;border-radius:10px;padding:0 10px}.dlg small{display:block;font-size:22px;color:#47647a;line-height:1.3;margin:-4px 0 6px 44px}
 .ktb2 td{font-size:30px}
+.ck{font-size:28px!important;line-height:1.6!important}.kdh{margin-top:-8px}
 .kdt{font-size:25px!important}.kdt td{padding:8px 12px!important}.kdt .kk{font-size:44px!important}.kdw{font-size:90px!important}.kdv{font-size:34px!important}.kdm{font-size:34px!important;margin:2px 0 12px!important}
 .kdn{font-size:24px!important;padding:10px 16px!important;margin-top:10px!important}.kde{font-size:30px!important;padding:8px 16px!important;margin-top:10px!important;line-height:1.6!important}.kde small{font-size:22px!important}
 .qbig.sm{font-size:64px}.aud audio{width:230px}.pic .aud{margin:8px 0 0}.pic .aud span{font-size:18px}.pic .aud audio{width:200px;height:38px}
@@ -114,7 +115,7 @@ for ii, w in enumerate(KW):
     rows = ''.join(f'<tr><td class="kk">{html.escape(c["k"])}</td><td class="hh">{html.escape(c["hv"])}</td><td>{html.escape(c.get("on") or "–")}</td><td>{html.escape(c.get("kun") or "–")}</td><td class="mm">{html.escape(c.get("vi") or "")}</td></tr>' for c in k['chars'])
     tip = re.sub(r'^\s*(Mẹo nhớ|Mẹo|Ghi nhớ)\s*:\s*', '', k.get('tip') or ''); ex = k.get('ex') or {}
     sl(f'Chữ Hán <small>漢字のことば · {ii + 1}/{len(KW)}</small>',
-       f'<div class="kd"><div class="kdl"><div class="kvi" data-w="{kj}"></div><button class="kvr" onclick="kvPlay(this.previousElementSibling,1)">▶ Viết lại</button><button class="kvr" onclick="kvPlay(this.parentNode.querySelector(&quot;.kvi&quot;),.45)">Chậm</button></div>'
+       f'<div class="kd"><div class="kdl"><div class="kvi" data-w="{kj}"></div><button class="kvr" onclick="kvPlay(this.previousElementSibling,1)">▶ Viết lại</button><button class="kvr" onclick="kvPlay(this.parentNode.querySelector(&quot;.kvi&quot;),.45)">Chậm</button>{rel(w)}</div>'
        f'<div class="kdr"><div class="kdh"><span class="kdw">{html.escape(w)}</span><span class="kdv">{html.escape(k["hv"])}</span></div>'
        f'<div class="st kdm"><span class="jp">{html.escape(k["r"])}</span> · {html.escape(k["vi"])}</div>'
        f'<table class="kdt st"><tr><th>Chữ</th><th>Hán Việt</th><th>Âm On</th><th>Âm Kun</th><th>Nghĩa</th></tr>{rows}</table>'
@@ -123,7 +124,7 @@ for ii, w in enumerate(KW):
 RS = [('お元気ですか？', 'Bạn có khoẻ không?'), ('去年、日本に来ました。', 'Năm ngoái tôi đã sang Nhật.'), ('日本の生活に、もう慣れましたか？', 'Bạn đã quen với cuộc sống ở Nhật chưa?'),
       ('いいえ、学生です。今は、日本語学校に通っています。', 'Không, tôi là học sinh. Bây giờ tôi đang học ở trường tiếng Nhật.'), ('介護の仕事をしています。', 'Tôi đang làm công việc chăm sóc người cao tuổi.'), ('先週は、とても忙しかったです。', 'Tuần trước tôi rất bận.')]
 for h in (RS[:3], RS[3:]):
-    sl('Chữ Hán <small>Tự đọc trước → bấm để xem cách đọc</small>', '<div class="gp" style="min-height:0">' + ''.join(f'<div class="exl" style="margin-top:10px;font-size:40px"><div class="jpt">{html.escape(a)}</div><div class="st" style="font-size:36px">{J(a)}<small>{b}</small></div></div>' for a, b in h) + '</div>')
+    sl('Chữ Hán <small>Tự đọc trước → bấm để xem cách đọc</small>', '<div class="gp" style="min-height:0">' + ''.join(f'<div class="exl" style="margin-top:10px;font-size:34px;padding:10px 22px"><div class="jpt">{html.escape(a)}</div><div class="st" style="font-size:32px">{J(a)}<small>{b}</small></div></div>' for a, b in h) + '</div>')
 for n, w in enumerate(['生活', '働く', '去年']):
     k = K1[w]; o, a = shuf(k['r'], k['rd'], n + 1)
     quiz('Chữ Hán này đọc thế nào?', o, a, f'{w} đọc là <b>{k["r"]}</b> ({k["hv"]}) – {k["vi"]}', 'Chữ Hán いろどり 初級1 第1課', big=w)
