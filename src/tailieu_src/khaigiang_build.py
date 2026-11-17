@@ -83,7 +83,8 @@ sl('Phần 1 · 文字と語彙', 'Chữ – Từ vựng (1/2)', SH([('Tranh →
 sl('Phần 1 · 文字と語彙', 'Chữ – Từ vựng (2/2)', SH([('Đọc chữ Hán',6),('Chọn chữ Hán',9)],'Chú ý ゛ っ trường âm · chữ giống nhau (薬・楽・葉)'))
 sl('Phần 2 · 会話と表現', 'Hội thoại – Diễn đạt', SH([('Câu nói theo tình huống',12),('Ngữ pháp',22)],'Nhìn <b>câu đáp phía sau</b> chỗ trống'))
 sl('Phần 3 · 聴解', 'Nghe hiểu', SH([('Lựa chọn bằng chữ',24),('Lựa chọn bằng tranh',33)],'Bấm ▶ để nghe · tối đa <b>2 lần</b> · không quay lại câu trước'))
-sl('Phần 4 · 読解', 'Đọc hiểu', SH([('Bảng thông tin',38),('Thông báo',44)],'Đọc <b>câu hỏi trước</b> → quét từ khoá'))
+sl('Phần 4 · 読解', 'Đọc hiểu (1/2)', SH([('Tin nhắn LINE','line'),('Email','mail')],'Để ý <b>ai gửi · gửi cho ai</b> · ngày giờ'))
+sl('Phần 4 · 読解', 'Đọc hiểu (2/2)', SH([('Bảng thông báo','tb'),('Phiếu giảm giá','cp')],'Đọc <b>câu hỏi trước</b> → quét ngày giờ, số tiền, điều kiện'))
 # 9. Quy tắc trên máy
 sl('Quy tắc thi trên máy', '', f'''<div class="kgr g2"><div><ul class="kchk">
 <li>Sửa đáp án <b>trong cùng phần</b></li><li>Nút <b>Your Language</b></li><li>Không bỏ trống câu nào</li></ul></div>
