@@ -21,6 +21,7 @@ CSS = KGCSS + '''
 .kv img{width:100%;height:150px;object-fit:contain;display:block;margin:0 auto 6px}
 .kv .w{font-family:"Klee One",serif;font-weight:600;font-size:34px;line-height:1.5;color:#0d2b40;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.kv .w rt{font-size:.5em}
 .kv .w.sm{font-size:26px}
+.kv.noimg{display:flex;flex-direction:column;justify-content:center;min-height:220px}.kv.noimg .w{font-size:40px;white-space:normal}.kv.noimg .w.sm{font-size:32px}
 .kv .m{font-size:22px;color:#c42f66;font-weight:700;line-height:1.3;min-height:29px}
 /* chữ Hán */
 .kg{margin-top:6px}.kc .k{font-size:var(--ks,120px)}
@@ -83,6 +84,8 @@ KVGCSS = '''
 #kvo .ct{display:flex;gap:14px}#kvo .ct button{border:0;border-radius:99px;padding:12px 26px;font:700 24px Quicksand,sans-serif;cursor:pointer;background:#fff;color:#0d2b40}#kvo .ct button.p{background:#c42f66;color:#fff}
 #kvo .cap{color:#fff;font:700 28px Quicksand,sans-serif}#kvo .src2{color:#9fb6c8;font:500 16px Quicksand,sans-serif}
 '''
+VSTEP = '''<script>(()=>{const _st=step;step=function(){const s=S[cur];if(s&&s.querySelector('.vg')){for(const k of ['g1','g2']){const xs=s.querySelectorAll('.st.'+k+':not(.sh)');if(xs.length){xs.forEach(x=>x.classList.add('sh'));return}}}_st()};
+document.querySelectorAll('.kv').forEach(c=>c.onclick=e=>{e.stopPropagation();const x=c.querySelector('.st:not(.sh)');x&&x.classList.add('sh')});})();</script>'''
 KVGJS = '''<div id="kvo"><div class="cap"></div><div class="bx"></div><div class="ct"><button class="p" data-a="re">▶ Viết lại</button><button data-a="sl">Chậm</button><button data-a="fa">Nhanh</button><button data-a="x">✕ Đóng</button></div><div class="src2">Nét viết: KanjiVG (CC BY-SA 3.0)</div></div>
 <script>(()=>{const O=document.getElementById('kvo'),BX=O.querySelector('.bx'),NS='http://www.w3.org/2000/svg';let W='',sp=1,tm=[];
 function draw(){tm.forEach(clearTimeout);tm=[];BX.innerHTML='';let t=200;
@@ -165,9 +168,14 @@ def build(no, bais, title, sub, kanji, gsel, tables, quizzes_g, plan, ends, fnam
     sl('', f'<div class="sec"><div class="n">01</div><div class="t">Từ vựng</div><div class="j">ことば</div><div class="d">Nhìn tranh – đọc từ – bấm thẻ để xem nghĩa</div><div class="tm">{plan[0][0]} phút</div></div>')
     vq = []
     for b in bais:
-        ws = [w for w in VOC if w['b'] == b and w.get('img')][:10]
+        ws = ([w for w in VOC if w['b'] == b and w.get('img')] + [w for w in VOC if w['b'] == b and not w.get('img')])[:10]
         if not ws: continue
-        cards = ''.join(f'<div class="kc kv"><img src="{img(w["img"])}"><div class="w{" sm" if len(w["r"]) > 7 else ""}">{w["wr"]}</div><div class="st"><div class="m">{html.escape(w["vi"])}</div></div></div>' for w in ws)
+        def vcard(w):
+            wc = f'<div class="w{" sm" if len(w["r"]) > 7 else ""}">{w["wr"]}</div>'
+            vi = f'<div class="st g2"><div class="m">{html.escape(w["vi"])}</div></div>'
+            if w.get('img'): return f'<div class="kc kv"><img src="{img(w["img"])}"><div class="st g1">{wc}</div>{vi}</div>'
+            return f'<div class="kc kv noimg"><div class="nw">{wc}</div>{vi}</div>'
+        cards = ''.join(vcard(w) for w in ws)
         g = GB.get(b)
         sl(f'<span class="bt">Bài {b}</span> <span class="jpt">{RB(g["title"]) if g else ""}</span> <small>{html.escape(g["title_vi"]) if g else ""}</small>', f'<div class="vg">{cards}</div>')
         vq += [w for w in ws if w.get('rd')][2:3] + [w for w in ws if w.get('rd')][6:7]
@@ -237,7 +245,7 @@ def build(no, bais, title, sub, kanji, gsel, tables, quizzes_g, plan, ends, fnam
     S.append(f'''<section class="slide dark"><div class="cover"><img class="lg" src="{LOGO}"><div class="kk">おつかれさまでした！</div>
 <h1>Hết buổi {no}<br><span>{"Hẹn gặp lại ở buổi 2" if no == 1 else "Buổi sau: いろどり 初級1"}</span></h1>
 <p>Ôn lại trên app: Tài liệu → Từ vựng · Chữ Hán · Ngữ pháp (入門)</p></div>{CR}</section>''')
-    out = HEAD.replace('<title>Kính ngữ trong JFT-Basic</title>', f'<title>Buổi {no} · Tổng ôn いろどり 入門</title>') + ''.join(S) + '<script>window.KVG=' + json.dumps({c: KVG[c] for c in set(''.join(k['w'] for g_, _ in kanji for k in KAN if k['w'] in g_)) if c in KVG}, ensure_ascii=False, separators=(',', ':')) + '</script>' + KVGJS + TAIL
+    out = HEAD.replace('<title>Kính ngữ trong JFT-Basic</title>', f'<title>Buổi {no} · Tổng ôn いろどり 入門</title>') + ''.join(S) + '<script>window.KVG=' + json.dumps({c: KVG[c] for c in set(''.join(k['w'] for g_, _ in kanji for k in KAN if k['w'] in g_)) if c in KVG}, ensure_ascii=False, separators=(',', ':')) + '</script>' + KVGJS + TAIL + VSTEP
     open(R + 'public/tailieu/' + fname, 'w').write(out)
     print(fname, len(S), 'slides', len(out) // 1024, 'KB')
 
