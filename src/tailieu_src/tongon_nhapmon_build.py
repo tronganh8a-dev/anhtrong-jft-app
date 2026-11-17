@@ -70,6 +70,19 @@ CSS = KGCSS + '''
 .ls .qi{grid-template-columns:720px 1fr}.ls .lpic{max-height:520px}
 .lex{position:absolute;right:60px;top:120px;width:640px;max-height:640px;overflow:auto;font-size:24px!important;line-height:1.55!important;z-index:5;box-shadow:0 16px 40px #0d2b4030}
 .lex .ans{font-weight:800;color:#2f9e5b;margin-bottom:8px}.lex .lb{display:block;font-size:18px;font-weight:800;color:#c42f66;margin:10px 0 4px;letter-spacing:1px}.lex p{margin:0}.lex .v,.lex .vi{color:#47647a;font-size:20px;margin-bottom:6px}.lex rt{font-size:.5em}
+.kd{display:grid;grid-template-columns:640px 1fr;gap:44px;align-items:start;margin-top:4px}
+.kdl{display:flex;flex-direction:column;align-items:center;gap:12px}.kdl .kvr{border:0;border-radius:99px;background:#fff;color:#0d5a8c;font:700 22px Quicksand,sans-serif;padding:8px 22px;cursor:pointer;box-shadow:0 4px 12px #0d5a8c22;margin:0 4px}
+.kdl .kvr+.kvr{margin-top:-4px}
+.kvi{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}.kvi .cell{width:var(--cw,250px);height:var(--cw,250px);background:#fff;border-radius:22px;position:relative;box-shadow:0 10px 30px #0d2b4018}
+.kvi .cell:before,.kvi .cell:after{content:'';position:absolute;border:0 dashed #e8b4c6}.kvi .cell:before{left:50%;top:6%;bottom:6%;border-left-width:2px}.kvi .cell:after{top:50%;left:6%;right:6%;border-top-width:2px}
+.kvi svg{position:absolute;inset:0;width:100%;height:100%}.kvi .g path{stroke:#e3ebf2}.kvi .d path{stroke:#0d2b40}.kvi .d path.cur{stroke:#c42f66}.kvi text{font:700 7px Quicksand,sans-serif;fill:#c42f66}
+.kdh{display:flex;align-items:baseline;gap:24px}.kdw{font-family:"Klee One",serif;font-weight:600;font-size:110px;line-height:1.1;color:#0d2b40}.kdv{font-size:40px;font-weight:800;color:#c42f66;letter-spacing:1px}
+.kdm{font-size:42px;font-weight:700;margin:6px 0 18px}.kdm .jp{color:#0d5a8c;font-family:"Klee One",serif}
+.kdt{border-collapse:separate;border-spacing:0;width:100%;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 6px 18px #0d2b4010;font-size:30px}
+.kdt th{background:#0d5a8c;color:#fff;font-size:22px;padding:10px 16px;text-align:left}.kdt td{padding:14px 16px;border-bottom:2px solid #eef3f8;font-family:Quicksand,"Klee One",sans-serif;font-weight:600}
+.kdt .kk{font-family:"Klee One",serif;font-size:54px;line-height:1;color:#0d2b40}.kdt .hh{color:#c42f66;font-weight:800}.kdt .mm{color:#47647a}
+.kdn{margin-top:14px;background:#fff8e6;border-left:8px solid #f2a93b;border-radius:12px;padding:14px 20px;font-size:29px;line-height:1.5}.kdn b{color:#c47a00;margin-right:8px}
+.kde{margin-top:14px;background:#fff;border-radius:14px;padding:14px 20px;font-size:36px;line-height:1.8;box-shadow:0 6px 18px #0d2b4010}.kde rt{font-size:.5em}.kde small{display:block;font-size:26px;color:#47647a;line-height:1.4}
 .ck{list-style:none;font-size:31px;line-height:1.8}.ck li:before{content:"✓";color:#5a9e2f;font-weight:800;margin-right:14px}
 '''
 TAIL = open(R + 'src/tailieu_src/buoi15_tail.html').read()
@@ -87,7 +100,19 @@ KVGCSS = '''
 VSTEP = '''<script>(()=>{const _st=step;step=function(){const s=S[cur];if(s&&s.querySelector('.vg')){for(const k of ['g1','g2']){const xs=s.querySelectorAll('.st.'+k+':not(.sh)');if(xs.length){xs.forEach(x=>x.classList.add('sh'));return}}}_st()};
 document.querySelectorAll('.kv').forEach(c=>c.onclick=e=>{e.stopPropagation();const x=c.querySelector('.st:not(.sh)');x&&x.classList.add('sh')});})();</script>'''
 KVGJS = '''<div id="kvo"><div class="cap"></div><div class="bx"></div><div class="ct"><button class="p" data-a="re">▶ Viết lại</button><button data-a="sl">Chậm</button><button data-a="fa">Nhanh</button><button data-a="x">✕ Đóng</button></div><div class="src2">Nét viết: KanjiVG (CC BY-SA 3.0)</div></div>
-<script>(()=>{const O=document.getElementById('kvo'),BX=O.querySelector('.bx'),NS='http://www.w3.org/2000/svg';let W='',sp=1,tm=[];
+<script>window.kvDrawIn=(BX,W,sp,tm)=>{const NS='http://www.w3.org/2000/svg';tm.forEach(clearTimeout);tm.length=0;BX.innerHTML='';let t=250;const cs=[...W].filter(c=>KVG[c]);BX.style.setProperty('--cw',(cs.length>2?200:cs.length>1?305:420)+'px');
+ cs.forEach(c=>{const d=KVG[c],cell=document.createElement('div');cell.className='cell';const sv=document.createElementNS(NS,'svg');sv.setAttribute('viewBox','0 0 109 109');
+  const g=document.createElementNS(NS,'g'),dd=document.createElementNS(NS,'g'),tx=document.createElementNS(NS,'g');g.setAttribute('class','g');dd.setAttribute('class','d');
+  [g,dd].forEach(x=>{x.setAttribute('fill','none');x.setAttribute('stroke-width','4');x.setAttribute('stroke-linecap','round');x.setAttribute('stroke-linejoin','round')});
+  sv.append(g,dd,tx);cell.append(sv);BX.append(cell);
+  d.p.forEach((pd,i)=>{const a=document.createElementNS(NS,'path');a.setAttribute('d',pd);g.append(a);const b=document.createElementNS(NS,'path');b.setAttribute('d',pd);dd.append(b);
+   const L=b.getTotalLength();b.style.strokeDasharray=L;b.style.strokeDashoffset=L;const dur=(250+L*9)/sp;
+   tm.push(setTimeout(()=>{dd.querySelectorAll('.cur').forEach(x=>x.classList.remove('cur'));b.classList.add('cur');b.style.transition='stroke-dashoffset '+dur+'ms linear';b.style.strokeDashoffset=0;
+     const n=d.n[i];if(n){const e=document.createElementNS(NS,'text');e.setAttribute('x',n[0]);e.setAttribute('y',n[1]);e.textContent=i+1;tx.append(e)}},t));t+=dur+180/sp});
+  tm.push(setTimeout(()=>dd.querySelectorAll('.cur').forEach(x=>x.classList.remove('cur')),t));t+=350/sp});};
+window.kvPlay=(el,sp)=>{el._tm=el._tm||[];kvDrawIn(el,el.dataset.w,sp||1,el._tm)};
+new MutationObserver(ms=>ms.forEach(m=>{const s=m.target;if(s.classList&&s.classList.contains('on')&&!m.oldValue?.includes(' on')){s.querySelectorAll('.kvi').forEach(e=>kvPlay(e,1))}})).observe(document.getElementById('stage'),{subtree:true,attributes:true,attributeFilter:['class'],attributeOldValue:true});
+(()=>{const O=document.getElementById('kvo'),BX=O.querySelector('.bx'),NS='http://www.w3.org/2000/svg';let W='',sp=1,tm=[];
 function draw(){tm.forEach(clearTimeout);tm=[];BX.innerHTML='';let t=200;
  [...W].filter(c=>KVG[c]).forEach(c=>{const d=KVG[c],cell=document.createElement('div');cell.className='cell';const sv=document.createElementNS(NS,'svg');sv.setAttribute('viewBox','0 0 109 109');
   const g=document.createElementNS(NS,'g'),dd=document.createElementNS(NS,'g'),tx=document.createElementNS(NS,'g');g.setAttribute('class','g');dd.setAttribute('class','d');
@@ -198,7 +223,22 @@ def build(no, bais, title, sub, kanji, gsel, tables, quizzes_g, plan, ends, fnam
             kj = ''.join(c for c in k['w'] if c in KVG)
             kb = f'<button class="kw" data-w="{kj}" data-c="{html.escape(k["w"])} · {html.escape(k["hv"])}">✍ Nét</button>' if kj else ''
             return f'<div class="kc" style="--ks:{ksz}px">{kb}<div class="k"{" style=white-space:nowrap" if L <= 5 else ""}>{html.escape(k["w"])}</div><div class="st"><div class="hv">{html.escape(k["hv"])}</div><div class="rd jp">{html.escape(k["r"])}</div><div class="mn">{html.escape(k["vi"])}</div>{f"<div class=cs>{cs}</div>" if cs else ""}{ex}</div></div>'
-        sl(f'Chữ Hán <small>{gt}</small>', f'<div class="kg c{min(n, 5) if n != 7 else 7}">' + ''.join(kcard(k) for k in ks) + '</div>')
+        if n == 7 or any('、' in k['w'] for k in ks):
+            sl(f'Chữ Hán <small>{gt}</small>', f'<div class="kg c{min(n, 5) if n != 7 else 7}">' + ''.join(kcard(k) for k in ks) + '</div>')
+            continue
+        for ii, k in enumerate(ks):
+            kj = ''.join(c for c in k['w'] if c in KVG)
+            rows = ''.join(f'<tr><td class="kk">{html.escape(c["k"])}</td><td class="hh">{html.escape(c["hv"])}</td><td>{html.escape(c.get("on") or "–")}</td><td>{html.escape(c.get("kun") or "–")}</td><td class="mm">{html.escape(c.get("vi") or "")}</td></tr>' for c in k['chars'])
+            tip = re.sub(r'^\s*(Mẹo nhớ|Mẹo|Ghi nhớ)\s*:\s*', '', k.get('tip') or '')
+            ex = k.get('ex') or {}
+            body = (f'<div class="kd"><div class="kdl"><div class="kvi" data-w="{kj}"></div><button class="kvr" onclick="kvPlay(this.previousElementSibling,1)">▶ Viết lại</button><button class="kvr" onclick="kvPlay(this.parentNode.querySelector(&quot;.kvi&quot;),.45)">Chậm</button></div>'
+                    f'<div class="kdr"><div class="kdh"><span class="kdw">{html.escape(k["w"])}</span><span class="kdv">{html.escape(k["hv"])}</span></div>'
+                    f'<div class="st kdm"><span class="jp">{html.escape(k["r"])}</span> · {html.escape(k["vi"])}</div>'
+                    f'<table class="kdt st"><tr><th>Chữ</th><th>Hán Việt</th><th>Âm On</th><th>Âm Kun</th><th>Nghĩa</th></tr>{rows}</table>'
+                    + (f'<div class="kdn st"><b>Cách nhớ</b> {html.escape(tip)}</div>' if tip else '')
+                    + (f'<div class="kde st"><div class="jp">{ex["jp"]}</div><small>{html.escape(ex.get("vi", ""))}</small></div>' if ex.get('jp') else '')
+                    + '</div></div>')
+            sl(f'Chữ Hán <small>{gt} · {ii + 1}/{n}</small>', body)
     allk = [k for grp, _ in kanji for k in KAN if k['w'] in grp and k.get('rd')]
     pick = [allk[3], allk[len(allk) // 2], allk[-4]]
     for i, k in enumerate(pick[:2] if basic else pick):
@@ -291,7 +331,7 @@ build(1, range(1, 10), 'Tổng ôn 入門', 'Bài 1 – 9', [
     (8, ['❶', '❷', '❸', '❺'], {}),
     (9, ['❶', '❷', '❸'], {'❶': 'Giờ chính xác + に · khoảng giờ + ごろ (không cần に)'}),
   ], tab1, [(3, '❺', 0), (5, '❹', 0), (7, '❺', 0), (8, '❷', 0), (9, '❷', 0)],
-  [(20, 'Từ vựng', 'Bài 4–9: gia đình, món ăn, nhà ở, giờ giấc'), (15, 'Chữ Hán', '32 từ chữ Hán + nét viết'),
+  [(15, 'Từ vựng', 'Bài 4–9: gia đình, món ăn, nhà ở, giờ giấc'), (20, 'Chữ Hán', 'Từng chữ: nét viết, Hán Việt, On/Kun, ví dụ'),
    (40, 'Ngữ pháp', 'Câu danh từ, động từ ます, tính từ, あります・います'), (15, 'Nghe hiểu', '3 câu ngắn: vị trí, giờ hẹn, sở thích')],
   '<div class="kgr g2"><div class="kcd kb"><h3>Đã ôn</h3><ul class="ck"><li>Câu danh từ: です / じゃないです</li><li>Động từ: ます / ません</li><li>Tính từ な・い</li><li>あります・います, vị trí</li><li>Giờ: に・ごろ・から〜まで</li></ul></div>'
   '<div class="kcd kp"><h3>Bài tập về nhà</h3><ul class="ck"><li>App → Tài liệu → Từ vựng 入門 Bài 4–9</li><li>Chữ Hán: luyện cách đọc</li><li>Ngữ pháp: làm worksheet Bài 3–9</li></ul></div></div>',
@@ -344,7 +384,7 @@ build(2, range(10, 19), 'Tổng ôn 入門', 'Bài 10 – 18', [
     (17, ['❶', '❷', '❸', '❹', '❺'], {'❸': 'いい → よかったです'}),
     (18, ['❶', '❷', '❸', '❹', '❺', '❻'], {'❶': 'Bỏ ます + たいです'}),
   ], tab2, [(10, '❶', 0), (12, '❸', 0), (13, '❸', 0), (14, '❸', 0), (17, '❸', 0), (18, '❶', 0)],
-  [(20, 'Từ vựng', 'Bài 10–18: đồ dùng, sở thích, đi lại, mua sắm, du lịch'), (15, 'Chữ Hán', 'Số đếm, tiền, ngày tháng, đi lại + nét viết'),
+  [(15, 'Từ vựng', 'Bài 10–18: đồ dùng, sở thích, đi lại, mua sắm, du lịch'), (20, 'Chữ Hán', 'Từng chữ: nét viết, Hán Việt, On/Kun, ví dụ'),
    (40, 'Ngữ pháp', 'て-ください, rủ rê, trợ từ, こそあ, quá khứ, たい'), (15, 'Nghe hiểu', '4 câu: giá tiền, giờ hẹn, du lịch')],
   '<div class="kgr g2"><div class="kcd kb"><h3>Đã ôn</h3><ul class="ck"><li>V-てください · V-ませんか · V-ましょう</li><li>Trợ từ に・で・へ・を</li><li>こ・そ・あ・ど · いくら</li><li>Quá khứ: ました・でした・かったです</li><li>V-たいです · từ nối câu</li></ul></div>'
   '<div class="kcd kp"><h3>Bài tập về nhà</h3><ul class="ck"><li>App → Tài liệu → Từ vựng 入門 Bài 10–18</li><li>Chữ Hán: luyện cách đọc + chọn chữ</li><li>Làm đề: phần 会話と表現</li></ul></div></div>',
