@@ -42,6 +42,14 @@ EXTRA = '''
 .fill{font-size:34px;line-height:2;background:#fff;border-radius:18px;padding:14px 26px;box-shadow:0 6px 18px #0d2b4010}.fill rt{font-size:.45em}.fill .bl{display:inline-block;min-width:150px;border-bottom:4px solid #c42f66;text-align:center}.fill .bl span{color:#c42f66}
 .dlg{font-size:34px;line-height:1.85;background:#fff;border-radius:20px;padding:18px 28px;box-shadow:0 6px 18px #0d2b4010}.dlg rt{font-size:.45em}.dlg b{display:inline-block;width:44px;color:#0d5a8c}.dlg .sw{background:#fff0f5;color:#c42f66;border-radius:10px;padding:0 10px}.dlg small{display:block;font-size:22px;color:#47647a;line-height:1.3;margin:-4px 0 6px 44px}
 .ktb2 td{font-size:30px}
+.clw{display:flex;flex-wrap:wrap;gap:22px 26px;justify-content:center;align-content:center;flex:1;padding:6px 10px}
+.cld{position:relative;border:0;cursor:pointer;background:#fff;min-width:200px;height:132px;padding:10px 30px;border-radius:80px 90px 70px 85px/70px 60px 80px 65px;box-shadow:0 10px 26px #0d5a8c26,inset 0 -8px 0 #e6f1fb;display:flex;flex-direction:column;align-items:center;justify-content:center;transition:transform .2s}
+.cld:nth-child(3n){transform:rotate(-2deg)}.cld:nth-child(3n+1){transform:rotate(2deg) translateY(8px)}.cld:hover{transform:scale(1.06)}
+.cld i{position:absolute;left:-10px;top:-12px;width:46px;height:46px;border-radius:50%;background:#c42f66;color:#fff;font:800 24px Quicksand,sans-serif;font-style:normal;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 10px #c42f6655}
+.cld .cw{font-family:"Klee One",serif;font-weight:600;font-size:52px;line-height:1.1;color:#0d2b40}
+.cld .cr2{display:none;font:800 24px Quicksand,"Klee One",sans-serif;color:#0d5a8c;margin-top:4px}.cld .cr2 small{display:block;font-size:16px;color:#c42f66;letter-spacing:1px}
+.cld.on .cr2{display:block}.cld.on{background:#fff8e6}
+.shf{margin-left:auto;border:0;border-radius:99px;background:#0d5a8c;color:#fff;font:700 22px Quicksand,sans-serif;padding:8px 22px;cursor:pointer}
 .ck{font-size:28px!important;line-height:1.6!important}.kdh{margin-top:-8px}
 .kdt{font-size:25px!important}.kdt td{padding:8px 12px!important}.kdt .kk{font-size:44px!important}.kdw{font-size:90px!important}.kdv{font-size:34px!important}.kdm{font-size:34px!important;margin:2px 0 12px!important}
 .kdn{font-size:24px!important;padding:10px 16px!important;margin-top:10px!important}.kde{font-size:30px!important;padding:8px 16px!important;margin-top:10px!important;line-height:1.6!important}.kde small{font-size:22px!important}
@@ -105,6 +113,17 @@ for n, (q, r, wr) in enumerate([('6か月', 'ろっかげつ', ['ろくかげつ
     o, a = shuf(r, wr, n + 2)
     quiz('Đọc thế nào?', o, a, f'{q} đọc là <b>{r}</b> (câu tự soạn)', 'Câu tự soạn', big=q)
 
+# Trắc nghiệm bối cảnh dùng từ (câu tự soạn, từ của bài)
+CTX = [('おじいさんやおばあさんの世話をしています。（　）の仕事です。', ['介護', '建設', '工場'], 0, '世話をする = chăm sóc → 介護の仕事 (công việc chăm sóc người cao tuổi).'),
+       ('畑で（　）を作っています。', ['野菜', '料理', '学校'], 0, 'Ở ruộng (畑) → 野菜を作る: trồng rau.'),
+       ('A：日本の生活に、もう（　）か？　B：はい、おかげさまで。', ['慣れました', '疲れました', '働きました'], 0, '生活に慣れる: quen với cuộc sống.'),
+       ('仕事は大変です。でも、みんな（　）です。', ['親切', 'まだ', '半年'], 0, 'みんな親切です: mọi người tốt bụng.'),
+       ('日本に来て、ちょうど（　）になります。6か月です。', ['半年', '1年', '先月'], 0, '6か月 = 半年 (nửa năm); 先月 là mốc thời gian, không đi với になります.'),
+       ('今、専門学校に（　）います。プログラミングを勉強しています。', ['通って', '働いて', '作って'], 0, '学校に通う: đi học (đều đặn) ở trường.'),
+       ('毎日8時間、立って働きます。とても（　）。', ['疲れます', '慣れます', '通います'], 0, 'Làm việc đứng 8 tiếng → 疲れます (mệt).')]
+for n, (q, o, a, e) in enumerate(CTX):
+    oo, k = shuf(o[a], [x for i, x in enumerate(o) if i != a], n)
+    quiz(J(q).replace('（　）', '<u>（　　）</u>'), [J(x) for x in oo], k, e, 'Chọn từ hợp ngữ cảnh · câu tự soạn')
 # ===== 2. Chữ Hán
 sec('02', 'Chữ Hán', 'かんじ', 'Nét viết · Hán Việt · On/Kun · ví dụ', 15)
 K1['仕事'] = {'w': '仕事', 'r': 'しごと', 'vi': 'Công việc', 'hv': 'SĨ SỰ', 'chars': [{'k': '仕', 'hv': 'SĨ', 'on': 'シ', 'kun': 'つか.える', 'vi': 'phục vụ, làm'}, {'k': '事', 'hv': 'SỰ', 'on': 'ジ', 'kun': 'こと', 'vi': 'việc'}],
@@ -132,6 +151,14 @@ for n, w in enumerate(['学校', '先週', '忙しい']):
     k = K1[w]; o, a = shuf(w, k['wk'], n + 2)
     quiz('Chọn chữ Hán đúng.', o, a, f'<b>{w}</b> ({k["hv"]}) – {k["vi"]}', 'Chữ Hán いろどり 初級1 第1課', big=k['r'] if len(k['r']) <= 4 else f'<span style="font-size:60px">{k["r"]}</span>')
 
+# Màn "đám mây": chỉ ô nào đọc ô đó (số thứ tự đảo ngẫu nhiên)
+CW = KW + ['大学', '高校生', '先生', '来年', '今週', '仕事中']
+CW = [w for w in CW if w in K1 or any(v['h'] == w for v in _VW)]
+def _rd(w):
+    if w in K1: return K1[w]['r'], K1[w]['hv']
+    v = next(v for v in _VW if v['h'] == w); return v['y'], v.get('hv', '')
+clouds = ''.join(f'<button class="cld" data-r="{html.escape(_rd(w)[0])}"><i></i><span class="cw">{html.escape(w)}</span><span class="cr2">{html.escape(_rd(w)[0])}<small>{html.escape(_rd(w)[1])}</small></span></button>' for w in CW)
+sl('Chữ Hán <small>Chỉ ô nào – đọc ô đó · bấm ô để xem cách đọc</small> <button class="shf" onclick="cloudMix(this.closest(&quot;.slide&quot;))">🔀 Đảo lại</button>', f'<div class="clw">{clouds}</div>')
 # ===== 3. Ngữ pháp
 sec('03', 'Ngữ pháp', 'ぶんぽう', 'Mẫu câu – tranh – giải thích – luyện tập', 35)
 P = {p['no']: p for p in GB1['points']}
@@ -234,6 +261,8 @@ S.append(f'''<section class="slide dark"><div class="cover"><img class="lg" src=
 
 used = set(''.join(KW))
 out = (HEAD2.replace('<title>Kính ngữ trong JFT-Basic</title>', '<title>Buổi 1 · いろどり 初級1 第1課</title>') + ''.join(S)
-       + '<script>window.KVG=' + json.dumps({c: KVG[c] for c in used if c in KVG}, ensure_ascii=False, separators=(',', ':')) + '</script>' + KVGJS + TAIL + VSTEP)
+       + '<script>window.KVG=' + json.dumps({c: KVG[c] for c in used if c in KVG}, ensure_ascii=False, separators=(',', ':')) + '</script>' + KVGJS + TAIL + VSTEP + '''<script>window.cloudMix=s=>{const w=s.querySelector('.clw');const a=[...w.children];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}a.forEach(x=>{x.classList.remove('on');w.appendChild(x)});
+const n=a.map((_,i)=>i+1);for(let i=n.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[n[i],n[j]]=[n[j],n[i]]}a.forEach((x,i)=>x.querySelector('i').textContent=n[i])};
+document.querySelectorAll('.clw').forEach(w=>{cloudMix(w.closest('.slide'));w.querySelectorAll('.cld').forEach(c=>c.onclick=e=>{e.stopPropagation();c.classList.toggle('on')})});</script>''')
 open(R + 'public/tailieu/Buoi01_Shokyu1_Bai01.html', 'w').write(out)
 print(len(S), 'slides', len(out) // 1024, 'KB')
