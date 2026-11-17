@@ -185,9 +185,10 @@ def img(name, w=360):
         _IMG[name] = 'data:image/jpeg;base64,' + base64.b64encode(b.getvalue()).decode()
     return _IMG[name]
 
-def build(no, bais, title, sub, kanji, gsel, tables, quizzes_g, plan, ends, fname, basic, listen):
+def build(no, bais, title, sub, kanji, gsel, tables, quizzes_g, plan, ends, fname, basic, listen, hooks=None, extra_js='', label=None, coverp=None):
+    hooks = hooks or {}; label = label or f'Buổi {no}'
     S = []
-    CR = f'<div class="cr">Tổng ôn いろどり 入門 · Buổi {no} · Anh Trọng Dạy JFT · 出典：いろどり 生活の日本語 入門 (Quỹ Giao lưu Quốc tế Nhật Bản), 文法ノート いろどり · nét viết: KanjiVG (CC BY-SA 3.0) · bảng tổng hợp và lưu ý là tự soạn</div>'
+    CR = f'<div class="cr">Tổng ôn いろどり 入門 · {label} · Anh Trọng Dạy JFT · 出典：いろどり 生活の日本語 入門 (Quỹ Giao lưu Quốc tế Nhật Bản), 文法ノート いろどり · nét viết: KanjiVG (CC BY-SA 3.0) · bảng tổng hợp và lưu ý là tự soạn</div>'
     def sl(t, body, cls=''):
         S.append(f'<section class="slide{(" " + cls) if cls else ""}">{("<h2>" + t + "</h2>") if t else ""}{body}{CR}</section>')
     NQ = [0]
@@ -204,12 +205,12 @@ def build(no, bais, title, sub, kanji, gsel, tables, quizzes_g, plan, ends, fnam
         opts = opts[k:] + opts[:k]; return opts, opts.index(right)
 
     # 1. Bìa + kế hoạch
-    S.append(f'''<section class="slide dark"><div class="cover"><img class="lg" src="{LOGO}"><div class="kk">BUỔI {no} · TỔNG ÔN いろどり 入門</div>
-<h1>{title}<br><span>{sub}</span></h1><p>Từ vựng · Chữ Hán · Ngữ pháp · 90 phút</p></div>{CR}</section>''')
-    sl(f'Nội dung buổi {no} <small>90 phút</small>', '<div class="plan">' + ''.join(f'<div><b>{m}′</b><h3>{h}</h3><p>{p}</p></div>' for m, h, p in plan) + '</div>')
+    S.append(f'''<section class="slide dark"><div class="cover"><img class="lg" src="{LOGO}"><div class="kk">{label.upper()} · TỔNG ÔN いろどり 入門</div>
+<h1>{title}<br><span>{sub}</span></h1><p>{coverp or 'Từ vựng · Chữ Hán · Ngữ pháp · 90 phút'}</p></div>{CR}</section>''')
+    sl(f'Nội dung {label.lower()} <small>{"90 phút" if not coverp else ""}</small>', '<div class="plan">' + ''.join(f'<div><b>{m if isinstance(m, str) else str(m) + "′"}</b><h3>{h}</h3><p>{p}</p></div>' for m, h, p in plan) + '</div>')
 
     # 2. Từ vựng
-    sl('', f'<div class="sec"><div class="n">01</div><div class="t">Từ vựng</div><div class="j">ことば</div><div class="d">Nhìn tranh – đọc từ – bấm thẻ để xem nghĩa</div><div class="tm">{plan[0][0]} phút</div></div>')
+    sl('', f'<div class="sec"><div class="n">01</div><div class="t">Từ vựng</div><div class="j">ことば</div><div class="d">Nhìn tranh – đọc từ – bấm thẻ để xem nghĩa</div>{f"<div class=tm>{plan[0][0]} phút</div>" if isinstance(plan[0][0], int) else ""}</div>')
     vq = []
     for b in bais:
         ws = ([w for w in VOC if w['b'] == b and w.get('img')] + [w for w in VOC if w['b'] == b and not w.get('img')])[:10]
@@ -227,8 +228,9 @@ def build(no, bais, title, sub, kanji, gsel, tables, quizzes_g, plan, ends, fnam
         opts, a = shuf(w['r'], w['rd'], i + 1)
         quiz('Nhìn tranh, chọn cách đọc đúng.', [html.escape(o) for o in opts], a, f'<span class="jp">{w["wr"]}</span> ({html.escape(w["r"])}) – {html.escape(w["vi"])}', 'Từ vựng いろどり 入門 Bài ' + str(w['b']), pic=img(w['img']))
 
+    if 'vocab' in hooks: hooks['vocab'](S, sl, quiz, CR)
     # 3. Chữ Hán
-    sl('', f'<div class="sec"><div class="n">02</div><div class="t">Chữ Hán</div><div class="j">かんじ</div><div class="d">Âm Hán Việt · cách đọc · nghĩa · câu ví dụ</div><div class="tm">{plan[1][0]} phút</div></div>')
+    sl('', f'<div class="sec"><div class="n">02</div><div class="t">Chữ Hán</div><div class="j">かんじ</div><div class="d">Âm Hán Việt · cách đọc · nghĩa · câu ví dụ</div>{f"<div class=tm>{plan[1][0]} phút</div>" if isinstance(plan[1][0], int) else ""}</div>')
     for grp, gt in kanji:
         ks = [k for k in KAN if k['w'] in grp]
         ks.sort(key=lambda k: grp.index(k['w']))
@@ -270,8 +272,9 @@ def build(no, bais, title, sub, kanji, gsel, tables, quizzes_g, plan, ends, fnam
         opts, a = shuf(k['w'], k['wk'], i + 3)
         quiz('Chọn chữ Hán đúng.', [html.escape(o) for o in opts], a, f'<b>{html.escape(k["w"])}</b> ({html.escape(k["hv"])}) – {html.escape(k["vi"])}', 'Chữ Hán いろどり 入門', big=html.escape(k['r']))
 
+    if 'kanji' in hooks: hooks['kanji'](S, sl, quiz, CR)
     # 4. Ngữ pháp
-    sl('', f'<div class="sec"><div class="n">03</div><div class="t">Ngữ pháp</div><div class="j">ぶんぽう</div><div class="d">Mẫu câu – nghĩa – câu ví dụ trong sách</div><div class="tm">{plan[2][0]} phút</div></div>')
+    sl('', f'<div class="sec"><div class="n">03</div><div class="t">Ngữ pháp</div><div class="j">ぶんぽう</div><div class="d">Mẫu câu – nghĩa – câu ví dụ trong sách</div>{f"<div class=tm>{plan[2][0]} phút</div>" if isinstance(plan[2][0], int) else ""}</div>')
     for b, nos, notes in gsel:
         g = GB[b]; pts = [p for p in g['points'] if p['no'] in nos]
         mx = 3 if all(len(re.sub(r'\{([^|]+)\|[^}]+\}', r'\1', p['pattern'])) <= 16 and len(re.sub(r'\{([^|]+)\|[^}]+\}', r'\1', p['examples'][0]['jp'] if p['examples'] else '')) <= 26 for p in pts) else 2
@@ -290,8 +293,9 @@ def build(no, bais, title, sub, kanji, gsel, tables, quizzes_g, plan, ends, fnam
         q = next(p for p in GB[b]['points'] if p['no'] == pno)['quiz'][qi]
         quiz(RB(q['q']).replace('（　）', '<u>（　　）</u>'), [RB(o) for o in q['o']], q['a'], html.escape(q.get('ex_vi', '')), f'文法ノート いろどり 入門 Bài {b}')
 
+    if 'gram' in hooks: hooks['gram'](S, sl, quiz, CR)
     # 5. Nghe hiểu (câu lấy từ ngân hàng đề trong app)
-    sl('', f'<div class="sec"><div class="n">04</div><div class="t">Nghe hiểu</div><div class="j">ちょうかい</div><div class="d">Đọc câu hỏi trước → nghe → chọn đáp án</div><div class="tm">{plan[3][0]} phút</div></div>')
+    sl('', f'<div class="sec"><div class="n">04</div><div class="t">Nghe hiểu</div><div class="j">ちょうかい</div><div class="d">Đọc câu hỏi trước → nghe → chọn đáp án</div>{f"<div class=tm>{plan[3][0]} phút</div>" if isinstance(plan[3][0], int) else ""}</div>')
     for j, (eid, qi) in enumerate(listen):
         e = EXAMS[eid]; q = e['qs'][qi]; ks = 'abcd'; a = q['a'][0]
         hasimg = any(o.get('img') for o in q['o'])
@@ -301,12 +305,13 @@ def build(no, bais, title, sub, kanji, gsel, tables, quizzes_g, plan, ends, fnam
         body = f'<div class="lsn"><audio controls preload="none" src="{aud(q["au"])}"></audio></div>' + (f'<div class="qi">{pic}{op}</div>' if pic else op)
         S.append(f'<section class="slide qz ls"><div class="kk2">Nghe hiểu {j + 1} <span class="src">Nguồn: {html.escape(e["title"])} · câu {qi + 1} (app luyện thi)</span></div><h2 class="jp q">{q["t"]}</h2>{body}<div class="ex lex">{q.get("ex", "")}</div><button class="lsb" onclick="this.previousElementSibling.classList.toggle(&quot;open&quot;)">📄 Script</button>{CR}</section>')
 
+    if 'listen' in hooks: hooks['listen'](S, sl, quiz, CR)
     # 6. Kết
-    sl(f'Tổng kết buổi {no}', ends)
+    sl(f'Tổng kết {label.lower()}', ends)
     S.append(f'''<section class="slide dark"><div class="cover"><img class="lg" src="{LOGO}"><div class="kk">おつかれさまでした！</div>
-<h1>Hết buổi {no}<br><span>{"Hẹn gặp lại ở buổi 2" if no == 1 else "Buổi sau: いろどり 初級1"}</span></h1>
+<h1>Hết {label.lower()}<br><span>{"Hẹn gặp lại ở buổi 2" if no == 1 else "Tiếp theo: いろどり 初級1"}</span></h1>
 <p>Ôn lại trên app: Tài liệu → Từ vựng · Chữ Hán · Ngữ pháp (入門)</p></div>{CR}</section>''')
-    out = HEAD.replace('<title>Kính ngữ trong JFT-Basic</title>', f'<title>Buổi {no} · Tổng ôn いろどり 入門</title>') + ''.join(S) + '<script>window.KVG=' + json.dumps({c: KVG[c] for c in set(''.join(k['w'] for g_, _ in kanji for k in KAN if k['w'] in g_)) if c in KVG}, ensure_ascii=False, separators=(',', ':')) + '</script>' + KVGJS + TAIL + VSTEP
+    out = HEAD.replace('<title>Kính ngữ trong JFT-Basic</title>', f'<title>{label} · Tổng ôn いろどり 入門</title>') + ''.join(S) + '<script>window.KVG=' + json.dumps({c: KVG[c] for c in set(''.join(k['w'] for g_, _ in kanji for k in KAN if k['w'] in g_)) if c in KVG}, ensure_ascii=False, separators=(',', ':')) + '</script>' + KVGJS + TAIL + VSTEP + extra_js
     open(R + 'public/tailieu/' + fname, 'w').write(out)
     print(fname, len(S), 'slides', len(out) // 1024, 'KB')
 
