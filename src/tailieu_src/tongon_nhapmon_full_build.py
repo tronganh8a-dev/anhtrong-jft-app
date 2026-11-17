@@ -108,36 +108,52 @@ def _tables():
     t = dict(g['tab1']); t.update(g['tab2']); return t
 TABLES = _tables()
 
-def h_vocab(S, sl, quiz, CR):
-    sl('', '<div class="sec"><div class="n">🎮</div><div class="t">Trò chơi từ vựng</div><div class="j">ゲーム</div><div class="d">Thử thách tốc độ · nhìn tranh nói từ</div></div>')
-    rnd = random.Random(7)
-    pool1 = [w for w in VOC if w.get('img') and w['b'] <= 9]; pool2 = [w for w in VOC if w.get('img') and w['b'] >= 10]
-    speed(S, sl, rnd.sample(pool1, 15), 'Bài 4–9', 4)
-    speed(S, sl, rnd.sample(pool2, 15), 'Bài 10–18', 4)
-    qs = [w for w in VOC if w.get('rd') and w.get('img')]
-    for n, w in enumerate(random.Random(11).sample(qs, 6)):
-        o = [w['r']] + w['rd'][:3]; k = n % 4; o = o[k:] + o[:k]
-        quiz('Nhìn tranh, chọn cách đọc đúng.', [html.escape(x) for x in o], o.index(w['r']), f'<span class="jp">{w["wr"]}</span> – {html.escape(w["vi"])}', f'Từ vựng いろどり 入門 Bài {w["b"]}', pic=img(w['img']))
-def h_kanji(S, sl, quiz, CR):
+def mk_hooks(part):
+    rnd = random.Random(7 + part)
     KK = {k['w']: k for k in KAN}
-    w1 = [KK[w] for g, _ in KANJI[:7] for w in g if w in KK and '、' not in w and '曜日' not in w][:16]
-    w2 = [KK[w] for g, _ in KANJI[7:] for w in g if w in KK and '、' not in w]
-    random.Random(3).shuffle(w2)
-    cloud(sl, w1, 'Bài 1–9'); cloud(sl, w2[:16], 'Bài 10–18 (1)'); cloud(sl, w2[16:32], 'Bài 10–18 (2)')
-def h_gram(S, sl, quiz, CR):
-    sl('', '<div class="sec"><div class="n">🎮</div><div class="t">Trò chơi ngữ pháp</div><div class="j">ゲーム</div><div class="d">Điền trợ từ · Sắp xếp câu</div></div>')
-    particles(sl, [('肉と野菜', 'が', '好きです。', 'Tôi thích thịt và rau.'), ('シリアル', 'を', '食べます。', 'Tôi ăn ngũ cốc.'), ('田中さんは倉庫', 'に', 'います。', 'Anh Tanaka ở trong kho.'),
-                   ('ブラジル', 'から', '来ました。', 'Tôi đến từ Brazil.'), ('夫と公園', 'で', 'テニスをします。', 'Tôi chơi tennis cùng chồng ở công viên.'), ('バイク', 'で', '来ます。', 'Tôi đến bằng xe máy.'),
-                   ('京都', 'へ', '行きたいです。', 'Tôi muốn đi Kyoto.'), ('ケマラさん', 'も', '、ベトナムからですか？', 'Chị Khemera cũng đến từ Việt Nam à?')], 'Bài 3–18')
-    for n, (ch, vi) in enumerate([(['家族は、', 'フィリピンに', '住んでいます。'], 'Gia đình tôi sống ở Philippines.'), (['私は、', '朝ご飯は、', 'あまり', '食べません。'], 'Tôi không mấy khi ăn sáng.'),
-                                   (['生ビール3つと、', 'ウーロン茶1つ、', 'お願いします。'], 'Cho tôi 3 bia tươi và 1 trà ô long.'), (['12時から', '1時まで', '昼休みです。'], 'Nghỉ trưa từ 12 giờ đến 1 giờ.'),
-                                   (['休みの日は、', 'たいてい、', '映画を', '見ます。'], 'Ngày nghỉ tôi thường xem phim.'), (['ここから、', '12番の', 'バスに', '乗ります。'], 'Từ đây lên xe buýt số 12.'),
-                                   (['週末は、', '何も', 'しませんでした。'], 'Cuối tuần tôi đã không làm gì cả.')], 1):
-        order(sl, ch, vi, n)
+    def h_vocab(S, sl, quiz, CR):
+        sl('', '<div class="sec"><div class="n">🎮</div><div class="t">Trò chơi từ vựng</div><div class="j">ゲーム</div><div class="d">Thử thách tốc độ · nhìn tranh nói từ</div></div>')
+        pool = [w for w in VOC if w.get('img') and ((w['b'] <= 9) if part == 1 else (w['b'] >= 10))]
+        speed(S, sl, rnd.sample(pool, 15), 'Bài 4–9' if part == 1 else 'Bài 10–18', 4)
+        qs = [w for w in pool if w.get('rd')]
+        for n, w in enumerate(rnd.sample(qs, 4)):
+            o = [w['r']] + w['rd'][:3]; k = n % 4; o = o[k:] + o[:k]
+            quiz('Nhìn tranh, chọn cách đọc đúng.', [html.escape(x) for x in o], o.index(w['r']), f'<span class="jp">{w["wr"]}</span> – {html.escape(w["vi"])}', f'Từ vựng いろどり 入門 Bài {w["b"]}', pic=img(w['img']))
+    def h_kanji(S, sl, quiz, CR):
+        grp = KANJI[:7] if part == 1 else KANJI[7:]
+        ws = [KK[w] for g, _ in grp for w in g if w in KK and '、' not in w and (part == 2 or '曜日' not in w)]
+        if part == 1: cloud(sl, ws[:16], 'Bài 1–9')
+        else:
+            rnd.shuffle(ws); cloud(sl, ws[:16], 'Bài 10–18 (1)'); cloud(sl, ws[16:32], 'Bài 10–18 (2)')
+    def h_gram(S, sl, quiz, CR):
+        sl('', '<div class="sec"><div class="n">🎮</div><div class="t">Trò chơi ngữ pháp</div><div class="j">ゲーム</div><div class="d">Điền trợ từ · Sắp xếp câu</div></div>')
+        if part == 1:
+            particles(sl, [('肉と野菜', 'が', '好きです。', 'Tôi thích thịt và rau.'), ('シリアル', 'を', '食べます。', 'Tôi ăn ngũ cốc.'), ('田中さんは倉庫', 'に', 'います。', 'Anh Tanaka ở trong kho.'), ('ブラジル', 'から', '来ました。', 'Tôi đến từ Brazil.'),
+                           ('ケマラさん', 'も', '、ベトナムからですか？', 'Chị Khemera cũng đến từ Việt Nam à?'), ('12時', 'から', '1時まで昼休みです。', 'Nghỉ trưa từ 12 giờ đến 1 giờ.')], 'Bài 3–9')
+            ords = [(['家族は、', 'フィリピンに', '住んでいます。'], 'Gia đình tôi sống ở Philippines.'), (['私は、', '朝ご飯は、', 'あまり', '食べません。'], 'Tôi không mấy khi ăn sáng.'),
+                    (['生ビール3つと、', 'ウーロン茶1つ、', 'お願いします。'], 'Cho tôi 3 bia tươi và 1 trà ô long.'), (['12時から', '1時まで', '昼休みです。'], 'Nghỉ trưa từ 12 giờ đến 1 giờ.')]
+        else:
+            particles(sl, [('夫と公園', 'で', 'テニスをします。', 'Tôi chơi tennis cùng chồng ở công viên.'), ('バイク', 'で', '来ます。', 'Tôi đến bằng xe máy.'), ('京都', 'へ', '行きたいです。', 'Tôi muốn đi Kyoto.'),
+                           ('ここから、12番のバス', 'に', '乗ります。', 'Từ đây lên xe buýt số 12.'), ('週末は、何', 'も', 'しませんでした。', 'Cuối tuần tôi đã không làm gì cả.'), ('休みの日は、たいてい、映画', 'を', '見ます。', 'Ngày nghỉ tôi thường xem phim.')], 'Bài 10–18')
+            ords = [(['休みの日は、', 'たいてい、', '映画を', '見ます。'], 'Ngày nghỉ tôi thường xem phim.'), (['ここから、', '12番の', 'バスに', '乗ります。'], 'Từ đây lên xe buýt số 12.'), (['週末は、', '何も', 'しませんでした。'], 'Cuối tuần tôi đã không làm gì cả.')]
+        for n, (ch, vi) in enumerate(ords, 1): order(sl, ch, vi, n)
+    return {'vocab': h_vocab, 'kanji': h_kanji, 'gram': h_gram}
 
-build(0, range(1, 19), 'Tổng ôn toàn diện', 'いろどり 入門 · Bài 1 – 18', KANJI, GSEL, TABLES, QG,
-      [('📚', 'Từ vựng', 'Bài 4–18 có tranh + thử thách tốc độ'), ('✍', 'Chữ Hán', 'Từng chữ có nét viết + đám mây đọc chữ'), ('🧩', 'Ngữ pháp', 'Bài 3–18, bảng tổng hợp, điền trợ từ, sắp xếp câu'), ('🎧', 'Nghe hiểu', '10 câu nghe trong bộ đề app')],
-      '<div class="kgr g2"><div class="kcd kb"><h3>Đã ôn</h3><ul class="ck"><li>Câu danh từ · động từ ます · tính từ な/い</li><li>あります・います · vị trí · giờ</li><li>て-ください · rủ rê · trợ từ に/で/へ/を</li><li>こそあど · quá khứ · たい · từ nối câu</li></ul></div>'
-      '<div class="kcd kp"><h3>Tự ôn trên app</h3><ul class="ck"><li>Tài liệu → Từ vựng · Chữ Hán 入門</li><li>Tài liệu → Ngữ pháp 入門: worksheet</li><li>Làm đề: phần 会話と表現</li></ul></div></div>',
-      'TongOn_NhapMon_ToanDien.html', False, LISTEN,
-      hooks={'vocab': h_vocab, 'kanji': h_kanji, 'gram': h_gram}, extra_js=GAMECSS + GAMEJS, label='Toàn diện', coverp='Từ vựng · Chữ Hán · Ngữ pháp · Nghe · Trò chơi ôn tập')
+END = ('<div class="kgr g2"><div class="kcd kb"><h3>Đã ôn</h3><ul class="ck"><li>Câu danh từ · động từ ます · tính từ な/い</li><li>あります・います · vị trí · giờ</li><li>て-ください · rủ rê · trợ từ に/で/へ/を</li><li>こそあど · quá khứ · たい · từ nối câu</li></ul></div>'
+       '<div class="kcd kp"><h3>Tự ôn trên app</h3><ul class="ck"><li>Tài liệu → Từ vựng · Chữ Hán 入門</li><li>Tài liệu → Ngữ pháp 入門: worksheet</li><li>Làm đề: phần 会話と表現</li></ul></div></div>')
+PL = [('📚', 'Từ vựng', ''), ('✍', 'Chữ Hán', ''), ('🧩', 'Ngữ pháp', ''), ('🎧', 'Nghe hiểu', '')]
+P1 = build(0, range(1, 10), '', '', KANJI[:7], GSEL[:7], TABLES, QG[:7], PL, END, None, False, LISTEN[:4], hooks=mk_hooks(1), label='Toàn diện', bare=True)
+P2 = build(0, range(10, 19), '', '', KANJI[7:], GSEL[7:], TABLES, QG[7:], PL, END, None, False, LISTEN[4:], hooks=mk_hooks(2), label='Toàn diện', bare=True)
+CR = '<div class="cr">Tổng ôn いろどり 入門 · Toàn diện · Anh Trọng Dạy JFT · 出典：いろどり 生活の日本語 入門 (Quỹ Giao lưu Quốc tế Nhật Bản), 文法ノート いろどり · nét viết: KanjiVG (CC BY-SA 3.0) · bảng tổng hợp, trò chơi là tự soạn</div>'
+def part(n, t, d):
+    return f'<section class="slide dark"><div class="cover"><img class="lg" src="{LOGO}"><div class="kk">PHẦN {n} / 2</div><h1>{t}</h1><p>{d}</p><ul><li>Từ vựng + thử thách tốc độ</li><li>Chữ Hán + đám mây đọc chữ</li><li>Ngữ pháp + điền trợ từ + sắp xếp câu</li><li>Nghe hiểu</li></ul></div>{CR}</section>'
+S = [f'''<section class="slide dark"><div class="cover"><img class="lg" src="{LOGO}"><div class="kk">TỔNG ÔN TOÀN DIỆN · いろどり 入門</div><h1>入門 総復習<br><span>Bài 1 – 18</span></h1><p>2 vòng: Bài 1–9 → Bài 10–18 · mỗi vòng đủ Từ vựng · Chữ Hán · Ngữ pháp · Nghe</p></div>{CR}</section>''',
+     part(1, 'Bài 1 – 9', 'Chào hỏi · gia đình · món ăn · nhà ở · vị trí · giờ giấc')] + P1 + \
+    [part(2, 'Bài 10 – 18', 'Đồ dùng · sở thích · rủ rê · đi lại · mua sắm · du lịch')] + P2 + \
+    [f'<section class="slide"><h2>Tổng kết</h2>{END}{CR}</section>',
+     f'''<section class="slide dark"><div class="cover"><img class="lg" src="{LOGO}"><div class="kk">おつかれさまでした！</div><h1>Hết tổng ôn 入門<br><span>Tiếp theo: いろどり 初級1</span></h1><p>Ôn lại trên app: Tài liệu → Từ vựng · Chữ Hán · Ngữ pháp (入門)</p></div>{CR}</section>''']
+used = set(''.join(k['w'] for g_, _ in KANJI for k in KAN if k['w'] in g_))
+out = (HEAD.replace('<title>Kính ngữ trong JFT-Basic</title>', '<title>Tổng ôn toàn diện いろどり 入門</title>') + ''.join(S)
+       + '<script>window.KVG=' + json.dumps({c: KVG[c] for c in used if c in KVG}, ensure_ascii=False, separators=(',', ':')) + '</script>' + KVGJS + TAIL + VSTEP + GAMECSS + GAMEJS)
+open(R + 'public/tailieu/TongOn_NhapMon_ToanDien.html', 'w').write(out)
+print(len(S), 'slides', len(out) // 1024, 'KB')

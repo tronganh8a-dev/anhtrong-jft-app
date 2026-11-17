@@ -185,7 +185,7 @@ def img(name, w=360):
         _IMG[name] = 'data:image/jpeg;base64,' + base64.b64encode(b.getvalue()).decode()
     return _IMG[name]
 
-def build(no, bais, title, sub, kanji, gsel, tables, quizzes_g, plan, ends, fname, basic, listen, hooks=None, extra_js='', label=None, coverp=None):
+def build(no, bais, title, sub, kanji, gsel, tables, quizzes_g, plan, ends, fname, basic, listen, hooks=None, extra_js='', label=None, coverp=None, bare=False):
     hooks = hooks or {}; label = label or f'Buổi {no}'
     S = []
     CR = f'<div class="cr">Tổng ôn いろどり 入門 · {label} · Anh Trọng Dạy JFT · 出典：いろどり 生活の日本語 入門 (Quỹ Giao lưu Quốc tế Nhật Bản), 文法ノート いろどり · nét viết: KanjiVG (CC BY-SA 3.0) · bảng tổng hợp và lưu ý là tự soạn</div>'
@@ -205,9 +205,9 @@ def build(no, bais, title, sub, kanji, gsel, tables, quizzes_g, plan, ends, fnam
         opts = opts[k:] + opts[:k]; return opts, opts.index(right)
 
     # 1. Bìa + kế hoạch
-    S.append(f'''<section class="slide dark"><div class="cover"><img class="lg" src="{LOGO}"><div class="kk">{label.upper()} · TỔNG ÔN いろどり 入門</div>
+    if not bare: S.append(f'''<section class="slide dark"><div class="cover"><img class="lg" src="{LOGO}"><div class="kk">{label.upper()} · TỔNG ÔN いろどり 入門</div>
 <h1>{title}<br><span>{sub}</span></h1><p>{coverp or 'Từ vựng · Chữ Hán · Ngữ pháp · 90 phút'}</p></div>{CR}</section>''')
-    sl(f'Nội dung {label.lower()} <small>{"90 phút" if not coverp else ""}</small>', '<div class="plan">' + ''.join(f'<div><b>{m if isinstance(m, str) else str(m) + "′"}</b><h3>{h}</h3><p>{p}</p></div>' for m, h, p in plan) + '</div>')
+    if not bare: sl(f'Nội dung {label.lower()} <small>{"90 phút" if not coverp else ""}</small>', '<div class="plan">' + ''.join(f'<div><b>{m if isinstance(m, str) else str(m) + "′"}</b><h3>{h}</h3><p>{p}</p></div>' for m, h, p in plan) + '</div>')
 
     # 2. Từ vựng
     sl('', f'<div class="sec"><div class="n">01</div><div class="t">Từ vựng</div><div class="j">ことば</div><div class="d">Nhìn tranh – đọc từ – bấm thẻ để xem nghĩa</div>{f"<div class=tm>{plan[0][0]} phút</div>" if isinstance(plan[0][0], int) else ""}</div>')
@@ -307,6 +307,7 @@ def build(no, bais, title, sub, kanji, gsel, tables, quizzes_g, plan, ends, fnam
 
     if 'listen' in hooks: hooks['listen'](S, sl, quiz, CR)
     # 6. Kết
+    if bare: return S
     sl(f'Tổng kết {label.lower()}', ends)
     S.append(f'''<section class="slide dark"><div class="cover"><img class="lg" src="{LOGO}"><div class="kk">おつかれさまでした！</div>
 <h1>Hết {label.lower()}<br><span>{"Hẹn gặp lại ở buổi 2" if no == 1 else "Tiếp theo: いろどり 初級1"}</span></h1>
