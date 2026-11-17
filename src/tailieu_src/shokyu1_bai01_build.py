@@ -42,6 +42,11 @@ EXTRA = '''
 .fill{font-size:34px;line-height:2;background:#fff;border-radius:18px;padding:14px 26px;box-shadow:0 6px 18px #0d2b4010}.fill rt{font-size:.45em}.fill .bl{display:inline-block;min-width:150px;border-bottom:4px solid #c42f66;text-align:center}.fill .bl span{color:#c42f66}
 .dlg{font-size:34px;line-height:1.85;background:#fff;border-radius:20px;padding:18px 28px;box-shadow:0 6px 18px #0d2b4010}.dlg rt{font-size:.45em}.dlg b{display:inline-block;width:44px;color:#0d5a8c}.dlg .sw{background:#fff0f5;color:#c42f66;border-radius:10px;padding:0 10px}.dlg small{display:block;font-size:22px;color:#47647a;line-height:1.3;margin:-4px 0 6px 44px}
 .ktb2 td{font-size:30px}
+.te1{display:grid;grid-template-columns:1fr 1fr;gap:16px 22px}.tg{background:#fff;border-radius:18px;border:3px solid;overflow:hidden;box-shadow:0 6px 18px #0d2b4010}
+.tr{color:#fff;font:800 26px Quicksand,"Klee One",sans-serif;padding:6px 16px}
+.mr{display:grid;grid-template-columns:1fr 50px 1fr;align-items:center;padding:6px 18px;font-family:"Klee One",serif;font-weight:600;font-size:40px;line-height:1.1;border-top:1px dashed #e3ebf2}.mr:first-of-type{border-top:0}
+.mr small{display:block;font-size:20px;color:#6b8296;font-family:Quicksand,"Klee One",sans-serif;margin-top:2px}.mr s{color:#9fb3c4;text-decoration-thickness:3px}.mr .ma{color:#9fb3c4;font-family:Quicksand;font-size:34px}
+.te3 .kcd{font-size:30px}.te3 .kex b,.te3 .kcd>b{color:#c42f66;font-weight:800}.te3 .kex{font-size:34px!important;line-height:1.7}.tr{font-size:30px!important}
 .clw{display:flex;flex-wrap:wrap;gap:22px 26px;justify-content:center;align-content:center;flex:1;padding:6px 10px}
 .cld{position:relative;border:0;cursor:pointer;background:#fff;min-width:200px;height:132px;padding:10px 30px;border-radius:80px 90px 70px 85px/70px 60px 80px 65px;box-shadow:0 10px 26px #0d5a8c26,inset 0 -8px 0 #e6f1fb;display:flex;flex-direction:column;align-items:center;justify-content:center;transition:transform .2s}
 .cld:nth-child(3n){transform:rotate(-2deg)}.cld:nth-child(3n+1){transform:rotate(2deg) translateY(8px)}.cld:hover{transform:scale(1.06)}
@@ -206,17 +211,33 @@ sl('So sánh ❷ và ❸ <small>Nghe và điền · 形に注目</small>', AUD('
        f'{J("去年の9月に")}<span class="bl"><span class="st">{J("来ました")}</span></span>{J("。")}　　{J("先月、")}<span class="bl"><span class="st">{J("来ました")}</span></span>{J("。")}']) + '</div>'
    '<div class="big2" style="margin-top:16px"><div class="exp st"><b>どのぐらい？</b> → 【期間】になります<br><span class="jpt">1年・半年・3か月</span></div><div class="exp st"><b>いつ？</b> → 【時点】（に）来ました<br><span class="jpt">去年の9月に・先月</span></div></div>')
 gq('❷', 0); gq('❸', 0); gq('❸', 2)
-# テ形
-TE = [('1グループ', '-う・-つ・-る → って', [('通う', '通って'), ('待つ', '待って'), ('作る', '作って')]), ('1グループ', '-む・-ぶ・-ぬ → んで', [('飲む', '飲んで'), ('遊ぶ', '遊んで'), ('読む', '読んで')]),
-      ('1グループ', '-く → いて ・ -ぐ → いで', [('働く', '働いて'), ('聞く', '聞いて'), ('泳ぐ', '泳いで')]), ('1グループ', '-す → して', [('話す', '話して'), ('貸す', '貸して')]),
-      ('Ngoại lệ', '行く → 行って', [('行く', '行って')]), ('2グループ', '-る → て', [('見る', '見て'), ('食べる', '食べて'), ('起きる', '起きて')]), ('3グループ', 'bất quy tắc', [('する', 'して'), ('来る', '来て'), ('勉強する', '勉強して')])]
-sl('Thể テ <small>テ形 · chia động từ (cần cho ❹ ています)</small>', '<table class="tb2"><tr><th>Nhóm</th><th>Quy tắc</th><th>Ví dụ</th></tr>' + ''.join(
-    f'<tr><td class="h">{g}</td><td>{jp(r) if "→" in r and g != "3グループ" else r}</td><td>' + '　'.join(f'{jp(a)} → <em class="st">{jp(b)}</em>' for a, b in ex) + '</td></tr>' for g, r, ex in TE) + '</table>')
-TF = [('聞く', '聞いて'), ('買う', '買って'), ('読む', '読んで'), ('乗る', '乗って'), ('行く', '行って'), ('脱ぐ', '脱いで'), ('貸す', '貸して'), ('寝る', '寝て'), ('掃除する', '掃除して'), ('来る', '来て')]
-sl('Thể テ <small>Chia nhanh · đọc to cả lớp</small>', '<div class="tf">' + ''.join(f'<div><div class="v">{J(a)}</div><div class="a st">{J(b)}</div></div>' for a, b in TF) + '</div>')
-for a, r, w in [('読む', '読んで', ['読って', '読みて']), ('働く', '働いて', ['働って', '働きて']), ('話す', '話して', ['話いて', '話って'])]:
+# テ形 — chia từ thể ます (cách dạy tự soạn, ví dụ dùng động từ trong sách)
+def mrow(stem_kana, last, rest, te, kanji_m, kanji_t, col):
+    return (f'<div class="mr"><span class="mk">{stem_kana}<b style="color:{col}">{last}</b><s>ます</s><small>{kanji_m}</small></span>'
+            f'<span class="ma">→</span><span class="mt st">{rest}<b style="color:{col}">{te}</b><small>{kanji_t}</small></span></div>')
+sl('Thể テ · Bước 1 <small>Nhìn âm đứng ngay trước ます để biết nhóm</small>',
+   '<div class="kgr g3 te3">'
+   f'<div class="kcd kb"><h3>Nhóm 1</h3>Trước ます là âm hàng <b>い</b><div class="kex jp">か<b>い</b>ます<br>の<b>み</b>ます<br>はたら<b>き</b>ます<br>はな<b>し</b>ます</div></div>'
+   f'<div class="kcd kp"><h3>Nhóm 2</h3>Trước ます là âm hàng <b>え</b><div class="kex jp">た<b>べ</b>ます<br><b>ね</b>ます<br>おし<b>え</b>ます</div><div class="kex st" style="font-size:22px!important;line-height:1.5">Một số từ hàng い thuộc nhóm 2, phải thuộc: <span class="jp">みます・おきます・います</span></div></div>'
+   f'<div class="kcd ko"><h3>Nhóm 3</h3>Chỉ có 2 động từ<div class="kex jp">します<br>勉強します<br>きます</div></div></div>')
+G1 = [('#c42f66', 'い・ち・り → って', [('か', 'い', 'か', 'って', '買います', '買って'), ('ま', 'ち', 'ま', 'って', '待ちます', '待って'), ('つく', 'り', 'つく', 'って', '作ります', '作って')]),
+      ('#0d5a8c', 'み・び・に → んで', [('の', 'み', 'の', 'んで', '飲みます', '飲んで'), ('あそ', 'び', 'あそ', 'んで', '遊びます', '遊んで'), ('し', 'に', 'し', 'んで', '死にます', '死んで')]),
+      ('#d98a17', 'き → いて ・ ぎ → いで', [('はたら', 'き', 'はたら', 'いて', '働きます', '働いて'), ('およ', 'ぎ', 'およ', 'いで', '泳ぎます', '泳いで')]),
+      ('#4f8a25', 'し → して', [('はな', 'し', 'はな', 'して', '話します', '話して')])]
+sl('Thể テ · Bước 2 <small>Nhóm 1: bỏ ます, đổi âm cuối theo 4 quy tắc</small>',
+   '<div class="te1">' + ''.join(f'<div class="tg" style="border-color:{c}"><div class="tr" style="background:{c}">{r}</div>' + ''.join(mrow(a1, b1, c1, d1, e1, f1, c) for a1, b1, c1, d1, e1, f1 in ex) + '</div>' for c, r, ex in G1) + '</div>'
+   + '<div class="pb st">Ngoại lệ duy nhất: <b>いきます → いって</b> (không phải いいて)</div>')
+sl('Thể テ · Bước 2 <small>Nhóm 2 và nhóm 3: dễ nhất</small>',
+   '<div class="big2"><div class="tg" style="border-color:#7a4fb5"><div class="tr" style="background:#7a4fb5">Nhóm 2: bỏ ます → thêm て</div>'
+   + ''.join(mrow(a1, b1, c1, d1, e1, f1, '#7a4fb5') for a1, b1, c1, d1, e1, f1 in [('た', 'べ', 'たべ', 'て', '食べます', '食べて'), ('', 'み', 'み', 'て', '見ます', '見て'), ('お', 'き', 'おき', 'て', '起きます', '起きて')])
+   + '</div><div class="tg" style="border-color:#0d2b40"><div class="tr" style="background:#0d2b40">Nhóm 3: thuộc lòng</div>'
+   + ''.join(mrow(a1, b1, c1, d1, e1, f1, '#0d2b40') for a1, b1, c1, d1, e1, f1 in [('', 'し', '', 'して', 'します', 'して'), ('', 'き', '', 'きて', '来ます', '来て'), ('勉強', 'し', '勉強', 'して', 'べんきょうします', 'べんきょうして')])
+   + '</div></div><div class="pb st">Nhóm 2 thì <b>ます → て</b>, không đổi gì khác: たべます → たべて</div>')
+TF = [('聞きます', '聞いて'), ('買います', '買って'), ('読みます', '読んで'), ('乗ります', '乗って'), ('行きます', '行って'), ('脱ぎます', '脱いで'), ('貸します', '貸して'), ('寝ます', '寝て'), ('掃除します', '掃除して'), ('来ます', '来て')]
+sl('Thể テ <small>Chia nhanh từ thể ます · đọc to cả lớp</small>', '<div class="tf">' + ''.join(f'<div><div class="v">{J(a)}</div><div class="a st">{J(b)}</div></div>' for a, b in TF) + '</div>')
+for a, r, w in [('読みます', '読んで', ['読って', '読みて']), ('働きます', '働いて', ['働って', '働きて']), ('話します', '話して', ['話いて', '話って']), ('待ちます', '待って', ['待んで', '待ちて']), ('起きます', '起きて', ['起いて', '起って'])]:
     o, k = shuf(J(r), [J(x) for x in w], len(a))
-    quiz(f'Thể テ của 「{J(a)}」 là gì?', o, k, f'{a} → <b>{r}</b> (câu tự soạn)', 'Câu tự soạn')
+    quiz(f'「{J(a)}」 → thể テ là gì?', o, k, f'{a} → <b>{r}</b> (câu tự soạn)', 'Câu tự soạn')
 # ❹
 sl('Ngữ pháp ❹ <small>V-ています · Đang (làm) — nói công việc hiện tại</small>',
    f'<div class="pat">V<em>て</em> ＋ います</div><div class="pmean">{J("日本では、何をしていますか？")} · Ở Nhật bạn đang làm gì?</div>'
