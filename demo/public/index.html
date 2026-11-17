@@ -1028,7 +1028,7 @@ function fnv(s){let h=0x811c9dc5;for(const c of new TextEncoder().encode(s)){h^=
 /* ===== popup khoe đề mới (sửa NEWX để đổi) ===== */
 const NEWX={until:'2026-11-30',ids:['jft-ln4','jft-ln3','jft-ln2','jft-ln1','jft-t1','jft-y1','jft-y2','jft-y3']};
 function newxWill(){try{return new Date()<=new Date(NEWX.until+'T23:59:59')&&typeof EXAMS!=='undefined'&&EXAMS.some(e=>NEWX.ids.includes(e.id))}catch(_){return false}}
-function newxShow(){try{if(document.getElementById('newx')||!newxWill())return;
+function newxShow(){return;try{if(document.getElementById('newx')||!newxWill())return;
  const L=NEWX.ids.map(id=>[EXAMS.findIndex(e=>e.id===id),id]).filter(x=>x[0]>=0);if(!L.length)return;
  const d=document.createElement('div');d.id='newx';d.setAttribute('role','dialog');d.setAttribute('aria-modal','true');
  d.innerHTML=`<div class="bx"><button class="x" type="button" aria-label="Đóng">×</button><div class="hd"><small>MỚI CẬP NHẬT</small><h3>Có ${L.length} đề thi thử mới chuẩn JFT!</h3><p>Đủ 4 phần, có cả phần nghe. Làm xong xem ngay đáp án và giải thích từng câu.</p></div><div class="ls">`+L.map(([i])=>{const e=EXAMS[i];const no=e.name?`<i class="nm">${esc(e.name)}</i>`:(e.title.match(/\d+/)||[''])[0];return `<button class="it" type="button" data-nx="${i}"><span class="n"><small>Đề</small>${no}</span><span class="d"><b>${e.qs.length} câu · ${e.time} phút</b>Có phần nghe</span><span class="go">Luyện ngay →</span></button>`}).join('')+`</div><div class="ft"><button class="later" type="button">Để sau</button></div></div>`;

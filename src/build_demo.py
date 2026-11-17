@@ -115,6 +115,7 @@ for a, b in reps:
 s2 = re.sub(r'<a class="pbtn c3"[\s\S]*?</a>\s*<a class="pbtn c4"[\s\S]*?</a>', '', s, count=1)
 assert s2 != s, 'không thấy nút đăng ký / đăng nhập'; s = s2
 s = s.replace('Chưa có tài khoản Prometric thì đăng ký trước, sau đó đăng nhập để đặt / xem lịch thi.', '')
+s = s.replace('function newxShow(){', 'function newxShow(){return;', 1)  # bản dùng thử: không hiện popup đề mới
 open(D + 'index.html', 'w', encoding='utf-8').write(s)
 print('demo: mở', L0['lv'], 'Bài', L0['bai'], '· đề 1/', len(E), '· ngữ pháp 初級1 Bài', g0, '· từ vựng 初級1 Bài 1 (', sum(1 for w in W if not w.get('lock')), 'từ ) · tài liệu', t0, '·', n, 'media')
 
