@@ -20,6 +20,10 @@ HEAD = HEAD.replace('</style></head>', '''
 .klv b{font-size:44px}.kchk{list-style:none;font-size:29px;line-height:1.75}.kchk li:before{content:"✓";color:#c42f66;font-weight:800;margin-right:14px}
 .kno li:before{content:"✕";color:#e0245e}.kex{margin-top:10px;background:#f4f8fc;border-radius:14px;padding:12px 16px;font-size:24px}.kex .jp{font-size:28px}
 .tag{display:inline-block;background:#0d5a8c;color:#fff;border-radius:30px;padding:4px 18px;font-size:22px;margin-right:8px}
+.slide{background:radial-gradient(700px 480px at 8% 12%,#c6e3fa 0,#c6e3fa00 72%),radial-gradient(800px 520px at 92% 88%,#d2eafc 0,#d2eafc00 72%),radial-gradient(600px 420px at 70% 10%,#eef7ff 0,#eef7ff00 70%),#f7fbff}
+.slide.dark{background:radial-gradient(900px 620px at 0% 0%,#a9d4f6 0,#a9d4f600 72%),radial-gradient(800px 600px at 100% 100%,#bde0fa 0,#bde0fa00 72%),radial-gradient(700px 500px at 75% 15%,#e6f3ff 0,#e6f3ff00 70%),radial-gradient(600px 500px at 20% 90%,#dcefff 0,#dcefff00 70%),#f4faff;color:#0d2b40}
+.slide.dark .cover .kk{color:#c42f66}.slide.dark .cover h1{color:#0d2b40}.slide.dark .cover h1 span{color:#0d5a8c}.slide.dark .cover p{color:#2f5674}.slide.dark .cover ul{color:#0d2b40}
+.slide.dark .cr{color:#7d93a5}.slide.dark .cover .lg{box-shadow:0 6px 18px #0d5a8c22}
 </style></head>''', 1)
 TAIL = open(R + 'src/tailieu_src/buoi15_tail.html').read()
 J = lambda s: furi(html.escape(s))
