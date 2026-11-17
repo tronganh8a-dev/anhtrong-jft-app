@@ -1,3 +1,4 @@
+import os
 """Slide khai giảng khoá JFT-Basic (17/11/2026): giới thiệu kỳ thi, đề thi, thang điểm.
 Dùng chung CSS + thanh công cụ với Buoi15 (Buoi10_KinhNgu.html + buoi15_tail.html).
 Số liệu theo trang chính thức Quỹ Giao lưu Quốc tế Nhật Bản + Prometric (tra 17/11/2026).
@@ -10,7 +11,13 @@ exec(open(R + 'src/tailieu_src/_head_snip.py').read())  # HEAD, LOGO
 HEAD = HEAD.replace('</style></head>', '''
 .kgr{display:grid;gap:24px}.kgr.g2{grid-template-columns:1fr 1fr}.kgr.g3{grid-template-columns:repeat(3,1fr)}.kgr.g4{grid-template-columns:repeat(4,1fr)}
 .kcd{background:#fff;border-radius:22px;padding:30px 30px;box-shadow:0 8px 24px #0d2b4012;font-size:32px;line-height:1.5}
-.kcd h3{font-size:34px;margin-bottom:10px;color:#0d5a8c}.kcd .jp{font-family:"Klee One",serif;font-weight:600}
+.kcd h3{font-size:34px;margin-bottom:10px;color:#0d5a8c}
+.kshw{display:grid;grid-template-columns:1fr 1fr;gap:34px;margin-top:6px}
+.kshw.one{grid-template-columns:auto 1fr;align-items:center}.kshw.one .ksh img{height:620px}
+.ksh{margin:0}.ksh figcaption{font-size:30px;font-weight:800;color:#0d5a8c;margin:0 0 10px 4px}
+.ksh{text-align:center}.ksh figcaption{text-align:left}
+.ksh img{height:505px;width:auto;max-width:100%;display:inline-block;border-radius:14px;border:3px solid #0d2b40;box-shadow:0 12px 30px #0d2b4026;background:#fff}
+.kshw+.pb{margin-top:20px}.kcd .jp{font-family:"Klee One",serif;font-weight:600}
 .kcd.kb{border-top:8px solid #0d5a8c}.kcd.kp{border-top:8px solid #c42f66}.kcd.ko{border-top:8px solid #f2a93b}.kcd.kg2{border-top:8px solid #7cb342}
 .kbig{font-size:120px;font-weight:800;color:#c42f66;line-height:1}.kbig small{font-size:40px;color:#0d2b40}
 .ktb{width:100%;border-collapse:separate;border-spacing:0 10px;font-size:28px}.ktb th{text-align:left;color:#6b8296;font-size:22px;padding:0 18px}
@@ -59,28 +66,24 @@ sl('Cấu trúc đề thi', '~50 câu · 60 phút', f'''<table class="ktb"><tr><
 <tr><td>4. Đọc hiểu</td><td class="jp">{J("読解")}</td><td>~12</td><td>Tin nhắn, thư · tìm thông tin</td></tr></table>
 <div class="pb st"><b>60 phút</b> chung cho 4 phần – không chia giờ riêng</div>''')
 
-# 5-8 từng phần
-sl('Phần 1 · 文字と語彙', 'Chữ – Từ vựng', f'''<div class="kgr g4">
-<div class="kcd kb"><h3>Tranh → từ</h3><div class="kex">Tranh cái kéo → <span class="jp">はさみ</span></div></div>
-<div class="kcd kp"><h3>Điền từ</h3><div class="kex jp">{J("雨なので、（　）をさします。")} → かさ</div></div>
-<div class="kcd ko"><h3>Đọc chữ Hán</h3><div class="kex"><span class="jp">花火</span> → はなび</div></div>
-<div class="kcd kg2"><h3>Chọn chữ Hán</h3><div class="kex">やすみ → <span class="jp">休み</span></div></div></div>
-<div class="pb st">Phần <b>dễ lấy điểm nhất</b> · chú ý ゛ っ trường âm, chữ giống nhau (休・体)</div>''')
-sl('Phần 2 · 会話と表現', 'Hội thoại – Diễn đạt', f'''<div class="kgr g2">
-<div class="kcd kb"><h3>Ngữ pháp</h3><div class="kex jp">{J("熱が（　）ときに飲んでください。")} → ある</div></div>
-<div class="kcd kp"><h3>Câu nói theo tình huống</h3><div class="kex jp">{J("「けがをしました。」「（　）。」")} → {J("お大事に")}</div></div></div>
-<div class="pb st">Nhìn <b>chữ sát chỗ trống</b> và <b>câu đáp phía sau</b></div>''')
-sl('Phần 3 · 聴解', 'Nghe hiểu', f'''<div class="kgr g3">
-<div class="kcd kb"><h3>Hội thoại</h3>Rủ rê · hỏi thăm · nhờ vả</div>
-<div class="kcd kp"><h3>Nơi công cộng</h3>Quán ăn · cửa hàng · nhà ga</div>
-<div class="kcd ko"><h3>Thông báo</h3>Loa ga tàu · động đất · thuốc</div></div>
-<div class="kgr g2 st" style="margin-top:24px"><div class="kcd kg2"><h3>Số lần nghe</h3>Tối đa <b>2 lần</b> mỗi câu</div>
-<div class="kcd kp"><h3>Lưu ý</h3><b>Không quay lại</b> câu trước</div></div>''')
-sl('Phần 4 · 読解', 'Đọc hiểu', f'''<div class="kgr g2">
-<div class="kcd kb"><h3>Đoạn văn ngắn</h3>Thư · email · tin nhắn · tự giới thiệu</div>
-<div class="kcd kp"><h3>Tìm thông tin</h3>Lịch · thông báo · poster · hướng dẫn</div></div>
-<div class="pb st">Đọc <b>câu hỏi trước</b> → quét từ khoá</div>''')
-
+# 5-8 từng phần: ảnh màn hình bài thi (chụp từ màn làm đề của app, Đề 25)
+import base64 as _b64
+_KGS=os.path.join(os.path.dirname(os.path.abspath(__file__)),'khaigiang_img')
+def SC(n):
+    return 'data:image/jpeg;base64,'+_b64.b64encode(open(f'{_KGS}/q{n}.jpg','rb').read()).decode()
+def SH(items, tip=''):
+    cells=''.join(f'<figure class="ksh"><figcaption>{c}</figcaption><img src="{SC(n)}"></figure>' for c,n in items)
+    return f'<div class="kshw">{cells}</div>'+(f'<div class="pb st">{tip}</div>' if tip else '')
+sl('Màn hình thi', '', f'''<div class="kshw one"><figure class="ksh"><img src="{SC(0)}"></figure>
+<div class="kgr" style="grid-template-columns:1fr;gap:16px">
+<div class="kcd kb"><h3>Trên cùng</h3>Số câu · tên phần · thời gian còn lại · <b>Finish Section</b></div>
+<div class="kcd kp"><h3>Bên trái</h3>Danh sách câu · bấm để nhảy câu</div>
+<div class="kcd ko"><h3>Dưới cùng</h3>⚑ đánh dấu · Back / Next</div></div></div>''')
+sl('Phần 1 · 文字と語彙', 'Chữ – Từ vựng (1/2)', SH([('Tranh → từ',0),('Điền từ',3)]))
+sl('Phần 1 · 文字と語彙', 'Chữ – Từ vựng (2/2)', SH([('Đọc chữ Hán',6),('Chọn chữ Hán',9)],'Chú ý ゛ っ trường âm · chữ giống nhau (薬・楽・葉)'))
+sl('Phần 2 · 会話と表現', 'Hội thoại – Diễn đạt', SH([('Câu nói theo tình huống',12),('Ngữ pháp',22)],'Nhìn <b>câu đáp phía sau</b> chỗ trống'))
+sl('Phần 3 · 聴解', 'Nghe hiểu', SH([('Lựa chọn bằng chữ',24),('Lựa chọn bằng tranh',33)],'Bấm ▶ để nghe · tối đa <b>2 lần</b> · không quay lại câu trước'))
+sl('Phần 4 · 読解', 'Đọc hiểu', SH([('Bảng thông tin',38),('Thông báo',44)],'Đọc <b>câu hỏi trước</b> → quét từ khoá'))
 # 9. Quy tắc trên máy
 sl('Quy tắc thi trên máy', '', f'''<div class="kgr g2"><div><ul class="kchk">
 <li>Sửa đáp án <b>trong cùng phần</b></li><li>Nút <b>Your Language</b></li><li>Không bỏ trống câu nào</li></ul></div>
