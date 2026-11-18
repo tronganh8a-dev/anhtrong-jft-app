@@ -115,7 +115,10 @@ for a, b in reps:
 s2 = re.sub(r'<a class="pbtn c3"[\s\S]*?</a>\s*<a class="pbtn c4"[\s\S]*?</a>', '', s, count=1)
 assert s2 != s, 'không thấy nút đăng ký / đăng nhập'; s = s2
 s = s.replace('Chưa có tài khoản Prometric thì đăng ký trước, sau đó đăng nhập để đặt / xem lịch thi.', '')
-s = s.replace('function ggShow(){', 'function ggShow(){return;', 1)  # bản dùng thử: không hiện popup
+s = s.replace('function ggShow(){', 'function ggShow(){return;', 1)  # bản dùng thử: không hiện popup chữ
+# popup ngành Logistics có ảnh (dùng chung với bản chính, 18/11/2026)
+for _f in ('logi.js', 'logi.webp'): shutil.copy(P + 'app/' + _f, D + 'app/' + _f)
+s = s.replace('</body>', '<script src="/app/logi.js?v=2" defer></script>\n</body>', 1)
 open(D + 'index.html', 'w', encoding='utf-8').write(s)
 print('demo: mở', L0['lv'], 'Bài', L0['bai'], '· đề 1/', len(E), '· ngữ pháp 初級1 Bài', g0, '· từ vựng 初級1 Bài 1 (', sum(1 for w in W if not w.get('lock')), 'từ ) · tài liệu', t0, '·', n, 'media')
 

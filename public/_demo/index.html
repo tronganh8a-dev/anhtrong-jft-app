@@ -1031,7 +1031,7 @@ function ggShow(){return;try{if(document.getElementById('ggx'))return;try{if(ses
  d.addEventListener('click',ev=>{if(ev.target===d||ev.target.closest('.x')||ev.target.closest('.later')||ev.target.closest('.go'))close()});
  document.addEventListener('keydown',function k(ev){if(ev.key==='Escape'){close();document.removeEventListener('keydown',k)}});
 }catch(err){}}
-function unlock(){document.body.classList.remove('locked');tdLoad();$('#login').style.display='none';setTimeout(ggShow,700)}
+function unlock(){document.body.classList.remove('locked');tdLoad();$('#login').style.display='none'}
 unlock();
 $('#loginForm').onsubmit=e=>{e.preventDefault();const h=fnv($('#lu').value.trim().toLowerCase()+':'+$('#lp').value);if(h===ACCOUNT.hash){store.set('atjft_ok',h);unlock()}else $('#lerr').textContent='Sai tài khoản hoặc mật khẩu.'};
 $('#logout').style.display='none';
@@ -1802,5 +1802,6 @@ function apply(){q=false;busy=true;try{
  document.querySelectorAll('#hwList .ec').forEach((c,i)=>L(c,i!==0));
 }finally{busy=false}}
 new MutationObserver(()=>{if(!busy&&!q){q=true;requestAnimationFrame(apply)}}).observe(document.querySelector('main'),{childList:true,subtree:true});
-apply()})();</script></body>
+apply()})();</script><script src="/app/logi.js?v=2" defer></script>
+</body>
 </html>

@@ -149,7 +149,7 @@ const mins = until => Math.max(1, Math.ceil((until - Date.now()) / 60e3));
 // Watermark tên tài khoản + chống sao chép: chèn /app/bv.js vào mọi trang HTML của người đã đăng nhập
 // Popup ngành mới Logistics (18/11/2026) — chỉ trang chính của app
 function logi(res) {
-  return new HTMLRewriter().on('body', { element(e) { e.append('<script src="/app/logi.js?v=1" defer></script>', { html: true }); } }).transform(res);
+  return new HTMLRewriter().on('body', { element(e) { e.append('<script src="/app/logi.js?v=2" defer></script>', { html: true }); } }).transform(res);
 }
 
 function bv(res, u) {
