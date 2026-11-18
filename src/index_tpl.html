@@ -1022,7 +1022,7 @@ function ggShow(){try{if(document.getElementById('ggx'))return;try{if(sessionSto
  d.addEventListener('click',ev=>{if(ev.target===d||ev.target.closest('.x')||ev.target.closest('.later')||ev.target.closest('.go'))close()});
  document.addEventListener('keydown',function k(ev){if(ev.key==='Escape'){close();document.removeEventListener('keydown',k)}});
 }catch(err){}}
-function unlock(){document.body.classList.remove('locked');tdLoad();$('#login').style.display='none';setTimeout(ggShow,700)}
+function unlock(){document.body.classList.remove('locked');tdLoad();$('#login').style.display='none'}
 if(store.get('atjft_ok')===ACCOUNT.hash)unlock();
 $('#loginForm').onsubmit=e=>{e.preventDefault();const h=fnv($('#lu').value.trim().toLowerCase()+':'+$('#lp').value);if(h===ACCOUNT.hash){store.set('atjft_ok',h);unlock()}else $('#lerr').textContent='Sai tài khoản hoặc mật khẩu.'};
 $('#logout').onclick=()=>{store.del('atjft_ok');location.reload()};

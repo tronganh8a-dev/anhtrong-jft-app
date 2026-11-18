@@ -147,6 +147,11 @@ const LOCKMSG = m => `Tài khoản đang được dùng cùng lúc trên 2 thi�
 const mins = until => Math.max(1, Math.ceil((until - Date.now()) / 60e3));
 
 // Watermark tên tài khoản + chống sao chép: chèn /app/bv.js vào mọi trang HTML của người đã đăng nhập
+// Popup ngành mới Logistics (18/11/2026) — chỉ trang chính của app
+function logi(res) {
+  return new HTMLRewriter().on('body', { element(e) { e.append('<script src="/app/logi.js?v=1" defer></script>', { html: true }); } }).transform(res);
+}
+
 function bv(res, u) {
   if (!/text\/html/i.test(res.headers.get('Content-Type') || '')) return res;
   const tag = `<script>window.__WM=${JSON.stringify(u).replace(/</g, '\\u003c')}</script><script src="/app/bv.js?v=3"></script>`;
@@ -318,7 +323,7 @@ export async function handle(req, env, next) {
     const o = new Response(r.body, r);
     o.headers.set('Cache-Control', 'no-store');
     o.headers.append('Set-Cookie', `jft_once=; Path=/; Max-Age=0; HttpOnly; Secure; SameSite=Lax`);
-    return bv(o, user);
+    return bv(logi(o), user);
   }
 
   const res = await next();
