@@ -45,7 +45,7 @@ NUM = '①②③④'
 BL = r'[（(]\s*[_＿]{2,}\s*[)）]|[（(][\s　]+[)）]|＿{2,}|_{3,}'
 S = []
 S.append(f'''<section class="slide dark"><div class="cover"><img class="lg" src="{LOGO}"><div class="kk">TỔNG ÔN JFT · 会話と表現</div>
-<h1>Hội thoại · Diễn đạt<br><span>Câu 80 – 100</span></h1><p>Đề 7 · Đề 8 · Đề 9 — tự làm trước, rồi xem đáp án và giải thích</p></div>{CR}</section>''')
+<h1>Hội thoại · Diễn đạt<br><span>Câu 80 – 100</span></h1></div>{CR}</section>''')
 for q in Q:
     n = q['n']; lines = q['lines']
     for a, b in FIX.get(n, []):
