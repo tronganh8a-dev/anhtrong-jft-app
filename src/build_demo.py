@@ -22,9 +22,9 @@ save('lessons.js', 'LESSONS', L)
 for k in ('web', 'slide'): cp(L0.get(k))
 S = [q for q in json.loads(load('skills.js')) if q['lv'] == L0['lv'] and q['bai'] == L0['bai']]
 save('skills.js', 'SKILLS', S)
-# Làm đề: mở đề đầu tiên, các đề khác chỉ giữ tiêu đề + số câu
+# Làm đề: mở 3 đề đầu (19/11), các đề khác chỉ giữ tiêu đề + số câu
 E = json.loads(load('exams.js'))
-save('exams.js', 'EXAMS', [e if i == 0 else {**{k: v for k, v in e.items() if k != 'qs'}, 'qs': [], 'nq': len(e['qs'])} for i, e in enumerate(E)], 'window.EXTLINKS=[];')
+save('exams.js', 'EXAMS', [e if i < 3 else {**{k: v for k, v in e.items() if k != 'qs'}, 'qs': [], 'nq': len(e['qs'])} for i, e in enumerate(E)], 'window.EXTLINKS=[];')
 # Ngữ pháp (文法ノート): mở bài đầu của 初級1 (mặc định khi mở tab)
 G = json.loads(load('grammar.js')); g0 = min(g['bai'] for g in G if g['lv'] == '初級1')
 save('grammar.js', 'GRAMMAR', [g if (g['lv'] == '初級1' and g['bai'] == g0) else {**g, 'points': []} for g in G])
@@ -77,7 +77,7 @@ LOCK_CSS = '''<style>
 #dmodal .dlock{max-width:480px;width:100%;border-style:solid;box-shadow:0 20px 50px rgba(0,0,0,.3);position:relative}#dmodal .x{position:absolute;right:10px;top:6px;border:0;background:none;font-size:28px;color:var(--muted);cursor:pointer}
 .vit .now.soonb{display:none}
 </style>'''
-PANEL = f'<div class="ic">🔒</div><b>Phần này dành cho học viên khoá học</b><p>Bản dùng thử chỉ mở <b>mục đầu tiên</b> của mỗi phần. Vào lớp để mở toàn bộ: 42 bài slide, 11 đề thi có giải thích, video bài giảng, 3.800+ từ vựng, chữ Hán, ngữ pháp, bài tập về nhà.</p><div class="cta"><a href="{FB}" target="_blank" rel="noopener">💬 Nhắn tin Facebook</a><a class="tt" href="{TT}" target="_blank" rel="noopener">♪ TikTok @anhtrong.daygino</a></div>'
+PANEL = f'<div class="ic">🔒</div><b>Phần này dành cho học viên khoá học</b><p>Bản dùng thử mở <b>3 đề đầu</b> và <b>mục đầu tiên</b> của các phần khác. Vào lớp để mở toàn bộ: slide bài giảng, toàn bộ đề thi có giải thích, video bài giảng, 3.800+ từ vựng, chữ Hán, ngữ pháp, bài tập về nhà.</p><div class="cta"><a href="{FB}" target="_blank" rel="noopener">💬 Nhắn tin Facebook</a><a class="tt" href="{TT}" target="_blank" rel="noopener">♪ TikTok @anhtrong.daygino</a></div>'
 LOCK_JS = '''<div id="dmodal"><div class="dlock"><button class="x" type="button" aria-label="Đóng">×</button>__PANEL__</div></div>
 <script>(()=>{const PANEL=`<div class="dlock">__PANEL__</div>`;const M=document.getElementById('dmodal');
 M.onclick=e=>{if(e.target===M||e.target.closest('.x'))M.classList.remove('on')};
@@ -92,7 +92,7 @@ function apply(){q=false;busy=true;try{
   const lv=dLv[dTab],open=0,ch=[...document.querySelectorAll('#dGrps .chip')];
   ch.forEach((c,i)=>L(c,!(lv==='入門'&&i===open)));
   if(!(lv==='入門'&&ch[open]&&ch[open].classList.contains('on')))panel(document.getElementById('dBody'))}
- document.querySelectorAll('#examList [data-ex]').forEach(b=>L(b,b.dataset.ex!=='0'));
+ document.querySelectorAll('#examList [data-ex]').forEach(b=>L(b,+b.dataset.ex>2));
  const gl=[...document.querySelectorAll('#baiGram .chip')];gl.forEach((c,i)=>L(c,!(gLv==='初級1'&&i===0)));
  if(gl.length&&!(gLv==='初級1'&&gl[0].classList.contains('on')))panel(document.getElementById('gArea'));
  document.querySelectorAll('.vgrid .vit').forEach((c,i)=>L(c,i!==0));
@@ -103,7 +103,7 @@ function apply(){q=false;busy=true;try{
 new MutationObserver(()=>{if(!busy&&!q){q=true;requestAnimationFrame(apply)}}).observe(document.querySelector('main'),{childList:true,subtree:true});
 apply()})();</script>'''.replace('__PANEL__', PANEL)
 reps = [("$('#logout').onclick=()=>{location.href='/logout'};", "$('#logout').style.display='none';"),
-        ('<main>', '<main><div style="background:#fff3b0;border:1px solid #f1c48b;color:#5a4300;border-radius:12px;padding:10px 14px;margin:0 0 14px;font-size:14px"><b>BẢN DÙNG THỬ</b> · Mỗi phần chỉ mở <b>mục đầu tiên</b>, các mục có 🔒 dành cho học viên. Liên hệ <b>Anh Trọng Dạy JFT</b> để vào lớp và mở toàn bộ: 42 bài, 11 đề có giải thích, video bài giảng, 3.800+ từ.</div>'),
+        ('<main>', '<main><div style="background:#fff3b0;border:1px solid #f1c48b;color:#5a4300;border-radius:12px;padding:10px 14px;margin:0 0 14px;font-size:14px"><b>BẢN DÙNG THỬ</b> · Làm thử miễn phí <b>3 đề đầu</b>, các phần khác mở mục đầu tiên. Mục có 🔒 dành cho học viên — liên hệ <b>Anh Trọng Dạy JFT</b> để vào lớp và mở toàn bộ đề thi có giải thích, video bài giảng, 3.800+ từ vựng.</div>'),
         ('<title>', '<title>Dùng thử · '),
         ('</head>', LOCK_CSS + '</head>'),
         ('</body>', LOCK_JS + '</body>'),
@@ -116,9 +116,8 @@ s2 = re.sub(r'<a class="pbtn c3"[\s\S]*?</a>\s*<a class="pbtn c4"[\s\S]*?</a>', 
 assert s2 != s, 'không thấy nút đăng ký / đăng nhập'; s = s2
 s = s.replace('Chưa có tài khoản Prometric thì đăng ký trước, sau đó đăng nhập để đặt / xem lịch thi.', '')
 s = s.replace('function ggShow(){', 'function ggShow(){return;', 1)  # bản dùng thử: không hiện popup chữ
-# popup ngành Logistics có ảnh (dùng chung với bản chính, 18/11/2026)
-for _f in ('logi.js', 'logi.webp'): shutil.copy(P + 'app/' + _f, D + 'app/' + _f)
-s = s.replace('</body>', '<script src="/app/logi.js?v=2" defer></script>\n</body>', 1)
+# 19/11: anh yêu cầu bỏ popup quảng cáo ở bản dùng thử; mở link là vào thẳng màn Làm đề (thanh tab ở dưới)
+s = s.replace('</body>', "<script>try{go('exam')}catch(e){}</script>\n</body>", 1)
 open(D + 'index.html', 'w', encoding='utf-8').write(s)
 print('demo: mở', L0['lv'], 'Bài', L0['bai'], '· đề 1/', len(E), '· ngữ pháp 初級1 Bài', g0, '· từ vựng 初級1 Bài 1 (', sum(1 for w in W if not w.get('lock')), 'từ ) · tài liệu', t0, '·', n, 'media')
 
