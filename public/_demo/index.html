@@ -846,7 +846,7 @@ body.nlock{overflow:hidden}
   <div class="grow"></div>
   <button class="out" id="logout" type="button">Đăng xuất</button>
 </aside>
-<main><div style="background:#fff3b0;border:1px solid #f1c48b;color:#5a4300;border-radius:12px;padding:10px 14px;margin:0 0 14px;font-size:14px"><b>BẢN DÙNG THỬ</b> · Làm thử miễn phí <b>3 đề đầu</b>, các phần khác mở mục đầu tiên. Mục có 🔒 dành cho học viên — liên hệ <b>Anh Trọng Dạy JFT</b> để vào lớp và mở toàn bộ đề thi có giải thích, video bài giảng, 3.800+ từ vựng.</div>
+<main><div style="background:#fff3b0;border:1px solid #f1c48b;color:#5a4300;border-radius:12px;padding:10px 14px;margin:0 0 14px;font-size:14px"><b>BẢN DÙNG THỬ</b> · Làm thử miễn phí <b>3 đề đầu</b>, các phần khác (slide bài giảng, tài liệu, từ vựng, chữ Hán, ngữ pháp, video, bài tập về nhà) mở <b>1/3 nội dung</b>. Mục có 🔒 dành cho học viên — liên hệ <b>Anh Trọng Dạy JFT</b> để vào lớp và mở toàn bộ đề thi có giải thích, video bài giảng, 3.800+ từ vựng.</div>
 <!-- HOME -->
 <section class="screen on" id="home">
   <div class="hero">
@@ -973,7 +973,7 @@ body.nlock{overflow:hidden}
   <footer>© 2026 Anh Trọng Dạy JFT · 出典：国際交流基金『いろどり 生活の日本語』ことばリスト · Nghĩa tiếng Việt và âm Hán Việt do Anh Trọng Dạy JFT biên soạn. · Trọng âm (アクセント): dữ liệu <a href="https://github.com/mifunetoshiro/kanjium" target="_blank" rel="noopener">Kanjium</a> (CC BY-SA 4.0); vạch đỏ = phần đọc cao, gạch dọc = chỗ hạ giọng, số = vị trí hạ giọng (0 = bằng). · Câu ví dụ: trích từ いろどり (ví dụ ngữ pháp, hội thoại, ワークシート). Audio từ vựng: VOICEVOX:青山龍星.</footer>
 </section>
 <section class="screen" id="n3">
-  <div class="topbar"><h1>JLPT N3<span class="jp">日本語能力試験</span></h1></div><div class="ic">🔒</div><b>Phần này dành cho học viên khoá học</b><p>Bản dùng thử mở <b>3 đề đầu</b> và <b>mục đầu tiên</b> của các phần khác. Vào lớp để mở toàn bộ: slide bài giảng, toàn bộ đề thi có giải thích, video bài giảng, 3.800+ từ vựng, chữ Hán, ngữ pháp, bài tập về nhà.</p><div class="cta"><a href="https://www.facebook.com/anh.trongg.2024/" target="_blank" rel="noopener">💬 Nhắn tin Facebook</a><a class="tt" href="https://www.tiktok.com/@anhtrong.daygino" target="_blank" rel="noopener">♪ TikTok @anhtrong.daygino</a></div>
+  <div class="topbar"><h1>JLPT N3<span class="jp">日本語能力試験</span></h1></div><div class="ic">🔒</div><b>Phần này dành cho học viên khoá học</b><p>Bản dùng thử mở <b>3 đề đầu</b> và <b>1/3 nội dung</b> các phần khác. Vào lớp để mở toàn bộ: slide bài giảng, toàn bộ đề thi có giải thích, video bài giảng, 3.800+ từ vựng, chữ Hán, ngữ pháp, bài tập về nhà.</p><div class="cta"><a href="https://www.facebook.com/anh.trongg.2024/" target="_blank" rel="noopener">💬 Nhắn tin Facebook</a><a class="tt" href="https://www.tiktok.com/@anhtrong.daygino" target="_blank" rel="noopener">♪ TikTok @anhtrong.daygino</a></div>
 </section>
 </main>
 </div>
@@ -1280,7 +1280,7 @@ function renderVArea(){const A=$('#vArea');if(!vList.length){A.innerHTML='<div c
   $('#vPrev').onclick=()=>{vIdx=(vIdx-1+vList.length)%vList.length;renderVArea()};$('#vNext').onclick=()=>{vIdx++;renderVArea()};$('#vShuf').onclick=()=>{vList.sort(()=>Math.random()-.5);vIdx=0;renderVArea()};return}
  // quiz modes
  let pool=vList;if(vMode==='read')pool=vList.filter(w=>w.k);if(!pool.length){A.innerHTML='<div class="card muted">Bài này không có từ chữ Hán để luyện cách đọc.</div>';return}
- const tw=pool[vIdx%pool.length];const others=VOCAB.words.filter(x=>x!==tw&&(vMode==='read'?x.k&&x.y!==tw.y:x.v!==tw.v));
+ const tw=pool[vIdx%pool.length];const others=VOCAB.words.filter(x=>!x.lock&&x!==tw&&(vMode==='read'?x.k&&x.y!==tw.y:x.v!==tw.v));
  const pickO=[...others].sort(()=>Math.random()-.5).slice(0,3);const opts=[tw,...pickO].sort(()=>Math.random()-.5);
  const lab=o=>vMode==='mean'?esc(o.v):vMode==='read'?`<span class="jp">${esc(o.y)}</span>`:`<span class="jp">${esc(o.h)}</span>`;
  const prompt=vMode==='mean'?`<div class="w jp" style="--n:${Math.max(3,[...String(tw.h)].length)}">${furi(tw)}</div>`:vMode==='read'?`<div class="w jp" style="--n:${Math.max(3,[...String(tw.h)].length)}">${esc(tw.h)}</div>`:`<div style="text-align:center;margin:16px 0"><button class="btn" id="vPlay" type="button">🔊 Nghe từ</button></div>`;
@@ -1420,8 +1420,8 @@ function vBindCtl(){
 document.addEventListener('click',e=>{const m=$('#vMenu');if(m&&!e.target.closest('.vspdw'))m.classList.remove('on')});
 document.addEventListener('visibilitychange',vSavePos);window.addEventListener('pagehide',vSavePos);
 function renderVideo(autoplay){const A=$('#vidArea');vDestroy();if(!VID.length){A.innerHTML='<div class="card vempty">Video bài giảng đang được cập nhật.</div>';return}
- const SER=[...new Set(VID.map(x=>x.series))];if(!vSer||!SER.includes(vSer)){const c=VID.find(x=>x.id===(vCur||store.get('jftVid')));vSer=SER.includes(store.get('jftVSer'))?store.get('jftVSer'):(c?c.series:SER[0])}
- const VS=VID.filter(x=>x.series===vSer);if(!VS.find(x=>x.id===vCur))vCur=(VS.find(x=>x.id===store.get('jftVid'))||[...VS].reverse().find(hasV)||VS[VS.length-1]).id;
+ const SER=[...new Set(VID.map(x=>x.series))];if(!vSer||!SER.includes(vSer)){const c=VID.find(x=>x.id===(vCur||store.get('jftVidT')));vSer=SER.includes(store.get('jftVSer'))?store.get('jftVSer'):(c?c.series:SER[0])}
+ const VS=VID.filter(x=>x.series===vSer);if(!VS.find(x=>x.id===vCur))vCur=(VS.find(x=>x.id===store.get('jftVidT'))||[...VS].reverse().find(hasV)||VS[VS.length-1]).id;
  const v=VID.find(x=>x.id===vCur);vSideI=0;document.body.classList.toggle('hasdoc',vDocs(v).length>0);$('#vSideF').removeAttribute('src');
  const mats=[...(v.docs||[]).map(d=>`<a class="vm" href="${esc(d.u)}" target="_blank" rel="noopener"><span class="ic dr">${DRIVE_IC}</span><span class="t"><b>${esc(d.t)}</b><small>Google Drive ↗</small></span></a>`),
   ...(v.slides||[]).map((x,i)=>`<button class="vm" type="button" data-vs="${i}"><span class="ic sl">▶</span><span class="t"><b>${esc(x.t)}</b><small>${esc(x.sub||'Slide')}</small></span></button>`),
@@ -1437,7 +1437,7 @@ function renderVideo(autoplay){const A=$('#vidArea');vDestroy();if(!VID.length){
   </div>${mats.length?`<div class="vmat"><div class="vmh">Tài liệu buổi học<span>${mats.length}</span></div><div class="vmg">${mats.join('')}</div></div>`:''}</div>
   <div class="vlist">${groups.map(g=>`<div class="vgh">${esc(g.s)}${g.j?`<span class="jp">${esc(g.j)}</span>`:''}<span class="n">${g.a.length} video</span></div><div class="vgrid">${g.a.map(x=>`<button class="vit${x.id===vCur?' on':''}${hasV(x)?'':' soon'}" data-vid="${x.id}" type="button"><span class="th">${vThumb(x)}${x.id===vCur?'<span class="now">Đang xem</span>':''}${hasV(x)?'':'<span class="now soonb">Sắp có video</span>'}</span><span class="bd">${tdVidBadge(x.id)}<small>${esc(x.no||'')}${x.docs&&x.docs.length?' · có tài liệu':''}</small><b>${esc(x.title)}</b><span class="tg">${(x.tags||[]).map(t=>`<span class="tag gray jp">${esc(t)}</span>`).join('')}</span></span></button>`).join('')}</div>`).join('')}</div>`;
  vPoster();vBindCtl();if(autoplay)vidPlay()}
-$('#vidArea').addEventListener('click',e=>{const sr=e.target.closest('[data-vser]');if(sr){if(sr.dataset.vser!==vSer){vSer=sr.dataset.vser;store.set('jftVSer',vSer);vCur=null;renderVideo(false)}return}const sb=e.target.closest('[data-vs]');if(sb){const v=VID.find(x=>x.id===vCur),x=v.slides[+sb.dataset.vs];vidPause();openDocView({f:x.u,jp:x.t,vi:x.sub||'',k:x.k||'slide'},v.no||'');return}const lb=e.target.closest('[data-vl]');if(lb){const v=VID.find(x=>x.id===vCur),l=v.learn[+lb.dataset.vl];vidPause();dTab=l.tab;store.set('dTab',dTab);if(l.tab==='gram'){gLv=l.lv;gBai=+l.g}else{dLv[l.tab]=l.lv;dGrp[l.tab+l.lv]=l.g}go('learn');renderDocs();return}const b=e.target.closest('[data-vid]');if(!b)return;vCur=b.dataset.vid;store.set('jftVid',vCur);renderVideo(true);$('#video').scrollIntoView({behavior:'smooth'})});
+$('#vidArea').addEventListener('click',e=>{const sr=e.target.closest('[data-vser]');if(sr){if(sr.dataset.vser!==vSer){vSer=sr.dataset.vser;store.set('jftVSer',vSer);vCur=null;renderVideo(false)}return}const sb=e.target.closest('[data-vs]');if(sb){const v=VID.find(x=>x.id===vCur),x=v.slides[+sb.dataset.vs];vidPause();openDocView({f:x.u,jp:x.t,vi:x.sub||'',k:x.k||'slide'},v.no||'');return}const lb=e.target.closest('[data-vl]');if(lb){const v=VID.find(x=>x.id===vCur),l=v.learn[+lb.dataset.vl];vidPause();dTab=l.tab;store.set('dTab',dTab);if(l.tab==='gram'){gLv=l.lv;gBai=+l.g}else{dLv[l.tab]=l.lv;dGrp[l.tab+l.lv]=l.g}go('learn');renderDocs();return}const b=e.target.closest('[data-vid]');if(!b)return;vCur=b.dataset.vid;store.set('jftVidT',vCur);renderVideo(true);$('#video').scrollIntoView({behavior:'smooth'})});
 $('#vCineX').onclick=()=>vBig(false);$('#vCine').onclick=e=>{if(e.target.id==='vCine')vBig(false)};
 $('#vStab').onclick=()=>vSideOpen(true);$('#vSideX').onclick=()=>vSideOpen(false);
 $('#vSideTabs').onclick=e=>{const b=e.target.closest('[data-si]');if(b)vSideShow(+b.dataset.si)};
@@ -1787,27 +1787,25 @@ size();ui();penSync(($('.screen.on')||{}).id);
 (function(){let t=0;async function ck(){if(Date.now()-t<15000)return;t=Date.now();try{const r=await fetch('/api/phien',{cache:'no-store',credentials:'same-origin'});if(r.status===401){const d=await r.json().catch(()=>({}));if(d&&d.kick)location.replace('/login?kick=1')}}catch(e){}}
 setInterval(ck,60000);document.addEventListener('visibilitychange',()=>{if(!document.hidden)ck()});setTimeout(ck,3000)})();
 </script>
-<div id="dmodal"><div class="dlock"><button class="x" type="button" aria-label="Đóng">×</button><div class="ic">🔒</div><b>Phần này dành cho học viên khoá học</b><p>Bản dùng thử mở <b>3 đề đầu</b> và <b>mục đầu tiên</b> của các phần khác. Vào lớp để mở toàn bộ: slide bài giảng, toàn bộ đề thi có giải thích, video bài giảng, 3.800+ từ vựng, chữ Hán, ngữ pháp, bài tập về nhà.</p><div class="cta"><a href="https://www.facebook.com/anh.trongg.2024/" target="_blank" rel="noopener">💬 Nhắn tin Facebook</a><a class="tt" href="https://www.tiktok.com/@anhtrong.daygino" target="_blank" rel="noopener">♪ TikTok @anhtrong.daygino</a></div></div></div>
-<script>(()=>{const PANEL=`<div class="dlock"><div class="ic">🔒</div><b>Phần này dành cho học viên khoá học</b><p>Bản dùng thử mở <b>3 đề đầu</b> và <b>mục đầu tiên</b> của các phần khác. Vào lớp để mở toàn bộ: slide bài giảng, toàn bộ đề thi có giải thích, video bài giảng, 3.800+ từ vựng, chữ Hán, ngữ pháp, bài tập về nhà.</p><div class="cta"><a href="https://www.facebook.com/anh.trongg.2024/" target="_blank" rel="noopener">💬 Nhắn tin Facebook</a><a class="tt" href="https://www.tiktok.com/@anhtrong.daygino" target="_blank" rel="noopener">♪ TikTok @anhtrong.daygino</a></div></div>`;const M=document.getElementById('dmodal');
+<div id="dmodal"><div class="dlock"><button class="x" type="button" aria-label="Đóng">×</button><div class="ic">🔒</div><b>Phần này dành cho học viên khoá học</b><p>Bản dùng thử mở <b>3 đề đầu</b> và <b>1/3 nội dung</b> các phần khác. Vào lớp để mở toàn bộ: slide bài giảng, toàn bộ đề thi có giải thích, video bài giảng, 3.800+ từ vựng, chữ Hán, ngữ pháp, bài tập về nhà.</p><div class="cta"><a href="https://www.facebook.com/anh.trongg.2024/" target="_blank" rel="noopener">💬 Nhắn tin Facebook</a><a class="tt" href="https://www.tiktok.com/@anhtrong.daygino" target="_blank" rel="noopener">♪ TikTok @anhtrong.daygino</a></div></div></div>
+<script>window.DOPEN={"les":{"s1":[1,2,3,4,5,6],"s2":[1,2,3,4,5,6],"sc":[1,2]},"gram":{"入門":[3,4,5,6,7,8],"初級1":[1,2,3,4,5,6],"初級2":[1,2,3,4,5,6],"初中級":[1,2,3,4,5,6]},"voc":{"初級1":[1,2,3,4,5,6],"初級2":[1,2,3,4,5,6],"入門":[1,2,3,4,5,6]},"dv":{"入門":[4,5,6,7,8],"初級1":[1,2,3,4,5,6],"初級2":[1,2,3,4,5,6]},"dk":{"入門":2,"初級1":3,"初級2":3},"vid":["captoc-08","captoc-09","captoc-15","captoc-16","coban-01"],"hw":[1,2,3,4,5,6,7,8,9],"buoi":["100|0","102|0","101|0","101|1","200|0","15|0","11|0","10|0"],"ex":3};(()=>{const PANEL=`<div class="dlock"><div class="ic">🔒</div><b>Phần này dành cho học viên khoá học</b><p>Bản dùng thử mở <b>3 đề đầu</b> và <b>1/3 nội dung</b> các phần khác. Vào lớp để mở toàn bộ: slide bài giảng, toàn bộ đề thi có giải thích, video bài giảng, 3.800+ từ vựng, chữ Hán, ngữ pháp, bài tập về nhà.</p><div class="cta"><a href="https://www.facebook.com/anh.trongg.2024/" target="_blank" rel="noopener">💬 Nhắn tin Facebook</a><a class="tt" href="https://www.tiktok.com/@anhtrong.daygino" target="_blank" rel="noopener">♪ TikTok @anhtrong.daygino</a></div></div>`;const M=document.getElementById('dmodal');
 M.onclick=e=>{if(e.target===M||e.target.closest('.x'))M.classList.remove('on')};
 document.addEventListener('click',e=>{const l=e.target.closest('.lockd');if(l){e.preventDefault();e.stopPropagation();M.classList.add('on')}},true);
 const L=(el,on)=>el&&el.classList.toggle('lockd',!!on);
 const panel=el=>{if(el&&!el.querySelector(':scope>.dlock'))el.innerHTML=PANEL};
 let busy=false,q=false;
-function apply(){q=false;busy=true;try{
- document.querySelectorAll('#lgrid .lc').forEach((c,i)=>L(c,!(lvL==='s1'&&i===0)));
- document.querySelectorAll('#dDoc .bgrp .lc').forEach((c,i)=>L(c,i!==0));
- if(window.DOCS&&['vocab','kanji'].includes(dTab)&&document.querySelector('#dGrps .chip')){
-  const lv=dLv[dTab],open=0,ch=[...document.querySelectorAll('#dGrps .chip')];
-  ch.forEach((c,i)=>L(c,!(lv==='入門'&&i===open)));
-  if(!(lv==='入門'&&ch[open]&&ch[open].classList.contains('on')))panel(document.getElementById('dBody'))}
- document.querySelectorAll('#examList [data-ex]').forEach(b=>L(b,+b.dataset.ex>2));
- const gl=[...document.querySelectorAll('#baiGram .chip')];gl.forEach((c,i)=>L(c,!(gLv==='初級1'&&i===0)));
- if(gl.length&&!(gLv==='初級1'&&gl[0].classList.contains('on')))panel(document.getElementById('gArea'));
- document.querySelectorAll('.vgrid .vit').forEach((c,i)=>L(c,i!==0));
- const vl=[...document.querySelectorAll('#baiVocab .chip')];vl.forEach((c,i)=>L(c,!(vLv==='初級1'&&i===0)));
- if(vl.length&&!(vLv==='初級1'&&vl[0].classList.contains('on'))){panel(document.getElementById('vArea'));const wl=document.getElementById('wl');if(wl&&wl.children.length)wl.innerHTML=''}
- document.querySelectorAll('#hwList .ec').forEach((c,i)=>L(c,i!==0));
+function apply(){q=false;busy=true;try{const O=window.DOPEN,has=(m,k,v)=>(m[k]||[]).includes(v),act=ch=>{const on=ch.find(c=>c.classList.contains('on'));return !on||on.classList.contains('lockd')};
+ document.querySelectorAll('#lgrid .lc').forEach(c=>{const b=c.querySelector('[data-skill]');const[lv,bai]=b?b.dataset.skill.split('|'):[];L(c,!(b&&has(O.les,lv,+bai)))});
+ document.querySelectorAll('#dDoc .bgrp .lc').forEach(c=>{const b=c.querySelector('[data-bd]');L(c,!(b&&O.buoi.includes(b.dataset.bd)))});
+ if(window.DOCS&&['vocab','kanji'].includes(dTab)){const ch=[...document.querySelectorAll('#dGrps .chip')];if(ch.length){const lv=dLv[dTab];
+  ch.forEach(c=>{const g=+c.dataset.g;L(c,!(dTab==='vocab'?has(O.dv,lv,g):g<(O.dk[lv]||0)))});if(act(ch))panel(document.getElementById('dBody'))}}
+ document.querySelectorAll('#examList [data-ex]').forEach(b=>L(b,+b.dataset.ex>=O.ex));
+ const gl=[...document.querySelectorAll('#baiGram .chip')];gl.forEach(c=>L(c,!has(O.gram,gLv,+c.dataset.b)));
+ if(gl.length&&act(gl))panel(document.getElementById('gArea'));
+ document.querySelectorAll('.vgrid .vit').forEach(c=>L(c,!O.vid.includes(c.dataset.vid)));
+ const vl=[...document.querySelectorAll('#baiVocab .chip')];vl.forEach(c=>L(c,!has(O.voc,vLv,+c.dataset.b)));
+ if(vl.length&&act(vl)){panel(document.getElementById('vArea'));const wl=document.getElementById('wl');if(wl&&wl.children.length)wl.innerHTML=''}
+ document.querySelectorAll('#hwList .ec').forEach(c=>{const b=c.querySelector('[data-hw]');L(c,!(b&&O.hw.includes(+b.dataset.hw)))});
 }finally{busy=false}}
 new MutationObserver(()=>{if(!busy&&!q){q=true;requestAnimationFrame(apply)}}).observe(document.querySelector('main'),{childList:true,subtree:true});
 apply()})();</script><script>try{go('exam')}catch(e){}</script>

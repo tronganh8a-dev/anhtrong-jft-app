@@ -6,6 +6,11 @@ export { Phien } from './auth.js';
 import { hoi } from './hoidap.js';
 import { isPublic, kiemtraPublic, ketqua } from './kiemtra.js';
 export { KiemTra } from './kiemtra.js';
+import DALLOW from './demo_allow.js';
+const DALLOWF = new Set(DALLOW.f);
+// 19/11: file nội dung (bài học, tài liệu, BTVN, media) của phần mở trong bản dùng thử lấy thẳng từ bản chính, chỉ đúng danh sách do build_demo.py sinh ra
+const demoOK = p => { let d; try { d = decodeURIComponent(p).replace(/^\/+/, ''); } catch (e) { return false; } if (d.includes('..')) return false;
+  return DALLOWF.has(d) || DALLOWF.has(d + '.html') || DALLOW.p.some(x => d.startsWith(x)); };
 const isDemo = h => /^jft-dungthu\./i.test(h);
 async function demo(req, env) {
   const url = new URL(req.url);
@@ -21,6 +26,17 @@ async function demo(req, env) {
       if (nl.pathname.startsWith('/_demo')) { p = nl.pathname.slice(6) || '/'; continue; }
     }
     break;
+  }
+  if (res.status === 404 && demoOK(p)) {
+    let q = p;
+    for (let i = 0; i < 4; i++) {
+      const u = new URL(url); u.pathname = q;
+      res = await env.ASSETS.fetch(new Request(u, { method: req.method, headers: req.headers }));
+      const loc = res.headers.get('Location');
+      if (res.status >= 300 && res.status < 400 && loc) { const nl = new URL(loc, u); if (demoOK(nl.pathname)) { q = nl.pathname; continue; } }
+      break;
+    }
+    if (res.status >= 300 && res.status < 400) res = new Response('Not found', { status: 404 });
   }
   const out = new Response(res.body, res);
   const fresh = p === '/' || p.endsWith('.html') || p.startsWith('/app/data/') || !/\.[a-z0-9]+$/i.test(p);
