@@ -145,6 +145,6 @@ Quy trình sau khi sửa: `python3 src/build_data.py` (nếu đổi dữ liệu)
 - Bản chính dùng `public/app/logi.js` + `logi.webp` (chung với 3 app Gino; auth.js hàm `logi()` chèn vào trang chính). `ggShow` (popup chữ, không ảnh) không còn gọi trong `unlock()` của bản chính để khỏi hiện 2 popup; bản dùng thử vẫn giữ ggShow.
 
 ## Cập nhật 19/11/2026
-- **Đề 1 ↔ Đề 28 đổi chỗ**: build_data.py đổi vị trí + tiêu đề jft-t1 (Sát đề thật tháng 11 → "Đề 1", lên đầu) và jft-f1 (→ "Đề 28"); dòng "Nguồn: Đề 1 · câu x" trong jft-t1 đổi thành "Đề 28 · câu x". Tài liệu cũ (PDF Kaiwa, ảnh từ vựng TikTok) vẫn ghi số đề cũ.
+- **Đề 1 ↔ Đề 27 đổi chỗ** (anh đổi ý từ 28 sang 27): build_data.py đổi vị trí + tiêu đề jft-y3 (→ "Đề 1", lên đầu) và jft-f1 (→ "Đề 27"); Đề 28 (jft-t1) giữ nguyên. Các dòng "Nguồn: Đề 1/27 · câu x" trong mọi đề được đổi số theo. Tài liệu cũ (PDF Kaiwa, ảnh từ vựng TikTok) vẫn ghi số đề cũ.
 - **Bản dùng thử**: mở 3 đề đầu (build_demo.py `i < 3`, khoá `+data-ex>2`); mở link là vào thẳng màn Làm đề (`go('exam')` cuối trang, thanh tab ở dưới); ĐÃ BỎ popup quảng cáo (logi.js) ở bản dùng thử theo yêu cầu anh — bản chính vẫn có (auth.js).
 - **Tổng ôn 会話と表現 câu 80–100**: `public/tailieu/TongOn_KaiwaHyogen_80_100.html` (25 slide, nhóm n:200 trong BUOI). Dựng: `python3 src/tailieu_src/kaiwa_80_100_build.py` (đề từ `kaiwa/cau80_100_raw.json`, dịch + giải thích tự soạn ở `kaiwa/cau80_100_gt.py`).

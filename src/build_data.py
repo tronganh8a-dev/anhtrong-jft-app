@@ -88,14 +88,17 @@ for n in sorted(LT, key=int):
 if os.path.exists(R + 'jft_exams.json'):
     exams = [e for e in json.load(open(R + 'jft_exams.json')) if e['id'] not in {f'jft-f{n}' for n in HIDE_EXAMS}]
     import sys; sys.path.insert(0, A + 'jft'); from underline import underline_exams
-    # 19/11: anh yêu cầu đổi chỗ Đề 1 ↔ Đề 28 (jft-t1 "Sát đề thật" lên đầu thành Đề 1, jft-f1 thành Đề 28)
+    # 19/11: anh yêu cầu đổi chỗ Đề 1 ↔ Đề 27 (jft-y3 lên đầu thành "Đề 1", jft-f1 thành "Đề 27"; Đề 28 giữ nguyên)
     _ix = {e['id']: i for i, e in enumerate(exams)}
-    if 'jft-t1' in _ix and 'jft-f1' in _ix:
-        a, b = _ix['jft-f1'], _ix['jft-t1']
+    if 'jft-y3' in _ix and 'jft-f1' in _ix:
+        a, b = _ix['jft-f1'], _ix['jft-y3']
         exams[a], exams[b] = exams[b], exams[a]
-        exams[a]['title'], exams[b]['title'] = 'Đề 1', 'Đề 28'
-        for q in exams[a]['qs']:
-            if isinstance(q.get('src'), str): q['src'] = q['src'].replace('Đề 1 · câu', 'Đề 28 · câu')
+        exams[a]['title'], exams[b]['title'] = 'Đề 1', 'Đề 27'
+        _sw = {'Đề 1 · câu': 'Đề 27 · câu', 'Đề 27 · câu': 'Đề 1 · câu'}
+        for e in exams:
+            for q in e['qs']:
+                if isinstance(q.get('src'), str):
+                    q['src'] = re.sub(r'Đề (1|27) · câu', lambda m: _sw[m.group(0)], q['src'])
     print('gạch chân từ hỏi đọc/viết:', underline_exams(exams))
 js('exams', 'EXAMS', exams)
 open(OUT + 'app/data/exams.js', 'a', encoding='utf-8').write('window.EXTLINKS=[];')
