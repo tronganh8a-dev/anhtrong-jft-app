@@ -1723,6 +1723,8 @@ function key(e,fromFrame){if(!open)return;const tg=e.target&&e.target.tagName||'
   if(fs()||strokes.some(s=>!s.f))clear(); // chuyển slide → xoá nét cũ (Ctrl+Z để lấy lại)
   if(!fromFrame){const fr=$('#vFrame');try{const d=fr.contentDocument;e.preventDefault();d.dispatchEvent(new KeyboardEvent('keydown',{key:e.key,code:e.code,keyCode:e.keyCode,which:e.which,bubbles:true,cancelable:true}))}catch(_){}}}}
 document.addEventListener('keydown',e=>key(e,false));
+/* phím G ở ngoài khung slide: mở/đóng thanh xem nhanh slide (app/slidenav.js trong iframe) */
+document.addEventListener('keydown',e=>{if(e.key!=='g'&&e.key!=='G'||e.ctrlKey||e.metaKey||e.altKey||!$('#viewer').classList.contains('on'))return;const t=e.target;if(t&&(/INPUT|TEXTAREA|SELECT/.test(t.tagName||'')||t.isContentEditable))return;try{const w=$('#vFrame').contentWindow;if(w&&w.__snvToggle){e.preventDefault();w.__snvToggle()}}catch(_){}});
 $('#vFrame').addEventListener('load',()=>{try{const w=$('#vFrame').contentWindow;w.addEventListener('keydown',e=>key(e,true),true);
  /* slide tự bật toàn màn hình bên trong iframe sẽ che mất bút → chuyển sang toàn màn hình của khung xem (giữ bút) */
  const de=w.document.documentElement,tg=()=>{if(fs()){(document.exitFullscreen||document.webkitExitFullscreen).call(document);return Promise.resolve()}const f=$('#vFrameWrap');return Promise.resolve((f.requestFullscreen||f.webkitRequestFullscreen||(()=>{})).call(f))};

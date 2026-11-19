@@ -27,7 +27,7 @@ async function demo(req, env) {
     }
     break;
   }
-  if (res.status === 404 && demoOK(p)) {
+  if (res.status === 404 && (demoOK(p) || p === '/app/slidenav.js')) {
     let q = p;
     for (let i = 0; i < 4; i++) {
       const u = new URL(url); u.pathname = q;
@@ -38,7 +38,10 @@ async function demo(req, env) {
     }
     if (res.status >= 300 && res.status < 400) res = new Response('Not found', { status: 404 });
   }
-  const out = new Response(res.body, res);
+  let out = new Response(res.body, res);
+  // thanh xem nhanh slide (app/slidenav.js) cho trang slide của bản dùng thử
+  if (/text\/html/i.test(res.headers.get('Content-Type') || '') && /^\/(tailieu|lessons)\//.test(p))
+    out = new HTMLRewriter().on('head', { element(e) { e.prepend('<script src="/app/slidenav.js?v=1"></script>', { html: true }); } }).transform(out);
   const fresh = p === '/' || p.endsWith('.html') || p.startsWith('/app/data/') || !/\.[a-z0-9]+$/i.test(p);
   out.headers.set('Cache-Control', fresh ? 'no-cache' : 'public, max-age=3600');
   out.headers.set('X-Robots-Tag', 'noindex');

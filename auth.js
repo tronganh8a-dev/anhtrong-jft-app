@@ -154,7 +154,7 @@ function logi(res) {
 
 function bv(res, u) {
   if (!/text\/html/i.test(res.headers.get('Content-Type') || '')) return res;
-  const tag = `<script>window.__WM=${JSON.stringify(u).replace(/</g, '\\u003c')}</script><script src="/app/bv.js?v=3"></script>`;
+  const tag = `<script>window.__WM=${JSON.stringify(u).replace(/</g, '\\u003c')}</script><script src="/app/bv.js?v=3"></script><script src="/app/slidenav.js?v=1"></script>`;
   return new HTMLRewriter().on('head', { element(e) { e.prepend(tag, { html: true }); } }).transform(res);
 }
 
