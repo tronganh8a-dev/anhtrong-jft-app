@@ -342,6 +342,89 @@
   "slides": []
  },
  {
+  "id": "captoc-10",
+  "series": "Khoá cấp tốc",
+  "series_jp": "短期集中コース",
+  "no": "Buổi 10",
+  "title": "Kính ngữ trong JFT",
+  "tags": [
+   "敬語"
+  ],
+  "yt": ""
+ },
+ {
+  "id": "captoc-11",
+  "series": "Khoá cấp tốc",
+  "series_jp": "短期集中コース",
+  "no": "Buổi 11",
+  "title": "Từ vựng trọng tâm 初級1・初級2",
+  "tags": [
+   "語彙"
+  ],
+  "yt": ""
+ },
+ {
+  "id": "captoc-12",
+  "series": "Khoá cấp tốc",
+  "series_jp": "短期集中コース",
+  "no": "Buổi 12",
+  "title": "Video đang cập nhật",
+  "tags": [],
+  "yt": ""
+ },
+ {
+  "id": "captoc-13",
+  "series": "Khoá cấp tốc",
+  "series_jp": "短期集中コース",
+  "no": "Buổi 13",
+  "title": "Video đang cập nhật",
+  "tags": [],
+  "yt": ""
+ },
+ {
+  "id": "captoc-14",
+  "series": "Khoá cấp tốc",
+  "series_jp": "短期集中コース",
+  "no": "Buổi 14",
+  "title": "Video đang cập nhật",
+  "tags": [],
+  "yt": ""
+ },
+ {
+  "id": "captoc-15",
+  "series": "Khoá cấp tốc",
+  "series_jp": "短期集中コース",
+  "no": "Buổi 15",
+  "title": "Tổng ôn ngữ pháp – từ vựng いろどり 初級2",
+  "tags": [
+   "文法",
+   "語彙"
+  ],
+  "gd": "https://drive.google.com/file/d/1YlcKOI_zLIM6-pNLULAiq_lVDGljYwnN/view",
+  "date": "2026-11-19",
+  "buoi": -1,
+  "covers": [
+   "s2"
+  ]
+ },
+ {
+  "id": "captoc-16",
+  "series": "Khoá cấp tốc",
+  "series_jp": "短期集中コース",
+  "no": "Buổi 16",
+  "title": "Tổng ôn ngữ pháp – từ vựng いろどり 初級2",
+  "tags": [
+   "文法",
+   "語彙"
+  ],
+  "gd": "https://drive.google.com/file/d/1PcAgLTLol4amz_3yhOJOQdSWex4QzQQ9/view",
+  "date": "2026-11-19",
+  "buoi": -1,
+  "covers": [
+   "s2"
+  ]
+ },
+ {
   "id": "coban-01",
   "series": "Khoá cơ bản",
   "series_jp": "基礎コース",
