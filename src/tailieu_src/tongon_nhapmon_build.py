@@ -185,7 +185,35 @@ def img(name, w=360):
         _IMG[name] = 'data:image/jpeg;base64,' + base64.b64encode(b.getvalue()).decode()
     return _IMG[name]
 
-def build(no, bais, title, sub, kanji, gsel, tables, quizzes_g, plan, ends, fname, basic, listen, hooks=None, extra_js='', label=None, coverp=None, bare=False):
+G1CSS = (".gx{display:grid;grid-template-columns:660px 1fr;gap:32px;margin-top:0;align-items:start}"
+ ".gxl{display:flex;flex-direction:column;gap:12px}.gxp{background:#0d5a8c;color:#fff;border-radius:20px;padding:16px 26px;font-family:'Klee One',serif;font-weight:600;font-size:40px;line-height:1.45}"
+ ".gxp.lo{font-size:33px}.gxp rt{font-size:.42em}.gxp .no{color:#ffd166;margin-right:10px}.gxm{font-size:27px;font-weight:800;color:#c42f66;line-height:1.3}"
+ ".gxh{font-size:19px;font-weight:800;letter-spacing:.06em;color:#6b8296;text-transform:uppercase}"
+ ".gxx{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px}.gxx li{background:#fff;border-radius:14px;padding:9px 16px;font-size:21px;line-height:1.45;box-shadow:0 6px 18px #0d2b4010;border-left:8px solid #f2a93b}"
+ ".gxx li rt{font-size:.5em}.gxn{background:#fff8e6;border-radius:14px;padding:8px 16px;font-size:21px;color:#8a5a00;line-height:1.4}"
+ ".gxr{display:flex;flex-direction:column;gap:12px}.gxe{background:#fff;border-radius:16px;padding:10px 20px;box-shadow:0 6px 18px #0d2b4012;border-left:8px solid #0d5a8c}"
+ ".gxe:nth-child(3){border-color:#c42f66}.gxe:nth-child(4){border-color:#5a9e2f}"
+ ".gxe .jpt{font-size:29px;line-height:1.7}.gxe .jpt rt{font-size:.45em}.gxe .vi{font-size:20px;color:#47647a;line-height:1.4}"
+ ".gx.sm .gxe .jpt{font-size:25px;line-height:1.65}.gx.sm .gxx li{font-size:19.5px}")
+def g1slide(p, note=None):
+    """Slide dạy 1 mẫu ngữ pháp: mẫu + nghĩa + cách dùng (文法ノート) bên trái, tối đa 3 câu ví dụ bên phải (câu sách + câu luyện thêm của 文法ノート)."""
+    plain = lambda t: re.sub(r'\{([^|]+)\|[^}]+\}', r'\1', t)
+    xs = [x for x in p.get('explain_vi', []) if x.strip() and not x.rstrip().endswith((':', '：'))][:3]
+    exs = (p.get('examples') or []) + (p.get('more_examples') or [])
+    pick, tot = [], 0
+    for e in exs:
+        L = len(plain(e['jp'])) + 14 * e['jp'].count('\n')
+        if pick and (tot + L > 100 or len(pick) >= 3): continue
+        pick.append(e); tot += L
+    xl = sum(len(x) for x in xs)
+    sm = tot > 75 or xl > 300
+    lo = len(plain(p['pattern'])) > 22
+    li = ''.join(f'<li class="st">{RB(x)}</li>' for x in xs)
+    eg = ''.join(f'<div class="gxe"><div class="jpt">{RB(e["jp"])}</div><div class="vi st">{html.escape(e["vi"]).replace(chr(10), "<br>")}</div></div>' for e in pick)
+    return (f'<div class="gx{" sm" if sm else ""}"><div class="gxl"><div class="gxp{" lo" if lo else ""}"><span class="no">{p["no"]}</span>{RB(p["pattern"])}</div><div class="gxm">{html.escape(p["meaning_vi"])}</div>'
+            f'<div class="gxh">Cách dùng</div><ul class="gxx">{li}</ul>' + (f'<div class="gxn st">{note}</div>' if note else '') +
+            f'</div><div class="gxr"><div class="gxh">Ví dụ</div>{eg}</div></div>')
+def build(no, bais, title, sub, kanji, gsel, tables, quizzes_g, plan, ends, fname, basic, listen, hooks=None, extra_js='', label=None, coverp=None, bare=False, gone=False):
     hooks = hooks or {}; label = label or f'Buổi {no}'
     S = []
     CR = f'<div class="cr">Tổng ôn いろどり 入門 · {label} · Anh Trọng Dạy JFT · 出典：いろどり 生活の日本語 入門 (Quỹ Giao lưu Quốc tế Nhật Bản), 文法ノート いろどり · nét viết: KanjiVG (CC BY-SA 3.0) · bảng tổng hợp và lưu ý là tự soạn</div>'
@@ -275,6 +303,19 @@ def build(no, bais, title, sub, kanji, gsel, tables, quizzes_g, plan, ends, fnam
     if 'kanji' in hooks: hooks['kanji'](S, sl, quiz, CR)
     # 4. Ngữ pháp
     sl('', f'<div class="sec"><div class="n">03</div><div class="t">Ngữ pháp</div><div class="j">ぶんぽう</div><div class="d">Mẫu câu – nghĩa – câu ví dụ trong sách</div>{f"<div class=tm>{plan[2][0]} phút</div>" if isinstance(plan[2][0], int) else ""}</div>')
+    if gone:   # 19/11 anh dặn: mỗi mẫu ngữ pháp 1 slide riêng, giảng kỹ + nhiều ví dụ, rồi 1 câu luyện ngay sau
+        S.append('<style>' + G1CSS + '</style>')
+        for b, nos, notes in gsel:
+            g = GB[b]
+            for k, pno in enumerate(nos):
+                p = next(x for x in g['points'] if x['no'] == pno)
+                sl(f'<span class="bt">Bài {b}</span> <span class="jpt">{RB(g["title"])}</span> <small>{html.escape(g["title_vi"])} · mẫu {k + 1}/{len(nos)}</small>', g1slide(p, notes.get(pno)))
+                qs = p.get('quiz') or []
+                if qs:
+                    q = qs[0]
+                    quiz(RB(q['q']).replace('（　）', '<u>（　　）</u>'), [RB(o) for o in q['o']], q['a'], html.escape(q.get('ex_vi', '')), f'文法ノート いろどり 入門 Bài {b} · mẫu {pno}')
+            if b in tables: sl(*tables[b])
+        gsel = []
     for b, nos, notes in gsel:
         g = GB[b]; pts = [p for p in g['points'] if p['no'] in nos]
         mx = 3 if all(len(re.sub(r'\{([^|]+)\|[^}]+\}', r'\1', p['pattern'])) <= 16 and len(re.sub(r'\{([^|]+)\|[^}]+\}', r'\1', p['examples'][0]['jp'] if p['examples'] else '')) <= 26 for p in pts) else 2
@@ -310,7 +351,7 @@ def build(no, bais, title, sub, kanji, gsel, tables, quizzes_g, plan, ends, fnam
     if bare: return S
     sl(f'Tổng kết {label.lower()}', ends)
     S.append(f'''<section class="slide dark"><div class="cover"><img class="lg" src="{LOGO}"><div class="kk">おつかれさまでした！</div>
-<h1>Hết {label.lower()}<br><span>{f"Hẹn gặp lại ở buổi {no + 1}" if no < 3 else "Tiếp theo: いろどり 初級1"}</span></h1>
+<h1>Hết {label.lower()}<br><span>{f"Hẹn gặp lại ở buổi {no + 1}" if no < 5 else "Tiếp theo: いろどり 初級1"}</span></h1>
 <p>Ôn lại trên app: Tài liệu → Từ vựng · Chữ Hán · Ngữ pháp (入門)</p></div>{CR}</section>''')
     out = HEAD.replace('<title>Kính ngữ trong JFT-Basic</title>', f'<title>{label} · Tổng ôn いろどり 入門</title>') + ''.join(S) + '<script>window.KVG=' + json.dumps({c: KVG[c] for c in set(''.join(k['w'] for g_, _ in kanji for k in KAN if k['w'] in g_)) if c in KVG}, ensure_ascii=False, separators=(',', ':')) + '</script>' + KVGJS + TAIL + VSTEP + extra_js
     open(R + 'public/tailieu/' + fname, 'w').write(out)
@@ -430,16 +471,21 @@ def exq(S, CR, eid, qi, lab, src, listen):
     S.append(f'<section class="slide qz ls{" rd" if not listen else ""}"><div class="kk2">{lab} <span class="src">{src} · {html.escape(e["title"])} câu {qi + 1} trong app</span></div><h2 class="jp q">{q["t"]}</h2>{body}<div class="ex lex">{q.get("ex", "")}</div><button class="lsb" onclick="this.previousElementSibling.classList.toggle(&quot;open&quot;)">📄 {"Script" if listen else "Dịch · giải thích"}</button>{CR}</section>')
 RDCSS = '<style>.rdq{grid-template-columns:1.5fr 1fr!important;align-items:start}.rdq>img{max-height:500px;width:100%;object-fit:contain;border-radius:14px;box-shadow:0 6px 18px #0d2b4018;background:#fff}.rk{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:8px}.rk>div{background:#fff;border-radius:18px;padding:16px 22px;box-shadow:0 6px 18px #0d2b4010;font-size:26px;line-height:1.45}.rk b.n{display:inline-block;background:#0d5a8c;color:#fff;border-radius:10px;padding:0 12px;margin-right:8px}.rk .jpt{font-size:28px}</style>'
 RDSKILL = {
- 2: ('Đọc thông báo, lịch, tờ rơi', [
+ 3: ('Đọc thông báo, lịch, tờ rơi', [
    ('1', 'Đọc câu hỏi trước', 'Gạch chân từ để hỏi: ' + jp('いつ・何時・何曜日・何回・いくら・どこ・だれ')),
    ('2', 'Nhìn tiêu đề, biết đây là gì', jp('お知らせ') + ' thông báo · ' + jp('予定') + ' lịch · ' + jp('教室') + ' lớp học · ' + jp('営業時間') + ' giờ mở cửa'),
    ('3', 'Tìm đúng dòng có câu trả lời', jp('日時') + ' ngày giờ · ' + jp('場所') + ' địa điểm · ' + jp('費用') + ' chi phí · ' + jp('問い合わせ') + ' liên hệ'),
    ('4', 'Đọc kỹ dòng ※ và chữ trong ngoặc', 'Đáp án hay nằm ở đây: ' + jp('※15分前に来てください') + ' · ' + jp('（コピー代がかかります）'))]),
- 3: ('Đọc biển, bảng giá, thực đơn', [
+ 4: ('Đọc biển, bảng giá, thực đơn', [
    ('1', 'Giá tiền: xem có thuế chưa', jp('税込') + ' đã gồm thuế · ' + jp('税別・税抜') + ' chưa gồm thuế (＋税)'),
    ('2', 'Giảm giá: tính lại', jp('50円引') + ' trừ 50 yên · ' + jp('半額') + ' nửa giá · ' + jp('今週限り') + ' chỉ tuần này'),
    ('3', 'Giờ mở cửa: chú ý ngoại lệ', jp('月〜土 7:00〜17:00（土 16:30）') + ' · ' + jp('定休日は日曜日')),
-   ('4', 'Thực đơn: món lẻ hay set', jp('単品') + ' món lẻ · ' + jp('セット') + ' suất có kèm đồ uống, khoai')])}
+   ('4', 'Thực đơn: món lẻ hay set', jp('単品') + ' món lẻ · ' + jp('セット') + ' suất có kèm đồ uống, khoai')]),
+ 5: ('Đọc tin nhắn, email, bài kể chuyện', [
+   ('1', 'Xem ai viết cho ai', 'Dòng đầu: ' + jp('〜さん、') + ' là người nhận · cuối thư là tên người viết'),
+   ('2', 'Tìm thời gian', jp('昨日・先週・週末・去年') + ' → chuyện đã qua, động từ đuôi ' + jp('〜ました')),
+   ('3', 'Tìm cảm xúc, lý do', jp('うれしかったです・楽しかったです') + ' · lý do thường đứng trước ' + jp('から・ので')),
+   ('4', 'Câu cuối thường là lời nhờ, lời rủ', jp('〜てください・〜ませんか・また〜ましょう') + ' — câu hỏi "người viết muốn gì" nằm ở đây')])}
 def hook_listen(no, parts, reads, rd_fn=None):
     def f(S, sl, quiz, CR):
         n = 0
@@ -489,44 +535,73 @@ def rd_bang(S, sl, quiz, CR):
     for i, (eid, qi) in enumerate(RD_B2):
         exq(S, CR, eid, qi, f'Đọc bảng {i + 1}', 'Luyện tập', False)
 LSN_B2 = [('Phần 1', 'Giờ giấc, lịch hẹn', 'いろどり 入門 第9・10課', [('jft-ln3', 0), ('jft-ln1', 2), ('jft-ln2', 0), ('jft-ln1', 3)])]
-LSN_B3 = [('Phần 1', 'Ngày nghỉ thế nào?', 'いろどり 入門 第17・18課', [('jft-ln1', 6), ('jft-ln1', 5)]),
+LSN_B3 = [('Phần 1', 'Sự kiện, thông báo', 'Đề nghe trong app · audio いろどり', [('jft-ln2', 13), ('jft-ln2', 14)]),
+          ('Phần 2', 'Đi tàu, tìm sân ga', 'Đề nghe trong app · audio いろどり', [('jft-ln2', 8), ('jft-ln3', 4)])]
+LSN_B4 = [('Phần 1', 'Nơi đó thế nào?', 'Đề nghe trong app · audio いろどり', [('jft-ln1', 13), ('jft-ln3', 3)]),
+          ('Phần 2', 'Đồ vật, mua sắm', 'Đề nghe trong app · audio いろどり', [('jft-ln2', 19), ('jft-ln1', 15)])]
+LSN_B5 = [('Phần 1', 'Ngày nghỉ thế nào?', 'いろどり 入門 第17・18課', [('jft-ln1', 6), ('jft-ln1', 5)]),
           ('Phần 2', 'Muốn làm gì ở Nhật?', 'いろどり 入門 第18課', [('jft-ln1', 4), ('jft-ln2', 1)])]
 RD_B2 = [('jft-f8', 38), ('jft-f8', 39), ('jft-f5', 44), ('jft-y3', 40), ('jft-y3', 41), ('jft-g18', 41), ('jft-f8', 41)]
-RD_B3 = [('jft-f13', 49), ('jft-f6', 40), ('jft-g21', 28), ('jft-g21', 29), ('jft-f8', 47)]
-build(2, range(10, 14), 'Tổng ôn 入門', 'Bài 10 – 13', [
+RD_B3 = [('jft-f10', 39), ('jft-g21', 30), ('jft-g21', 31), ('jft-g18', 40), ('jft-f6', 46)]
+RD_B4 = [('jft-f13', 49), ('jft-f6', 40), ('jft-g21', 28), ('jft-g21', 29), ('jft-f8', 47)]
+RD_B5 = [('jft-f6', 42), ('jft-f4', 44), ('jft-f9', 36), ('jft-g18', 36), ('jft-f2', 36)]
+# 19/11 (lần 2): anh thấy chữ Hán và ngữ pháp vẫn nhiều → chia Bài 10–18 thành 4 buổi (anh chọn):
+# Buổi 2 = Bài 10–11 · Buổi 3 = Bài 12–13 · Buổi 4 = Bài 14–16 · Buổi 5 = Bài 17–18.
+# Mỗi buổi ~10–11 chữ Hán; mỗi mẫu ngữ pháp 1 slide riêng (cách dùng theo 文法ノート + 3–4 câu ví dụ) và 1 câu luyện ngay sau (gone=True).
+END = lambda done, hw: ('<div class="kgr g2"><div class="kcd kb"><h3>Đã ôn</h3><ul class="ck">' + ''.join(f'<li>{x}</li>' for x in done) + '</ul></div>'
+                        '<div class="kcd kp"><h3>Bài tập về nhà</h3><ul class="ck">' + ''.join(f'<li>{x}</li>' for x in hw) + '</ul></div></div>')
+build(2, range(10, 12), 'Tổng ôn 入門', 'Bài 10 – 11', [
     (['読みます', '聞きます', '見ます', '本', '友だち'], 'Hoạt động'),
     (['何', '年', '月', '日', '今日'], 'Ngày tháng'),
-    (['今週', '今度', '来週', '休み', '予定'], 'Lịch hẹn'),
-    (['東', '南', '会社', '来ます', '行きます'], 'Đi lại'),
-    (['乗ります', '会います', '入ります', '買います', '旅行します'], 'Động từ'),
   ], [
-    (10, ['❶', '❷', '❸'], {'❶': 'Thể て: học kỹ ở 初級1'}),
+    (10, ['❶', '❷', '❸'], {'❶': 'Thể て sẽ học kỹ ở 初級1 — buổi này chỉ cần nhớ cả cụm 〜てください.'}),
     (11, ['❷', '❸', '❹', '❺'], {}),
-    (12, ['❶', '❸', '❹', '❺'], {'❶': 'Nơi diễn ra sự kiện dùng で'}),
-    (13, ['❶', '❸', '❹', '❺', '❻'], {}),
-  ], {13: tab2[13]}, [(10, '❶', 0), (12, '❸', 0), (13, '❸', 0)],
-  [(15, 'Từ vựng', 'Bài 10–13 + từ khó: tàu xe, ngày tháng, sự kiện'), (15, 'Chữ Hán', 'Từng chữ: nét viết, Hán Việt, On/Kun, ví dụ'),
-   (25, 'Ngữ pháp', 'て-ください, rủ rê, trợ từ に・で・へ・を'), (15, 'Nghe hiểu', '4 câu từ いろどり 入門: giờ hẹn, lịch làm việc'),
+  ], {}, [],
+  [(15, 'Từ vựng', 'Bài 10–11: đồ dùng văn phòng, sở thích, hoạt động thường ngày'), (15, 'Chữ Hán', '10 chữ: nét viết, Hán Việt, On/Kun, ví dụ'),
+   (25, 'Ngữ pháp', '7 mẫu, mỗi mẫu 1 slide + 1 câu luyện: てください, mượn đồ, どんな, あまり, tần suất, と・で'), (15, 'Nghe hiểu', '4 câu từ いろどり 入門: giờ hẹn, lịch làm việc'),
    (20, 'Đọc bảng thông tin', '4 bước đọc bảng, làm mẫu + 8 câu: lịch, giờ mở cửa, thông báo, lịch đổ rác')],
-  '<div class="kgr g2"><div class="kcd kb"><h3>Đã ôn</h3><ul class="ck"><li>V-てください · V-ませんか · V-ましょう</li><li>Trợ từ に・で・へ・を · から〜まで</li><li>Ngày tháng, lịch hẹn</li><li>Đọc bảng thông tin: gạch từ hỏi + điều kiện, dò hàng → cột, đọc kỹ ※</li></ul></div>'
-  '<div class="kcd kp"><h3>Bài tập về nhà</h3><ul class="ck"><li>App → Tài liệu → Từ vựng 入門 Bài 10–13</li><li>Chữ Hán: luyện cách đọc + chọn chữ</li><li>Làm đề: phần 読解 của 1 đề bất kỳ</li></ul></div></div>',
-  'Buoi02_TongOn_NhapMon_2.html', False, [], hooks={'vocab': hook_vocab('tau'), 'listen': hook_listen(2, LSN_B2, RD_B2, rd_bang)})
-build(3, range(14, 19), 'Tổng ôn 入門', 'Bài 14 – 18', [
+  END(['V-てください · 貸してください · 借りてもいいですか', 'Nですね (xác nhận lại)', 'どんなN · あまり〜ない', 'いつも・よく・ときどき・あまり・ぜんぜん', '【人】と【場所】でV', 'Đọc bảng: gạch từ hỏi + điều kiện, dò hàng → cột, đọc kỹ ※'],
+      ['App → Tài liệu → Từ vựng 入門 Bài 10–11', 'Chữ Hán: luyện cách đọc 10 chữ của buổi', 'Ngữ pháp: worksheet 文法ノート Bài 10–11']),
+  'Buoi02_TongOn_NhapMon_2.html', False, [], hooks={'listen': hook_listen(2, LSN_B2, RD_B2, rd_bang)}, gone=True)
+build(3, range(12, 14), 'Tổng ôn 入門', 'Bài 12 – 13', [
+    (['今週', '今度', '来週', '休み', '予定'], 'Lịch hẹn'),
+    (['東', '南', '会社', '来ます', '行きます', '乗ります'], 'Đi lại'),
+  ], [
+    (12, ['❶', '❷', '❸', '❹', '❺'], {'❶': 'Nơi diễn ra sự kiện dùng で, không dùng に.'}),
+    (13, ['❸', '❹', '❺', '❻'], {}),
+  ], {13: tab2[13]}, [],
+  [(15, 'Từ vựng', 'Bài 12–13 + từ khó: tàu xe, ngày tháng, sự kiện'), (15, 'Chữ Hán', '11 chữ: nét viết, Hán Việt, On/Kun, ví dụ'),
+   (30, 'Ngữ pháp', '9 mẫu, mỗi mẫu 1 slide + 1 câu luyện: sự kiện, rủ rê, đi để làm gì, phương tiện, thời gian, lên xuống xe'), (15, 'Nghe hiểu', '4 câu: thông báo sự kiện, đi tàu, sân ga'),
+   (15, 'Đọc hiểu', 'Cách đọc thông báo, tờ rơi + 5 câu')],
+  END(['【日時】に【場所】で【イベント】があります', 'Nに行きます · V(bỏ ます)に行きます', 'V-ませんか · V-ましょう', 'Phương tiện + で · かかります', 'Nに乗ります / Nを降ります · から〜まで'],
+      ['App → Tài liệu → Từ vựng 入門 Bài 12–13', 'Chữ Hán: luyện cách đọc 11 chữ của buổi', 'Làm đề: phần 読解 của 1 đề bất kỳ']),
+  'Buoi03_TongOn_NhapMon_3.html', False, [], hooks={'vocab': hook_vocab('tau'), 'listen': hook_listen(3, LSN_B3, RD_B3)}, gone=True)
+build(4, range(14, 17), 'Tổng ôn 入門', 'Bài 14 – 16', [
     (['大きい', '小さい', '高い', '低い', '安い'], 'Tính từ'),
     (['前', '後ろ', '横', '入口', '出口'], 'Vị trí · lối đi'),
-    (['階', '押す', '引く', '映画', '温泉'], 'Toà nhà · giải trí'),
     (['一、二、三、四、五、六、七、八、九、十', '百', '千', '万', '円'], 'Số đếm · tiền'),
-    (['日本語', '勉強します'], 'Học tập'),
   ], [
-    (14, ['❶', '❷', '❸'], {'❸': 'な-A + な + N · い-A + N'}),
+    (14, ['❷', '❸'], {'❸': 'な-A + な + N · い-A + N'}),
     (15, ['❶', '❷'], {}),
     (16, ['❶', '❷', '❸'], {}),
-    (17, ['❶', '❷', '❸', '❹', '❺'], {'❸': 'いい → よかったです'}),
-    (18, ['❶', '❷', '❸', '❹', '❺', '❻'], {'❶': 'Bỏ ます + たいです'}),
-  ], {k: tab2[k] for k in (16, 17, 18)}, [(14, '❸', 0), (17, '❸', 0), (18, '❶', 0)],
-  [(15, 'Từ vựng', 'Bài 14–18 + từ khó: biển báo, thông báo, giá tiền'), (15, 'Chữ Hán', 'Từng chữ: nét viết, Hán Việt, On/Kun, ví dụ'),
-   (30, 'Ngữ pháp', 'Tính từ + N, こそあど, quá khứ, たい, từ nối'), (15, 'Nghe hiểu', '4 câu từ いろどり 入門: ngày nghỉ, du lịch'),
-   (15, 'Đọc hiểu', 'Cách đọc biển, bảng giá + 5 câu')],
-  '<div class="kgr g2"><div class="kcd kb"><h3>Đã ôn</h3><ul class="ck"><li>こ・そ・あ・ど · いくら</li><li>Quá khứ: ました・でした・かったです</li><li>V-たいです · từ nối câu</li><li>Đọc giá: 税込・税別, 〜円引, 単品・セット</li></ul></div>'
-  '<div class="kcd kp"><h3>Bài tập về nhà</h3><ul class="ck"><li>App → Tài liệu → Từ vựng 入門 Bài 14–18</li><li>Chữ Hán: luyện cách đọc + chọn chữ</li><li>Làm đề: phần 読解 của 1 đề bất kỳ</li></ul></div></div>',
-  'Buoi03_TongOn_NhapMon_3.html', False, [], hooks={'vocab': hook_vocab('bien'), 'listen': hook_listen(3, LSN_B3, RD_B3)})
+  ], {16: tab2[16]}, [],
+  [(15, 'Từ vựng', 'Bài 14–16 + từ khó: biển báo, thông báo, giá tiền'), (15, 'Chữ Hán', '10 chữ + số đếm: nét viết, Hán Việt, On/Kun'),
+   (25, 'Ngữ pháp', '7 mẫu, mỗi mẫu 1 slide + 1 câu luyện: vị trí, tính từ + N, ほしいんですが, cảm tưởng, いくら, こそあど, ずつ'), (15, 'Nghe hiểu', '4 câu: nơi đó thế nào, đồ vật, mua sắm'),
+   (20, 'Đọc hiểu', 'Cách đọc biển, bảng giá + 5 câu')],
+  END(['Nの【位置】にいます · ナA-な N / イA-い N', 'Nがほしいんですが · 〜ですね！', 'これ・それ・あれ · この・その・あの N · いくら', '【数量】ずつ', 'Đọc giá: 税込・税別, 〜円引, 単品・セット'],
+      ['App → Tài liệu → Từ vựng 入門 Bài 14–16', 'Chữ Hán: luyện đọc số và giá tiền', 'Làm đề: phần 読解 của 1 đề bất kỳ']),
+  'Buoi04_TongOn_NhapMon_4.html', False, [], hooks={'vocab': hook_vocab('bien'), 'listen': hook_listen(4, LSN_B4, RD_B4)}, gone=True)
+build(5, range(17, 19), 'Tổng ôn 入門', 'Bài 17 – 18', [
+    (['会います', '入ります', '買います', '旅行します'], 'Động từ'),
+    (['階', '押す', '引く', '映画', '温泉'], 'Toà nhà · giải trí'),
+    (['日本語', '勉強します'], 'Học tập'),
+  ], [
+    (17, ['❶', '❷', '❸', '❹', '❺'], {'❸': 'いい → よかったです (không nói いかったです).'}),
+    (18, ['❶', '❷', '❸', '❺', '❻'], {'❶': 'Bỏ ます + たいです: 行きます → 行きたいです.'}),
+  ], {k: tab2[k] for k in (17, 18)}, [],
+  [(15, 'Từ vựng', 'Bài 17–18: việc đã làm, điều muốn làm'), (15, 'Chữ Hán', '11 chữ: nét viết, Hán Việt, On/Kun, ví dụ'),
+   (30, 'Ngữ pháp', '10 mẫu, mỗi mẫu 1 slide + 1 câu luyện: quá khứ, 何も・どこにも, たい, どこか, từ nối câu'), (15, 'Nghe hiểu', '4 câu từ いろどり 入門: ngày nghỉ, du lịch'),
+   (15, 'Đọc hiểu', 'Cách đọc tin nhắn, email + 5 câu')],
+  END(['Quá khứ: ました・でした・かったです・じゃなかったです', '何も・どこにも + phủ định', 'V-たいです · どこか', 'あと・それから・それに・でも'],
+      ['App → Tài liệu → Từ vựng 入門 Bài 17–18', 'Chữ Hán: luyện cách đọc + chọn chữ', 'Làm đề: phần 読解 của 1 đề bất kỳ']),
+  'Buoi05_TongOn_NhapMon_5.html', False, [], hooks={'listen': hook_listen(5, LSN_B5, RD_B5)}, gone=True)
