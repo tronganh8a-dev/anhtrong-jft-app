@@ -93,7 +93,10 @@ footer{margin-top:36px;color:var(--muted);font-size:12px;border-top:1px solid va
 .exmode .box{position:relative;background:var(--paper);border-radius:16px;padding:22px;max-width:440px;width:100%;box-shadow:0 20px 50px rgba(0,0,0,.25)}
 .exmode h3{margin:4px 0 14px;font-size:20px}.exmode .x{position:absolute;right:10px;top:8px;border:0;background:none;font-size:26px;color:var(--muted);cursor:pointer}
 .exmode .opt{display:block;width:100%;text-align:left;border:1px solid var(--line);background:#fff;border-radius:12px;padding:14px 16px;margin-top:10px;cursor:pointer;color:var(--ink)}.exmode .opt:hover{border-color:var(--blue);box-shadow:var(--sh)}
-.exmode .opt b{display:block;font-size:16px;margin-bottom:4px}.exmode .opt span{font-size:13.5px;color:var(--muted);line-height:1.5}
+.exmode .opt b{display:block;font-size:16px;margin-bottom:4px}.exmode .opt.rs{border:2px solid var(--pink);background:#fff6f9}.exmode .opt.rs b{color:var(--pink)}
+#dgT{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);z-index:70;background:#0d2b40;color:#fff;border-radius:14px;padding:12px 14px 12px 18px;display:flex;align-items:center;gap:12px;box-shadow:0 12px 34px rgba(0,0,0,.28);max-width:calc(100vw - 24px);font-size:14.5px;line-height:1.45}
+#dgT b{color:#ffd166}#dgT button{border:0;border-radius:10px;padding:8px 14px;font:inherit;font-weight:700;cursor:pointer;white-space:nowrap}#dgT .go{background:var(--pink);color:#fff}#dgT .no{background:transparent;color:#cbd5e1}
+@media(max-width:600px){#dgT{flex-wrap:wrap;left:12px;right:12px;transform:none;bottom:14px}#dgT div{flex:1 1 100%}}.exmode .opt span{font-size:13.5px;color:var(--muted);line-height:1.5}
 .exp{margin:16px 0 0 46px;max-width:760px;border:1px solid #e6dcc4;background:#fffaf0;border-radius:6px;padding:12px 16px;font-family:var(--vi);font-size:15px;line-height:1.65;color:#2b2b2b}
 .exp{line-height:2.05}.exp rt{font-size:.58em;color:#8a6d2b;font-weight:500}.exp .scr p{line-height:2.1}
 .exp .ans{font-weight:800;color:var(--ok);margin-bottom:6px}.exp .lb{display:inline-block;font-size:12px;font-weight:800;letter-spacing:.06em;color:#7a5600;background:#fff0c8;border-radius:4px;padding:1px 8px;margin:10px 0 4px}
@@ -925,7 +928,7 @@ body.nlock{overflow:hidden}
   <div id="examList"></div>
   <footer>© 2026 Anh Trọng Dạy JFT</footer>
 </section>
-<div class="exmode" id="exMode" role="dialog" aria-modal="true" aria-labelledby="exmT"><div class="box"><button class="x" type="button" aria-label="Đóng">×</button><div class="muted" id="exmN"></div><h3 id="exmT"></h3>
+<div class="exmode" id="exMode" role="dialog" aria-modal="true" aria-labelledby="exmT"><div class="box"><button class="x" type="button" aria-label="Đóng">×</button><div class="muted" id="exmN"></div><h3 id="exmT"></h3><div id="exmR"></div>
  <button class="opt" data-mode="exam" type="button"><b>Thi thử như thật</b><span>Giống máy thi Prometric: đếm giờ từng phần, nộp bài mới chấm điểm. Xem lại đáp án và giải thích sau khi nộp.</span></button>
  <button class="opt" data-mode="practice" type="button"><b>Luyện tập</b><span>Không giới hạn giờ. Chọn xong là biết đúng sai, kèm giải thích song ngữ Nhật – Việt.</span></button></div></div>
 
@@ -1028,7 +1031,7 @@ function ggShow(){try{if(document.getElementById('ggx'))return;try{if(sessionSto
  d.addEventListener('click',ev=>{if(ev.target===d||ev.target.closest('.x')||ev.target.closest('.later')||ev.target.closest('.go'))close()});
  document.addEventListener('keydown',function k(ev){if(ev.key==='Escape'){close();document.removeEventListener('keydown',k)}});
 }catch(err){}}
-function unlock(){document.body.classList.remove('locked');tdLoad();$('#login').style.display='none'}
+function unlock(){document.body.classList.remove('locked');tdLoad();$('#login').style.display='none';setTimeout(()=>{typeof dgPrompt==='function'&&dgPrompt()},1200)}
 unlock();
 $('#loginForm').onsubmit=e=>{e.preventDefault();const h=fnv($('#lu').value.trim().toLowerCase()+':'+$('#lp').value);if(h===ACCOUNT.hash){store.set('atjft_ok',h);unlock()}else $('#lerr').textContent='Sai tài khoản hoặc mật khẩu.'};
 $('#logout').onclick=()=>{location.href='/logout'};
@@ -1061,8 +1064,11 @@ function renderExams(){if(!EXAMS.length){$('#examList').innerHTML='<div class="c
  $('#examList').innerHTML=Object.entries(g).map(([gn,arr])=>`<div class="h2 exgh">${esc(gn)}</div><div class="exg">`+arr.map(([e,i])=>{const no=e.short||(e.title.match(/\d+/)||[i+1])[0];
   const card=`<button class="exb${e.short?' rv':''}${e.tag?' isnew':''}" data-ex="${i}" type="button" aria-label="${esc(e.title)}">${e.tag?`<span class="ntag">${esc(e.tag)}</span>`:''}<span class="k">${e.short?'Ôn tập':'Đề thi thử'} · ${e.nq||e.qs.length} câu</span><span class="num">${e.short?`<span class="jp">${esc(no)}</span>`:(e.name?`<small>Đề</small><i class="nm">${esc(e.name)}</i>`:`<small>Đề</small>${no}`)}</span>${e.sub?`<span class="sub">${esc(e.sub)}</span>`:''}${tdExBadge(e.id)}<span class="go">Bắt đầu làm bài <i>→</i></span></button>`;return e.doc?`<div class="exw">${card}<button class="exdoc" data-exdoc="${i}" type="button">📄 ${esc(e.doc.t)}</button></div>`:card}).join('')+'</div>').join('')+`<p class="muted" style="margin-top:18px;font-size:13px">Mỗi câu đều có đáp án và giải thích song ngữ Nhật – Việt. Chọn <b>Luyện tập</b> để xem ngay sau từng câu, hoặc <b>Thi thử</b> rồi xem lại sau khi nộp bài.</p>`}
 let exPick=null;
-$('#examList').addEventListener('click',e=>{const dc=e.target.closest('[data-exdoc]');if(dc){const x=EXAMS[+dc.dataset.exdoc];openDocView({f:x.doc.f,jp:x.doc.t,vi:x.title,k:'web'},x.title);return}const b=e.target.closest('[data-ex]');if(!b)return;exPick=+b.dataset.ex;const x=EXAMS[exPick];$('#exmT').textContent=x.title;$('#exmN').textContent=`${x.qs.length} câu · ${x.time} phút`;$('#exMode').classList.add('on')});
-$('#exMode').addEventListener('click',e=>{const m=e.target.closest('[data-mode]');if(m){$('#exMode').classList.remove('on');startExam(exPick,m.dataset.mode)}else if(e.target.id==='exMode'||e.target.closest('.x'))$('#exMode').classList.remove('on')});
+$('#examList').addEventListener('click',e=>{const dc=e.target.closest('[data-exdoc]');if(dc){const x=EXAMS[+dc.dataset.exdoc];openDocView({f:x.doc.f,jp:x.doc.t,vi:x.title,k:'web'},x.title);return}const b=e.target.closest('[data-ex]');if(!b)return;exPick=+b.dataset.ex;const x=EXAMS[exPick];$('#exmT').textContent=x.title;$('#exmN').textContent=`${x.qs.length} câu · ${x.time} phút`;
+ $('#exmR').innerHTML=[false,true].map(pr=>{const r=dgGet(x.id,pr);return r?`<button class="opt rs" data-resume="${pr?'p':'e'}" type="button"><b>▶ Làm tiếp bài đang dở · ${pr?'Luyện tập':'Thi thử'}</b><span>${dgInfo(r)}</span></button>`:''}).join('');
+ $('#exMode').classList.add('on')});
+$('#exMode').addEventListener('click',e=>{const rb=e.target.closest('[data-resume]');if(rb){const pr=rb.dataset.resume==='p';$('#exMode').classList.remove('on');startExam(exPick,pr?'practice':'exam',dgGet(EXAMS[exPick].id,pr));return}
+ const m=e.target.closest('[data-mode]');if(m){const pr=m.dataset.mode==='practice',id=EXAMS[exPick].id,r=dgGet(id,pr);if(r&&!confirm(`Làm lại từ đầu? Bài đang làm dở (${dgDone(r)}/${r.n} câu) sẽ bị xoá.`))return;if(r)dgDel(id,pr);$('#exMode').classList.remove('on');startExam(exPick,m.dataset.mode)}else if(e.target.id==='exMode'||e.target.closest('.x'))$('#exMode').classList.remove('on')});
 
 /* ===== CBT engine (mô phỏng màn hình JFT-Basic) ===== */
 const SEC_EN={'文法':'Grammar','文字と語彙':'Script and Vocabulary','会話と表現':'Conversation and Expression','聴解':'Listening Comprehension','読解':'Reading Comprehension'};
@@ -1073,17 +1079,20 @@ function fmt(s){const h=Math.floor(s/3600),m=Math.floor(s%3600/60),x=s%60;return
 function openCbt(){$('#finBtn').style.visibility='';$('#cbt').classList.add('on');document.body.style.overflow='hidden';$('#cbtF').style.display='flex';window._pqi=null;window.penSync&&penSync('cbt')}
 function stopAudio(){if(AU){AU.pause();AU=null}}
 function closeCbt(){clearInterval(tick);stopAudio();$('#cbt').classList.remove('on');$('#gridOv').classList.remove('on');document.body.style.overflow='';S=null;window.penSync&&penSync(($('.screen.on')||{}).id)}
-$('#cbtClose').onclick=()=>{if(!S||S.done||confirm('Thoát bài đang làm? Kết quả sẽ không được lưu.'))closeCbt()};
+$('#cbtClose').onclick=()=>{if(!S||S.done){closeCbt();return}
+ if(S.mode==='exam'){if(confirm('Thoát ra? Bài làm của em được lưu lại.\nLần sau mở lại đề này, bấm "Làm tiếp" để làm tiếp từ câu đang dở.')){dgSave();closeCbt();tdUI()}}
+ else if(confirm('Thoát bài đang làm? Kết quả sẽ không được lưu.'))closeCbt()};
 $('#viTg').onclick=()=>document.body.classList.toggle('novi');
 function setFuri(on){document.body.classList.toggle('nofuri',!on);const b=$('#furiTg');b.classList.toggle('on',on);b.setAttribute('aria-pressed',on);b.querySelector('b').textContent=on?'BẬT':'TẮT';try{localStorage.setItem('jftFuri',on?'1':'0')}catch(e){}}
 $('#furiTg').onclick=()=>setFuri(document.body.classList.contains('nofuri'));
 try{if(localStorage.getItem('jftFuri')==='0')setFuri(false)}catch(e){}
 function buildSecs(items,totalSec){const secs=[];items.forEach((q,k)=>{if(!q.o)return;const n=q.s||'';let s=secs.find(x=>x.name===n);if(!s){s={name:n,idx:[]};secs.push(s)}s.idx.push(k)});
  const tot=secs.reduce((a,s)=>a+s.idx.length,0)||1;secs.forEach(s=>s.time=Math.max(60,Math.round(totalSec*s.idx.length/tot)));return secs}
-function startExam(i,mode){const e=EXAMS[i];tdExOpen(e.id);const items=e.qs.map(q=>({...q}));const pr=mode==='practice';
+function startExam(i,mode,rs){const e=EXAMS[i];tdExOpen(e.id);const items=e.qs.map(q=>({...q}));const pr=mode==='practice';dgHide();
  S={mode:'exam',eid:e.id,practice:pr,title:e.title,items,secs:buildSecs(items,e.time*60),sec:0,ans:{},flags:{},done:false,instant:pr,checked:{}};S.i=S.secs[0].idx[0];S.left=S.secs[0].time;
+ if(rs&&rs.n===items.length&&S.secs[rs.sec]&&S.secs[rs.sec].idx.includes(rs.i)){S.sec=rs.sec;S.i=rs.i;if(!pr)S.left=Math.max(1,rs.left|0);S.ans=rs.ans||{};S.flags=rs.flags||{};S.checked=rs.checked||{}}
  $('#cbtTitle').textContent='Anh Trọng Dạy JFT · '+e.title+(pr?' · Luyện tập':'');$('#hTm').style.visibility=pr?'hidden':'';$('#finBtn').textContent=pr?'Kết thúc':'Finish Section';openCbt();
- clearInterval(tick);if(!pr)tick=setInterval(()=>{if(!S||S.done||S.mode!=='exam')return;S.left=Math.max(0,S.left-1);$('#timer').textContent=fmt(S.left);if(S.left===0)endSection(true)},1000);render()}
+ clearInterval(tick);if(!pr)tick=setInterval(()=>{if(!S||S.done||S.mode!=='exam')return;S.left=Math.max(0,S.left-1);$('#timer').textContent=fmt(S.left);if(S.left%5===0)dgSave();if(S.left===0)endSection(true)},1000);render()}
 function startSkill(items,title,pre){if(!items.length){alert('Chưa có câu luyện cho phần này.');return}const it=items.map(q=>({...q}));
  S={mode:'skill',pre,title,items:it,secs:buildSecs(it,0),sec:0,ans:{},flags:{},done:false,instant:true,checked:{}};S.i=S.secs[0].idx[0];
  $('#cbtTitle').textContent=(S.pre||'Luyện tập')+' · '+title;$('#hTm').style.visibility='hidden';$('#finBtn').textContent='Kết thúc';openCbt();clearInterval(tick);render()}
@@ -1143,7 +1152,7 @@ function render(){stopAudio();if(S&&S.i!==window._pqi){window._pqi=S.i;window.pe
  $('#qnav').innerHTML=sec.idx.map((k,n)=>{let c='';if(k===S.i)c+=' cur';if(!(S.ans[k]&&S.ans[k].length))c+=' una';if(S.flags[k])c+=' flag';if(S.instant&&S.checked[k]&&S.items[k].a)c=c.replace(' una','')+(same(S.ans[k]||[],S.items[k].a)?' r':' w');return `<button class="${c.trim()}" data-q="${k}" type="button" aria-label="Câu ${n+1}">${n+1}</button>`}).join('');
  $$('#qnav button').forEach(b=>b.onclick=()=>{S.i=+b.dataset.q;render()});
  const cur=$('#qnav .cur');if(cur)cur.scrollIntoView({block:'nearest',inline:'nearest'});
- $('#prevQ').classList.toggle('en',pos>0);$('#flagBtn').classList.toggle('on',!!S.flags[S.i])}
+ $('#prevQ').classList.toggle('en',pos>0);$('#flagBtn').classList.toggle('on',!!S.flags[S.i]);dgSave()}
 function qGroup(i){const it=S.items,q=it[i],L=curSec().idx;if(S.mode!=='exam'||!q||!q.au)return [i];let a=L.indexOf(i),b=a;while(a>0&&it[L[a-1]].au===q.au)a--;while(b<L.length-1&&it[L[b+1]].au===q.au)b++;return L.slice(a,b+1)}
 function step(d){const L=curSec().idx,G=qGroup(S.i);const p=L.indexOf(d>0?G[G.length-1]:G[0])+d;if(p>=0&&p<L.length){S.i=L[p];render()}else if((S.practice||S.done)&&d>0&&S.sec<S.secs.length-1){S.sec++;S.i=curSec().idx[0];render()}else if((S.practice||S.done)&&d<0&&S.sec>0){S.sec--;const M=curSec().idx;S.i=M[M.length-1];render()}else if(d>0){$('#finBtn').animate([{transform:'scale(1)'},{transform:'scale(1.08)'},{transform:'scale(1)'}],{duration:500})}}
 $('#prevQ').onclick=()=>step(-1);$('#nextQ').onclick=()=>step(1);$('#flagBtn').onclick=()=>{S.flags[S.i]=!S.flags[S.i];render()};
@@ -1155,7 +1164,28 @@ $('#finBtn').onclick=()=>{if(!S||S.done)return;if(S.mode==='skill'||S.practice){
  const last=S.sec===S.secs.length-1;
  if(confirm((un?`Còn ${un} câu chưa trả lời. `:'')+(last?'Kết thúc phần cuối và nộp bài?':'Kết thúc phần này? Bạn sẽ không quay lại phần này được.')))endSection(false)};
 function endSection(auto){if(S.sec<S.secs.length-1){S.sec++;S.i=curSec().idx[0];S.left=curSec().time;render()}else finish()}
-function finish(){if(!S)return;S.done=true;clearInterval(tick);stopAudio();$('#gridOv').classList.remove('on');$('#hTm').style.visibility='hidden';$('#finBtn').style.visibility='hidden';
+/* 20/11: lưu bài đang làm dở (thi thử + luyện tập) theo tài khoản — thoát ra xem tin nhắn, tải lại trang vẫn làm tiếp được.
+   Giờ thi không chạy khi đã thoát ra (lưu số giây còn lại). Nộp bài xong thì xoá bản lưu. */
+const dgKey=()=>'jftDoing_'+(typeof ACCOUNT!=='undefined'&&ACCOUNT.user||'');
+function dgAll(){try{return JSON.parse(store.get(dgKey())||'{}')||{}}catch(e){return {}}}
+function dgPut(o){Object.keys(o).length?store.set(dgKey(),JSON.stringify(o)):store.del(dgKey())}
+const dgId=(eid,pr)=>eid+'|'+(pr?'p':'e');
+function dgSave(){if(!S||S.mode!=='exam'||S.done||!S.eid)return;const o=dgAll();
+ o[dgId(S.eid,S.practice)]={eid:S.eid,pr:S.practice,n:S.items.length,sec:S.sec,i:S.i,left:S.left,ans:S.ans,flags:S.flags,checked:S.checked,t:Date.now()};
+ Object.keys(o).sort((a,b)=>o[b].t-o[a].t).slice(8).forEach(k=>delete o[k]);dgPut(o)}
+function dgDel(eid,pr){const o=dgAll();delete o[dgId(eid,pr)];dgPut(o)}
+function dgGet(eid,pr){const x=dgAll()[dgId(eid,pr)];return x&&Date.now()-x.t<30*864e5?x:null}
+const dgDone=x=>Object.values(x.ans||{}).filter(a=>a&&a.length).length;
+function dgWhen(t){const d=new Date(t),n=new Date(),hm=String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0');return d.toDateString()===n.toDateString()?'hôm nay '+hm:d.getDate()+'/'+(d.getMonth()+1)+' '+hm}
+function dgInfo(x){const e=EXAMS.find(y=>y.id===x.eid);const sn=e?(()=>{const it=e.qs.map(q=>({...q}));const sc=buildSecs(it,e.time*60)[x.sec];return sc?(SEC_VI[sc.name]||sc.name):''})():'';
+ return `Đã làm ${dgDone(x)}/${x.n} câu${sn?' · đang ở phần '+sn:''}${x.pr?'':' · còn '+fmt(x.left).replace(/^00:/,'')} · lưu lúc ${dgWhen(x.t)}`}
+function dgHide(){const t=document.getElementById('dgT');if(t)t.remove()}
+function dgPrompt(){if(S||document.body.classList.contains('locked')||typeof EXAMS==='undefined')return;const o=dgAll(),k=Object.keys(o).sort((a,b)=>o[b].t-o[a].t)[0];if(!k)return;const x=o[k];
+ if(Date.now()-x.t>3*864e5)return;const i=EXAMS.findIndex(e=>e.id===x.eid);if(i<0)return;dgHide();
+ const t=document.createElement('div');t.id='dgT';t.innerHTML=`<div>Em đang làm dở <b>${esc(EXAMS[i].title)}</b> · ${x.pr?'Luyện tập':'Thi thử'} (${dgDone(x)}/${x.n} câu). Làm tiếp nhé?</div><button class="go" type="button">Làm tiếp</button><button class="no" type="button">Để sau</button>`;
+ t.querySelector('.go').onclick=()=>{dgHide();startExam(i,x.pr?'practice':'exam',dgGet(x.eid,x.pr))};t.querySelector('.no').onclick=dgHide;document.body.appendChild(t)}
+document.addEventListener('visibilitychange',()=>{if(document.hidden)dgSave()});addEventListener('pagehide',dgSave);
+function finish(){if(!S)return;if(S.mode==='exam')dgDel(S.eid,S.practice);S.done=true;clearInterval(tick);stopAudio();$('#gridOv').classList.remove('on');$('#hTm').style.visibility='hidden';$('#finBtn').style.visibility='hidden';
  const L=S.secs.flatMap(s=>s.idx);let tot=0,ok=0,na=0;const bySec={};
  L.forEach(k=>{const q=S.items[k];const s=secName(q.s);bySec[s]=bySec[s]||[0,0];if(!q.a){na++;return}tot++;bySec[s][1]++;if(same(S.ans[k]||[],q.a)){ok++;bySec[s][0]++}});
  const pct=tot?Math.round(ok*100/tot):0;if(S.mode==='exam'&&S.eid)tdExDone(S.eid,pct);
@@ -1591,7 +1621,7 @@ function tdExOpen(id){const x=TD.ex[id]=TD.ex[id]||{};x.o=x.o||Date.now();x.lo=D
 function tdExDone(id,pct){const x=TD.ex[id]=TD.ex[id]||{};x.o=x.o||Date.now();x.n=(x.n||0)+1;x.b=Math.max(x.b||0,pct);x.l=pct;x.t=Date.now();tdSave()}
 let tdVt=0;function tdVid(id,t,d){if(!id||!d)return;const p=Math.min(100,Math.round(t*100/d));const x=TD.vid[id]=TD.vid[id]||{};const old=x.p||0,od=x.d||0;x.p=Math.max(old,p);if(x.p>=90)x.d=1;
  if(x.p!==old||x.d!==od){x.t=Date.now();store.set(tdKey(),JSON.stringify(TD));if(x.d!==od||Date.now()-tdVt>20000){tdVt=Date.now();tdPush();tdUI()}}}
-function tdExBadge(id){const x=TD.ex[id];if(!x)return'';return x.n?`<span class="tdb ok">✓ Đã làm ${x.n} lần · cao nhất ${x.b}%</span>`:`<span class="tdb op">Đã mở · chưa nộp bài</span>`}
+function tdExBadge(id){const d=typeof dgGet==='function'&&(dgGet(id,false)||dgGet(id,true));if(d)return `<span class="tdb op">▶ Đang làm dở · ${dgDone(d)}/${d.n} câu</span>`;const x=TD.ex[id];if(!x)return'';return x.n?`<span class="tdb ok">✓ Đã làm ${x.n} lần · cao nhất ${x.b}%</span>`:`<span class="tdb op">Đã mở · chưa nộp bài</span>`}
 function tdVidBadge(id){const x=TD.vid[id];if(!x||!x.p)return'';return x.d?'<span class="tdv ok">✓ Đã xem</span>':`<span class="tdv part">Đã xem ${x.p}%</span>`}
 function tdUI(){const c=document.getElementById('tdCard');if(!c||typeof EXAMS==='undefined')return;
  const ne=EXAMS.length,ids=new Set(EXAMS.map(e=>e.id)),ex=Object.entries(TD.ex).filter(([k])=>ids.has(k));
