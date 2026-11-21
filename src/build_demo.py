@@ -111,7 +111,7 @@ for rel in list(ALLOW):
         for m in set(re.findall(r'(?<![\w/])(?:\.\./|/)?(app/media/[\w./-]+\.(?:jpg|jpeg|png|webp|gif|svg|mp3|m4a|wav|mp4))', h)): allow(m)
 # media được dữ liệu bản dùng thử nhắc tới
 blob = ''.join(open(D + 'app/data/' + f, encoding='utf-8').read() for f in os.listdir(D + 'app/data'))
-PFX = ['app/media/cover/', 'app/media/news/', 'app/media/brand/']
+PFX = ['app/media/cover/', 'app/media/news/', 'app/media/brand/', 'n3/']   # 21/11: mở full JLPT N3
 for root, _, fs in os.walk(P + 'app/media'):
     for f in fs:
         rel = os.path.relpath(os.path.join(root, f), P)
@@ -161,8 +161,8 @@ reps = [("$('#logout').onclick=()=>{location.href='/logout'};", "$('#logout').st
         ('<title>', '<title>Dùng thử · '),
         ('</head>', LOCK_CSS + '</head>'),
         ('</body>', LOCK_JS + '</body>'),
-        # JLPT N3 (12/11): bản dùng thử chỉ hiện khung khoá, không nhúng trang n3/
-        ('<iframe id="n3Fr" title="JLPT N3" style="display:block;width:100%;height:calc(100vh - 8px);border:0;background:#f4f7fb" loading="lazy"></iframe>', '<div class="topbar"><h1>JLPT N3<span class="jp">日本語能力試験</span></h1></div>' + PANEL)]
+        # JLPT N3: 21/11 anh mở FULL trong bản dùng thử (trước 12/11 chỉ hiện khung khoá) → giữ iframe n3/, worker phục vụ thư mục n3/ của bản chính
+        ]
 for a, b in reps:
     assert s.count(a) >= 1, a; s = s.replace(a, b, 1)
 # bỏ mục đăng nhập / đăng ký tài khoản (Prometric) ở trang chủ
