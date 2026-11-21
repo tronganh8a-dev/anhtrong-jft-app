@@ -101,6 +101,9 @@ for m in re.finditer(r"\{n:(-?\d+),|\{f:'([^']+)'", bsrc):
     else: items.append((f'{cur}|{idx}', m.group(2))); idx += 1
 OB = items[:third(len(items))]
 for _, f in OB: allow(f)
+# 21/11: video kỹ năng làm bài đọc hiểu (đặt dưới nhóm 4 đề làm thử ở tab Làm đề)
+DHV = 'app/media/video/DocHieuJFT_KyNang'
+allow(DHV + '.mp4'); allow(DHV + '.jpg')
 # media trong file HTML được mở (vd ảnh ../app/media/doc/… của tài liệu Buổi 11)
 for rel in list(ALLOW):
     if rel.endswith('.html'):
@@ -153,7 +156,8 @@ function apply(){q=false;busy=true;try{const O=window.DOPEN,has=(m,k,v)=>(m[k]||
 new MutationObserver(()=>{if(!busy&&!q){q=true;requestAnimationFrame(apply)}}).observe(document.querySelector('main'),{childList:true,subtree:true});
 apply()})();</script>'''.replace('__PANEL__', PANEL).replace('<script>(()=>{', '<script>window.DOPEN=' + json.dumps(DOPEN, ensure_ascii=False, separators=(',', ':')) + ';(()=>{', 1)
 reps = [("$('#logout').onclick=()=>{location.href='/logout'};", "$('#logout').style.display='none';"),
-        ('<main>', '<main><div style="background:#fff3b0;border:1px solid #f1c48b;color:#5a4300;border-radius:12px;padding:10px 14px;margin:0 0 14px;font-size:14px"><b>BẢN DÙNG THỬ</b> · Làm thử miễn phí <b>Đề 1, Đề 2, 1 đề nghe và 1 đề từ vựng</b>, các phần khác (slide bài giảng, tài liệu, từ vựng, chữ Hán, ngữ pháp, video, bài tập về nhà) mở <b>1/3 nội dung</b>. Mục có 🔒 dành cho học viên — liên hệ <b>Anh Trọng Dạy JFT</b> để vào lớp và mở toàn bộ đề thi có giải thích, video bài giảng, 3.800+ từ vựng.</div>'),
+        # 21/11: anh bảo xoá khung vàng "BẢN DÙNG THỬ", thay bằng dòng liên hệ sensei (Facebook + TikTok)
+        ('<main>', f'<main><div class="dct"><b>Liên hệ sensei</b><a class="fb" href="{FB}" target="_blank" rel="noopener">Facebook</a><a class="tt" href="{TT}" target="_blank" rel="noopener">TikTok @anhtrong.daygino</a></div>'),
         ('<title>', '<title>Dùng thử · '),
         ('</head>', LOCK_CSS + '</head>'),
         ('</body>', LOCK_JS + '</body>'),
@@ -173,6 +177,20 @@ _o = 'const others=VOCAB.words.filter(x=>x!==tw&&'; assert _o in s; s = s.replac
 s = s.replace('</body>', "<script>try{go('exam')}catch(e){}</script>\n</body>", 1)
 # 21/11: bỏ chọn "Thi thử như thật" — bấm đề là vào thẳng Luyện tập (chọn câu nào hiện đáp án + giải thích câu đó; có bài dở thì làm tiếp)
 _m = "$('#exMode').classList.add('on')});"; assert s.count(_m) == 1; s = s.replace(_m, "startExam(exPick,'practice',dgGet(x.id,true))});")
+DHV_CSS = """<style>
+.dct{display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;background:#fff;border:1px solid #e3e9f0;border-radius:14px;padding:10px 14px;margin:0 0 14px;font-size:14px}
+.dct b{color:#0d2b40;margin-right:2px}.dct a{border-radius:10px;padding:7px 12px;font-weight:800;text-decoration:none;color:#fff;background:#1877f2}.dct a.tt{background:#111}
+.dhv{margin:22px 0 6px}.dhvw{display:grid;grid-template-columns:minmax(0,300px) 1fr;gap:18px;align-items:start}
+.dhvw video{width:100%;aspect-ratio:9/16;background:#000;border-radius:16px;display:block;box-shadow:0 8px 24px #0d2b4022}
+.dhvt b{display:block;font-size:1.15rem;color:#0d2b40}.dhvt span{display:block;color:var(--muted);font-weight:600;margin-top:4px}
+@media(max-width:640px){.dhvw{grid-template-columns:1fr}.dhvw video{max-width:420px;margin:0 auto}}
+</style>"""
+DHV_HTML = (f'<div id="dhVid" class="dhv"><div class="h2 exgh">Kỹ năng làm bài đọc hiểu</div><div class="dhvw">'
+            f'<video controls playsinline preload="none" poster="{DHV}.jpg" src="{DHV}.mp4"></video>'
+            '<div class="dhvt"><b>Mẹo làm đọc hiểu JFT</b><span>Video 4 phút · Anh Trọng giảng</span></div></div></div>')
+s = s.replace('</head>', DHV_CSS + '</head>', 1)
+s = s.replace('</body>', "<script>(()=>{const H=" + json.dumps(DHV_HTML, ensure_ascii=False) + ";const put=()=>{const g=document.querySelector('#examList .exg');if(g&&!document.getElementById('dhVid'))g.insertAdjacentHTML('afterend',H)};"
+              "const re=window.renderExams;if(typeof re==='function')window.renderExams=function(){const r=re.apply(this,arguments);put();return r};put()})()</script>\n</body>", 1)
 _n = 'Chọn <b>Luyện tập</b> để xem ngay sau từng câu, hoặc <b>Thi thử</b> rồi xem lại sau khi nộp bài.'; assert s.count(_n) == 1
 s = s.replace(_n, 'Bấm vào đề là làm luôn: chọn đáp án câu nào là hiện ngay đáp án đúng và giải thích của câu đó.')
 open(D + 'index.html', 'w', encoding='utf-8').write(s)

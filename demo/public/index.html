@@ -825,6 +825,13 @@ body.nlock{overflow:hidden}
 #dmodal{position:fixed;inset:0;z-index:200;background:rgba(15,23,42,.5);display:none;align-items:center;justify-content:center;padding:16px}#dmodal.on{display:flex}
 #dmodal .dlock{max-width:480px;width:100%;border-style:solid;box-shadow:0 20px 50px rgba(0,0,0,.3);position:relative}#dmodal .x{position:absolute;right:10px;top:6px;border:0;background:none;font-size:28px;color:var(--muted);cursor:pointer}
 .vit .now.soonb{display:none}
+</style><style>
+.dct{display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;background:#fff;border:1px solid #e3e9f0;border-radius:14px;padding:10px 14px;margin:0 0 14px;font-size:14px}
+.dct b{color:#0d2b40;margin-right:2px}.dct a{border-radius:10px;padding:7px 12px;font-weight:800;text-decoration:none;color:#fff;background:#1877f2}.dct a.tt{background:#111}
+.dhv{margin:22px 0 6px}.dhvw{display:grid;grid-template-columns:minmax(0,300px) 1fr;gap:18px;align-items:start}
+.dhvw video{width:100%;aspect-ratio:9/16;background:#000;border-radius:16px;display:block;box-shadow:0 8px 24px #0d2b4022}
+.dhvt b{display:block;font-size:1.15rem;color:#0d2b40}.dhvt span{display:block;color:var(--muted);font-weight:600;margin-top:4px}
+@media(max-width:640px){.dhvw{grid-template-columns:1fr}.dhvw video{max-width:420px;margin:0 auto}}
 </style></head>
 <body>
 <div class="login" id="login">
@@ -849,7 +856,7 @@ body.nlock{overflow:hidden}
   <div class="grow"></div>
   <button class="out" id="logout" type="button">Đăng xuất</button>
 </aside>
-<main><div style="background:#fff3b0;border:1px solid #f1c48b;color:#5a4300;border-radius:12px;padding:10px 14px;margin:0 0 14px;font-size:14px"><b>BẢN DÙNG THỬ</b> · Làm thử miễn phí <b>Đề 1, Đề 2, 1 đề nghe và 1 đề từ vựng</b>, các phần khác (slide bài giảng, tài liệu, từ vựng, chữ Hán, ngữ pháp, video, bài tập về nhà) mở <b>1/3 nội dung</b>. Mục có 🔒 dành cho học viên — liên hệ <b>Anh Trọng Dạy JFT</b> để vào lớp và mở toàn bộ đề thi có giải thích, video bài giảng, 3.800+ từ vựng.</div>
+<main><div class="dct"><b>Liên hệ sensei</b><a class="fb" href="https://www.facebook.com/anh.trongg.2024/" target="_blank" rel="noopener">Facebook</a><a class="tt" href="https://www.tiktok.com/@anhtrong.daygino" target="_blank" rel="noopener">TikTok @anhtrong.daygino</a></div>
 <!-- HOME -->
 <section class="screen on" id="home">
   <div class="hero">
@@ -1843,5 +1850,6 @@ function apply(){q=false;busy=true;try{const O=window.DOPEN,has=(m,k,v)=>(m[k]||
 }finally{busy=false}}
 new MutationObserver(()=>{if(!busy&&!q){q=true;requestAnimationFrame(apply)}}).observe(document.querySelector('main'),{childList:true,subtree:true});
 apply()})();</script><script>try{go('exam')}catch(e){}</script>
+<script>(()=>{const H="<div id=\"dhVid\" class=\"dhv\"><div class=\"h2 exgh\">Kỹ năng làm bài đọc hiểu</div><div class=\"dhvw\"><video controls playsinline preload=\"none\" poster=\"app/media/video/DocHieuJFT_KyNang.jpg\" src=\"app/media/video/DocHieuJFT_KyNang.mp4\"></video><div class=\"dhvt\"><b>Mẹo làm đọc hiểu JFT</b><span>Video 4 phút · Anh Trọng giảng</span></div></div></div>";const put=()=>{const g=document.querySelector('#examList .exg');if(g&&!document.getElementById('dhVid'))g.insertAdjacentHTML('afterend',H)};const re=window.renderExams;if(typeof re==='function')window.renderExams=function(){const r=re.apply(this,arguments);put();return r};put()})()</script>
 </body>
 </html>
