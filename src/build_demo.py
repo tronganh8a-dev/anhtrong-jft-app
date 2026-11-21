@@ -191,10 +191,10 @@ DHV_HTML = (f'<div id="dhVid" class="dhv"><div class="h2 exgh">Kỹ năng làm b
 s = s.replace('</head>', DHV_CSS + '</head>', 1)
 s = s.replace('</body>', "<script>(()=>{const H=" + json.dumps(DHV_HTML, ensure_ascii=False) + ";const put=()=>{const g=document.querySelector('#examList .exg');if(g&&!document.getElementById('dhVid'))g.insertAdjacentHTML('afterend',H)};"
               "const re=window.renderExams;if(typeof re==='function')window.renderExams=function(){const r=re.apply(this,arguments);put();return r};put()})()</script>\n</body>", 1)
-# 21/11: tab "Học Gino" — link bản dùng thử của 5 ngành Tokutei Gino (mỗi app có /trial/ không cần đăng nhập)
-GINO = [('Khách sạn', '宿泊', 'https://gino-khachsan.tronganh8a.workers.dev/trial/', '#0d7d4d'),
-        ('Vệ sinh toà nhà', 'ビルクリーニング', 'https://gino-vesinhtoanha.tronganh8a.workers.dev/trial/', '#0d5a8c'),
-        ('Chế biến thực phẩm', '飲食料品製造業', 'https://gino-chebien.tronganh8a.workers.dev/trial/', '#c26a00'),
+# 21/11: tab "Học Gino" — link bản dùng thử của 5 ngành (tên worker lấy theo check-runs: gino-khachsan-trial, gino-vesinhtoanha-trial, gino-cbtp-app/trial, gino-xaydung/trial, gino-butsuryu-app/trial)
+GINO = [('Khách sạn', '宿泊', 'https://gino-khachsan-trial.tronganh8a.workers.dev/', '#0d7d4d'),
+        ('Vệ sinh toà nhà', 'ビルクリーニング', 'https://gino-vesinhtoanha-trial.tronganh8a.workers.dev/', '#0d5a8c'),
+        ('Chế biến thực phẩm', '飲食料品製造業', 'https://gino-cbtp-app.tronganh8a.workers.dev/trial/', '#c26a00'),
         ('Xây dựng', '建設', 'https://gino-xaydung.tronganh8a.workers.dev/trial/', '#5b5f66'),
         ('Logistics · Kho vận', '物流倉庫', 'https://gino-butsuryu-app.tronganh8a.workers.dev/trial/', '#c42f66')]
 GINO_CSS = """<style>
