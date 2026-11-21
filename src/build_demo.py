@@ -111,7 +111,7 @@ for rel in list(ALLOW):
         for m in set(re.findall(r'(?<![\w/])(?:\.\./|/)?(app/media/[\w./-]+\.(?:jpg|jpeg|png|webp|gif|svg|mp3|m4a|wav|mp4))', h)): allow(m)
 # media được dữ liệu bản dùng thử nhắc tới
 blob = ''.join(open(D + 'app/data/' + f, encoding='utf-8').read() for f in os.listdir(D + 'app/data'))
-PFX = ['app/media/cover/', 'app/media/news/', 'app/media/brand/', 'n3/']   # 21/11: mở full JLPT N3
+PFX = ['app/media/cover/', 'app/media/news/', 'app/media/brand/', 'n3/', 'app/media/gino/']   # 21/11: mở full JLPT N3
 for root, _, fs in os.walk(P + 'app/media'):
     for f in fs:
         rel = os.path.relpath(os.path.join(root, f), P)
@@ -195,25 +195,42 @@ s = s.replace('</head>', DHV_CSS + '</head>', 1)
 s = s.replace('</body>', "<script>(()=>{const H=" + json.dumps(DHV_HTML, ensure_ascii=False) + ";const put=()=>{const g=document.querySelector('#examList .exg');if(g&&!document.getElementById('dhVid'))g.insertAdjacentHTML('afterend',H)};"
               "const re=window.renderExams;if(typeof re==='function')window.renderExams=function(){const r=re.apply(this,arguments);put();return r};put()})()</script>\n</body>", 1)
 # 21/11: tab "Học Gino" — link bản dùng thử của 5 ngành (tên worker lấy theo check-runs: gino-khachsan-trial, gino-vesinhtoanha-trial, gino-cbtp-app/trial, gino-xaydung/trial, gino-butsuryu-app/trial)
-GINO = [('Khách sạn', '宿泊', 'https://gino-khachsan-trial.tronganh8a.workers.dev/', '#0d7d4d'),
-        ('Vệ sinh toà nhà', 'ビルクリーニング', 'https://gino-vesinhtoanha-trial.tronganh8a.workers.dev/', '#0d5a8c'),
-        ('Chế biến thực phẩm', '飲食料品製造業', 'https://gino-cbtp-app.tronganh8a.workers.dev/trial/', '#c26a00'),
-        ('Xây dựng', '建設', 'https://gino-xaydung.tronganh8a.workers.dev/trial/', '#5b5f66'),
-        ('Logistics · Kho vận', '物流倉庫', 'https://gino-butsuryu-app.tronganh8a.workers.dev/trial/', '#c42f66')]
+GINO = [('Khách sạn', '宿泊', 'https://gino-khachsan-trial.tronganh8a.workers.dev/', '#0d7d4d', 'ks.jpg'),
+        ('Vệ sinh toà nhà', 'ビルクリーニング', 'https://gino-vesinhtoanha-trial.tronganh8a.workers.dev/', '#0d5a8c', 'vstn.jpg'),
+        ('Chế biến thực phẩm', '飲食料品製造業', 'https://gino-cbtp-app.tronganh8a.workers.dev/trial/', '#c26a00', 'cbtp.jpg'),
+        ('Xây dựng', '建設 · 土木・建築・ライフライン', 'https://gino-xaydung.tronganh8a.workers.dev/trial/', '#5b5f66', 'xd.jpg'),
+        ('Logistics · Kho vận', '物流倉庫', 'https://gino-butsuryu-app.tronganh8a.workers.dev/trial/', '#c42f66', 'logi.jpg')]
+GM = 'app/media/gino/'   # bìa giáo trình (Xây dựng: logo JAC, Logistics: tranh bìa app — ngành mới chưa có sách) + ảnh giáo viên
 GINO_CSS = """<style>
-.gnl{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;margin-top:6px}
-.gnc{display:flex;flex-direction:column;gap:6px;background:#fff;border:1px solid #e3e9f0;border-left:6px solid var(--gc);border-radius:16px;padding:16px 18px;text-decoration:none;color:#0d2b40;box-shadow:0 4px 14px #0d2b400d}
-.gnc b{font-size:1.15rem}.gnc .jp{color:var(--muted);font-size:.95rem}.gnc span.d{color:var(--muted);font-size:.9rem}
-.gnc i{font-style:normal;align-self:flex-start;margin-top:6px;background:var(--gc);color:#fff;font-weight:800;border-radius:10px;padding:7px 12px;font-size:.92rem}
+.gnl{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;margin-top:6px}
+.gnc{display:flex;gap:14px;align-items:center;background:#fff;border:1px solid #e3e9f0;border-left:6px solid var(--gc);border-radius:16px;padding:12px 14px;text-decoration:none;color:#0d2b40;box-shadow:0 4px 14px #0d2b400d}
+.gnc img{width:72px;height:96px;object-fit:cover;border-radius:6px;box-shadow:0 3px 10px #0d2b4026;flex:none;background:#fff}
+.gnc .tx{display:flex;flex-direction:column;gap:3px;min-width:0}
+.gnc b{font-size:1.12rem}.gnc .jp{color:var(--muted);font-size:.9rem}.gnc span.d{color:var(--muted);font-size:.86rem}
+.gnc i{font-style:normal;align-self:flex-start;margin-top:5px;background:var(--gc);color:#fff;font-weight:800;border-radius:10px;padding:6px 12px;font-size:.9rem}
 .gnc:hover{transform:translateY(-1px);box-shadow:0 8px 20px #0d2b4018}
 .gnp{color:var(--muted);margin:2px 0 4px;font-weight:600}
+.gvc{display:grid;grid-template-columns:170px 1fr;gap:20px;align-items:start;background:#fff;border:1px solid #e3e9f0;border-radius:18px;padding:18px;margin-top:22px;box-shadow:0 4px 14px #0d2b400d}
+.gvc>img{width:170px;height:227px;object-fit:cover;border-radius:14px}
+.gvc h3{margin:0;font-size:1.25rem;color:#0d2b40}.gvc .ro{color:#c42f66;font-weight:800;margin:2px 0 10px}
+.gvc ul{list-style:none;margin:0;padding:0;display:grid;gap:9px}.gvc li b{display:block;color:#0d2b40}.gvc li span{color:var(--muted);font-size:.92rem}
+.gvc .ct{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.gvc .ct a{border-radius:10px;padding:8px 13px;font-weight:800;text-decoration:none;color:#fff;background:#1877f2}.gvc .ct a.tt{background:#111}
+@media(max-width:640px){.gvc{grid-template-columns:1fr}.gvc>img{width:150px;height:200px}}
 </style>"""
 GINO_NAV = ('<button class="nav" data-go="gino" type="button"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">'
             '<path d="M3 21h18M5 21V9l7-5 7 5v12"/><path d="M9 21v-6h6v6"/></svg>Học Gino<span class="jp">特定技能</span></button>')
+GV = ('<div class="h2 exgh" style="margin-top:26px">Giáo viên</div><div class="gvc"><img src="' + GM + 'gv.jpg" alt="Anh Trọng">'
+      '<div><h3>Vương Trọng Anh</h3><div class="ro">Trọng Anh sensei · Luyện thi Tokutei Gino &amp; JFT-Basic</div><ul>'
+      '<li><b>Học bổng Chính phủ Nhật Bản (MEXT)</b><span>Du học tại Đại học Giáo dục Osaka (大阪教育大学), 10/2022 – 08/2023.</span></li>'
+      '<li><b>Tốt nghiệp xuất sắc khoa tiếng Nhật, Đại học Hà Nội</b><span>4 lần liên tiếp nhận học bổng khuyến khích học tập.</span></li>'
+      '<li><b>JLPT N1 · Boki 3 · IT Passport</b><span class="jp">日本語能力試験N1・簿記3級・ITパスポート</span></li>'
+      '<li><b>Kinh nghiệm giảng dạy N5 – N2</b><span>Hiện dạy luyện thi Tokutei Gino và JFT-Basic.</span></li>'
+      '<li><b>Tuyển dụng &amp; thủ tục hành chính tại Nhật</b><span>Làm nhân sự, hồ sơ tư cách lưu trú cho người lao động Việt Nam tại Osaka.</span></li>'
+      f'</ul><div class="ct"><a href="{FB}" target="_blank" rel="noopener">Nhắn Facebook</a><a class="tt" href="{TT}" target="_blank" rel="noopener">TikTok @anhtrong.daygino</a></div></div></div>')
 GINO_SCREEN = ('<section class="screen" id="gino"><div class="topbar"><h1>Học Gino<span class="jp">特定技能1号 · 評価試験</span></h1></div>'
                '<p class="gnp">Học thử miễn phí 5 ngành Tokutei Gino của Anh Trọng: bài học song ngữ Nhật – Việt, đề thi thử có giải thích. Bấm vào ngành để vào học thử, không cần đăng nhập.</p>'
-               '<div class="gnl">' + ''.join(f'<a class="gnc" style="--gc:{c}" href="{u}" target="_blank" rel="noopener"><b>{n}</b><span class="jp">{j}</span><span class="d">Bản dùng thử · bài học + đề thi thử</span><i>Vào học thử →</i></a>' for n, j, u, c in GINO) +
-               '</div></section>')
+               '<div class="gnl">' + ''.join(f'<a class="gnc" style="--gc:{c}" href="{u}" target="_blank" rel="noopener"><img src="{GM}{im}" alt="{n}" loading="lazy"><span class="tx"><b>{n}</b><span class="jp">{j}</span><span class="d">Bản dùng thử · bài học + đề thi thử</span><i>Vào học thử →</i></span></a>' for n, j, u, c, im in GINO) +
+               '</div>' + GV + '</section>')
 _nv = s.index('<button class="nav" data-go="n3"'); _nv = s.index('</button>', _nv) + len('</button>')
 s = s[:_nv] + GINO_NAV + s[_nv:]
 _sc = s.index('<section class="screen" id="n3">'); _sc = s.index('</section>', _sc) + len('</section>')
