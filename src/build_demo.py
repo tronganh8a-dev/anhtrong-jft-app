@@ -175,6 +175,9 @@ s = s.replace("store.get('jftVid')", "store.get('jftVidT')").replace("store.set(
 _o = 'const others=VOCAB.words.filter(x=>x!==tw&&'; assert _o in s; s = s.replace(_o, 'const others=VOCAB.words.filter(x=>!x.lock&&x!==tw&&')
 # 19/11: anh yêu cầu bỏ popup quảng cáo ở bản dùng thử; mở link là vào thẳng màn Làm đề (thanh tab ở dưới)
 s = s.replace('</body>', "<script>try{go('exam')}catch(e){}</script>\n</body>", 1)
+# 21/11: bản dùng thử bỏ nút bật/tắt furigana — luôn hiện furigana
+s = s.replace('</head>', '<style>#furiTg{display:none!important}</style></head>', 1)
+s = s.replace('</body>', "<script>try{setFuri(true)}catch(e){document.body.classList.remove('nofuri')}</script>\n</body>", 1)
 # 21/11: bỏ chọn "Thi thử như thật" — bấm đề là vào thẳng Luyện tập (chọn câu nào hiện đáp án + giải thích câu đó; có bài dở thì làm tiếp)
 _m = "$('#exMode').classList.add('on')});"; assert s.count(_m) == 1; s = s.replace(_m, "startExam(exPick,'practice',dgGet(x.id,true))});")
 DHV_CSS = """<style>
