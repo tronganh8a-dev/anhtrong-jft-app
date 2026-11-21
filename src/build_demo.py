@@ -37,13 +37,13 @@ save('skills.js', 'SKILLS', S)
 # Làm đề: 21/11 anh chốt mở đủ Đề 1, Đề 2 (Đề 2 = jft-y4, Đề 29 cũ) + 1 đề nghe (Đề nghe 1) + 1 đề từ vựng (Ôn tập từ vựng & Hán tự),
 # 4 đề này đưa lên đầu thành nhóm "Làm thử miễn phí" (ngay dưới Đề 1, Đề 2); các đề khác chỉ giữ tiêu đề + số câu
 E = json.loads(load('exams.js'))
-OPEN_EX = ['jft-y3', 'jft-y4', 'jft-ln1', 'jft-vocab']
+OPEN_EX = ['jft-y3', 'jft-y4', 'jft-f1', 'jft-ln1', 'jft-ln2', 'jft-vocab']   # 21/11 tối: thêm Đề 27 (làm đề thứ 3) + Đề nghe 2
 _by = {e['id']: e for e in E}
 E = [_by[i] for i in OPEN_EX if i in _by] + [e for e in E if e['id'] not in OPEN_EX]
 NEX = sum(1 for i in OPEN_EX if i in _by)
 for e in E[:NEX]:
     e['group'] = 'Làm thử miễn phí'
-    if e['id'] == 'jft-ln1': e['name'] = 'nghe 1'   # thẻ hiện "Đề nghe 1" (không bị đọc thành "Đề 1")
+    if e['id'] in ('jft-ln1', 'jft-ln2'): e['name'] = 'nghe ' + e['id'][-1]   # thẻ hiện "Đề nghe 1/2" (không bị đọc thành "Đề 1/2")
 save('exams.js', 'EXAMS', [e if i < NEX else {**{k: v for k, v in e.items() if k != 'qs'}, 'qs': [], 'nq': len(e['qs'])} for i, e in enumerate(E)], 'window.EXTLINKS=[];')
 # Ngữ pháp (文法ノート): mỗi cấp mở 1/3 số bài đầu
 G = json.loads(load('grammar.js'))
@@ -132,7 +132,7 @@ LOCK_CSS = '''<style>
 #dmodal .dlock{max-width:480px;width:100%;border-style:solid;box-shadow:0 20px 50px rgba(0,0,0,.3);position:relative}#dmodal .x{position:absolute;right:10px;top:6px;border:0;background:none;font-size:28px;color:var(--muted);cursor:pointer}
 .vit .now.soonb{display:none}
 </style>'''
-PANEL = f'<div class="ic">🔒</div><b>Phần này dành cho học viên khoá học</b><p>Bản dùng thử mở <b>4 đề đầu</b> và <b>1/3 nội dung</b> các phần khác. Vào lớp để mở toàn bộ: slide bài giảng, toàn bộ đề thi có giải thích, video bài giảng, 3.800+ từ vựng, chữ Hán, ngữ pháp, bài tập về nhà.</p><div class="cta"><a href="{FB}" target="_blank" rel="noopener">💬 Nhắn tin Facebook</a><a class="tt" href="{TT}" target="_blank" rel="noopener">♪ TikTok @anhtrong.daygino</a></div>'
+PANEL = f'<div class="ic">🔒</div><b>Phần này dành cho học viên khoá học</b><p>Bản dùng thử mở <b>6 đề làm thử</b> và <b>1/3 nội dung</b> các phần khác. Vào lớp để mở toàn bộ: slide bài giảng, toàn bộ đề thi có giải thích, video bài giảng, 3.800+ từ vựng, chữ Hán, ngữ pháp, bài tập về nhà.</p><div class="cta"><a href="{FB}" target="_blank" rel="noopener">💬 Nhắn tin Facebook</a><a class="tt" href="{TT}" target="_blank" rel="noopener">♪ TikTok @anhtrong.daygino</a></div>'
 LOCK_JS = '''<div id="dmodal"><div class="dlock"><button class="x" type="button" aria-label="Đóng">×</button>__PANEL__</div></div>
 <script>(()=>{const PANEL=`<div class="dlock">__PANEL__</div>`;const M=document.getElementById('dmodal');
 M.onclick=e=>{if(e.target===M||e.target.closest('.x'))M.classList.remove('on')};
