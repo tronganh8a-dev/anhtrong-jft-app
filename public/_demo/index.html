@@ -676,6 +676,7 @@ body.locked .app{filter:blur(6px);pointer-events:none}
   .topbar h1{font-size:20px}
   .sec{grid-template-columns:100px 1fr 60px}
 }
+#askOv{position:fixed;inset:0;z-index:2147483000;background:rgba(15,23,42,.55);display:none;align-items:center;justify-content:center;padding:18px}#askOv.on{display:flex}#askOv .ab{background:#fff;border-radius:18px;max-width:420px;width:100%;padding:22px 20px 16px;box-shadow:0 20px 50px rgba(0,0,0,.35)}#askOv p{margin:0 0 18px;font-size:17px;font-weight:700;line-height:1.5;white-space:pre-line;color:#0d2b40}#askOv .bt{display:flex;gap:10px;justify-content:flex-end}#askOv button{border:0;border-radius:12px;padding:11px 18px;font:inherit;font-weight:800;font-size:15px;cursor:pointer}#askOv .no{background:#eef2f6;color:#334}#askOv .ok{background:#c42f66;color:#fff}
 /* bút dạ giảng bài */
 #penCv{position:fixed;inset:0;width:100vw;height:100vh;z-index:60;pointer-events:none;touch-action:auto}
  #soP{position:fixed;right:16px;top:16px;width:400px;height:min(640px,calc(100vh - 32px));z-index:66;background:#fff;border-radius:18px;box-shadow:0 18px 50px rgba(13,43,64,.28),0 0 0 1px rgba(13,43,64,.08);display:flex;flex-direction:column;overflow:hidden;resize:both;min-width:300px;min-height:320px;font-family:inherit}
@@ -1091,7 +1092,7 @@ $('#examList').addEventListener('click',e=>{const dc=e.target.closest('[data-exd
  $('#exmR').innerHTML=[false,true].map(pr=>{const r=dgGet(x.id,pr);return r?`<button class="opt rs" data-resume="${pr?'p':'e'}" type="button"><b>▶ Làm tiếp bài đang dở · ${pr?'Luyện tập':'Thi thử'}</b><span>${dgInfo(r)}</span></button>`:''}).join('');
  startExam(exPick,'practice',dgGet(x.id,true))});
 $('#exMode').addEventListener('click',e=>{const rb=e.target.closest('[data-resume]');if(rb){const pr=rb.dataset.resume==='p';$('#exMode').classList.remove('on');startExam(exPick,pr?'practice':'exam',dgGet(EXAMS[exPick].id,pr));return}
- const m=e.target.closest('[data-mode]');if(m){const pr=m.dataset.mode==='practice',id=EXAMS[exPick].id,r=dgGet(id,pr);if(r&&!confirm(`Làm lại từ đầu? Bài đang làm dở (${dgDone(r)}/${r.n} câu) sẽ bị xoá.`))return;if(r)dgDel(id,pr);$('#exMode').classList.remove('on');startExam(exPick,m.dataset.mode)}else if(e.target.id==='exMode'||e.target.closest('.x'))$('#exMode').classList.remove('on')});
+ const m=e.target.closest('[data-mode]');if(m){const pr=m.dataset.mode==='practice',id=EXAMS[exPick].id,r=dgGet(id,pr);if(r){askOK(`Làm lại từ đầu? Bài đang làm dở (${dgDone(r)}/${r.n} câu) sẽ bị xoá.`,'Làm lại').then(v=>{if(!v)return;dgDel(id,pr);$('#exMode').classList.remove('on');startExam(exPick,m.dataset.mode)});return}$('#exMode').classList.remove('on');startExam(exPick,m.dataset.mode)}else if(e.target.id==='exMode'||e.target.closest('.x'))$('#exMode').classList.remove('on')});
 
 /* ===== CBT engine (mô phỏng màn hình JFT-Basic) ===== */
 const SEC_EN={'文法':'Grammar','文字と語彙':'Script and Vocabulary','会話と表現':'Conversation and Expression','聴解':'Listening Comprehension','読解':'Reading Comprehension'};
@@ -1102,9 +1103,9 @@ function fmt(s){const h=Math.floor(s/3600),m=Math.floor(s%3600/60),x=s%60;return
 function openCbt(){$('#finBtn').style.visibility='';$('#cbt').classList.add('on');document.body.style.overflow='hidden';$('#cbtF').style.display='flex';window._pqi=null;window.penSync&&penSync('cbt')}
 function stopAudio(){if(AU){AU.pause();AU=null}}
 function closeCbt(){clearInterval(tick);stopAudio();$('#cbt').classList.remove('on');$('#gridOv').classList.remove('on');document.body.style.overflow='';S=null;window.penSync&&penSync(($('.screen.on')||{}).id)}
-$('#cbtClose').onclick=()=>{if(!S||S.done){closeCbt();return}
- if(S.mode==='exam'){if(confirm('Thoát ra? Bài làm của em được lưu lại.\nLần sau mở lại đề này, bấm "Làm tiếp" để làm tiếp từ câu đang dở.')){dgSave();closeCbt();tdUI()}}
- else if(confirm('Thoát bài đang làm? Kết quả sẽ không được lưu.'))closeCbt()};
+$('#cbtClose').onclick=async()=>{if(!S||S.done){closeCbt();return}
+ if(S.mode==='exam'){if(await askOK('Thoát ra? Bài làm của em được lưu lại.\nLần sau mở lại đề này, bấm "Làm tiếp" để làm tiếp từ câu đang dở.','Thoát')){dgSave();closeCbt();tdUI()}}
+ else if(await askOK('Thoát bài đang làm? Kết quả sẽ không được lưu.','Thoát'))closeCbt()};
 $('#viTg').onclick=()=>document.body.classList.toggle('novi');
 function setFuri(on){document.body.classList.toggle('nofuri',!on);const b=$('#furiTg');b.classList.toggle('on',on);b.setAttribute('aria-pressed',on);b.querySelector('b').textContent=on?'BẬT':'TẮT';try{localStorage.setItem('jftFuri',on?'1':'0')}catch(e){}}
 $('#furiTg').onclick=()=>setFuri(document.body.classList.contains('nofuri'));
@@ -1182,10 +1183,16 @@ $('#prevQ').onclick=()=>step(-1);$('#nextQ').onclick=()=>step(1);$('#flagBtn').o
 $('#gridBtn').onclick=()=>{if(!S||S.done)return;const sec=curSec();$('#gTitle').textContent=secName(sec.name);$('#gq').innerHTML=sec.idx.map((k,n)=>`<button class="${S.ans[k]&&S.ans[k].length?'a':''}${S.flags[k]?' f':''}" data-q="${k}" type="button">${n+1}</button>`).join('');$('#gridOv').classList.add('on')};
 $('#gq').onclick=e=>{const b=e.target.closest('[data-q]');if(b){S.i=+b.dataset.q;$('#gridOv').classList.remove('on');render()}};
 $('#gClose').onclick=()=>$('#gridOv').classList.remove('on');
-$('#finBtn').onclick=()=>{if(!S||S.done)return;if(S.mode==='skill'||S.practice){if(S.practice&&!confirm('Kết thúc bài luyện và xem kết quả?'))return;finish();return}
+$('#finBtn').onclick=async()=>{if(!S||S.done)return;if(S.mode==='skill'||S.practice){if(S.practice&&!await askOK('Kết thúc bài luyện và xem kết quả?','Kết thúc'))return;finish();return}
  const sec=curSec();const un=sec.idx.filter(k=>!(S.ans[k]&&S.ans[k].length)).length;
  const last=S.sec===S.secs.length-1;
- if(confirm((un?`Còn ${un} câu chưa trả lời. `:'')+(last?'Kết thúc phần cuối và nộp bài?':'Kết thúc phần này? Bạn sẽ không quay lại phần này được.')))endSection(false)};
+ if(await askOK((un?`Còn ${un} câu chưa trả lời. `:'')+(last?'Kết thúc phần cuối và nộp bài?':'Kết thúc phần này? Bạn sẽ không quay lại phần này được.'),last?'Nộp bài':'Kết thúc'))endSection(false)};
+/* 21/11: hộp xác nhận tự vẽ — confirm() bị chặn trong trình duyệt của TikTok/Facebook/Zalo (luôn trả về false → nút Kết thúc/Thoát không chạy) */
+function askOK(msg,ok){return new Promise(res=>{let o=document.getElementById('askOv');if(!o){o=document.createElement('div');o.id='askOv';o.innerHTML='<div class="ab" role="dialog" aria-modal="true"><p></p><div class="bt"><button type="button" class="no">Huỷ</button><button type="button" class="ok"></button></div></div>';document.body.appendChild(o)}
+ o.querySelector('p').textContent=msg;o.querySelector('.ok').textContent=ok||'Đồng ý';o.classList.add('on');
+ const done=v=>{o.classList.remove('on');o.onclick=null;document.removeEventListener('keydown',kd,true);res(v)};
+ const kd=e=>{if(e.key==='Escape'){e.stopPropagation();done(false)}else if(e.key==='Enter'){e.stopPropagation();e.preventDefault();done(true)}};document.addEventListener('keydown',kd,true);
+ o.onclick=e=>{if(e.target.closest('.ok'))done(true);else if(e.target.closest('.no')||e.target===o)done(false)};setTimeout(()=>o.querySelector('.ok').focus(),30)})}
 function endSection(auto){if(S.sec<S.secs.length-1){S.sec++;S.i=curSec().idx[0];S.left=curSec().time;render()}else finish()}
 /* 20/11: lưu bài đang làm dở (thi thử + luyện tập) theo tài khoản — thoát ra xem tin nhắn, tải lại trang vẫn làm tiếp được.
    Giờ thi không chạy khi đã thoát ra (lưu số giây còn lại). Nộp bài xong thì xoá bản lưu. */
