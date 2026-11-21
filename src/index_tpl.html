@@ -770,7 +770,7 @@ body:has(.cbt.on) #penFab{bottom:80px!important;right:18px!important}body:has(.c
 .exb .num .nm{font-style:normal;font-size:.62em;line-height:1.1}
 .qgno{display:inline-block;font-weight:800;font-size:13px;color:#fff;background:#5a8f29;border-radius:6px;padding:3px 10px;margin:6px 0 4px}.qgno.cur{background:#2f6a12}
 .qgi{border-top:2px dashed #cfdcc0;padding-top:14px;margin-top:18px}.ql>.qgi:first-child,.ply+.qgi,#qArea>.qgi:first-of-type{border-top:0;margin-top:10px;padding-top:0}
-@media (min-width:1100px){.qsplit{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px;align-items:start}.qsplit .qr{position:sticky;top:0;max-height:calc(100vh - 190px);overflow:auto}.qsplit .qr .exp{margin-top:6px}.qsplit .alist{margin-left:0!important}.qsplit .alist.pic{flex-wrap:nowrap}.qsplit .alist.pic label{flex:1 1 0;min-width:0;width:auto}.qsplit .alist.pic label img{width:100%;height:auto}}
+@media (min-width:1100px){.qsplit{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px;align-items:start}.qsplit .qr{position:sticky;top:0;max-height:calc(100vh - 190px);overflow:auto}.qsplit .qr .exp{margin-top:6px}.qsplit .alist{margin-left:0!important}.qsplit .alist.pic{flex-wrap:nowrap}.qsplit .alist.pic label{flex:1 1 0;min-width:0;width:auto}.qsplit .alist.pic label img{width:100%;height:auto}.qsplit .alist.pic.many{flex-wrap:wrap}.qsplit .alist.pic.many label{flex:0 0 calc(25% - 11px)}}
 .exb .ntag{display:inline-block;margin:-4px 0 2px;font-size:11px;font-weight:800;letter-spacing:.02em;color:#fff;background:linear-gradient(135deg,var(--pink),#e8743c);padding:4px 9px;border-radius:99px;box-shadow:0 4px 10px rgba(196,47,102,.3)}
 @keyframes nxf{from{opacity:0}to{opacity:1}}
 @keyframes nxu{from{transform:translateY(24px) scale(.95)}to{transform:none}}
@@ -1137,7 +1137,7 @@ function render(){stopAudio();if(S&&S.i!==window._pqi){window._pqi=S.i;window.pe
   if(Q.img)x+=`<img class="cbt-img" src="${Q.img}" alt="Hình câu hỏi" loading="lazy">`;
   if(Q.imgs&&Q.imgs.length)x+=`<div class="cbt-imgs">${Q.imgs.map(s=>`<img src="${s}" alt="Hình" loading="lazy">`).join('')}</div>`;
   if(mu)x+=`<p class="vi-t" style="margin:10px 0 0 46px">Chọn tất cả đáp án đúng.</p>`;
-  x+=`<div class="alist${pc?' pic':''}" role="${mu?'group':'radiogroup'}">`+Q.o.map((o,k)=>{let c='';if(sl.includes(k))c=' sel';if(ck&&Q.a){if(Q.a.includes(k))c=' right';else if(sl.includes(k))c=' wrong'}
+  x+=`<div class="alist${pc?' pic':''}${pc&&Q.o.length>4?' many':''}" role="${mu?'group':'radiogroup'}">`+Q.o.map((o,k)=>{let c='';if(sl.includes(k))c=' sel';if(ck&&Q.a){if(Q.a.includes(k))c=' right';else if(sl.includes(k))c=' wrong'}
    return `<label class="${c.trim()}"><input type="${mu?'checkbox':'radio'}" name="ans${m}" data-qi="${m}" value="${k}"${sl.includes(k)?' checked':''}>${o.img?`<img src="${o.img}" alt="Lựa chọn ${k+1}" loading="lazy">`:''}${o.t||''}${o.vi?`<span class="vi-t">${esc(o.vi)}</span>`:''}</label>`}).join('')+`</div>`;
   if(S.instant){if(mu&&!ck)x+=`<button class="chkb" data-chk="${m}" type="button">Kiểm tra</button>`;
    if(ck){const ok=Q.a&&same(sl,Q.a);x+=`<div class="fb ${Q.a?(ok?'ok':'ng'):'na'}">${Q.a?(ok?'Đúng rồi!':'Chưa đúng — đáp án đúng được tô xanh.'):'Câu này chưa có đáp án.'}</div>`}}

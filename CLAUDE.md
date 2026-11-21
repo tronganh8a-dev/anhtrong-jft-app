@@ -181,3 +181,9 @@ Quy trình sau khi sửa: `python3 src/build_data.py` (nếu đổi dữ liệu)
 - Bản chính: build_data.py đổi chỗ jft-y5 ↔ jft-f4 → đề mới là **Đề 4**, Đề 4 cũ thành **Đề 30** (dòng "Nguồn: Đề 4/30 · câu x" đổi số theo). Slide Buoi05_TongOn_NhapMon_5.html đã sửa "Đề 4 câu 45" → "Đề 30 câu 45".
 - Bản dùng thử: đề mới hiện "Đề 3" trong nhóm Làm thử miễn phí, Đề 3 bản chính hiện "Đề 4", Đề 27 ẩn (xem mục 1).
 
+
+## Thay câu nghe lỗi ở các đề Google Form (21/11/2026)
+- Anh yêu cầu thay các câu nghe không nghe được / sai ở Đề 3–13 (đánh số lúc đó; jft-f4 nay là "Đề 30") bằng câu lấy ngẫu nhiên từ video "Ngân hàng đề thi nghe 1". 24 chỗ: jft-f3 câu 38, 39 · jft-f4 câu 28, 33–34 (cặp 宅配便, chung 1 audio), 35, 36 · jft-f5 câu 28, 33, 35 · jft-f6 câu 34, 35 · jft-f7 câu 25 · jft-f8 câu 25, 26 · jft-f9 câu 26 · jft-f10 câu 26, 29, 31, 33 · jft-f13 câu 26, 29–30 (cặp 自転車店), 31.
+- Dữ liệu + dịch + giải thích: `src/jft/nghe/build_bank1.py` (sửa thẳng `src/raw/jft_exams.json`, cần /tmp/nb/out/img|au). Câu gốc bị thay lưu ở `src/jft/nghe/bank1_replaced.json`. Media: `app/media/jft/au/nb1_LNN.mp3`, `img/nb1_NN_k.jpg` / `nb1_NN_ctx.jpg`. Script: いろどり 初級2 第14課 (14-02/03/04) và 初級1 第15課 (15-15) theo sách, bài khác soạn theo audio.
+- LƯU Ý: slide Tổng ôn 入門 (tongon_nhapmon_build.py / _full_build.py) dùng ('jft-f10', 31) cho phần nghe; file HTML đã dựng vẫn giữ câu cũ (audio cũ vẫn còn). Nếu dựng lại slide thì câu đó sẽ thành câu mới (giày của con – khó hơn trình độ 入門) → nên đổi sang câu khác trước khi dựng lại.
+- Màn làm đề: phương án ảnh > 4 ô (lớp `.alist.pic.many`) được xuống dòng 4 ô/hàng ở chế độ chia 2 cột.
