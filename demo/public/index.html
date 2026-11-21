@@ -832,6 +832,13 @@ body.nlock{overflow:hidden}
 .dhvw video{width:100%;aspect-ratio:9/16;background:#000;border-radius:16px;display:block;box-shadow:0 8px 24px #0d2b4022}
 .dhvt b{display:block;font-size:1.15rem;color:#0d2b40}.dhvt span{display:block;color:var(--muted);font-weight:600;margin-top:4px}
 @media(max-width:640px){.dhvw{grid-template-columns:1fr}.dhvw video{max-width:420px;margin:0 auto}}
+</style><style>
+.gnl{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;margin-top:6px}
+.gnc{display:flex;flex-direction:column;gap:6px;background:#fff;border:1px solid #e3e9f0;border-left:6px solid var(--gc);border-radius:16px;padding:16px 18px;text-decoration:none;color:#0d2b40;box-shadow:0 4px 14px #0d2b400d}
+.gnc b{font-size:1.15rem}.gnc .jp{color:var(--muted);font-size:.95rem}.gnc span.d{color:var(--muted);font-size:.9rem}
+.gnc i{font-style:normal;align-self:flex-start;margin-top:6px;background:var(--gc);color:#fff;font-weight:800;border-radius:10px;padding:7px 12px;font-size:.92rem}
+.gnc:hover{transform:translateY(-1px);box-shadow:0 8px 20px #0d2b4018}
+.gnp{color:var(--muted);margin:2px 0 4px;font-weight:600}
 </style></head>
 <body>
 <div class="login" id="login">
@@ -852,7 +859,7 @@ body.nlock{overflow:hidden}
   <button class="nav" data-go="exam" type="button"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h3"/></svg>Làm đề<span class="jp">模擬試験</span></button>
   <button class="nav" data-go="video" type="button"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="6" width="14" height="12" rx="2.5"/><path d="M16 10.5l5.2-3v9l-5.2-3z"/></svg>Video<span class="jp">動画</span></button>
   <button class="nav" data-go="vocab" type="button"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="6" width="13" height="15" rx="2"/><path d="M8 3h11a2 2 0 0 1 2 2v12"/></svg>Từ vựng<span class="jp">語彙</span></button>
-  <button class="nav" data-go="n3" type="button"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 15V9l4 6V9M15 9h2.2a1.6 1.6 0 0 1 0 3.2H16h1.4a1.6 1.6 0 0 1 0 3.3H15"/></svg>JLPT N3<span class="jp">能力試験</span></button>
+  <button class="nav" data-go="n3" type="button"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 15V9l4 6V9M15 9h2.2a1.6 1.6 0 0 1 0 3.2H16h1.4a1.6 1.6 0 0 1 0 3.3H15"/></svg>JLPT N3<span class="jp">能力試験</span></button><button class="nav" data-go="gino" type="button"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V9l7-5 7 5v12"/><path d="M9 21v-6h6v6"/></svg>Học Gino<span class="jp">特定技能</span></button>
   <div class="grow"></div>
   <button class="out" id="logout" type="button">Đăng xuất</button>
 </aside>
@@ -984,7 +991,7 @@ body.nlock{overflow:hidden}
 </section>
 <section class="screen" id="n3">
   <iframe id="n3Fr" title="JLPT N3" style="display:block;width:100%;height:calc(100vh - 8px);border:0;background:#f4f7fb" loading="lazy"></iframe>
-</section>
+</section><section class="screen" id="gino"><div class="topbar"><h1>Học Gino<span class="jp">特定技能1号 · 評価試験</span></h1></div><p class="gnp">Học thử miễn phí 5 ngành Tokutei Gino của Anh Trọng: bài học song ngữ Nhật – Việt, đề thi thử có giải thích. Bấm vào ngành để vào học thử, không cần đăng nhập.</p><div class="gnl"><a class="gnc" style="--gc:#0d7d4d" href="https://gino-khachsan.tronganh8a.workers.dev/trial/" target="_blank" rel="noopener"><b>Khách sạn</b><span class="jp">宿泊</span><span class="d">Bản dùng thử · bài học + đề thi thử</span><i>Vào học thử →</i></a><a class="gnc" style="--gc:#0d5a8c" href="https://gino-vesinhtoanha.tronganh8a.workers.dev/trial/" target="_blank" rel="noopener"><b>Vệ sinh toà nhà</b><span class="jp">ビルクリーニング</span><span class="d">Bản dùng thử · bài học + đề thi thử</span><i>Vào học thử →</i></a><a class="gnc" style="--gc:#c26a00" href="https://gino-chebien.tronganh8a.workers.dev/trial/" target="_blank" rel="noopener"><b>Chế biến thực phẩm</b><span class="jp">飲食料品製造業</span><span class="d">Bản dùng thử · bài học + đề thi thử</span><i>Vào học thử →</i></a><a class="gnc" style="--gc:#5b5f66" href="https://gino-xaydung.tronganh8a.workers.dev/trial/" target="_blank" rel="noopener"><b>Xây dựng</b><span class="jp">建設</span><span class="d">Bản dùng thử · bài học + đề thi thử</span><i>Vào học thử →</i></a><a class="gnc" style="--gc:#c42f66" href="https://gino-butsuryu-app.tronganh8a.workers.dev/trial/" target="_blank" rel="noopener"><b>Logistics · Kho vận</b><span class="jp">物流倉庫</span><span class="d">Bản dùng thử · bài học + đề thi thử</span><i>Vào học thử →</i></a></div></section>
 </main>
 </div>
 

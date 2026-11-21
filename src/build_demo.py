@@ -191,6 +191,31 @@ DHV_HTML = (f'<div id="dhVid" class="dhv"><div class="h2 exgh">Kỹ năng làm b
 s = s.replace('</head>', DHV_CSS + '</head>', 1)
 s = s.replace('</body>', "<script>(()=>{const H=" + json.dumps(DHV_HTML, ensure_ascii=False) + ";const put=()=>{const g=document.querySelector('#examList .exg');if(g&&!document.getElementById('dhVid'))g.insertAdjacentHTML('afterend',H)};"
               "const re=window.renderExams;if(typeof re==='function')window.renderExams=function(){const r=re.apply(this,arguments);put();return r};put()})()</script>\n</body>", 1)
+# 21/11: tab "Học Gino" — link bản dùng thử của 5 ngành Tokutei Gino (mỗi app có /trial/ không cần đăng nhập)
+GINO = [('Khách sạn', '宿泊', 'https://gino-khachsan.tronganh8a.workers.dev/trial/', '#0d7d4d'),
+        ('Vệ sinh toà nhà', 'ビルクリーニング', 'https://gino-vesinhtoanha.tronganh8a.workers.dev/trial/', '#0d5a8c'),
+        ('Chế biến thực phẩm', '飲食料品製造業', 'https://gino-chebien.tronganh8a.workers.dev/trial/', '#c26a00'),
+        ('Xây dựng', '建設', 'https://gino-xaydung.tronganh8a.workers.dev/trial/', '#5b5f66'),
+        ('Logistics · Kho vận', '物流倉庫', 'https://gino-butsuryu-app.tronganh8a.workers.dev/trial/', '#c42f66')]
+GINO_CSS = """<style>
+.gnl{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;margin-top:6px}
+.gnc{display:flex;flex-direction:column;gap:6px;background:#fff;border:1px solid #e3e9f0;border-left:6px solid var(--gc);border-radius:16px;padding:16px 18px;text-decoration:none;color:#0d2b40;box-shadow:0 4px 14px #0d2b400d}
+.gnc b{font-size:1.15rem}.gnc .jp{color:var(--muted);font-size:.95rem}.gnc span.d{color:var(--muted);font-size:.9rem}
+.gnc i{font-style:normal;align-self:flex-start;margin-top:6px;background:var(--gc);color:#fff;font-weight:800;border-radius:10px;padding:7px 12px;font-size:.92rem}
+.gnc:hover{transform:translateY(-1px);box-shadow:0 8px 20px #0d2b4018}
+.gnp{color:var(--muted);margin:2px 0 4px;font-weight:600}
+</style>"""
+GINO_NAV = ('<button class="nav" data-go="gino" type="button"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">'
+            '<path d="M3 21h18M5 21V9l7-5 7 5v12"/><path d="M9 21v-6h6v6"/></svg>Học Gino<span class="jp">特定技能</span></button>')
+GINO_SCREEN = ('<section class="screen" id="gino"><div class="topbar"><h1>Học Gino<span class="jp">特定技能1号 · 評価試験</span></h1></div>'
+               '<p class="gnp">Học thử miễn phí 5 ngành Tokutei Gino của Anh Trọng: bài học song ngữ Nhật – Việt, đề thi thử có giải thích. Bấm vào ngành để vào học thử, không cần đăng nhập.</p>'
+               '<div class="gnl">' + ''.join(f'<a class="gnc" style="--gc:{c}" href="{u}" target="_blank" rel="noopener"><b>{n}</b><span class="jp">{j}</span><span class="d">Bản dùng thử · bài học + đề thi thử</span><i>Vào học thử →</i></a>' for n, j, u, c in GINO) +
+               '</div></section>')
+_nv = s.index('<button class="nav" data-go="n3"'); _nv = s.index('</button>', _nv) + len('</button>')
+s = s[:_nv] + GINO_NAV + s[_nv:]
+_sc = s.index('<section class="screen" id="n3">'); _sc = s.index('</section>', _sc) + len('</section>')
+s = s[:_sc] + GINO_SCREEN + s[_sc:]
+s = s.replace('</head>', GINO_CSS + '</head>', 1)
 _n = 'Chọn <b>Luyện tập</b> để xem ngay sau từng câu, hoặc <b>Thi thử</b> rồi xem lại sau khi nộp bài.'; assert s.count(_n) == 1
 s = s.replace(_n, 'Bấm vào đề là làm luôn: chọn đáp án câu nào là hiện ngay đáp án đúng và giải thích của câu đó.')
 open(D + 'index.html', 'w', encoding='utf-8').write(s)
