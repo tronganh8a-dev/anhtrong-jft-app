@@ -37,9 +37,16 @@ save('skills.js', 'SKILLS', S)
 # Làm đề: 21/11 anh chốt mở đủ Đề 1, Đề 2 (Đề 2 = jft-y4, Đề 29 cũ) + 1 đề nghe (Đề nghe 1) + 1 đề từ vựng (Ôn tập từ vựng & Hán tự),
 # 4 đề này đưa lên đầu thành nhóm "Làm thử miễn phí" (ngay dưới Đề 1, Đề 2); các đề khác chỉ giữ tiêu đề + số câu
 E = json.loads(load('exams.js'))
-OPEN_EX = ['jft-y3', 'jft-y4', 'jft-f1', 'jft-ln1', 'jft-ln2', 'jft-vocab']   # 21/11 tối: thêm Đề 27 (làm đề thứ 3) + Đề nghe 2
+OPEN_EX = ['jft-y3', 'jft-y4', 'jft-y5', 'jft-ln1', 'jft-ln2', 'jft-vocab']   # 21/11 tối: đề thứ 3 = Đề 30 mới (jft-y5, bản chính là Đề 4) + Đề nghe 2
+HIDE_EX = {'jft-f1'}   # 21/11: anh bảo ẩn Đề 27 ở bản dùng thử
 _by = {e['id']: e for e in E}
-E = [_by[i] for i in OPEN_EX if i in _by] + [e for e in E if e['id'] not in OPEN_EX]
+E = [_by[i] for i in OPEN_EX if i in _by] + [e for e in E if e['id'] not in OPEN_EX and e['id'] not in HIDE_EX]
+# bản dùng thử: jft-y5 ghi "Đề 3", Đề 3 bản chính (jft-f3) ghi "Đề 4" (dòng "Nguồn: Đề 3/4 · câu x" đổi số theo)
+_DT = {'jft-y5': 'Đề 3', 'jft-f3': 'Đề 4'}
+for e in E:
+    if e['id'] in _DT: e['title'] = _DT[e['id']]
+    for q in e.get('qs', []):
+        if isinstance(q.get('src'), str): q['src'] = re.sub(r'Đề ([34]) · câu', lambda m: 'Đề ' + ('4' if m.group(1) == '3' else '3') + ' · câu', q['src'])
 NEX = sum(1 for i in OPEN_EX if i in _by)
 for e in E[:NEX]:
     e['group'] = 'Làm thử miễn phí'
