@@ -99,6 +99,17 @@ if os.path.exists(R + 'jft_exams.json'):
             for q in e['qs']:
                 if isinstance(q.get('src'), str):
                     q['src'] = re.sub(r'Đề (1|27) · câu', lambda m: _sw[m.group(0)], q['src'])
+    # 21/11: anh yêu cầu đưa Đề 29 (jft-y4) lên thành "Đề 2"; Đề 2 cũ (jft-f2) đổi xuống thành "Đề 29"
+    _ix = {e['id']: i for i, e in enumerate(exams)}
+    if 'jft-f2' in _ix and 'jft-y4' in _ix:
+        a, b = _ix['jft-f2'], _ix['jft-y4']
+        exams[a], exams[b] = exams[b], exams[a]
+        exams[a]['title'], exams[b]['title'] = 'Đề 2', 'Đề 29'
+        _sw = {'Đề 2 · câu': 'Đề 29 · câu', 'Đề 29 · câu': 'Đề 2 · câu'}
+        for e in exams:
+            for q in e['qs']:
+                if isinstance(q.get('src'), str):
+                    q['src'] = re.sub(r'Đề (2|29) · câu', lambda m: _sw[m.group(0)], q['src'])
     print('gạch chân từ hỏi đọc/viết:', underline_exams(exams))
 js('exams', 'EXAMS', exams)
 open(OUT + 'app/data/exams.js', 'a', encoding='utf-8').write('window.EXTLINKS=[];')

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Dựng bản DÙNG THỬ (không đăng nhập) → ../demo/public
-# Hiện ĐỦ danh mục mọi phần; 19/11: mỗi phần mở 1/3 đầu, Làm đề mở 3 đề đầu, còn lại KHOÁ (🔒 + popup liên hệ).
+# Hiện ĐỦ danh mục mọi phần; 19/11: mỗi phần mở 1/3 đầu, Làm đề mở 2 đề đầu (21/11), còn lại KHOÁ (🔒 + popup liên hệ).
 # Mục bị khoá chỉ mang tiêu đề / số đếm (dữ liệu rỗng) – nội dung thật KHÔNG được chép sang bản dùng thử.
 import os, json, shutil, re
 A = os.path.dirname(os.path.abspath(__file__)) + '/'
@@ -16,7 +16,7 @@ def cp(rel):
     if rel and os.path.exists(P + rel):
         os.makedirs(os.path.dirname(D + rel), exist_ok=True); shutil.copy(P + rel, D + rel)
 
-# 19/11: mỗi phần mở 1/3 đầu (làm tròn lên); Làm đề giữ 3 đề đầu.
+# 19/11: mỗi phần mở 1/3 đầu (làm tròn lên); Làm đề mở 2 đề đầu (21/11: Đề 1 + Đề 2).
 # File nội dung lớn (bài học, tài liệu, BTVN, media) KHÔNG chép sang bản dùng thử nữa: build ghi danh sách file được mở
 # vào demo_allow.js, worker.js chỉ phục vụ đúng các file đó từ bản chính cho tên miền jft-dungthu.*
 import math
@@ -34,8 +34,8 @@ for l in L:
         for k in ('web', 'slide'): allow(l.get(k))
 S = [q for q in json.loads(load('skills.js')) if q['bai'] in OL.get(q['lv'], [])]
 save('skills.js', 'SKILLS', S)
-# Làm đề: mở 3 đề đầu (19/11), các đề khác chỉ giữ tiêu đề + số câu
-E = json.loads(load('exams.js')); NEX = 3
+# Làm đề: 21/11 anh chốt chỉ mở đủ Đề 1 và Đề 2 (Đề 2 = jft-y4, Đề 29 cũ), các đề khác chỉ giữ tiêu đề + số câu
+E = json.loads(load('exams.js')); NEX = 2
 save('exams.js', 'EXAMS', [e if i < NEX else {**{k: v for k, v in e.items() if k != 'qs'}, 'qs': [], 'nq': len(e['qs'])} for i, e in enumerate(E)], 'window.EXTLINKS=[];')
 # Ngữ pháp (文法ノート): mỗi cấp mở 1/3 số bài đầu
 G = json.loads(load('grammar.js'))
@@ -121,7 +121,7 @@ LOCK_CSS = '''<style>
 #dmodal .dlock{max-width:480px;width:100%;border-style:solid;box-shadow:0 20px 50px rgba(0,0,0,.3);position:relative}#dmodal .x{position:absolute;right:10px;top:6px;border:0;background:none;font-size:28px;color:var(--muted);cursor:pointer}
 .vit .now.soonb{display:none}
 </style>'''
-PANEL = f'<div class="ic">🔒</div><b>Phần này dành cho học viên khoá học</b><p>Bản dùng thử mở <b>3 đề đầu</b> và <b>1/3 nội dung</b> các phần khác. Vào lớp để mở toàn bộ: slide bài giảng, toàn bộ đề thi có giải thích, video bài giảng, 3.800+ từ vựng, chữ Hán, ngữ pháp, bài tập về nhà.</p><div class="cta"><a href="{FB}" target="_blank" rel="noopener">💬 Nhắn tin Facebook</a><a class="tt" href="{TT}" target="_blank" rel="noopener">♪ TikTok @anhtrong.daygino</a></div>'
+PANEL = f'<div class="ic">🔒</div><b>Phần này dành cho học viên khoá học</b><p>Bản dùng thử mở <b>Đề 1 và Đề 2</b> và <b>1/3 nội dung</b> các phần khác. Vào lớp để mở toàn bộ: slide bài giảng, toàn bộ đề thi có giải thích, video bài giảng, 3.800+ từ vựng, chữ Hán, ngữ pháp, bài tập về nhà.</p><div class="cta"><a href="{FB}" target="_blank" rel="noopener">💬 Nhắn tin Facebook</a><a class="tt" href="{TT}" target="_blank" rel="noopener">♪ TikTok @anhtrong.daygino</a></div>'
 LOCK_JS = '''<div id="dmodal"><div class="dlock"><button class="x" type="button" aria-label="Đóng">×</button>__PANEL__</div></div>
 <script>(()=>{const PANEL=`<div class="dlock">__PANEL__</div>`;const M=document.getElementById('dmodal');
 M.onclick=e=>{if(e.target===M||e.target.closest('.x'))M.classList.remove('on')};
@@ -145,7 +145,7 @@ function apply(){q=false;busy=true;try{const O=window.DOPEN,has=(m,k,v)=>(m[k]||
 new MutationObserver(()=>{if(!busy&&!q){q=true;requestAnimationFrame(apply)}}).observe(document.querySelector('main'),{childList:true,subtree:true});
 apply()})();</script>'''.replace('__PANEL__', PANEL).replace('<script>(()=>{', '<script>window.DOPEN=' + json.dumps(DOPEN, ensure_ascii=False, separators=(',', ':')) + ';(()=>{', 1)
 reps = [("$('#logout').onclick=()=>{location.href='/logout'};", "$('#logout').style.display='none';"),
-        ('<main>', '<main><div style="background:#fff3b0;border:1px solid #f1c48b;color:#5a4300;border-radius:12px;padding:10px 14px;margin:0 0 14px;font-size:14px"><b>BẢN DÙNG THỬ</b> · Làm thử miễn phí <b>3 đề đầu</b>, các phần khác (slide bài giảng, tài liệu, từ vựng, chữ Hán, ngữ pháp, video, bài tập về nhà) mở <b>1/3 nội dung</b>. Mục có 🔒 dành cho học viên — liên hệ <b>Anh Trọng Dạy JFT</b> để vào lớp và mở toàn bộ đề thi có giải thích, video bài giảng, 3.800+ từ vựng.</div>'),
+        ('<main>', '<main><div style="background:#fff3b0;border:1px solid #f1c48b;color:#5a4300;border-radius:12px;padding:10px 14px;margin:0 0 14px;font-size:14px"><b>BẢN DÙNG THỬ</b> · Làm thử miễn phí <b>Đề 1 và Đề 2</b>, các phần khác (slide bài giảng, tài liệu, từ vựng, chữ Hán, ngữ pháp, video, bài tập về nhà) mở <b>1/3 nội dung</b>. Mục có 🔒 dành cho học viên — liên hệ <b>Anh Trọng Dạy JFT</b> để vào lớp và mở toàn bộ đề thi có giải thích, video bài giảng, 3.800+ từ vựng.</div>'),
         ('<title>', '<title>Dùng thử · '),
         ('</head>', LOCK_CSS + '</head>'),
         ('</body>', LOCK_JS + '</body>'),
