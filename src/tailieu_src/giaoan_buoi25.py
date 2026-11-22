@@ -10,7 +10,9 @@ _defs = _old[:_old.index('# ---------- dựng ----------')].replace("SL = json.l
 exec(_defs)   # VOC, KAN, GB, RB, rel, VEXP, VNOTE, GNOTE, TNOTE, VW, KK, E, rb
 CSS = re.search(r"CSS = '''(.*?)'''", _old, re.S).group(1)
 CSS = CSS.replace('</style>', '.sc{background:#eef7ee;border-left:4px solid #2f9e5b;padding:6px 10px;border-radius:6px;margin:5px 0}.sc b{color:#2f7a48}.nb{background:#f4f9fe;border-left:4px solid #0d5a8c;padding:6px 10px;border-radius:6px;margin:5px 0;font-size:10pt}.tm2{display:inline-block;background:#c42f66;color:#fff;border-radius:99px;padding:0 10px;font-size:9pt;margin-left:6px}.pl{margin:4px 0 4px 18px;padding:0}</style>')
-FONT = ''.join(f'<link rel="stylesheet" href="file:///home/claude/jftlich/f/node_modules/@fontsource/m-plus-rounded-1c/{w}.css">' for w in (500, 700, 800))
+import os, sys
+_FD = next((d for d in ('/home/claude/jftlich/f/node_modules/@fontsource/', '/tmp/fs/node_modules/@fontsource/') if os.path.isdir(d + 'm-plus-rounded-1c')), '/tmp/fs/node_modules/@fontsource/')
+FONT = ''.join(f'<link rel="stylesheet" href="file://{_FD}m-plus-rounded-1c/{w}.css">' for w in (500, 700, 800))
 exec(open(R + 'src/tailieu_src/giaoan_buoi25_notes.py').read())   # GSCRIPT, KEXP, HEXP
 HW = {w: (r, h, v) for k in ('tau', 'bien') for (w, r, h, v) in []}
 _tb = open(R + 'src/tailieu_src/tongon_nhapmon_build.py').read()
@@ -124,4 +126,4 @@ def build_ga(no):
     miss = [s.get('w') for s in SL if s['t'] == 'kanji' and s.get('w') not in KEXP] + [s.get('no') for s in SL if s['t'] == 'gx' and not GSCRIPT.get((int(re.search(r'Bài (\d+)', s['h2']).group(1)), s['no']))]
     print(out, len(B), 'khối', 'THIẾU lời giảng:' if miss else '', miss or '')
 
-for no in (2, 3, 4, 5): build_ga(no)
+for no in ([int(x) for x in sys.argv[1:]] or (2, 3, 4, 5)): build_ga(no)   # vd: python3 giaoan_buoi25.py 3
