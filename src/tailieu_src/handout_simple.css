@@ -1,0 +1,22 @@
+/* bản đơn giản (22/11 tối): không bìa, không dải màu, ít khung */
+section.flow{page-break-before:auto}
+.ttl{display:flex;justify-content:space-between;align-items:flex-end;gap:6mm;border-bottom:2px solid var(--b);padding-bottom:2.5mm;margin-bottom:4mm}
+.ttl .tk{font-size:9.5pt;font-weight:700;color:var(--p);letter-spacing:.06em}
+.ttl h1{margin:0;font-size:17pt;color:var(--t);line-height:1.3}
+.ttl .tl{font-size:9.5pt;color:var(--mu)}.ttl .tl .jp{font-size:10.5pt;color:var(--t)}
+.ttl .nm{font-size:10pt;display:flex;gap:2mm;align-items:flex-end;white-space:nowrap}.ttl .nm i{display:inline-block;width:45mm;border-bottom:1px dashed #9fb2c4;height:5mm}
+h2.s1{font-size:14pt;color:var(--b);margin:6mm 0 2mm;padding-bottom:1mm;border-bottom:1px solid var(--ln);break-after:avoid}
+h2.s1 .jp{font-size:11pt;color:var(--mu);font-weight:400;margin-left:2mm}
+h3.s2{font-size:11pt;margin:4mm 0 2mm;color:var(--t);break-after:avoid}
+.vc{border-color:#e4ebf1}.hv{background:none;padding:0;color:var(--p)}
+.tb th{background:none;border-bottom:1.5px solid #b9cbdb}
+.kt td{vertical-align:top;padding:1.8mm 2.5mm}.kt .kw2{font-size:17pt;white-space:nowrap}.kt .jp{line-height:1.8}
+.kt small{color:var(--mu)}
+.g2{margin:0 0 3.5mm;break-inside:avoid}
+.g2h{font-size:12.5pt;line-height:1.8}.g2h b{color:var(--p);margin-right:1mm}.g2m{font-size:10pt;font-weight:700;color:var(--b)}
+.g2 ul{margin:.5mm 0 1mm;padding-left:6mm}.g2 li{font-size:9.8pt;margin:.3mm 0}.g2 li.nt{color:#8a5a00}
+.g2e{padding-left:6mm}.g2e div{margin:.5mm 0}.g2e .jp{font-size:11.5pt;line-height:1.9;margin-right:2mm}
+.secb{display:none}
+.src{margin-top:8mm;font-size:8pt;color:var(--mu);text-align:center}
+.pq,.pw,.ql.pics .wq{border-color:#e4ebf1}
+.wex{background:none;border-left:3px solid var(--ln);border-radius:0}
