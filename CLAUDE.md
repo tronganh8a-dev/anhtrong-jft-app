@@ -187,3 +187,7 @@ Quy trình sau khi sửa: `python3 src/build_data.py` (nếu đổi dữ liệu)
 - Dữ liệu + dịch + giải thích: `src/jft/nghe/build_bank1.py` (sửa thẳng `src/raw/jft_exams.json`, cần /tmp/nb/out/img|au). Câu gốc bị thay lưu ở `src/jft/nghe/bank1_replaced.json`. Media: `app/media/jft/au/nb1_LNN.mp3`, `img/nb1_NN_k.jpg` / `nb1_NN_ctx.jpg`. Script: いろどり 初級2 第14課 (14-02/03/04) và 初級1 第15課 (15-15) theo sách, bài khác soạn theo audio.
 - LƯU Ý: slide Tổng ôn 入門 (tongon_nhapmon_build.py / _full_build.py) dùng ('jft-f10', 31) cho phần nghe; file HTML đã dựng vẫn giữ câu cũ (audio cũ vẫn còn). Nếu dựng lại slide thì câu đó sẽ thành câu mới (giày của con – khó hơn trình độ 入門) → nên đổi sang câu khác trước khi dựng lại.
 - Màn làm đề: phương án ảnh > 4 ô (lớp `.alist.pic.many`) được xuống dòng 4 ô/hàng ở chế độ chia 2 cột.
+
+## Quảng cáo "Mua trọn đề thi 5 sen" ở bản dùng thử (22/11/2026)
+- Khung gradient hồng–xanh đầu tab Làm đề (trên nhóm "Làm thử miễn phí"): "Mua trọn đề thi chỉ 5 sen" · 28 đề thi thử + 4 đề luyện nghe · hơn 1.800 câu có đáp án, dịch, giải thích · nút "Nhắn tin mua đề" → Facebook. `AD_HTML` trong build_demo.py (chèn cùng chỗ với video đọc hiểu, hàm `put`). Popup khoá thêm dòng "Mua trọn đề thi: 5 sen" (lớp `.dpr`). Đổi giá / số đề thì sửa `AD_HTML` + `PANEL`.
+

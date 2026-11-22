@@ -139,7 +139,7 @@ LOCK_CSS = '''<style>
 #dmodal .dlock{max-width:480px;width:100%;border-style:solid;box-shadow:0 20px 50px rgba(0,0,0,.3);position:relative}#dmodal .x{position:absolute;right:10px;top:6px;border:0;background:none;font-size:28px;color:var(--muted);cursor:pointer}
 .vit .now.soonb{display:none}
 </style>'''
-PANEL = f'<div class="ic">🔒</div><b>Phần này dành cho học viên khoá học</b><p>Bản dùng thử mở <b>6 đề làm thử</b> và <b>1/3 nội dung</b> các phần khác. Vào lớp để mở toàn bộ: slide bài giảng, toàn bộ đề thi có giải thích, video bài giảng, 3.800+ từ vựng, chữ Hán, ngữ pháp, bài tập về nhà.</p><div class="cta"><a href="{FB}" target="_blank" rel="noopener">💬 Nhắn tin Facebook</a><a class="tt" href="{TT}" target="_blank" rel="noopener">♪ TikTok @anhtrong.daygino</a></div>'
+PANEL = f'<div class="ic">🔒</div><b>Phần này dành cho học viên khoá học</b><p>Bản dùng thử mở <b>6 đề làm thử</b> và <b>1/3 nội dung</b> các phần khác. Vào lớp để mở toàn bộ: slide bài giảng, toàn bộ đề thi có giải thích, video bài giảng, 3.800+ từ vựng, chữ Hán, ngữ pháp, bài tập về nhà.</p><div class="dpr">Mua trọn đề thi: 5 sen</div><div class="cta"><a href="{FB}" target="_blank" rel="noopener">💬 Nhắn tin Facebook</a><a class="tt" href="{TT}" target="_blank" rel="noopener">♪ TikTok @anhtrong.daygino</a></div>'
 LOCK_JS = '''<div id="dmodal"><div class="dlock"><button class="x" type="button" aria-label="Đóng">×</button>__PANEL__</div></div>
 <script>(()=>{const PANEL=`<div class="dlock">__PANEL__</div>`;const M=document.getElementById('dmodal');
 M.onclick=e=>{if(e.target===M||e.target.closest('.x'))M.classList.remove('on')};
@@ -187,7 +187,19 @@ s = s.replace('</head>', '<style>#furiTg{display:none!important}</style></head>'
 s = s.replace('</body>', "<script>try{setFuri(true)}catch(e){document.body.classList.remove('nofuri')}</script>\n</body>", 1)
 # 21/11: bỏ chọn "Thi thử như thật" — bấm đề là vào thẳng Luyện tập (chọn câu nào hiện đáp án + giải thích câu đó; có bài dở thì làm tiếp)
 _m = "$('#exMode').classList.add('on')});"; assert s.count(_m) == 1; s = s.replace(_m, "startExam(exPick,'practice',dgGet(x.id,true))});")
+# 22/11: anh thêm quảng cáo "Mua trọn đề thi 5 sen" — khung đầu tab Làm đề (trước nhóm Làm thử miễn phí) + dòng giá trong popup khoá
+AD_HTML = (f'<div id="dAd" class="dad"><div class="dadt"><small>Trọn bộ đề thi JFT-Basic</small><b>Mua trọn đề thi chỉ <em>5 sen</em></b>'
+           '<span>28 đề thi thử + 4 đề luyện nghe · hơn 1.800 câu · đủ đáp án, dịch và giải thích từng câu</span></div>'
+           f'<a href="{FB}" target="_blank" rel="noopener">💬 Nhắn tin mua đề</a></div>')
 DHV_CSS = """<style>
+.dad{display:flex;align-items:center;gap:14px 18px;flex-wrap:wrap;background:linear-gradient(120deg,#c42f66,#0d5a8c);color:#fff;border-radius:18px;padding:16px 20px;margin:0 0 18px;box-shadow:0 10px 26px #0d2b4026}
+.dadt{flex:1 1 260px;min-width:0}.dadt small{display:block;font-weight:700;opacity:.85;font-size:13px;letter-spacing:.02em}
+.dadt b{display:block;font-size:1.45rem;line-height:1.25;margin:2px 0 4px}.dadt em{font-style:normal;background:#ffe76a;color:#8a1440;border-radius:10px;padding:0 10px;margin-left:4px;white-space:nowrap}
+.dadt span{display:block;font-size:14px;font-weight:600;opacity:.92;line-height:1.45}
+.dad a{flex:0 0 auto;background:#fff;color:#c42f66;font-weight:800;text-decoration:none;border-radius:12px;padding:11px 18px;white-space:nowrap}
+.dlock p b{display:inline;font-size:inherit;margin:0;color:#0d2b40}
+.dlock .dpr{display:inline-block;background:#fff4c2;border:1.5px solid #e3b04b;color:#8a1440;border-radius:12px;padding:7px 14px;font-weight:800;margin:0 0 14px}
+@media(max-width:640px){.dad{padding:14px 16px}.dadt b{font-size:1.25rem}.dad a{width:100%;text-align:center}}
 .dct{display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;background:#fff;border:1px solid #e3e9f0;border-radius:14px;padding:10px 14px;margin:0 0 14px;font-size:14px}
 .dct b{color:#0d2b40;margin-right:2px}.dct a{border-radius:10px;padding:7px 12px;font-weight:800;text-decoration:none;color:#fff;background:#1877f2}.dct a.tt{background:#111}
 .dhv{margin:22px 0 6px}.dhvw{display:grid;grid-template-columns:minmax(0,300px) 1fr;gap:18px;align-items:start}
@@ -199,7 +211,7 @@ DHV_HTML = (f'<div id="dhVid" class="dhv"><div class="h2 exgh">Kỹ năng làm b
             f'<video controls playsinline preload="none" poster="{DHV}.jpg" src="{DHV}.mp4"></video>'
             '<div class="dhvt"><b>Mẹo làm đọc hiểu JFT</b><span>Video 4 phút · Anh Trọng giảng</span></div></div></div>')
 s = s.replace('</head>', DHV_CSS + '</head>', 1)
-s = s.replace('</body>', "<script>(()=>{const H=" + json.dumps(DHV_HTML, ensure_ascii=False) + ";const put=()=>{const g=document.querySelector('#examList .exg');if(g&&!document.getElementById('dhVid'))g.insertAdjacentHTML('afterend',H)};"
+s = s.replace('</body>', "<script>(()=>{const H=" + json.dumps(DHV_HTML, ensure_ascii=False) + ";const AD=" + json.dumps(AD_HTML, ensure_ascii=False) + ";const put=()=>{const g=document.querySelector('#examList .exg');if(g&&!document.getElementById('dhVid'))g.insertAdjacentHTML('afterend',H);if(g&&!document.getElementById('dAd')){const h=g.previousElementSibling;(h&&/exgh|h2/.test(h.className)?h:g).insertAdjacentHTML('beforebegin',AD)}};"
               "const re=window.renderExams;if(typeof re==='function')window.renderExams=function(){const r=re.apply(this,arguments);put();return r};put()})()</script>\n</body>", 1)
 # 21/11: tab "Học Gino" — link bản dùng thử của 5 ngành (tên worker lấy theo check-runs: gino-khachsan-trial, gino-vesinhtoanha-trial, gino-cbtp-app/trial, gino-xaydung/trial, gino-butsuryu-app/trial)
 GINO = [('Khách sạn', '宿泊', 'https://gino-khachsan-trial.tronganh8a.workers.dev/', '#0d7d4d', 'ks.jpg'),
