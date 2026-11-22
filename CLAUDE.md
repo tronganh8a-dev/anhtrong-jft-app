@@ -191,3 +191,7 @@ Quy trình sau khi sửa: `python3 src/build_data.py` (nếu đổi dữ liệu)
 ## Quảng cáo "Mua trọn đề thi 5 sen" ở bản dùng thử (22/11/2026)
 - Khung gradient hồng–xanh đầu tab Làm đề (trên nhóm "Làm thử miễn phí"): "Mua trọn đề thi chỉ 5 sen" · 28 đề thi thử + 4 đề luyện nghe · hơn 1.800 câu có đáp án, dịch, giải thích · nút "Nhắn tin mua đề" → Facebook. `AD_HTML` trong build_demo.py (chèn cùng chỗ với video đọc hiểu, hàm `put`). Popup khoá thêm dòng "Mua trọn đề thi: 5 sen" (lớp `.dpr`). Đổi giá / số đề thì sửa `AD_HTML` + `PANEL`.
 
+
+## Khung giải thích câu mới (22/11/2026)
+- Anh chọn "trình bày đẹp hơn" (giữ nguyên chữ). index_tpl: hàm `fmtEx` (khối "khung giải thích câu", ngay trước `qGroup`) dựng lại `Q.ex` lúc hiển thị → thẻ `.exp.xnew`: dải xanh "✓ Đáp án đúng" · Giải thích (tách từng câu thành đoạn, 「…」 tô vàng `.xq`, Hán Việt in hoa trong ngoặc thành nhãn hồng `.xhv`, mũi tên → hồng, đoạn tiếng Nhật thành khối xanh nhạt nhãn 日本語) · Script (mỗi lượt lời 1 dòng, tên người nói thành nhãn xanh, dòng dịch xám bên dưới với kiểu `.scr`) · Dịch (tách theo " / " hoặc "A: … B: …") · Từ vựng (thẻ lưới: từ + Hán Việt + nghĩa). Thứ tự: Đáp án → Giải thích → Script → Dịch → Từ vựng. Áp dụng mọi đề + bài luyện, cả bản dùng thử. Dữ liệu `ex` không đổi.
+- Lúc hiển thị còn bỏ nhãn "Mẹo:" và đổi chữ "bẫy" → "chỗ dễ nhầm" (`_xNice`, 49 câu cũ có các chữ này). Không dùng regex lookbehind (Safari iOS cũ lỗi cú pháp → hỏng cả trang).
