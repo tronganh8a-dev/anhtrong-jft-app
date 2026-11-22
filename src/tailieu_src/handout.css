@@ -1,0 +1,130 @@
+/* Tài liệu PDF gửi học viên (A4) — Anh Trọng Dạy JFT */
+@page{size:A4;margin:14mm 13mm 16mm}
+:root{--b:#0d5a8c;--p:#c42f66;--t:#0d2b40;--mu:#5b6b7b;--ln:#d8e2ec;--bg:#f3f8fc;--y:#fff3c4}
+*{box-sizing:border-box}
+body{margin:0;font-family:'Quicksand',sans-serif;font-weight:500;font-size:10.4pt;line-height:1.55;color:var(--t);-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.jp{font-family:'Klee One',serif;font-weight:600}
+rt{font-family:'Klee One',serif;font-weight:400;font-size:.5em;color:#46708f}
+section{page-break-before:always}
+section:first-child{page-break-before:auto}
+u{text-decoration:none;border-bottom:1.6px solid var(--p);padding:0 1px}
+small{font-size:.86em;color:var(--mu)}
+.big{font-size:1.25em}
+/* bìa */
+.cover{height:265mm;display:flex;flex-direction:column;align-items:center;text-align:center;padding-top:8mm;background:linear-gradient(180deg,#eef6fc 0,#fff 55%);border-radius:6mm;position:relative}
+.clogo{height:20mm;margin-bottom:12mm}
+.ck{font-weight:700;letter-spacing:.18em;color:var(--p);font-size:11pt}
+.cover h1{font-size:36pt;margin:3mm 0 1mm;color:var(--b);line-height:1.15}
+.csub{font-size:15pt;font-weight:600}
+.lcs{display:flex;gap:6mm;margin:10mm 0 8mm;width:88%}
+.lc{flex:1;background:#fff;border:1px solid var(--ln);border-top:4px solid var(--b);border-radius:4mm;padding:5mm 4mm;box-shadow:0 2mm 6mm #0d2b4010}
+.lc:last-child{border-top-color:var(--p)}
+.lc b{display:block;color:var(--mu);letter-spacing:.08em;font-size:10pt}
+.lc .jp{font-size:12.5pt;line-height:1.9;margin:1mm 0;white-space:nowrap}
+.toc{width:88%;text-align:left;background:#fff;border:1px solid var(--ln);border-radius:4mm;padding:4mm 7mm}
+.toc h3{margin:0 0 1mm;color:var(--b);font-size:12pt}
+.toc ol{margin:0;padding-left:6mm}.toc li{margin:1.3mm 0;font-size:11pt}.toc li span{color:var(--mu);font-size:10pt;margin-left:2mm}
+.goal{width:88%;text-align:left;margin-top:5mm;background:#fff8e6;border-radius:4mm;padding:4mm 7mm}.goal h3{margin:0 0 1mm;color:#8a5a00;font-size:12pt}.goal ul{margin:0;padding-left:5mm}.goal li{margin:1.2mm 0;font-size:10.5pt}.goal .jp{font-size:10.5pt}
+.keep{break-inside:avoid}.cn{color:var(--b);font-family:'Quicksand',sans-serif}
+.who{display:flex;gap:8mm;width:88%;margin-top:9mm;font-size:11pt}
+.who div{flex:1;display:flex;gap:2mm;align-items:flex-end}.who i{flex:1;border-bottom:1px dashed #9fb2c4;height:6mm}
+.csrc{position:absolute;bottom:6mm;left:10mm;right:10mm;font-size:8.2pt;color:var(--mu);line-height:1.5}
+/* mở đầu phần */
+.secb{display:flex;gap:5mm;align-items:center;background:var(--b);color:#fff;border-radius:4mm;padding:3.5mm 6mm;margin-bottom:5mm}
+.secb .no{font-size:24pt;font-weight:700;color:#ffd166;line-height:1}
+.secb .st{font-size:17pt;font-weight:700;line-height:1.2}.secb .st .jp{font-weight:600;font-size:13pt;opacity:.85;margin-left:2mm}
+.secb .sd{font-size:9.6pt;opacity:.9}
+.lh{font-size:12.5pt;color:var(--b);margin:5mm 0 3mm;padding-bottom:1.5mm;border-bottom:2px solid var(--ln);display:flex;gap:3mm;align-items:baseline;flex-wrap:wrap;break-after:avoid}
+.lh>span:first-child{background:var(--p);color:#fff;border-radius:2mm;padding:0 2.5mm;font-size:10.5pt}
+.lh .jp{font-size:13pt;color:var(--t)}.lh small{font-weight:600}
+.lh.hard>span:first-child{background:#e8862e}
+/* từ vựng */
+.vg{display:grid;grid-template-columns:repeat(3,1fr);gap:3mm}
+.vc{position:relative;display:flex;gap:2.5mm;align-items:center;border:1px solid var(--ln);border-radius:3mm;padding:2mm;break-inside:avoid;background:#fff}
+.vc img,.vc .nop{width:19mm;height:19mm;object-fit:contain;border-radius:2mm;flex:0 0 19mm;background:#fafcfe}
+.vc .nop{background:repeating-linear-gradient(45deg,#f3f7fa 0 3mm,#fff 3mm 6mm)}
+.vt{min-width:0}.vw.lg{font-size:10pt;letter-spacing:-.03em}.vw{font-size:14.5pt;line-height:1.75}.vw rt{font-size:.48em}
+.hv{display:inline-block;font-size:7.6pt;font-weight:700;letter-spacing:.03em;color:var(--p);background:#fdebf2;border-radius:1.2mm;padding:0 1.6mm;line-height:1.6}
+.vm{font-size:9.6pt;font-weight:600;line-height:1.35;margin-top:.5mm}
+.vn{position:absolute;top:1mm;right:2mm;font-size:7.5pt;color:#9fb2c4;font-weight:700}
+table.tb{width:100%;border-collapse:collapse;font-size:10pt;break-inside:auto}
+.tb th{background:var(--bg);color:var(--b);font-weight:700;text-align:left;padding:1.8mm 2.5mm;border-bottom:2px solid var(--ln)}
+.tb td{padding:1.6mm 2.5mm;border-bottom:1px solid var(--ln);vertical-align:middle}
+.tb td.c{text-align:center;color:var(--mu);font-weight:700}
+.tb .hvc{font-size:8.6pt;font-weight:700;color:var(--p)}
+.tb.sm{font-size:9.3pt}.tb.sm td,.tb.sm th{padding:1.2mm 2mm}.tb .kk{font-size:15pt;text-align:center}
+/* chữ Hán */
+.kc{display:grid;grid-template-columns:42mm 1fr;gap:5mm;border:1px solid var(--ln);border-radius:4mm;padding:4mm;margin-bottom:4mm;break-inside:avoid}
+.kl{position:relative;text-align:center;background:var(--bg);border-radius:3mm;padding:4mm 2mm;align-self:start}
+.kno{position:absolute;top:1.5mm;left:2.5mm;font-size:8pt;font-weight:700;color:#9fb2c4}
+.kw{font-size:34pt;line-height:1.25;color:var(--t)}
+.kr{font-size:12pt;color:var(--b)}
+.khv{display:inline-block;margin:1mm 0;font-size:9pt;font-weight:700;color:#fff;background:var(--p);border-radius:1.5mm;padding:0 2mm}
+.km{font-weight:700;font-size:10.5pt}
+.tip{margin-top:2.5mm;background:#fff8e6;border-radius:2mm;padding:1.8mm 3mm;font-size:9.6pt;color:#6b4a00}
+.tip b{color:#8a5a00;margin-right:1mm}
+.kex{margin-top:2mm;border-left:3px solid var(--b);padding:.5mm 3mm}.kex .jp{display:block;font-size:12pt;line-height:1.9}.kex small{display:block}
+.strip{margin-top:2.5mm}.sh{font-size:9pt;font-weight:700;color:var(--mu);margin-bottom:1mm}.sh .jp{font-size:12pt;color:var(--t);margin-right:2mm}
+.sks{display:flex;flex-wrap:wrap;gap:1.2mm}
+svg.sk{border:1px solid #cfdbe6;border-radius:1mm;background:#fff}
+svg.sk path{fill:none;stroke-linecap:round;stroke-linejoin:round}
+svg.sk .gd{stroke:#e3ebf2;stroke-width:1;stroke-dasharray:3 3}
+svg.sk .old{stroke:#2b3a48;stroke-width:4.2}
+svg.sk .cur{stroke:#c42f66;stroke-width:5}
+svg.sk .nb{fill:#c42f66}svg.sk .nt{fill:#fff;font:700 9.5px Quicksand,sans-serif;text-anchor:middle;dominant-baseline:middle}
+/* tập viết */
+.wg{display:flex;flex-direction:column;gap:1.6mm}
+.wr{display:flex;align-items:center;gap:1.3mm}
+.wl{width:13mm;text-align:center;line-height:1.1}.wl b{font-size:13pt;display:block}.wl small{font-size:6.8pt;font-weight:700;color:var(--p)}
+.wc{width:15.2mm;height:15.2mm;border:1px solid #9fb2c4;position:relative;flex:0 0 15.2mm;background:#fff}
+.wc::before,.wc::after{content:"";position:absolute;background:none}
+.wc::before{left:50%;top:0;bottom:0;border-left:1px dashed #d4dee8}
+.wc::after{top:50%;left:0;right:0;border-top:1px dashed #d4dee8}
+.wc span{position:absolute;inset:0;display:grid;place-items:center;font-family:'Klee One',serif;font-weight:400;font-size:11.5mm;line-height:1;z-index:1}
+.wc.m span{color:#0d2b40}.wc.t span{color:#d3dbe3}
+/* ngữ pháp */
+.gp{border:1px solid var(--ln);border-radius:4mm;margin-bottom:4mm;overflow:hidden;break-inside:avoid}
+.gph{background:var(--b);color:#fff;padding:2.2mm 5mm;font-size:14pt;line-height:1.8}.gph rt{color:#d8ecfa}
+.gno{color:#ffd166;margin-right:2.5mm;font-weight:700}
+.gpm{padding:2mm 5mm 0;font-weight:700;color:var(--p);font-size:11pt}
+.gb{display:grid;grid-template-columns:1fr 1fr;gap:5mm;padding:2mm 5mm 4mm}
+.gb h4{margin:1mm 0 1.5mm;font-size:8.4pt;letter-spacing:.08em;text-transform:uppercase;color:var(--mu)}
+.gu ul{margin:0;padding-left:4.5mm}.gu li{margin:0 0 1.5mm;font-size:9.8pt}.gu li .jp,.gu li ruby{font-family:'Klee One',serif}
+.gnote{margin-top:2mm;background:var(--y);border-radius:2mm;padding:1.6mm 3mm;font-size:9.6pt}
+.ge .ex{border-left:3px solid #f2a93b;padding:.3mm 0 .3mm 3mm;margin-bottom:2.2mm}
+.ge .ex:nth-child(odd){border-color:#0d5a8c}
+.ge .ex .jp{font-size:11.6pt;line-height:1.95}.ge .ex small{display:block;line-height:1.4}
+.gn{background:#f6f9fc;border:1px dashed #b9cbdb;border-radius:4mm;padding:3mm 5mm;margin-bottom:4mm;break-inside:avoid}
+.gnh{font-size:10.5pt;margin-bottom:1mm}.gnh b{background:#5b6b7b;color:#fff;border-radius:1.5mm;padding:0 2mm;margin-right:1.5mm;font-size:8.5pt}
+.gn ul{margin:0;padding-left:5mm}.gn li{font-size:9.8pt;margin:.8mm 0}
+/* bài tập */
+.ph{font-size:11.5pt;color:var(--b);margin:6mm 0 1mm;break-after:avoid}
+.ins{font-size:9.4pt;color:var(--mu);margin-bottom:2mm;break-after:avoid}
+.ql{display:flex;flex-direction:column;gap:2.4mm}
+.q{break-inside:avoid;font-size:11pt;line-height:2}.q .jp{font-size:12pt}
+.qn{font-weight:700;color:var(--b);margin-right:1mm}
+.op{display:flex;flex-wrap:wrap;gap:1mm 7mm;padding-left:6mm;line-height:1.9}
+.op span{font-family:'Klee One',serif;font-weight:600;font-size:11.5pt}.op b{font-family:'Quicksand',sans-serif;color:var(--p);margin-right:1.2mm}
+.op.col{padding-left:0}.op.kj span{font-size:14pt}
+.pg{display:grid;grid-template-columns:1fr 1fr;gap:3mm 6mm}
+.pq{display:flex;gap:3mm;align-items:center;border:1px solid var(--ln);border-radius:3mm;padding:2mm;break-inside:avoid}
+.pq img{width:20mm;height:20mm;object-fit:contain}
+.pg.w{grid-template-columns:repeat(3,1fr)}
+.pw{border:1px solid var(--ln);border-radius:3mm;padding:2mm;display:grid;grid-template-columns:auto 1fr;grid-template-rows:auto auto;gap:1mm 2mm;align-items:end;break-inside:avoid}
+.pw img{grid-column:1/3;width:100%;height:24mm;object-fit:contain}.pw .ln{border-bottom:1px solid #9fb2c4;height:7mm}
+.bl{display:inline-block;min-width:15mm;border-bottom:1.4px solid #6f8aa0;margin:0 1mm;height:1.2em;vertical-align:-.2em}
+.bl.f{min-width:0;height:auto;border-bottom:1.4px solid var(--p);color:var(--p);padding:0 1.5mm;vertical-align:0}
+.wex{background:var(--bg);border-radius:2mm;padding:1.5mm 3mm;margin-bottom:2.5mm;font-size:10.5pt;line-height:2;break-after:avoid}
+.wex b{font-size:8.5pt;color:#fff;background:var(--b);border-radius:1.5mm;padding:0 2mm;margin-right:2mm}
+.wq{display:flex;gap:3mm;align-items:center}
+.ql.pics{display:grid;grid-template-columns:1fr 1fr;gap:3mm 6mm}
+.ql.pics .wq{border:1px solid var(--ln);border-radius:3mm;padding:2mm}
+.wq img{width:22mm;height:22mm;object-fit:contain;flex:0 0 22mm}
+/* đáp án */
+.ans .ph{margin-top:4mm}
+table.at{width:100%;border-collapse:collapse;font-size:9.4pt;margin-bottom:1mm}
+.at td{border-bottom:1px solid var(--ln);padding:1.1mm 2mm;vertical-align:top}
+.at .an{width:9mm;font-weight:700;color:var(--b)}.at .aa{width:24mm;font-weight:700;color:var(--p);font-size:10.5pt}
+.at td[colspan] {font-weight:600;color:var(--t)}
+.at .jp{font-size:10.5pt}
+.end{margin-top:8mm;text-align:center;font-weight:700;color:var(--b)}
