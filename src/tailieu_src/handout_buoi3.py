@@ -97,17 +97,17 @@ H.append(f'''<section class="cover"><img class="clogo" src="{LOGO}">
 <div class="lc"><b>第13課</b><div class="jp">{RB(T13['title'])}</div><small>{e(T13['title_vi'])}</small></div></div>
 <div class="toc"><h3>Nội dung</h3><ol>
 <li><b>Từ vựng</b> <span>{len(V)} từ của bài + {len(HARD)} từ khó hay gặp trong đề</span></li>
-<li><b>Chữ Hán</b> <span>{len(K)} từ · thứ tự nét · ô tập viết</span></li>
+<li><b>Chữ Hán</b> <span>{len(K)} từ · âm Hán Việt · On / Kun · cách nhớ · ví dụ</span></li>
 <li><b>Ngữ pháp</b> <span>{sum(1 for b in BAIS for p in GL[b]['points'] if p['no'] != '◆')} mẫu câu · cách dùng trợ từ に・で · bảng tổng hợp</span></li>
 <li><b>Bài tập luyện tập</b> <span>từ vựng · chữ Hán · ngữ pháp</span></li>
-<li><b>Đáp án</b> <span>có giải thích ngắn</span></li></ol></div>
+</ol></div>
 <div class="goal"><h3>Sau buổi học, em có thể</h3><ul>
 <li>Nói và hiểu thông báo sự kiện: <span class="jp">【日時】に【場所】で【イベント】があります</span></li>
 <li>Rủ bạn đi chơi, nhận lời hoặc từ chối: <span class="jp">〜ませんか・〜ましょう・〜に行きます</span></li>
 <li>Hỏi và trả lời về phương tiện, thời gian đi lại: <span class="jp">〜で来ます・〜かかります・〜から〜まで</span></li>
 <li>Đọc được từ tàu xe, ngày tháng hay gặp trong đề JFT</li></ul></div>
 <div class="who"><div>Họ tên: <i></i></div><div>Ngày học: <i></i></div></div>
-<div class="csrc">出典：いろどり 生活の日本語 入門、文法ノート いろどり（国際交流基金）· Nét viết: KanjiVG (CC BY-SA 3.0)<br>Bảng tổng hợp, cách nhớ, bài trắc nghiệm: Anh Trọng Dạy JFT soạn · Tài liệu dành cho học viên, vui lòng không đăng lại.</div></section>''')
+<div class="csrc">出典：いろどり 生活の日本語 入門、文法ノート いろどり（国際交流基金）<br>Bảng tổng hợp, cách nhớ, bài trắc nghiệm: Anh Trọng Dạy JFT soạn · Tài liệu dành cho học viên, vui lòng không đăng lại.</div></section>''')
 
 # --- 1. Từ vựng ---
 H.append('<section>')
@@ -128,13 +128,13 @@ H.append('</table></section>')
 
 # --- 2. Chữ Hán ---
 H.append('<section>')
-sec('02', 'Chữ Hán', 'かんじ', 'Âm Hán Việt · cách đọc · âm On / Kun · cách nhớ · ví dụ · thứ tự nét')
+sec('02', 'Chữ Hán', 'かんじ', 'Âm Hán Việt · cách đọc · âm On / Kun · cách nhớ · ví dụ')
 seen = set()
 for i, k in enumerate(K, 1):
     rows = ''.join(f'<tr><td class="jp kk">{e(c["k"])}</td><td class="hvc">{e(c["hv"])}</td><td class="jp">{e(c.get("on") or "–")}</td><td class="jp">{e(c.get("kun") or "–")}</td><td>{e(c.get("vi") or "")}</td></tr>' for c in k['chars'])
     tip = re.sub(r'^\s*(Mẹo nhớ|Mẹo|Ghi nhớ)\s*:\s*', '', k.get('tip') or '')
     ex = k.get('ex') or {}
-    strips = ''.join(stroke_strip(c) for c in dict.fromkeys(ch for ch in k['w'] if ch in KVG) if c not in seen)
+    strips = ''  # bỏ thứ tự nét (22/11)
     for ch in k['w']: seen.add(ch)
     H.append(f'''<div class="kc"><div class="kl"><span class="kno">{i}</span><div class="kw jp" style="font-size:{ {1: 34, 2: 34, 3: 27, 4: 22}.get(len(k['w']), 20)}pt">{e(k["w"])}</div><div class="kr jp">{e(k["r"])}</div><div class="khv">{e(k["hv"])}</div><div class="km">{e(k["vi"])}</div></div>
 <div class="kr2"><table class="tb sm"><tr><th>Chữ</th><th>Hán Việt</th><th>Âm On</th><th>Âm Kun</th><th>Nghĩa</th></tr>{rows}</table>
@@ -142,16 +142,6 @@ for i, k in enumerate(K, 1):
 {f'<div class="kex"><span class="jp">{ex["jp"]}</span><small>{e(ex.get("vi", ""))}</small></div>' if ex.get('jp') else ''}
 {strips}</div></div>''')
 H.append('</section>')
-# ô tập viết
-CH = list(dict.fromkeys(c for k in K for c in k['w'] if c in KVG))
-H.append('<section class="wp">')
-H.append('<h2 class="lh"><span>Tập viết chữ Hán</span> <small>Ô đầu: chữ mẫu · 3 ô xám: tô theo · các ô sau: tự viết</small></h2><div class="wg">')
-for c in CH:
-    hv = next((x['hv'] for k in K for x in k['chars'] if x['k'] == c), '')
-    cells = f'<div class="wc m"><span>{c}</span></div>' + ''.join(f'<div class="wc t"><span>{c}</span></div>' for _ in range(3)) + '<div class="wc"></div>' * 6
-    H.append(f'<div class="wr"><div class="wl"><b class="jp">{c}</b><small>{e(hv)}</small></div>{cells}</div>')
-H.append('</div></section>')
-
 # --- 3. Ngữ pháp ---
 H.append('<section>')
 sec('03', 'Ngữ pháp', 'ぶんぽう', 'Mẫu câu · nghĩa · cách dùng · ví dụ (文法ノート いろどり)')
@@ -179,7 +169,7 @@ H.append('<div class="keep"><h2 class="lh"><span>Bảng tổng hợp</span> <sma
 
 # --- 4. Bài tập ---
 H.append('<section>')
-sec('04', 'Bài tập luyện tập', 'れんしゅう', 'Làm xong rồi mới xem Đáp án ở cuối tài liệu.')
+sec('04', 'Bài tập luyện tập', 'れんしゅう', 'Làm bài trước buổi học sau, mang lên lớp để chữa.')
 def qopts(opts, cls=''):
     return f'<div class="op{cls}">' + ''.join(f'<span><b>{ABC[i]}</b> {o}</span>' for i, o in enumerate(opts)) + '</div>'
 NQ = [0]
@@ -189,7 +179,7 @@ def part(title, ins):
 # A1 – nhìn tranh chọn cách đọc
 A = []
 part('A1. Nhìn tranh, chọn cách đọc đúng', 'Khoanh tròn a, b, c hoặc d.')
-pick = ['電車', '地下鉄', '飛行機', '自転車', '焼肉', '映画', '夏祭り', '忘年会']
+pick = ['電車', '飛行機', '自転車', '焼肉', '映画', '忘年会']
 H.append('<div class="pg">')
 for i, w in enumerate(pick):
     x = next(v for v in V if v['w'] == w); NQ[0] += 1
@@ -200,27 +190,17 @@ H.append('</div>')
 ANS.append(('A1. Nhìn tranh, chọn cách đọc', A)); A = []
 # A2 – nhìn tranh viết từ
 part('A2. Nhìn tranh, viết từ tiếng Nhật', 'Viết bằng chữ katakana / hiragana.')
-H.append('<div class="pg w">')
-for w in ['バス', 'タクシー', 'バイク', 'ハイキング', '船', '車']:
+H.append('<div class="pg w w4">')
+for w in ['バス', 'タクシー', '船', '車']:
     x = next(v for v in V if v['w'] == w); NQ[0] += 1
     H.append(f'<div class="pw"><img src="{img("app/media/doc/" + x["img"])}"><div class="qn">{NQ[0]}.</div><div class="ln"></div></div>')
     A.append((NQ[0], w + (f'（{x["r"]}）' if x.get('r') else ''), x['vi']))
 H.append('</div>')
 ANS.append(('A2. Nhìn tranh, viết từ', A)); A = []
-# A3 – từ khó
-part('A3. Từ hay gặp trong đề — chọn cách đọc đúng', '')
-H.append('<div class="ql">')
-for i, (w, r, wr, vi) in enumerate(HARDQ):
-    NQ[0] += 1; opts, a = place(r, wr, i + 2)
-    H.append(f'<div class="q"><span class="qn">{NQ[0]}.</span> <span class="jp big">{e(w)}</span>{qopts([e(o) for o in opts])}</div>')
-    A.append((NQ[0], ABC[a], f'{w}（{r}）– {vi}'))
-H.append('</div>')
-ANS.append(('A3. Từ hay gặp trong đề', A)); A = []
-
 # B1 – đọc chữ Hán gạch chân
 part('B1. Chọn cách đọc đúng của từ gạch chân', '')
 H.append('<div class="ql">')
-for i, k in enumerate(K):
+for i, k in enumerate(k for k in K if k['w'] in ('今週', '来週', '休み', '予定', '南')):
     NQ[0] += 1
     s = underline(k['ex']['jp'], k['w']) or f'<u>{e(k["w"])}</u>'
     opts, a = place(k['r'], k['rd'][:3], i)
@@ -231,7 +211,7 @@ ANS.append(('B1. Cách đọc chữ Hán', A)); A = []
 # B2 – chọn chữ Hán
 part('B2. Chọn chữ Hán đúng cho từ gạch chân', '')
 H.append('<div class="ql">')
-for i, k in enumerate(K):
+for i, k in enumerate(k for k in K if k['w'] in ('今度', '東', '会社', '行きます', '乗ります')):
     NQ[0] += 1
     s = underline(k['ex']['jp'], k['w'], e(k['r'])) or f'<u>{e(k["r"])}</u>'
     opts, a = place(k['w'], k['wk'][:3], i + 2)
@@ -241,12 +221,12 @@ H.append('</div>')
 ANS.append(('B2. Chọn chữ Hán', A)); A = []
 
 # C1 – trắc nghiệm ngữ pháp (câu 2, 3 của mỗi mẫu; câu 1 đã làm trên lớp)
-part('C1. Chọn đáp án đúng điền vào （　）', 'Mỗi mẫu ngữ pháp 2 câu.')
+part('C1. Chọn đáp án đúng điền vào （　）', 'Mỗi mẫu ngữ pháp 1 câu.')
 H.append('<div class="ql">')
 j = 0
 for b in BAIS:
     for p in GL[b]['points']:
-        for q in (p.get('quiz') or [])[1:3]:
+        for q in (p.get('quiz') or [])[1:2]:
             NQ[0] += 1; j += 1
             right = q['o'][q['a']]; wrong = [o for t, o in enumerate(q['o']) if t != q['a']]
             opts, a = place(right, wrong, j)
@@ -299,25 +279,27 @@ def wsblock(title, w, hint='', pics=False, items=None):
     H.append('</div>')
     return out
 
-ANS.append(('C2. Điền trợ từ に・で', wsblock('C2. Điền trợ từ に hoặc で', ws(12, '❶', '整理'), '（に・で）')))
-ANS.append(('C3. Điền trợ từ – ngày giờ, nơi chốn, sự kiện', wsblock('C3. Điền trợ từ: ngày giờ, nơi chốn, sự kiện', ws(12, '❶', '練習'), '（に・で・が・×）')))
+w = ws(12, '❶', '整理')
+ANS.append(('C2. Điền trợ từ に・で', wsblock('C2. Điền trợ từ に hoặc で', w, '（に・で）', items=w['items'][:4])))
 w = ws(13, '❺', '練習')
-ANS.append(('C4. Lên xe, xuống xe', wsblock('C4. Điền trợ từ: lên xe, xuống xe, chuyển tàu', w, '（で・に・を）', items=w['items'][:4])))
-ANS.append(('C5. Rủ rê 〜ませんか', wsblock('C5. Đổi sang câu rủ rê 「〜ませんか？」', ws(12, '❸', '練習'))))
-ANS.append(('C6. Rủ đi làm gì 〜に行きませんか', wsblock('C6. Nhìn tranh, rủ bạn đi làm việc đó 「V に行きませんか？」', ws(12, '❺', '練習'), pics=True)))
-ANS.append(('C7. Phương tiện 〜で来ます', wsblock('C7. Nhìn tranh, trả lời bằng phương tiện 「〜で来ます／行きます」', ws(13, '❸', '練習'), pics=True)))
-ANS.append(('C8. から〜まで', wsblock('C8. Tạo hội thoại 「〜から〜まで」', ws(13, '❻', '練習'))))
-H.append('</section>')
-
-# --- 5. Đáp án ---
-H.append('<section class="ans">')
-sec('05', 'Đáp án', 'こたえ', 'Câu trắc nghiệm có giải thích ngắn. Câu tự viết: đáp án gợi ý, viết cách khác đúng ngữ pháp vẫn được.')
-for t, items in ANS:
-    H.append(f'<h3 class="ph">{t}</h3><table class="at">')
-    for n, a, x in items:
-        H.append(f'<tr><td class="an">{n}</td><td class="aa">{a}</td><td>{x}</td></tr>' if x else f'<tr><td class="an">{n}</td><td class="aa" colspan="2">{a}</td></tr>')
-    H.append('</table>')
+ANS.append(('C3. Lên xe, xuống xe', wsblock('C3. Điền trợ từ: lên xe, xuống xe, chuyển tàu', w, '（で・に・を）', items=[w['items'][1], w['items'][3]])))
+w = ws(12, '❺', '練習')
+ANS.append(('C4. Rủ đi làm gì 〜に行きませんか', wsblock('C4. Nhìn tranh, rủ bạn đi làm việc đó 「V に行きませんか？」', w, pics=True, items=w['items'][:4])))
+w = ws(13, '❸', '練習')
+ANS.append(('C5. Phương tiện 〜で来ます', wsblock('C5. Nhìn tranh, trả lời bằng phương tiện 「〜で来ます／行きます」', w, pics=True, items=w['items'][:4])))
 H.append('<div class="end">Chúc các em học tốt! · Anh Trọng Dạy JFT · Facebook: anh.trongg.2024 · TikTok: @anhtrong.daygino</div></section>')
+
+# --- 5. Đáp án (22/11: anh bảo bỏ, giữ code để bật lại bằng SHOW_ANS = True) ---
+SHOW_ANS = False
+if SHOW_ANS: H.append('<section class="ans">')
+if SHOW_ANS:
+    sec('05', 'Đáp án', 'こたえ', 'Câu trắc nghiệm có giải thích ngắn. Câu tự viết: đáp án gợi ý, viết cách khác đúng ngữ pháp vẫn được.')
+    for t, items in ANS:
+        H.append(f'<h3 class="ph">{t}</h3><table class="at">')
+        for n, a, x in items:
+            H.append(f'<tr><td class="an">{n}</td><td class="aa">{a}</td><td>{x}</td></tr>' if x else f'<tr><td class="an">{n}</td><td class="aa" colspan="2">{a}</td></tr>')
+        H.append('</table>')
+    H.append('<div class="end">Chúc các em học tốt! · Anh Trọng Dạy JFT · Facebook: anh.trongg.2024 · TikTok: @anhtrong.daygino</div></section>')
 
 CSS = open(R + 'src/tailieu_src/handout.css').read()
 fonts = ''.join(f'<link rel="stylesheet" href="file://{FS}{f}">' for f in ['klee-one/400.css', 'klee-one/600.css', 'quicksand/500.css', 'quicksand/600.css', 'quicksand/700.css'])

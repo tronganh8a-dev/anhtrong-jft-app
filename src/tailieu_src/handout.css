@@ -109,7 +109,7 @@ svg.sk .nb{fill:#c42f66}svg.sk .nt{fill:#fff;font:700 9.5px Quicksand,sans-serif
 .pg{display:grid;grid-template-columns:1fr 1fr;gap:3mm 6mm}
 .pq{display:flex;gap:3mm;align-items:center;border:1px solid var(--ln);border-radius:3mm;padding:2mm;break-inside:avoid}
 .pq img{width:20mm;height:20mm;object-fit:contain}
-.pg.w{grid-template-columns:repeat(3,1fr)}
+.pg.w{grid-template-columns:repeat(3,1fr)}.pg.w.w4{grid-template-columns:repeat(4,1fr)}
 .pw{border:1px solid var(--ln);border-radius:3mm;padding:2mm;display:grid;grid-template-columns:auto 1fr;grid-template-rows:auto auto;gap:1mm 2mm;align-items:end;break-inside:avoid}
 .pw img{grid-column:1/3;width:100%;height:24mm;object-fit:contain}.pw .ln{border-bottom:1px solid #9fb2c4;height:7mm}
 .bl{display:inline-block;min-width:15mm;border-bottom:1.4px solid #6f8aa0;margin:0 1mm;height:1.2em;vertical-align:-.2em}
