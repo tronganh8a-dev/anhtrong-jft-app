@@ -164,7 +164,7 @@ new MutationObserver(()=>{if(!busy&&!q){q=true;requestAnimationFrame(apply)}}).o
 apply()})();</script>'''.replace('__PANEL__', PANEL).replace('<script>(()=>{', '<script>window.DOPEN=' + json.dumps(DOPEN, ensure_ascii=False, separators=(',', ':')) + ';(()=>{', 1)
 reps = [("$('#logout').onclick=()=>{location.href='/logout'};", "$('#logout').style.display='none';"),
         # 21/11: anh bảo xoá khung vàng "BẢN DÙNG THỬ", thay bằng dòng liên hệ sensei (Facebook + TikTok)
-        ('<main>', f'<main><div class="dct"><b>Liên hệ sensei</b><a class="fb" href="{FB}" target="_blank" rel="noopener">Facebook</a><a class="tt" href="{TT}" target="_blank" rel="noopener">TikTok @anhtrong.daygino</a></div>'),
+        ('<main>', f'<main><div class="dct ic"><a class="fb" href="{FB}" target="_blank" rel="noopener" title="Facebook"><svg viewBox="0 0 24 24"><path d="M13.5 21v-7.5h2.6l.4-3h-3V8.6c0-.9.3-1.5 1.5-1.5h1.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.8 1.4-3.8 3.9v2.3H7.9v3h2.6V21z"/></svg></a><a class="tt" href="{TT}" target="_blank" rel="noopener" title="TikTok"><svg viewBox="0 0 24 24"><path d="M16.6 3h-3.1v12.2a2.7 2.7 0 1 1-2.7-2.7c.3 0 .6 0 .8.1V9.4a5.8 5.8 0 1 0 5 5.8V9a7.3 7.3 0 0 0 4.3 1.4V7.3A4.3 4.3 0 0 1 16.6 3z"/></svg></a></div>'),
         ('<title>', '<title>Dùng thử · '),
         ('</head>', LOCK_CSS + '</head>'),
         ('</body>', LOCK_JS + '</body>'),
@@ -201,7 +201,9 @@ DHV_CSS = """<style>
 .dlock .dpr{display:inline-block;background:#fff4c2;border:1.5px solid #e3b04b;color:#8a1440;border-radius:12px;padding:7px 14px;font-weight:800;margin:0 0 14px}
 @media(max-width:640px){.dad{padding:14px 16px}.dadt b{font-size:1.25rem}.dad a{width:100%;text-align:center}}
 .dct{display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;background:#fff;border:1px solid #e3e9f0;border-radius:14px;padding:10px 14px;margin:0 0 14px;font-size:14px}
-.dct b{color:#0d2b40;margin-right:2px}.dct a{border-radius:10px;padding:7px 12px;font-weight:800;text-decoration:none;color:#fff;background:#1877f2}.dct a.tt{background:#111}
+.dct b{color:#0d2b40;margin-right:2px}
+.dct.ic{float:right;background:none;border:0;padding:0;margin:4px 0 0 12px;gap:8px;position:relative;z-index:2}
+.dct.ic{display:flex;align-items:center}.dct.ic a{width:36px;height:36px;padding:0!important;margin:0!important;position:static!important;border-radius:50%;display:grid;place-items:center;box-shadow:0 3px 10px #0d2b4026}.dct.ic svg{width:20px;height:20px;fill:#fff}.dct.ic a:hover{transform:translateY(-1px)}.dct a{border-radius:10px;padding:7px 12px;font-weight:800;text-decoration:none;color:#fff;background:#1877f2}.dct a.tt{background:#111}
 .dhv{margin:22px 0 6px}.dhvw{display:grid;grid-template-columns:minmax(0,300px) 1fr;gap:18px;align-items:start}
 .dhvw video{width:100%;aspect-ratio:9/16;background:#000;border-radius:16px;display:block;box-shadow:0 8px 24px #0d2b4022}
 .dhvt b{display:block;font-size:1.15rem;color:#0d2b40}.dhvt span{display:block;color:var(--muted);font-weight:600;margin-top:4px}
@@ -225,6 +227,22 @@ DHV_CSS += """<style>
 .drvp i{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:62px;height:62px;border-radius:50%;background:#c42f66e6;color:#fff;font-style:normal;font-size:24px;display:grid;place-items:center;box-shadow:0 6px 18px #0006}
 .drvi b{display:block;padding:10px 14px 12px;color:#0d2b40;font-size:15px}.drvi small{display:inline-block;background:#fdeaf1;color:#c42f66;border-radius:8px;padding:1px 8px;margin-right:8px;font-size:12px}
 @media(max-width:640px){.drvg{grid-template-columns:1fr}}
+/* 23/11: nhóm Làm thử miễn phí = ô icon nhỏ, bỏ chữ giải thích */
+.exg.free{display:grid!important;grid-template-columns:repeat(6,minmax(0,1fr))!important;gap:12px!important;margin-bottom:20px}
+.exg.free .exb{min-height:0!important;height:auto!important;padding:14px 6px 12px!important;display:flex!important;flex-direction:column;align-items:center;justify-content:flex-start;gap:9px;background:#fff!important;border:1px solid #e3e9f0!important;border-radius:18px!important;box-shadow:0 4px 14px #0d2b4010!important;text-align:center}
+.exg.free .exb::before,.exg.free .exb::after{display:none!important}
+.exg.free .exb:hover{transform:translateY(-2px);box-shadow:0 10px 22px #0d2b4024!important;border-color:#c42f66!important}
+.exg.free .exb>.k,.exg.free .exb>.sub,.exg.free .exb>.go,.exg.free .exb>.ntag{display:none!important}
+.exg.free .num{position:static!important;margin:0!important;width:62px;height:62px;border-radius:18px;display:grid!important;place-items:center;color:#fff!important;background:linear-gradient(135deg,#c42f66,#0d5a8c);box-shadow:0 6px 14px #c42f6640;line-height:1!important;font-size:inherit!important}
+.exg.free .num b{font-size:30px;font-weight:800;font-family:inherit;color:#fff}
+.exg.free .num em{font-style:normal;font-size:13px;line-height:1;margin-bottom:-14px}
+.exg.free .fr-ln .num{background:linear-gradient(135deg,#1f9e8f,#0d5a8c);box-shadow:0 6px 14px #1f9e8f40;grid-template-rows:auto auto;align-content:center;gap:2px}
+.exg.free .fr-ln .num em{margin:0}.exg.free .fr-ln .num b{font-size:22px}
+.exg.free .fr-rv .num{background:linear-gradient(135deg,#f0a030,#c42f66);box-shadow:0 6px 14px #f0a03040}
+.exg.free .fr-rv .num b{font-size:26px;font-family:'Klee One',serif}
+.exg.free .fl{font-size:13.5px;font-weight:800;color:#0d2b40;line-height:1.25}
+.exg.free .exb>*:not(.num):not(.fl){display:none!important}
+@media(max-width:760px){.exg.free{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:8px!important}.exg.free .num{width:50px;height:50px;border-radius:15px}.exg.free .num b{font-size:24px}.exg.free .exb{padding:10px 4px 9px!important;gap:6px}.exg.free .fl{font-size:12px}}
 </style>"""
 SACH = [('ChuHan', 'Chữ Hán', '漢字'), ('TuVung', 'Từ vựng', '言葉'), ('NguPhap', 'Ngữ pháp', '文法')]
 SACH_HTML = ('<div id="dSach" class="dsc"><span class="dsch">⬇ Tải sách PDF</span>' + ''.join(
@@ -238,7 +256,7 @@ DHV_CSS += """<style>
 @media(max-width:640px){.dsc{justify-content:flex-start}.dsch{width:100%}}
 </style>"""
 s = s.replace('</head>', DHV_CSS + '</head>', 1)
-s = s.replace('</body>', "<script>(()=>{const H=" + json.dumps(DHV_HTML, ensure_ascii=False) + ";const AD=" + json.dumps(AD_HTML, ensure_ascii=False) + ";const SC=" + json.dumps(SACH_HTML, ensure_ascii=False) + ";const put=()=>{const g=document.querySelector('#examList .exg');if(g&&!document.getElementById('dAd')){const h=g.previousElementSibling;(h&&/exgh|h2/.test(h.className)?h:g).insertAdjacentHTML('beforebegin',AD)};const a=document.getElementById('dAd');if(a&&!document.getElementById('dSach'))a.insertAdjacentHTML('beforebegin',SC);const sc=document.getElementById('dSach');if(sc&&!document.getElementById('dhVid'))sc.insertAdjacentHTML('afterend',H)};"
+s = s.replace('</body>', "<script>(()=>{const H=" + json.dumps(DHV_HTML, ensure_ascii=False) + ";const AD=" + json.dumps(AD_HTML, ensure_ascii=False) + ";const SC=" + json.dumps(SACH_HTML, ensure_ascii=False) + ";const put=()=>{const g=document.querySelector('#examList .exg');if(!g)return;if(!g.classList.contains('free')){g.classList.add('free');g.querySelectorAll('.exb').forEach(b=>{const l=b.getAttribute('aria-label')||'',n=(l.match(/\\d+/)||[''])[0],m=b.querySelector('.num');const t=/nghe/.test(l)?'ln':b.classList.contains('rv')?'rv':'mk';b.classList.add('fr-'+t);if(m)m.innerHTML=t==='rv'?'<b>語</b>':(t==='ln'?'<em>🎧</em>':'')+'<b>'+n+'</b>';const c=document.createElement('span');c.className='fl';c.textContent=t==='rv'?'Từ vựng · Hán tự':t==='ln'?'Đề nghe '+n:'Đề '+n;b.appendChild(c)})}const h=g.previousElementSibling&&/exgh/.test(g.previousElementSibling.className)?g.previousElementSibling:g;if(!document.getElementById('dSach'))h.insertAdjacentHTML('beforebegin',SC);if(!document.getElementById('dhVid'))g.insertAdjacentHTML('afterend',H);const v=document.getElementById('dhVid');if(v&&!document.getElementById('dAd'))v.insertAdjacentHTML('afterend',AD)};"
               "const re=window.renderExams;if(typeof re==='function')window.renderExams=function(){const r=re.apply(this,arguments);put();return r};put()})()</script>\n</body>", 1)
 # 21/11: tab "Học Gino" — link bản dùng thử của 5 ngành (tên worker lấy theo check-runs: gino-khachsan-trial, gino-vesinhtoanha-trial, gino-cbtp-app/trial, gino-xaydung/trial, gino-butsuryu-app/trial)
 GINO = [('Khách sạn', '宿泊', 'https://gino-khachsan-trial.tronganh8a.workers.dev/', '#0d7d4d', 'ks.jpg'),
