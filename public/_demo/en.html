@@ -874,6 +874,12 @@ body.nlock{overflow:hidden}
 .dhvt b{display:block;font-size:1.15rem;color:#0d2b40}.dhvt span{display:block;color:var(--muted);font-weight:600;margin-top:4px}
 @media(max-width:640px){.dhvw{grid-template-columns:1fr}.dhvw video{max-width:420px;margin:0 auto}}
 </style><style>
+.dsc{margin:22px 0 6px}.dscg{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;max-width:640px}
+.dsci{display:flex;flex-direction:column;align-items:center;gap:8px;text-decoration:none;background:#fff;border:1px solid #e3e9f0;border-radius:16px;padding:12px 10px 14px;box-shadow:0 6px 18px #0d2b4012}
+.dsci img{width:100%;aspect-ratio:210/297;object-fit:cover;border-radius:8px;box-shadow:0 4px 12px #0d2b4026}
+.dsci b{color:#0d2b40;font-size:15px}.dsci span{background:#c42f66;color:#fff;font-weight:800;font-size:13px;border-radius:10px;padding:7px 12px;white-space:nowrap}
+@media(max-width:640px){.dscg{gap:8px}.dsci{padding:8px 6px 10px}.dsci span{font-size:12px;padding:6px 8px}}
+</style><style>
 .gnl{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;margin-top:6px}
 .gnc{display:flex;gap:14px;align-items:center;background:#fff;border:1px solid #e3e9f0;border-left:6px solid var(--gc);border-radius:16px;padding:12px 14px;text-decoration:none;color:#0d2b40;box-shadow:0 4px 14px #0d2b400d}
 .gnc img{width:72px;height:96px;object-fit:cover;border-radius:6px;box-shadow:0 3px 10px #0d2b4026;flex:none;background:#fff}
@@ -890,7 +896,7 @@ body.nlock{overflow:hidden}
 @media(max-width:640px){.gvc{grid-template-columns:1fr}.gvc>img{width:150px;height:200px}}
 </style><style>
 /* bản tiếng Anh: chỉ có Làm đề */
-.side .nav:not([data-go="exam"]),.side .grow~*,#aiFab,#aiBox,#penFab,#penBar,#soP{display:none!important}
+.side .nav:not([data-go="exam"]),.side .grow~*,#aiFab,#aiBox,#penFab,#penBar,#soP,#dSach{display:none!important}
 @media(max-width:900px){.side{display:none!important}}
 </style></head>
 <body>
@@ -1958,6 +1964,6 @@ function apply(){q=false;busy=true;try{const O=window.DOPEN,has=(m,k,v)=>(m[k]||
 new MutationObserver(()=>{if(!busy&&!q){q=true;requestAnimationFrame(apply)}}).observe(document.querySelector('main'),{childList:true,subtree:true});
 apply()})();</script><script>try{go('exam')}catch(e){}</script>
 <script>try{setFuri(true)}catch(e){document.body.classList.remove('nofuri')}</script>
-<script>(()=>{const H="";const AD="<div id=\"dAd\" class=\"dad\"><div class=\"dadt\"><small>Full JFT-Basic test pack</small><b>Get every mock test for <em>¥5,000</em></b><span>28 mock tests + 4 listening tests · 1,800+ questions with answers and explanations</span></div><a href=\"https://www.facebook.com/anh.trongg.2024/\" target=\"_blank\" rel=\"noopener\">💬 Message to buy</a></div>";const put=()=>{const g=document.querySelector('#examList .exg');if(g&&!document.getElementById('dhVid'))g.insertAdjacentHTML('afterend',H);if(g&&!document.getElementById('dAd')){const h=g.previousElementSibling;(h&&/exgh|h2/.test(h.className)?h:g).insertAdjacentHTML('beforebegin',AD)}};const re=window.renderExams;if(typeof re==='function')window.renderExams=function(){const r=re.apply(this,arguments);put();return r};put()})()</script>
+<script>(()=>{const H="";const AD="<div id=\"dAd\" class=\"dad\"><div class=\"dadt\"><small>Full JFT-Basic test pack</small><b>Get every mock test for <em>¥5,000</em></b><span>28 mock tests + 4 listening tests · 1,800+ questions with answers and explanations</span></div><a href=\"https://www.facebook.com/anh.trongg.2024/\" target=\"_blank\" rel=\"noopener\">💬 Message to buy</a></div>";const SC="<div id=\"dSach\" class=\"dsc\"><div class=\"h2 exgh\">Sách いろどり · tải miễn phí</div><div class=\"dscg\"><a class=\"dsci\" href=\"/app/media/sach/ChuHan_Irodori_DungThu.pdf\" download=\"ChuHan_Irodori_DungThu.pdf\"><img src=\"/app/media/sach/ChuHan.jpg\" alt=\"\" loading=\"lazy\"><b>Chữ Hán</b><span>⬇ Tải PDF</span></a><a class=\"dsci\" href=\"/app/media/sach/TuVung_Irodori_DungThu.pdf\" download=\"TuVung_Irodori_DungThu.pdf\"><img src=\"/app/media/sach/TuVung.jpg\" alt=\"\" loading=\"lazy\"><b>Từ vựng</b><span>⬇ Tải PDF</span></a><a class=\"dsci\" href=\"/app/media/sach/NguPhap_Irodori_DungThu.pdf\" download=\"NguPhap_Irodori_DungThu.pdf\"><img src=\"/app/media/sach/NguPhap.jpg\" alt=\"\" loading=\"lazy\"><b>Ngữ pháp</b><span>⬇ Tải PDF</span></a></div></div>";const put=()=>{const g=document.querySelector('#examList .exg');if(g&&!document.getElementById('dhVid'))g.insertAdjacentHTML('afterend',H);const v=document.getElementById('dhVid');if(v&&!document.getElementById('dSach'))v.insertAdjacentHTML('afterend',SC);if(g&&!document.getElementById('dAd')){const h=g.previousElementSibling;(h&&/exgh|h2/.test(h.className)?h:g).insertAdjacentHTML('beforebegin',AD)}};const re=window.renderExams;if(typeof re==='function')window.renderExams=function(){const r=re.apply(this,arguments);put();return r};put()})()</script>
 </body>
 </html>

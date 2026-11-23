@@ -156,7 +156,7 @@ UI = [  # (chuỗi tiếng Việt trong trang dùng thử, tiếng Anh) — ch�
 ]
 EN_CSS = '''<style>
 /* bản tiếng Anh: chỉ có Làm đề */
-.side .nav:not([data-go="exam"]),.side .grow~*,#aiFab,#aiBox,#penFab,#penBar,#soP{display:none!important}
+.side .nav:not([data-go="exam"]),.side .grow~*,#aiFab,#aiBox,#penFab,#penBar,#soP,#dSach{display:none!important}
 @media(max-width:900px){.side{display:none!important}}
 </style>'''
 
