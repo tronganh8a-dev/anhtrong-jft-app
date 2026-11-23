@@ -51,6 +51,14 @@ NEX = sum(1 for i in OPEN_EX if i in _by)
 for e in E[:NEX]:
     e['group'] = 'Luyện đề'
     if e['id'] in ('jft-ln1', 'jft-ln2'): e['name'] = 'nghe ' + e['id'][-1]   # thẻ hiện "Đề nghe 1/2" (không bị đọc thành "Đề 1/2")
+# 23/11: Đề 2, Đề 3 (jft-y4, jft-y5) chỉ cho làm tới hết phần Nghe; phần Đọc hiểu gỡ nội dung, thay chỗ giữ lock:1 → bấm vào hiện popup "nhắn tin sensei"
+LOCK_READ = {'jft-y4', 'jft-y5'}
+for e in E[:NEX]:
+    if e['id'] in LOCK_READ:
+        for q in e['qs']:   # ảnh bài đọc vẫn mở cho bản tiếng Anh (/en giữ đủ phần đọc)
+            if q.get('s') == '読解':
+                for im in (q.get('imgs') or []) + [q.get('img'), q.get('gimg')]: allow(im if isinstance(im, str) else None)
+        e['qs'] = [q if q.get('s') != '読解' else {'s': '読解', 'lock': 1, 't': '', 'o': [{'t': ''}]} for q in e['qs']]
 save('exams.js', 'EXAMS', [e if i < NEX else {**{k: v for k, v in e.items() if k != 'qs'}, 'qs': [], 'nq': len(e['qs'])} for i, e in enumerate(E)], 'window.EXTLINKS=[];')
 # Ngữ pháp (文法ノート): mỗi cấp mở 1/3 số bài đầu
 G = json.loads(load('grammar.js'))
@@ -182,15 +190,26 @@ s = s.replace("store.get('jftVid')", "store.get('jftVidT')").replace("store.set(
 _o = 'const others=VOCAB.words.filter(x=>x!==tw&&'; assert _o in s; s = s.replace(_o, 'const others=VOCAB.words.filter(x=>!x.lock&&x!==tw&&')
 # 19/11: anh yêu cầu bỏ popup quảng cáo ở bản dùng thử; mở link là vào thẳng màn Làm đề (thanh tab ở dưới)
 s = s.replace('</body>', "<script>try{go('exam')}catch(e){}</script>\n</body>", 1)
+
 # 21/11: bản dùng thử bỏ nút bật/tắt furigana — luôn hiện furigana
 s = s.replace('</head>', '<style>#furiTg{display:none!important}</style></head>', 1)
 s = s.replace('</body>', "<script>try{setFuri(true)}catch(e){document.body.classList.remove('nofuri')}</script>\n</body>", 1)
 # 21/11: bỏ chọn "Thi thử như thật" — bấm đề là vào thẳng Luyện tập (chọn câu nào hiện đáp án + giải thích câu đó; có bài dở thì làm tiếp)
 _m = "$('#exMode').classList.add('on')});"; assert s.count(_m) == 1; s = s.replace(_m, "startExam(exPick,'practice',dgGet(x.id,true))});")
 # 22/11: anh thêm quảng cáo "Mua trọn đề thi 5 sen" — khung đầu tab Làm đề (trước nhóm Làm thử miễn phí) + dòng giá trong popup khoá
-AD_HTML = (f'<div id="dAd" class="dad"><div class="dadt"><small>Trọn bộ đề thi JFT-Basic</small><b>Mua trọn đề thi chỉ <em>5 sen</em></b>'
-           '<span>28 đề thi thử + 4 đề luyện nghe · hơn 1.800 câu · đủ đáp án, dịch và giải thích từng câu</span></div>'
-           f'<a href="{FB}" target="_blank" rel="noopener">💬 Nhắn tin mua đề</a></div>')
+AD_HTML = (f'<div id="dAd" class="dad"><div class="dadt"><b>Học toàn bộ bộ đề và video bài giảng</b></div>'   # 23/11: anh bảo quảng cáo ít chữ
+           f'<a href="{FB}" target="_blank" rel="noopener">💬 Nhắn tin sensei</a></div>')
+# 23/11: popup khi bấm vào phần Đọc hiểu đang khoá của Đề 2, Đề 3
+RL_HTML = (f'<div id="dRead"><div class="dlock"><button class="x" type="button" aria-label="Đóng">×</button><div class="ic">🔒</div>'
+           '<b>Phần Đọc hiểu đang khoá</b><p>Bản dùng thử cho làm tới hết phần Nghe. Nhắn tin sensei để học tiếp toàn bộ bộ đề và video bài giảng.</p>'
+           f'<div class="cta"><a href="{FB}" target="_blank" rel="noopener">💬 Nhắn tin sensei</a></div></div></div>')
+RL_JS = ("<style>#dRead{position:fixed;inset:0;z-index:2147483000;background:rgba(15,23,42,.55);display:none;align-items:center;justify-content:center;padding:16px}#dRead.on{display:flex}"
+         "#dRead .dlock{max-width:440px;width:100%;border-style:solid;box-shadow:0 20px 50px rgba(0,0,0,.3);position:relative}#dRead .x{position:absolute;right:10px;top:6px;border:0;background:none;font-size:28px;color:var(--muted);cursor:pointer}</style>"
+         + RL_HTML +
+         "<script>(()=>{const M=document.getElementById('dRead');M.onclick=e=>{if(e.target===M||e.target.closest('.x'))M.classList.remove('on')};"
+         "const lk=k=>S&&S.items[k]&&S.items[k].lock;const R=render;render=function(){if(S&&S.mode==='exam'&&lk(S.i)){let k=S.sec;while(k>0&&lk(S.secs[k].idx[0]))k--;"
+         "S.sec=k;const L=S.secs[k].idx;S.i=L[L.length-1];M.classList.add('on')}R();if(S&&S.mode==='exam')document.querySelectorAll('[data-sk]').forEach(b=>{const s=S.secs[+b.dataset.sk];"
+         "if(s&&lk(s.idx[0])&&!b.dataset.lk){b.dataset.lk=1;b.insertAdjacentHTML('afterbegin','🔒 ')}})}})()</script>")
 DHV_CSS = """<style>
 .dad{display:flex;align-items:center;gap:14px 18px;flex-wrap:wrap;background:linear-gradient(120deg,#c42f66,#0d5a8c);color:#fff;border-radius:18px;padding:16px 20px;margin:0 0 18px;box-shadow:0 10px 26px #0d2b4026}
 .dadt{flex:1 1 260px;min-width:0}.dadt small{display:block;font-weight:700;opacity:.85;font-size:13px;letter-spacing:.02em}
@@ -258,6 +277,7 @@ DHV_CSS += """<style>
 s = s.replace('</head>', DHV_CSS + '</head>', 1)
 s = s.replace('</body>', "<script>(()=>{const H=" + json.dumps(DHV_HTML, ensure_ascii=False) + ";const AD=" + json.dumps(AD_HTML, ensure_ascii=False) + ";const SC=" + json.dumps(SACH_HTML, ensure_ascii=False) + ";const put=()=>{const g=document.querySelector('#examList .exg');if(!g)return;if(!g.classList.contains('free')){g.classList.add('free');g.querySelectorAll('.exb').forEach(b=>{const l=b.getAttribute('aria-label')||'',n=(l.match(/\\d+/)||[''])[0],m=b.querySelector('.num');const E=/(^\\/en(\\/|$)|en\\.html$)/.test(location.pathname),t=/nghe|listening/i.test(l)?'ln':b.classList.contains('rv')?'rv':'mk';b.classList.add('fr-'+t);if(m)m.innerHTML=t==='rv'?'<b>語</b>':(t==='ln'?'<em>🎧</em>':'')+'<b>'+n+'</b>';const c=document.createElement('span');c.className='fl';c.textContent=E?(t==='rv'?'Vocab · Kanji':t==='ln'?'Listening '+n:'Test '+n):(t==='rv'?'Từ vựng · Hán tự':t==='ln'?'Đề nghe '+n:'Đề '+n);b.appendChild(c)})}const h=g.previousElementSibling&&/exgh/.test(g.previousElementSibling.className)?g.previousElementSibling:g;if(!document.getElementById('dSach'))h.insertAdjacentHTML('beforebegin',SC);if(!document.getElementById('dhVid'))g.insertAdjacentHTML('afterend',H);const v=document.getElementById('dhVid');if(v&&!document.getElementById('dAd'))v.insertAdjacentHTML('afterend',AD)};"
               "const re=window.renderExams;if(typeof re==='function')window.renderExams=function(){const r=re.apply(this,arguments);put();return r};put()})()</script>\n</body>", 1)
+s = s.replace('</body>', RL_JS + '</body>', 1)   # 23/11: khoá phần Đọc hiểu Đề 2, Đề 3
 # 21/11: tab "Học Gino" — link bản dùng thử của 5 ngành (tên worker lấy theo check-runs: gino-khachsan-trial, gino-vesinhtoanha-trial, gino-cbtp-app/trial, gino-xaydung/trial, gino-butsuryu-app/trial)
 GINO = [('Khách sạn', '宿泊', 'https://gino-khachsan-trial.tronganh8a.workers.dev/', '#0d7d4d', 'ks.jpg'),
         ('Vệ sinh toà nhà', 'ビルクリーニング', 'https://gino-vesinhtoanha-trial.tronganh8a.workers.dev/', '#0d5a8c', 'vstn.jpg'),
@@ -310,7 +330,7 @@ print('demo: bài học', {k: len(v) for k, v in OL.items()}, '· đề', NEX, '
 # 23/11: bản dùng thử TIẾNG ANH (chỉ Làm đề, 6 đề mở) → en.html + app/data/exams_en.js · link jft-dungthu…/en
 import importlib.util
 _sp = importlib.util.spec_from_file_location('build_en', A + 'en/build_en.py'); _en = importlib.util.module_from_spec(_sp); _sp.loader.exec_module(_en)
-_en.run(s, D, P, FB, TT, PANEL, AD_HTML, DHV_HTML, E, strict=os.environ.get('EN_STRICT') == '1')
+_en.run(s.replace(RL_JS, ''), D, P, FB, TT, PANEL, AD_HTML, DHV_HTML, E, strict=os.environ.get('EN_STRICT') == '1')
 
 # Bản sao trong public/_demo: worker chính (worker.js) phục vụ thư mục này khi truy cập bằng tên miền jft-dungthu.*
 DD2 = P + '_demo/'
