@@ -1,0 +1,448 @@
+@1.2 DICH
+Đây là khăn quàng cổ (マフラー).
+@1.4 GT
+Tranh là chiếc khăn len quàng cổ màu đỏ, tiếng Nhật gọi là 「マフラー」. 「マーケティング」 là marketing (tiếp thị), 「マンション」 là chung cư cao tầng, đều không khớp với tranh.
+@1.7 TV
+マフラー = khăn quàng cổ || マンション = chung cư cao tầng
+@2.2 DICH
+Đây là kimono ({着物|きもの}).
+@2.4 GT
+Tranh là cô gái mặc trang phục truyền thống Nhật Bản, gọi là 「着物（きもの）」. 「季節（きせつ）」 là mùa, 「上着（うわぎ）」 là áo khoác ngoài. Mẹo: {着|き} = mặc, {物|もの} = đồ vật, {着物|きもの} là đồ để mặc truyền thống.
+@2.7 TV
+{着物|きもの} = kimono, trang phục truyền thống Nhật || {季節|きせつ} = mùa || {上着|うわぎ} = áo khoác ngoài
+@3.2 DICH
+Đây là nhà trọ/căn hộ (アパート).
+@3.4 GT
+Tranh là tòa nhà 2 tầng có nhiều cửa phòng và cầu thang bên ngoài, đó là 「アパート」 (nhà trọ, căn hộ cho thuê thấp tầng). 「モール」 là trung tâm thương mại, 「ファミリーマート」 là tên chuỗi cửa hàng tiện lợi.
+@3.7 TV
+アパート = nhà trọ, căn hộ cho thuê || モール = trung tâm thương mại
+@4.2 DICH
+Đây là bố ({父|ちち}).
+@4.4 GT
+Tranh là người đàn ông đeo kính đang đọc báo cùng con trai, đây là bố, tiếng Nhật là 「父（ちち）」. 「母（はは）」 là mẹ, 「妹（いもうと）」 là em gái.
+@4.7 TV
+{父|ちち} = bố (của mình) || {母|はは} = mẹ (của mình) || {妹|いもうと} = em gái
+@5.2 DICH
+Gió ({風|かぜ}) đang thổi mạnh.
+@5.4 GT
+Tranh vẽ cô gái bị gió thổi mạnh, tóc và lá cây bay, nên đáp án là 「風（かぜ）」 = gió. 「雨（あめ）」 là mưa, 「雪（ゆき）」 là tuyết, tranh không có giọt mưa hay tuyết.
+@5.7 TV
+{風|かぜ} = gió || {雨|あめ} = mưa || {雪|ゆき} = tuyết
+@6.2 DICH
+Đây là đồ trang trí ngày Tết (お{正月|しょうがつ}).
+@6.4 GT
+Tranh có bánh 「{鏡|かがみ}もち」, cây tre 「{門松|かどまつ}」, hoa mai, búp bê daruma, con quay… đều là đồ trang trí ngày Tết Nhật, tức 「お{正月|しょうがつ}（おしょうがつ）」. 「クリスマス」 là Giáng sinh, 「七夕（たなばた）」 là lễ Thất tịch tháng 7.
+@6.7 TV
+お{正月|しょうがつ} = Tết, năm mới || {七夕|たなばた} = lễ Thất tịch (7/7) || {門松|かどまつ} = cây tre trang trí Tết trước cổng
+@7.2 DICH
+Tôi muốn thử trọ ở ryokan (nhà trọ kiểu Nhật).
+@7.4 GT
+「{旅館|りょかん}」 đọc là 「りょかん」 (nhà trọ kiểu Nhật). Chữ {旅|たび} đọc 「りょ」 (âm ngắn, không có う), chữ {館|かん} đọc 「かん」 (không phải がん). Hai lựa chọn còn lại sai trường âm hoặc âm đục.
+@7.7 TV
+{旅館|りょかん} = nhà trọ kiểu Nhật || {泊|と}まる = trọ lại, ngủ lại
+@8.2 DICH
+Đây là Giáng sinh (cây thông Noel).
+@8.4 GT
+Tranh là cây thông Noel có ngôi sao, chuông, nơ, tức là Giáng sinh 「クリスマス」. 「クリーム」 là kem, 「クリーニング」 là giặt ủi (tiệm giặt). Ba từ đều bắt đầu bằng 「クリ」 nên dễ nhầm.
+@8.7 TV
+クリスマス = Giáng sinh || クリーニング = giặt ủi, tiệm giặt
+@9.2 DICH
+Đây là chìa khóa (かぎ).
+@9.4 GT
+Tranh là chiếc chìa khóa, tiếng Nhật là 「かぎ（{鍵|かぎ}）」. 「かさ（{傘|かさ}）」 là cái ô, 「かお（{顔|かお}）」 là khuôn mặt. Chú ý: 3 từ chỉ khác nhau một âm cuối.
+@9.7 TV
+{鍵|かぎ} = chìa khóa || {傘|かさ} = cái ô || {顔|かお} = khuôn mặt
+@10.2 DICH
+Đây là đôi giày ({靴|くつ}).
+@10.4 GT
+Tranh là đôi giày thể thao, tiếng Nhật là 「靴（くつ）」. 「靴下（くつした）」 là tất (vớ) - mang dưới giày, 「帽子（ぼうし）」 là cái mũ.
+@10.7 TV
+{靴|くつ} = giày || {靴下|くつした} = tất, vớ || {帽子|ぼうし} = mũ
+@11.2 DICH
+Đây là suối nước nóng ({温泉|おんせん}).
+@11.4 GT
+Tranh là người đang ngâm mình trong hồ nước nóng ngoài trời, đó là suối nước nóng 「温泉（おんせん）」. 「温度（おんど）」 là nhiệt độ, 「温水（おんすい）」 là nước ấm (nói chung).
+@11.7 TV
+{温泉|おんせん} = suối nước nóng || {温度|おんど} = nhiệt độ || {温水|おんすい} = nước ấm
+@12.2 DICH
+Cô ấy đang ho ({咳|せき}).
+@12.4 GT
+Tranh vẽ người đang ho, có các giọt bắn ra từ miệng, nên chọn 「咳（せき）」 = cơn ho. 「風邪（かぜ）」 là bệnh cảm, 「風（かぜ）」 là gió. Mẹo: {風邪|かぜ} và {風|かぜ} đọc giống nhau nhưng {風邪|かぜ} có thêm chữ {邪|じゃ} (tà) để chỉ bệnh cảm.
+@12.7 TV
+{咳|せき} = ho, cơn ho || {風邪|かぜ} = bệnh cảm || {風|かぜ} = gió
+@13.2 DICH
+(Tôi) xuống tàu.
+@13.4 GT
+Tranh vẽ người đàn ông đang bước từ tàu xuống sân ga, nên chọn 「{降|お}ります（おります）」 = xuống (tàu, xe). 「{乗|の}ります（のります）」 là lên tàu xe, 「{乗|の}り{換|か}えます（のりかえます）」 là chuyển tàu.
+@13.7 TV
+{降|お}ります = xuống (tàu, xe) || {乗|の}ります = lên (tàu, xe) || {乗|の}り{換|か}えます = chuyển tàu
+@14.2 DICH
+Đây là lối vào nhà ({玄関|げんかん}).
+@14.4 GT
+Tranh là khu vực cửa ra vào trong nhà Nhật, có tủ giày, giày dép để dưới sàn, đó là 「玄関（げんかん）」. 「ホール」 là hội trường/sảnh lớn, 「角（かど）」 là góc (đường, phòng).
+@14.7 TV
+{玄関|げんかん} = lối vào nhà, chỗ cởi giày || {角|かど} = góc
+@15.2 DICH
+Trời nắng ({晴|は}れ).
+@15.4 GT
+Tranh là mặt trời tươi cười trên trời xanh, tức là trời nắng đẹp 「{晴|は}れ（はれ）」. 「雷（かみなり）」 là sấm sét, 「雪（ゆき）」 là tuyết.
+@15.7 TV
+{晴|は}れ = trời nắng, trời quang || {雷|かみなり} = sấm sét
+@16.2 DICH
+Động đất ({地震|じしん}).
+@16.4 GT
+Tranh vẽ nhà, cột điện bị nghiêng, mặt đất nứt và rung, đó là động đất 「地震（じしん）」. 「火事（かじ）」 là hỏa hoạn, 「津波（つなみ）」 là sóng thần.
+@16.7 TV
+{地震|じしん} = động đất || {火事|かじ} = hỏa hoạn, cháy || {津波|つなみ} = sóng thần
+@17.2 DICH
+Đây là tờ giấy ({紙|かみ}).
+@17.4 GT
+Tranh là một tờ giấy trắng, chữ Hán là 「紙（かみ）」. 「音（おと）」 là âm thanh, 「氏（し）」 là ông/họ (dùng sau tên). Chú ý {紙|かみ} có bộ {糸|いと} (sợi) bên trái, khác với {氏|し}.
+@17.7 TV
+{紙|かみ} = giấy || {音|おと} = âm thanh || {氏|し} = họ; ông (kính ngữ)
+@18.2 DICH
+Đây là nhà bếp ({台所|だいどころ}).
+@18.4 GT
+Tranh là gian bếp có tủ lạnh, bếp ga, máy hút mùi, chậu rửa, nên chọn 「だいどころ（{台所|だいどころ}）」 = nhà bếp. 「げんかん」 là lối vào nhà, 「しょくどう」 là nhà ăn/căng tin.
+@18.7 TV
+{台所|だいどころ} = nhà bếp || {食堂|しょくどう} = nhà ăn, căng tin
+@19.2 DICH
+(Anh ấy) dán tờ giấy lên tường.
+@19.4 GT
+Tranh là người đang dán tờ giấy lên tường bằng băng dính, động từ là 「{貼|は}ります（はります）」 = dán. 「{借|か}ります（かります）」 là mượn, 「{入|はい}ります（はいります）」 là đi vào.
+@19.7 TV
+{貼|は}ります = dán || {借|か}ります = mượn || {入|はい}ります = đi vào
+@20.2 DICH
+Đây là xe buýt.
+@20.4 GT
+Tranh là chiếc xe buýt màu xanh lá, nên chọn 「バス」. 「{自転車|じてんしゃ}（じてんしゃ）」 là xe đạp, 「電話（でんわ）」 là điện thoại.
+@20.7 TV
+バス = xe buýt || {自転車|じてんしゃ} = xe đạp
+@21.2 DICH
+Khóa vòi nước lại.
+@21.4 GT
+Tranh là bàn tay đang vặn khóa vòi nước, nói 「蛇口（じゃぐち）をしめます」 = khóa vòi nước. 「きめます（{決|き}めます）」 là quyết định, 「さめます（{冷|さ}めます）」 là nguội đi.
+@21.7 TV
+{閉|し}めます = đóng, khóa (vòi, cửa) || {蛇口|じゃぐち} = vòi nước || {決|き}めます = quyết định
+@22.2 DICH
+Tháng 9.
+@22.4 GT
+「9{月|がつ}」 đọc là 「くがつ」, không đọc きゅうがつ. Đây là cách đọc đặc biệt cần nhớ: tháng 4 là しがつ, tháng 7 là しちがつ, tháng 9 là くがつ.
+@22.7 TV
+{九月|くがつ} = tháng 9
+@23.2 DICH
+Đánh rơi (điện thoại).
+@23.4 GT
+Tranh là người đánh rơi điện thoại xuống khe hở, động từ là 「{落|お}とす（おとす）」 = làm rơi, đánh rơi. 「{起|お}きる（おきる）」 là thức dậy, 「{帰|かえ}る（かえる）」 là trở về.
+@23.7 TV
+{落|お}とす = đánh rơi, làm rơi || {起|お}きる = thức dậy || {帰|かえ}る = trở về
+@24.2 DICH
+Đây là máy tính xách tay.
+@24.4 GT
+Tranh là máy tính xách tay, tiếng Nhật là 「ノートパソコン」. 「パンフレット」 là tờ quảng cáo/sách giới thiệu mỏng, 「パワーフル」 không phải từ đúng (từ đúng là パワフル = mạnh mẽ).
+@24.7 TV
+ノートパソコン = máy tính xách tay, laptop || パンフレット = tờ rơi, sách giới thiệu
+@25.2 DICH
+Trời mưa ({雨|あめ}).
+@25.4 GT
+Tranh là đám mây xám có nhiều giọt nước rơi xuống, tức là mưa 「雨（あめ）」. 「雲（くも）」 chỉ là mây, 「雪（ゆき）」 là tuyết. Ở đây trọng tâm là những vệt mưa rơi.
+@25.7 TV
+{雨|あめ} = mưa || {雲|くも} = mây
+@26.2 DICH
+Người mẹ mắng đứa con.
+@26.4 GT
+Tranh là người mẹ chống nạnh, giơ ngón tay mắng đứa bé đang cúi đầu, động từ là 「しかります（{叱|しか}ります）」 = mắng, la. 「ほめます」 là khen (ngược nghĩa), 「かります」 là mượn.
+@26.7 TV
+{叱|しか}ります = mắng, la rầy || {褒|ほ}めます = khen
+@27.2 DICH
+Thư viện.
+@27.4 GT
+「{図書館|としょかん}」 đọc là 「としょかん」 (thư viện). {図|ず} đọc と, {書|しょ} đọc しょ (ngắn), {館|かん} đọc かん. Các lựa chọn thêm trường âm う là sai.
+@27.7 TV
+{図書館|としょかん} = thư viện
+@28.2 DICH
+Giỏi.
+@28.4 GT
+「{上手|じょうず}」 đọc là 「じょうず」 (giỏi), có trường âm う sau じょ. 「じょず」 thiếu trường âm nên sai.
+@28.7 TV
+{上手|じょうず} = giỏi
+@29.2 DICH
+Kế hoạch.
+@29.4 GT
+「{計画|けいかく}」 đọc là 「けいかく」 (kế hoạch). Chữ {計|けい} đọc けい (có い), không phải け hay げい.
+@29.7 TV
+{計画|けいかく} = kế hoạch
+@30.2 DICH
+Hạnh phúc.
+@30.4 GT
+「{幸|しあわ}せ」 đọc là 「しあわせ」 (hạnh phúc). Không có thêm い ở đầu hay cuối như các lựa chọn khác.
+@30.7 TV
+{幸|しあわ}せ = hạnh phúc
+@31.2 DICH
+Học sinh, sinh viên.
+@31.4 GT
+「{学生|がくせい}」 đọc là 「がくせい」 (học sinh, sinh viên). {生|なま} đọc せい (có い), và không có âm ngắt っ.
+@31.7 TV
+{学生|がくせい} = học sinh, sinh viên
+@32.2 DICH
+Mặc quần.
+@32.4 GT
+Với đồ mặc từ thắt lưng trở xuống như quần, váy, giày, tất, dùng động từ 「{履|は}きます（はきます）」. 「{着|き}ます（きます）」 dùng cho áo (phần thân trên), 「{被|かぶ}ります（かぶります）」 dùng cho mũ.
+@32.7 TV
+{履|は}きます = mặc (quần), đi (giày) || ズボン = quần dài
+@33.2 DICH
+Mặc áo sơ mi.
+@33.4 GT
+Áo sơ mi là đồ mặc phần thân trên nên dùng 「{着|き}ます（きます）」. 「{履|は}きます」 dùng cho quần, giày; 「かけます」 dùng cho kính (めがねをかけます).
+@33.7 TV
+{着|き}ます = mặc (áo) || シャツ = áo sơ mi
+@34.2 DICH
+Đội mũ.
+@34.4 GT
+Đội mũ dùng động từ 「かぶります」. 「かけます」 dùng cho kính, 「ふります」 là vẫy (tay) hoặc mưa rơi.
+@34.7 TV
+{被|かぶ}ります = đội (mũ) || {帽子|ぼうし} = mũ
+@35.2 DICH
+(Lốp xe) có hình tròn.
+@35.4 GT
+Tranh là chiếc lốp xe có hình tròn, nên chọn tính từ 「{丸|まる}い（まるい）」 = tròn. 「{厚|あつ}い（あつい）」 là dày, 「{低|ひく}い（ひくい）」 là thấp.
+@35.7 TV
+{丸|まる}い = tròn || {厚|あつ}い = dày || {低|ひく}い = thấp
+@36.2 DICH
+Đây là trứng ({卵|たまご}).
+@36.4 GT
+Tranh là quả trứng luộc cắt đôi thấy lòng đỏ, nên chọn 「卵（たまご）」. 「肉（にく）」 là thịt, 「野菜（やさい）」 là rau.
+@36.7 TV
+{卵|たまご} = trứng || {野菜|やさい} = rau
+@37.2 DICH
+Nhà trọ kiểu Nhật.
+@37.4 GT
+「{旅館|りょかん}」 đọc là 「りょかん」, không có trường âm う sau りょ và かん không đục thành がん.
+@37.7 TV
+{旅館|りょかん} = nhà trọ kiểu Nhật
+@38.2 DICH
+Đây là lối vào nhà ({玄関|げんかん}).
+@38.4 GT
+Tranh giống câu 14: khu vực cửa ra vào có tủ giày, giày để dưới sàn, là 「玄関（げんかん）」. 「場所（ばしょ）」 là địa điểm (nói chung), 「庭（にわ）」 là sân vườn.
+@38.7 TV
+{玄関|げんかん} = lối vào nhà || {庭|にわ} = sân vườn || {場所|ばしょ} = địa điểm
+@39.2 DICH
+Địa chỉ.
+@39.4 GT
+「{住所|じゅうしょ}」 đọc là 「じゅうしょ」 (địa chỉ). {住|じゅう} đọc じゅう (có trường âm), {所|ところ} đọc しょ (ngắn). 「じゅうしょう」 thừa trường âm ở cuối.
+@39.7 TV
+{住所|じゅうしょ} = địa chỉ
+@40.2 DICH
+Nhặt.
+@40.4 GT
+「{拾|ひろ}う」 đọc là 「ひろう」 = nhặt. 「まよう」 là lạc đường ({迷|まよ}う), 「いう」 là nói ({言|い}う), 「かう」 là mua ({買|か}う).
+@40.7 TV
+{拾|ひろ}う = nhặt || {迷|まよ}う = lạc đường, phân vân
+@41.2 DICH
+Cuối tuần.
+@41.4 GT
+「{週末|しゅうまつ}」 đọc là 「しゅうまつ」 (cuối tuần). {週|しゅう} đọc しゅう (có trường âm, không đục), {末|すえ} đọc まつ.
+@41.7 TV
+{週末|しゅうまつ} = cuối tuần
+@42.2 DICH
+Nhặt.
+@42.4 GT
+「{拾|ひろ}う」 đọc là 「ひろう」 = nhặt (giống câu 40). 「いう」 là nói, 「まよう」 là lạc đường, 「かう」 là mua.
+@42.7 TV
+{拾|ひろ}う = nhặt
+@43.2 DICH
+Cuối tuần.
+@43.4 GT
+「{週末|しゅうまつ}」 đọc là 「しゅうまつ」 (giống câu 41). 「じゅうまつ」 sai vì bị đục, 「しゅまつ」 thiếu trường âm.
+@43.7 TV
+{週末|しゅうまつ} = cuối tuần
+@44.2 DICH
+Bầu trời ({空|そら}).
+@44.4 GT
+Tranh là bầu trời xanh với mây trắng, chữ Hán là 「空（そら）」. 「家（いえ）」 là ngôi nhà, 「木（き）」 là cái cây.
+@44.7 TV
+{空|そら} = bầu trời || {家|いえ} = nhà || {木|き} = cây
+@45.2 DICH
+Sức khỏe (lối sống lành mạnh).
+@45.4 GT
+Tranh vẽ người tập thể dục, uống nước, ngủ sớm, dậy đúng giờ, tức là lối sống lành mạnh, chọn 「健康（けんこう）」 = sức khỏe. 「見学（けんがく）」 là tham quan học hỏi, 「{研究|けんきゅう}（けんきゅう）」 là nghiên cứu.
+@45.7 TV
+{健康|けんこう} = sức khỏe || {見学|けんがく} = tham quan học hỏi || {研究|けんきゅう} = nghiên cứu
+@46.2 DICH
+Đây là gấu bông (ぬいぐるみ).
+@46.4 GT
+Tranh là con gấu bông nhồi vải, tiếng Nhật là 「ぬいぐるみ」. 「{人形|にんぎょう}（にんぎょう）」 là búp bê hình người, 「靴（くつ）」 là giày.
+@46.7 TV
+ぬいぐるみ = thú nhồi bông || {人形|にんぎょう} = búp bê
+@47.2 DICH
+Gọi món, đặt hàng.
+@47.4 GT
+「{注文|ちゅうもん}」 đọc là 「ちゅうもん」 (gọi món, đặt hàng). 「ちゅうい」 là {注意|ちゅうい} (chú ý), 「ちゅもん」 thiếu trường âm.
+@47.7 TV
+{注文|ちゅうもん} = gọi món, đặt hàng || {注意|ちゅうい} = chú ý
+@48.2 DICH
+Bưu điện.
+@48.4 GT
+「{郵便局|ゆうびんきょく}」 đọc là 「ゆうびんきょく」 (bưu điện). {郵|ゆう} có trường âm ゆう, {局|きょく} đọc きょく (không có う).
+@48.7 TV
+{郵便局|ゆうびんきょく} = bưu điện
+@49.2 DICH
+Vết bẩn (trên áo).
+@49.4 GT
+Tranh là người cầm chiếc áo phông có nhiều vết bẩn, nên chọn 「{汚|よご}れ（よごれ）」 = vết bẩn. 「{破|やぶ}れ（やぶれ）」 là chỗ rách, 「台風（たいふう）」 là bão.
+@49.7 TV
+{汚|よご}れ = vết bẩn || {破|やぶ}れ = chỗ rách || {台風|たいふう} = bão
+@50.2 DICH
+Buổi sáng.
+@50.4 GT
+「{朝|あさ}」 đọc là 「あさ」 = buổi sáng. 「よる」 là {夜|よる} (buổi tối), 「ひる」 là {昼|ひる} (buổi trưa).
+@50.7 TV
+{朝|あさ} = buổi sáng || {夜|よる} = buổi tối
+@51.2 DICH
+Vận động, tập thể dục.
+@51.4 GT
+「{運動|うんどう}」 đọc là 「うんどう」 (vận động, tập thể dục). 「うんてん」 là {運転|うんてん} (lái xe), 「うんと」 sai cách đọc.
+@51.7 TV
+{運動|うんどう} = vận động, thể dục || {運転|うんてん} = lái xe
+@52.2 DICH
+Màu xanh dương ({青|あお}).
+@52.4 GT
+Tranh núi Phú Sĩ và bầu trời đều màu xanh dương, nên chọn 「青（あお）」. 「赤（あか）」 là đỏ, 「黒（くろ）」 là đen.
+@52.7 TV
+{青|あお} = màu xanh dương || {赤|あか} = màu đỏ || {黒|くろ} = màu đen
+@53.2 DICH
+Tiếng Anh.
+@53.4 GT
+「{英語|えいご}」 đọc là 「えいご」 (tiếng Anh). {英|えい} đọc えい, {語|ご} đọc ご (không phải ごう hay こう).
+@53.7 TV
+{英語|えいご} = tiếng Anh
+@54.2 DICH
+Đặt dâu tây lên trên (ly parfait).
+@54.4 GT
+Tranh là ly parfait có dâu tây đặt ở trên cùng, nên dùng 「{乗|の}せる（のせる）」 = đặt lên trên (いちごを{乗|の}せる). 「{見|み}せる（みせる）」 là cho xem, 「{置|お}く（おく）」 là đặt, để (một chỗ nói chung), không nhấn mạnh ý đặt lên trên đồ khác.
+@54.7 TV
+{乗|の}せる = đặt lên trên, chất lên || {見|み}せる = cho xem || {置|お}く = đặt, để
+@55.2 DICH
+Chuyển động.
+@55.4 GT
+「{動|うご}く」 đọc là 「うごく」 = chuyển động. 「はたらく」 là {働|はたら}く (làm việc) - chữ Hán giống nhưng có thêm bộ nhân {亻|にんべん}. 「うごうく」 sai.
+@55.7 TV
+{動|うご}く = chuyển động || {働|はたら}く = làm việc
+@56.2 DICH
+Nhẹ.
+@56.4 GT
+「{軽|かる}い」 đọc là 「かるい」 = nhẹ. 「おもい」 là {重|おも}い (nặng, nghĩa ngược lại), 「くらい」 là {暗|くら}い (tối).
+@56.7 TV
+{軽|かる}い = nhẹ || {重|おも}い = nặng
+@57.2 DICH
+A: Tiếng Nhật của bạn giỏi quá nhỉ. B: Không đâu (chưa giỏi đâu).
+@57.4 GT
+Khi được khen, người Nhật thường khiêm tốn đáp 「そんなことない（です）」 = không đâu, chưa giỏi đâu. 「とてもたすかりました」 là cảm ơn vì được giúp, không hợp. 「ありがとうございます」 cũng có thể dùng, nhưng câu hỏi kiểu này thường muốn kiểm tra cách đáp khiêm tốn.
+@57.7 TV
+{上手|じょうず} = giỏi || {助|たす}かる = được giúp đỡ
+@58.2 DICH
+Rẽ trái.
+@58.4 GT
+Mũi tên đi từ dưới lên tới ngã tư rồi rẽ sang trái, chiếc taxi đang chạy về bên trái, nên chọn 「{左|ひだり}にまがります」 = rẽ trái. 「{右|みぎ}にまがります」 là rẽ phải, 「まっすぐ{行|い}きます」 là đi thẳng.
+@58.7 TV
+{左|ひだり} = bên trái || {曲|ま}がる = rẽ, quẹo || まっすぐ = thẳng
+@59.2 DICH
+Đây là bố ({父|ちち}).
+@59.4 GT
+Tranh giống câu 4: người đàn ông đeo kính đọc báo cùng con trai, là bố 「父（ちち）」. 「{妹|いもうと}」 là em gái, 「{母|はは}」 là mẹ.
+@59.7 TV
+{父|ちち} = bố || {母|はは} = mẹ
+@60.2 DICH
+Nướng cá.
+@60.4 GT
+Tranh là cá thu đao (さんま) đang nướng trên vỉ than, động từ là 「{焼|や}きます（やきます）」 = nướng. 「{揚|あ}げます（あげます）」 là chiên ngập dầu, 「いためます」 là xào.
+@60.7 TV
+{焼|や}きます = nướng || {揚|あ}げます = chiên ngập dầu || {炒|いた}めます = xào
+@61.2 DICH
+Năm.
+@61.4 GT
+「{年|ねん}」 đọc là 「ねん」 (năm) khi đi với số, ví dụ 2025{年|ねん}. 「つき」 là {月|つき} (tháng, mặt trăng), 「ひ」 là {日|ひ} (ngày, mặt trời).
+@61.7 TV
+{年|ねん} = năm
+@62.2 DICH
+Nổi tiếng.
+@62.4 GT
+「{有名|ゆうめい}」 đọc là 「ゆうめい」 (nổi tiếng). Cả {有|ゆう} (ゆう) và {名|な} (めい) đều là trường âm, các lựa chọn khác bị thiếu.
+@62.7 TV
+{有名|ゆうめい} = nổi tiếng
+@63.2 DICH
+Gia đình tôi đang sống ở Hokkaido.
+@63.4 GT
+Chủ ngữ của 「{住|す}んでいます」 (đang sống) phải là người, nên chọn 「家族（かぞく）」 = gia đình. 「{注文|ちゅうもん}」 là đặt hàng, 「{会社|かいしゃ}」 là công ty, không thể 'sống' ở đâu đó.
+@63.7 TV
+{家族|かぞく} = gia đình || {住|す}む = sống, cư trú || {北海道|ほっかいどう} = Hokkaido
+@64.2 DICH
+Cách dùng máy quá phức tạp nên tôi không hiểu rõ.
+@64.4 GT
+Vế sau là 「よくわかりません」 (không hiểu rõ), nên cách dùng máy phải phức tạp: 「ふくざつすぎて」 (quá phức tạp nên...). Mẫu: Tính từ bỏ な/い + すぎる = quá... 「やさしい」 (dễ) và 「かんたん」 (đơn giản) trái nghĩa với ý câu.
+@64.7 TV
+{複雑|ふくざつ} = phức tạp || {機械|きかい} = máy móc || {使|つか}い{方|かた} = cách dùng
+@65.4 GT
+Xem tivi là 「テレビを{見|み}ます（みます）」. 「{診|み}ます（みます）」 cũng đọc là みます nhưng nghĩa là khám bệnh (bác sĩ khám), 「{寝|ね}ます」 là ngủ.
+@65.7 TV
+{見|み}ます = xem, nhìn || {診|み}ます = khám bệnh || {寝|ね}ます = ngủ
+@66.2 DICH
+Đông người.
+@66.4 GT
+「{人|ひと}が{多|おお}い」 = đông người. 「{寒|さむ}い」 là lạnh (thời tiết), 「{熱|あつ}い」 là nóng (đồ vật), không dùng để nói về người.
+@66.7 TV
+{多|おお}い = nhiều, đông || {寒|さむ}い = lạnh || {熱|あつ}い = nóng (đồ vật)
+@67.2 DICH
+Nghe nói ngôi chùa này được xây vào thế kỷ 16.
+@67.4 GT
+Ngôi chùa 'được xây' nên dùng thể bị động 「{建|た}てられる」, và việc đã xảy ra vào thế kỷ 16 nên chia quá khứ 「{建|た}てられた」. Mẫu: Thể thường + そうです = nghe nói rằng. 「たてた」 là chủ động (đã xây), 「たてられる」 là hiện tại, đều sai.
+@67.7 TV
+{建|た}てる = xây dựng || お{寺|てら} = chùa || {世紀|せいき} = thế kỷ
+@68.2 DICH
+Ăn cơm.
+@68.4 GT
+Ăn cơm là 「ご{飯|はん}を{食|た}べます」. 「{飲|の}みます」 dùng cho đồ uống, 「{吸|す}います」 là hút (thuốc) hoặc hít (không khí).
+@68.7 TV
+ご{飯|はん} = cơm, bữa ăn || {食|た}べます = ăn || {吸|す}います = hút, hít
+@69.2 DICH
+Cho tôi chuối.
+@69.4 GT
+Mẫu 「N をください」 = cho tôi N, dùng khi mua hàng hoặc xin đồ. 「バナナをします」 và 「バナナをしてね」 không có nghĩa.
+@69.7 TV
+ください = xin hãy cho tôi
+@70.2 DICH
+Sân bay đông, khi đã để ai đó chờ lâu thì nói gì? → Xin lỗi đã để anh/chị phải chờ.
+@70.4 GT
+Khi để người khác phải chờ lâu, ta nói 「お{待|ま}たせしました」 = xin lỗi đã để anh/chị chờ. 「お{待|ま}ちしております」 là 'chúng tôi đang chờ quý khách' (nói trước khi khách đến), 「お{返事|へんじ}ください」 là xin hãy trả lời.
+@70.7 TV
+お{待|ま}たせしました = xin lỗi đã để chờ || {空港|くうこう} = sân bay || {混|こ}む = đông đúc
+@71.2 DICH
+Đèn giao thông ({信号|しんごう}).
+@71.4 GT
+Tranh là cột đèn giao thông có đèn xanh, vàng, đỏ, nên chọn 「信号（しんごう）」. 「地震（じしん）」 là động đất, 「自信（じしん）」 là tự tin.
+@71.7 TV
+{信号|しんごう} = đèn giao thông || {自信|じしん} = tự tin || {地震|じしん} = động đất
+@72.2 DICH
+Bảng hiệu ({看板|かんばん}).
+@72.4 GT
+Tranh là hai tấm bảng quảng cáo đặt trước cửa nhà hàng, gọi là 「看板（かんばん）」. 「{信号|しんごう}」 là đèn giao thông, 「関係（かんけい）」 là quan hệ.
+@72.7 TV
+{看板|かんばん} = bảng hiệu, biển quảng cáo || {関係|かんけい} = quan hệ
+@73.2 DICH
+Rưới nước sốt (lên món ăn).
+@73.4 GT
+Tranh là người đang rưới nước sốt lên đĩa thức ăn, động từ là 「かけます」 (ソースをかけます = rưới sốt). 「いれます」 là cho vào (bên trong), 「あげます」 là cho, tặng hoặc chiên.
+@73.7 TV
+かけます = rưới, rắc (sốt, gia vị) || ソース = nước sốt
+@74.2 DICH
+Đây là máy hút bụi ({掃除機|そうじき}).
+@74.4 GT
+Tranh là máy hút bụi, tiếng Nhật là 「そうじき（{掃除機|そうじき}）」. 「そうしき（{葬式|そうしき}）」 là đám tang. Chỉ khác nhau một dấu đục じ/し nên phải nhìn kỹ.
+@74.7 TV
+{掃除機|そうじき} = máy hút bụi || {葬式|そうしき} = đám tang
+@75.2 DICH
+Gửi.
+@75.4 GT
+「{送|おく}ります」 đọc là 「おくります」 = gửi, tiễn. 「おります」 là xuống xe ({降|ふ}ります), 「かります」 là mượn ({借|か}ります).
+@75.7 TV
+{送|おく}ります = gửi, tiễn

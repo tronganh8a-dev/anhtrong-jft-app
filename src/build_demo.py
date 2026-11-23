@@ -262,6 +262,11 @@ print('demo: bài học', {k: len(v) for k, v in OL.items()}, '· đề', NEX, '
       '· từ vựng', {k: len(v) for k, v in OV.items()}, '(', sum(1 for w in W if not w.get('lock')), 'từ ) · tài liệu từ vựng', {k: len(v) for k, v in ODV.items()},
       '· chữ Hán (nhóm 20)', ODK, '· video', OVID, '· BTVN', len(OHW), '/', len(H), '· theo buổi học', len(OB), '/', len(items), '·', len(ALLOW), 'file được mở')
 
+# 23/11: bản dùng thử TIẾNG ANH (chỉ Làm đề, 6 đề mở) → en.html + app/data/exams_en.js · link jft-dungthu…/en
+import importlib.util
+_sp = importlib.util.spec_from_file_location('build_en', A + 'en/build_en.py'); _en = importlib.util.module_from_spec(_sp); _sp.loader.exec_module(_en)
+_en.run(s, D, P, FB, TT, PANEL, AD_HTML, DHV_HTML, E, strict=os.environ.get('EN_STRICT') == '1')
+
 # Bản sao trong public/_demo: worker chính (worker.js) phục vụ thư mục này khi truy cập bằng tên miền jft-dungthu.*
 DD2 = P + '_demo/'
 if os.path.exists(DD2): shutil.rmtree(DD2)

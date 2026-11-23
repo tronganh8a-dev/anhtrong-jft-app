@@ -1,0 +1,132 @@
+@1.q Q
+When will the two of them go to see a movie?
+@1.4 DICH
+Nun: Nia, which day can you go to the movies? / Nia: Saturday works for me. How about you, Nun? / Nun: Sorry, Saturday is a bit… / Nia: Then Sunday. / Nun: Sunday doesn't work for me. How about Friday evening? / Nia: Friday… is fine. / Nun: OK, let's make it Friday.
+@1.6 GT
+Two days are ruled out: 「{土曜日|どようび}はちょっと……」 (a soft refusal) and 「{日曜日|にちようび}はだめです」 (it doesn't work). The decision comes with 「{金曜日|きんようび}にしましょう」. For a "when" question, listen for the final sentence with 〜にしましょう.
+@2.q Q
+What does Mira want to do in Japan?
+@2.4 DICH
+This is a souvenir from Disneyland – it's for you, Mira. – Thank you, Mr. Shimizu. I want to go to Disneyland. – It's lots of fun, you should definitely go. What else do you want to do in Japan, Mira? – I want to see snow. I'd also like to go to a hot spring.
+@2.6 GT
+「{雪|ゆき}が{見|み}たいです」 → picture B (a person standing in falling snow). The pattern Nが{見|み}たい = want to see N. The other pictures (Kyoto, a hamburger) are not mentioned.
+@3.q Q
+What seasons are there in Tam's country?
+@3.4 DICH
+A: What seasons are there in your country, Tam? / B: There is a rainy season and a dry season. The dry season is very hot. But the rainy season is a little cooler. It rains a lot.
+@3.6 GT
+「{雨季|うき}と{乾季|かんき}があります」 → picture C (sun and rain). {雨季|うき} (うき) = rainy season, {乾季|かんき} (かんき) = dry season. Compare Listening Test 1, question 9: {四季|しき} (four seasons) = picture A.
+@4.q Q
+What is being celebrated?
+@4.4 DICH
+A: Congratulations on your marriage. / B: Oh, thank you. / C: This is a present from us. / A: What is your partner like? / B: Hmm, just ordinary. / A: Is he handsome? / B: Not at all. But he's very funny. / C: I'm so jealous. We wish you every happiness.
+@4.6 GT
+The first line, 「ご{結婚|けっこん}おめでとうございます」 → picture B. {相手|あいて} (あいて) = partner (spouse). 「お{幸|しあわ}せに」 = I wish you happiness – used only to congratulate someone on their wedding.
+@5.q Q
+What will everyone eat?
+@5.4 DICH
+Eleanor: I'll check Anna's schedule and let everyone know. / Chu: Where should we have it? / Eleanor: Anna once said she loves yakitori. How about "Tanabe" in front of the station? / Chu: OK, I'll make a reservation later.
+@5.6 GT
+A farewell party for Anna. 「アナさん、{前|まえ}に、{焼|や}き{鳥|とり}が{大好|だいす}きだと{言|い}ってました」 → they choose a yakitori restaurant → picture A. The second half of the conversation is about the present – see the next question.
+@6.q Q
+What will everyone give Anna?
+@6.4 DICH
+Eleanor: Shall we give Anna a present? / Chu: What would be good? What do people give in your country? / Eleanor: Flowers, maybe? / Chu: I think something she'll keep as a memory would be better. What's the budget? / Eleanor: There are about 10 of us, so something around 5,000 yen. / Chu: Then how about a digital photo frame? / Eleanor: Good idea.
+@6.6 GT
+Flowers ({花|はな}) are rejected: 「もっと、{思|おも}い{出|で}に{残|のこ}るものがいい」. The decision: 「デジタルフォトフレームはどうですか」「いいですね」 → picture B. This is the same conversation as the previous question (about the food).
+@7.q Q
+What was given as a present?
+@7.4 DICH
+A: You like alcohol, don't you, Sensei? / B: Yes, I love it, but… / A: This is Sraa Sor, a liquor from Cambodia. It's a present for you. / B: Are you sure? / A: It's shochu made from rice. / B: I love shochu. Thank you. / A: It's quite strong, so please don't drink too much.
+@7.6 GT
+The present is Sraa Sor, 「お{米|こめ}から{作|つく}った{焼酎|しょうちゅう}」 → picture C (a clear bottle of liquor with a box). Picture A is a bottle of fish sauce, and picture B is spring rolls. {飲|の}みすぎないで = don't drink too much (Vすぎる).
+@8.q Q
+What is Okinawa like?
+@8.4 DICH
+A: I'd like to go to Okinawa someday. The sea is beautiful, isn't it? / B: Yes, it's very beautiful. And because it's warm, you can swim from spring to autumn. You can go snorkeling too. There's also a big aquarium where you can see beautiful fish.
+@8.6 GT
+「{暖|あたた}かいから、{春|はる}から{秋|あき}まで{泳|およ}げます」 → picture B (a chart with high temperatures all year and people at the beach). The talk says nothing about food or amusement parks.
+@9.q Q
+Which cars have the non-reserved seats?
+@9.4 DICH
+The Limited Express Thunderbird No. 19 bound for Kanazawa, departing at 11:42, leaves from track 11. The train has 9 cars: from the front, car 9, car 8… and car 1 at the end. Non-reserved seats are in cars 5, 6 and 7; reserved seats are in cars 2, 3, 4, 8 and 9; Green Car seats are in car 1.
+@9.6 GT
+{自由席|じゆうせき} = non-reserved seats → cars 5・6・7{号|ごう}{車|しゃ} (picture B). {指定席|していせき} = reserved seats (picture A), グリーン{席|せき} = first-class (Green Car) seats (picture C). There are many numbers in the announcement – only note the numbers that follow the word in the question.
+@10.q Q
+Why has the train service been suspended?
+@10.4 DICH
+Announcement: Due to an accident involving a person between Urawa and Akabane stations, the Keihin-Tohoku Line, the Takasaki Line and others are suspended along the entire line. Passengers going toward Omiya, please use the Saikyo Line. / Passenger: I want to go to Saitama-Shintoshin – isn't the Keihin-Tohoku Line running? / Staff: No, I'm sorry. To get to Saitama-Shintoshin, you can walk from Kita-Yono Station on the Saikyo Line.
+@10.6 GT
+「{人身|じんしん}{事故|じこ}の{影響|えいきょう}で」 = because of an accident involving a person (someone hit by a train) → picture B (a collision at a railway crossing). {見合|みあ}わせる = suspend (train service). 〜の{影響|えいきょう}で = due to the effects of ~.
+@11.q Q
+Where did Ed go today?
+@11.4 DICH
+Sakamoto: Where are you from, Ed? / Ed: The Philippines, but I live in Japan now. / Sakamoto: Are you traveling in Nikko? / Ed: Yes, staying one night. / Sakamoto: Where did you go today? / Ed: Today I went to Toshogu. Tomorrow I'm planning to go to Lake Chuzenji.
+@11.6 GT
+「{今日|きょう}は、{東照宮|とうしょうぐう}に{行|い}きました」 → picture A. {中禅寺|ちゅうぜんじ}{湖|こ} is for tomorrow ({明日|あした}〜つもりです), and the {温泉|おんせん} is something he wants to do afterwards – listen carefully for {今日|きょう} / {明日|あした}.
+@12.q Q
+What does Ed want to do next?
+@12.4 DICH
+Sakamoto: Where did you go today? / Ed: Today I went to Toshogu. Tomorrow I'm planning to go to Lake Chuzenji. / Sakamoto: Have you eaten anything good? / Ed: I had soba. I want to try yuba too. Also, I'd like to go to a hot spring – where should I go? / Sakamoto: The hotels at Lake Chuzenji have baths you can use as a day visitor.
+@12.6 GT
+Same conversation as the previous question, but a different question: 「これから{何|なに}をしたいですか」 → 「{温泉|おんせん}に{入|はい}りたいんですけど」 → picture C. {東照宮|とうしょうぐう} is what he did today ({行|い}きました), and {中禅寺|ちゅうぜんじ}{湖|こ} is a plan (つもり).
+@13.q Q
+What did this person do in Osaka?
+@13.4 DICH
+A: Here are some sweets – a souvenir from Osaka. / B: Thank you. You went to Osaka? How was it? / A: I got to visit lots of places like Osaka Castle and Tsutenkaku Tower – it was great fun. / B: Did you eat kushikatsu? / A: No, but I had takoyaki, and it was delicious. I also went up Abeno Harukas – it was so tall, I was amazed.
+@13.6 GT
+「{大阪|おおさか}{城|じょう}とか{通天閣|つうてんかく}とか…{行|い}けて」 → picture A (a tower and a castle). 〜とか〜とか = things like ~ and ~ (giving examples).
+@14.q Q
+What event is the announcement about?
+@14.4 DICH
+This is an announcement from the town office about a vegetable sale. Tomorrow, Sunday, July 28, from 8:30 a.m., there will be a sale of fresh summer vegetables grown by local farmers at "Aozora" Square. We look forward to seeing you there.
+@14.6 GT
+「{野菜|やさい}の{販売|はんばい}{会|かい}」 = a vegetable sale → picture C. {販売|はんばい} = sale, selling. 〜において = at ~ (a formal way of saying 〜で).
+@15.q Q
+What are they talking about?
+@15.4 DICH
+A: I heard there's a flea market at the city hall? / B: Yes, every month on the second Saturday, in the square in front of the city hall. This month's was already on the 14th, so the next one is next month. / A: What do they sell? / B: Lots of clothes, and also dishes, toys… / A: What if the weather is bad? / B: If it rains, it's held inside the hall.
+@15.6 GT
+「フリーマーケット」 = flea market → picture B (clothes and toys laid out). {第|だい}{二|に}{土曜日|どようび} = the second Saturday of the month.
+@16.q Q
+What kind of home does Aruni live in?
+@16.4 DICH
+Maeda: How about you, Aruni? / Aruni: I live in an apartment (apāto) in Kitamachi. / Bisal: Is it nice and clean? / Aruni: Yes, but it's a bit old. / Bisal: Is it quiet? / Aruni: No, there's a school nearby. It's not very quiet.
+@16.6 GT
+「アパートに{住|す}んでいます」 → picture A (a two-story building with several units). アパート = a low-rise rental building, マンション = a sturdy, taller apartment building (picture B). 「ちょっと{古|ふる}い」 does not mean an old Japanese-style house (picture C).
+@17.q Q
+Who can enter the karaoke contest at the International Exchange Festival?
+@17.4 DICH
+Yosu: I heard there's a karaoke contest at the International Exchange Festival. Can anyone enter? / Staff: Anyone from junior high school age and up can enter. But we ask professionals not to take part. / Yosu: "Enryo"? / Staff: Professionals can't enter. / Yosu: Can I sing with a friend, the two of us? / Staff: Yes, you can.
+@17.6 GT
+「{中学生|ちゅうがくせい}{以上|いじょう}でしたら、だれでも{参加|さんか}できます」 = anyone of junior high school age or older, and 「プロの{方|ほう}はご{遠慮|えんりょ}いただいています」 = except professionals → picture B (people of various ages). {以上|いじょう} = or more, and above.
+@18.q Q
+What did Nan do during the New Year holidays?
+@18.4 DICH
+Yamaguchi: How were your New Year holidays, Nan? / Nan: I visited a friend who lives in Tokyo. We went to Disneyland together, but it was so crowded and the lines were so long that we could only go on three rides. / Yamaguchi: That sounds tough. / Nan: Yes, but I hadn't seen my friend for a long time, so it was fun.
+@18.6 GT
+「ディズニーランドに{行|い}きました」 → picture B. 〜しか〜ない = only ~ ({乗|の}り{物|もの}に3つしか{乗|の}れませんでした = we could only go on three rides).
+@19.q Q
+What do people eat and drink at Hinamatsuri (the Doll Festival)?
+@19.4 DICH
+A: Please help yourselves. / B: What is this? / A: It's chirashizushi. Today is Hinamatsuri, so I made it at home and brought it. On Hinamatsuri we also drink amazake. / B: Is amazake alcohol? / A: No, amazake isn't alcohol – it's a drink made from rice. It has no alcohol, so it's fine.
+@19.6 GT
+Eat 「ちらしずし」 + drink 「{甘酒|あまざけ}」 → picture A (chirashi rice and a cup of a white drink). Although {甘酒|あまざけ} contains the kanji {酒|さけ}, it has no alcohol – so it is not picture B (お{酒|さけ}).
+@20.q Q
+Which smartphone was lost?
+@20.4 DICH
+Xu: Excuse me, I lost my phone. Has anyone handed one in? / Staff: A smartphone? I'll check – could you describe it? / Xu: It's a black phone with a red case that has a picture of a dog on it. / Staff: What model is it? / Xu: An iPhone.
+@20.6 GT
+Listen for two features: the case 「{赤|あか}いカバー」 + the picture 「{犬|いぬ}の{絵|え}」 → picture A. Note: 「スマホの{色|いろ}は{黒|くろ}」 is the color of the phone itself (hidden by the case), so picture B (a black case) is wrong; picture C has a cat.
+@21.q Q
+According to the custom on this island, how do people drink alcohol?
+@21.4 DICH
+B: This island has a special custom for drinking. It's called "Otori": first, one person gives a short speech to everyone, pours alcohol into a small cup and drinks it. Then everyone in the group takes turns drinking from that same cup. When everyone has finished, the next person gives a speech, and everyone drinks in turn again… and so it goes on. / A: Do you have to drink a lot? / B: No, you can just say "I can't drink any more."
+@21.6 GT
+「{小|ちい}さいコップにお{酒|さけ}を{入|い}れて…そのコップで、{順番|じゅんばん}に{全員|ぜんいん}がお{酒|さけ}を{飲|の}む」 → one small cup, everyone drinks in turn → picture C. {順番|じゅんばん}に = in turn, one after another.
+@22.q Q
+Why did the cashier get angry with Roy?
+@22.4 DICH
+Roy: Yesterday I was waiting in line at the supermarket checkout. It was really crowded. I was thirsty, so I opened a bottle of juice from my basket and drank it. When I paid, I said, "I drank this too, so please ring it up," and handed over the empty bottle. Then the cashier got really angry with me. / Kobayashi: What? You drank the juice without paying? That's not OK. You have to pay first and then drink.
+@22.6 GT
+「お{金|かね}を{払|はら}わないで、ジュース{飲|の}んだ」 → he drank it before paying → picture A. {怒|おこ}られる = be scolded (the passive of {怒|おこ}る). {払|はら}ってから{飲|の}まなきゃ = you have to pay first, then drink.

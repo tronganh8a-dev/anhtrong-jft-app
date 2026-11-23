@@ -1,0 +1,132 @@
+@1.q Q
+Trong công viên, không được làm gì?
+@1.4 DICH
+Kính thưa quý vị, chúng tôi có một yêu cầu. Trong công viên cấm hút thuốc. Vì có cả trẻ nhỏ nên xin vui lòng không hút thuốc trong công viên. Rất mong quý vị hợp tác.
+@1.6 GT
+「{公園|こうえん}{内|ない}は{禁煙|きんえん}」 = trong công viên cấm hút thuốc. 「〜はご{遠慮|えんりょ}ください」 là cách nói lịch sự của &quot;xin đừng ~&quot; (=〜しないでください), hay gặp trong thông báo. Thông báo không nhắc chụp ảnh hay ăn uống.
+@2.q Q
+Trong cuộc thi hùng biện, điều gì không được làm?
+@2.4 DICH
+Cảm ơn quý vị đã đến cuộc thi hùng biện. Trong cuộc thi, quý vị có thể chụp ảnh nhưng xin đừng quay video. Ngoài ra, hãy tắt điện thoại hoặc để chế độ im lặng, và đừng gọi điện.
+@2.6 GT
+「{写真|しゃしん}の{撮影|さつえい}はかまいませんが、{動画|どうが}の{撮影|さつえい}はご{遠慮|えんりょ}ください」: chụp ảnh thì được (かまいません = không sao), quay video thì không. Tranh A là máy ảnh + điện thoại quay video → đáp án. Chú ý cặp {写真|しゃしん} (ảnh) – {動画|どうが} (video).
+@3.q Q
+Hai người sẽ đi ăn cơm khi nào?
+@3.4 DICH
+Saido: Muna, đi ăn hôm nào thì được? / Muna: Tôi thì thứ Ba. Còn Saido? / Saido: Xin lỗi, thứ Ba thì hơi… / Muna: Vậy thứ Tư. / Saido: Thứ Tư… được. / Muna: Vậy chọn thứ Tư nhé.
+@3.6 GT
+「{火曜日|かようび}はちょっと……」 = từ chối nhẹ nhàng (thứ Ba không được). Sau đó chốt 「{水曜日|すいようび}にしましょう」 (〜にしましょう = quyết định chọn ~).
+@4.q Q
+Công việc từ mấy giờ đến mấy giờ?
+@4.4 DICH
+Tôi giải thích lịch một ngày. Công việc bắt đầu từ 9 giờ sáng. Đầu tiên có họp đầu giờ. Buổi sáng làm đến 12 giờ. 12–1 giờ nghỉ trưa. Từ 1 giờ làm buổi chiều. 3–3 rưỡi nghỉ giải lao. Công việc đến 6 giờ. Thỉnh thoảng làm thêm.
+@4.6 GT
+Bài có nhiều mốc giờ – ghi nhanh giờ bắt đầu 「{毎朝|まいあさ}9{時|じ}から」 và giờ kết thúc 「6{時|じ}までです」. 12{時|じ}～1{時|じ} là nghỉ trưa ({昼休|ひるやす}み), 3{時|じ}～3{時半|じはん} là giờ nghỉ ({休|やす}み{時間|じかん}) – không phải giờ làm việc.
+@5.q Q
+Tawatt muốn làm gì ở Nhật?
+@5.4 DICH
+Còn Tawatt? – Tôi muốn đến đền Suga ở Shinjuku. – Đền Suga? Ở đâu? À, ngôi đền trong anime &quot;Your Name&quot; phải không? – Vâng. Ngoài ra tôi muốn ăn bánh dorayaki. – Lại anime à? – Vâng, Doraemon.
+@5.6 GT
+「{須賀|すか}{神社|じんじゃ}に{行|い}きたいです」 → {神社|じんじゃ} (đền thần đạo, có cổng {鳥居|とりい} torii) = tranh C. Phân biệt: {神社|じんじゃ} (じんじゃ, cổng torii) – お{寺|てら} (おてら, chùa, có tháp).
+@6.q Q
+Cuối tuần anh Shin đã làm gì?
+@6.4 DICH
+Kawaguchi: Cuối tuần anh làm gì? / Shin: Tôi đi suối nước nóng Beppu với bạn. Lần đầu tắm suối ngoài trời, rất dễ chịu, phong cảnh cũng đẹp. Sau đó ăn gà tempura gần suối – ngon nhưng hơi đắt.
+@6.6 GT
+「{別府|べっぷ}{温泉|おんせん}に{行|い}きました」「{露天風呂|ろてんぶろ}に{入|はい}りました」 → tranh A (tắm suối nước nóng ngoài trời). {露天風呂|ろてんぶろ} (ろてんぶろ) = bồn tắm lộ thiên.
+@7.q Q
+Bộ phim thế nào?
+@7.4 DICH
+Mariel: Kỳ nghỉ của Bayu thế nào? / Bayu: Tôi đi xem phim &quot;Godzilla&quot;. / Mariel: Có hay không? / Bayu: Cũng thường thôi. / … Mariel: Tôi dọn dẹp, giặt giũ cả ngày. Vất vả lắm.
+@7.6 GT
+「まあまあでした」 = tàm tạm, bình thường → tranh C (tay lắc lư). Thang đánh giá: とても〜 &gt; よかった &gt; まあまあ &gt; あまり〜ない.
+@8.q Q
+Phương làm gì vào ngày nghỉ?
+@8.4 DICH
+Eko: Ngày nghỉ Phương làm gì? / Phương: Tôi thường chơi cầu lông với bạn. Tôi rất thích thể thao. / Ishikawa: Ở đâu? / Phương: Ở nhà thi đấu của thành phố. Tuần nào cũng chơi đến chiều rồi cùng ăn cơm.
+@8.6 GT
+「たいてい{友|とも}だちとバドミントンをします」 → tranh B. たいてい = thường thì. {体育館|たいいくかん} (THỂ DỤC QUÁN) = nhà thi đấu.
+@9.q Q
+Ở nước của Bayar có những mùa như thế nào?
+@9.4 DICH
+A: Nước Bayar có những mùa nào? / B: Giống Nhật, có bốn mùa. Nhưng mùa hè rất nóng, mùa đông rất lạnh. Mùa hè 40 độ, mùa đông âm 40 độ.
+@9.6 GT
+「{四季|しき}があります」「{夏|なつ}は40{度|ど}、{冬|ふゆ}はマイナス40{度|ど}」 → tranh A (biểu đồ nhiệt độ lên rất cao rồi xuống rất thấp). マイナス = âm (dưới 0 độ).
+@10.q Q
+Chúc mừng chuyện gì?
+@10.4 DICH
+A: Nghe nói anh vừa có em bé? / B: Ừ, cảm ơn. Bé sinh hôm qua. / A: Chúc mừng! Trai hay gái? / B: Con gái. / A: Đã đặt tên chưa? / B: Chưa, giờ mới nghĩ.
+@10.6 GT
+「お{子|こ}さんが{生|う}まれた」 = em bé chào đời → tranh C. 〜そうですね (nghe nói ~) dùng để chúc mừng tin vừa nghe. Từ liên quan: {出産|しゅっさん} (しゅっさん) = sinh con.
+@11.q Q
+Mọi người sẽ ăn gì?
+@11.4 DICH
+Eleanor: Tôi sẽ hỏi lịch của Anna rồi báo mọi người. / Chu: Địa điểm ở đâu thì được? / Eleanor: Trước đây Anna nói rất thích yakitori. Quán &quot;Tanabe&quot; trước ga thì sao? / Chu: Vậy lát tôi đặt chỗ.
+@11.6 GT
+Tiệc chia tay Anna. 「アナさん、{前|まえ}に、{焼|や}き{鳥|とり}が{大好|だいす}きだと{言|い}ってました」 → chọn quán yakitori → tranh A. Phần sau của bài nói về quà – xem câu tiếp theo.
+@12.q Q
+Mọi người sẽ tặng gì cho Anna?
+@12.4 DICH
+Eleanor: Mình tặng Anna món quà gì không? / Chu: Tặng gì thì hay? Ở nước chị người ta tặng gì? / Eleanor: Hoa chẳng hạn? / Chu: Tôi nghĩ nên tặng thứ để lại kỷ niệm. Ngân sách bao nhiêu? / Eleanor: Khoảng 10 người, nên món khoảng 5.000 yên. / Chu: Vậy khung ảnh kỹ thuật số thì sao? / Eleanor: Hay đấy.
+@12.6 GT
+Hoa ({花|はな}) bị gạt đi: 「もっと、{思|おも}い{出|で}に{残|のこ}るものがいい」. Chốt 「デジタルフォトフレームはどうですか」「いいですね」 → tranh B. Cùng hội thoại với câu trước (hỏi món ăn).
+@13.q Q
+Shihā không ăn được món nào?
+@13.4 DICH
+Nhân viên: Món được ưa chuộng là cơm phần sashimi. / Ishii: Vậy tôi chọn món đó. / Shihā: Tôi không ăn được cá sống… có món nào khác không? / Nhân viên: Món chiên thì sao? Tôi gợi ý cơm phần đồ chiên tổng hợp. / Shihā: Vậy chọn món đó.
+@13.6 GT
+「{生|なま}の{魚|さかな}が{苦手|にがて}」 = không ăn được cá sống → món Shihā không ăn được là お{刺身|さしみ}{定食|ていしょく} (tranh A). {苦手|にがて} (にがて) = kém / không thích. Shihā gọi ミックスフライ{定食|ていしょく} (tranh C) – đừng nhầm câu hỏi &quot;{苦手|にがて}なのは&quot;.
+@14.q Q
+Tokyo là nơi như thế nào?
+@14.4 DICH
+A: Nghe nói anh Ota từng sống ở Tokyo. Tokyo thế nào? / B: Đúng là đông người lắm. Tàu cũng đông, giờ cao điểm rất vất vả. Nhưng nhiều chỗ chơi nên chơi cả ngày được.
+@14.6 GT
+「やっぱり{人|ひと}が{多|おお}いよね」「{電車|でんしゃ}も{混|こ}んでいて」 → tranh B (sân ga đông người). ラッシュ = giờ cao điểm.
+@15.q Q
+Nadia muốn ở chỗ nghỉ như thế nào?
+@15.4 DICH
+B: Tôi muốn thử ở ryokan Nhật, có đắt không? / A: Có chỗ rẻ, có chỗ đắt. Nếu muốn chỗ rẻ thì minshuku cũng được – nhà nghỉ nhỏ do gia đình kinh doanh. / B: Minshuku à. / A: Mùa hè rất đông, nên lên kế hoạch và đặt sớm.
+@15.6 GT
+Nadia muốn chỗ rẻ, được gợi ý 「{安|やす}いところがいいなら、{民宿|みんしゅく}」 → tranh C (biển {民宿|みんしゅく}). {旅館|りょかん} = nhà trọ kiểu Nhật (thường đắt hơn), {民宿|みんしゅく} = nhà nghỉ gia đình, rẻ.
+@16.q Q
+Khi đi trượt tuyết, nên tự mua những gì?
+@16.4 DICH
+A: Tôi không có dụng cụ gì cả. Nên chuẩn bị gì? / B: Ván trượt và quần áo thì thuê được ở khu trượt tuyết. Nhưng mũ và găng tay thì nên tự mua. / A: Ở đó không mua được à? / B: Mua được nhưng đắt, nên mua ở đây rồi mang theo.
+@16.6 GT
+「{帽子|ぼうし}と{手袋|てぶくろ}は、{自分|じぶん}で{買|か}ったほうがいい」 → tranh B. スキー{板|いた}・ウェア = {借|か}りられる (thuê được). Vたほうがいい = nên làm V.
+@17.q Q
+Tại sao tàu điện bị trễ 30 phút?
+@17.4 DICH
+Thông báo: Chuyến 13 giờ 9 phút đi Kochi đang chạy trễ khoảng 30 phút do sự cố tín hiệu. / A: Thông báo vừa rồi nói gì vậy? / B: Tàu trễ 30 phút. Nói là hỏng tín hiệu. / A: Tín hiệu…? / B: Tức là đèn tín hiệu bị hỏng.
+@17.6 GT
+「{信号|しんごう}{故障|こしょう}のため」 = do hỏng đèn tín hiệu → tranh C. 〜のため = vì ~ (cách nói trang trọng trong thông báo). {故障|こしょう} (CỐ CHƯỚNG) = hỏng hóc.
+@18.q Q
+Đổi tàu ở Okayama, tàu Shinkansen Kodama số 729 ở sân ga số mấy?
+@18.4 DICH
+Cảm ơn quý khách. Khoảng 3 phút nữa đến Okayama. Cửa ra bên trái, tàu đến sân ga 22. Thông tin đổi tàu: Shinkansen Kodama 729 đi Hakata, 9 giờ 50, ở cùng sân ga, phía đối diện – sân ga 21. Tàu thường tuyến Sanyo 9 giờ 57, sân ga 2.
+@18.6 GT
+Chú ý: 「22{番|ばん}{線|せん}に{着|つ}きます」 là sân ga tàu mình đang đi sẽ dừng. Kodama 729 ở 「{同|おな}じホーム、{向|む}かい{側|がわ}、21{番|ばん}{線|せん}」 → 21. Nghe số đi kèm đúng tên tàu được hỏi.
+@19.q Q
+Hôm nay Ed đã đi đâu?
+@19.4 DICH
+Sakamoto: Anh Ed từ đâu đến? / Ed: Philippines, nhưng giờ sống ở Nhật. / Sakamoto: Anh du lịch Nikko à? / Ed: Vâng, ở 1 đêm. / Sakamoto: Hôm nay anh đi đâu? / Ed: Hôm nay tôi đi Toshogu. Mai định đi hồ Chuzenji.
+@19.6 GT
+「{今日|きょう}は、{東照宮|とうしょうぐう}に{行|い}きました」 → tranh A. {中禅寺|ちゅうぜんじ}{湖|こ} là ngày mai ({明日|あした}〜つもりです), {温泉|おんせん} là việc muốn làm sau đó – nghe kỹ thời gian {今日|きょう} / {明日|あした}.
+@20.q Q
+Từ bây giờ Ed muốn làm gì?
+@20.4 DICH
+Sakamoto: Hôm nay anh đi đâu? / Ed: Hôm nay đi Toshogu. Mai định đi hồ Chuzenji. / Sakamoto: Đã ăn món gì ngon chưa? / Ed: Ăn soba rồi. Muốn thử yuba nữa. Ngoài ra tôi muốn tắm suối nước nóng, nên tắm ở đâu? / Sakamoto: Khách sạn ở hồ Chuzenji có chỗ cho tắm trong ngày.
+@20.6 GT
+Cùng bài với câu trước, nhưng câu hỏi khác: 「これから{何|なに}をしたいですか」 → 「{温泉|おんせん}に{入|はい}りたいんですけど」 → tranh C. {東照宮|とうしょうぐう} là việc đã làm hôm nay ({行|い}きました), {中禅寺|ちゅうぜんじ}{湖|こ} là dự định (つもり).
+@21.q Q
+Trước khi múa Bon-odori, sẽ làm gì?
+@21.4 DICH
+Sugimura: Mặc gì cũng được. À, tôi có yukata của con gái, cho mượn nhé? / Laura: Vui quá! / Gina: Nhưng tự mặc được không? / Sugimura: Tôi giúp nên không sao. Trước Bon-odori, mặc yukata ở nhà tôi rồi cùng đi. … Múa xong thì cùng đi izakaya.
+@21.6 GT
+「{盆踊|ぼんおど}りの{前|まえ}に、うちで{浴衣|ゆかた}を{着|き}てから{行|い}きましょう」 → tranh A. Đi izakaya (tranh C) là SAU khi múa ({盆踊|ぼんおど}りが{終|お}わったら). Phân biệt 〜の{前|まえ}に / 〜が{終|お}わったら.
+@22.q Q
+Đặt chỗ vào khi nào?
+@22.4 DICH
+Nhân viên: Quý khách đã chọn ngày chưa? / Natt: Tối thứ Tư tuần sau. / Nhân viên: Ngày 9 nhỉ. Mấy người? / Natt: 6 người. / Nhân viên: Mấy giờ? / Natt: 7 giờ được không? / Nhân viên: Thứ Tư ngày 9, 19 giờ… vâng, được ạ.
+@22.6 GT
+{水曜日|すいようび} → 9日, 7{時|じ} (tối) = 19{時|じ} → 9日19{時|じ}（{水曜日|すいようび}）. Đổi giờ: {午後|ごご}7{時|じ} = 19{時|じ}. 17{時|じ} = 5 giờ chiều.

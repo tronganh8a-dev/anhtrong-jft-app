@@ -1,0 +1,132 @@
+@1.q Q
+What is not allowed in the park?
+@1.4 DICH
+Ladies and gentlemen, we have a request. Smoking is not allowed in the park. As there are also small children here, please do not smoke in the park. Thank you for your cooperation.
+@1.6 GT
+「{公園|こうえん}{内|ない}は{禁煙|きんえん}」 = no smoking in the park. 「〜はご{遠慮|えんりょ}ください」 is a polite way of saying "please do not ~" (=〜しないでください), often heard in announcements. The announcement says nothing about taking photos or eating and drinking.
+@2.q Q
+What is not allowed at the speech contest?
+@2.4 DICH
+Thank you for coming to the speech contest. During the contest, you may take photos, but please do not record videos. Also, please turn off your phone or set it to silent mode, and do not make phone calls.
+@2.6 GT
+「{写真|しゃしん}の{撮影|さつえい}はかまいませんが、{動画|どうが}の{撮影|さつえい}はご{遠慮|えんりょ}ください」: taking photos is fine (かまいません = no problem), but recording videos is not. Picture A shows a camera and a phone recording video → the answer. Note the pair {写真|しゃしん} (photo) – {動画|どうが} (video).
+@3.q Q
+When will the two of them go out to eat?
+@3.4 DICH
+Saido: Muna, which day is good for going out to eat? / Muna: Tuesday works for me. How about you, Saido? / Saido: Sorry, Tuesday is a bit… / Muna: Then Wednesday. / Saido: Wednesday… is fine. / Muna: OK, let's make it Wednesday.
+@3.6 GT
+「{火曜日|かようび}はちょっと……」 = a soft refusal (Tuesday doesn't work). Then they decide: 「{水曜日|すいようび}にしましょう」 (〜にしましょう = let's go with ~).
+@4.q Q
+What are the working hours?
+@4.4 DICH
+Let me explain the daily schedule. Work starts at 9 a.m. First, there is a morning meeting. In the morning we work until 12. From 12 to 1 is lunch break. The afternoon work starts at 1. From 3 to 3:30 there is a break. Work finishes at 6. Sometimes there is overtime.
+@4.6 GT
+The talk has many times in it – quickly note the start time 「{毎朝|まいあさ}9{時|じ}から」 and the end time 「6{時|じ}までです」. 12{時|じ}～1{時|じ} is the lunch break ({昼休|ひるやす}み), and 3{時|じ}～3{時半|じはん} is a rest break ({休|やす}み{時間|じかん}) – these are not working hours.
+@5.q Q
+What does Tawatt want to do in Japan?
+@5.4 DICH
+How about you, Tawatt? – I want to go to Suga Shrine in Shinjuku. – Suga Shrine? Where is that? Oh, the shrine in the anime "Your Name", right? – Yes. I also want to eat dorayaki. – Anime again? – Yes, Doraemon.
+@5.6 GT
+「{須賀|すが}{神社|じんじゃ}に{行|い}きたいです」 → {神社|じんじゃ} (a Shinto shrine, with a {鳥居|とりい} torii gate) = picture C. Tell them apart: {神社|じんじゃ} (じんじゃ, torii gate) – お{寺|てら} (おてら, Buddhist temple, often with a pagoda).
+@6.q Q
+What did Shin do on the weekend?
+@6.4 DICH
+Kawaguchi: What did you do on the weekend? / Shin: I went to Beppu hot springs with a friend. It was my first time in an outdoor bath – it felt great, and the view was beautiful. After that we ate chicken tempura near the hot spring. It was tasty but a bit expensive.
+@6.6 GT
+「{別府|べっぷ}{温泉|おんせん}に{行|い}きました」「{露天風呂|ろてんぶろ}に{入|はい}りました」 → picture A (bathing in an outdoor hot spring). {露天風呂|ろてんぶろ} (ろてんぶろ) = outdoor bath.
+@7.q Q
+How was the movie?
+@7.4 DICH
+Mariel: How was your holiday, Bayu? / Bayu: I went to see the movie "Godzilla". / Mariel: Was it good? / Bayu: It was just OK. / … Mariel: I did cleaning and laundry all day. It was exhausting.
+@7.6 GT
+「まあまあでした」 = so-so, just OK → picture C (a hand tilting back and forth). The scale of opinions: とても〜 &gt; よかった &gt; まあまあ &gt; あまり〜ない.
+@8.q Q
+What does Phương do on her days off?
+@8.4 DICH
+Eko: What do you do on your days off, Phương? / Phương: I usually play badminton with friends. I love sports. / Ishikawa: Where? / Phương: At the city gymnasium. Every week we play until the afternoon and then eat together.
+@8.6 GT
+「たいてい{友|とも}だちとバドミントンをします」 → picture B. たいてい = usually. {体育館|たいいくかん} = gymnasium.
+@9.q Q
+What are the seasons like in Bayar's country?
+@9.4 DICH
+A: What seasons are there in your country, Bayar? / B: Like Japan, there are four seasons. But summer is very hot and winter is very cold. It's 40 degrees in summer and minus 40 degrees in winter.
+@9.6 GT
+「{四季|しき}があります」「{夏|なつ}は40{度|ど}、{冬|ふゆ}はマイナス40{度|ど}」 → picture A (a temperature chart that goes very high and then very low). マイナス = minus (below zero).
+@10.q Q
+What are they celebrating?
+@10.4 DICH
+A: I heard you just had a baby? / B: Yes, thanks. The baby was born yesterday. / A: Congratulations! A boy or a girl? / B: A girl. / A: Have you chosen a name? / B: Not yet – we're thinking about it now.
+@10.6 GT
+「お{子|こ}さんが{生|う}まれた」 = a baby was born → picture C. 〜そうですね (I heard that ~) is used to congratulate someone on news you have just heard. Related word: {出産|しゅっさん} (しゅっさん) = giving birth.
+@11.q Q
+What will everyone eat?
+@11.4 DICH
+Eleanor: I'll check Anna's schedule and let everyone know. / Chu: Where should we have it? / Eleanor: Anna once said she loves yakitori. How about "Tanabe" in front of the station? / Chu: OK, I'll make a reservation later.
+@11.6 GT
+A farewell party for Anna. 「アナさん、{前|まえ}に、{焼|や}き{鳥|とり}が{大好|だいす}きだと{言|い}ってました」 → they choose a yakitori restaurant → picture A. The second half of the conversation is about the present – see the next question.
+@12.q Q
+What will everyone give Anna?
+@12.4 DICH
+Eleanor: Shall we give Anna a present? / Chu: What would be good? What do people give in your country? / Eleanor: Flowers, maybe? / Chu: I think something she'll keep as a memory would be better. What's the budget? / Eleanor: There are about 10 of us, so something around 5,000 yen. / Chu: Then how about a digital photo frame? / Eleanor: Good idea.
+@12.6 GT
+Flowers ({花|はな}) are rejected: 「もっと、{思|おも}い{出|で}に{残|のこ}るものがいい」. The decision: 「デジタルフォトフレームはどうですか」「いいですね」 → picture B. This is the same conversation as the previous question (about the food).
+@13.q Q
+Which dish can't Shihā eat?
+@13.4 DICH
+Staff: Our most popular dish is the sashimi set meal. / Ishii: Then I'll have that. / Shihā: I can't eat raw fish… is there anything else? / Staff: How about something fried? I recommend the mixed fry set meal. / Shihā: Then I'll have that.
+@13.6 GT
+「{生|なま}の{魚|さかな}が{苦手|にがて}」 = can't eat raw fish → the dish Shihā can't eat is お{刺身|さしみ}{定食|ていしょく} (picture A). {苦手|にがて} (にがて) = not good at / dislike. Shihā orders the ミックスフライ{定食|ていしょく} (picture C) – don't confuse this with the question "{苦手|にがて}なのは".
+@14.q Q
+What is Tokyo like?
+@14.4 DICH
+A: I heard you used to live in Tokyo, Mr. Ota. What's Tokyo like? / B: There really are a lot of people. The trains are crowded too – rush hour is tough. But there are lots of places to have fun, so you can enjoy yourself all day.
+@14.6 GT
+「やっぱり{人|ひと}が{多|おお}いよね」「{電車|でんしゃ}も{混|こ}んでいて」 → picture B (a crowded platform). ラッシュ = rush hour.
+@15.q Q
+What kind of place does Nadia want to stay at?
+@15.4 DICH
+B: I'd like to try staying at a Japanese ryokan. Are they expensive? / A: Some are cheap and some are expensive. If you want somewhere cheap, a minshuku is good too – it's a small inn run by a family. / B: A minshuku. / A: It's very busy in summer, so plan and book early.
+@15.6 GT
+Nadia wants somewhere cheap and is told 「{安|やす}いところがいいなら、{民宿|みんしゅく}」 → picture C (a {民宿|みんしゅく} sign). {旅館|りょかん} = a traditional Japanese inn (usually more expensive), {民宿|みんしゅく} = a family-run guesthouse, cheaper.
+@16.q Q
+When going skiing, what should you buy yourself?
+@16.4 DICH
+A: I don't have any equipment. What should I get ready? / B: You can rent skis and ski wear at the ski resort. But you should buy a hat and gloves yourself. / A: Can't I buy them there? / B: You can, but they're expensive, so buy them here and take them with you.
+@16.6 GT
+「{帽子|ぼうし}と{手袋|てぶくろ}は、{自分|じぶん}で{買|か}ったほうがいい」 → picture B. スキー{板|いた}・ウェア = {借|か}りられる (can be rented). Vたほうがいい = you should do V.
+@17.q Q
+Why is the train 30 minutes late?
+@17.4 DICH
+Announcement: The 13:09 train bound for Kochi is running about 30 minutes late due to a signal problem. / A: What did that announcement say? / B: The train is 30 minutes late. They said there's a signal problem. / A: A signal…? / B: It means the signal lights are broken.
+@17.6 GT
+「{信号|しんごう}{故障|こしょう}のため」 = because of a signal failure → picture C. 〜のため = because of ~ (formal, used in announcements). {故障|こしょう} = breakdown, malfunction.
+@18.q Q
+When changing trains at Okayama, which track is the Shinkansen Kodama 729 on?
+@18.4 DICH
+Thank you for traveling with us. We will arrive at Okayama in about 3 minutes. The doors on the left side will open, and this train arrives at track 22. Connecting trains: the Shinkansen Kodama 729 for Hakata, departing at 9:50, is on the same platform, on the opposite side – track 21. The local Sanyo Line train departs at 9:57 from track 2.
+@18.6 GT
+Be careful: 「22{番|ばん}{線|せん}に{着|つ}きます」 is the track where the train you are on will stop. The Kodama 729 is at 「{同|おな}じホーム、{向|む}かい{側|がわ}、21{番|ばん}{線|せん}」 → 21. Listen for the number that goes with the train in the question.
+@19.q Q
+Where did Ed go today?
+@19.4 DICH
+Sakamoto: Where are you from, Ed? / Ed: The Philippines, but I live in Japan now. / Sakamoto: Are you traveling in Nikko? / Ed: Yes, staying one night. / Sakamoto: Where did you go today? / Ed: Today I went to Toshogu. Tomorrow I'm planning to go to Lake Chuzenji.
+@19.6 GT
+「{今日|きょう}は、{東照宮|とうしょうぐう}に{行|い}きました」 → picture A. {中禅寺|ちゅうぜんじ}{湖|こ} is for tomorrow ({明日|あした}〜つもりです), and the {温泉|おんせん} is something he wants to do afterwards – listen carefully for {今日|きょう} / {明日|あした}.
+@20.q Q
+What does Ed want to do next?
+@20.4 DICH
+Sakamoto: Where did you go today? / Ed: Today I went to Toshogu. Tomorrow I'm planning to go to Lake Chuzenji. / Sakamoto: Have you eaten anything good? / Ed: I had soba. I want to try yuba too. Also, I'd like to go to a hot spring – where should I go? / Sakamoto: The hotels at Lake Chuzenji have baths you can use as a day visitor.
+@20.6 GT
+Same conversation as the previous question, but a different question: 「これから{何|なに}をしたいですか」 → 「{温泉|おんせん}に{入|はい}りたいんですけど」 → picture C. {東照宮|とうしょうぐう} is what he did today ({行|い}きました), and {中禅寺|ちゅうぜんじ}{湖|こ} is a plan (つもり).
+@21.q Q
+What will they do before the Bon dance?
+@21.4 DICH
+Sugimura: You can wear anything. Oh, I have my daughter's yukata – shall I lend them to you? / Laura: That would be great! / Gina: But can we put them on by ourselves? / Sugimura: I'll help, so don't worry. Before the Bon dance, let's put on the yukata at my place and then go together. … After the dance, let's go to an izakaya together.
+@21.6 GT
+「{盆踊|ぼんおど}りの{前|まえ}に、うちで{浴衣|ゆかた}を{着|き}てから{行|い}きましょう」 → picture A. Going to an izakaya (picture C) is AFTER the dance ({盆踊|ぼんおど}りが{終|お}わったら). Tell the difference between 〜の{前|まえ}に (before) and 〜が{終|お}わったら (after ~ ends).
+@22.q Q
+When is the reservation for?
+@22.4 DICH
+Staff: Have you decided on the date? / Natt: Next Wednesday evening. / Staff: That's the 9th. How many people? / Natt: Six. / Staff: What time? / Natt: Is 7 o'clock OK? / Staff: Wednesday the 9th at 19:00… yes, that's fine.
+@22.6 GT
+{水曜日|すいようび} → 9日, 7{時|じ} (in the evening) = 19{時|じ} → 9日19{時|じ}（{水曜日|すいようび}）. Converting the time: {午後|ごご}7{時|じ} = 19{時|じ}. 17{時|じ} = 5 p.m.

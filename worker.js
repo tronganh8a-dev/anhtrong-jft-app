@@ -15,6 +15,8 @@ const isDemo = h => /^jft-dungthu\./i.test(h);
 async function demo(req, env) {
   const url = new URL(req.url);
   if (url.pathname === '/login' || url.pathname === '/logout') return Response.redirect(url.origin + '/', 302);
+  // 23/11: bản tiếng Anh ở /en (en.html dùng đường dẫn tương đối từ gốc → /en/ phải chuyển hẳn sang /en)
+  if (/^\/en(\/|\.html)$/.test(url.pathname)) return Response.redirect(url.origin + '/en', 301);
   let p = url.pathname.endsWith('/') ? url.pathname : url.pathname;
   let res;
   for (let i = 0; i < 4; i++) {

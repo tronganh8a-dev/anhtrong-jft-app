@@ -1,0 +1,218 @@
+@1.2 DICH
+Picture: a person grimacing after drinking black coffee → bitter.
+@1.4 GT
+{苦|にが}い (にがい) = bitter – the taste of black coffee. {甘|あま}い (あまい) = sweet, {辛|から}い (からい) = spicy, すっぱい = sour. Note that {苦|にが}い (bitter) and {苦手|にがて} (not good at / not fond of) share the same kanji 苦. (いろどり Elementary 1, Lesson 12)
+@2.2 DICH
+Picture: a row of cherry trees in bloom → spring.
+@2.4 GT
+{桜|さくら}の{花|はな}が{咲|さ}く = the cherry blossoms bloom, a sign of spring. Each season has its own image: {雪|ゆき}が{降|ふ}る = it snows (winter), もみじ = red autumn leaves (autumn), セミが{鳴|な}く = cicadas sing (summer). (いろどり Elementary 1, Lesson 3)
+@3.2 DICH
+Picture: a crowded street with many buildings and a SALE sign → lively.
+@3.4 GT
+にぎやか（な）= lively, bustling; the opposite is {静|しず}か（な）= quiet. {緑|みどり}が{多|おお}い = there is a lot of greenery, {不便|ふべん} = inconvenient. (いろどり Elementary 1, Lesson 5)
+@4.2 DICH
+Cross the bridge and go straight.
+@4.4 GT
+はしを　わたる ({橋|はし}を{渡|わた}る) = cross a bridge. The particle を marks the place you pass through. のる = get on (〜に), おりる = get off (〜を), まがる = turn (〜を/〜に) – none of these are used with はし. (いろどり Elementary 1, Lesson 6)
+@5.2 DICH
+Let's meet at the station ticket gate tomorrow.
+@5.4 GT
+えきの　かいさつ ({駅|えき}の{改札|かいさつ}) = the station ticket gate, a common meeting place in Japan. はし = bridge, かど = street corner, しんごう = traffic light – none of these belong to a station. (いろどり Elementary 1, Lesson 7)
+@6.2 DICH
+The computer isn't working, so try restarting it.
+@6.4 GT
+さいきどう ({再起動|さいきどう}) = restart. Vてみる = try doing something. しゅうり ({修理|しゅうり}) = repair – usually something you ask someone else to do, not something you "try"; そうじ = cleaning, けんがく = a tour / visit. (いろどり Elementary 1, Lesson 13)
+@7.2 DICH
+I study Japanese every day.
+@7.4 GT
+{毎日|まいにち} is read まいにち. The kanji 日 has several readings (ひ, にち, じつ, び), but in this word it is にち. めいにち has the wrong sound for 毎 (まい).
+@8.2 DICH
+This town has a lot of shops, so it is convenient.
+@8.4 GT
+{便利|べんり} is read べんり. Each wrong option changes one sound: へんり (missing the voicing mark), びんり (wrong vowel), べんい (い instead of り). Opposite: {不便|ふべん} ふべん.
+@9.2 DICH
+Could you prepare for the meeting?
+@9.4 GT
+{会議|かいぎ} is read かいぎ = meeting. 議 is read ぎ (voiced); 会 is read かい (not voiced). かいいぎ has an extra い.
+@10.2 DICH
+Please turn right at the next corner.
+@10.4 GT
+みぎ = {右|みぎ}. Look-alike kanji: 在 (ざい), {石|いし} (stone), 古 (old, as in {古|ふる}い). Tell {右|みぎ} (right) and {左|ひだり} (left) apart: {右|みぎ} has 口 at the bottom, {左|ひだり} has 工.
+@11.2 DICH
+This town has a lot of shops, so it is convenient.
+@11.4 GT
+みせ = {店|みせ}. Kanji with the same 广 radical: {床|ゆか} (floor), {庭|にわ} (garden), 広 (wide, as in {広|ひろ}い). To remember it: 广 + 占 = {店|みせ}.
+@12.2 DICH
+Is there egg in this dish?
+@12.4 GT
+たまご = {卵|たまご}. {卵|たまご} has two dots inside. 卯 and 夘 have no dots; 印 (しるし, mark/stamp) is a different kanji.
+@13.2 DICH
+Yamada: Have you gotten used to life in Japan? / Long: Yes, thanks to everyone, I have.
+@13.4 GT
+A polite reply when someone asks how you are doing: はい、おかげさまで. おじゃまします (said when entering someone's home), おだいじに (said to someone who is sick: "get well soon"), おまちどおさま (sorry to have kept you waiting). (いろどり Elementary 1, Lesson 1)
+@14.2 DICH
+Kimura: Besides Japanese, are you learning anything? / Ninh: Yes, I'm learning the guitar.
+@14.4 GT
+The question {習|なら}っていますか (are you learning) is answered with the same Vています form: ギターを{習|なら}っています. {習|なら}いましょう is an invitation ("let's learn"). {習|なら}う = learn (from someone). (いろどり Elementary 1, Lesson 2)
+@15.2 DICH
+Yamamoto: It has gotten a lot warmer, hasn't it? / Rin: It really has.
+@15.4 GT
+To describe a change: Aく＋なりました ({暖|あたた}かい → {暖|あたた}かくなりました). だいぶ = quite a lot. {暖|あたた}かい = warm. (いろどり Elementary 1, Lesson 4)
+@16.2 DICH
+Minh: I turn left at the first traffic light, right? / Passer-by: No, not the first one – the second one.
+@16.4 GT
+To correct information: A じゃなくて B = not A, but B. でも and だけど mean "but"; だから means "so / therefore". (いろどり Elementary 1, Lesson 6)
+@17.2 DICH
+Suzuki: Have you been up Port Tower yet? / Ana: No, not yet. / Suzuki: Then shall we go together next time?
+@17.4 GT
+For a もう〜ましたか question, if you haven't done it yet, answer いいえ、まだです. The invitation {今度|こんど}{行|い}きませんか in the next line shows that Ana hasn't been yet. はい does not go with まだ. {登|のぼ}る = climb, go up. (いろどり Elementary 1, Lesson 8)
+@18.2 DICH
+Ali: Excuse me, could you tell me how to read this kanji? / Nishimura: This one? It's read "Itō".
+@18.4 GT
+To ask someone for a favor: Vて　もらえませんか. {教|おし}えましょうか is an offer to teach someone else (the roles are reversed). {読|よ}み{方|かた} = how to read something. (いろどり Elementary 1, Lesson 9)
+@19.2 DICH
+Marco: Is beer and wine OK for drinks? / Noi: Oh, sorry, I can't drink alcohol, so…
+@19.4 GT
+A polite refusal: あのう、すみません + 〜がだめですから…… (leaving the sentence unfinished). It is a way to avoid saying "no" directly. (いろどり Elementary 1, Lesson 11)
+@20.2 DICH
+Tamura: What is that? / Huyền: It's a vanilla chocolate cream latte. / Tamura: Oh, it looks sweet.
+@20.4 GT
+To comment on how something looks: drop い from Aい and add そうです ({甘|あま}い → {甘|あま}そう). {甘|あま}いそうです means "I hear it is sweet" (passing on information) – it doesn't fit, because Tamura is looking at the drink. Tamura hasn't tasted it, so {甘|あま}かった is also wrong. (いろどり Elementary 1, Lesson 12)
+@21.2 DICH
+Vương: I was absent yesterday – I'm sorry. / Tamura: That's all right. Are you feeling better now?
+@21.4 GT
+Apologizing for missing work: {休|やす}んで、すみませんでした (the て-form gives the reason). The reply いえ (not at all) confirms that this is an apology. (いろどり Elementary 1, Lesson 14)
+@22.2 DICH
+Pharmacist: This is a painkiller. Please take it when the pain is too much to bear. / Quách: All right.
+@22.4 GT
+がまんできない = cannot bear it. {痛|いた}くて + がまんできない (it hurts so much that you can't bear it) → that is when you take a painkiller. {痛|いた}み{止|ど}め = painkiller. (いろどり Elementary 1, Lesson 15)
+@23.2 DICH
+Sakai: Do you do anything to stay healthy? / José: Yes. I try not to drink too much.
+@23.4 GT
+Vます without ます + すぎる = do something too much. To say you try to avoid something: 〜ないようにしています → {飲|の}みすぎないようにしています. {健康|けんこう} = health. (いろどり Elementary 1, Lesson 16)
+@24.2 DICH
+Rin: Should I take an umbrella? / Yamamoto: Yes, I saw the weather forecast – it says it will rain this afternoon.
+@24.4 GT
+To pass on information you heard or saw: plain form + そうです ({降|ふ}る → {降|ふ}るそうです). {天気予報|てんきよほう}で{見|み}ました gives the source. This is different from {甘|あま}そう ("looks sweet") in question 8. (いろどり Elementary 1, Lesson 4)
+@25.q Q
+Has this person gotten used to life in Japan?
+@25.4 DICH
+A: How long have you been in Japan? / B: I came last month. / A: I see. Have you gotten used to it a little? / B: Not quite yet…
+@25.6 GT
+まだ、ちょっと…… is an unfinished sentence meaning "not really used to it yet". The person only arrived {先月|せんげつ} (last month), so they could not have gotten used to it 1{年|ねん}{前|まえ}に. {慣|な}れる = get used to.
+@26.q Q
+About how cold does winter get in Bayar's country?
+@26.4 DICH
+A: What seasons are there in your country, Bayar? / B: Like Japan, there are four seasons. But summer is very hot and winter is very cold. / A: I see. / B: In summer it's 40 degrees, and in winter it's minus 40 degrees. / A: Wow, really?
+@26.6 GT
+The question is about {冬|ふゆ} (winter): {冬|ふゆ}はマイナス40{度|ど}. 40{度|ど} is the summer temperature. マイナス = minus (below zero). {四季|しき} = the four seasons.
+@27.q Q
+What is "Marine Mall" like on Sundays?
+@27.4 DICH
+A: I'd like to go somewhere on my day off. Is there a good place? / B: Let me think. People in this town often go to "Marine Mall". / A: What's that? / B: It's a shopping center with lots of shops, restaurants and a supermarket. It's fun, but I guess it's crowded on Sundays. / A: I see. I'll go and see it once.
+@27.6 GT
+The key point comes after けど: {日曜日|にちようび}は{人|ひと}が{多|おお}いかな. 〜かな = I guess / I wonder (a soft guess). {一度|いちど}{行|い}ってみます = I'll go and try it once.
+@28.q Q
+What time and where will they meet?
+@28.4 DICH
+A: What time and where shall we meet tomorrow? / B: How about 6:30 at the station ticket gate? / A: OK. 6:30 at the station, then. / B: See you.
+@28.6 GT
+6{時半|じはん} = half past six ({半|はん} = half). {改札|かいさつ} = ticket gate. A repeats 6{時半|じはん}に{駅|えき}ですね to confirm.
+@29.q Q
+What will they do next time?
+@29.4 DICH
+A: That was a good movie. / B: I was really moved. It was wonderful. / A: Let's go again sometime. / B: Next time, let's go see a horror movie. / A: Huh…
+@29.6 GT
+{今度|こんど}は (next time) + ホラー{映画|えいが}を{見|み}に{行|い}きましょう. 〜に{行|い}く = go (somewhere) to do something. えー shows A is a little reluctant, but the plan is still a horror movie. {感動|かんどう} = being moved, deeply touched.
+@30.q Q
+What did this person ask for?
+@30.4 DICH
+A: Excuse me, I don't really understand how to fill in this form. Could you explain it once more? / B: Ah, this one is…
+@30.6 GT
+もう{一度|いちど}{説明|せつめい}してもらえませんか = asking for the explanation again. The person does not ask someone to write it for them ({書|か}いて). {書類|しょるい} = documents, forms; {書|か}き{方|かた} = how to write / fill in; {説明|せつめい} = explanation.
+@31.q Q
+Will this person eat the dish? Why?
+@31.4 DICH
+A: Here, please help yourself. / B: Um, does this dish have egg in it? / A: Egg? No, there's no egg in this one. / B: Oh, then it's fine. Thank you, I'll have some!
+@31.6 GT
+B asks about egg (probably because B can't eat eggs). A answers {使|つか}ってません → B says いただきます (I will eat). B eats it because there is no egg → 2.
+@32.q Q
+What do umeboshi (pickled plums) taste like?
+@32.0 ANS
+Option 3 (picture)
+@32.4 DICH
+A: What is that? / B: This? It's umeboshi, a pickled plum. Want to try one? / A: Sure. / B: How is it? / A: Mmm… sorry. It's too sour – I can't really eat it. / B: Oh, I see.
+@32.6 GT
+すっぱい = sour → picture 3 (a lemon). Picture 1 is {辛|から}い (spicy – chili pepper), picture 2 is {苦|にが}い (bitter – coffee), picture 4 is {甘|あま}い (sweet – cake). {梅干|うめぼ}し = pickled plum.
+@33.q Q
+Why will Anisa be late?
+@33.4 DICH
+Company staff: Hello, Kita-Urawa Foods. / Anisa: Hello, um, this is Anisa. / Company staff: Oh, Anisa. / Anisa: I'm sorry, I left my wallet at home. I'm going back to get it now, so I'll be a little late. / Company staff: I see, understood. (Later) / Anisa: Good morning. I'm very sorry for being late.
+@33.6 GT
+The reason is in the line {家|いえ}に{財布|さいふ}を{忘|わす}れました (I left my wallet at home) → それで (so) {少|すこ}し{遅|おく}れます. {財布|さいふ} = wallet, {遅|おく}れる = be late, {申|もう}し{訳|わけ}ありません = I am very sorry (formal).
+@34.q Q
+What happened to this person?
+@34.4 DICH
+A: What brings you in today? / B: I fell on the street yesterday and twisted my ankle. / A: Let me touch it a little. Does this hurt? / B: Ow! / A: I see. Let's take an X-ray, then.
+@34.6 GT
+{転|ころ}ぶ = fall down, {足|あし}をくじく = twist your ankle. {頭|あたま}をぶつける = hit your head – this is not in the conversation. レントゲン = X-ray.
+@35.q Q
+What kind of exercise does this person do?
+@35.4 DICH
+A: Do you do any exercise these days? / B: Well, I go jogging, and sometimes I do yoga at home. / A: Oh, yoga. / B: Yes. If I do yoga before bed, I sleep really well. / A: Is that so.
+@35.6 GT
+Vたり、Vたりする = list a few typical activities: ジョギングしたり、ヨガをしたり. {水泳|すいえい} = swimming. {運動|うんどう} = exercise.
+@36.q Q
+Who made the bag?
+@36.4 DICH
+A: That's a nice bag. / B: Really? Thank you. / A: Did you buy it in Japan? / B: My mother in Myanmar made it. / A: Your mother made it? She's very skilled.
+@36.6 GT
+When talking about your own mother, say {母|はは} (はは); when asking about or talking about someone else's mother, say お{母|かあ}さん. B says ミャンマーの{母|はは}が{作|つく}った → answer 2. {日本|にほん}で{買|か}った is only A's question, not a fact.
+@37.2 DICH
+Profile card: Name: Soka. Country: Cambodia (Phnom Penh). Came to Japan: April last year. Job: caregiving (nursing home). Likes: singing, cooking. A word from me: I want to learn lots of Japanese songs!
+@37.4 GT
+The {仕事|しごと} line: {介護|かいご}（{老人|ろうじん}ホーム）. {料理|りょうり} and {歌|うた} are things Soka likes (すきなこと), not jobs. {介護|かいご} = caregiving, {老人|ろうじん}ホーム = nursing home.
+@38.2 DICH
+(See the translation for the previous question.)
+@38.4 GT
+The ひとこと line: 「{日本|にほん}の{歌|うた}をたくさんおぼえたいです」. Vたい = want to do V. おぼえる ({覚|おぼ}える) = learn, memorize.
+@39.2 DICH
+Yamamoto: It's raining hard outside! / Rin: Oh, really? I don't have an umbrella… / Yamamoto: There are umbrellas at reception. Anyone can use the company umbrellas. / Yamamoto: Please return it to reception tomorrow. / Rin: Thank you!
+@39.4 GT
+「{受付|うけつけ}にかさがありますよ。{会社|かいしゃ}のかさはだれでも{使|つか}えます」 → borrow an umbrella at reception. The umbrellas belong to the company, not to Yamamoto. {受付|うけつけ} = reception desk.
+@40.2 DICH
+(See the translation for the previous question.)
+@40.4 GT
+「あした{受付|うけつけ}に{返|かえ}してくださいね」. {返|かえ}す = return, give back.
+@41.2 DICH
+International Festival staff schedule (the 10th): Minh – reception 9:30–12:00; Ana – food stall 11:00–15:00; Long – stage setup 8:30–10:00; Soka – cleanup 15:00–17:00. ※ The event runs from 10:00 to 15:00. Staff should arrive at the venue 15 minutes before their work starts.
+@41.4 GT
+The earliest start time is Long's (ロン), at 8:30. Note: the event time (10{時|じ}) is different from each person's working hours.
+@42.2 DICH
+(See the translation for the previous question.)
+@42.4 GT
+Ana (アナ) starts at 11:00; the rule is to arrive 15分{前|まえ} (15 minutes before) → 10:45. 11{時|じ} is when her work starts, not when she should arrive.
+@43.2 DICH
+From: Hasegawa | Subject: BBQ next week. Hi everyone, here is the plan for next Saturday's BBQ: Meat and vegetables – Dương will buy and bring them. Drinks – Marco will bring beer and tea. Rice balls – I (Hasegawa) will make and bring them. Dessert – Noi will bring bananas. Cups and plates are available at the BBQ area, so you don't need to bring them. We'll meet at 10:00 at the entrance to Midori Park. If it rains, the BBQ is cancelled; I will let you know by email at 8:00 the evening before.
+@43.4 GT
+The line デザート：ノイさんがバナナを{持|も}って{来|き}ます. {飲|の}み{物|もの} = Marco, おにぎり = Hasegawa, {肉|にく}と{野菜|やさい} = Dương.
+@44.2 DICH
+(See the translation for the previous question.)
+@44.4 GT
+Vなくてもいい = you don't have to do V. 「コップやお{皿|さら}はバーベキュー{場|じょう}にありますから、{持|も}って{来|こ}なくてもだいじょうぶです」.
+@45.2 DICH
+How to fill in the leave request form: ① "Department" box at the top: write your group name. ② "Name" box below it: write your name and stamp your seal next to it. ③ "Dates" box: write the days you will be off. ④ "Reason" box: write the reason. ⑤ Submit it to Mr. Tanaka in General Affairs one week before your leave. If you suddenly have to take time off because you are sick, please call by 8:00 a.m.
+@45.4 GT
+Item ②: 「{名前|なまえ}の{横|よこ}にハンコをおします」. ハンコをおす = stamp your personal seal. {横|よこ} = next to, beside.
+@46.2 DICH
+(See the translation for the previous question.)
+@46.4 GT
+The last line: 「{急|きゅう}に{病気|びょうき}で{休|やす}むときは、{朝|あさ}8{時|じ}までに{電話|でんわ}で{連絡|れんらく}してください」. 1{週間|しゅうかん}{前|まえ} is the rule for planned leave. {急|きゅう}に = suddenly, {休暇届|きゅうかとどけ} = leave request form.
+@47.2 DICH
+José: I've been feeling heavy lately… Do you do any exercise? / Rin: I go to the gym twice a week, and I walk for 30 minutes every morning. / Rin: Also, I try not to eat too much in the evening. / José: That's great. Can I come to the gym with you? / Rin: Of course! Let's go this Saturday.
+@47.4 GT
+「{毎朝|まいあさ}30分{歩|ある}いてるよ」. The gym (ジム) is {週|しゅう}に2{回|かい} (twice a week), not every morning. Yoga (ヨガ) is not mentioned.
+@48.2 DICH
+(See the translation for the previous question.)
+@48.4 GT
+José (ホセ) asks いっしょにジムに{行|い}ってもいい？ → Rin (リン): {今度|こんど}の{土曜日|どようび}、{行|い}こう. Vてもいい？ = may I do V?; {行|い}こう = volitional form (an invitation: let's go).

@@ -1,0 +1,200 @@
+@1.2 DICH
+Tranh: hai bàn tay móc ngón út vào nhau → hứa.
+@1.4 GT
+やくそく (約束 – ƯỚC THÚC) = lời hứa, cuộc hẹn; やくそくします = hứa. Người Nhật móc ngón út (ゆびきり) khi hứa với nhau. よてい (予定 – DỰ ĐỊNH) = kế hoạch, lịch trình; やります = làm (nói chung).
+@2.2 DICH
+Tranh: hai đứa trẻ giằng co, giật tóc nhau → cãi nhau, đánh nhau.
+@2.4 GT
+けんか (喧嘩 – HUYÊN HOA) = cãi nhau, đánh nhau; けんかをします. Chú ý けんか và けんがく (見学 – KIẾN HỌC = đi tham quan, kiến tập) chỉ khác nhau một âm. しゅくだい (宿題 – TÚC ĐỀ) = bài tập về nhà.
+@3.2 DICH
+Tranh: bánh mì kẹp cắt hình tam giác → sandwich.
+@3.4 GT
+サンドイッチ = bánh mì kẹp (sandwich). サラダ = rau trộn (salad), カレー = cà ri. Từ ngoại lai viết bằng katakana, chú ý âm ngắt ッ trong サンドイッチ.
+@4.2 DICH
+Mỗi sáng tôi tưới nước cho hoa.
+@4.4 GT
+花に水をやる = tưới nước cho cây, hoa. やる ở đây là &quot;cho&quot; (cho cây uống nước, cho vật nuôi ăn: 犬にえさをやる). 水を入れる (NHẬP) = đổ nước vào (cốc, bình): コップに水を入れる. 入る (はいる) = đi vào, không đi với を. Vています + 毎朝 = việc làm thường ngày.
+@5.2 DICH
+Dạo này không có tiền nên vất vả.
+@5.4 GT
+Vなくて (thể て phủ định) nêu nguyên nhân cho cảm giác, trạng thái phía sau: お金がなくて大変です = vì không có tiền nên khổ. 〜ないで = không làm ~ mà / đừng ~ (傘を持たないで出かけた); 〜なくても = dù không ~ cũng được. このごろ = dạo này. (Đề gốc thiếu trợ từ が, app đã thêm vào.)
+@6.2 DICH
+Thịt này mềm và ngon.
+@6.4 GT
+Nối hai tính từ: tính từ đuôi い bỏ い + くて: やわらかい → やわらかくて. かたい (cứng) không ở thể て nên không nối được, nghĩa cũng ngược. ひろい (広い – QUẢNG) = rộng, không dùng cho thịt. (Đề gốc ghi 「いいです」, app sửa thành 「おいしいです」 cho tự nhiên.)
+@7.2 DICH
+Tôi đã gọi to vậy mà không có tiếng trả lời.
+@7.4 GT
+返事 (PHẢN SỰ) đọc là へんじ = sự trả lời, hồi âm. べんじ sai dấu ゛. しごと là 仕事 (SĨ SỰ) = công việc. 〜のに = vậy mà (kết quả trái mong đợi).
+@8.2 DICH
+Ở đây cây bị đổ nên không đi qua được.
+@8.4 GT
+通る (THÔNG) đọc là とおる = đi qua; 通れる = đi qua được (thể khả năng) → 通れません. Trường âm ở đây viết bằng お (とお), không phải う. Các từ hay gặp cùng kiểu: 大きい おおきい, 遠い とおい, 十 とお. 倒れる (ĐẢO) たおれる = đổ, ngã.
+@9.2 DICH
+Tôi đang luyện tập để sớm đọc được chữ hiragana.
+@9.4 GT
+Vる (thể khả năng / không có ý chí) + ように = để (đạt được trạng thái): 読めるように練習する. 〜ために đi với động từ có ý chí: ひらがなを読むために… (không nói 読めるために). 読める đứng một mình không nối được với 練習.
+@10.2 DICH
+Có lần buổi tối hết xe buýt nên tôi đã ngủ lại nhà bạn.
+@10.4 GT
+泊まる (BẠC) とまる = ngủ lại, trọ qua đêm (〜に泊まる). 止まる (CHỈ) cũng đọc とまる nhưng nghĩa là dừng lại (xe dừng). 入る (NHẬP) = vào. Vたことがあります = đã từng làm.
+@11.2 DICH
+Joy: Người Nhật ăn uống như thế nào? / Tanaka: Ăn bằng đũa và bát cơm. / Joy: Bát thì cầm bằng tay à? / Tanaka: Vâng, cầm bằng tay. Cũng dùng cả dao, nĩa nữa.
+@11.4 GT
+持つ (TRÌ) もつ = cầm, mang. Câu trả lời 「手で持ちます」 cho biết đáp án. まつ (待つ – ĐÃI) = đợi; めします (召します) = kính ngữ của 着る・食べる, không hợp. Văn hoá: ở Nhật khi ăn thường cầm bát cơm lên tay. (Đề gốc thiếu か cuối câu hỏi, app đã thêm.)
+@12.2 DICH
+Khách: Xin lỗi, có máy ảnh hãng Mekon không? / Nhân viên: Vâng, đây ạ. / Khách: Giá bao nhiêu ạ? / Nhân viên: Cái này 56.000 yên.
+@12.4 GT
+Hỏi giá: いくらですか / いくらになりますか. Câu sau trả lời bằng tiền (五万六千円 ごまんろくせんえん) nên chọn いくら. いつ = khi nào; いくつ = mấy cái / mấy tuổi.
+@13.2 DICH
+Rin: Anh Park có hay uống rượu không? / Park: Tôi không thích rượu lắm nhưng thỉnh thoảng cũng uống. Còn chị thì sao? / Rin: Gia đình tôi ai cũng thích rượu nên uống nhiều. Nhưng tôi thì hoàn toàn không uống.
+@13.4 GT
+ぜんぜん (全然 – TOÀN NHIÊN) luôn đi với thể phủ định: ぜんぜん飲みません = hoàn toàn không uống. でも báo hiệu ý trái với câu trước (gia đình uống nhiều ↔ tôi không uống). (Đề gốc ghi 「好きでわありません」, đúng phải là 「好きではありません」.)
+@14.2 DICH
+A: Xin lỗi, trưởng phòng Tanaka có ở đây không ạ? / B: Vâng, có ạ. Xin vui lòng chờ một chút.
+@14.4 GT
+少々お待ちください = xin vui lòng đợi một chút (rất hay dùng ở công ty, cửa hàng). お + Vます (bỏ ます) + ください là cách nhờ lịch sự. お持ちください dùng chữ 持 (TRÌ – cầm) = xin hãy cầm/mang theo, khác chữ 待 (ĐÃI – đợi). 持つください sai ngữ pháp. いらっしゃいます (tôn kính) – おります (khiêm nhường) là cách nói của います.
+@15.2 DICH
+A: Có chuyện gì vậy? Trông bạn có vẻ không khoẻ. / B: Vâng, tôi hơi đau đầu. / A: Có sao không? / B: Xin lỗi, tôi nghỉ một chút được không?
+@15.4 GT
+どうしたんですか = có chuyện gì vậy / bạn bị sao thế — hỏi khi thấy người khác có vẻ khác thường. 具合が悪そう = trông có vẻ không khoẻ (Aい bỏ い + そう). 〜てもいいですか = xin phép. (Đề gốc ghi 「悪いそう」, đúng phải là 「悪そう」.)
+@16.2 DICH
+A: Bạn uống gì? / B: Nước ép là được. / A: Xin lỗi, cho tôi nước ép và cô-la. / Nhân viên: Vâng, nước ép và cô-la ạ. Tôi đã rõ ạ.
+@16.4 GT
+かしこまりました = vâng, tôi đã hiểu (nhân viên nói với khách khi nhận yêu cầu, rất lịch sự; thân mật hơn: わかりました). どうぞよろしく = rất mong được giúp đỡ (khi làm quen). はい、そうします = vâng, tôi sẽ làm vậy (khi nghe lời khuyên).
+@17.2 DICH
+A: Mùa bạn thích là mùa nào? / B: Tôi thích mùa thu nhất. / A: Tại sao vậy? / B: Vì đồ ăn ngon.
+@17.4 GT
+どうしてですか = tại sao? — câu trả lời kết thúc bằng 〜から (vì) là dấu hiệu. どうしたんですか = có chuyện gì vậy; どれですか = cái nào. 季節 (QUÝ TIẾT) きせつ = mùa.
+@18.2 DICH
+Tanaka: Alô, Joy đấy à? Tanaka đây. / Joy: Lâu rồi không gặp. Anh Tanaka khoẻ không? / Tanaka: Ừ, khoẻ. Bên này giờ đang mưa. / Joy: Vất vả nhỉ. / Tanaka: Bên đó thế nào? / Joy: Trời đẹp ạ.
+@18.4 GT
+たいへんですね = vất vả nhỉ / khổ nhỉ — đáp lại khi nghe chuyện không thuận lợi (trời mưa). だいじょうぶですか hỏi người gặp chuyện như ốm, ngã; いいです = được, không cần. こっち／そっち = bên này / bên đó (văn nói của こちら／そちら).
+@19.2 DICH
+A: Thầy giáo bây giờ đang ở đâu ạ? / B: Thầy bây giờ đang ở thư viện ạ.
+@19.4 GT
+いらっしゃいます là tôn kính ngữ của います / 行きます / 来ます, dùng cho người trên (thầy cô, cấp trên). ございます = lịch sự của あります (đồ vật). おっしゃいます = tôn kính của 言います. どちら = lịch sự của どこ. 図書館 (ĐỒ THƯ QUÁN) としょかん = thư viện.
+@20.2 DICH
+A: Từ hôm qua tôi hơi sốt và đau đầu. / B: Vậy thì không ổn rồi.
+@20.4 GT
+それはいけませんね = thế thì không ổn rồi / tội nghiệp quá — câu đồng cảm khi nghe ai ốm, gặp chuyện không may; sau đó thường nói お大事に (mau khoẻ nhé). おげんきで = giữ sức khoẻ nhé (khi chia tay lâu ngày). しつれいします = xin phép (vào/ra phòng).
+@21.q Q
+Người đàn ông đến Kyoto cùng với ai?
+@21.0 ANS
+<span>Tranh 4 – vợ và hai con (gia đình 4 người)</span>
+@21.4 DICH
+Nữ: À, xin lỗi. Anh đến Kyoto lần đầu à? / Nam: Vâng, lần đầu. Tôi đã rất mong được đến đây. / Nữ: Mọi người là gia đình à? / Nam: Vâng, gia đình 4 người chúng tôi đến. Vợ, con trai và con gái tôi. / Nữ: Vậy à. Chúc cả nhà đi chơi vui vẻ nhé.
+@21.6 GT
+Câu then chốt: 家族4人で来ました。妻と息子と娘です → 4 người: chồng, vợ, con trai, con gái → tranh 4. 妻 (THÊ) つま = vợ (mình), 息子 (TỨC TỬ) むすこ = con trai, 娘 (NƯƠNG) むすめ = con gái. Câu mở đầu của bài nghe nhắc lại câu hỏi trong tranh.
+@22.q Q
+Carmen đang làm gì để bảo vệ môi trường?
+@22.0 ANS
+<span>Tranh 1 – dùng máy rửa bát</span>
+@22.4 DICH
+A: Chị Carmen có làm hoạt động bảo vệ môi trường nào không? / Carmen: Tôi cố gắng giảm lượng nước dùng trong bếp. / A: Ơ? Bằng cách nào? / Carmen: Gần đây tôi dùng máy rửa bát. / A: Ra vậy. Cái đó giúp giảm nước nhỉ.
+@22.6 GT
+食洗機 (THỰC TẨY CƠ) しょくせんき = máy rửa bát → tranh 1. エコ活動 = hoạt động bảo vệ môi trường. 減らす (GIẢM) へらす = làm giảm; Vるようにしている = cố gắng duy trì thói quen. 役に立つ = có ích. Các tranh khác: đổ xăng, phân loại rác, đi chợ bằng giỏ — không được nhắc tới.
+@23.q Q
+Ba người đang nói về cái gì?
+@23.0 ANS
+<span>Tranh 1 – bộ kimono</span>
+@23.4 DICH
+A (hướng dẫn viên): Xin mời mọi người xem đây. Đây là bộ kimono được làm vào khoảng thế kỷ 16. Vợ của võ sĩ đã mặc nó vào dịp lễ hội. / B: Ồ, kimono của vợ võ sĩ à. Đẹp quá. Tôi cũng muốn mặc thử.
+@23.6 GT
+着物 (TRƯỚC VẬT) きもの = kimono → tranh 1. 着ました (きました) = đã mặc — đồng âm với 来ました (đã đến), nghe theo ngữ cảnh. 16世紀 (THẾ KỶ) = thế kỷ 16, 作られた = được làm ra (bị động), 武士 (VÕ SĨ) ぶし = võ sĩ samurai, ご覧ください = xin mời xem (kính ngữ). Vてみたい = muốn thử làm.
+@24.q Q
+Quà của anh Noda là gì?
+@24.0 ANS
+<span>Tranh 2 – đồng hồ đeo tay</span>
+@24.4 DICH
+A: Quà của anh Noda là gì vậy? / B: Tôi nhận được từ anh Noda một chiếc đồng hồ rất đẹp. Vui lắm. Này, đây này. / A: À, đúng thật, đẹp quá nhỉ.
+@24.6 GT
+時計 (THỜI KẾ) とけい = đồng hồ → tranh 2. 〜から〜をもらいました = nhận ~ từ ai. かっこいい = ngầu, đẹp. ほら、これです = này, cái này đây (đưa ra cho xem).
+@25.q Q
+Người này làm gì với chiếc tất bị thủng?
+@25.0 ANS
+<span>Tranh 1 – vứt vào túi rác</span>
+@25.4 DICH
+A: À, khi tất bị thủng không đi được nữa thì bạn làm gì? / B: Thủng rồi thì tuy tiếc nhưng tôi vứt đi. / A: Vậy à. / B: Vâng. Nghĩ đến chuyện tái chế các thứ thì phiền nên tôi vứt.
+@25.6 GT
+捨てます (XẢ) すてます = vứt bỏ → tranh 1 (bỏ vào túi rác). もったいない = phí, tiếc. 面倒 (MIỄN ĐẢO) めんどう = phiền phức. Tranh 3 (dùng làm giẻ lau) là cách tái chế — người này nói không muốn nghĩ đến tái chế. はく = đi (tất, giày, quần); はけなくなる = không đi được nữa.
+@26.q Q
+Hồi nhỏ, Kim là đứa trẻ như thế nào?
+@26.0 ANS
+<span>Tranh 3 – bị bố mắng</span>
+@26.4 DICH
+A: Hồi nhỏ anh Kim là đứa trẻ như thế nào? / Kim: Để xem. Bố tôi rất nghiêm khắc. Thỉnh thoảng tôi về nhà muộn và bị mắng. / A: Ồ, anh Kim bị mắng à? / Kim: Vâng. Lúc đó sợ lắm nhưng giờ là kỷ niệm đẹp.
+@26.6 GT
+しかられました (叱られる – SẤT, bị động của 叱る) = bị mắng → tranh 3 (người bố đang mắng con). 厳しい (NGHIÊM) きびしい = nghiêm khắc, 思い出 = kỷ niệm. 〜けど = nhưng.
+@27.q Q
+Ở Pháp có phép lịch sự gì khi ăn?
+@27.0 ANS
+<span>Tranh 1 – không được ăn phát ra tiếng</span>
+@27.4 DICH
+A: Chị Carla, ở Pháp có những phép lịch sự gì khi ăn? / Carla: Để xem. Ở Pháp thì… ừm, ăn trong yên lặng. / A: Yên lặng? / Carla: Vâng. Khi ăn không phát ra tiếng. Ví dụ, không được húp súp thành tiếng đâu. / A: Ồ, vậy à. Có vẻ khó nhỉ. Ở Nhật thì không sao.
+@27.6 GT
+音を立てる = phát ra tiếng → tranh 1 (ăn súp phát ra tiếng bị gạch X). 〜ちゃだめ = 〜てはだめ = không được làm. 静か (TĨNH) しずか = yên lặng, 例えば (LỆ) たとえば = ví dụ. 難しそう = có vẻ khó.
+@28.q Q
+Món gọi số 2 là cái nào?
+@28.0 ANS
+<span>Tranh 3 – 3 cô-la, 2 nước ép</span>
+@28.4 DICH
+Quý khách đã chọn món chưa ạ? / 1: Cho tôi cà phê và trà, mỗi loại 2 cốc. / 2: Cho tôi 3 cô-la và 2 nước ép. / 3: Cho tôi cà phê và trà mỗi loại 1 cốc, thêm 2 nước ép.
+@28.6 GT
+Số 2: コーラ3つとジュース2つ → tranh 3. Tranh 2 là gọi món số 1 (2 cà phê, 2 trà); tranh 1 là gọi món số 3. 〜ずつ = mỗi loại ~; あと = thêm nữa. Khi nghe phải ghi nhanh con số theo từng món.
+@29.q Q
+Vì sao anh Saitō trở thành người hâm mộ tuyển thủ Yamashita?
+@29.0 ANS
+<span>Tranh 1 – xem trận đấu trên tivi</span>
+@29.4 DICH
+A: Anh Saitō là fan của tuyển thủ Yamashita à? / Saitō: Vâng. Từ hồi nhỏ xem trận đấu Olympic trên tivi, tôi hâm mộ suốt đến giờ. / A: Trận đấu Olympic à? / Saitō: Vâng. Yamashita bị chấn thương nhưng đã cố gắng hết sức cho đến khi giành huy chương vàng đấy. Tuyệt vời thật. / A: Vậy à. Thật đáng nể.
+@29.6 GT
+テレビで見てから、ずっとファンです → trở thành fan sau khi xem trên tivi → tranh 1. Vてから = sau khi làm V. 試合 (THÍ HỢP) しあい = trận đấu, 金メダル = huy chương vàng, 立派 (LẬP PHÁI) りっぱ = đáng khâm phục.
+@30.q Q
+Người này làm gì trong một năm?
+@30.0 ANS
+<span>Tranh 2 – đi xem phim ở rạp</span>
+@30.4 DICH
+Ở thị trấn của tôi có Trung tâm Văn hoá Pháp. Tôi học tiếng Pháp ở trung tâm 2 lần mỗi tuần. Ngoài ra, mỗi năm tôi đi xem phim Pháp 4, 5 lần. Rất vui.
+@30.6 GT
+年に4、5回 (một năm 4, 5 lần) + 映画を見に行きます → tranh 2 (rạp chiếu phim). 週に2回 = 2 lần mỗi tuần — là việc học tiếng Pháp, không phải &quot;trong năm&quot;. Vに行く = đi để làm V. 文化 (VĂN HOÁ) ぶんか.
+@31.2 DICH
+Carla sinh năm 1989 ở Pháp. Hồi nhỏ, sau khi được bố tặng một cuốn truyện tranh Nhật, cô bắt đầu quan tâm đến Nhật Bản. Hồi cấp 3, sau khi đi du lịch Nhật với gia đình, cô càng thích Nhật hơn. Cho đến khi tốt nghiệp cấp 3, cô tự học tiếng Nhật một mình. Vào đại học, cô học chuyên ngành tiếng Nhật và văn hoá Nhật. Năm 2014 cô du học cao học ở Nhật và sống ở Nhật.
+@31.4 GT
+「高校を卒業するまで、一人で日本語を勉強しました」 → tự học (一人で = 自分で) đến khi tốt nghiệp cấp 3. Lên đại học thì học chuyên ngành ở trường, không còn là tự học. 卒業 (TỐT NGHIỆP) そつぎょう, 高校 (CAO HIỆU) = trường cấp 3, 専門学校 = trường dạy nghề — không có trong bài.
+@32.2 DICH
+Nakamura: Rupa, Kim, hai bạn đến Kyoto lần đầu à? / Rupa: Tôi lần đầu ạ. Rất mong được giúp đỡ. / Kim: Tôi lần thứ hai. Mùa thu năm ngoái tôi đến cùng em gái. Nhưng mùa xuân cũng đẹp nhỉ. / Nakamura: Ừ. Kyoto đến lúc nào cũng vui. / Kim: Chị Nakamura lần thứ mấy rồi? / Nakamura: Chắc lần thứ 7. Ở Kyoto ăn gì cũng ngon, đi đâu cũng có không khí Nhật Bản, hay lắm.
+@32.4 GT
+ルパ: 「私ははじめてです」 → lần đầu = しょかい (初回 – SƠ HỒI). Nakamura đến khoảng 7 lần (không phải hơn 10), Kim là lần thứ hai (二回目) nên đã từng đến. (Đề gốc ghi 「何も食べても」「ふいき」, app sửa thành 「何を食べても」「ふんいき」.)
+@33.2 DICH
+Năm ngoái vào Ngày của Cha tôi tặng bố chiếc áo sơ mi màu xanh. Màu xanh là màu bố thích. Năm nay tôi sẽ tặng cà vạt màu xanh.
+@33.4 GT
+Năm ngoái tặng áo sơ mi, năm nay tặng cà vạt → năm nào cũng tặng quà cho bố → 3. Câu 1 sai món (năm ngoái là シャツ), câu 2 sai món (năm nay là ネクタイ), câu 4 sai màu (bố thích 青). Màu sắc làm danh từ: 青 (THANH) あお; tính từ: 青い. (Đề gốc ghi 「青いは」 và phương án 3 「去年より今年も…あげたいです」 không rõ nghĩa, app sửa lại cho đúng ý.)
+@34.2 DICH
+Tiêu đề: Tình nguyện viên lễ hội Nhật Bản. Gửi chị Fujii Norika, Lần đầu được làm quen. Tôi tên là Julio Gonzales. Tôi muốn làm tình nguyện viên cho lễ hội Nhật Bản. Tôi rất quan tâm đến tiếng Nhật và văn hoá Nhật. Tôi không đọc được nhiều chữ Hán, nhưng nếu là tiếng Nhật đơn giản thì tôi nói được. Tôi sẽ cố gắng, rất mong được giúp đỡ. Julio Gonzales
+@34.4 GT
+「日本語と日本文化にとてもきょうみがあります」 (rất quan tâm) ≈ 好きです → 3. 「かんじはあまり読めません」 → câu 1, 2 sai. きょうみ (興味 – HỨNG VỊ) = sự quan tâm, hứng thú. 〜だったら = nếu là ~.
+@35.2 DICH
+Melos nổi giận. Anh nghĩ không thể tha thứ cho nhà vua độc ác. Melos không hiểu những chuyện phức tạp. Melos sống vui vẻ ở làng. Nhưng Melos không thể tha thứ cho điều xấu. Melos từ làng đến thành phố tên là Syracuse. Melos không có bố mẹ, cũng không có vợ. Anh sống cùng em gái 16 tuổi. Em gái sắp kết hôn. Melos đến thành phố để mua sắm chuẩn bị cho đám cưới. Đi trong thành phố, Melos thấy thành phố có gì đó lạ. So với lần trước đến, thành phố yên lặng quá. Vì vậy Melos hỏi người trong thành phố.
+@35.4 GT
+「結婚式のよういのために買い物をしに町に来たのです」 → 2. よういのために = để chuẩn bị (用意 – DỤNG Ý). Vに来る = đến để làm V. Nhà vua chỉ được nhắc là người Melos giận, không phải lý do đến; bài nói Melos không có người thân ngoài em gái. Bài đọc kể lại đơn giản truyện 『走れメロス』 của 太宰治. (Đề gốc ghi 「シクラス」「おうさまを会う」, app sửa thành 「シラクス」「おうさまに会う」.)
+@36.2 DICH
+Thư 1 – Tiêu đề: Đến muộn. Xin lỗi. Vì xe buýt bị tai nạn nên tôi sẽ đến muộn khoảng 30 phút. Vậy hẹn gặp lát nữa. / Thư 2 – Tiêu đề: Re: Đến muộn. Tôi hiểu rồi. Đi cẩn thận nhé.
+@36.4 GT
+「バスのじこで、30分ぐらいおくれます」 → じこ = 事故 (SỰ CỐ) = tai nạn → 3. Danh từ + で chỉ nguyên nhân. Xe buýt có tới nhưng bị tai nạn, không phải &quot;không tới&quot;. 遅れる (TRÌ) おくれる = muộn; きをつけて = cẩn thận.
+@37.2 DICH
+Nhà hàng &quot;Hannah&quot;. Hannah là nhà hàng món Âu. Đồ ăn rẻ và ngon nên tôi hay đến. Món tôi luôn ăn ở quán này là bò sốt teriyaki. Thịt và nước sốt rất ngon. Nếu được thì hãy đến thử nhé.
+@37.4 GT
+「『ハンナ』は洋食のレストランです」 → ようしょく = 洋食 (DƯƠNG THỰC) = món ăn kiểu Âu → 2. Đối lập: 和食 (わしょく) = món Nhật. Bài không nói là nhà hàng gia đình hay nhà hàng Mỹ.
+@38.2 DICH
+Ishikawa: Rất vui được làm quen. Tôi là Ishikawa Ichirō. Ichirō nghĩa là &quot;con trai thứ nhất&quot;. / Kate: Anh Ishikawa có mấy anh chị em? / Ishikawa: Tôi có 2 em gái. Em gái lớn sống ở Osaka. Em gái nhỏ ở chỗ tên là Saitama. / Kate: Vậy à.
+@38.4 GT
+1番目の男の子 = con trai đầu tiên → con trai sinh ra đầu tiên trong nhà → 2. Ishikawa có 2 em gái nên không phải con một (一人っ子). Tên いちろう (一郎): 一 = một, 郎 = con trai. はじめに = đầu tiên; うまれる (生まれる – SINH) = được sinh ra.
+@39.2 DICH
+Nam: Kỳ nghỉ hè chị đi đâu? / Nữ: Tôi muốn đi Hokkaido. / Nam: Hay nhỉ. Đi máy bay à? / Nữ: Vâng. Lúc đầu tôi định đi tàu thuỷ hoặc xe buýt. Nhưng mất thời gian quá… Đến nơi rồi tôi định thuê ô tô.
+@39.4 GT
+Nam hỏi ひこうきですか → nữ trả lời ええ (vâng) → đi máy bay → 3. ふね, バス là dự định lúc đầu (さいしょは〜と思ったんです) nhưng bỏ vì quá mất thời gian. 車 là phương tiện dùng sau khi đến nơi (むこうに着いたら). Vようと思う = định làm; Vるつもり = dự định.
+@40.2 DICH
+Tờ hướng dẫn lễ hội: gian hàng ① món Hàn (bánh xèo Hàn) ② món Nga (bánh piroshki) ③ món Mexico (tacos) ④ món Đức (xúc xích) ⑤ món Malaysia (murtabak) ⑥ đồ thủ công Tây Ban Nha (thêu) ⑦ đồ thủ công Nhật (búp bê kokeshi) ⑧ đồ thủ công Philippines (phụ kiện). Sân khấu (Bài hát và điệu múa thế giới): 10:00–10:30 múa Thái Lan, 11:00–11:30 bài hát Pháp, 14:00–14:30 Lớp tiếng Nhật mini.
+@40.4 GT
+Muốn học tiếng Nhật → 「14:00〜14:30 日本語ミニレッスン」 ở sân khấu → 2 giờ chiều, trước sân khấu → 2. Gian hàng số 7 bán búp bê こけし (đồ thủ công), 10 giờ là múa Thái. 学ぶ (HỌC) まなぶ = học. ストール = gian hàng.

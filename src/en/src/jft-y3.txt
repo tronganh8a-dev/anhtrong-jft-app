@@ -1,0 +1,218 @@
+@1.2 DICH
+Tranh: người nhăn mặt sau khi uống cà phê đen → đắng.
+@1.4 GT
+{苦|にが}い (KHỔ) にがい = đắng – vị của cà phê đen. {甘|あま}い (CAM) あまい = ngọt, {辛|から}い (TÂN) からい = cay, すっぱい = chua. Chú ý {苦|にが}い (にがい, đắng) và {苦手|にがて} (にがて, không giỏi/không hợp) dùng cùng chữ {苦|く}. いろどり {初級|しょきゅう}1 {第|だい}12{課|か}.
+@2.2 DICH
+Tranh: hàng cây hoa anh đào đang nở → mùa xuân.
+@2.4 GT
+{桜|さくら}の{花|はな}が{咲|さ}く (ANH – HOA – TIẾU) = hoa anh đào nở, dấu hiệu mùa xuân. Mỗi mùa một hình ảnh: {雪|ゆき}が{降|ふ}る (TUYẾT – GIÁNG) = tuyết rơi (đông), もみじ = lá đỏ (thu), セミが{鳴|な}く (MINH) = ve kêu (hè). いろどり {初級|しょきゅう}1 {第|だい}3{課|か}.
+@3.2 DICH
+Tranh: phố đông người, nhiều toà nhà, biển SALE → náo nhiệt.
+@3.4 GT
+にぎやか（な）= náo nhiệt, đông vui; trái nghĩa {静|しず}か（な）(TĨNH) = yên tĩnh. {緑|みどり}が{多|おお}い (LỤC) = nhiều cây xanh, {不便|ふべん} (BẤT TIỆN) = bất tiện. いろどり {初級|しょきゅう}1 {第|だい}5{課|か}.
+@4.2 DICH
+Hãy băng qua cầu rồi đi thẳng.
+@4.4 GT
+はしを　わたる ({橋|はし}を{渡|わた}る – KIỀU, ĐỘ) = qua cầu. Trợ từ を chỉ nơi đi qua. のる = lên xe (〜に), おりる = xuống xe (〜を), まがる = rẽ (〜を/〜に) – không đi với はし. いろどり {初級|しょきゅう}1 {第|だい}6{課|か}.
+@5.2 DICH
+Chỗ hẹn ngày mai lấy ở cửa soát vé của ga nhé.
+@5.4 GT
+えきの　かいさつ ({駅|えき}の{改札|かいさつ} – CẢI TRÁT) = cửa soát vé của ga, chỗ hẹn gặp quen thuộc ở Nhật. はし = cầu, かど = góc phố, しんごう = đèn giao thông – không thuộc về ga. いろどり {初級|しょきゅう}1 {第|だい}7{課|か}.
+@6.2 DICH
+Máy tính không chạy nên hãy thử khởi động lại xem.
+@6.4 GT
+さいきどう ({再起動|さいきどう} – TÁI KHỞI ĐỘNG) = khởi động lại. Vてみる = thử làm. しゅうり ({修理|しゅうり}) = sửa chữa – thường nhờ người khác, không &quot;thử&quot;; そうじ = dọn dẹp, けんがく = tham quan. いろどり {初級|しょきゅう}1 {第|だい}13{課|か}.
+@7.2 DICH
+Mỗi ngày tôi học tiếng Nhật.
+@7.4 GT
+{毎日|まいにち} (MỖI NHẬT) đọc là まいにち. {日|ひ} có nhiều cách đọc (ひ, にち, じつ, び) nhưng trong từ này là にち. めいにち sai âm {毎|まい} (まい).
+@8.2 DICH
+Thị trấn này nhiều cửa hàng nên tiện lợi.
+@8.4 GT
+{便利|べんり} (TIỆN LỢI) đọc là べんり. Các phương án sai lệch một âm: へんり (thiếu dấu đục), びんり (sai nguyên âm), べんい (sai り). Trái nghĩa: {不便|ふべん} ふべん.
+@9.2 DICH
+Nhờ anh chuẩn bị cuộc họp.
+@9.4 GT
+{会議|かいぎ} (HỘI NGHỊ) đọc là かいぎ = cuộc họp. {議|ぎ} đọc ぎ (có dấu đục); {会|かい} đọc かい (không đục). かいいぎ thừa い.
+@10.2 DICH
+Hãy rẽ phải ở góc phố tiếp theo.
+@10.4 GT
+みぎ = {右|みぎ} (HỮU). Chữ giống: {在|あり} (TẠI), {石|いし} (THẠCH – いし), {古|ふる} (CỔ – ふるい). Phân biệt {右|みぎ} và {左|ひだり} (TẢ – ひだり): {右|みぎ} có {口|くち} ở dưới, {左|ひだり} có {工|こう}.
+@11.2 DICH
+Thị trấn này nhiều cửa hàng nên tiện lợi.
+@11.4 GT
+みせ = {店|みせ} (ĐIẾM). Các chữ cùng bộ 广: {床|ゆか} (SÀNG – ゆか, sàn nhà), {庭|にわ} (ĐÌNH – にわ, sân vườn), {広|ひろし} (QUẢNG – ひろい, rộng). Nhớ: 广 + {占|うらない} = {店|みせ}.
+@12.2 DICH
+Món ăn này có dùng trứng không?
+@12.4 GT
+たまご = {卵|たまご} (NOÃN). {卵|たまご} có 2 dấu chấm bên trong. {卯|う} (MÃO) và 夘 không có chấm; {印|しるし} (ẤN – しるし) là chữ khác.
+@13.2 DICH
+Yamada: Anh đã quen với cuộc sống ở Nhật chưa? / Long: Vâng, nhờ trời (nhờ mọi người) tôi quen rồi.
+@13.4 GT
+Đáp lời hỏi thăm một cách lịch sự: はい、おかげさまで. おじゃまします (khi vào nhà người khác), おだいじに (chúc người ốm mau khoẻ), おまちどおさま (xin lỗi đã để chờ). いろどり {初級|しょきゅう}1 {第|だい}1{課|か}.
+@14.2 DICH
+Kimura: Ngoài tiếng Nhật, bạn có học gì không? / Ninh: Có, tôi đang học guitar.
+@14.4 GT
+Câu hỏi {習|なら}っていますか (đang học) → trả lời cùng thể Vています: ギターを{習|なら}っています. {習|なら}いましょう là rủ rê. {習|なら}う (TẬP) = học (từ người khác). いろどり {初級|しょきゅう}1 {第|だい}2{課|か}.
+@15.2 DICH
+Yamamoto: Trời ấm lên nhiều rồi nhỉ. / Rin: Đúng thật.
+@15.4 GT
+Diễn tả sự thay đổi: Aく＋なりました ({暖|あたた}かい → {暖|あたた}かくなりました). だいぶ = khá nhiều. {暖|あたた}かい (NOÃN) = ấm áp. いろどり {初級|しょきゅう}1 {第|だい}4{課|か}.
+@16.2 DICH
+Minh: Đèn giao thông thứ nhất rẽ trái nhỉ. / Người qua đường: Không, không phải cái thứ nhất mà là cái thứ hai.
+@16.4 GT
+Sửa lại thông tin: A じゃなくて B = không phải A mà là B. でも, だけど = nhưng; だから = vì vậy. いろどり {初級|しょきゅう}1 {第|だい}6{課|か}.
+@17.2 DICH
+Suzuki: Chị đã lên Port Tower chưa? / Ana: Chưa, tôi chưa lên. / Suzuki: Vậy lần tới cùng đi nhé?
+@17.4 GT
+Hỏi もう〜ましたか: nếu chưa làm thì đáp いいえ、まだです. Lời mời {今度|こんど}{行|い}きませんか ở câu sau cho biết Ana chưa đi. Không ghép はい với まだ. {登|のぼ}る (ĐĂNG) = leo lên. いろどり {初級|しょきゅう}1 {第|だい}8{課|か}.
+@18.2 DICH
+Ali: Xin lỗi, chị chỉ cho tôi cách đọc chữ Hán này được không? / Nishimura: Chữ này à? Đọc là &quot;Itō&quot;.
+@18.4 GT
+Nhờ người khác: Vて　もらえませんか. {教|おし}えましょうか là đề nghị chỉ giúp người khác (ngược vai). {読|よ}み{方|かた} (ĐỘC PHƯƠNG) = cách đọc. いろどり {初級|しょきゅう}1 {第|だい}9{課|か}.
+@19.2 DICH
+Marco: Đồ uống là bia và rượu vang được chứ? / Noi: À, xin lỗi, tôi không uống được rượu nên…
+@19.4 GT
+Từ chối khéo: あのう、すみません + 〜がだめですから…… (bỏ lửng câu). Cách nói tránh nói thẳng &quot;không&quot;. いろどり {初級|しょきゅう}1 {第|だい}11{課|か}.
+@20.2 DICH
+Tamura: Cái đó là gì vậy? / Huyền: Là latte kem vani sô-cô-la. / Tamura: Ồ, trông có vẻ ngọt nhỉ.
+@20.4 GT
+Nhận xét qua vẻ bề ngoài: Aい bỏ い + そうです ({甘|あま}い → {甘|あま}そう). {甘|あま}いそうです là &quot;nghe nói ngọt&quot; (truyền đạt) – không hợp vì Tamura đang nhìn thấy. Tamura chưa uống nên {甘|あま}かった sai. いろどり {初級|しょきゅう}1 {第|だい}12{課|か}.
+@21.2 DICH
+Vương: Hôm qua tôi đã nghỉ, xin lỗi anh. / Tamura: Không sao. Anh khoẻ hẳn chưa?
+@21.4 GT
+Xin lỗi vì đã nghỉ làm: {休|やす}んで、すみませんでした (Vて = lý do). Đáp いえ (không có gì) xác nhận đây là lời xin lỗi. いろどり {初級|しょきゅう}1 {第|だい}14{課|か}.
+@22.2 DICH
+Dược sĩ: Đây là thuốc giảm đau. Hãy uống khi đau quá không chịu được. / Quách: Vâng.
+@22.4 GT
+がまんできない = không chịu đựng được. {痛|いた}くて + がまんできない (vì đau nên không chịu nổi) → lúc uống thuốc giảm đau. {痛|いた}み{止|ど}め (THỐNG – CHỈ) = thuốc giảm đau. いろどり {初級|しょきゅう}1 {第|だい}15{課|か}.
+@23.2 DICH
+Sakai: Anh có chú ý gì vì sức khoẻ không? / José: Có. Tôi cố gắng không uống rượu quá nhiều.
+@23.4 GT
+Vます bỏ ます + すぎる = làm quá mức. Cố gắng tránh: 〜ないようにしています → {飲|の}みすぎないようにしています. {健康|けんこう} (KIỆN KHANG) = sức khoẻ. いろどり {初級|しょきゅう}1 {第|だい}16{課|か}.
+@24.2 DICH
+Rin: Có nên mang ô theo không? / Yamamoto: Có, tôi xem dự báo thời tiết thấy nói chiều nay trời mưa đấy.
+@24.4 GT
+Truyền đạt thông tin nghe/xem được: thể thường + そうです ({降|ふ}る → {降|ふ}るそうです). {天気予報|てんきよほう}で{見|み}ました là nguồn tin. Khác với {甘|あま}そう (trông có vẻ) ở câu 8. いろどり {初級|しょきゅう}1 {第|だい}4{課|か}.
+@25.q Q
+Người này đã quen với cuộc sống ở Nhật chưa?
+@25.4 DICH
+A: Anh đến Nhật được bao lâu rồi? / B: Tôi đến vào tháng trước. / A: Vậy à. Đã quen một chút chưa? / B: Vẫn còn hơi…
+@25.6 GT
+まだ、ちょっと…… là cách nói bỏ lửng = chưa quen lắm. {先月|せんげつ} (tháng trước) mới đến nên chưa thể 1{年|ねん}{前|まえ}に{慣|な}れた. {慣|な}れる (QUÁN) = quen.
+@26.q Q
+Mùa đông ở nước của Bayar lạnh khoảng bao nhiêu độ?
+@26.4 DICH
+A: Ở nước anh Bayar có những mùa nào? / B: Giống Nhật, có bốn mùa. Nhưng mùa hè rất nóng, mùa đông rất lạnh. / A: Vậy à. / B: Mùa hè 40 độ, mùa đông âm 40 độ. / A: Ồ, vậy sao.
+@26.6 GT
+Câu hỏi về {冬|ふゆ} (mùa đông): {冬|ふゆ}はマイナス40{度|ど}. 40{度|ど} là mùa hè. マイナス = âm (độ dưới 0). {四季|しき} (TỨ QUÝ) = bốn mùa.
+@27.q Q
+&quot;Marine Mall&quot; vào Chủ nhật thế nào?
+@27.4 DICH
+A: Ngày nghỉ tôi muốn đi đâu đó, có chỗ nào hay không? / B: Để xem. Người ở thị trấn này hay đi &quot;Marine Mall&quot;. / A: Đó là gì vậy? / B: Trung tâm mua sắm, có nhiều cửa hàng, nhà hàng, siêu thị. Thú vị, nhưng Chủ nhật thì chắc đông người. / A: Vậy à. Tôi sẽ đi thử một lần.
+@27.6 GT
+Sau けど là điểm cần chú ý: {日曜日|にちようび}は{人|ひと}が{多|おお}いかな. 〜かな = chắc là (phỏng đoán nhẹ). {一度|いちど}{行|い}ってみます = sẽ đi thử một lần.
+@28.q Q
+Gặp nhau lúc mấy giờ, ở đâu?
+@28.4 DICH
+A: Ngày mai hẹn mấy giờ, ở đâu? / B: Vậy 6 giờ rưỡi ở cửa soát vé ga được không? / A: Vâng. 6 giờ rưỡi ở ga nhé. / B: Hẹn gặp lại.
+@28.6 GT
+6{時半|じはん} = 6 giờ rưỡi ({半|はん} – BÁN = một nửa). {改札|かいさつ} (CẢI TRÁT) = cửa soát vé. A nhắc lại 6{時半|じはん}に{駅|えき}ですね để xác nhận.
+@29.q Q
+Lần tới sẽ làm gì?
+@29.4 DICH
+A: Bộ phim hay nhỉ. / B: Tôi xúc động lắm. Thật sự tuyệt vời. / A: Vậy lại đi tiếp nhé. / B: Lần tới đi xem phim kinh dị nhé. / A: Hả…
+@29.6 GT
+{今度|こんど}は (lần tới) + ホラー{映画|えいが}を{見|み}に{行|い}きましょう. 〜に{行|い}く = đi để làm gì. えー thể hiện A hơi ngại nhưng kế hoạch vẫn là phim kinh dị. {感動|かんどう} (CẢM ĐỘNG) = xúc động.
+@30.q Q
+Người này đã nhờ việc gì?
+@30.4 DICH
+A: Xin lỗi, tôi không hiểu rõ cách điền giấy tờ này. Anh giải thích lại một lần nữa được không? / B: À, cái này thì…
+@30.6 GT
+もう{一度|いちど}{説明|せつめい}してもらえませんか = nhờ giải thích lại. Không nhờ viết hộ ({書|か}いて). {書類|しょるい} (THƯ LOẠI) = giấy tờ, {書|か}き{方|かた} = cách viết/điền, {説明|せつめい} (THUYẾT MINH) = giải thích.
+@31.q Q
+Người này có ăn món đó không? Vì sao?
+@31.4 DICH
+A: Nào, mời anh. / B: À, món này có dùng trứng không ạ? / A: Trứng à? Món này không dùng đâu. / B: À, vậy thì không sao. Tôi xin phép ăn!
+@31.6 GT
+B hỏi về trứng (có thể vì không ăn được trứng). A trả lời {使|つか}ってません → B nói いただきます (sẽ ăn). Vì không có trứng nên ăn → 2.
+@32.q Q
+Mơ muối có vị như thế nào?
+@32.0 ANS
+<span class="jp">phương án 3 (tranh)</span>
+@32.4 DICH
+A: Cái đó là gì vậy? / B: Cái này à? Mơ muối. Ăn thử không? / A: Vâng. / B: Thế nào? / A: Ư… xin lỗi. Chua quá, tôi hơi không ăn được. / B: À, vậy à.
+@32.6 GT
+すっぱい = chua → tranh 3 (quả chanh). Tranh 1 {辛|から}い (cay – ớt), tranh 2 {苦|にが}い (đắng – cà phê), tranh 4 {甘|あま}い (ngọt – bánh kem). {梅干|うめぼ}し (MAI CAN) = mơ muối.
+@33.q Q
+Vì sao Anisa đến muộn?
+@33.4 DICH
+Người công ty: Vâng, Kita-Urawa Foods xin nghe. / Anisa: Alo, à, tôi là Anisa. / Người công ty: À, chị Anisa. / Anisa: Xin lỗi, tôi để quên ví ở nhà. Bây giờ tôi về lấy. Vì vậy sẽ đến muộn một chút. / Người công ty: À, tôi hiểu rồi. (Sau đó) / Anisa: Chào buổi sáng. Tôi xin lỗi vì đã đến muộn.
+@33.6 GT
+Lý do ở câu {家|いえ}に{財布|さいふ}を{忘|わす}れました (quên ví ở nhà) → それで (vì vậy) {少|すこ}し{遅|おく}れます. {財布|さいふ} (TÀI BỐ) = ví, {遅|おく}れる (TRÌ) = muộn, {申|もう}し{訳|わけ}ありません = xin lỗi (trang trọng).
+@34.q Q
+Người này bị sao?
+@34.4 DICH
+A: Hôm nay anh bị sao? / B: Hôm qua tôi ngã ngoài đường, bị trẹo chân. / A: Tôi chạm vào một chút nhé. Làm thế này có đau không? / B: Đau! / A: À, vậy chụp X-quang thử xem nhé.
+@34.6 GT
+{転|ころ}ぶ (CHUYỂN) = ngã, {足|あし}をくじく = trẹo chân. {頭|あたま}をぶつける = va đầu – không có trong bài. レントゲン = chụp X-quang.
+@35.q Q
+Người này đang tập môn thể thao nào?
+@35.4 DICH
+A: Gần đây chị có tập môn gì không? / B: Ừm, tôi chạy bộ, thỉnh thoảng tập yoga ở nhà. / A: Ồ, yoga à. / B: Vâng. Tập yoga trước khi ngủ thì ngủ ngon lắm. / A: Vậy sao.
+@35.6 GT
+Vたり、Vたりする = liệt kê vài việc tiêu biểu: ジョギングしたり、ヨガをしたり. {水泳|すいえい} (THUỶ VỊNH) = bơi. {運動|うんどう} (VẬN ĐỘNG) = vận động.
+@36.q Q
+Ai đã làm chiếc túi?
+@36.4 DICH
+A: Cái túi đó đẹp nhỉ. / B: Vậy ạ? Cảm ơn chị. / A: Mua ở Nhật à? / B: Cái này mẹ tôi ở Myanmar làm đấy ạ. / A: Mẹ em làm à? Giỏi quá.
+@36.6 GT
+Nói về mẹ mình: {母|はは} (はは); nói về mẹ người khác/hỏi: お{母|かあ}さん. B nói ミャンマーの{母|はは}が{作|つく}った → đáp án 2. {日本|にほん}で{買|か}った là câu hỏi của A, không phải sự thật.
+@37.2 DICH
+Thẻ giới thiệu: Tên: Soka. Nước: Campuchia (Phnôm Pênh). Đến Nhật: tháng 4 năm ngoái. Công việc: điều dưỡng (viện dưỡng lão). Sở thích: hát, nấu ăn. Đôi lời: Muốn thuộc thật nhiều bài hát Nhật!
+@37.4 GT
+Dòng {仕事|しごと}: {介護|かいご}（{老人|ろうじん}ホーム）. {料理|りょうり} và {歌|うた} là sở thích (すきなこと), không phải công việc. {介護|かいご} (GIỚI HỘ) = điều dưỡng, {老人|ろうじん}ホーム = viện dưỡng lão.
+@38.2 DICH
+(Xem bản dịch câu trước.)
+@38.4 GT
+Dòng ひとこと: 「{日本|にほん}の{歌|うた}をたくさんおぼえたいです」. Vたい = muốn làm V. おぼえる ({覚|おぼ}える) = nhớ, thuộc.
+@39.2 DICH
+Yamamoto: Bên ngoài mưa to lắm đấy! / Rin: Ơ, thật ạ? Tôi không mang ô… / Yamamoto: Ở quầy lễ tân có ô đấy. Ô của công ty ai cũng dùng được. / Yamamoto: Ngày mai trả lại ở quầy lễ tân nhé. / Rin: Cảm ơn anh!
+@39.4 GT
+「{受付|うけつけ}にかさがありますよ。{会社|かいしゃ}のかさはだれでも{使|つか}えます」 → mượn ô ở quầy lễ tân. Ô là của công ty, không phải của Yamamoto. {受付|うけつけ} (THỤ PHÓ) = quầy lễ tân.
+@40.2 DICH
+(Xem bản dịch câu trước.)
+@40.4 GT
+「あした{受付|うけつけ}に{返|かえ}してくださいね」. {返|かえ}す (PHẢN) = trả lại.
+@41.2 DICH
+Lịch nhân viên Lễ hội quốc tế (ngày 10): Minh – quầy tiếp đón 9:30–12:00; Ana – quầy đồ ăn 11:00–15:00; Long – chuẩn bị sân khấu 8:30–10:00; Soka – dọn dẹp 15:00–17:00. ※ Sự kiện từ 10 giờ đến 15 giờ. Nhân viên hãy đến hội trường 15 phút trước giờ bắt đầu công việc.
+@41.4 GT
+Giờ bắt đầu sớm nhất là 8:30 của ロン. Chú ý: giờ sự kiện (10{時|じ}) khác giờ làm của từng người.
+@42.2 DICH
+(Xem bản dịch câu trước.)
+@42.4 GT
+アナ bắt đầu 11:00; quy định đến 15分{前|まえ} (15 phút trước) → 10:45. 11{時|じ} là giờ bắt đầu làm, không phải giờ đến.
+@43.2 DICH
+Người gửi: Hasegawa | Tiêu đề: BBQ tuần sau. Mọi người, về việc chuẩn bị BBQ thứ Bảy tuần sau: Thịt và rau – Dương mua mang đến. Đồ uống – đã nhờ Marco: bia và trà. Cơm nắm – tôi (Hasegawa) làm mang đến. Tráng miệng – Noi mang chuối đến. Cốc và đĩa có ở khu BBQ nên không cần mang. Tập trung 10 giờ ở lối vào công viên Midori. Trời mưa thì huỷ. Tối hôm trước 8 giờ sẽ báo qua email.
+@43.4 GT
+Dòng デザート：ノイさんがバナナを{持|も}って{来|き}ます. {飲|の}み{物|もの} = Marco, おにぎり = Hasegawa, {肉|にく}と{野菜|やさい} = Dương.
+@44.2 DICH
+(Xem bản dịch câu trước.)
+@44.4 GT
+Vなくてもいい = không cần làm V. 「コップやお{皿|さら}はバーベキュー{場|じょう}にありますから、{持|も}って{来|こ}なくてもだいじょうぶです」.
+@45.2 DICH
+Cách viết đơn xin nghỉ: ① Ô &quot;Bộ phận&quot; trên cùng: viết tên nhóm. ② Ô &quot;Họ tên&quot; bên dưới: viết tên, đóng dấu bên cạnh tên. ③ Ô &quot;Thời gian&quot;: viết ngày nghỉ. ④ Ô &quot;Lý do&quot;: viết lý do nghỉ. ⑤ Nộp cho anh Tanaka bộ phận tổng vụ trước ngày nghỉ 1 tuần. Khi đột ngột nghỉ vì ốm, hãy gọi điện báo trước 8 giờ sáng.
+@45.4 GT
+Mục ②: 「{名前|なまえ}の{横|よこ}にハンコをおします」. ハンコをおす = đóng con dấu. {横|よこ} (HOÀNH) = bên cạnh.
+@46.2 DICH
+(Xem bản dịch câu trước.)
+@46.4 GT
+Dòng cuối: 「{急|きゅう}に{病気|びょうき}で{休|やす}むときは、{朝|あさ}8{時|じ}までに{電話|でんわ}で{連絡|れんらく}してください」. 1{週間|しゅうかん}{前|まえ} là quy định cho nghỉ có kế hoạch. {急|きゅう}に (CẤP) = đột ngột, {休暇届|きゅうかとどけ} (HƯU HẠ GIỚI) = đơn xin nghỉ.
+@47.2 DICH
+José: Gần đây người tôi nặng nề… Bạn có tập gì không? / Rin: Mình đi gym 2 lần một tuần, và mỗi sáng đi bộ 30 phút. / Rin: Với lại buổi tối cố không ăn quá nhiều. / José: Giỏi quá. Mình đi gym cùng được không? / Rin: Tất nhiên! Thứ Bảy này đi nhé.
+@47.4 GT
+「{毎朝|まいあさ}30分{歩|ある}いてるよ」. ジム là {週|しゅう}に2{回|かい} (2 lần/tuần), không phải mỗi sáng. Trong bài không có ヨガ.
+@48.2 DICH
+(Xem bản dịch câu trước.)
+@48.4 GT
+ホセ hỏi いっしょにジムに{行|い}ってもいい？ → リン: {今度|こんど}の{土曜日|どようび}、{行|い}こう. Vてもいい？ = có được làm V không; {行|い}こう = thể ý chí (rủ: cùng đi).

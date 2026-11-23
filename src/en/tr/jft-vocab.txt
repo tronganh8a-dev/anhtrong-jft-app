@@ -1,0 +1,448 @@
+@1.2 DICH
+This is a scarf (マフラー).
+@1.4 GT
+The picture shows a red knitted scarf, which is 「マフラー」 in Japanese. 「マーケティング」 is marketing and 「マンション」 is an apartment building; neither matches the picture.
+@1.7 TV
+scarf || apartment building (multi-story)
+@2.2 DICH
+This is a kimono ({着物|きもの}).
+@2.4 GT
+The picture shows a woman in traditional Japanese clothing, called 「着物（きもの）」. 「季節（きせつ）」 means season, and 「上着（うわぎ）」 means jacket, outer layer. To remember it: {着|き} = wear, {物|もの} = thing, so {着物|きもの} is traditional clothing to wear.
+@2.7 TV
+kimono, traditional Japanese clothing || season || jacket, outer layer
+@3.2 DICH
+This is an apartment building (アパート).
+@3.4 GT
+The picture shows a two-story building with several doors and an outside staircase. This is an 「アパート」 (a low-rise rental apartment building). 「モール」 is a shopping mall, and 「ファミリーマート」 is the name of a convenience store chain.
+@3.7 TV
+apartment (low-rise rental building) || shopping mall
+@4.2 DICH
+This is my father ({父|ちち}).
+@4.4 GT
+The picture shows a man with glasses reading a newspaper with his son – this is the father, 「父（ちち）」 in Japanese. 「母（はは）」 means mother, and 「妹（いもうと）」 means younger sister.
+@4.7 TV
+(my) father || (my) mother || younger sister
+@5.2 DICH
+The wind ({風|かぜ}) is blowing hard.
+@5.4 GT
+The picture shows a girl in a strong wind, with her hair and leaves flying, so the answer is 「風（かぜ）」 = wind. 「雨（あめ）」 is rain and 「雪（ゆき）」 is snow; there are no raindrops or snowflakes in the picture.
+@5.7 TV
+wind || rain || snow
+@6.2 DICH
+These are New Year (お{正月|しょうがつ}) decorations.
+@6.4 GT
+The picture has 「{鏡|かがみ}もち」 (round rice cakes), 「{門松|かどまつ}」 (bamboo decorations), plum blossoms, a daruma doll, a spinning top… these are all Japanese New Year decorations, i.e. 「お{正月|しょうがつ}（おしょうがつ）」. 「クリスマス」 is Christmas, and 「七夕（たなばた）」 is the Star Festival in July.
+@6.7 TV
+New Year || Tanabata, the Star Festival (July 7) || bamboo and pine decoration placed at the gate for New Year
+@7.2 DICH
+I want to try staying at a ryokan (a traditional Japanese inn).
+@7.4 GT
+「{旅館|りょかん}」 is read 「りょかん」 (traditional Japanese inn). 旅 is read 「りょ」 here (short, with no う), and 館 is read 「かん」 (not がん). The other two options have a wrong long vowel or a wrong voiced sound.
+@7.7 TV
+traditional Japanese inn || stay overnight
+@8.2 DICH
+This is Christmas (a Christmas tree).
+@8.4 GT
+The picture shows a Christmas tree with a star, bells and ribbons, so the answer is 「クリスマス」 (Christmas). 「クリーム」 is cream, and 「クリーニング」 is dry cleaning (a laundry shop). All three words start with 「クリ」, so they are easy to mix up.
+@8.7 TV
+Christmas || dry cleaning, laundry shop
+@9.2 DICH
+This is a key (かぎ).
+@9.4 GT
+The picture shows a key, 「かぎ（{鍵|かぎ}）」 in Japanese. 「かさ（{傘|かさ}）」 is an umbrella, and 「かお（{顔|かお}）」 is a face. Note that the three words differ only in their last sound.
+@9.7 TV
+key || umbrella || face
+@10.2 DICH
+These are shoes ({靴|くつ}).
+@10.4 GT
+The picture shows a pair of sneakers, 「靴（くつ）」 in Japanese. 「靴下（くつした）」 means socks (worn under shoes), and 「帽子（ぼうし）」 means hat.
+@10.7 TV
+shoes || socks || hat, cap
+@11.2 DICH
+This is a hot spring ({温泉|おんせん}).
+@11.4 GT
+The picture shows a person soaking in an outdoor hot pool – a hot spring, 「温泉（おんせん）」. 「温度（おんど）」 means temperature, and 「温水（おんすい）」 means warm water (in general).
+@11.7 TV
+hot spring || temperature || warm water
+@12.2 DICH
+She is coughing ({咳|せき}).
+@12.4 GT
+The picture shows a person coughing, with droplets coming from her mouth, so choose 「咳（せき）」 = a cough. 「風邪（かぜ）」 is a cold (illness), and 「風（かぜ）」 is wind. {風邪|かぜ} and {風|かぜ} are read the same way, but {風邪|かぜ} has the extra kanji 邪, which marks the illness.
+@12.7 TV
+cough || a cold (illness) || wind
+@13.2 DICH
+(I) get off the train.
+@13.4 GT
+The picture shows a man stepping off a train onto the platform, so choose 「{降|お}ります（おります）」 = get off (a train or bus). 「{乗|の}ります（のります）」 means get on, and 「{乗|の}り{換|か}えます（のりかえます）」 means change trains.
+@13.7 TV
+get off (a train, bus) || get on (a train, bus) || change trains
+@14.2 DICH
+This is the entrance of a house ({玄関|げんかん}).
+@14.4 GT
+The picture shows the entrance area of a Japanese home, with a shoe cabinet and shoes on the floor. This is the 「玄関（げんかん）」. 「ホール」 is a hall or large lobby, and 「角（かど）」 is a corner (of a street or room).
+@14.7 TV
+entrance of a house, where you take off your shoes || corner
+@15.2 DICH
+It is sunny ({晴|は}れ).
+@15.4 GT
+The picture shows a smiling sun in a blue sky – fine, sunny weather, 「{晴|は}れ（はれ）」. 「雷（かみなり）」 is thunder and lightning, and 「雪（ゆき）」 is snow.
+@15.7 TV
+sunny, clear weather || thunder, lightning
+@16.2 DICH
+An earthquake ({地震|じしん}).
+@16.4 GT
+The picture shows a house and a utility pole leaning, with the ground cracking and shaking – an earthquake, 「地震（じしん）」. 「火事（かじ）」 is a fire, and 「津波（つなみ）」 is a tsunami.
+@16.7 TV
+earthquake || fire (a building on fire) || tsunami
+@17.2 DICH
+This is a sheet of paper ({紙|かみ}).
+@17.4 GT
+The picture shows a blank sheet of paper; the kanji is 「紙（かみ）」. 「音（おと）」 means sound, and 「氏（し）」 means Mr. / Ms. (used after a name). Note that {紙|かみ} has the thread radical 糸 on the left, which 氏 does not have.
+@17.7 TV
+paper || sound || Mr. / Ms. (honorific, after a surname)
+@18.2 DICH
+This is a kitchen ({台所|だいどころ}).
+@18.4 GT
+The picture shows a kitchen with a refrigerator, a gas stove, a range hood and a sink, so choose 「だいどころ（{台所|だいどころ}）」 = kitchen. 「げんかん」 is the entrance of a house, and 「しょくどう」 is a dining hall or cafeteria.
+@18.7 TV
+kitchen || dining hall, cafeteria
+@19.2 DICH
+(He) is sticking a sheet of paper on the wall.
+@19.4 GT
+The picture shows a person taping a sheet of paper to the wall; the verb is 「{貼|は}ります（はります）」 = stick, paste. 「{借|か}ります（かります）」 means borrow, and 「{入|はい}ります（はいります）」 means enter.
+@19.7 TV
+stick, paste || borrow || enter
+@20.2 DICH
+This is a bus.
+@20.4 GT
+The picture shows a green bus, so choose 「バス」. 「{自転車|じてんしゃ}（じてんしゃ）」 is a bicycle, and 「電話（でんわ）」 is a telephone.
+@20.7 TV
+bus || bicycle
+@21.2 DICH
+Turn off the tap.
+@21.4 GT
+The picture shows a hand turning off a tap, so we say 「蛇口（じゃぐち）をしめます」 = turn off the tap. 「きめます（{決|き}めます）」 means decide, and 「さめます（{冷|さ}めます）」 means cool down.
+@21.7 TV
+close, turn off (a tap, a door) || tap, faucet || decide
+@22.2 DICH
+September.
+@22.4 GT
+「9{月|がつ}」 is read 「くがつ」, not きゅうがつ. This is a special reading you need to remember: April is しがつ, July is しちがつ, and September is くがつ.
+@22.7 TV
+September
+@23.2 DICH
+Drop (a phone).
+@23.4 GT
+The picture shows a person dropping a phone into a gap; the verb is 「{落|お}とす（おとす）」 = drop. 「{起|お}きる（おきる）」 means wake up, and 「{帰|かえ}る（かえる）」 means go home, return.
+@23.7 TV
+drop || wake up, get up || go home, return
+@24.2 DICH
+This is a laptop.
+@24.4 GT
+The picture shows a laptop computer, 「ノートパソコン」 in Japanese. 「パンフレット」 is a pamphlet or brochure, and 「パワーフル」 is not a real word (the correct word is パワフル = powerful).
+@24.7 TV
+laptop computer || pamphlet, brochure
+@25.2 DICH
+It is raining ({雨|あめ}).
+@25.4 GT
+The picture shows a gray cloud with lots of drops falling – rain, 「雨（あめ）」. 「雲（くも）」 is just a cloud, and 「雪（ゆき）」 is snow. The key point here is the falling rain.
+@25.7 TV
+rain || cloud
+@26.2 DICH
+The mother is scolding her child.
+@26.4 GT
+The picture shows a mother with her hands on her hips, pointing at a child who is looking down. The verb is 「しかります（{叱|しか}ります）」 = scold. 「ほめます」 means praise (the opposite), and 「かります」 means borrow.
+@26.7 TV
+scold || praise
+@27.2 DICH
+Library.
+@27.4 GT
+「{図書館|としょかん}」 is read 「としょかん」 (library). 図 is read と, 書 is read しょ (short), and 館 is read かん. The options with an extra long う are wrong.
+@27.7 TV
+library
+@28.2 DICH
+Good at (something).
+@28.4 GT
+「{上手|じょうず}」 is read 「じょうず」 (good at, skillful), with a long う after じょ. 「じょず」 is missing the long vowel, so it is wrong.
+@28.7 TV
+good at, skillful
+@29.2 DICH
+Plan.
+@29.4 GT
+「{計画|けいかく}」 is read 「けいかく」 (plan). 計 is read けい (with い), not け or げい.
+@29.7 TV
+plan
+@30.2 DICH
+Happiness.
+@30.4 GT
+「{幸|しあわ}せ」 is read 「しあわせ」 (happiness, happy). There is no extra い at the beginning or the end, unlike the other options.
+@30.7 TV
+happiness, happy
+@31.2 DICH
+Student.
+@31.4 GT
+「{学生|がくせい}」 is read 「がくせい」 (student). 生 is read せい here (with い), and there is no small っ.
+@31.7 TV
+student
+@32.2 DICH
+Put on trousers.
+@32.4 GT
+For things worn below the waist, such as trousers, skirts, shoes and socks, use the verb 「{履|は}きます（はきます）」. 「{着|き}ます（きます）」 is used for clothes on the upper body, and 「{被|かぶ}ります（かぶります）」 is used for hats.
+@32.7 TV
+put on, wear (trousers, shoes) || trousers
+@33.2 DICH
+Put on a shirt.
+@33.4 GT
+A shirt is worn on the upper body, so use 「{着|き}ます（きます）」. 「{履|は}きます」 is used for trousers and shoes; 「かけます」 is used for glasses (めがねをかけます).
+@33.7 TV
+put on, wear (a shirt, jacket) || shirt
+@34.2 DICH
+Put on a hat.
+@34.4 GT
+For hats, use the verb 「かぶります」. 「かけます」 is used for glasses, and 「ふります」 means wave (your hand) or (rain) falls.
+@34.7 TV
+put on, wear (a hat) || hat, cap
+@35.2 DICH
+(The tire) is round.
+@35.4 GT
+The picture shows a round tire, so choose the adjective 「{丸|まる}い（まるい）」 = round. 「{厚|あつ}い（あつい）」 means thick, and 「{低|ひく}い（ひくい）」 means low.
+@35.7 TV
+round || thick || low
+@36.2 DICH
+This is an egg ({卵|たまご}).
+@36.4 GT
+The picture shows a boiled egg cut in half with the yolk showing, so choose 「卵（たまご）」. 「肉（にく）」 is meat, and 「野菜（やさい）」 is vegetables.
+@36.7 TV
+egg || vegetables
+@37.2 DICH
+A traditional Japanese inn.
+@37.4 GT
+「{旅館|りょかん}」 is read 「りょかん」. There is no long う after りょ, and かん is not voiced as がん.
+@37.7 TV
+traditional Japanese inn
+@38.2 DICH
+This is the entrance of a house ({玄関|げんかん}).
+@38.4 GT
+The same picture as question 14: an entrance area with a shoe cabinet and shoes on the floor – 「玄関（げんかん）」. 「場所（ばしょ）」 means place (in general), and 「庭（にわ）」 means garden, yard.
+@38.7 TV
+entrance of a house || garden, yard || place
+@39.2 DICH
+Address.
+@39.4 GT
+「{住所|じゅうしょ}」 is read 「じゅうしょ」 (address). 住 is read じゅう (with a long vowel), and 所 is read しょ (short). 「じゅうしょう」 has an extra long vowel at the end.
+@39.7 TV
+address
+@40.2 DICH
+Pick up.
+@40.4 GT
+「{拾|ひろ}う」 is read 「ひろう」 = pick up. 「まよう」 means get lost ({迷|まよ}う), 「いう」 means say ({言|い}う), and 「かう」 means buy ({買|か}う).
+@40.7 TV
+pick up || get lost, be unsure
+@41.2 DICH
+Weekend.
+@41.4 GT
+「{週末|しゅうまつ}」 is read 「しゅうまつ」 (weekend). 週 is read しゅう (with a long vowel, not voiced), and 末 is read まつ.
+@41.7 TV
+weekend
+@42.2 DICH
+Pick up.
+@42.4 GT
+「{拾|ひろ}う」 is read 「ひろう」 = pick up (the same as question 40). 「いう」 means say, 「まよう」 means get lost, and 「かう」 means buy.
+@42.7 TV
+pick up
+@43.2 DICH
+Weekend.
+@43.4 GT
+「{週末|しゅうまつ}」 is read 「しゅうまつ」 (the same as question 41). 「じゅうまつ」 is wrong because it is voiced, and 「しゅまつ」 is missing the long vowel.
+@43.7 TV
+weekend
+@44.2 DICH
+The sky ({空|そら}).
+@44.4 GT
+The picture shows a blue sky with white clouds; the kanji is 「空（そら）」. 「家（いえ）」 means house, and 「木（き）」 means tree.
+@44.7 TV
+sky || house, home || tree
+@45.2 DICH
+Health (a healthy lifestyle).
+@45.4 GT
+The picture shows a person exercising, drinking water, going to bed early and getting up on time – a healthy lifestyle – so choose 「健康（けんこう）」 = health. 「見学（けんがく）」 means a study visit or tour, and 「{研究|けんきゅう}（けんきゅう）」 means research.
+@45.7 TV
+health || study visit, tour || research
+@46.2 DICH
+This is a teddy bear (ぬいぐるみ).
+@46.4 GT
+The picture shows a stuffed teddy bear, 「ぬいぐるみ」 in Japanese. 「{人形|にんぎょう}（にんぎょう）」 is a doll in human form, and 「靴（くつ）」 means shoes.
+@46.7 TV
+stuffed toy || doll
+@47.2 DICH
+Order (food or goods).
+@47.4 GT
+「{注文|ちゅうもん}」 is read 「ちゅうもん」 (an order – ordering food or goods). 「ちゅうい」 is {注意|ちゅうい} (attention, caution), and 「ちゅもん」 is missing the long vowel.
+@47.7 TV
+order (food, goods) || attention, caution
+@48.2 DICH
+Post office.
+@48.4 GT
+「{郵便局|ゆうびんきょく}」 is read 「ゆうびんきょく」 (post office). 郵 has the long vowel ゆう, and 局 is read きょく (with no う).
+@48.7 TV
+post office
+@49.2 DICH
+A stain (on a shirt).
+@49.4 GT
+The picture shows a person holding a T-shirt with lots of stains, so choose 「{汚|よご}れ（よごれ）」 = stain, dirt. 「{破|やぶ}れ（やぶれ）」 means a tear or rip, and 「台風（たいふう）」 means typhoon.
+@49.7 TV
+stain, dirt || tear, rip || typhoon
+@50.2 DICH
+Morning.
+@50.4 GT
+「{朝|あさ}」 is read 「あさ」 = morning. 「よる」 is {夜|よる} (night), and 「ひる」 is {昼|ひる} (noon, daytime).
+@50.7 TV
+morning || night, evening
+@51.2 DICH
+Exercise.
+@51.4 GT
+「{運動|うんどう}」 is read 「うんどう」 (exercise, physical activity). 「うんてん」 is {運転|うんてん} (driving), and 「うんと」 is a wrong reading.
+@51.7 TV
+exercise, physical activity || driving
+@52.2 DICH
+Blue ({青|あお}).
+@52.4 GT
+Both Mt. Fuji and the sky in the picture are blue, so choose 「青（あお）」. 「赤（あか）」 is red, and 「黒（くろ）」 is black.
+@52.7 TV
+blue || red || black
+@53.2 DICH
+English.
+@53.4 GT
+「{英語|えいご}」 is read 「えいご」 (the English language). 英 is read えい, and 語 is read ご (not ごう or こう).
+@53.7 TV
+English (language)
+@54.2 DICH
+Put a strawberry on top (of a parfait).
+@54.4 GT
+The picture shows a parfait with a strawberry on the very top, so use 「{乗|の}せる（のせる）」 = put on top of something (いちごを{乗|の}せる). 「{見|み}せる（みせる）」 means show, and 「{置|お}く（おく）」 means put or place (in general) – it does not stress placing something on top of something else.
+@54.7 TV
+put on top of, load || show || put, place
+@55.2 DICH
+Move.
+@55.4 GT
+「{動|うご}く」 is read 「うごく」 = move. 「はたらく」 is {働|はたら}く (work) – its kanji looks similar but has the extra person radical 亻 (にんべん). 「うごうく」 is wrong.
+@55.7 TV
+move || work
+@56.2 DICH
+Light (not heavy).
+@56.4 GT
+「{軽|かる}い」 is read 「かるい」 = light (in weight). 「おもい」 is {重|おも}い (heavy, the opposite), and 「くらい」 is {暗|くら}い (dark).
+@56.7 TV
+light (in weight) || heavy
+@57.2 DICH
+A: Your Japanese is very good. B: Oh, not at all.
+@57.4 GT
+When praised, Japanese people usually reply modestly with 「そんなことない（です）」 = oh, not at all / I'm not that good. 「とてもたすかりました」 is a thank-you for help, so it doesn't fit. 「ありがとうございます」 can also be used, but this type of question usually tests the modest reply.
+@57.7 TV
+good at, skillful || be helped, be a great help
+@58.2 DICH
+Turn left.
+@58.4 GT
+The arrow goes up to the intersection and then turns left, and the taxi is heading left, so choose 「{左|ひだり}にまがります」 = turn left. 「{右|みぎ}にまがります」 means turn right, and 「まっすぐ{行|い}きます」 means go straight.
+@58.7 TV
+left || turn || straight
+@59.2 DICH
+This is my father ({父|ちち}).
+@59.4 GT
+The same picture as question 4: a man with glasses reading a newspaper with his son – the father, 「父（ちち）」. 「{妹|いもうと}」 means younger sister, and 「{母|はは}」 means mother.
+@59.7 TV
+(my) father || (my) mother
+@60.2 DICH
+Grill fish.
+@60.4 GT
+The picture shows a Pacific saury (さんま) being grilled over charcoal; the verb is 「{焼|や}きます（やきます）」 = grill, bake. 「{揚|あ}げます（あげます）」 means deep-fry, and 「いためます」 means stir-fry.
+@60.7 TV
+grill, bake || deep-fry || stir-fry
+@61.2 DICH
+Year.
+@61.4 GT
+「{年|ねん}」 is read 「ねん」 (year) when it follows a number, for example 2025{年|ねん}. 「つき」 is {月|つき} (month, moon), and 「ひ」 is {日|ひ} (day, sun).
+@61.7 TV
+year
+@62.2 DICH
+Famous.
+@62.4 GT
+「{有名|ゆうめい}」 is read 「ゆうめい」 (famous). Both 有 (ゆう) and 名 (めい) have long vowels; the other options are missing them.
+@62.7 TV
+famous
+@63.2 DICH
+My family lives in Hokkaido.
+@63.4 GT
+The subject of 「{住|す}んでいます」 (lives) must be a person, so choose 「家族（かぞく）」 = family. 「{注文|ちゅうもん}」 means an order, and 「{会社|かいしゃ}」 means company – neither can "live" somewhere.
+@63.7 TV
+family || live, reside || Hokkaido
+@64.2 DICH
+The way to use this machine is too complicated, so I don't really understand it.
+@64.4 GT
+The second half is 「よくわかりません」 (I don't really understand), so the machine must be complicated to use: 「ふくざつすぎて」 (it's too complicated, so…). Pattern: adjective without な/い + すぎる = too… 「やさしい」 (easy) and 「かんたん」 (simple) are the opposite of what the sentence means.
+@64.7 TV
+complicated || machine || how to use
+@65.4 GT
+"Watch TV" is 「テレビを{見|み}ます（みます）」. 「{診|み}ます（みます）」 is also read みます, but it means examine a patient (a doctor's checkup), and 「{寝|ね}ます」 means sleep.
+@65.7 TV
+watch, look at || examine (a patient) || sleep
+@66.2 DICH
+Crowded (lots of people).
+@66.4 GT
+「{人|ひと}が{多|おお}い」 = there are lots of people, it's crowded. 「{寒|さむ}い」 means cold (weather), and 「{熱|あつ}い」 means hot (to the touch) – neither is used to talk about people.
+@66.7 TV
+many, a lot || cold (weather) || hot (to the touch)
+@67.2 DICH
+I heard that this temple was built in the 16th century.
+@67.4 GT
+The temple "was built", so use the passive 「{建|た}てられる」, and since it happened in the 16th century, use the past form 「{建|た}てられた」. Pattern: plain form + そうです = I heard that… 「たてた」 is active (someone built it) and 「たてられる」 is present tense – both are wrong.
+@67.7 TV
+build || temple || century
+@68.2 DICH
+Eat a meal (rice).
+@68.4 GT
+"Eat rice / a meal" is 「ご{飯|はん}を{食|た}べます」. 「{飲|の}みます」 is used for drinks, and 「{吸|す}います」 means smoke (a cigarette) or breathe in (air).
+@68.7 TV
+cooked rice, a meal || eat || smoke, breathe in
+@69.2 DICH
+Bananas, please.
+@69.4 GT
+The pattern 「N をください」 = please give me N, used when buying something or asking for something. 「バナナをします」 and 「バナナをしてね」 don't make sense.
+@69.7 TV
+please give me
+@70.2 DICH
+The airport was crowded – what do you say when you have kept someone waiting a long time? → Sorry to have kept you waiting.
+@70.4 GT
+When you have kept someone waiting a long time, say 「お{待|ま}たせしました」 = sorry to have kept you waiting. 「お{待|ま}ちしております」 means "we look forward to your visit" (said before a customer arrives), and 「お{返事|へんじ}ください」 means "please reply".
+@70.7 TV
+sorry to have kept you waiting || airport || be crowded
+@71.2 DICH
+A traffic light ({信号|しんごう}).
+@71.4 GT
+The picture shows a traffic light with green, yellow and red lights, so choose 「信号（しんごう）」. 「地震（じしん）」 means earthquake, and 「自信（じしん）」 means confidence.
+@71.7 TV
+traffic light || confidence || earthquake
+@72.2 DICH
+A signboard ({看板|かんばん}).
+@72.4 GT
+The picture shows two advertising boards in front of a restaurant; these are called 「看板（かんばん）」. 「{信号|しんごう}」 is a traffic light, and 「関係（かんけい）」 means relationship.
+@72.7 TV
+signboard, advertising sign || relationship, connection
+@73.2 DICH
+Pour sauce (over food).
+@73.4 GT
+The picture shows a person pouring sauce over a plate of food; the verb is 「かけます」 (ソースをかけます = pour sauce over). 「いれます」 means put in (inside), and 「あげます」 means give, or deep-fry.
+@73.7 TV
+pour over, sprinkle (sauce, seasoning) || sauce
+@74.2 DICH
+This is a vacuum cleaner ({掃除機|そうじき}).
+@74.4 GT
+The picture shows a vacuum cleaner, 「そうじき（{掃除機|そうじき}）」 in Japanese. 「そうしき（{葬式|そうしき}）」 is a funeral. The only difference is the voicing mark on じ/し, so look carefully.
+@74.7 TV
+vacuum cleaner || funeral
+@75.2 DICH
+Send.
+@75.4 GT
+「{送|おく}ります」 is read 「おくります」 = send, see someone off. 「おります」 means get off (a vehicle) ({降|お}ります), and 「かります」 means borrow ({借|か}ります).
+@75.7 TV
+send, see off

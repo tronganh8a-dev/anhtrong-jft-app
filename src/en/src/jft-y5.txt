@@ -1,0 +1,220 @@
+@1.2 DICH
+Tranh: người đội mũ len, quàng khăn, ôm người run cầm cập → lạnh.
+@1.4 GT
+寒い (HÀN) さむい = lạnh (thời tiết). 暖かい (NOÃN) あたたかい = ấm áp, 暑い (THỬ) あつい = nóng, すずしい = mát mẻ. Bốn tính từ thời tiết hay đi theo mùa: xuân 暖かい, hè 暑い, thu すずしい, đông 寒い. いろどり 初級1 第3課.
+@2.2 DICH
+Tranh: hai đô vật trên sàn đấu có dây, khán giả hò reo → đấu vật.
+@2.4 GT
+プロレス = đấu vật chuyên nghiệp (võ đài có dây quây). コンサート = buổi hoà nhạc, 野球 (DÃ CẦU) やきゅう = bóng chày, 映画 (ÁNH HOẠ) えいが = phim. いろどり 初級1 第8課 (sở thích, giải trí).
+@3.2 DICH
+Tranh: lá đỏ, lá vàng trên núi → mùa thu.
+@3.4 GT
+もみじがきれい = lá đỏ đẹp → mùa thu. 桜の花が咲く (ANH – HOA – TIẾU) = hoa anh đào nở (xuân), 雪が降る (TUYẾT – GIÁNG) = tuyết rơi (đông), セミが鳴く (MINH) = ve kêu (hè). いろどり 初級1 第3課.
+@4.2 DICH
+Hôm qua gió thổi mạnh, vất vả lắm.
+@4.4 GT
+かぜがふく (風が吹く – PHONG, XUY) = gió thổi; thể て là ふいて. ふって (降る) dùng cho mưa, tuyết: 雨がふる. さいて (咲く) dùng cho hoa. なって (なる) = trở nên, không đi với かぜがつよく. いろどり 初級1 第4課.
+@5.2 DICH
+Việc chuẩn bị cho tiệc nướng thì làm thế nào?
+@5.4 GT
+じゅんび (準備 – CHUẨN BỊ) = sự chuẩn bị: mua thịt, đồ uống… cho tiệc nướng. よやく (予約 – DỰ ƯỚC) = đặt chỗ, しゅくだい (宿題 – TÚC ĐỀ) = bài tập về nhà, せつめい (説明 – THUYẾT MINH) = giải thích. いろどり 初級1 第11課.
+@6.2 DICH
+Dần dần tôi đã quen với cuộc sống ở Nhật.
+@6.4 GT
+〜になれる (慣れる – QUÁN) = quen với ~; だんだん〜てきました = dần dần đã ~. つかれる = mệt, すむ = sống (ở đâu: 〜にすむ, không đi với せいかつ), おぼえる = nhớ, học thuộc. いろどり 初級1 第1課.
+@7.2 DICH
+Hãy rẽ phải ở góc phố tiếp theo.
+@7.4 GT
+右 (HỮU) đọc là みぎ = bên phải. ひだり là 左 (TẢ) = bên trái. みき, ひたり là cách đọc sai (thiếu dấu đục). Phân biệt chữ: 右 có 口 bên dưới, 左 có 工.
+@8.2 DICH
+Tôi muốn tham gia lớp học nấu ăn.
+@8.4 GT
+料理 (LIỆU LÍ) đọc là りょうり = món ăn, nấu ăn. Chú ý りょ là âm ghép (ょ viết nhỏ) và kéo dài う: りょう・り. Các phương án khác thiếu âm dài hoặc sai âm.
+@9.2 DICH
+Chúc mừng anh/chị kết hôn.
+@9.4 GT
+結婚 (KẾT HÔN) đọc là けっこん, có âm ngắt っ. けっこう (結構) là từ khác = khá, được rồi. けこん thiếu っ, げっこん sai dấu đục.
+@10.2 DICH
+Tôi đang đợi ở cửa Bắc của ga.
+@10.4 GT
+きた = 北 (BẮC); 北口 (きたぐち) = cửa Bắc. Các chữ trông giống: 此 (THỬ), 比 (TỈ – くらべる), 化 (HOÁ). Bốn hướng: 東 ひがし, 西 にし, 南 みなみ, 北 きた.
+@11.2 DICH
+Mì ramen của quán này rẻ mà ngon.
+@11.4 GT
+やすい = 安い (AN) = rẻ; やすくて = thể て của tính từ い để nối câu. 案 (ÁN – kế hoạch) có thêm 木 bên dưới, 女 (NỮ) = phụ nữ, 宏 (HOẰNG) không liên quan. Chữ 安 = mái nhà 宀 + 女.
+@12.2 DICH
+Vào ngày sinh nhật, tôi được bạn tặng một chiếc cốc.
+@12.4 GT
+たんじょうび = 誕生日 (ĐẢN SINH NHẬT). Phương án sai thay một chữ: 性 (TÍNH), 星 (TINH – ほし), 延 (DIÊN) trông giống 誕 nhưng thiếu bộ 言. 生 (SINH) trong 誕生日 đọc じょう.
+@13.2 DICH
+Kimura: Ngày nghỉ chị thường làm gì? / Ninh: Thường thì tôi ở nhà xem phim, nghe nhạc…
+@13.4 GT
+Mẫu Vたり、Vたりする = làm A, làm B… (liệt kê vài việc tiêu biểu). Vế sau có 聞いたりしています nên vế trước cũng phải là 見たり. 見て chỉ nối hành động theo thứ tự, 見ると = hễ xem thì, 見るので = vì xem. いろどり 初級1 第2課.
+@14.2 DICH
+Yamamoto: Chào buổi sáng. Hôm nay trời đẹp nhỉ. / Linh: Đúng vậy nhỉ.
+@14.4 GT
+Người kia nói 〜ですね để tìm sự đồng tình → đáp そうですね (đúng thế nhỉ). そうですか = vậy à (khi nghe thông tin mới), どういたしまして = không có gì (đáp lời cảm ơn), どうですか = thế nào. いろどり 初級1 第4課.
+@15.2 DICH
+Hàng xóm: Thị trấn này thế nào? / Linh: Đúng là thành phố nhỉ. Người cũng đông, cửa hàng cũng nhiều, náo nhiệt quá.
+@15.4 GT
+人も店も多くて → にぎやか (náo nhiệt). Trái nghĩa: 静か (TĨNH) しずか = yên tĩnh, さびしい = vắng vẻ, buồn. 不便 (BẤT TIỆN) ふべん = bất tiện – ngược ý với &quot;nhiều cửa hàng&quot;. いろどり 初級1 第5課.
+@16.2 DICH
+Người phụ trách: Sự kiện bắt đầu lúc 17 giờ, nhân viên hãy đến trước 30 phút. / Linh: Vậy là 4 giờ rưỡi nhỉ.
+@16.4 GT
+30分前に = trước 30 phút: 17時 − 30分 = 16時30分 (4時半), đúng với câu trả lời của Linh. 後に (HẬU) あとに = sau. 中に, 間に (GIAN) không dùng với khoảng thời gian kiểu này. いろどり 初級1 第7課.
+@17.2 DICH
+Sato: Việc học tiếng Nhật thế nào? / Minh: Việc đọc thì hơi khó. Nhưng hội thoại thì tôi giỏi.
+@17.4 GT
+Vるの = biến động từ thành danh từ (&quot;việc đọc&quot;); 読むのは難しい = việc đọc thì khó. Không nói 読むをは / 読むとは / 読むがは. 得意 (ĐẮC Ý) とくい = giỏi, sở trường. いろどり 初級1 第9課.
+@18.2 DICH
+Minh: Lớp nấu ăn bao nhiêu tiền? / Lễ tân: Mỗi buổi anh/chị trả 800 yên.
+@18.4 GT
+お金を払う (PHẤT) はらう = trả tiền → 払ってください. もらう = nhận, 借りる (TÁ) かりる = mượn, 返す (PHẢN) かえす = trả lại đồ đã mượn. いろどり 初級1 第10課.
+@19.2 DICH
+Tamura: Ăn thêm chút nữa không? / Huyền: À, thôi ạ. Tôi no rồi.
+@19.4 GT
+お腹がいっぱい = no bụng → từ chối khéo khi được mời thêm. お腹がすいています = đói (ngược nghĩa). お腹がいたい = đau bụng. あいています = (chỗ) đang trống. だいじょうぶです ở đây = thôi, không cần ạ. いろどり 初級1 第12課.
+@20.2 DICH
+Cấp trên: Xong chưa? / Ali: Vâng, xong rồi ạ. Thế này được chưa ạ? / Cấp trên: Ừ, OK. Vất vả rồi.
+@20.4 GT
+これでいいですか = thế này được chưa ạ? – câu xin xác nhận khi nộp việc. Cấp trên đáp OK nên đây là câu hỏi xác nhận. いきますか = đi không, ほしいですか = có muốn không, なりますか = có trở thành không. いろどり 初級1 第13課.
+@21.2 DICH
+Bác sĩ: Hôm nay anh bị sao? / Quách: Từ hôm qua tôi bị sốt, và đau họng.
+@21.4 GT
+Khi kể triệu chứng với bác sĩ dùng 〜んです (giải thích tình trạng): のどが痛いんです. 痛かったら = nếu đau, 痛くないです = không đau (ngược ý), 痛いでしょう = chắc là đau (đoán). 痛い (THỐNG) いたい. いろどり 初級1 第15課.
+@22.2 DICH
+José: Hôm qua tôi uống quá nhiều. Hơi bị say rượu ạ. / Sakai: Ôi.
+@22.4 GT
+Vます bỏ ます + すぎる = làm quá mức. 昨日 (hôm qua) → thì quá khứ: 飲みすぎました. すぎます là hiện tại, 飲みたいです = muốn uống, 飲みましょう = cùng uống nào. 二日酔い (NHỊ NHẬT TUÝ) ふつかよい = say rượu hôm sau. いろどり 初級1 第16課.
+@23.2 DICH
+Soka: Thầy ơi, đây là rượu của Campuchia. Em tặng thầy ạ. / Thầy: Ơ, được thật à?
+@23.4 GT
+Khi đưa quà: 先生にプレゼントです = đây là quà tặng thầy. もらいました = em đã nhận, くれました = (ai đó) đã cho em – sai hướng cho/nhận. あげませんか = rủ người khác cùng tặng. いろどり 初級1 第17課.
+@24.2 DICH
+Mai: Nghe nói anh mới có em bé. Chúc mừng anh! / Tiền bối: Cảm ơn em.
+@24.4 GT
+Chúc mừng tin vui (sinh con, kết hôn…) → おめでとうございます. おだいじに = mau khoẻ nhé (khi ai ốm), いただきます = câu trước khi ăn, おつかれさまでした = vất vả rồi (cuối giờ làm). 〜そうです = nghe nói. いろどり 初級1 第18課.
+@25.q Q
+Mùa thu ở Nhật thế nào?
+@25.0 ANS
+<span>Tranh 3 – lá đỏ đẹp</span>
+@25.4 DICH
+Mùa xuân hoa anh đào nở, trời ấm lên. Mùa mưa trời mưa nhiều, ẩm ướt. Mùa hè nóng, ve kêu, trường được nghỉ. Mùa thu trời mát, lá đỏ đẹp. Mùa đông lạnh, tuyết rơi.
+@25.6 GT
+Nghe đúng đoạn 秋は…: すずしくなります。もみじがきれいです → tranh 3. Tranh 1 là xuân (桜), tranh 2 là hè (セミ), tranh 4 là đông (雪). Bài nghe nói cả 5 mùa, phải bắt đúng từ khoá 秋 (THU) あき. いろどり 初級1 第3課 (03-03).
+@26.q Q
+Điểm không tốt của thị trấn này là gì?
+@26.0 ANS
+<span>Tranh 1 – người ta lạnh lùng</span>
+@26.4 DICH
+A: Thấy sao, thị trấn này? / B: Đúng là thành phố nhỉ. Người đông, cửa hàng nhiều, náo nhiệt ghê. / A: Vậy à. / B: Ừm, nhưng người ta hơi lạnh lùng. / A: Th… thế à.
+@26.6 GT
+Câu hỏi về điểm KHÔNG tốt. Sau でも (nhưng) là ý chê: 人がちょっと冷たい (LÃNH – つめたい: lạnh lùng) → tranh 1. にぎやか (tranh 2) là điểm tốt. Không nói 不便 (tranh 3) hay 緑が少ない (tranh 4). いろどり 初級1 第5課 (05-05).
+@27.q Q
+Cửa hàng ở đâu?
+@27.4 DICH
+A: Vâng, cửa hàng thực phẩm châu Á Bagus xin nghe. / B: Xin lỗi, tôi muốn đến cửa hàng, đi thế nào ạ? Tôi đang ở cửa Bắc ga Sakura. / A: Anh băng qua đường trước ga, đi thẳng con đường giữa ngân hàng và cửa hàng tiện lợi. Rồi rẽ phải ở đèn giao thông thứ nhất. Đi thẳng, đến góc thứ hai rẽ trái. Anh sẽ thấy toà nhà màu đen. Cửa hàng ở ngay cạnh đó. / B: Cạnh toà nhà màu đen nhỉ. Cảm ơn ạ.
+@27.6 GT
+Câu chốt cuối: 黒いビルが見えます。その隣です → cạnh toà nhà đen. 銀行, コンビニ, 駅の北口 chỉ là mốc trên đường đi, dễ gây nhầm. 隣 (LÂN) となり = bên cạnh, 角 (GIÁC) かど = góc phố, 信号 (TÍN HIỆU) しんごう = đèn giao thông. いろどり 初級1 第6課 (06-12).
+@28.q Q
+Người được rủ đã trả lời thế nào?
+@28.4 DICH
+A: Đã chơi bóng chày bao giờ chưa? / B: Ơ, chưa ạ. / A: Chủ nhật tới chơi cùng không? Đội đang thiếu người… / B: Ơ, không được đâu. Tôi hoàn toàn không biết bóng chày. / A: Không sao, không sao.
+@28.6 GT
+B nói 無理です (VÔ LÍ – むり: không được, không thể) + 野球、ぜんぜんわかりません → phương án 2. B trả lời ないです nên không phải &quot;đã từng chơi&quot;; メンバーが足りない là lời của người rủ. いろどり 初級1 第8課 (08-06).
+@29.q Q
+Người này kém cái gì?
+@29.4 DICH
+A: Học tiếng Nhật thế nào? / B: Tàm tạm. / A: Tàm tạm? / B: Tôi kém phát âm tiếng Nhật. Vì nó khác hẳn tiếng Việt. / A: Ra vậy. / B: Nhưng chữ Hán thì thú vị. Tôi muốn học thuộc thật nhiều. / A: Vậy à.
+@29.6 GT
+発音が苦手です → kém phát âm. 苦手 (KHỔ THỦ) にがて = kém, không giỏi. 漢字 thì おもしろい (thích), không phải 苦手. 発音 (PHÁT ÂM) はつおん, 文法 (VĂN PHÁP) ぶんぽう = ngữ pháp, 会話 (HỘI THOẠI) かいわ. いろどり 初級1 第9課 (09-12).
+@30.q Q
+Marco sẽ mua gì mang đến?
+@30.4 DICH
+Dương: Vậy anh Marco lo đồ uống nhé. / Marco: Được thôi. Bia và rượu vang được không? / Noi: À, xin lỗi, tôi không uống được rượu bia… / Marco: À, vậy tôi mua thêm cả trà nhé. / Noi: Cảm ơn anh.
+@30.6 GT
+Marco định mua ビールとワイン, rồi nói お茶も買って行きます – も = &quot;cũng, thêm&quot; nên mua cả ba: bia, rượu vang và trà. Không phải お茶だけ (chỉ trà). 肉と野菜 là phần người khác lo. お酒がだめ = không uống được rượu. いろどり 初級1 第11課.
+@31.q Q
+Quả quýt thế nào?
+@31.4 DICH
+A: Ăn một quả quýt không? Hái ở vườn nhà tôi đấy. / B: Vậy cháu xin. Nhưng trông vẫn còn hơi chua nhỉ. / A: Làm gì có. Ngọt lắm đó. / B: A, đúng thật. Ngọt.
+@31.6 GT
+すっぱそう chỉ là đoán theo vẻ ngoài (〜そう = trông có vẻ). Ăn rồi thì nói 本当だ。甘い → ngọt. 甘い (CAM) あまい = ngọt, 苦い (KHỔ) にがい = đắng, 辛い (TÂN) からい = cay. いろどり 初級1 第12課 (12-06).
+@32.q Q
+Cất tài liệu lại vào đâu?
+@32.4 DICH
+A: Tài liệu này làm sao ạ? / B: Cất lại vào tủ hồ sơ giúp nhé. / A: Ừm, chỗ nào trong tủ ạ? / B: Mở cửa trên bên phải, ngăn dưới cùng. / A: Em hiểu rồi. Bên phải, ngăn dưới cùng nhỉ.
+@32.6 GT
+Câu nhắc lại cuối bài chốt đáp án: 右のいちばん下 → cửa bên phải, ngăn dưới cùng. Chữ 上 trong 上の右の扉 là cửa phía trên của tủ, không phải ngăn trên cùng – dễ bị lừa sang phương án 4. 戻しといて = 戻しておいて (cất lại sẵn). 扉 (PHI) とびら = cánh cửa, 棚 (BẰNG) たな = ngăn kệ. いろどり 初級1 第13課 (13-20).
+@33.q Q
+Khi nghỉ bình thường, ô &quot;Lý do&quot; ghi gì?
+@33.4 DICH
+A: Khi xin nghỉ thì nộp đơn xin nghỉ phép, là mẫu này. Ô &quot;Bộ phận&quot; trên cùng ghi tên nhóm mình. &quot;Họ tên&quot; ghi tên, bên cạnh đóng dấu. &quot;Thời gian&quot; ghi nghỉ từ khi nào đến khi nào, mấy ngày. Ô &quot;Lý do&quot;, nghỉ bình thường thì ghi &quot;việc riêng&quot; (私用). Ở đây ghi thông tin liên lạc trong lúc nghỉ. Ô &quot;Ghi chú&quot; dưới cùng, nghỉ bình thường không cần ghi gì. Nộp chậm nhất ngày trước hôm nghỉ.
+@33.6 GT
+理由 (LÍ DO) りゆう → 私用 (TƯ DỤNG) しよう = việc riêng. 総務 (TỔNG VỤ) là tên bộ phận ghi ở ô 所属; 名前 ghi ở ô 氏名; 何も書かない (không ghi gì) là ô 備考 (BỊ KHẢO – ghi chú). Bài dài, nhiều ô – phải nghe đúng chỗ nhắc tới 理由. いろどり 初級1 第14課 (14-19).
+@34.q Q
+Khi say rượu, người ta nói cái gì là tốt nhất?
+@34.4 DICH
+A: José, trông mệt mỏi nhỉ. / B: Vâng, hôm qua tôi uống quá nhiều. Hơi say rượu… / B: Anh Sakai khi say rượu thì làm thế nào? / A: Chắc là uống thuốc giải rượu. Khá hiệu quả đấy. / A: Nhưng ngủ là tốt nhất. / B: Đúng vậy.
+@34.6 GT
+Thuốc chỉ là けっこういい (khá tốt). Sau でも mới là ý chính: 寝るのがいちばんいい → ngủ là tốt nhất. いちばん = nhất. Dễ chọn nhầm phương án 3 vì được nhắc trước. いろどり 初級1 第16課 (16-04).
+@35.q Q
+Bánh turon có nhân gì?
+@35.4 DICH
+A: Đây là bánh tôi tự làm. Mọi người ăn đi ạ. / B: Oa, cảm ơn. / A: Bánh tên là turon, ở Philippines rất nổi tiếng. Bên trong có chuối. / B: Ồ. Mình ăn nhé. Ừm, ngon!
+@35.6 GT
+バナナが入っています → nhân chuối. 〜が入っている (NHẬP) = có ~ bên trong. お菓子 (QUẢ TỬ) おかし = bánh kẹo. Các phương án khác không được nhắc tới. いろどり 初級1 第17課 (17-09).
+@36.q Q
+Người này đến Nhật được bao lâu rồi?
+@36.4 DICH
+A: Bạn sang Nhật được bao lâu rồi? / B: Vừa tròn nửa năm. / A: Vậy à. Bạn đã quen với Nhật chưa? / B: Vâng, cũng tạm quen.
+@36.6 GT
+ちょうど半年 = vừa tròn nửa năm (6 tháng). 半年 (BÁN NIÊN) はんとし. ちょうど = vừa đúng. なんとか = cũng tạm được. いろどり 初級1 第1課 (01-07).
+@37.2 DICH
+Sự kiện trong năm ở thị trấn Midori: tháng 4 ngắm hoa (công viên Midori); tháng 7 lễ hội mùa hè – múa bon (quảng trường trước ga); tháng 8 lễ hội pháo hoa (sông Midori); tháng 10 hội thao (nhà thi đấu thành phố); tháng 12 giã bánh mochi (nhà văn hoá).
+@37.4 GT
+Dòng 8月: 花火大会（みどり川）→ sông Midori. 花火大会 (HOA HOẢ ĐẠI HỘI) はなびたいかい = lễ hội pháo hoa. Chữ trong ngoặc ( ) là địa điểm. 〜であります = (sự kiện) diễn ra ở ~.
+@38.2 DICH
+Sự kiện trong năm ở thị trấn Midori: tháng 4 ngắm hoa (công viên Midori); tháng 7 lễ hội mùa hè – múa bon (quảng trường trước ga); tháng 8 lễ hội pháo hoa (sông Midori); tháng 10 hội thao (nhà thi đấu thành phố); tháng 12 giã bánh mochi (nhà văn hoá).
+@38.4 GT
+Ngắm hoa anh đào = お花見 (おはなみ) → dòng 4月. Bảng không ghi chữ 桜, phải biết お花見 là đi ngắm hoa anh đào. 桜 (ANH) さくら.
+@39.2 DICH
+Lịch xe buýt từ cửa Bắc ga Sakura đến bệnh viện Sakura (ngày thường): 7 giờ: 10, 40 · 8 giờ: 05, 20, 50 · 9 giờ: 30 · 10 giờ: 30. ※ Thứ Bảy, Chủ nhật mỗi tiếng 1 chuyến. ※ Đến bệnh viện mất 15 phút.
+@39.4 GT
+Hàng 8時 có các chuyến 05, 20, 50. Đến lúc 8:15 thì chuyến 8:05 đã đi, chuyến tiếp theo là 8:20. 平日 (BÌNH NHẬT) へいじつ = ngày thường, 次 (THỨ) つぎ = tiếp theo, バス停 = trạm xe buýt.
+@40.2 DICH
+Lịch xe buýt từ cửa Bắc ga Sakura đến bệnh viện Sakura (ngày thường): 7 giờ: 10, 40 · 8 giờ: 05, 20, 50 · 9 giờ: 30 · 10 giờ: 30. ※ Thứ Bảy, Chủ nhật mỗi tiếng 1 chuyến. ※ Đến bệnh viện mất 15 phút.
+@40.4 GT
+Dòng ※ 病院まで15分 → 8:50 + 15 phút = 9:05. Đề hay giấu thông tin quan trọng ở dòng ※ cuối bảng. 〜ごろ = khoảng (giờ).
+@41.2 DICH
+Trung tâm giao lưu quốc tế thành phố Sakura – &quot;Lớp tiếng Nhật dễ hiểu&quot;. Cùng học tiếng Nhật nhé. Ai cũng tham gia được. Lớp: thứ Tư tối 7:00–8:30, thứ Bảy sáng 10:00–11:30. Địa điểm: Trung tâm thị dân tầng 2 phòng 201. Phí: mỗi buổi 200 yên (người lần đầu miễn phí). Đăng ký: liên lạc bằng điện thoại hoặc email trước một ngày. Đồ mang theo: không cần sách giáo khoa, hãy mang vở và bút.
+@41.4 GT
+Lớp thứ Bảy: 朝10:00〜11:30 → kết thúc lúc 11:30. 10:00 là giờ bắt đầu; 7:00 và 8:30 là lớp thứ Tư. 終わる (CHUNG) おわる = kết thúc.
+@42.2 DICH
+Trung tâm giao lưu quốc tế thành phố Sakura – &quot;Lớp tiếng Nhật dễ hiểu&quot;. Cùng học tiếng Nhật nhé. Ai cũng tham gia được. Lớp: thứ Tư tối 7:00–8:30, thứ Bảy sáng 10:00–11:30. Địa điểm: Trung tâm thị dân tầng 2 phòng 201. Phí: mỗi buổi 200 yên (người lần đầu miễn phí). Đăng ký: liên lạc bằng điện thoại hoặc email trước một ngày. Đồ mang theo: không cần sách giáo khoa, hãy mang vở và bút.
+@42.4 GT
+Dòng もうしこみ: 電話かメールで、前の日までにれんらくしてください → phải liên lạc trước một ngày. Người lần đầu miễn phí nên không trả 200 yên; không cần mua sách (教科書はいりません); không đăng ký ngay tại chỗ. Vなければなりません = phải làm.
+@43.2 DICH
+Máy photo đang hỏng. Máy photo tầng 2 không chạy. Đã gọi điện cho bên sửa chữa. Chiều mai họ đến sửa. Trước lúc đó hãy dùng máy photo tầng 3. Ai cần photo màu thì nói với Tanaka ở phòng tổng vụ.
+@43.4 GT
+それまでは3かいのコピー機を使ってください → hôm nay dùng máy tầng 3. Máy tầng 2 đang hỏng; việc gọi bên sửa đã làm rồi (電話しました). それまで = cho đến lúc đó (chiều mai). 業者 (NGHIỆP GIẢ) ぎょうしゃ = bên dịch vụ, nhà thầu.
+@44.2 DICH
+Máy photo đang hỏng. Máy photo tầng 2 không chạy. Đã gọi điện cho bên sửa chữa. Chiều mai họ đến sửa. Trước lúc đó hãy dùng máy photo tầng 3. Ai cần photo màu thì nói với Tanaka ở phòng tổng vụ.
+@44.4 GT
+カラーコピーが必要な人は、そうむ部の田中に言ってください → nói với anh/chị Tanaka. Trong thông báo nội bộ, người trong công ty tự gọi tên đồng nghiệp không kèm さん (田中に), câu trả lời thì thêm さん. 必要 (TẤT YẾU) ひつよう = cần.
+@45.2 DICH
+Số điện thoại khi gặp chuyện: 119 – cháy, xe cấp cứu (bệnh đột ngột, bị thương nặng); 110 – cảnh sát (tai nạn, trộm); #7119 – khi không biết có nên gọi xe cấp cứu hay không thì có thể hỏi ý kiến. Khi gọi sẽ được hỏi &quot;Đã xảy ra chuyện gì?&quot;, &quot;Ở đâu?&quot;. Hãy bình tĩnh trả lời chậm rãi.
+@45.4 GT
+Bạn đột nhiên ngã gục = bệnh đột ngột (急な病気) → gọi xe cấp cứu 119. 110 là cảnh sát; #7119 chỉ để hỏi khi chưa biết có cần xe cấp cứu không; 117 không có trong bảng (là số báo giờ). 急に (CẤP) きゅうに = đột ngột, たおれる = ngã gục.
+@46.2 DICH
+Số điện thoại khi gặp chuyện: 119 – cháy, xe cấp cứu (bệnh đột ngột, bị thương nặng); 110 – cảnh sát (tai nạn, trộm); #7119 – khi không biết có nên gọi xe cấp cứu hay không thì có thể hỏi ý kiến. Khi gọi sẽ được hỏi &quot;Đã xảy ra chuyện gì?&quot;, &quot;Ở đâu?&quot;. Hãy bình tĩnh trả lời chậm rãi.
+@46.4 GT
+Dòng #7119: きゅうきゅう車をよぶかどうかわからないとき、相談できます. Tai nạn, trộm → 110; cháy → 119. 〜かどうか = có ~ hay không. 相談 (TƯƠNG ĐÀM) そうだん = hỏi ý kiến, tư vấn.
+@47.2 DICH
+Mai 12:10: Nghe nói chị Yamada mới sinh một bé gái! / Emi 12:11: Oa, tốt quá. Cả nhóm cùng tặng quà mừng không? / Mai 12:12: Hay đó. Khoảng bao nhiêu tiền thì được ạ? / Emi 12:13: Với người trong công ty thì mỗi người khoảng 1.000 yên. 5 người mua món 5.000 yên nhé. / Mai 12:14: Vậy em sẽ đi mua ở trung tâm thương mại vào thứ Sáu.
+@47.4 GT
+一人1,000円ぐらい → mỗi người góp 1.000 yên. 5,000円 là tổng tiền của 5 người (5人で5,000円のもの). 出す (XUẤT) だす = bỏ ra, góp (tiền).
+@48.2 DICH
+Mai 12:10: Nghe nói chị Yamada mới sinh một bé gái! / Emi 12:11: Oa, tốt quá. Cả nhóm cùng tặng quà mừng không? / Mai 12:12: Hay đó. Khoảng bao nhiêu tiền thì được ạ? / Emi 12:13: Với người trong công ty thì mỗi người khoảng 1.000 yên. 5 người mua món 5.000 yên nhé. / Mai 12:14: Vậy em sẽ đi mua ở trung tâm thương mại vào thứ Sáu.
+@48.4 GT
+Tin nhắn cuối của メイ: わたしが金曜日にデパートで買って来ます → Mai đi mua. Yamada là người được tặng; Emi chỉ đề xuất số tiền. Vて来ます = đi làm ~ rồi về.
