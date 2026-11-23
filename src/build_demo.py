@@ -210,20 +210,35 @@ DHV_CSS = """<style>
 DHV_HTML = (f'<div id="dhVid" class="dhv"><div class="h2 exgh">Kỹ năng làm bài đọc hiểu</div><div class="dhvw">'
             f'<video controls playsinline preload="none" poster="{DHV}.jpg" src="{DHV}.mp4"></video>'
             '<div class="dhvt"><b>Mẹo làm đọc hiểu JFT</b><span>Video 4 phút · Anh Trọng giảng</span></div></div></div>')
+# 23/11: anh bỏ video Mẹo làm đọc hiểu (DHV_HTML không chèn nữa)
 # 23/11: 3 sách PDF いろどり (Chữ Hán · Từ vựng · Ngữ pháp) — bản dùng thử 10 trang đầu, nút tải về (public/app/media/sach/)
-SACH = [('ChuHan', 'Chữ Hán', '漢字'), ('TuVung', 'Từ vựng', '言葉'), ('NguPhap', 'Ngữ pháp', '文法')]
-SACH_HTML = ('<div id="dSach" class="dsc"><div class="h2 exgh">Sách いろどり · tải miễn phí</div><div class="dscg">' + ''.join(
-    f'<a class="dsci" href="/app/media/sach/{k}_Irodori_DungThu.pdf" download="{k}_Irodori_DungThu.pdf"><img src="/app/media/sach/{k}.jpg" alt="" loading="lazy">'
-    f'<b>{v}</b><span>⬇ Tải PDF</span></a>' for k, v, j in SACH) + '</div></div>')
+# 23/11: thay video Mẹo đọc hiểu bằng video bài giảng Buổi 1, 2 khoá cấp tốc (YouTube, bấm ảnh mới nạp khung phát) — ngay dưới nút tải sách
+RV = [('d84Fa6YJixE', 'Buổi 1', 'Đọc hiểu tìm kiếm thông tin'), ('scft4YDKH_Y', 'Buổi 2', 'Đọc hiểu tìm thông tin, đoản văn')]
+DHV_HTML = ('<div id="dhVid" class="drv"><div class="h2 exgh">Kỹ năng làm đọc hiểu</div><div class="drvg">' + ''.join(
+    f'<div class="drvi"><button type="button" class="drvp" onclick="this.outerHTML=\'<iframe src=&quot;https://www.youtube-nocookie.com/embed/{y}?autoplay=1&amp;rel=0&amp;playsinline=1&quot; allow=&quot;autoplay; encrypted-media; picture-in-picture; fullscreen&quot; allowfullscreen></iframe>\'">'
+    f'<img src="https://i.ytimg.com/vi/{y}/hqdefault.jpg" alt="" loading="lazy"><i>▶</i></button><b><small>{n}</small>{t}</b></div>' for y, n, t in RV) + '</div></div>')
 DHV_CSS += """<style>
-.dsc{margin:22px 0 6px}.dscg{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;max-width:640px}
-.dsci{display:flex;flex-direction:column;align-items:center;gap:8px;text-decoration:none;background:#fff;border:1px solid #e3e9f0;border-radius:16px;padding:12px 10px 14px;box-shadow:0 6px 18px #0d2b4012}
-.dsci img{width:100%;aspect-ratio:210/297;object-fit:cover;border-radius:8px;box-shadow:0 4px 12px #0d2b4026}
-.dsci b{color:#0d2b40;font-size:15px}.dsci span{background:#c42f66;color:#fff;font-weight:800;font-size:13px;border-radius:10px;padding:7px 12px;white-space:nowrap}
-@media(max-width:640px){.dscg{gap:8px}.dsci{padding:8px 6px 10px}.dsci span{font-size:12px;padding:6px 8px}}
+.drv{margin:0 0 18px}.drvg{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.drvi{background:#fff;border:1px solid #e3e9f0;border-radius:16px;overflow:hidden;box-shadow:0 6px 18px #0d2b4012}
+.drvp,.drvi iframe{display:block;width:100%;aspect-ratio:16/9;border:0;padding:0;margin:0;background:#000;position:relative;cursor:pointer}
+.drvp img{width:100%;height:100%;object-fit:cover;display:block}
+.drvp i{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:62px;height:62px;border-radius:50%;background:#c42f66e6;color:#fff;font-style:normal;font-size:24px;display:grid;place-items:center;box-shadow:0 6px 18px #0006}
+.drvi b{display:block;padding:10px 14px 12px;color:#0d2b40;font-size:15px}.drvi small{display:inline-block;background:#fdeaf1;color:#c42f66;border-radius:8px;padding:1px 8px;margin-right:8px;font-size:12px}
+@media(max-width:640px){.drvg{grid-template-columns:1fr}}
+</style>"""
+SACH = [('ChuHan', 'Chữ Hán', '漢字'), ('TuVung', 'Từ vựng', '言葉'), ('NguPhap', 'Ngữ pháp', '文法')]
+SACH_HTML = ('<div id="dSach" class="dsc"><span class="dsch">⬇ Tải sách PDF</span>' + ''.join(
+    f'<a class="dsci" href="/app/media/sach/{k}_Irodori_DungThu.pdf" download="{k}_Irodori_DungThu.pdf" title="Tải sách {v} (PDF)"><img src="/app/media/sach/{k}.jpg" alt="">{v}</a>' for k, v, j in SACH) + '</div>')
+DHV_CSS += """<style>
+.dsc{display:flex;justify-content:flex-end;align-items:center;flex-wrap:wrap;gap:6px 8px;margin:0 0 10px}
+.dsch{font-size:13px;font-weight:800;color:#c42f66}
+.dsci{display:inline-flex;align-items:center;gap:6px;text-decoration:none;background:#fff;border:1px solid #e3e9f0;border-radius:10px;padding:4px 10px 4px 4px;color:#0d2b40;font-size:13px;font-weight:700;white-space:nowrap}
+.dsci:hover{border-color:#c42f66;color:#c42f66}
+.dsci img{width:22px;height:31px;object-fit:cover;border-radius:3px;box-shadow:0 1px 3px #0d2b4040}
+@media(max-width:640px){.dsc{justify-content:flex-start}.dsch{width:100%}}
 </style>"""
 s = s.replace('</head>', DHV_CSS + '</head>', 1)
-s = s.replace('</body>', "<script>(()=>{const H=" + json.dumps(DHV_HTML, ensure_ascii=False) + ";const AD=" + json.dumps(AD_HTML, ensure_ascii=False) + ";const SC=" + json.dumps(SACH_HTML, ensure_ascii=False) + ";const put=()=>{const g=document.querySelector('#examList .exg');if(g&&!document.getElementById('dhVid'))g.insertAdjacentHTML('afterend',H);const v=document.getElementById('dhVid');if(v&&!document.getElementById('dSach'))v.insertAdjacentHTML('afterend',SC);if(g&&!document.getElementById('dAd')){const h=g.previousElementSibling;(h&&/exgh|h2/.test(h.className)?h:g).insertAdjacentHTML('beforebegin',AD)}};"
+s = s.replace('</body>', "<script>(()=>{const H=" + json.dumps(DHV_HTML, ensure_ascii=False) + ";const AD=" + json.dumps(AD_HTML, ensure_ascii=False) + ";const SC=" + json.dumps(SACH_HTML, ensure_ascii=False) + ";const put=()=>{const g=document.querySelector('#examList .exg');if(g&&!document.getElementById('dAd')){const h=g.previousElementSibling;(h&&/exgh|h2/.test(h.className)?h:g).insertAdjacentHTML('beforebegin',AD)};const a=document.getElementById('dAd');if(a&&!document.getElementById('dSach'))a.insertAdjacentHTML('beforebegin',SC);const sc=document.getElementById('dSach');if(sc&&!document.getElementById('dhVid'))sc.insertAdjacentHTML('afterend',H)};"
               "const re=window.renderExams;if(typeof re==='function')window.renderExams=function(){const r=re.apply(this,arguments);put();return r};put()})()</script>\n</body>", 1)
 # 21/11: tab "Học Gino" — link bản dùng thử của 5 ngành (tên worker lấy theo check-runs: gino-khachsan-trial, gino-vesinhtoanha-trial, gino-cbtp-app/trial, gino-xaydung/trial, gino-butsuryu-app/trial)
 GINO = [('Khách sạn', '宿泊', 'https://gino-khachsan-trial.tronganh8a.workers.dev/', '#0d7d4d', 'ks.jpg'),
