@@ -217,3 +217,7 @@ Quy trình sau khi sửa: `python3 src/build_data.py` (nếu đổi dữ liệu)
 ## Bản dùng thử: quảng cáo gọn + khoá phần Đọc Đề 2, 3 (23/11/2026)
 - Quảng cáo đầu tab Làm đề (`AD_HTML`) chỉ còn 1 dòng "Học toàn bộ bộ đề và video bài giảng" + nút "💬 Nhắn tin sensei" (Facebook).
 - Đề 2, Đề 3 bản dùng thử (jft-y4, jft-y5 — `LOCK_READ` trong build_demo.py): làm được tới hết phần Nghe; câu 読解 bị gỡ nội dung (chỗ giữ `lock:1`). Vào phần Đọc (bấm tab hoặc Next từ câu nghe cuối) → quay về câu nghe cuối + popup `#dRead` "Phần Đọc hiểu đang khoá · Nhắn tin sensei" (`RL_JS`, bọc hàm `render`). Tab Đọc hiểu hiện 🔒. Bản tiếng Anh /en vẫn đủ phần đọc (ảnh bài đọc vẫn trong demo_allow).
+
+## Khoá cấp tốc · Buổi 17 · Từ vựng khó JFT (23/11/2026)
+- `public/tailieu/Buoi17_TuVung_Kho_JFT.html` (31 slide, 30′, nâng cao; nhóm `n:17` trong BUOI). 4 chủ đề × 12 từ: ① Thông báo · dịch vụ ② Sự cố sinh hoạt ③ Thiên tai · an toàn ④ Phó từ · cảm xúc; mỗi slide 4 thẻ từ (từ + furigana, Hán Việt, cấp/bài いろどり; bấm thẻ hoặc → hiện nghĩa + câu ví dụ いろどり có gạch chân), sau mỗi 3 slide là 4 câu trắc nghiệm chọn từ (bình chọn, Đáp án → dịch + giải thích). Câu trắc nghiệm phần lớn tự soạn (ghi "tự soạn"), 2 câu lấy từ bộ đề (Đề 3 câu 15, Đề 6 câu 4).
+- Dựng: `python3 src/tailieu_src/buoi17_tuvung_kho_build.py` (từ + ví dụ lấy từ vocab.js; danh sách `ROUNDS`, câu hỏi `QZ`; CSS/thanh công cụ dùng chung Buoi10 + buoi15_tail.html như Tổng ôn 会話と表現).
